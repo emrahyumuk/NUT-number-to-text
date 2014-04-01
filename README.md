@@ -1,4 +1,4 @@
-NUT-number-to-text
+NUT Number To Text
 ==================
 
 Number To Text Converter
