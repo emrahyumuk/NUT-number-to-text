@@ -24,7 +24,7 @@ namespace Nut.Demo
         {
             var lang = cmbLang.SelectedValue.ToString();
             var text = Convert.ToInt64(txtNumber.Text).ToText(lang);
-            lblNumberToWord.Text = text;
+            txtResultText.Text = text;
         }
     }
 }

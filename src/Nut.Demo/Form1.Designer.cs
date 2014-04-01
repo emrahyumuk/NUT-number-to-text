@@ -23,11 +23,26 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.btnNumberToText = new System.Windows.Forms.Button();
-            this.txtNumber = new System.Windows.Forms.TextBox();
             this.cmbLang = new System.Windows.Forms.ComboBox();
-            this.lblNumberToWord = new System.Windows.Forms.Label();
+            this.txtNumber = new System.Windows.Forms.TextBox();
+            this.btnNumberToText = new System.Windows.Forms.Button();
+            this.txtResultText = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            // 
+            // cmbLang
+            // 
+            this.cmbLang.FormattingEnabled = true;
+            this.cmbLang.Location = new System.Drawing.Point(32, 31);
+            this.cmbLang.Name = "cmbLang";
+            this.cmbLang.Size = new System.Drawing.Size(96, 21);
+            this.cmbLang.TabIndex = 3;
+            // 
+            // txtNumber
+            // 
+            this.txtNumber.Location = new System.Drawing.Point(147, 32);
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(145, 20);
+            this.txtNumber.TabIndex = 4;
             // 
             // btnNumberToText
             // 
@@ -39,35 +54,20 @@
             this.btnNumberToText.UseVisualStyleBackColor = true;
             this.btnNumberToText.Click += new System.EventHandler(this.btnNumberToText_Click);
             // 
-            // txtNumber
+            // txtResultText
             // 
-            this.txtNumber.Location = new System.Drawing.Point(147, 32);
-            this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(145, 20);
-            this.txtNumber.TabIndex = 4;
-            // 
-            // cmbLang
-            // 
-            this.cmbLang.FormattingEnabled = true;
-            this.cmbLang.Location = new System.Drawing.Point(32, 31);
-            this.cmbLang.Name = "cmbLang";
-            this.cmbLang.Size = new System.Drawing.Size(96, 21);
-            this.cmbLang.TabIndex = 3;
-            // 
-            // lblNumberToWord
-            // 
-            this.lblNumberToWord.AutoSize = true;
-            this.lblNumberToWord.Location = new System.Drawing.Point(29, 77);
-            this.lblNumberToWord.Name = "lblNumberToWord";
-            this.lblNumberToWord.Size = new System.Drawing.Size(0, 13);
-            this.lblNumberToWord.TabIndex = 6;
+            this.txtResultText.Location = new System.Drawing.Point(32, 82);
+            this.txtResultText.Multiline = true;
+            this.txtResultText.Name = "txtResultText";
+            this.txtResultText.Size = new System.Drawing.Size(383, 117);
+            this.txtResultText.TabIndex = 13;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(447, 122);
-            this.Controls.Add(this.lblNumberToWord);
+            this.ClientSize = new System.Drawing.Size(466, 237);
+            this.Controls.Add(this.txtResultText);
             this.Controls.Add(this.btnNumberToText);
             this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.cmbLang);
@@ -80,10 +80,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnNumberToText;
-        private System.Windows.Forms.TextBox txtNumber;
         private System.Windows.Forms.ComboBox cmbLang;
-        private System.Windows.Forms.Label lblNumberToWord;
+        private System.Windows.Forms.TextBox txtNumber;
+        private System.Windows.Forms.Button btnNumberToText;
+        private System.Windows.Forms.TextBox txtResultText;
+
     }
 }
 
