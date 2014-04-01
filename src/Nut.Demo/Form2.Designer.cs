@@ -75,7 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(530, 185);
+            this.ClientSize = new System.Drawing.Size(551, 185);
             this.Controls.Add(this.txtResultText);
             this.Controls.Add(this.cmbCurrency);
             this.Controls.Add(this.btnMoneyToText);
