@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Nut.TextConverters
 {
-    internal sealed class RussianConverter : BaseConverter
+    internal sealed partial class RussianConverter : BaseConverter
     {
 
         private static readonly Lazy<RussianConverter> Lazy = new Lazy<RussianConverter>(() => new RussianConverter());

@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Nut.TextConverters
 {
-    internal class TurkishConverter : BaseConverter
+    internal sealed partial class TurkishConverter : BaseConverter
     {
 
         private static readonly Lazy<TurkishConverter> Lazy = new Lazy<TurkishConverter>(() => new TurkishConverter());

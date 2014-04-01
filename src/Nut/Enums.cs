@@ -13,4 +13,12 @@ namespace Nut
         es,
         tr
     }
+
+    public enum Currency 
+    {
+        eur,
+        usd,
+        tl,
+        rub
+    }
 }

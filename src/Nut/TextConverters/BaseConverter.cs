@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
 namespace Nut.TextConverters {
-    internal abstract class BaseConverter
+    internal abstract partial class BaseConverter
     {
 
         protected static Dictionary<long, string> TextStrings;

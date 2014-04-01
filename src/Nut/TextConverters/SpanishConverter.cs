@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Nut.TextConverters
 {
-    internal sealed class SpanishConverter : BaseConverter
+    internal sealed partial class SpanishConverter : BaseConverter
     {
 
         private static readonly Lazy<SpanishConverter> Lazy = new Lazy<SpanishConverter>(() => new SpanishConverter());

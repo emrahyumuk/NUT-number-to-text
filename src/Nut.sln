@@ -8,18 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nut.Demo", "Nut.Demo\Nut.Demo.csproj", "{CC64FC5D-8EAC-4C2C-873F-B47A0381B31C}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://emrahyumuk.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Nut\\Nut.csproj
-		SccProjectName1 = Nut
-		SccLocalPath1 = Nut
-		SccProjectUniqueName2 = Nut.Demo\\Nut.Demo.csproj
-		SccProjectName2 = Nut.Demo
-		SccLocalPath2 = Nut.Demo
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

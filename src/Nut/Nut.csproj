@@ -45,8 +45,15 @@
   <ItemGroup>
     <Compile Include="Enums.cs" />
     <Compile Include="Extentions.cs" />
+    <Compile Include="Models\BaseCurrencyModel.cs" />
+    <Compile Include="Models\CurrencyModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextConverters\BaseConverter.cs" />
+    <Compile Include="TextConverters\CurrencyPartials\BaseConverter.cs" />
+    <Compile Include="TextConverters\CurrencyPartials\EnglishConverter.cs" />
+    <Compile Include="TextConverters\CurrencyPartials\RussianConverter.cs" />
+    <Compile Include="TextConverters\CurrencyPartials\SpanishConverter.cs" />
+    <Compile Include="TextConverters\CurrencyPartials\TurkishConverter.cs" />
     <Compile Include="TextConverters\EnglishConverter.cs" />
     <Compile Include="TextConverters\RussianConverter.cs" />
     <Compile Include="TextConverters\SpanishConverter.cs" />
