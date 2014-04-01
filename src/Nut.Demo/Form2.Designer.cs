@@ -68,7 +68,7 @@
             this.txtResultText.Location = new System.Drawing.Point(30, 81);
             this.txtResultText.Multiline = true;
             this.txtResultText.Name = "txtResultText";
-            this.txtResultText.Size = new System.Drawing.Size(374, 75);
+            this.txtResultText.Size = new System.Drawing.Size(488, 75);
             this.txtResultText.TabIndex = 12;
             // 
             // Form2
