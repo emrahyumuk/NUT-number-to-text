@@ -49,11 +49,11 @@
     <Compile Include="Models\CurrencyModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextConverters\BaseConverter.cs" />
-    <Compile Include="TextConverters\WithCurrency\BaseConverter.cs" />
-    <Compile Include="TextConverters\WithCurrency\EnglishConverter.cs" />
-    <Compile Include="TextConverters\WithCurrency\RussianConverter.cs" />
-    <Compile Include="TextConverters\WithCurrency\SpanishConverter.cs" />
-    <Compile Include="TextConverters\WithCurrency\TurkishConverter.cs" />
+    <Compile Include="TextConverters\Currency\BaseConverter.cs" />
+    <Compile Include="TextConverters\Currency\EnglishConverter.cs" />
+    <Compile Include="TextConverters\Currency\RussianConverter.cs" />
+    <Compile Include="TextConverters\Currency\SpanishConverter.cs" />
+    <Compile Include="TextConverters\Currency\TurkishConverter.cs" />
     <Compile Include="TextConverters\EnglishConverter.cs" />
     <Compile Include="TextConverters\RussianConverter.cs" />
     <Compile Include="TextConverters\SpanishConverter.cs" />
