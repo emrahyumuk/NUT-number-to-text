@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Nut.Models;
 
-namespace Nut.TextConverters {
-    internal abstract partial class BaseConverter {
+namespace Nut.TextConverters 
+{
+    internal abstract partial class BaseConverter 
+    {
 
-        public virtual string ToTextWithCurrency(decimal num, Currency currency) {
+        public virtual string ToTextWithCurrency(decimal num, Currency currency) 
+        {
 
             var builder = new StringBuilder();
             var currencyModel = GetCurrencyModel(currency);
@@ -37,15 +37,18 @@ namespace Nut.TextConverters {
             return builder.ToString().Trim();
         }
 
-        public virtual string GetCurrencyText(long num, CurrencyModel currency) {
+        public virtual string GetCurrencyText(long num, CurrencyModel currency) 
+        {
             return num > 1 ? currency.Names[1] : currency.Names[0];
         }
 
-        public virtual string GetChildCurrencyText(long num, CurrencyModel currency) {
+        public virtual string GetChildCurrencyText(long num, CurrencyModel currency) 
+        {
             return num > 1 ? currency.ChildCurrency.Names[1] : currency.ChildCurrency.Names[0];
         }
 
-        public virtual CurrencyModel GetCurrencyModel(Currency currency) {
+        public virtual CurrencyModel GetCurrencyModel(Currency currency) 
+        {
             return null;
         }
     }

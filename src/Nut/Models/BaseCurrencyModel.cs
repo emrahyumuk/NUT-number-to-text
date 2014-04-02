@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nut.Models {
-    public class BaseCurrencyModel {
+namespace Nut.Models 
+{
+    public class BaseCurrencyModel 
+    {
         public string[] Names { get; set; }
     }
 }
