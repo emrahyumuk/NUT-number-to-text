@@ -12,7 +12,7 @@ namespace Nut.TextConverters
             Initialize();
         }
 
-        private static void Initialize()
+        private void Initialize()
         {
             TextStrings.Add(0, "zero");
             TextStrings.Add(1, "one");

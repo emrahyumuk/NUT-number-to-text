@@ -84,7 +84,7 @@ namespace Nut.TextConverters
             return 3;
         }
 
-        private static void Initialize()
+        private void Initialize()
         {
             TextStrings.Add(0, "ноль");
             TextStrings.Add(1, "один");

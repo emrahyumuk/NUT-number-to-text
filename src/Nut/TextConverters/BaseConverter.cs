@@ -6,9 +6,9 @@ namespace Nut.TextConverters {
     internal abstract partial class BaseConverter
     {
 
-        protected static Dictionary<long, string> TextStrings;
-        protected static Dictionary<long, string> AdditionalStrings;
-        protected static Dictionary<long, string> Scales;
+        protected Dictionary<long, string> TextStrings;
+        protected Dictionary<long, string> AdditionalStrings;
+        protected Dictionary<long, string> Scales;
 
         protected BaseConverter() 
         {

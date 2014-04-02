@@ -57,7 +57,7 @@ namespace Nut.TextConverters
             return num;
         }
 
-        private static void Initialize()
+        private void Initialize()
         {
             TextStrings.Add(0, "sıfır");
             TextStrings.Add(1, "bir");
