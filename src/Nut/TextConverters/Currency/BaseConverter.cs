@@ -7,7 +7,7 @@ namespace Nut.TextConverters
 {
     public abstract partial class BaseConverter 
     {
-        public virtual string ToTextWithCurrency(decimal num, Currency currency) 
+        public virtual string ToText(decimal num, Currency currency) 
         {
 
             var builder = new StringBuilder();
