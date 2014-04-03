@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Nut.TextConverters
 {
-    internal sealed partial class SpanishConverter : BaseConverter
+    public sealed partial class SpanishConverter : BaseConverter
     {
         private static readonly Lazy<SpanishConverter> Lazy = new Lazy<SpanishConverter>(() => new SpanishConverter());
         public static SpanishConverter Instance { get { return Lazy.Value; } }

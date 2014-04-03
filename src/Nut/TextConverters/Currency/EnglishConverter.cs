@@ -2,9 +2,9 @@
 
 namespace Nut.TextConverters 
 {
-    internal sealed partial class EnglishConverter 
+    public sealed partial class EnglishConverter 
     {
-        public override CurrencyModel GetCurrencyModel(Currency currency) 
+        protected override CurrencyModel GetCurrencyModel(Currency currency) 
         {
             switch (currency) 
             {

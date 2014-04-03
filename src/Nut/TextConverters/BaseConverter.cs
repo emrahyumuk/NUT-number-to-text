@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 
 namespace Nut.TextConverters {
-    internal abstract partial class BaseConverter
+    public abstract partial class BaseConverter
     {
 
         protected Dictionary<long, string> TextStrings;

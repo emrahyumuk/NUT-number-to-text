@@ -4,11 +4,6 @@ using Nut.TextConverters;
 namespace Nut {
     public static class Extentions {
 
-        public static string ToText(this long num, string lang) 
-        {
-            return string.IsNullOrEmpty(lang) ? ToText(num) : ToText(num, (Language)Enum.Parse(typeof(Language), lang.ToLower()));
-        }
-
         public static string ToText(this long num, Language lang = Language.en) 
         {
             string text = null;
@@ -30,15 +25,19 @@ namespace Nut {
             return text;
         }
 
-        public static string ToTextWithCurrency(this decimal num, string currency, string lang) 
+        public static string ToText(this int num, Language lang = Language.en) 
         {
-            if (currency == null) return null;
-            if (currency == "try") currency = "tl";
-            var currencyEnum = (Currency)Enum.Parse(typeof(Currency), currency.ToLower());
-            var langEnum = (Language)Enum.Parse(typeof(Language), lang.ToLower());
-            return string.IsNullOrEmpty(lang)
-                ? ToTextWithCurrency(num, currencyEnum)
-                : ToTextWithCurrency(num, currencyEnum, langEnum);
+            return ToText(Convert.ToInt64(num), lang);
+        }
+
+        public static string ToText(this long num, string lang) 
+        {
+            return string.IsNullOrEmpty(lang) ? ToText(num) : ToText(num, (Language)Enum.Parse(typeof(Language), lang.ToLower()));
+        }
+
+        public static string ToText(this int num, string lang) 
+        {
+            return string.IsNullOrEmpty(lang) ? ToText(num) : ToText(num, (Language)Enum.Parse(typeof(Language), lang.ToLower()));
         }
 
         public static string ToTextWithCurrency(this decimal num, Currency currency, Language lang = Language.en) 
@@ -59,6 +58,27 @@ namespace Nut {
                     break;
             }
             return text;
+        }
+
+        public static string ToTextWithCurrency(this int num, Currency currency, Language lang = Language.en) 
+        {
+            return ToTextWithCurrency(Convert.ToDecimal(num), currency, lang);
+        }
+
+        public static string ToTextWithCurrency(this decimal num, string currency, string lang) 
+        {
+            if (currency == null) return null;
+            if (currency == "try") currency = "tl";
+            var currencyEnum = (Currency)Enum.Parse(typeof(Currency), currency.ToLower());
+            var langEnum = (Language)Enum.Parse(typeof(Language), lang.ToLower());
+            return string.IsNullOrEmpty(lang)
+                ? ToTextWithCurrency(num, currencyEnum)
+                : ToTextWithCurrency(num, currencyEnum, langEnum);
+        }
+
+        public static string ToTextWithCurrency(this int num, string currency, string lang) 
+        {
+            return ToTextWithCurrency(Convert.ToDecimal(num), currency, lang);
         }
 
     }

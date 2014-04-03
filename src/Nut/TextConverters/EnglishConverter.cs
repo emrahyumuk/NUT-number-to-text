@@ -2,7 +2,7 @@
 
 namespace Nut.TextConverters
 {
-    internal sealed partial class EnglishConverter : BaseConverter
+    public sealed partial class EnglishConverter : BaseConverter
     {
 
         private static readonly Lazy<EnglishConverter> Lazy = new Lazy<EnglishConverter>(() => new EnglishConverter());

@@ -2,22 +2,22 @@
 
 namespace Nut.TextConverters 
 {
-    internal sealed partial class RussianConverter 
+    public sealed partial class RussianConverter 
     {
 
-        public override string GetCurrencyText(long num, CurrencyModel currency) 
+        protected override string GetCurrencyText(long num, CurrencyModel currency) 
         {
             var textType = GetTextType(num);
             return currency.Names[textType-1];
         }
 
-        public override string GetChildCurrencyText(long num, CurrencyModel currency) 
+        protected override string GetChildCurrencyText(long num, CurrencyModel currency) 
         {
             var textType = GetTextType(num);
             return currency.ChildCurrency.Names[textType-1];
         }
 
-        public override CurrencyModel GetCurrencyModel(Currency currency) 
+        protected override CurrencyModel GetCurrencyModel(Currency currency) 
         {
             switch (currency) 
             {
