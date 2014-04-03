@@ -45,16 +45,16 @@ namespace Nut {
             string text = null;
             switch (lang) {
                 case Language.en:
-                    text = EnglishConverter.Instance.ToTextWithCurrency(num, currency);
+                    text = EnglishConverter.Instance.ToText(num, currency);
                     break;
                 case Language.ru:
-                    text = RussianConverter.Instance.ToTextWithCurrency(num, currency);
+                    text = RussianConverter.Instance.ToText(num, currency);
                     break;
                 case Language.es:
-                    text = SpanishConverter.Instance.ToTextWithCurrency(num, currency);
+                    text = SpanishConverter.Instance.ToText(num, currency);
                     break;
                 case Language.tr:
-                    text = TurkishConverter.Instance.ToTextWithCurrency(num, currency);
+                    text = TurkishConverter.Instance.ToText(num, currency);
                     break;
             }
             return text;

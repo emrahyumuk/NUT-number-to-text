@@ -22,7 +22,7 @@ namespace Nut.Demo {
         {
             var lang = cmbLang.SelectedValue.ToString();
             var currency = cmbCurrency.SelectedValue.ToString();
-            var text = Convert.ToDecimal(txtNumber.Text).ToTextWithCurrency(currency,lang);
+            var text = Convert.ToDecimal(txtNumber.Text).ToText(currency,lang);
             txtResultText.Text = text;
         }
     }
