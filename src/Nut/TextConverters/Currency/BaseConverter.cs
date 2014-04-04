@@ -13,6 +13,7 @@ namespace Nut.TextConverters
             var builder = new StringBuilder();
             if (currency == Currency.TL) currency = Currency.TRY;
             var currencyModel = GetCurrencyModel(currency);
+            if (currencyModel == null) return string.Empty;
             var decimalSeperator = num.ToString().Contains(",") ? ',' : '.';
             var nums = num.ToString().Split(decimalSeperator);
 
@@ -48,7 +49,7 @@ namespace Nut.TextConverters
         }
         protected virtual CurrencyModel GetCurrencyModel(string currency) 
         {
-            return new CurrencyModel();
+            return null;
         }
     }
 }

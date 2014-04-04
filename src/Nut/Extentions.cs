@@ -7,7 +7,7 @@ namespace Nut {
 
         public static string ToText(this long num, string lang = Language.Default) 
         {
-            string text = null;
+            var text = string.Empty;
             switch (lang) 
             {
                 case Language.English:
