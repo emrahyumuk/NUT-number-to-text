@@ -31,7 +31,7 @@ namespace Nut {
 
         public static string ToText(this decimal num, string currency, string lang = Language.Default) 
         {
-            string text = null;
+            var text = string.Empty;
             switch (lang) {
                 case Language.English:
                     text = EnglishConverter.Instance.ToText(num, currency);
