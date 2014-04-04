@@ -1,38 +1,39 @@
-﻿using Nut.Models;
+﻿using Nut.Constants;
+using Nut.Models;
 
 namespace Nut.TextConverters 
 {
     public sealed partial class SpanishConverter 
     {
-        protected override CurrencyModel GetCurrencyModel(Currency currency) 
+        protected override CurrencyModel GetCurrencyModel(string currency) 
         {
             switch (currency) 
             {
-                case Currency.eur:
+                case Currency.EUR:
                     return new CurrencyModel 
                     {
-                        Currency = Currency.eur,
+                        Currency = currency,
                         Names = new[] { "euro", "euros" },
                         ChildCurrency = new BaseCurrencyModel { Names = new[] { "céntimo de euro", "céntimos de euro" } }
                     };
-                case Currency.usd:
+                case Currency.USD:
                     return new CurrencyModel 
                     {
-                        Currency = Currency.usd,
+                        Currency = currency,
                         Names = new[] { "dólar", "dólares" },
                         ChildCurrency = new BaseCurrencyModel { Names = new[] { "centavo", "centavos" } }
                     };
-                case Currency.rub:
+                case Currency.RUB:
                     return new CurrencyModel 
                     {
-                        Currency = Currency.rub,
+                        Currency = currency,
                         Names = new[] { "rublo", "rublos" },
                         ChildCurrency = new BaseCurrencyModel { Names = new[] { "kopek", "kopeks" } }
                     };
-                case Currency.tl:
+                case Currency.TRY:
                     return new CurrencyModel 
                     {
-                        Currency = Currency.tl,
+                        Currency = currency,
                         Names = new[] { "lira turco", "liras turco" },
                         ChildCurrency = new BaseCurrencyModel { Names = new[] { "kuruş", "kuruş" } }
                     };

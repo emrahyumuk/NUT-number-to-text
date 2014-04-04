@@ -85,7 +85,7 @@ namespace Nut.TextConverters {
             if (num > 99)
             {
                 var hundreds = num / 100;
-                builder.AppendFormat("{0} hundred ", TextStrings[hundreds]);
+                builder.AppendFormat("{0} {1} ", TextStrings[hundreds], TextStrings[100]);
                 num = num - (hundreds * 100);
             }
             return num;

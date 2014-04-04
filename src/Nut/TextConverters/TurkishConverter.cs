@@ -17,7 +17,7 @@ namespace Nut.TextConverters
             if (num > scale - 1)
             {
                 var baseScale = num / scale;
-                if (!(baseScale == 1 && (scale == 100 && scale == 1000)))
+                if (!(baseScale == 1 && (scale == 100 || scale == 1000)))
                 {
                     AppendLessThanOneThousand(baseScale, builder);
                 }

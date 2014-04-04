@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using Nut.Constants;
 using Nut.Models;
 
 namespace Nut.TextConverters 
 {
     public abstract partial class BaseConverter 
     {
-        public virtual string ToText(decimal num, Currency currency) 
+        public virtual string ToText(decimal num, string currency) 
         {
-
             var builder = new StringBuilder();
+            if (currency == Currency.TL) currency = Currency.TRY;
             var currencyModel = GetCurrencyModel(currency);
             var decimalSeperator = num.ToString().Contains(",") ? ',' : '.';
             var nums = num.ToString().Split(decimalSeperator);
@@ -45,9 +46,9 @@ namespace Nut.TextConverters
         {
             return num > 1 ? currency.ChildCurrency.Names[1] : currency.ChildCurrency.Names[0];
         }
-        protected virtual CurrencyModel GetCurrencyModel(Currency currency) 
+        protected virtual CurrencyModel GetCurrencyModel(string currency) 
         {
-            return null;
+            return new CurrencyModel();
         }
     }
 }

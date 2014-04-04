@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Nut.Constants;
 
 namespace Nut.Demo {
     public partial class Form2 : Form 
@@ -14,8 +15,8 @@ namespace Nut.Demo {
         public Form2() 
         {
             InitializeComponent();
-            cmbLang.DataSource = new List<string>() { "en", "es", "ru", "tr" };
-            cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "tl" };
+            cmbLang.DataSource = new List<string>() { "en", "es","fr", "ru", "tr" };
+            cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "try" };
         }
 
         private void btnMoneyToText_Click(object sender, EventArgs e) 

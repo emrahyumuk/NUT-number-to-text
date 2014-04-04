@@ -1,4 +1,5 @@
-﻿using Nut.Models;
+﻿using Nut.Constants;
+using Nut.Models;
 
 namespace Nut.TextConverters 
 {
@@ -17,35 +18,35 @@ namespace Nut.TextConverters
             return currency.ChildCurrency.Names[textType-1];
         }
 
-        protected override CurrencyModel GetCurrencyModel(Currency currency) 
+        protected override CurrencyModel GetCurrencyModel(string currency) 
         {
             switch (currency) 
             {
-                case Currency.eur:
+                case Currency.EUR:
                     return new CurrencyModel 
                     {
-                        Currency = Currency.eur,
+                        Currency = currency,
                         Names = new[] { "евро", "евро", "евро" },
                         ChildCurrency = new BaseCurrencyModel { Names = new[] { "евроцент", "евроцента", "евроцентов" } }
                     };
-                case Currency.usd:
+                case Currency.USD:
                     return new CurrencyModel 
                     {
-                        Currency = Currency.usd,
+                        Currency = currency,
                         Names = new[] { "доллар", "доллара", "долларов" },
                         ChildCurrency = new BaseCurrencyModel { Names = new[] { "цент", "цента", "центов" } }
                     };
-                case Currency.rub:
+                case Currency.RUB:
                     return new CurrencyModel 
                     {
-                        Currency = Currency.rub,
+                        Currency = currency,
                         Names = new[] { "рубль", "рубля", "рублей" },
                         ChildCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копеек" } }
                     };
-                case Currency.tl:
+                case Currency.TRY:
                     return new CurrencyModel 
                     {
-                        Currency = Currency.tl,
+                        Currency = currency,
                         Names = new[] { "турецкая лира", "турецких лир", "турецких лир" },
                         ChildCurrency = new BaseCurrencyModel { Names = new[] { "куруш", "куруша", "курушей" } }
                     };

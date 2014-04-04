@@ -1,85 +1,65 @@
 ﻿using System;
+using Nut.Constants;
 using Nut.TextConverters;
 
 namespace Nut {
     public static class Extentions {
 
-        public static string ToText(this long num, Language lang = Language.en) 
+        public static string ToText(this long num, string lang = Language.Default) 
         {
             string text = null;
             switch (lang) 
             {
-                case Language.en:
+                case Language.English:
                     text = EnglishConverter.Instance.ToText(num);
                     break;
-                case Language.ru:
-                    text = RussianConverter.Instance.ToText(num);
-                    break;
-                case Language.es:
+                case Language.French:
                     text = SpanishConverter.Instance.ToText(num);
                     break;
-                case Language.tr:
+                case Language.Russian:
+                    text = RussianConverter.Instance.ToText(num);
+                    break;
+                case Language.Spanish:
+                    text = SpanishConverter.Instance.ToText(num);
+                    break;
+                case Language.Turkish:
                     text = TurkishConverter.Instance.ToText(num);
                     break;
             }
             return text;
         }
 
-        public static string ToText(this int num, Language lang = Language.en) 
-        {
-            return ToText(Convert.ToInt64(num), lang);
-        }
-
-        public static string ToText(this long num, string lang) 
-        {
-            return string.IsNullOrEmpty(lang) ? ToText(num) : ToText(num, (Language)Enum.Parse(typeof(Language), lang.ToLower()));
-        }
-
-        public static string ToText(this int num, string lang) 
-        {
-            return string.IsNullOrEmpty(lang) ? ToText(num) : ToText(num, (Language)Enum.Parse(typeof(Language), lang.ToLower()));
-        }
-
-        public static string ToText(this decimal num, Currency currency, Language lang = Language.en) 
+        public static string ToText(this decimal num, string currency, string lang = Language.Default) 
         {
             string text = null;
             switch (lang) {
-                case Language.en:
+                case Language.English:
                     text = EnglishConverter.Instance.ToText(num, currency);
                     break;
-                case Language.ru:
+                case Language.French:
+                    text = FrenchConverter.Instance.ToText(num, currency);
+                    break;
+                case Language.Russian:
                     text = RussianConverter.Instance.ToText(num, currency);
                     break;
-                case Language.es:
+                case Language.Spanish:
                     text = SpanishConverter.Instance.ToText(num, currency);
                     break;
-                case Language.tr:
+                case Language.Turkish:
                     text = TurkishConverter.Instance.ToText(num, currency);
                     break;
             }
             return text;
         }
 
-        public static string ToText(this int num, Currency currency, Language lang = Language.en) 
+        public static string ToText(this int num, string lang = Language.Default) 
         {
-            return ToText(Convert.ToDecimal(num), currency, lang);
-        }
-
-        public static string ToText(this decimal num, string currency, string lang) 
-        {
-            if (currency == null) return null;
-            if (currency == "try") currency = "tl";
-            var currencyEnum = (Currency)Enum.Parse(typeof(Currency), currency.ToLower());
-            var langEnum = (Language)Enum.Parse(typeof(Language), lang.ToLower());
-            return string.IsNullOrEmpty(lang)
-                ? ToText(num, currencyEnum)
-                : ToText(num, currencyEnum, langEnum);
+            return ToText(Convert.ToInt64(num), lang);
         }
 
         public static string ToText(this int num, string currency, string lang) 
         {
             return ToText(Convert.ToDecimal(num), currency, lang);
         }
-
     }
 }

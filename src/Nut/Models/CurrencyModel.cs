@@ -8,7 +8,7 @@ namespace Nut.Models
 {
     public class CurrencyModel : BaseCurrencyModel 
     {
-        public Currency Currency { get; set; }
+        public string Currency { get; set; }
         public BaseCurrencyModel ChildCurrency { get; set; }
     }
 }

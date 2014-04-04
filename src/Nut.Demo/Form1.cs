@@ -17,13 +17,13 @@ namespace Nut.Demo
         {
             InitializeComponent();
 
-            cmbLang.DataSource = new List<string>() { "en", "es", "ru", "tr" };
+            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr" };
         }
 
         private void btnNumberToText_Click(object sender, EventArgs e)
         {
             var lang = cmbLang.SelectedValue.ToString();
-            var text = Convert.ToInt64(txtNumber.Text).ToText(lang);
+            var text = Convert.ToInt32(txtNumber.Text).ToText(lang);
             txtResultText.Text = text;
         }
     }
