@@ -54,12 +54,12 @@ namespace Nut {
 
         public static string ToText(this int num, string lang = Language.Default) 
         {
-            return ToText(Convert.ToInt64(num), lang);
+            return ToText(Convert.ToInt64(num), lang.ToLower());
         }
 
         public static string ToText(this int num, string currency, string lang) 
         {
-            return ToText(Convert.ToDecimal(num), currency, lang);
+            return ToText(Convert.ToDecimal(num), currency.ToLower(), lang.ToLower());
         }
     }
 }
