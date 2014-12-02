@@ -5,6 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Nut.Constants {
+
+    internal static class Parameters 
+    {
+        internal const long NumberLimit = 1000000000000;
+    }
     public static class Language 
     {
         internal const string Default = "en";
@@ -23,4 +28,5 @@ namespace Nut.Constants {
         public const string TRY = "try";
         public const string USD = "usd";
     }
+
 }

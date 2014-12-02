@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
@@ -17,8 +18,9 @@ namespace Nut.TextConverters {
             Scales = new Dictionary<long, string>();
         }
 
-        public virtual string ToText(long num)
+        public virtual string ToText(long num) 
         {
+            NumberLimitControl(num);
 
             var builder = new StringBuilder();
 
@@ -89,6 +91,12 @@ namespace Nut.TextConverters {
                 num = num - (hundreds * 100);
             }
             return num;
+        }
+
+        private static void NumberLimitControl(long num) {
+            if (num >= Constants.Parameters.NumberLimit) {
+                throw new Exception(string.Format("{0} and larger than {0} numbers are not supported", Constants.Parameters.NumberLimit));
+            }
         }
     }
 }

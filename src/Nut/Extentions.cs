@@ -61,5 +61,6 @@ namespace Nut {
         {
             return ToText(Convert.ToDecimal(num), currency.ToLower(), lang.ToLower());
         }
+
     }
 }
