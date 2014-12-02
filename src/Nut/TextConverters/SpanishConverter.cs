@@ -106,7 +106,7 @@ namespace Nut.TextConverters
             TextStrings.Add(900, "novecientos");
 
             AdditionalStrings.Add(1, "un");
-            AdditionalStrings.Add(1000000, "milones");
+            AdditionalStrings.Add(1000000, "millones");
 
             Scales.Add(1000000000, "mil millones");
             Scales.Add(1000000, "millón");
