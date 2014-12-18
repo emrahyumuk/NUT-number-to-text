@@ -29,24 +29,24 @@ namespace Nut {
             return text;
         }
 
-        public static string ToText(this decimal num, string currency, string lang = Language.Default) 
+        public static string ToText(this decimal num, string currency, string lang = Language.Default, bool includeDecimalZero = true) 
         {
             var text = string.Empty;
             switch (lang) {
                 case Language.English:
-                    text = EnglishConverter.Instance.ToText(num, currency);
+                    text = EnglishConverter.Instance.ToText(num, currency, includeDecimalZero);
                     break;
                 case Language.French:
-                    text = FrenchConverter.Instance.ToText(num, currency);
+                    text = FrenchConverter.Instance.ToText(num, currency, includeDecimalZero);
                     break;
                 case Language.Russian:
-                    text = RussianConverter.Instance.ToText(num, currency);
+                    text = RussianConverter.Instance.ToText(num, currency, includeDecimalZero);
                     break;
                 case Language.Spanish:
-                    text = SpanishConverter.Instance.ToText(num, currency);
+                    text = SpanishConverter.Instance.ToText(num, currency, includeDecimalZero);
                     break;
                 case Language.Turkish:
-                    text = TurkishConverter.Instance.ToText(num, currency);
+                    text = TurkishConverter.Instance.ToText(num, currency, includeDecimalZero);
                     break;
             }
             return text;
@@ -60,6 +60,11 @@ namespace Nut {
         public static string ToText(this int num, string currency, string lang) 
         {
             return ToText(Convert.ToDecimal(num), currency.ToLower(), lang.ToLower());
+        }
+
+        public static string ToText(this int num, string currency, bool includeDecimalZero) 
+        {
+            return ToText(Convert.ToDecimal(num), currency.ToLower(), Language.Default, includeDecimalZero);
         }
 
     }

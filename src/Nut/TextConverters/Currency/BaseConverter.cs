@@ -8,7 +8,7 @@ namespace Nut.TextConverters
 {
     public abstract partial class BaseConverter 
     {
-        public virtual string ToText(decimal num, string currency) 
+        public virtual string ToText(decimal num, string currency, bool includeDecimalZero = true) 
         {
             var builder = new StringBuilder();
             if (currency == Currency.TL) currency = Currency.TRY;
@@ -25,7 +25,7 @@ namespace Nut.TextConverters
             if (nums.Count() > 1 && !string.IsNullOrEmpty(nums[1])) 
             {
                 var childNum = Convert.ToInt64(nums[1].Substring(0, 2));
-                if (childNum != 0) 
+                if (includeDecimalZero || childNum != 0) 
                 {
                     builder.Append(" ");
                     builder.Append(ToText(childNum));
