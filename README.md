@@ -30,6 +30,17 @@ NUT - Number To Text
     var number = 123456.78;
     var moneyText = number.ToText(Currency.usd, Language.English);
 
+	var number = 123456.78;
+	var options = new Nut.Options {
+		MainUnitNotConvertedToText = true,
+		SubUnitNotConvertedToText = true,
+		MainUnitFirstCharUpper = true,
+		SubUnitFirstCharUpper = true,
+		CurrencyFirstCharUpper = true,
+		SubUnitZeroNotDisplayed = true
+	}
+    var moneyText = number.ToText(Currency.usd, Language.English, options);
+
 
 ----------
 
