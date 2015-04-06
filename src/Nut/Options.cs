@@ -1,9 +1,10 @@
 ﻿namespace Nut {
     public struct Options {
-        public bool ScaleNotConvertedToText { get; set; }
-        public bool PrecisionNotConvertedToText { get; set; }
-        public bool ScaleZeroNotDisplayed { get; set; }
-        public bool FirstCharUpper { get; set; }
+        public bool MainUnitNotConvertedToText { get; set; }
+        public bool SubUnitNotConvertedToText { get; set; }
+        public bool SubUnitZeroNotDisplayed { get; set; }
+        public bool MainUnitFirstCharUpper { get; set; }
+        public bool SubUnitFirstCharUpper { get; set; }
         public bool CurrencyFirstCharUpper { get; set; }
     }
 }

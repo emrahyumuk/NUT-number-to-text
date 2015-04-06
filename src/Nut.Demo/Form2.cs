@@ -15,11 +15,12 @@ namespace Nut.Demo {
             var lang = cmbLang.SelectedValue.ToString();
             var currency = cmbCurrency.SelectedValue.ToString();
             var configuration = new Options {
-                PrecisionNotConvertedToText = cbPrecisionNotConvertedToText.Checked,
-                ScaleNotConvertedToText = cbScaleNotConvertToText.Checked,
-                FirstCharUpper = cbFirstCharUpper.Checked,
+                MainUnitNotConvertedToText = cbMainUnitNotConvertedToText.Checked,
+                SubUnitNotConvertedToText = cbSubUnitNotConvertToText.Checked,
+                MainUnitFirstCharUpper = cbMainUnitFirstCharUpper.Checked,
+                SubUnitFirstCharUpper = cbSubUnitFirstCharUpper.Checked,
                 CurrencyFirstCharUpper = cbCurrencyFirstCharUpper.Checked,
-                ScaleZeroNotDisplayed = cbScaleZeroNotIncluded.Checked,
+                SubUnitZeroNotDisplayed = cbSubUnitZeroNotIncluded.Checked,
             };
             var text = Convert.ToDecimal(txtNumber.Text).ToText(currency, lang, configuration);
             txtResultText.Text = text;

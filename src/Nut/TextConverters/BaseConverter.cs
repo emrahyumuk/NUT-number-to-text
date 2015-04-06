@@ -99,20 +99,20 @@ namespace Nut.TextConverters {
             var decimalSeperator = num.ToString(CultureInfo.InvariantCulture).Contains(",") ? ',' : '.';
             var nums = num.ToString(CultureInfo.InvariantCulture).Split(decimalSeperator);
 
-            var mainNum =  Convert.ToInt64(nums[0]);
+            var mainUnitNum =  Convert.ToInt64(nums[0]);
 
-            if (options.PrecisionNotConvertedToText) {
+            if (options.MainUnitNotConvertedToText) {
                 builder.Append(nums[0]);
             }
             else {
-                var mainNumText = ToText(mainNum);
-                mainNumText = options.FirstCharUpper ? mainNumText.ToFirstLetterUpper(CultureName) : mainNumText;
-                builder.Append(mainNumText);
+                var mainUnitText = ToText(mainUnitNum);
+                mainUnitText = options.MainUnitFirstCharUpper ? mainUnitText.ToFirstLetterUpper(CultureName) : mainUnitText;
+                builder.Append(mainUnitText);
             }
 
             builder.Append(" ");
 
-            var currencyText = GetCurrencyText(mainNum, currencyModel);
+            var currencyText = GetCurrencyText(mainUnitNum, currencyModel);
             currencyText = options.CurrencyFirstCharUpper ? currencyText.ToFirstLetterUpper(CultureName) : currencyText;
             builder.Append(currencyText);
 
@@ -120,20 +120,24 @@ namespace Nut.TextConverters {
             if (nums.Count() > 1 && !string.IsNullOrEmpty(nums[1])) {
                 nums[1] = nums[1].Length == 1 ? nums[1] + "0" : nums[1];
                 var digitCount = nums[1] == "0" ? 1 : 2;
-                var childNum = Convert.ToInt64(nums[1].Substring(0, digitCount));
-                if (!options.ScaleZeroNotDisplayed || childNum != 0) {
+                var subUnitNum = Convert.ToInt64(nums[1].Substring(0, digitCount));
+                if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0) {
                     builder.Append(" ");
 
-                    if (options.ScaleNotConvertedToText)
-                        builder.Append(childNum);
-                    else
-                        builder.Append(ToText(childNum));
+                    if (options.SubUnitNotConvertedToText) {
+                        builder.Append(subUnitNum);
+                    }
+                    else {
+                        var subUnitText = ToText(subUnitNum);
+                        subUnitText = options.SubUnitFirstCharUpper ? subUnitText.ToFirstLetterUpper(CultureName) : subUnitText;
+                        builder.Append(subUnitText);
+                    }
 
                     builder.Append(" ");
 
-                    var childCurrencyText = GetChildCurrencyText(childNum, currencyModel);
-                    childCurrencyText = options.CurrencyFirstCharUpper ? childCurrencyText.ToFirstLetterUpper(CultureName) : childCurrencyText;
-                    builder.Append(childCurrencyText);
+                    var subUnitCurrencyText = GetSubUnitCurrencyText(subUnitNum, currencyModel);
+                    subUnitCurrencyText = options.CurrencyFirstCharUpper ? subUnitCurrencyText.ToFirstLetterUpper(CultureName) : subUnitCurrencyText;
+                    builder.Append(subUnitCurrencyText);
                 }
 
             }
@@ -145,8 +149,8 @@ namespace Nut.TextConverters {
             return num > 1 ? currency.Names[1] : currency.Names[0];
         }
 
-        protected virtual string GetChildCurrencyText(long num, CurrencyModel currency) {
-            return num > 1 ? currency.ChildCurrency.Names[1] : currency.ChildCurrency.Names[0];
+        protected virtual string GetSubUnitCurrencyText(long num, CurrencyModel currency) {
+            return num > 1 ? currency.SubUnitCurrency.Names[1] : currency.SubUnitCurrency.Names[0];
         }
         protected virtual CurrencyModel GetCurrencyModel(string currency) {
             return null;
