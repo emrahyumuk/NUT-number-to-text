@@ -4,8 +4,8 @@ using System.Windows.Forms;
 using Nut.Models;
 
 namespace Nut.Demo {
-    public partial class Form2 : Form {
-        public Form2() {
+    public partial class MoneyToText : Form {
+        public MoneyToText() {
             InitializeComponent();
             cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr" };
             cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "try" };

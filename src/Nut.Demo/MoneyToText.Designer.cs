@@ -1,5 +1,5 @@
 ﻿namespace Nut.Demo {
-    partial class Form2 {
+    partial class MoneyToText {
         /// <summary>
         /// Required designer variable.
         /// </summary>

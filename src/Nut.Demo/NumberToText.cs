@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Nut.Demo
 {
-    public partial class Form1 : Form
+    public partial class NumberToText : Form
     {
-        public Form1()
+        public NumberToText()
         {
             InitializeComponent();
 
