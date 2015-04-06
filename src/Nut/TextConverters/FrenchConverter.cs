@@ -1,14 +1,20 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using Nut.Models;
 
 namespace Nut.TextConverters
 {
-    public sealed partial class FrenchConverter : BaseConverter
+    public sealed class FrenchConverter : BaseConverter
     {
 
         private static readonly Lazy<FrenchConverter> Lazy = new Lazy<FrenchConverter>(() => new FrenchConverter());
         public static FrenchConverter Instance { get { return Lazy.Value; } }
+
+        public override string CultureName {
+            get { return "fr-FR"; }
+        }
+
         public FrenchConverter()
         {
             Initialize();
@@ -109,6 +115,36 @@ namespace Nut.TextConverters
             Scales.Add(1000000000, "milliard");
             Scales.Add(1000000, "million");
             Scales.Add(1000, "mille");
+        }
+
+        protected override CurrencyModel GetCurrencyModel(string currency) {
+            switch (currency) {
+                case Currency.EUR:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "euro", "euros" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "centime", "centimes" } }
+                    };
+                case Currency.USD:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "dollar", "dollars" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "centime", "centimes" } }
+                    };
+                case Currency.RUB:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "rouble", "roubles" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "kopeck ", "kopecks" } }
+                    };
+                case Currency.TRY:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "livre turques", "livres turques" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "kuruş", "kuruş" } }
+                    };
+            }
+            return null;
         }
     }
 }

@@ -1,13 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
+using Nut.Models;
 
 namespace Nut.TextConverters
 {
-    public sealed partial class SpanishConverter : BaseConverter
+    public sealed class SpanishConverter : BaseConverter
     {
         private static readonly Lazy<SpanishConverter> Lazy = new Lazy<SpanishConverter>(() => new SpanishConverter());
         public static SpanishConverter Instance { get { return Lazy.Value; } }
+
+        public override string CultureName {
+            get { return "es-ES"; }
+        }
+
         public SpanishConverter()
         {
             Initialize();
@@ -111,6 +116,36 @@ namespace Nut.TextConverters
             Scales.Add(1000000000, "mil millones");
             Scales.Add(1000000, "millón");
             Scales.Add(1000, "mil");
+        }
+
+        protected override CurrencyModel GetCurrencyModel(string currency) {
+            switch (currency) {
+                case Currency.EUR:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "euro", "euros" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "céntimo de euro", "céntimos de euro" } }
+                    };
+                case Currency.USD:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "dólar", "dólares" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "centavo", "centavos" } }
+                    };
+                case Currency.RUB:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "rublo", "rublos" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "kopek", "kopeks" } }
+                    };
+                case Currency.TRY:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "lira turco", "liras turco" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "kuruş", "kuruş" } }
+                    };
+            }
+            return null;
         }
     }
 }

@@ -1,31 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using Nut.Models;
 
 namespace Nut.TextConverters {
-    public abstract partial class BaseConverter
-    {
+    public abstract class BaseConverter {
 
         protected Dictionary<long, string> TextStrings;
         protected Dictionary<long, string> AdditionalStrings;
         protected Dictionary<long, string> Scales;
 
-        protected BaseConverter() 
-        {
+        protected BaseConverter() {
             TextStrings = new Dictionary<long, string>();
             AdditionalStrings = new Dictionary<long, string>();
             Scales = new Dictionary<long, string>();
         }
 
-        public virtual string ToText(long num) 
-        {
+        public abstract string CultureName { get; }
+
+        public virtual string ToText(long num) {
             NumberLimitControl(num);
 
             var builder = new StringBuilder();
 
-            if (num == 0)
-            {
+            if (num == 0) {
                 builder.Append(TextStrings[num]);
                 return builder.ToString();
             }
@@ -36,10 +36,8 @@ namespace Nut.TextConverters {
             return builder.ToString().Trim();
         }
 
-        protected virtual long Append(long num, long scale, StringBuilder builder)
-        {
-            if (num > scale - 1)
-            {
+        protected virtual long Append(long num, long scale, StringBuilder builder) {
+            if (num > scale - 1) {
                 var baseScale = num / scale;
                 AppendLessThanOneThousand(baseScale, builder);
                 builder.AppendFormat("{0} ", Scales[scale]);
@@ -48,33 +46,26 @@ namespace Nut.TextConverters {
             return num;
         }
 
-        protected virtual void AppendLessThanOneThousand(long num, StringBuilder builder)
-        {
+        protected virtual void AppendLessThanOneThousand(long num, StringBuilder builder) {
             num = AppendHundreds(num, builder);
             num = AppendTens(num, builder);
             AppendUnits(num, builder);
         }
 
-        protected virtual void AppendUnits(long num, StringBuilder builder)
-        {
-            if (num > 0)
-            {
+        protected virtual void AppendUnits(long num, StringBuilder builder) {
+            if (num > 0) {
                 builder.AppendFormat("{0} ", TextStrings[num]);
             }
         }
 
-        protected virtual void AppendUnitsForAdditional(long num, StringBuilder builder)
-        {
-            if (num > 0)
-            {
+        protected virtual void AppendUnitsForAdditional(long num, StringBuilder builder) {
+            if (num > 0) {
                 builder.AppendFormat("{0} ", AdditionalStrings[num]);
             }
         }
 
-        protected virtual long AppendTens(long num, StringBuilder builder)
-        {
-            if (num > 20)
-            {
+        protected virtual long AppendTens(long num, StringBuilder builder) {
+            if (num > 20) {
                 var tens = ((int)(num / 10)) * 10;
                 builder.AppendFormat("{0} ", TextStrings[tens]);
                 num = num - tens;
@@ -82,10 +73,8 @@ namespace Nut.TextConverters {
             return num;
         }
 
-        protected virtual long AppendHundreds(long num, StringBuilder builder)
-        {
-            if (num > 99)
-            {
+        protected virtual long AppendHundreds(long num, StringBuilder builder) {
+            if (num > 99) {
                 var hundreds = num / 100;
                 builder.AppendFormat("{0} {1} ", TextStrings[hundreds], TextStrings[100]);
                 num = num - (hundreds * 100);
@@ -94,9 +83,69 @@ namespace Nut.TextConverters {
         }
 
         private static void NumberLimitControl(long num) {
-            if (num >= Constants.Parameters.NumberLimit) {
-                throw new Exception(string.Format("{0} and larger than {0} numbers are not supported", Constants.Parameters.NumberLimit));
+            if (num >= Parameters.NumberLimit) {
+                throw new Exception(string.Format("{0} and larger than {0} numbers are not supported", Parameters.NumberLimit));
             }
         }
+
+        #region Currency
+
+        public virtual string ToText(decimal num, string currency, Configuration configuration) {
+            if (configuration == null) configuration = new Configuration();
+
+            var builder = new StringBuilder();
+            if (currency == Currency.TL) currency = Currency.TRY;
+            var currencyModel = GetCurrencyModel(currency);
+            if (currencyModel == null) return string.Empty;
+            var decimalSeperator = num.ToString(CultureInfo.InvariantCulture).Contains(",") ? ',' : '.';
+            var nums = num.ToString(CultureInfo.InvariantCulture).Split(decimalSeperator);
+
+            var mainNum = Convert.ToInt64(nums[0]);
+            var mainNumText = ToText(mainNum);
+            mainNumText = configuration.FirstCharUpper ? mainNumText.ToFirstLetterUpper(CultureName) : mainNumText;
+            builder.Append(mainNumText);
+
+            builder.Append(" ");
+
+            var currencyText = GetCurrencyText(mainNum, currencyModel);
+            currencyText = configuration.CurrencyFirstCharUpper ? currencyText.ToFirstLetterUpper(CultureName) : currencyText;
+            builder.Append(currencyText);
+
+
+            if (nums.Count() > 1 && !string.IsNullOrEmpty(nums[1])) {
+                nums[1] = nums[1].Length == 1 ? nums[1] + "0" : nums[1];
+                var digitCount = nums[1] == "0" ? 1 : 2;
+                var childNum = Convert.ToInt64(nums[1].Substring(0, digitCount));
+                if (!configuration.FractionZeroNotIncluded || childNum != 0) {
+                    builder.Append(" ");
+
+                    if (configuration.FractionNotConvertToText)
+                        builder.Append(childNum);
+                    else
+                        builder.Append(ToText(childNum));
+
+                    builder.Append(" ");
+
+                    var childCurrencyText = GetChildCurrencyText(childNum, currencyModel);
+                    childCurrencyText = configuration.CurrencyFirstCharUpper ? childCurrencyText.ToFirstLetterUpper(CultureName) : childCurrencyText;
+                    builder.Append(childCurrencyText);
+                }
+
+            }
+
+            return builder.ToString().Trim();
+        }
+
+        protected virtual string GetCurrencyText(long num, CurrencyModel currency) {
+            return num > 1 ? currency.Names[1] : currency.Names[0];
+        }
+
+        protected virtual string GetChildCurrencyText(long num, CurrencyModel currency) {
+            return num > 1 ? currency.ChildCurrency.Names[1] : currency.ChildCurrency.Names[0];
+        }
+        protected virtual CurrencyModel GetCurrencyModel(string currency) {
+            return null;
+        }
+        #endregion
     }
 }

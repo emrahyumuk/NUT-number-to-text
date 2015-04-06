@@ -1,19 +1,21 @@
 ﻿using System;
+using Nut.Models;
 
-namespace Nut.TextConverters
-{
-    public sealed partial class EnglishConverter : BaseConverter
-    {
+namespace Nut.TextConverters {
+    public sealed class EnglishConverter : BaseConverter {
 
         private static readonly Lazy<EnglishConverter> Lazy = new Lazy<EnglishConverter>(() => new EnglishConverter());
         public static EnglishConverter Instance { get { return Lazy.Value; } }
-        public EnglishConverter()
-        {
+
+        public override string CultureName {
+            get { return "en-US"; }
+        }
+
+        public EnglishConverter() {
             Initialize();
         }
 
-        private void Initialize()
-        {
+        private void Initialize() {
             TextStrings.Add(0, "zero");
             TextStrings.Add(1, "one");
             TextStrings.Add(2, "two");
@@ -47,6 +49,36 @@ namespace Nut.TextConverters
             Scales.Add(1000000000, "billion");
             Scales.Add(1000000, "million");
             Scales.Add(1000, "thousand");
+        }
+
+        protected override CurrencyModel GetCurrencyModel(string currency) {
+            switch (currency) {
+                case Currency.EUR:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "euro", "euros" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "eurocent", "eurocents" } }
+                    };
+                case Currency.USD:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "dollar", "dollars" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "cent", "cents" } }
+                    };
+                case Currency.RUB:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "ruble", "rubles" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "kopek", "kopeks" } }
+                    };
+                case Currency.TRY:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "turkish lira", "turkish lira" },
+                        ChildCurrency = new BaseCurrencyModel { Names = new[] { "kurus", "kurus" } }
+                    };
+            }
+            return null;
         }
     }
 }
