@@ -90,8 +90,7 @@ namespace Nut.TextConverters {
 
         #region Currency
 
-        public virtual string ToText(decimal num, string currency, Configuration configuration) {
-            if (configuration == null) configuration = new Configuration();
+        public virtual string ToText(decimal num, string currency, Options options) {
 
             var builder = new StringBuilder();
             if (currency == Currency.TL) currency = Currency.TRY;
@@ -100,15 +99,21 @@ namespace Nut.TextConverters {
             var decimalSeperator = num.ToString(CultureInfo.InvariantCulture).Contains(",") ? ',' : '.';
             var nums = num.ToString(CultureInfo.InvariantCulture).Split(decimalSeperator);
 
-            var mainNum = Convert.ToInt64(nums[0]);
-            var mainNumText = ToText(mainNum);
-            mainNumText = configuration.FirstCharUpper ? mainNumText.ToFirstLetterUpper(CultureName) : mainNumText;
-            builder.Append(mainNumText);
+            var mainNum =  Convert.ToInt64(nums[0]);
+
+            if (options.PrecisionNotConvertedToText) {
+                builder.Append(nums[0]);
+            }
+            else {
+                var mainNumText = ToText(mainNum);
+                mainNumText = options.FirstCharUpper ? mainNumText.ToFirstLetterUpper(CultureName) : mainNumText;
+                builder.Append(mainNumText);
+            }
 
             builder.Append(" ");
 
             var currencyText = GetCurrencyText(mainNum, currencyModel);
-            currencyText = configuration.CurrencyFirstCharUpper ? currencyText.ToFirstLetterUpper(CultureName) : currencyText;
+            currencyText = options.CurrencyFirstCharUpper ? currencyText.ToFirstLetterUpper(CultureName) : currencyText;
             builder.Append(currencyText);
 
 
@@ -116,10 +121,10 @@ namespace Nut.TextConverters {
                 nums[1] = nums[1].Length == 1 ? nums[1] + "0" : nums[1];
                 var digitCount = nums[1] == "0" ? 1 : 2;
                 var childNum = Convert.ToInt64(nums[1].Substring(0, digitCount));
-                if (!configuration.FractionZeroNotIncluded || childNum != 0) {
+                if (!options.ScaleZeroNotDisplayed || childNum != 0) {
                     builder.Append(" ");
 
-                    if (configuration.FractionNotConvertToText)
+                    if (options.ScaleNotConvertedToText)
                         builder.Append(childNum);
                     else
                         builder.Append(ToText(childNum));
@@ -127,7 +132,7 @@ namespace Nut.TextConverters {
                     builder.Append(" ");
 
                     var childCurrencyText = GetChildCurrencyText(childNum, currencyModel);
-                    childCurrencyText = configuration.CurrencyFirstCharUpper ? childCurrencyText.ToFirstLetterUpper(CultureName) : childCurrencyText;
+                    childCurrencyText = options.CurrencyFirstCharUpper ? childCurrencyText.ToFirstLetterUpper(CultureName) : childCurrencyText;
                     builder.Append(childCurrencyText);
                 }
 

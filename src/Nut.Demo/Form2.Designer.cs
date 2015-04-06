@@ -28,10 +28,11 @@
             this.cmbLang = new System.Windows.Forms.ComboBox();
             this.cmbCurrency = new System.Windows.Forms.ComboBox();
             this.txtResultText = new System.Windows.Forms.TextBox();
-            this.cbFractionZeroNotIncluded = new System.Windows.Forms.CheckBox();
-            this.cbFractionNotConvertToText = new System.Windows.Forms.CheckBox();
+            this.cbScaleZeroNotIncluded = new System.Windows.Forms.CheckBox();
+            this.cbScaleNotConvertToText = new System.Windows.Forms.CheckBox();
             this.cbFirstCharUpper = new System.Windows.Forms.CheckBox();
             this.cbCurrencyFirstCharUpper = new System.Windows.Forms.CheckBox();
+            this.cbPrecisionNotConvertedToText = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnMoneyToText
@@ -69,31 +70,31 @@
             // 
             // txtResultText
             // 
-            this.txtResultText.Location = new System.Drawing.Point(30, 147);
+            this.txtResultText.Location = new System.Drawing.Point(30, 183);
             this.txtResultText.Multiline = true;
             this.txtResultText.Name = "txtResultText";
             this.txtResultText.Size = new System.Drawing.Size(488, 75);
             this.txtResultText.TabIndex = 12;
             // 
-            // cbFractionZeroNotIncluded
+            // cbScaleZeroNotIncluded
             // 
-            this.cbFractionZeroNotIncluded.AutoSize = true;
-            this.cbFractionZeroNotIncluded.Location = new System.Drawing.Point(30, 70);
-            this.cbFractionZeroNotIncluded.Name = "cbFractionZeroNotIncluded";
-            this.cbFractionZeroNotIncluded.Size = new System.Drawing.Size(153, 17);
-            this.cbFractionZeroNotIncluded.TabIndex = 13;
-            this.cbFractionZeroNotIncluded.Text = "Fraction Zero Not Included";
-            this.cbFractionZeroNotIncluded.UseVisualStyleBackColor = true;
+            this.cbScaleZeroNotIncluded.AutoSize = true;
+            this.cbScaleZeroNotIncluded.Location = new System.Drawing.Point(30, 143);
+            this.cbScaleZeroNotIncluded.Name = "cbScaleZeroNotIncluded";
+            this.cbScaleZeroNotIncluded.Size = new System.Drawing.Size(147, 17);
+            this.cbScaleZeroNotIncluded.TabIndex = 13;
+            this.cbScaleZeroNotIncluded.Text = "Scale Zero Not Displayed";
+            this.cbScaleZeroNotIncluded.UseVisualStyleBackColor = true;
             // 
-            // cbFractionNotConvertToText
+            // cbScaleNotConvertToText
             // 
-            this.cbFractionNotConvertToText.AutoSize = true;
-            this.cbFractionNotConvertToText.Location = new System.Drawing.Point(217, 70);
-            this.cbFractionNotConvertToText.Name = "cbFractionNotConvertToText";
-            this.cbFractionNotConvertToText.Size = new System.Drawing.Size(164, 17);
-            this.cbFractionNotConvertToText.TabIndex = 14;
-            this.cbFractionNotConvertToText.Text = "Fraction Not Convert To Text";
-            this.cbFractionNotConvertToText.UseVisualStyleBackColor = true;
+            this.cbScaleNotConvertToText.AutoSize = true;
+            this.cbScaleNotConvertToText.Location = new System.Drawing.Point(217, 70);
+            this.cbScaleNotConvertToText.Name = "cbScaleNotConvertToText";
+            this.cbScaleNotConvertToText.Size = new System.Drawing.Size(153, 17);
+            this.cbScaleNotConvertToText.TabIndex = 14;
+            this.cbScaleNotConvertToText.Text = "Scale Not Convert To Text";
+            this.cbScaleNotConvertToText.UseVisualStyleBackColor = true;
             // 
             // cbFirstCharUpper
             // 
@@ -115,15 +116,26 @@
             this.cbCurrencyFirstCharUpper.Text = "Currency First Char Upper";
             this.cbCurrencyFirstCharUpper.UseVisualStyleBackColor = true;
             // 
+            // cbPrecisionNotConvertedToText
+            // 
+            this.cbPrecisionNotConvertedToText.AutoSize = true;
+            this.cbPrecisionNotConvertedToText.Location = new System.Drawing.Point(30, 70);
+            this.cbPrecisionNotConvertedToText.Name = "cbPrecisionNotConvertedToText";
+            this.cbPrecisionNotConvertedToText.Size = new System.Drawing.Size(181, 17);
+            this.cbPrecisionNotConvertedToText.TabIndex = 15;
+            this.cbPrecisionNotConvertedToText.Text = "Precision Not Converted To Text";
+            this.cbPrecisionNotConvertedToText.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(551, 251);
+            this.ClientSize = new System.Drawing.Size(551, 311);
+            this.Controls.Add(this.cbPrecisionNotConvertedToText);
             this.Controls.Add(this.cbCurrencyFirstCharUpper);
             this.Controls.Add(this.cbFirstCharUpper);
-            this.Controls.Add(this.cbFractionNotConvertToText);
-            this.Controls.Add(this.cbFractionZeroNotIncluded);
+            this.Controls.Add(this.cbScaleNotConvertToText);
+            this.Controls.Add(this.cbScaleZeroNotIncluded);
             this.Controls.Add(this.txtResultText);
             this.Controls.Add(this.cmbCurrency);
             this.Controls.Add(this.btnMoneyToText);
@@ -143,9 +155,10 @@
         private System.Windows.Forms.ComboBox cmbLang;
         private System.Windows.Forms.ComboBox cmbCurrency;
         private System.Windows.Forms.TextBox txtResultText;
-        private System.Windows.Forms.CheckBox cbFractionZeroNotIncluded;
-        private System.Windows.Forms.CheckBox cbFractionNotConvertToText;
+        private System.Windows.Forms.CheckBox cbScaleZeroNotIncluded;
+        private System.Windows.Forms.CheckBox cbScaleNotConvertToText;
         private System.Windows.Forms.CheckBox cbFirstCharUpper;
         private System.Windows.Forms.CheckBox cbCurrencyFirstCharUpper;
+        private System.Windows.Forms.CheckBox cbPrecisionNotConvertedToText;
     }
 }

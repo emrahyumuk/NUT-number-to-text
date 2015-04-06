@@ -29,24 +29,23 @@ namespace Nut {
             return text;
         }
 
-        public static string ToText(this decimal num, string currency, string lang = Language.Default, Configuration configuration = null) {
-            configuration = configuration ?? new Configuration();
+        public static string ToText(this decimal num, string currency, string lang = Language.Default, Options options = new Options()) {
             var text = string.Empty;
             switch (lang) {
                 case Language.English:
-                    text = EnglishConverter.Instance.ToText(num, currency, configuration);
+                    text = EnglishConverter.Instance.ToText(num, currency, options);
                     break;
                 case Language.French:
-                    text = FrenchConverter.Instance.ToText(num, currency, configuration);
+                    text = FrenchConverter.Instance.ToText(num, currency, options);
                     break;
                 case Language.Russian:
-                    text = RussianConverter.Instance.ToText(num, currency, configuration);
+                    text = RussianConverter.Instance.ToText(num, currency, options);
                     break;
                 case Language.Spanish:
-                    text = SpanishConverter.Instance.ToText(num, currency, configuration);
+                    text = SpanishConverter.Instance.ToText(num, currency, options);
                     break;
                 case Language.Turkish:
-                    text = TurkishConverter.Instance.ToText(num, currency, configuration);
+                    text = TurkishConverter.Instance.ToText(num, currency, options);
                     break;
             }
             return text;

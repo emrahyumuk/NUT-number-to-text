@@ -14,11 +14,12 @@ namespace Nut.Demo {
         private void btnMoneyToText_Click(object sender, EventArgs e) {
             var lang = cmbLang.SelectedValue.ToString();
             var currency = cmbCurrency.SelectedValue.ToString();
-            var configuration = new Configuration {
-                FractionZeroNotIncluded = cbFractionZeroNotIncluded.Checked,
-                FractionNotConvertToText = cbFractionNotConvertToText.Checked,
+            var configuration = new Options {
+                PrecisionNotConvertedToText = cbPrecisionNotConvertedToText.Checked,
+                ScaleNotConvertedToText = cbScaleNotConvertToText.Checked,
                 FirstCharUpper = cbFirstCharUpper.Checked,
-                CurrencyFirstCharUpper = cbCurrencyFirstCharUpper.Checked
+                CurrencyFirstCharUpper = cbCurrencyFirstCharUpper.Checked,
+                ScaleZeroNotDisplayed = cbScaleZeroNotIncluded.Checked,
             };
             var text = Convert.ToDecimal(txtNumber.Text).ToText(currency, lang, configuration);
             txtResultText.Text = text;

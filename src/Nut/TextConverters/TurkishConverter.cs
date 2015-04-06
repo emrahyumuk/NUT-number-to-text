@@ -2,10 +2,8 @@
 using System.Text;
 using Nut.Models;
 
-namespace Nut.TextConverters
-{
-    public sealed class TurkishConverter : BaseConverter
-    {
+namespace Nut.TextConverters {
+    public sealed class TurkishConverter : BaseConverter {
 
         private static readonly Lazy<TurkishConverter> Lazy = new Lazy<TurkishConverter>(() => new TurkishConverter());
         public static TurkishConverter Instance { get { return Lazy.Value; } }
@@ -14,17 +12,13 @@ namespace Nut.TextConverters
             get { return "tr-TR"; }
         }
 
-        public TurkishConverter()
-        {
+        public TurkishConverter() {
             Initialize();
         }
-        protected override long Append(long num, long scale, StringBuilder builder)
-        {
-            if (num > scale - 1)
-            {
+        protected override long Append(long num, long scale, StringBuilder builder) {
+            if (num > scale - 1) {
                 var baseScale = num / scale;
-                if (!(baseScale == 1 && (scale == 100 || scale == 1000)))
-                {
+                if (!(baseScale == 1 && (scale == 100 || scale == 1000))) {
                     AppendLessThanOneThousand(baseScale, builder);
                 }
 
@@ -34,10 +28,8 @@ namespace Nut.TextConverters
             return num;
         }
 
-        protected override long AppendTens(long num, StringBuilder builder)
-        {
-            if (num > 10)
-            {
+        protected override long AppendTens(long num, StringBuilder builder) {
+            if (num > 10) {
                 var tens = num / 10 * 10;
                 builder.AppendFormat("{0} ", TextStrings[tens]);
                 num = num - tens;
@@ -45,17 +37,13 @@ namespace Nut.TextConverters
             return num;
         }
 
-        protected override long AppendHundreds(long num, StringBuilder builder)
-        {
-            if (num > 99)
-            {
+        protected override long AppendHundreds(long num, StringBuilder builder) {
+            if (num > 99) {
                 var hundreds = num / 100;
-                if (hundreds != 1)
-                {
+                if (hundreds != 1) {
                     builder.AppendFormat("{0} {1} ", TextStrings[hundreds], TextStrings[100]);
                 }
-                else
-                {
+                else {
                     builder.AppendFormat("{0} ", TextStrings[100]);
                 }
                 num = num - (hundreds * 100);
@@ -63,8 +51,7 @@ namespace Nut.TextConverters
             return num;
         }
 
-        private void Initialize()
-        {
+        private void Initialize() {
             TextStrings.Add(0, "sıfır");
             TextStrings.Add(1, "bir");
             TextStrings.Add(2, "iki");

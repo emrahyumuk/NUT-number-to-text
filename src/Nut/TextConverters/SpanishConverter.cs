@@ -2,10 +2,8 @@
 using System.Text;
 using Nut.Models;
 
-namespace Nut.TextConverters
-{
-    public sealed class SpanishConverter : BaseConverter
-    {
+namespace Nut.TextConverters {
+    public sealed class SpanishConverter : BaseConverter {
         private static readonly Lazy<SpanishConverter> Lazy = new Lazy<SpanishConverter>(() => new SpanishConverter());
         public static SpanishConverter Instance { get { return Lazy.Value; } }
 
@@ -13,31 +11,24 @@ namespace Nut.TextConverters
             get { return "es-ES"; }
         }
 
-        public SpanishConverter()
-        {
+        public SpanishConverter() {
             Initialize();
         }
 
-        protected override long Append(long num, long scale, StringBuilder builder)
-        {
-            if (num > scale - 1)
-            {
+        protected override long Append(long num, long scale, StringBuilder builder) {
+            if (num > scale - 1) {
                 var baseScale = num / scale;
-                if (scale > 999 && baseScale == 1)
-                {
+                if (scale > 999 && baseScale == 1) {
                     AppendUnitsForAdditional(baseScale, builder);
                 }
-                else
-                {
+                else {
                     AppendLessThanOneThousand(baseScale, builder);
                 }
 
-                if (scale == 1000000 && num > 1)
-                {
+                if (scale == 1000000 && num > 1) {
                     builder.AppendFormat("{0} ", AdditionalStrings[scale]);
                 }
-                else
-                {
+                else {
                     builder.AppendFormat("{0} ", Scales[scale]);
                 }
 
@@ -46,10 +37,8 @@ namespace Nut.TextConverters
             return num;
         }
 
-        protected override long AppendTens(long num, StringBuilder builder)
-        {
-            if (num > 20)
-            {
+        protected override long AppendTens(long num, StringBuilder builder) {
+            if (num > 20) {
                 var tens = ((int)(num / 10)) * 10;
 
                 builder.AppendFormat(num == tens ? "{0}" : "{0} y ", TextStrings[tens]);
@@ -59,10 +48,8 @@ namespace Nut.TextConverters
             return num;
         }
 
-        protected override long AppendHundreds(long num, StringBuilder builder)
-        {
-            if (num > 99)
-            {
+        protected override long AppendHundreds(long num, StringBuilder builder) {
+            if (num > 99) {
                 var hundreds = num / 100 * 100;
                 builder.AppendFormat("{0} ", TextStrings[hundreds]);
                 num = num - hundreds;
@@ -70,8 +57,7 @@ namespace Nut.TextConverters
             return num;
         }
 
-        private void Initialize()
-        {
+        private void Initialize() {
             TextStrings.Add(0, "cero");
             TextStrings.Add(1, "uno");
             TextStrings.Add(2, "dos");

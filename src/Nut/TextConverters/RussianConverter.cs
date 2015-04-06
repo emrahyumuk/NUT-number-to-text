@@ -2,10 +2,8 @@
 using System.Text;
 using Nut.Models;
 
-namespace Nut.TextConverters
-{
-    public sealed class RussianConverter : BaseConverter
-    {
+namespace Nut.TextConverters {
+    public sealed class RussianConverter : BaseConverter {
 
         private static readonly Lazy<RussianConverter> Lazy = new Lazy<RussianConverter>(() => new RussianConverter());
         public static RussianConverter Instance { get { return Lazy.Value; } }
@@ -14,30 +12,24 @@ namespace Nut.TextConverters
             get { return "ru-RU"; }
         }
 
-        public RussianConverter()
-        {
+        public RussianConverter() {
             Initialize();
         }
 
-        protected override long Append(long num, long scale, StringBuilder builder)
-        {
-            if (num > scale - 1)
-            {
+        protected override long Append(long num, long scale, StringBuilder builder) {
+            if (num > scale - 1) {
                 var baseScale = num / scale;
 
                 var textType = GetTextType(baseScale);
                 var baseUnitNumber = baseScale % 10;
-                if (scale == 1000 && textType < 3 && (baseUnitNumber == 1 || baseUnitNumber == 2))
-                {
+                if (scale == 1000 && textType < 3 && (baseUnitNumber == 1 || baseUnitNumber == 2)) {
                     AppendLessThanOneThousandForAdditional(baseScale, builder);
                 }
-                else
-                {
+                else {
                     AppendLessThanOneThousand(baseScale, builder);
                 }
 
-                switch (textType)
-                {
+                switch (textType) {
                     case 1:
                         builder.AppendFormat("{0} ", AdditionalStrings[scale]);
                         break;
@@ -54,17 +46,14 @@ namespace Nut.TextConverters
             return num;
         }
 
-        private void AppendLessThanOneThousandForAdditional(long num, StringBuilder builder)
-        {
+        private void AppendLessThanOneThousandForAdditional(long num, StringBuilder builder) {
             num = AppendHundreds(num, builder);
             num = AppendTens(num, builder);
             AppendUnitsForAdditional(num, builder);
         }
 
-        protected override long AppendHundreds(long num, StringBuilder builder)
-        {
-            if (num > 99)
-            {
+        protected override long AppendHundreds(long num, StringBuilder builder) {
+            if (num > 99) {
                 var hundreds = num / 100 * 100;
                 builder.AppendFormat("{0} ", TextStrings[hundreds]);
                 num = num - hundreds;
@@ -72,16 +61,14 @@ namespace Nut.TextConverters
             return num;
         }
 
-        private byte GetTextType(long num)
-        {
+        private byte GetTextType(long num) {
             const int femmeMinBaseScale = 2;
             const int pluralMinBaseScale = 5;
 
             var baseUnitNumber = num % 10;
             var baseTens = num % 100;
 
-            if (baseTens < 10 || baseTens > 20)
-            {
+            if (baseTens < 10 || baseTens > 20) {
                 if (baseUnitNumber == 1)
                     return 1;
                 if (baseUnitNumber >= femmeMinBaseScale && baseUnitNumber < pluralMinBaseScale)
@@ -90,8 +77,7 @@ namespace Nut.TextConverters
             return 3;
         }
 
-        private void Initialize()
-        {
+        private void Initialize() {
             TextStrings.Add(0, "ноль");
             TextStrings.Add(1, "один");
             TextStrings.Add(2, "два");

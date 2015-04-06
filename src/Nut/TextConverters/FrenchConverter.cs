@@ -3,10 +3,8 @@ using System.Linq;
 using System.Text;
 using Nut.Models;
 
-namespace Nut.TextConverters
-{
-    public sealed class FrenchConverter : BaseConverter
-    {
+namespace Nut.TextConverters {
+    public sealed class FrenchConverter : BaseConverter {
 
         private static readonly Lazy<FrenchConverter> Lazy = new Lazy<FrenchConverter>(() => new FrenchConverter());
         public static FrenchConverter Instance { get { return Lazy.Value; } }
@@ -15,19 +13,15 @@ namespace Nut.TextConverters
             get { return "fr-FR"; }
         }
 
-        public FrenchConverter()
-        {
+        public FrenchConverter() {
             Initialize();
         }
 
-        protected override long Append(long num, long scale, StringBuilder builder) 
-        {
-            if (num > scale - 1) 
-            {
+        protected override long Append(long num, long scale, StringBuilder builder) {
+            if (num > scale - 1) {
                 var baseScale = num / scale;
 
-                if (scale != 1000 || baseScale != 1) 
-                {
+                if (scale != 1000 || baseScale != 1) {
                     AppendLessThanOneThousand(baseScale, builder);
                 }
 
@@ -38,33 +32,28 @@ namespace Nut.TextConverters
         }
 
         protected override long AppendTens(long num, StringBuilder builder) {
-            if (num > 20) 
-            {
+            if (num > 20) {
 
-                if (num == 80) 
-                {
+                if (num == 80) {
                     builder.AppendFormat("{0}", AdditionalStrings[num]);
                     return 0;
                 }
 
                 var tens = ((int)(num / 10)) * 10;
 
-                if (tens == 70 || tens == 90) 
-                {
+                if (tens == 70 || tens == 90) {
                     tens = tens - 10;
 
-                    if (num - tens == 11) 
-                    {
+                    if (num - tens == 11) {
                         builder.AppendFormat("{0} ", TextStrings[tens]);
-                        builder.AppendFormat("{0} ", AdditionalStrings[num-tens]);
+                        builder.AppendFormat("{0} ", AdditionalStrings[num - tens]);
                         return 0;
                     }
 
                     builder.AppendFormat("{0}-", TextStrings[tens]);
 
                 }
-                else 
-                {
+                else {
                     builder.AppendFormat("{0} ", TextStrings[tens]);
 
                     var etUnList = new long[] { 21, 31, 41, 51, 61 };
@@ -73,13 +62,12 @@ namespace Nut.TextConverters
                         return 0;
                     }
                 }
-                
+
                 num = num - tens;
             }
             return num;
         }
-        private void Initialize()
-        {
+        private void Initialize() {
             TextStrings.Add(0, "zéro");
             TextStrings.Add(1, "un");
             TextStrings.Add(2, "deux");
