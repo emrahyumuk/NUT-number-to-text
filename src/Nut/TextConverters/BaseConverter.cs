@@ -118,17 +118,17 @@ namespace Nut.TextConverters {
 
 
             if (nums.Count() > 1 && !string.IsNullOrEmpty(nums[1])) {
-                nums[1] = nums[1].Length == 1 ? nums[1] + "0" : nums[1];
-                var digitCount = nums[1] == "0" ? 1 : 2;
-                var subUnitNum = Convert.ToInt64(nums[1].Substring(0, digitCount));
+                var subUnitText = nums[1].Length == 1 ? nums[1] + "0" : nums[1];
+                
+                var subUnitNum = Convert.ToInt64(nums[1].Substring(0, 2));
                 if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0) {
                     builder.Append(" ");
 
                     if (options.SubUnitNotConvertedToText) {
-                        builder.Append(subUnitNum);
+                        builder.Append(subUnitText);
                     }
                     else {
-                        var subUnitText = ToText(subUnitNum);
+                        subUnitText = ToText(subUnitNum);
                         subUnitText = options.SubUnitFirstCharUpper ? subUnitText.ToFirstLetterUpper(CultureName) : subUnitText;
                         builder.Append(subUnitText);
                     }
