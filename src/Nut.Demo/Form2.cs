@@ -14,7 +14,7 @@ namespace Nut.Demo {
         private void btnMoneyToText_Click(object sender, EventArgs e) {
             var lang = cmbLang.SelectedValue.ToString();
             var currency = cmbCurrency.SelectedValue.ToString();
-            var configuration = new Options {
+            var options = new Options {
                 MainUnitNotConvertedToText = cbMainUnitNotConvertedToText.Checked,
                 SubUnitNotConvertedToText = cbSubUnitNotConvertToText.Checked,
                 MainUnitFirstCharUpper = cbMainUnitFirstCharUpper.Checked,
@@ -22,7 +22,7 @@ namespace Nut.Demo {
                 CurrencyFirstCharUpper = cbCurrencyFirstCharUpper.Checked,
                 SubUnitZeroNotDisplayed = cbSubUnitZeroNotIncluded.Checked,
             };
-            var text = Convert.ToDecimal(txtNumber.Text).ToText(currency, lang, configuration);
+            var text = Convert.ToDecimal(txtNumber.Text).ToText(currency, lang, options);
             txtResultText.Text = text;
         }
     }
