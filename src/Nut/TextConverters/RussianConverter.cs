@@ -16,6 +16,10 @@ namespace Nut.TextConverters {
             Initialize();
         }
 
+        protected override void ToTextInitialize() {
+            if (IsMoneyToText) TextStrings[2] = "две";
+        }
+
         protected override long Append(long num, long scale, StringBuilder builder) {
             if (num > scale - 1) {
                 var baseScale = num / scale;

@@ -12,6 +12,8 @@ namespace Nut.TextConverters {
         protected Dictionary<long, string> AdditionalStrings;
         protected Dictionary<long, string> Scales;
 
+        protected bool IsMoneyToText;
+
         protected BaseConverter() {
             TextStrings = new Dictionary<long, string>();
             AdditionalStrings = new Dictionary<long, string>();
@@ -21,6 +23,8 @@ namespace Nut.TextConverters {
         public abstract string CultureName { get; }
 
         public virtual string ToText(long num) {
+            ToTextInitialize();
+
             NumberLimitControl(num);
 
             var builder = new StringBuilder();
@@ -34,6 +38,9 @@ namespace Nut.TextConverters {
             AppendLessThanOneThousand(num, builder);
 
             return builder.ToString().Trim();
+        }
+
+        protected virtual void ToTextInitialize() {
         }
 
         protected virtual long Append(long num, long scale, StringBuilder builder) {
@@ -91,7 +98,7 @@ namespace Nut.TextConverters {
         #region Currency
 
         public virtual string ToText(decimal num, string currency, Options options) {
-
+            IsMoneyToText = true;
             var builder = new StringBuilder();
             if (currency == Currency.TL) currency = Currency.TRY;
             var currencyModel = GetCurrencyModel(currency);
@@ -99,7 +106,7 @@ namespace Nut.TextConverters {
             var decimalSeperator = num.ToString(CultureInfo.InvariantCulture).Contains(",") ? ',' : '.';
             var nums = num.ToString(CultureInfo.InvariantCulture).Split(decimalSeperator);
 
-            var mainUnitNum =  Convert.ToInt64(nums[0]);
+            var mainUnitNum = Convert.ToInt64(nums[0]);
 
             if (options.MainUnitNotConvertedToText) {
                 builder.Append(nums[0]);
@@ -119,7 +126,7 @@ namespace Nut.TextConverters {
 
             if (nums.Count() > 1 && !string.IsNullOrEmpty(nums[1])) {
                 var subUnitText = nums[1].Length == 1 ? nums[1] + "0" : nums[1];
-                
+
                 var subUnitNum = Convert.ToInt64(nums[1].Substring(0, 2));
                 if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0) {
                     builder.Append(" ");
