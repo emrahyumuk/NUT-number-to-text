@@ -137,7 +137,7 @@
             this.cbSubUnitFirstCharUpper.Text = "Sub-unit First Char Upper";
             this.cbSubUnitFirstCharUpper.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // MoneyToText
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -153,8 +153,8 @@
             this.Controls.Add(this.btnMoneyToText);
             this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.cmbLang);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "MoneyToText";
+            this.Text = "Money To Text";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -62,7 +62,7 @@
             this.txtResultText.Size = new System.Drawing.Size(383, 117);
             this.txtResultText.TabIndex = 13;
             // 
-            // Form1
+            // NumberToText
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -71,8 +71,8 @@
             this.Controls.Add(this.btnNumberToText);
             this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.cmbLang);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "NumberToText";
+            this.Text = "Number To Text";
             this.ResumeLayout(false);
             this.PerformLayout();
 
