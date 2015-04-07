@@ -12,8 +12,6 @@ namespace Nut.TextConverters {
         protected Dictionary<long, string> AdditionalStrings;
         protected Dictionary<long, string> Scales;
 
-        protected bool IsMoneyToText;
-
         protected BaseConverter() {
             TextStrings = new Dictionary<long, string>();
             AdditionalStrings = new Dictionary<long, string>();
@@ -97,7 +95,6 @@ namespace Nut.TextConverters {
         #region Currency
 
         public virtual string ToText(decimal num, string currency, Options options) {
-            IsMoneyToText = true;
             var builder = new StringBuilder();
             if (currency == Currency.TL) currency = Currency.TRY;
             var currencyModel = GetCurrencyModel(currency);
