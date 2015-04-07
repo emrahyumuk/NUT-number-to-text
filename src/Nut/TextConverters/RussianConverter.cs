@@ -16,8 +16,19 @@ namespace Nut.TextConverters {
             Initialize();
         }
 
-        protected override void ToTextInitialize() {
-            if (IsMoneyToText) TextStrings[2] = "две";
+        protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit) {
+            switch (currencyModel.Currency) {
+                case Currency.RUB:
+                    TextStrings[2] = isMainUnit ? "два" : "две";
+                    break;
+                case Currency.EUR:
+                    TextStrings[2] = isMainUnit ? "два" : "две";
+                    break;
+                default:
+                    TextStrings[2] = "два";
+                    break;
+            }
+            return ToText(num);
         }
 
         protected override long Append(long num, long scale, StringBuilder builder) {

@@ -23,8 +23,6 @@ namespace Nut.TextConverters {
         public abstract string CultureName { get; }
 
         public virtual string ToText(long num) {
-            ToTextInitialize();
-
             NumberLimitControl(num);
 
             var builder = new StringBuilder();
@@ -40,7 +38,8 @@ namespace Nut.TextConverters {
             return builder.ToString().Trim();
         }
 
-        protected virtual void ToTextInitialize() {
+        protected virtual string ToText(long num, CurrencyModel currencyModel, bool isMainUnit) {
+            return ToText(num);
         }
 
         protected virtual long Append(long num, long scale, StringBuilder builder) {
@@ -112,7 +111,7 @@ namespace Nut.TextConverters {
                 builder.Append(nums[0]);
             }
             else {
-                var mainUnitText = ToText(mainUnitNum);
+                var mainUnitText = ToText(mainUnitNum, currencyModel, true);
                 mainUnitText = options.MainUnitFirstCharUpper ? mainUnitText.ToFirstLetterUpper(CultureName) : mainUnitText;
                 builder.Append(mainUnitText);
             }
@@ -135,7 +134,7 @@ namespace Nut.TextConverters {
                         builder.Append(subUnitText);
                     }
                     else {
-                        subUnitText = ToText(subUnitNum);
+                        subUnitText = ToText(subUnitNum, currencyModel, false);
                         subUnitText = options.SubUnitFirstCharUpper ? subUnitText.ToFirstLetterUpper(CultureName) : subUnitText;
                         builder.Append(subUnitText);
                     }
