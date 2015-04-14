@@ -100,7 +100,8 @@ namespace Nut.TextConverters {
             var currencyModel = GetCurrencyModel(currency);
             if (currencyModel == null) return string.Empty;
             var decimalSeperator = num.ToString(CultureInfo.InvariantCulture).Contains(",") ? ',' : '.';
-            var nums = num.ToString(CultureInfo.InvariantCulture).Split(decimalSeperator);
+            var nums = num.ToString(CultureInfo.InvariantCulture).Split(decimalSeperator).ToList();
+            if (nums.Count == 1) nums.Add("00");
 
             var mainUnitNum = Convert.ToInt64(nums[0]);
 
@@ -120,7 +121,7 @@ namespace Nut.TextConverters {
             builder.Append(currencyText);
 
 
-            if (nums.Count() > 1 && !string.IsNullOrEmpty(nums[1])) {
+            if (nums.Count > 1 && !string.IsNullOrEmpty(nums[1])) {
                 var subUnitText = nums[1].Length == 1 ? nums[1] + "0" : nums[1];
 
                 var subUnitNum = Convert.ToInt64(nums[1].Substring(0, 2));
