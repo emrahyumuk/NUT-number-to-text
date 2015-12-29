@@ -104,6 +104,12 @@ namespace Nut.TextConverters {
                         Names = new[] { "türk lirası", "türk lirası" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kuruş", "kuruş" } }
                     };
+                case Currency.UAH:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "grivna", "grivna"},
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopiyka", "kopiyka" } }
+                    };
             }
             return null;
         }

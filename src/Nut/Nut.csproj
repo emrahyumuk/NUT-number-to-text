@@ -55,6 +55,7 @@
     <Compile Include="TextConverters\RussianConverter.cs" />
     <Compile Include="TextConverters\SpanishConverter.cs" />
     <Compile Include="TextConverters\TurkishConverter.cs" />
+    <Compile Include="TextConverters\UkrainianConverter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
