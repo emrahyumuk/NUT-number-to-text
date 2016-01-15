@@ -183,6 +183,12 @@ namespace Nut.TextConverters {
                         Names = new[] { "турецкая лира", "турецких лир", "турецких лир" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "куруш", "куруша", "курушей" } }
                     };
+                case Currency.UAH:
+                    return new CurrencyModel {
+                        Currency = currency,
+                        Names = new[] { "гривня", "гривні", "гривень" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копеек" } }
+                    };
             }
             return null;
         }

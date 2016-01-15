@@ -11,11 +11,13 @@ namespace Nut.TextConverters {
         protected Dictionary<long, string> TextStrings;
         protected Dictionary<long, string> AdditionalStrings;
         protected Dictionary<long, string> Scales;
+        protected Dictionary<long, string> AdditionalScales;
 
         protected BaseConverter() {
             TextStrings = new Dictionary<long, string>();
             AdditionalStrings = new Dictionary<long, string>();
             Scales = new Dictionary<long, string>();
+            AdditionalScales = new Dictionary<long, string>();
         }
 
         public abstract string CultureName { get; }
@@ -30,7 +32,8 @@ namespace Nut.TextConverters {
                 return builder.ToString();
             }
 
-            num = Scales.Aggregate(num, (current, scale) => Append(current, scale.Key, builder));
+            foreach (var scale in Scales)
+                num = Append(num, scale.Key, builder);
             AppendLessThanOneThousand(num, builder);
 
             return builder.ToString().Trim();

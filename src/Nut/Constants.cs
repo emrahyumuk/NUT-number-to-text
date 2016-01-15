@@ -10,6 +10,7 @@
         public const string Russian = "ru";
         public const string Spanish = "es";
         public const string Turkish = "tr";
+        public const string Ukrainian = "ua";
     }
 
     public static class Currency {
@@ -18,6 +19,7 @@
         public const string RUB = "rub";
         public const string TRY = "try";
         public const string USD = "usd";
+        public const string UAH = "uah";
     }
 
 }

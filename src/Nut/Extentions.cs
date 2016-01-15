@@ -25,6 +25,9 @@ namespace Nut {
                 case Language.Turkish:
                     text = TurkishConverter.Instance.ToText(num);
                     break;
+                case Language.Ukrainian:
+                    text = UkrainianConverter.Instance.ToText(num);
+                    break;
             }
             return text;
         }
@@ -46,6 +49,9 @@ namespace Nut {
                     break;
                 case Language.Turkish:
                     text = TurkishConverter.Instance.ToText(num, currency, options);
+                    break;
+                case Language.Ukrainian:
+                    text = UkrainianConverter.Instance.ToText(num, currency, options);
                     break;
             }
             return text;
