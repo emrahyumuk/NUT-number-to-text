@@ -127,7 +127,7 @@ namespace Nut.TextConverters {
             if (nums.Count > 1 && !string.IsNullOrEmpty(nums[1])) {
                 var subUnitText = nums[1].Length == 1 ? nums[1] + "0" : nums[1];
 
-                var subUnitNum = Convert.ToInt64(nums[1].Substring(0, 2));
+                var subUnitNum = Convert.ToInt64(nums[1].Substring(0, nums[1].Length));
                 if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0) {
                     builder.Append(" ");
 
