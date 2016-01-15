@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Windows.Forms;
 using Nut.Models;
 
@@ -22,7 +23,7 @@ namespace Nut.Demo {
                 CurrencyFirstCharUpper = cbCurrencyFirstCharUpper.Checked,
                 SubUnitZeroNotDisplayed = cbSubUnitZeroNotIncluded.Checked,
             };
-            var text = Convert.ToDecimal(txtNumber.Text).ToText(currency, lang, options);
+            var text = Convert.ToDecimal(txtNumber.Text, CultureInfo.CurrentCulture).ToText(currency, lang, options);
             txtResultText.Text = text;
         }
     }
