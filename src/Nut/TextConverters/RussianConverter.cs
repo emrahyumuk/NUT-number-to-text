@@ -2,57 +2,64 @@
 using System.Text;
 using Nut.Models;
 
-namespace Nut.TextConverters {
-    public sealed class RussianConverter : BaseConverter {
+namespace Nut.TextConverters
+{
+    public sealed class RussianConverter : BaseConverter
+    {
 
         private static readonly Lazy<RussianConverter> Lazy = new Lazy<RussianConverter>(() => new RussianConverter());
-        public static RussianConverter Instance { get { return Lazy.Value; } }
+        public static RussianConverter Instance => Lazy.Value;
 
-        public override string CultureName {
-            get { return "ru-RU"; }
-        }
+        public override string CultureName => Culture.Russian;
 
-        public RussianConverter() {
+        public RussianConverter()
+        {
             Initialize();
         }
 
-        protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit) {
-            switch (currencyModel.Currency) {
+        protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+        {
+            switch (currencyModel.Currency)
+            {
                 case Currency.RUB:
-                    TextStrings[2] = isMainUnit ? "два" : "две";
+                    NumberTexts[2][0] = isMainUnit ? "два" : "две";
                     break;
                 case Currency.EUR:
-                    TextStrings[2] = isMainUnit ? "два" : "две";
+                    NumberTexts[2][0] = isMainUnit ? "два" : "две";
                     break;
                 default:
-                    TextStrings[2] = "два";
+                    NumberTexts[2][0] = "два";
                     break;
             }
             return ToText(num);
         }
 
-        protected override long Append(long num, long scale, StringBuilder builder) {
-            if (num > scale - 1) {
+        protected override long Append(long num, long scale, StringBuilder builder)
+        {
+            if (num > scale - 1)
+            {
                 var baseScale = num / scale;
 
                 var textType = GetTextType(baseScale);
                 var baseUnitNumber = baseScale % 10;
-                if (scale == 1000 && textType < 3 && (baseUnitNumber == 1 || baseUnitNumber == 2)) {
+                if (scale == 1000 && textType < 3 && (baseUnitNumber == 1 || baseUnitNumber == 2))
+                {
                     AppendLessThanOneThousandForAdditional(baseScale, builder);
                 }
                 else {
                     AppendLessThanOneThousand(baseScale, builder);
                 }
 
-                switch (textType) {
+                switch (textType)
+                {
                     case 1:
-                        builder.AppendFormat("{0} ", AdditionalStrings[scale]);
+                        builder.AppendFormat("{0} ", ScaleTexts[scale][1]);
                         break;
                     case 2:
-                        builder.AppendFormat("{0} ", AdditionalStrings[2 * scale]);
+                        builder.AppendFormat("{0} ", ScaleTexts[scale][2]);
                         break;
                     default:
-                        builder.AppendFormat("{0} ", Scales[scale]);
+                        builder.AppendFormat("{0} ", ScaleTexts[scale][0]);
                         break;
                 }
 
@@ -61,29 +68,34 @@ namespace Nut.TextConverters {
             return num;
         }
 
-        private void AppendLessThanOneThousandForAdditional(long num, StringBuilder builder) {
+        private void AppendLessThanOneThousandForAdditional(long num, StringBuilder builder)
+        {
             num = AppendHundreds(num, builder);
             num = AppendTens(num, builder);
             AppendUnitsForAdditional(num, builder);
         }
 
-        protected override long AppendHundreds(long num, StringBuilder builder) {
-            if (num > 99) {
+        protected override long AppendHundreds(long num, StringBuilder builder)
+        {
+            if (num > 99)
+            {
                 var hundreds = num / 100 * 100;
-                builder.AppendFormat("{0} ", TextStrings[hundreds]);
+                builder.AppendFormat("{0} ", NumberTexts[hundreds][0]);
                 num = num - hundreds;
             }
             return num;
         }
 
-        private byte GetTextType(long num) {
+        private byte GetTextType(long num)
+        {
             const int femmeMinBaseScale = 2;
             const int pluralMinBaseScale = 5;
 
             var baseUnitNumber = num % 10;
             var baseTens = num % 100;
 
-            if (baseTens < 10 || baseTens > 20) {
+            if (baseTens < 10 || baseTens > 20)
+            {
                 if (baseUnitNumber == 1)
                     return 1;
                 if (baseUnitNumber >= femmeMinBaseScale && baseUnitNumber < pluralMinBaseScale)
@@ -92,99 +104,100 @@ namespace Nut.TextConverters {
             return 3;
         }
 
-        private void Initialize() {
-            TextStrings.Add(0, "ноль");
-            TextStrings.Add(1, "один");
-            TextStrings.Add(2, "два");
-            TextStrings.Add(3, "три");
-            TextStrings.Add(4, "четыре");
-            TextStrings.Add(5, "пять");
-            TextStrings.Add(6, "шесть");
-            TextStrings.Add(7, "семь");
-            TextStrings.Add(8, "восемь");
-            TextStrings.Add(9, "девять");
-            TextStrings.Add(10, "десять");
-            TextStrings.Add(11, "одиннадцать");
-            TextStrings.Add(12, "двенадцать");
-            TextStrings.Add(13, "тринадцать");
-            TextStrings.Add(14, "четырнадцать");
-            TextStrings.Add(15, "пятнадцать");
-            TextStrings.Add(16, "шестнадцать");
-            TextStrings.Add(17, "семнадцать");
-            TextStrings.Add(18, "восемнадцать");
-            TextStrings.Add(19, "девятнадцать");
-            TextStrings.Add(20, "двадцать");
-            TextStrings.Add(30, "тридцать");
-            TextStrings.Add(40, "сорок");
-            TextStrings.Add(50, "пятьдесят");
-            TextStrings.Add(60, "шестьдесят");
-            TextStrings.Add(70, "семьдесят");
-            TextStrings.Add(80, "восемьдесят");
-            TextStrings.Add(90, "девяносто");
-            TextStrings.Add(100, "сто");
-            TextStrings.Add(200, "двести");
-            TextStrings.Add(300, "триста");
-            TextStrings.Add(400, "четыреста");
-            TextStrings.Add(500, "пятьсот");
-            TextStrings.Add(600, "шестьсот");
-            TextStrings.Add(700, "семьсот");
-            TextStrings.Add(800, "восемьсот");
-            TextStrings.Add(900, "девятьсот");
+        private void Initialize()
+        {
+            NumberTexts.Add(0, new[] { "ноль" });
+            NumberTexts.Add(1, new[] { "один", "одна" });
+            NumberTexts.Add(2, new[] { "два", "две" });
+            NumberTexts.Add(3, new[] { "три" });
+            NumberTexts.Add(4, new[] { "четыре" });
+            NumberTexts.Add(5, new[] { "пять" });
+            NumberTexts.Add(6, new[] { "шесть" });
+            NumberTexts.Add(7, new[] { "семь" });
+            NumberTexts.Add(8, new[] { "восемь" });
+            NumberTexts.Add(9, new[] { "девять" });
+            NumberTexts.Add(10, new[] { "десять" });
+            NumberTexts.Add(11, new[] { "одиннадцать" });
+            NumberTexts.Add(12, new[] { "двенадцать" });
+            NumberTexts.Add(13, new[] { "тринадцать" });
+            NumberTexts.Add(14, new[] { "четырнадцать" });
+            NumberTexts.Add(15, new[] { "пятнадцать" });
+            NumberTexts.Add(16, new[] { "шестнадцать" });
+            NumberTexts.Add(17, new[] { "семнадцать" });
+            NumberTexts.Add(18, new[] { "восемнадцать" });
+            NumberTexts.Add(19, new[] { "девятнадцать" });
+            NumberTexts.Add(20, new[] { "двадцать" });
+            NumberTexts.Add(30, new[] { "тридцать" });
+            NumberTexts.Add(40, new[] { "сорок" });
+            NumberTexts.Add(50, new[] { "пятьдесят" });
+            NumberTexts.Add(60, new[] { "шестьдесят" });
+            NumberTexts.Add(70, new[] { "семьдесят" });
+            NumberTexts.Add(80, new[] { "восемьдесят" });
+            NumberTexts.Add(90, new[] { "девяносто" });
+            NumberTexts.Add(100, new[] { "сто" });
+            NumberTexts.Add(200, new[] { "двести" });
+            NumberTexts.Add(300, new[] { "триста" });
+            NumberTexts.Add(400, new[] { "четыреста" });
+            NumberTexts.Add(500, new[] { "пятьсот" });
+            NumberTexts.Add(600, new[] { "шестьсот" });
+            NumberTexts.Add(700, new[] { "семьсот" });
+            NumberTexts.Add(800, new[] { "восемьсот" });
+            NumberTexts.Add(900, new[] { "девятьсот" });
 
-            AdditionalStrings.Add(1, "одна");
-            AdditionalStrings.Add(2, "две");
-            AdditionalStrings.Add(1000, "тысяча");
-            AdditionalStrings.Add(2000, "тысячи");
-            AdditionalStrings.Add(1000000, "миллион");
-            AdditionalStrings.Add(2000000, "миллиона");
-            AdditionalStrings.Add(1000000000, "миллиард");
-            AdditionalStrings.Add(2000000000, "миллиарда");
-
-            Scales.Add(1000000000, "миллиардов");
-            Scales.Add(1000000, "миллионов");
-            Scales.Add(1000, "тысяч");
+            ScaleTexts.Add(1000000000, new[] { "миллиардов", "миллиард", "миллиарда" });
+            ScaleTexts.Add(1000000, new[] { "миллионов", "миллион", "миллиона" });
+            ScaleTexts.Add(1000, new[] { "тысяч", "тысяча", "тысячи" });
         }
 
         #region Currency
 
-        protected override string GetCurrencyText(long num, CurrencyModel currency) {
+        protected override string GetCurrencyText(long num, CurrencyModel currency)
+        {
             var textType = GetTextType(num);
             return currency.Names[textType - 1];
         }
 
-        protected override string GetSubUnitCurrencyText(long num, CurrencyModel currency) {
+        protected override string GetSubUnitCurrencyText(long num, CurrencyModel currency)
+        {
             var textType = GetTextType(num);
             return currency.SubUnitCurrency.Names[textType - 1];
         }
 
-        protected override CurrencyModel GetCurrencyModel(string currency) {
-            switch (currency) {
+        protected override CurrencyModel GetCurrencyModel(string currency)
+        {
+            switch (currency)
+            {
                 case Currency.EUR:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "евро", "евро", "евро" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "евроцент", "евроцента", "евроцентов" } }
                     };
                 case Currency.USD:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "доллар", "доллара", "долларов" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "цент", "цента", "центов" } }
                     };
                 case Currency.RUB:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "рубль", "рубля", "рублей" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копеек" } }
                     };
                 case Currency.TRY:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "турецкая лира", "турецких лир", "турецких лир" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "куруш", "куруша", "курушей" } }
                     };
                 case Currency.UAH:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "гривня", "гривні", "гривень" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копеек" } }

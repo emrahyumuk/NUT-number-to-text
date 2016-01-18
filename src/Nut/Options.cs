@@ -1,5 +1,7 @@
-﻿namespace Nut {
-    public struct Options {
+﻿namespace Nut
+{
+    public struct Options
+    {
         public bool MainUnitNotConvertedToText { get; set; }
         public bool SubUnitNotConvertedToText { get; set; }
         public bool SubUnitZeroNotDisplayed { get; set; }

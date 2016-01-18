@@ -2,112 +2,129 @@
 using System.Text;
 using Nut.Models;
 
-namespace Nut.TextConverters {
-    public sealed class TurkishConverter : BaseConverter {
+namespace Nut.TextConverters
+{
+    public sealed class TurkishConverter : BaseConverter
+    {
 
         private static readonly Lazy<TurkishConverter> Lazy = new Lazy<TurkishConverter>(() => new TurkishConverter());
-        public static TurkishConverter Instance { get { return Lazy.Value; } }
+        public static TurkishConverter Instance => Lazy.Value;
 
-        public override string CultureName {
-            get { return "tr-TR"; }
-        }
+        public override string CultureName => Culture.Turkish;
 
-        public TurkishConverter() {
+        public TurkishConverter()
+        {
             Initialize();
         }
-        protected override long Append(long num, long scale, StringBuilder builder) {
-            if (num > scale - 1) {
+        protected override long Append(long num, long scale, StringBuilder builder)
+        {
+            if (num > scale - 1)
+            {
                 var baseScale = num / scale;
-                if (!(baseScale == 1 && (scale == 100 || scale == 1000))) {
+                if (!(baseScale == 1 && (scale == 100 || scale == 1000)))
+                {
                     AppendLessThanOneThousand(baseScale, builder);
                 }
 
-                builder.AppendFormat("{0} ", Scales[scale]);
+                builder.AppendFormat("{0} ", ScaleTexts[scale][0]);
                 num = num - (baseScale * scale);
             }
             return num;
         }
 
-        protected override long AppendTens(long num, StringBuilder builder) {
-            if (num > 10) {
+        protected override long AppendTens(long num, StringBuilder builder)
+        {
+            if (num > 10)
+            {
                 var tens = num / 10 * 10;
-                builder.AppendFormat("{0} ", TextStrings[tens]);
+                builder.AppendFormat("{0} ", NumberTexts[tens][0]);
                 num = num - tens;
             }
             return num;
         }
 
-        protected override long AppendHundreds(long num, StringBuilder builder) {
-            if (num > 99) {
+        protected override long AppendHundreds(long num, StringBuilder builder)
+        {
+            if (num > 99)
+            {
                 var hundreds = num / 100;
-                if (hundreds != 1) {
-                    builder.AppendFormat("{0} {1} ", TextStrings[hundreds], TextStrings[100]);
+                if (hundreds != 1)
+                {
+                    builder.AppendFormat("{0} {1} ", NumberTexts[hundreds][0], NumberTexts[100][0]);
                 }
                 else {
-                    builder.AppendFormat("{0} ", TextStrings[100]);
+                    builder.AppendFormat("{0} ", NumberTexts[100][0]);
                 }
                 num = num - (hundreds * 100);
             }
             return num;
         }
 
-        private void Initialize() {
-            TextStrings.Add(0, "sıfır");
-            TextStrings.Add(1, "bir");
-            TextStrings.Add(2, "iki");
-            TextStrings.Add(3, "üç");
-            TextStrings.Add(4, "dört");
-            TextStrings.Add(5, "beş");
-            TextStrings.Add(6, "altı");
-            TextStrings.Add(7, "yedi");
-            TextStrings.Add(8, "sekiz");
-            TextStrings.Add(9, "dokuz");
-            TextStrings.Add(10, "on");
-            TextStrings.Add(20, "yirmi");
-            TextStrings.Add(30, "otuz");
-            TextStrings.Add(40, "kırk");
-            TextStrings.Add(50, "elli");
-            TextStrings.Add(60, "altmış");
-            TextStrings.Add(70, "yetmiş");
-            TextStrings.Add(80, "seksen");
-            TextStrings.Add(90, "doksan");
-            TextStrings.Add(100, "yüz");
+        private void Initialize()
+        {
+            NumberTexts.Add(0, new[] { "sıfır" });
+            NumberTexts.Add(1, new[] { "bir" });
+            NumberTexts.Add(2, new[] { "iki" });
+            NumberTexts.Add(3, new[] { "üç" });
+            NumberTexts.Add(4, new[] { "dört" });
+            NumberTexts.Add(5, new[] { "beş" });
+            NumberTexts.Add(6, new[] { "altı" });
+            NumberTexts.Add(7, new[] { "yedi" });
+            NumberTexts.Add(8, new[] { "sekiz" });
+            NumberTexts.Add(9, new[] { "dokuz" });
+            NumberTexts.Add(10, new[] { "on" });
+            NumberTexts.Add(20, new[] { "yirmi" });
+            NumberTexts.Add(30, new[] { "otuz" });
+            NumberTexts.Add(40, new[] { "kırk" });
+            NumberTexts.Add(50, new[] { "elli" });
+            NumberTexts.Add(60, new[] { "altmış" });
+            NumberTexts.Add(70, new[] { "yetmiş" });
+            NumberTexts.Add(80, new[] { "seksen" });
+            NumberTexts.Add(90, new[] { "doksan" });
+            NumberTexts.Add(100, new[] { "yüz" });
 
-            Scales.Add(1000000000, "milyar");
-            Scales.Add(1000000, "milyon");
-            Scales.Add(1000, "bin");
+            ScaleTexts.Add(1000000000, new[] { "milyar" });
+            ScaleTexts.Add(1000000, new[] { "milyon" });
+            ScaleTexts.Add(1000, new[] { "bin" });
         }
 
-        protected override CurrencyModel GetCurrencyModel(string currency) {
-            switch (currency) {
+        protected override CurrencyModel GetCurrencyModel(string currency)
+        {
+            switch (currency)
+            {
                 case Currency.EUR:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "avro", "avro" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "avro sent", "avro sent" } }
                     };
                 case Currency.USD:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "dolar", "dolar" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "sent", "sent" } }
                     };
                 case Currency.RUB:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "ruble", "ruble" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopek", "kopek" } }
                     };
                 case Currency.TRY:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
                         Names = new[] { "türk lirası", "türk lirası" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kuruş", "kuruş" } }
                     };
                 case Currency.UAH:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
-                        Names = new[] { "grivna", "grivna"},
+                        Names = new[] { "grivna", "grivna" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopiyka", "kopiyka" } }
                     };
             }
