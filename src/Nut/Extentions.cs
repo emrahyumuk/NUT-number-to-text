@@ -21,7 +21,7 @@ namespace Nut
                     break;
                 case Language.French:
                 case Culture.French:
-                    text = SpanishConverter.Instance.ToText(num);
+                    text = FrenchConverter.Instance.ToText(num);
                     break;
                 case Language.Russian:
                 case Culture.Russian:

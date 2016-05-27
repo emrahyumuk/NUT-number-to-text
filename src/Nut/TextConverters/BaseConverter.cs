@@ -30,7 +30,7 @@ namespace Nut.TextConverters
 
             if (num == 0)
             {
-                builder.Append(NumberTexts[num]);
+                builder.Append(NumberTexts[num][0]);
                 return builder.ToString();
             }
 
