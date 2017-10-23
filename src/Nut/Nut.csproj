@@ -51,6 +51,7 @@
     <Compile Include="Models\CurrencyModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextConverters\BaseConverter.cs" />
+    <Compile Include="TextConverters\BulgarianConverter.cs" />
     <Compile Include="TextConverters\FrenchConverter.cs" />
     <Compile Include="TextConverters\EnglishConverter.cs" />
     <Compile Include="TextConverters\RussianConverter.cs" />
