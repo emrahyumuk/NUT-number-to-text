@@ -43,11 +43,11 @@ namespace Nut.TextConverters
             {
                 var baseScale = num / scale;
 
-                textType = scale < 999 ? GetTextType(baseScale) : (num == scale ? 0 : 1);
+                textType = scale < 999 ? GetTextType(baseScale) : (num < 2000 ? 0 : 1);
 
                 var baseUnitNumber = baseScale % 10;
 
-                if (scale == 1000 && baseUnitNumber == 1 && num > 1)
+                if (scale == 1000 && baseUnitNumber == 1 && num > 10000)
                     textType = 3;
 
                 if (scale == 1000 && textType < 3 && (baseUnitNumber == 1 || baseUnitNumber == 2))
@@ -155,7 +155,7 @@ namespace Nut.TextConverters
             NumberTexts.Add(12, new[] { "дванадесет" });
             NumberTexts.Add(13, new[] { "тринадесет" });
             NumberTexts.Add(14, new[] { "четиринадесет" });
-            NumberTexts.Add(15, new[] { "пeтнадесет" });
+            NumberTexts.Add(15, new[] { "петнадесет" });
             NumberTexts.Add(16, new[] { "шестнадесет" });
             NumberTexts.Add(17, new[] { "седемнадесет" });
             NumberTexts.Add(18, new[] { "осемнадесет" });
