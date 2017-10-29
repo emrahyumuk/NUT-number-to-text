@@ -17,7 +17,7 @@ namespace Nut.Demo
         {
             InitializeComponent();
 
-            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua" };
+            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua", "bg" };
         }
 
         private void btnNumberToText_Click(object sender, EventArgs e)

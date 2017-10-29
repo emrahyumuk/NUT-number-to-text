@@ -8,8 +8,8 @@ namespace Nut.Demo {
     public partial class MoneyToText : Form {
         public MoneyToText() {
             InitializeComponent();
-            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua" };
-            cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "try", "uah" };
+            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua", "bg" };
+            cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "try", "uah", "bgn" };
         }
 
         private void btnMoneyToText_Click(object sender, EventArgs e) {
@@ -22,6 +22,8 @@ namespace Nut.Demo {
                 SubUnitFirstCharUpper = cbSubUnitFirstCharUpper.Checked,
                 CurrencyFirstCharUpper = cbCurrencyFirstCharUpper.Checked,
                 SubUnitZeroNotDisplayed = cbSubUnitZeroNotIncluded.Checked,
+                AddAndBetweenMainUnitAndSubUnits = cbAddAndBetweenUnits.Checked,
+                UseShortenedUnits = cbUseShortenedUnits.Checked
             };
             var text = Convert.ToDecimal(txtNumber.Text, CultureInfo.CurrentCulture).ToText(currency, lang, options);
             txtResultText.Text = text;

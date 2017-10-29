@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Net.Configuration;
 using System.Text;
 using Nut.Models;
 
@@ -152,7 +153,7 @@ namespace Nut.TextConverters
 
             builder.Append(" ");
 
-            var currencyText = GetCurrencyText(mainUnitNum, currencyModel);
+            var currencyText = GetCurrencyText(mainUnitNum, currencyModel, options.UseShortenedUnits);
             currencyText = options.CurrencyFirstCharUpper ? currencyText.ToFirstLetterUpper(CultureName) : currencyText;
             builder.Append(currencyText);
 
@@ -163,7 +164,7 @@ namespace Nut.TextConverters
                 var subUnitNum = Convert.ToInt64(subUnitText);
                 if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0)
                 {
-                    builder.Append(" ");
+                    builder.Append(GetUnitSeparator(currencyModel, options.AddAndBetweenMainUnitAndSubUnits));
 
                     if (options.SubUnitNotConvertedToText)
                     {
@@ -177,7 +178,7 @@ namespace Nut.TextConverters
 
                     builder.Append(" ");
 
-                    var subUnitCurrencyText = GetSubUnitCurrencyText(subUnitNum, currencyModel);
+                    var subUnitCurrencyText = GetSubUnitCurrencyText(subUnitNum, currencyModel, options.UseShortenedUnits);
                     subUnitCurrencyText = options.CurrencyFirstCharUpper ? subUnitCurrencyText.ToFirstLetterUpper(CultureName) : subUnitCurrencyText;
                     builder.Append(subUnitCurrencyText);
                 }
@@ -187,18 +188,23 @@ namespace Nut.TextConverters
             return builder.ToString().Trim();
         }
 
-        protected virtual string GetCurrencyText(long num, CurrencyModel currency)
+        protected virtual string GetCurrencyText(long num, CurrencyModel currency, bool useShortModel)
         {
             return num > 1 ? currency.Names[1] : currency.Names[0];
         }
 
-        protected virtual string GetSubUnitCurrencyText(long num, CurrencyModel currency)
+        protected virtual string GetSubUnitCurrencyText(long num, CurrencyModel currency, bool useShortModel)
         {
             return num > 1 ? currency.SubUnitCurrency.Names[1] : currency.SubUnitCurrency.Names[0];
         }
         protected virtual CurrencyModel GetCurrencyModel(string currency)
         {
             return null;
+        }
+
+        protected virtual string GetUnitSeparator(CurrencyModel currency, bool addAndAsUnitSeparator)
+        {
+            return " ";
         }
         #endregion
     }

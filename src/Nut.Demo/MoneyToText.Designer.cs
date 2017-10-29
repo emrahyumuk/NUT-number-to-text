@@ -34,6 +34,8 @@
             this.cbCurrencyFirstCharUpper = new System.Windows.Forms.CheckBox();
             this.cbMainUnitNotConvertedToText = new System.Windows.Forms.CheckBox();
             this.cbSubUnitFirstCharUpper = new System.Windows.Forms.CheckBox();
+            this.cbAddAndBetweenUnits = new System.Windows.Forms.CheckBox();
+            this.cbUseShortenedUnits = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnMoneyToText
@@ -71,7 +73,7 @@
             // 
             // txtResultText
             // 
-            this.txtResultText.Location = new System.Drawing.Point(30, 183);
+            this.txtResultText.Location = new System.Drawing.Point(30, 206);
             this.txtResultText.Multiline = true;
             this.txtResultText.Name = "txtResultText";
             this.txtResultText.Size = new System.Drawing.Size(488, 75);
@@ -137,11 +139,33 @@
             this.cbSubUnitFirstCharUpper.Text = "Sub-unit First Char Upper";
             this.cbSubUnitFirstCharUpper.UseVisualStyleBackColor = true;
             // 
+            // cbAddAndBetweenUnits
+            // 
+            this.cbAddAndBetweenUnits.AutoSize = true;
+            this.cbAddAndBetweenUnits.Location = new System.Drawing.Point(30, 179);
+            this.cbAddAndBetweenUnits.Name = "cbAddAndBetweenUnits";
+            this.cbAddAndBetweenUnits.Size = new System.Drawing.Size(186, 17);
+            this.cbAddAndBetweenUnits.TabIndex = 18;
+            this.cbAddAndBetweenUnits.Text = "Add & between Main and Sub units";
+            this.cbAddAndBetweenUnits.UseVisualStyleBackColor = true;
+            // 
+            // cbUseShortenedUnits
+            // 
+            this.cbUseShortenedUnits.AutoSize = true;
+            this.cbUseShortenedUnits.Location = new System.Drawing.Point(217, 179);
+            this.cbUseShortenedUnits.Name = "cbUseShortenedUnits";
+            this.cbUseShortenedUnits.Size = new System.Drawing.Size(169, 17);
+            this.cbUseShortenedUnits.TabIndex = 17;
+            this.cbUseShortenedUnits.Text = "Use shortened version of units";
+            this.cbUseShortenedUnits.UseVisualStyleBackColor = true;
+            // 
             // MoneyToText
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 293);
+            this.Controls.Add(this.cbAddAndBetweenUnits);
+            this.Controls.Add(this.cbUseShortenedUnits);
             this.Controls.Add(this.cbSubUnitFirstCharUpper);
             this.Controls.Add(this.cbMainUnitNotConvertedToText);
             this.Controls.Add(this.cbCurrencyFirstCharUpper);
@@ -173,5 +197,7 @@
         private System.Windows.Forms.CheckBox cbCurrencyFirstCharUpper;
         private System.Windows.Forms.CheckBox cbMainUnitNotConvertedToText;
         private System.Windows.Forms.CheckBox cbSubUnitFirstCharUpper;
+        private System.Windows.Forms.CheckBox cbAddAndBetweenUnits;
+        private System.Windows.Forms.CheckBox cbUseShortenedUnits;
     }
 }
