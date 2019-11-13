@@ -29,6 +29,11 @@ namespace Nut.TextConverters
             return base.ToText(num, currencyModel, isMainUnit, genderGroup);
         }
 
+        protected override string GetConnectorBetweenMainAndDecimal()
+        {
+            return "con ";
+        }
+
         protected override long Append(long num, long scale, StringBuilder builder)
         {
             if (num > scale - 1)
@@ -38,15 +43,17 @@ namespace Nut.TextConverters
                 {
                     AppendUnitsForAdditional(baseScale, builder);
                 }
-                else {
+                else
+                {
                     AppendLessThanOneThousand(baseScale, builder);
                 }
 
-                if (scale == 1000000 && num > 1)
+                if (scale == 1000000 && num / scale > 1)
                 {
                     builder.AppendFormat("{0} ", ScaleTexts[scale][2]);
                 }
-                else {
+                else
+                {
                     builder.AppendFormat("{0} ", ScaleTexts[scale][0]);
                 }
 
@@ -73,7 +80,10 @@ namespace Nut.TextConverters
             if (num > 99)
             {
                 var hundreds = num / 100 * 100;
-                builder.AppendFormat("{0} ", NumberTexts[hundreds][0]);
+                if (num % 100 > 0)
+                    builder.AppendFormat("{0} ", NumberTexts[hundreds][1]);
+                else
+                    builder.AppendFormat("{0} ", NumberTexts[hundreds][0]);
                 num = num - hundreds;
             }
             return num;
@@ -171,6 +181,13 @@ namespace Nut.TextConverters
                         Currency = currency,
                         Names = new[] { "grivna ucraniana", "grivnas ucraniana" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopek", "kopeks" } }
+                    };
+                case Currency.ARS:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "peso", "pesos" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "centavo", "centavos" } }
                     };
             }
             return null;

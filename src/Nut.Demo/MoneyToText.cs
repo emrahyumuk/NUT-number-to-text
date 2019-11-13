@@ -9,7 +9,7 @@ namespace Nut.Demo {
         public MoneyToText() {
             InitializeComponent();
             cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua", "bg" };
-            cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "try", "uah", "bgn" };
+            cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "try", "uah", "bgn", "ars" };
         }
 
         private void btnMoneyToText_Click(object sender, EventArgs e) {

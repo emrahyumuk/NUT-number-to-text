@@ -173,6 +173,7 @@ namespace Nut.TextConverters
                     else {
                         subUnitText = ToText(subUnitNum, currencyModel, false);
                         subUnitText = options.SubUnitFirstCharUpper ? subUnitText.ToFirstLetterUpper(CultureName) : subUnitText;
+                        builder.Append(GetConnectorBetweenMainAndDecimal());
                         builder.Append(subUnitText);
                     }
 
@@ -186,6 +187,11 @@ namespace Nut.TextConverters
             }
 
             return builder.ToString().Trim();
+        }
+
+        protected virtual string GetConnectorBetweenMainAndDecimal()
+        {
+            return " ";
         }
 
         protected virtual string GetCurrencyText(long num, CurrencyModel currency, bool useShortModel)
