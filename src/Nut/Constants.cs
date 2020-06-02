@@ -1,6 +1,5 @@
 ﻿namespace Nut
 {
-
     internal static class Parameters
     {
         internal const long NumberLimit = 1000000000000;
@@ -40,5 +39,4 @@
         public const string UAH = "uah";
         public const string BGN = "bgn";
     }
-
 }
