@@ -14,7 +14,7 @@
         public const string Turkish = "tr";
         public const string Ukrainian = "ua";
         public const string Bulgarian = "bg";
-        public const string Ethiopian = "am";
+        public const string Amharic = "am";
     }
 
     public static class Culture

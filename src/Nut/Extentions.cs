@@ -42,7 +42,7 @@ namespace Nut
                 case Culture.Bulgarian:
                     text = BulgarianConverter.Instance.ToText(num);
                     break;
-                case Language.Ethiopian:
+                case Language.Amharic:
                 case Culture.EthiopianAM:
                     text = EthiopianConverter.Instance.ToText(num);
                     break;
@@ -84,7 +84,7 @@ namespace Nut
                 case Culture.Bulgarian:
                     text = BulgarianConverter.Instance.ToText(num, currency, options);
                     break;
-                case Language.Ethiopian:
+                case Language.Amharic:
                 case Culture.EthiopianAM:
                     text = EthiopianConverter.Instance.ToText(num, currency, options);
                     break;
