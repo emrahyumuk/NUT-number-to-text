@@ -14,6 +14,7 @@
         public const string Turkish = "tr";
         public const string Ukrainian = "ua";
         public const string Bulgarian = "bg";
+        public const string Ethiopian = "am";
     }
 
     public static class Culture
@@ -27,6 +28,7 @@
         public const string Turkish = "tr-TR";
         public const string Ukrainian = "uk-UA";
         public const string Bulgarian = "bg-BG";
+        public const string EthiopianAM = "am-ET";
     }
 
     public static class Currency
@@ -38,5 +40,6 @@
         public const string USD = "usd";
         public const string UAH = "uah";
         public const string BGN = "bgn";
+        public const string ETB = "etb";
     }
 }

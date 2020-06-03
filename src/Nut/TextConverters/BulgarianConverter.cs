@@ -255,6 +255,13 @@ namespace Nut.TextConverters
                         ShortUnitCurrency = "лв.",
                         ShortSubUnitCurrency = "ст."
                     };
+                case Currency.ETB:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "бр", "бр" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "стотинка", "стотинки", "стотинки" } }
+                    };
             }
             return null;
         }
