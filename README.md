@@ -16,15 +16,20 @@ Money To Text Converter
 
 **USAGE - Number To Text**
 
+```csharp
+
     var number = 123456
     var text = number.ToText("en");
 
     var number = 123456;
     var text = number.ToText(Language.English);
+```
 
 ---
 
 **USAGE - Money To Text**
+
+```csharp
 
     var number = 123456.78
     var moneyText = number.ToText("usd", "en");
@@ -32,16 +37,17 @@ Money To Text Converter
     var number = 123456.78;
     var moneyText = number.ToText(Nut.Currency.USD, Nut.Language.English);
 
-var number = 123456.78;
-var options = new Nut.Options {
-MainUnitNotConvertedToText = true,
-SubUnitNotConvertedToText = true,
-MainUnitFirstCharUpper = true,
-SubUnitFirstCharUpper = true,
-CurrencyFirstCharUpper = true,
-SubUnitZeroNotDisplayed = true
-}
-var moneyText = number.ToText(Nut.Currency.USD, Nut.Language.English, options);
+    var number = 123456.78;
+    var options = new Nut.Options {
+        MainUnitNotConvertedToText = true,
+        SubUnitNotConvertedToText = true,
+        MainUnitFirstCharUpper = true,
+        SubUnitFirstCharUpper = true,
+        CurrencyFirstCharUpper = true,
+        SubUnitZeroNotDisplayed = true
+    }
+    var moneyText = number.ToText(Nut.Currency.USD, Nut.Language.English, options);
+```
 
 ---
 
