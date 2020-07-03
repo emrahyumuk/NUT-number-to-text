@@ -172,6 +172,13 @@ namespace Nut.TextConverters
                         Names = new[] { "grivna ucraniana", "grivnas ucraniana" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopek", "kopeks" } }
                     };
+                case Currency.ETB:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "birr", "birr" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "centavo", "centavos" } }
+                    };
             }
             return null;
         }

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Nut.Models;
 
 namespace Nut.TextConverters
@@ -257,6 +254,13 @@ namespace Nut.TextConverters
                         SubUnitCurrency = new BaseCurrencyModel {Names = new[] {"стотинка", "стотинки", "стотинки"}},
                         ShortUnitCurrency = "лв.",
                         ShortSubUnitCurrency = "ст."
+                    };
+                case Currency.ETB:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "бр", "бр" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "стотинка", "стотинки", "стотинки" } }
                     };
             }
             return null;

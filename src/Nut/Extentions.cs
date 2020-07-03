@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Globalization;
 using System.Linq;
-using Nut.Models;
 using Nut.TextConverters;
 
 namespace Nut
@@ -43,6 +42,10 @@ namespace Nut
                 case Culture.Bulgarian:
                     text = BulgarianConverter.Instance.ToText(num);
                     break;
+                case Language.Amharic:
+                case Culture.EthiopianAM:
+                    text = EthiopianConverter.Instance.ToText(num);
+                    break;
             }
             return text;
         }
@@ -80,6 +83,10 @@ namespace Nut
                 case Language.Bulgarian:
                 case Culture.Bulgarian:
                     text = BulgarianConverter.Instance.ToText(num, currency, options);
+                    break;
+                case Language.Amharic:
+                case Culture.EthiopianAM:
+                    text = EthiopianConverter.Instance.ToText(num, currency, options);
                     break;
             }
             return text;

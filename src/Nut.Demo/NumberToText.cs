@@ -1,12 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Nut.Demo
@@ -17,7 +10,7 @@ namespace Nut.Demo
         {
             InitializeComponent();
 
-            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua", "bg" };
+            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua", "bg", "am" };
         }
 
         private void btnNumberToText_Click(object sender, EventArgs e)
