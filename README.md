@@ -59,8 +59,8 @@ Money To Text Converter
 
 **THANKS**
 
-[Latif Turk](https://github.com/Latif07) - Ukrainian Language and Currency
-[SecreT2k8](https://github.com/SecreT2k8) - Bulgarian Language and Currency
-[ashGHub](https://github.com/ashGHub) - .Net Standart Migration, Ethiopian Language and Currency
+- [Latif Turk](https://github.com/Latif07) - Ukrainian Language and Currency
+- [SecreT2k8](https://github.com/SecreT2k8) - Bulgarian Language and Currency
+- [ashGHub](https://github.com/ashGHub) - .Net Standart Migration, Ethiopian Language and Currency
 
 ---
