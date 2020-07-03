@@ -39,6 +39,7 @@
         public const string USD = "usd";
         public const string UAH = "uah";
         public const string BGN = "bgn";
+        public const string ARS = "ars";
     }
 
 }
