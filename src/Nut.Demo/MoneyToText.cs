@@ -8,8 +8,8 @@ namespace Nut.Demo {
     public partial class MoneyToText : Form {
         public MoneyToText() {
             InitializeComponent();
-            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua", "bg", "am" };
-            cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "try", "uah", "bgn", "etb" };
+            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua", "bg", "am","pl" };
+            cmbCurrency.DataSource = new List<string>() { "usd", "eur", "rub", "try", "uah", "bgn", "etb","pln" };
         }
 
         private void btnMoneyToText_Click(object sender, EventArgs e) {

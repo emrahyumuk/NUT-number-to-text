@@ -87,7 +87,7 @@ namespace Nut.TextConverters
         {
             if (num > 0)
             {
-                builder.AppendFormat("{0} ", NumberTexts[num][1]);
+                builder.AppendFormat("{0} ", NumberTexts[num][0]);
             }
         }
 

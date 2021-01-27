@@ -15,6 +15,7 @@
         public const string Ukrainian = "ua";
         public const string Bulgarian = "bg";
         public const string Amharic = "am";
+        public const string Polish = "pl";
     }
 
     public static class Culture
@@ -29,6 +30,7 @@
         public const string Ukrainian = "uk-UA";
         public const string Bulgarian = "bg-BG";
         public const string EthiopianAM = "am-ET";
+        public const string Polish = "pl-PL";
     }
 
     public static class Currency
@@ -41,5 +43,6 @@
         public const string UAH = "uah";
         public const string BGN = "bgn";
         public const string ETB = "etb";
+        public const string PLN = "pln";
     }
 }

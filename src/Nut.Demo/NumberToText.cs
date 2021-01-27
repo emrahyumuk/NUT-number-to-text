@@ -9,8 +9,8 @@ namespace Nut.Demo
         public NumberToText()
         {
             InitializeComponent();
-
-            cmbLang.DataSource = new List<string>() { "en", "es", "fr", "ru", "tr", "ua", "bg", "am" };
+            txtNumber.Text = "1234567";
+            cmbLang.DataSource = new List<string>() { "pl","en", "es", "fr", "ru", "tr", "ua", "bg", "am" };
         }
 
         private void btnNumberToText_Click(object sender, EventArgs e)
