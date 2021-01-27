@@ -4,26 +4,24 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Nut</PackageId>
-    <PackageVersion>3.0.0</PackageVersion>
+    <PackageVersion>3.1.0</PackageVersion>
     <Title>Nut (Number to Text)</Title>
     <Authors>Emrah Yumuk</Authors>
     <Description>Number To Text Converter
 Money To Text Converter
 
-Supported Languages: English, French, Russian, Spanish, Turkish, Ukrainian, Ethiopian
+Supported Languages: English, French, Russian, Spanish, Turkish, Ukrainian, Ethiopian, Polish.
 
-Supported Currencies: EUR, USD, RUB, TRY, UAH, ETB
+Supported Currencies: EUR, USD, RUB, TRY, UAH, ETB, PLN.
 
 Number Limit: 1 trillion</Description>
     <PackageProjectUrl>https://github.com/emrahyumuk/NUT-number-to-text</PackageProjectUrl>
     <PackageLicenseUrl>MIT</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/emrahyumuk/NUT-number-to-text</RepositoryUrl>
-    <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, BGN, ethiopian, ETB</PackageTags>
-    <PackageReleaseNotes>- added Bulgarian language and currency
-- added Ethiopian language and currrency
-- net standart 2.0 </PackageReleaseNotes>
-    <AssemblyVersion>3.0.0</AssemblyVersion>
-    <FileVersion>3.0.0</FileVersion>
+    <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, BGN, ethiopian, ETB, polish, PLN</PackageTags>
+    <PackageReleaseNotes>- added Polish language and currency</PackageReleaseNotes>
+    <AssemblyVersion>3.1.0</AssemblyVersion>
+    <FileVersion>3.1.0</FileVersion>
   </PropertyGroup>
 
 </Project>
