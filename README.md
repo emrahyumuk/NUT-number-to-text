@@ -6,9 +6,9 @@ Number To Text Converter
 
 Money To Text Converter
 
-**Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Ethiopian.
+**Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Ethiopian, Polish.
 
-**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB.
+**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN.
 
 **Number Limit:** 1 trillion
 
@@ -62,5 +62,6 @@ Money To Text Converter
 - [Latif Turk](https://github.com/Latif07) - Ukrainian Language and Currency
 - [SecreT2k8](https://github.com/SecreT2k8) - Bulgarian Language and Currency
 - [ashGHub](https://github.com/ashGHub) - .Net Standart Migration, Ethiopian Language and Currency
+- [kashiash](https://github.com/kashiash) - Polish Language and Currency
 
 ---
