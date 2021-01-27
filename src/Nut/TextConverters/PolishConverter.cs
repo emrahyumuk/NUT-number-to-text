@@ -210,7 +210,7 @@ namespace Nut.TextConverters
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "берр", "берр" },
+            Names = new[] { "берр", "берр", "берр" },
             SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копійка", "копійки", "копійок" } }
           };
       }
