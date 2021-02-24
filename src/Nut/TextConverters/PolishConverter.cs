@@ -213,6 +213,13 @@ namespace Nut.TextConverters
             Names = new[] { "берр", "берр", "берр" },
             SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копійка", "копійки", "копійок" } }
           };
+        case Currency.BYN:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "rubel białoruski", "ruble białoruskie", "rubli białoruskich" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopiejka", "kopiejki", "kopiejek" } }
+          };
       }
       return null;
     }
