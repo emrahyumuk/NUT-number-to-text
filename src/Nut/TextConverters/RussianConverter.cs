@@ -22,12 +22,12 @@ namespace Nut.TextConverters
       switch (currencyModel.Currency)
       {
         case Currency.RUB:
-          NumberTexts[2][0] = isMainUnit ? "два" : "две";
-          break;
         case Currency.EUR:
+          NumberTexts[1][0] = isMainUnit ? "один" : "одна";
           NumberTexts[2][0] = isMainUnit ? "два" : "две";
           break;
         default:
+          NumberTexts[1][0] = "один";
           NumberTexts[2][0] = "два";
           break;
       }
