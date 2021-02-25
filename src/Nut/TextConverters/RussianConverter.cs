@@ -21,13 +21,18 @@ namespace Nut.TextConverters
     {
       switch (currencyModel.Currency)
       {
+        case Currency.BYN:
         case Currency.RUB:
+        case Currency.EUR:
+          NumberTexts[1][0] = isMainUnit ? "один" : "одна";
           NumberTexts[2][0] = isMainUnit ? "два" : "две";
           break;
-        case Currency.EUR:
-          NumberTexts[2][0] = isMainUnit ? "два" : "две";
+        case Currency.UAH:
+          NumberTexts[1][0] = "одна";
+          NumberTexts[2][0] = "две";
           break;
         default:
+          NumberTexts[1][0] = "один";
           NumberTexts[2][0] = "два";
           break;
       }
@@ -215,7 +220,14 @@ namespace Nut.TextConverters
           {
             Currency = currency,
             Names = new[] { "злотый", "злотый", "злотых" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "ногтей", "ногтей", "гроши" } }
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "грош", "гроша", "грошей" } }
+          };
+        case Currency.BYN:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "белорусский рубль", "белорусских рубля", "белорусских рублей" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копеек" } }
           };
       }
       return null;

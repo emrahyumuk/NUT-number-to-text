@@ -20,6 +20,24 @@ namespace Nut.TextConverters
       Initialize();
     }
 
+    protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+    {
+      switch (currencyModel.Currency)
+      {
+        case Currency.BYN:
+        case Currency.RUB:
+        case Currency.EUR:
+          NumberTexts[1][0] = isMainUnit ? "Один" : "Одна";
+          NumberTexts[2][0] = isMainUnit ? "Два" : "Дві";
+          break;
+        default:
+          NumberTexts[1][0] = "Одна";
+          NumberTexts[2][0] = "Дві";
+          break;
+      }
+      return ToText(num);
+    }
+
     protected override long Append(long num, long scale, StringBuilder builder)
     {
       if (num > scale - 1)
