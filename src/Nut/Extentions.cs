@@ -44,7 +44,7 @@ namespace Nut
                     break;
                 case Language.Amharic:
                 case Culture.EthiopianAM:
-                    text = EthiopianConverter.Instance.ToText(num);
+                    text = AmharicConverter.Instance.ToText(num);
                     break;
                 case Language.Polish:
                 case Culture.Polish:
@@ -95,7 +95,7 @@ namespace Nut
                     break;
                 case Language.Amharic:
                 case Culture.EthiopianAM:
-                    text = EthiopianConverter.Instance.ToText(num, currency, options);
+                    text = AmharicConverter.Instance.ToText(num, currency, options);
                     break;
             }
             return text;

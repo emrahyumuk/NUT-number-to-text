@@ -3,14 +3,14 @@ using System;
 
 namespace Nut.TextConverters
 {
-    public sealed class EthiopianConverter : BaseConverter
+    public sealed class AmharicConverter : BaseConverter
     {
-        private static readonly Lazy<EthiopianConverter> Lazy = new Lazy<EthiopianConverter>(() => new EthiopianConverter());
-        public static EthiopianConverter Instance => Lazy.Value;
+        private static readonly Lazy<AmharicConverter> Lazy = new Lazy<AmharicConverter>(() => new AmharicConverter());
+        public static AmharicConverter Instance => Lazy.Value;
 
         public override string CultureName => Culture.EthiopianAM;
 
-        public EthiopianConverter()
+        public AmharicConverter()
         {
             Initialize();
         }
