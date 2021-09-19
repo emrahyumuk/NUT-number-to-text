@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Nut</PackageId>
-    <PackageVersion>3.1.0</PackageVersion>
+    <PackageVersion>3.2.0</PackageVersion>
     <Title>Nut (Number to Text)</Title>
     <Authors>Emrah Yumuk</Authors>
     <Description>Number To Text Converter
@@ -18,10 +18,13 @@ Number Limit: 1 trillion</Description>
     <PackageProjectUrl>https://github.com/emrahyumuk/NUT-number-to-text</PackageProjectUrl>
     <PackageLicenseUrl>MIT</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/emrahyumuk/NUT-number-to-text</RepositoryUrl>
-    <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, BGN, ethiopian, ETB, polish, PLN</PackageTags>
-    <PackageReleaseNotes>- added Polish language and currency</PackageReleaseNotes>
-    <AssemblyVersion>3.1.0</AssemblyVersion>
-    <FileVersion>3.1.0</FileVersion>
+    <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, BGN, amharic, ETB, polish, PLN, Belarussian, BLN</PackageTags>
+    <PackageReleaseNotes>
+    - added Belarussian language and currency (BYN)
+    - bug fixed on Russian language
+    - Ethiopian language name fixed as Amharic</PackageReleaseNotes>
+    <AssemblyVersion>3.2.0</AssemblyVersion>
+    <FileVersion>3.2.0</FileVersion>
   </PropertyGroup>
 
 </Project>

@@ -63,5 +63,6 @@ Money To Text Converter
 - [SecreT2k8](https://github.com/SecreT2k8) - Bulgarian Language and Currency
 - [ashGHub](https://github.com/ashGHub) - .Net Standart Migration, Ethiopian Language and Currency
 - [kashiash](https://github.com/kashiash) - Polish Language and Currency
+- [DeNcHiK3713](https://github.com/DeNcHiK3713) - Belarussian Language and Currency
 
 ---
