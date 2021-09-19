@@ -6,7 +6,7 @@ Number To Text Converter
 
 Money To Text Converter
 
-**Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Ethiopian, Polish.
+**Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish.
 
 **Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN.
 
