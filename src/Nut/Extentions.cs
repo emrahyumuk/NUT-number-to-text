@@ -50,6 +50,10 @@ namespace Nut
                 case Culture.Polish:
                     text = PolishConverter.Instance.ToText(num);
                     break;
+                case Language.Belarusian:
+                case Culture.Belarusian:
+                    text = BelarusianConverter.Instance.ToText(num);
+                    break;
             }
             return text;
         }
@@ -96,6 +100,10 @@ namespace Nut
                 case Language.Amharic:
                 case Culture.EthiopianAM:
                     text = AmharicConverter.Instance.ToText(num, currency, options);
+                    break;
+                case Language.Belarusian:
+                case Culture.Belarusian:
+                    text = BelarusianConverter.Instance.ToText(num, currency, options);
                     break;
             }
             return text;
