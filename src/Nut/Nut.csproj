@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Nut</PackageId>
-    <PackageVersion>3.2.1</PackageVersion>
+    <PackageVersion>3.2.2</PackageVersion>
     <Title>Nut (Number to Text)</Title>
     <Authors>Emrah Yumuk</Authors>
     <Description>Number To Text Converter
@@ -12,19 +12,20 @@ Money To Text Converter
 
 Supported Languages: English, French, Russian, Spanish, Turkish, Ukrainian, Amharic, Polish, Belarussian.
 
-Supported Currencies: EUR, USD, RUB, TRY, UAH, ETB, PLN, BYN.
+Supported Currencies: EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS.
 
 Number Limit: 1 trillion</Description>
     <PackageProjectUrl>https://github.com/emrahyumuk/NUT-number-to-text</PackageProjectUrl>
     <PackageLicenseUrl>MIT</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/emrahyumuk/NUT-number-to-text</RepositoryUrl>
-    <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, BGN, amharic, ETB, polish, PLN, Belarussian, BLN</PackageTags>
-    <PackageReleaseNotes>
-    - added Belarussian language and currency (BYN)
-    - bug fixed on Russian language
-    - Ethiopian language name fixed as Amharic</PackageReleaseNotes>
-    <AssemblyVersion>3.2.1</AssemblyVersion>
-    <FileVersion>3.2.1</FileVersion>
+    <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, BGN, amharic, ETB, polish, PLN, Belarussian, BLN, ARS, argentine pesos</PackageTags>
+    <PackageReleaseNotes>- added Belarussian language and currency (BYN)
+    - bugs fixed in Russian language
+    - bugs fixed in Spanish language
+    - Ethiopian language name fixed as Amharic
+    - Argentine Pesos added to currencies</PackageReleaseNotes>
+    <AssemblyVersion>3.2.2</AssemblyVersion>
+    <FileVersion>3.2.2</FileVersion>
   </PropertyGroup>
 
 </Project>

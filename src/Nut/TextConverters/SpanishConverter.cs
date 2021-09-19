@@ -21,7 +21,6 @@ namespace Nut.TextConverters
       return base.ToText(num, currency, options, genderGroup);
     }
 
-
     protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit, GenderGroup genderGroup = GenderGroup.None)
     {
       return base.ToText(num, currencyModel, isMainUnit, genderGroup);
@@ -41,7 +40,7 @@ namespace Nut.TextConverters
           AppendLessThanOneThousand(baseScale, builder);
         }
 
-        if (scale == 1000000 && num > 1)
+        if (scale == 1000000 && num / scale > 1)
         {
           builder.AppendFormat("{0} ", ScaleTexts[scale][2]);
         }
@@ -73,10 +72,23 @@ namespace Nut.TextConverters
       if (num > 99)
       {
         var hundreds = num / 100 * 100;
-        builder.AppendFormat("{0} ", NumberTexts[hundreds][0]);
+         if (num % 100 > 0)
+         {
+           builder.AppendFormat("{0} ", NumberTexts[hundreds][1]);
+         }
+         else
+         {
+           builder.AppendFormat("{0} ", NumberTexts[hundreds][0]);
+         }
+                    
         num = num - hundreds;
       }
       return num;
+    }
+
+    protected override string GetUnitSeparator(CurrencyModel currency, bool addAndAsUnitSeparator)
+    {
+      return addAndAsUnitSeparator ? " con " : " ";
     }
 
     private void Initialize()
@@ -192,6 +204,13 @@ namespace Nut.TextConverters
             Currency = currency,
             Names = new[] { "rublo bielorruso", "rublos bielorrusos" },
             SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopek", "kopeks" } }
+          };
+        case Currency.ARS:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "peso", "pesos" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "centavo", "centavos" } }
           };
       }
       return null;
