@@ -17,7 +17,7 @@ namespace Nut.TextConverters
     {
       Initialize();
     }
-
+    
     protected override long Append(long num, long scale, StringBuilder builder)
     {
       if (num > scale - 1)
@@ -165,6 +165,13 @@ namespace Nut.TextConverters
             Currency = currency,
             Names = new[] { "zloty", "zloty" },
             SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "groszy", "groszy" } }
+          };
+        case Currency.BYN:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "rouble biélorusse", "roubles biélorusses" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopeck ", "kopecks" } }
           };
       }
       return null;
