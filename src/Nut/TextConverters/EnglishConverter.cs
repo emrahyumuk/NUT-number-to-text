@@ -92,6 +92,28 @@ namespace Nut.TextConverters
                         Names = new[] { "ukrainian hryvnia", "ukrainian hryvnia" },
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopiyka", "kopiyky", "kopiyok" } }
                     };
+
+                case Currency.ETB:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "birr", "birr" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "cent", "cents" } }
+                    };
+                case Currency.PLN:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "zloty", "zloty" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "grosz", "grosze", "groszy" } }
+                    };
+                case Currency.BYN:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "Belarusian ruble", "Belarusian rubles" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopek", "kopeks" } }
+                    };
             }
             return null;
         }

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Nut.Models;
 
 namespace Nut.TextConverters
@@ -24,11 +21,11 @@ namespace Nut.TextConverters
         {
             switch (currencyModel.Currency)
             {
-                case Currency.RUB:
-                    NumberTexts[2][0] = isMainUnit ? "два" : "две";
-                    break;
+                case Currency.BYN:
                 case Currency.EUR:
-                    NumberTexts[2][0] = isMainUnit ? "два" : "две";
+                case Currency.RUB:
+                case Currency.UAH:
+                    NumberTexts[2][0] = "две";
                     break;
                 default:
                     NumberTexts[2][0] = "два";
@@ -257,6 +254,27 @@ namespace Nut.TextConverters
                         SubUnitCurrency = new BaseCurrencyModel {Names = new[] {"стотинка", "стотинки", "стотинки"}},
                         ShortUnitCurrency = "лв.",
                         ShortSubUnitCurrency = "ст."
+                    };
+                case Currency.ETB:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "бр", "бр", "бр" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "стотинка", "стотинки", "стотинки" } }
+                    };
+                case Currency.PLN:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "злоти", "злоти", "злоти" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "гроз", "гроз", "гроз" } }
+                    };
+                case Currency.BYN:
+                    return new CurrencyModel
+                    {
+                        Currency = currency,
+                        Names = new[] { "белоруски рубли", "белоруски рубли", "белоруски рубли" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейки", "копейки", "копейки" } }
                     };
             }
             return null;

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Globalization;
 using System.Linq;
-using Nut.Models;
 using Nut.TextConverters;
 
 namespace Nut
@@ -43,6 +42,18 @@ namespace Nut
                 case Culture.Bulgarian:
                     text = BulgarianConverter.Instance.ToText(num);
                     break;
+                case Language.Amharic:
+                case Culture.EthiopianAM:
+                    text = AmharicConverter.Instance.ToText(num);
+                    break;
+                case Language.Polish:
+                case Culture.Polish:
+                    text = PolishConverter.Instance.ToText(num);
+                    break;
+                case Language.Belarusian:
+                case Culture.Belarusian:
+                    text = BelarusianConverter.Instance.ToText(num);
+                    break;
             }
             return text;
         }
@@ -65,6 +76,11 @@ namespace Nut
                 case Culture.Russian:
                     text = RussianConverter.Instance.ToText(num, currency, options);
                     break;
+
+                case Language.Polish:
+                case Culture.Polish:
+                    text = PolishConverter.Instance.ToText(num, currency, options);
+                    break;
                 case Language.Spanish:
                 case Culture.Spanish:
                     text = SpanishConverter.Instance.ToText(num, currency, options, genderGroup);
@@ -80,6 +96,14 @@ namespace Nut
                 case Language.Bulgarian:
                 case Culture.Bulgarian:
                     text = BulgarianConverter.Instance.ToText(num, currency, options);
+                    break;
+                case Language.Amharic:
+                case Culture.EthiopianAM:
+                    text = AmharicConverter.Instance.ToText(num, currency, options);
+                    break;
+                case Language.Belarusian:
+                case Culture.Belarusian:
+                    text = BelarusianConverter.Instance.ToText(num, currency, options);
                     break;
             }
             return text;
