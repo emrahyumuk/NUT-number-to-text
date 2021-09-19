@@ -86,9 +86,9 @@ namespace Nut.TextConverters
       return num;
     }
 
-    protected override string GetUnitSeparator(CurrencyModel currency, bool addAndAsUnitSeparator)
+    protected override string GetUnitSeparator(CurrencyModel currency)
     {
-      return addAndAsUnitSeparator ? " con " : " ";
+      return " con ";
     }
 
     private void Initialize()

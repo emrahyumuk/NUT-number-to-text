@@ -152,7 +152,7 @@ namespace Nut.TextConverters
 
             builder.Append(" ");
 
-            var currencyText = GetCurrencyText(mainUnitNum, currencyModel, options.UseShortenedUnits);
+            var currencyText = GetCurrencyText(mainUnitNum, currencyModel);
             currencyText = options.CurrencyFirstCharUpper ? currencyText.ToFirstLetterUpper(CultureName) : currencyText;
             builder.Append(currencyText);
 
@@ -163,7 +163,7 @@ namespace Nut.TextConverters
                 var subUnitNum = Convert.ToInt64(subUnitText);
                 if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0)
                 {
-                    builder.Append(GetUnitSeparator(currencyModel, options.AddAndBetweenMainUnitAndSubUnits));
+                    builder.Append(GetUnitSeparator(currencyModel));
 
                     if (options.SubUnitNotConvertedToText)
                     {
@@ -177,7 +177,7 @@ namespace Nut.TextConverters
 
                     builder.Append(" ");
 
-                    var subUnitCurrencyText = GetSubUnitCurrencyText(subUnitNum, currencyModel, options.UseShortenedUnits);
+                    var subUnitCurrencyText = GetSubUnitCurrencyText(subUnitNum, currencyModel);
                     subUnitCurrencyText = options.CurrencyFirstCharUpper ? subUnitCurrencyText.ToFirstLetterUpper(CultureName) : subUnitCurrencyText;
                     builder.Append(subUnitCurrencyText);
                 }
@@ -187,12 +187,12 @@ namespace Nut.TextConverters
             return builder.ToString().Trim();
         }
 
-        protected virtual string GetCurrencyText(long num, CurrencyModel currency, bool useShortModel)
+        protected virtual string GetCurrencyText(long num, CurrencyModel currency)
         {
             return num > 1 ? currency.Names[1] : currency.Names[0];
         }
 
-        protected virtual string GetSubUnitCurrencyText(long num, CurrencyModel currency, bool useShortModel)
+        protected virtual string GetSubUnitCurrencyText(long num, CurrencyModel currency)
         {
             return num > 1 ? currency.SubUnitCurrency.Names[1] : currency.SubUnitCurrency.Names[0];
         }
@@ -201,7 +201,7 @@ namespace Nut.TextConverters
             return null;
         }
 
-        protected virtual string GetUnitSeparator(CurrencyModel currency, bool addAndAsUnitSeparator)
+        protected virtual string GetUnitSeparator(CurrencyModel currency)
         {
             return " ";
         }

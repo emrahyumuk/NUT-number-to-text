@@ -182,18 +182,14 @@ namespace Nut.TextConverters
 
         #region Currency
 
-        protected override string GetCurrencyText(long num, CurrencyModel currency, bool useShort)
+        protected override string GetCurrencyText(long num, CurrencyModel currency)
         {
-            if (useShort)
-                return currency.ShortUnitCurrency;
             var textType = num == 1 ? 0 : 1;
             return currency.Names[textType];
         }
 
-        protected override string GetSubUnitCurrencyText(long num, CurrencyModel currency, bool useShort)
+        protected override string GetSubUnitCurrencyText(long num, CurrencyModel currency)
         {
-            if (useShort)
-                return currency.ShortSubUnitCurrency;
             var textType = num == 1 ? 0 : 1;
             return currency.SubUnitCurrency.Names[textType];
         }
@@ -207,53 +203,41 @@ namespace Nut.TextConverters
                     {
                         Currency = currency,
                         Names = new[] { "евро", "евро", "евро" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "евроцент", "евроцента", "евроцента" } },
-                        ShortUnitCurrency = "ев.",
-                        ShortSubUnitCurrency = "цт."
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "евроцент", "евроцента", "евроцента" } }
                     };
                 case Currency.USD:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "долар", "долара", "долара" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "цент", "цента", "цента" } },
-                        ShortUnitCurrency = "дл.",
-                        ShortSubUnitCurrency = "цт."
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "цент", "цента", "цента" } }
                     };
                 case Currency.RUB:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "рубли", "рубли", "рубли" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейки", "копейки", "копейки" } },
-                        ShortUnitCurrency = "рб.",
-                        ShortSubUnitCurrency = "кп."
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейки", "копейки", "копейки" } }
                     };
                 case Currency.TRY:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "турска лира", "турска лира", "турска лира" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "куруш", "куруши", "куруши" } },
-                        ShortUnitCurrency = "тл.",
-                        ShortSubUnitCurrency = "кр."
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "куруш", "куруши", "куруши" } }
                     };
                 case Currency.UAH:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "гривня", "гривни", "гривни" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копейки" } },
-                        ShortUnitCurrency = "гр.",
-                        ShortSubUnitCurrency = "кп."
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копейки" } }
                     };
                 case Currency.BGN:
                     return new CurrencyModel {
                         Currency = currency,
                         Names = new[] {"лев", "лева", "лева"},
-                        SubUnitCurrency = new BaseCurrencyModel {Names = new[] {"стотинка", "стотинки", "стотинки"}},
-                        ShortUnitCurrency = "лв.",
-                        ShortSubUnitCurrency = "ст."
+                        SubUnitCurrency = new BaseCurrencyModel {Names = new[] {"стотинка", "стотинки", "стотинки"}}
                     };
                 case Currency.ETB:
                     return new CurrencyModel
@@ -280,9 +264,9 @@ namespace Nut.TextConverters
             return null;
         }
 
-        protected override string GetUnitSeparator(CurrencyModel currency, bool addAndAsUnitSeparator)
+        protected override string GetUnitSeparator(CurrencyModel currency)
         {
-            return addAndAsUnitSeparator ? " и " : " ";
+            return " и ";
         }
 
         #endregion
