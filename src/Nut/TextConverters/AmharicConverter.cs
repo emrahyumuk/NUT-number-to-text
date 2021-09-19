@@ -54,9 +54,9 @@ namespace Nut.TextConverters
 
         #region Currency
 
-        protected override string GetUnitSeparator(CurrencyModel currency, bool addAndAsUnitSeparator)
+        protected override string GetUnitSeparator(CurrencyModel currency)
         {
-            return addAndAsUnitSeparator ? " ከ ": " ";
+            return " ከ ";
         }
 
         protected override CurrencyModel GetCurrencyModel(string currency)

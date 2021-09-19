@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Nut</PackageId>
-    <PackageVersion>3.2.2</PackageVersion>
+    <PackageVersion>3.2.3</PackageVersion>
     <Title>Nut (Number to Text)</Title>
     <Authors>Emrah Yumuk</Authors>
     <Description>Number To Text Converter
@@ -24,8 +24,8 @@ Number Limit: 1 trillion</Description>
     - bugs fixed in Spanish language
     - Ethiopian language name fixed as Amharic
     - Argentine Pesos added to currencies</PackageReleaseNotes>
-    <AssemblyVersion>3.2.2</AssemblyVersion>
-    <FileVersion>3.2.2</FileVersion>
+    <AssemblyVersion>3.2.3</AssemblyVersion>
+    <FileVersion>3.2.3</FileVersion>
   </PropertyGroup>
 
 </Project>

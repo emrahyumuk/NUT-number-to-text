@@ -21,9 +21,7 @@ namespace Nut.Demo {
                 MainUnitFirstCharUpper = cbMainUnitFirstCharUpper.Checked,
                 SubUnitFirstCharUpper = cbSubUnitFirstCharUpper.Checked,
                 CurrencyFirstCharUpper = cbCurrencyFirstCharUpper.Checked,
-                SubUnitZeroNotDisplayed = cbSubUnitZeroNotIncluded.Checked,
-                AddAndBetweenMainUnitAndSubUnits = cbAddAndBetweenUnits.Checked,
-                UseShortenedUnits = cbUseShortenedUnits.Checked
+                SubUnitZeroNotDisplayed = cbSubUnitZeroNotIncluded.Checked
             };
             var text = Convert.ToDecimal(txtNumber.Text, CultureInfo.CurrentCulture).ToText(currency, lang, options);
             txtResultText.Text = text;

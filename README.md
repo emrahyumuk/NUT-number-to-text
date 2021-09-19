@@ -41,10 +41,10 @@ Money To Text Converter
     var options = new Nut.Options {
         MainUnitNotConvertedToText = true,
         SubUnitNotConvertedToText = true,
+        SubUnitZeroNotDisplayed = true,
         MainUnitFirstCharUpper = true,
         SubUnitFirstCharUpper = true,
-        CurrencyFirstCharUpper = true,
-        SubUnitZeroNotDisplayed = true
+        CurrencyFirstCharUpper = true
     }
     var moneyText = number.ToText(Nut.Currency.USD, Nut.Language.English, options);
 ```

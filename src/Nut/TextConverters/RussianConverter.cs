@@ -157,13 +157,13 @@ namespace Nut.TextConverters
 
     #region Currency
 
-    protected override string GetCurrencyText(long num, CurrencyModel currency, bool useShort)
+    protected override string GetCurrencyText(long num, CurrencyModel currency)
     {
       var textType = GetTextType(num);
       return currency.Names[textType - 1];
     }
 
-    protected override string GetSubUnitCurrencyText(long num, CurrencyModel currency, bool useShort)
+    protected override string GetSubUnitCurrencyText(long num, CurrencyModel currency)
     {
       var textType = GetTextType(num);
       return currency.SubUnitCurrency.Names[textType - 1];
