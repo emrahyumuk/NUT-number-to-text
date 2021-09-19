@@ -47,5 +47,6 @@
         public const string ETB = "etb";
         public const string PLN = "pln";
         public const string BYN = "byn";
+        public const string ARS = "ars";
     }
 }
