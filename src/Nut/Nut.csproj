@@ -10,9 +10,9 @@
     <Description>Number To Text Converter
 Money To Text Converter
 
-Supported Languages: English, French, Russian, Spanish, Turkish, Ukrainian, Amharic, Polish.
+Supported Languages: English, French, Russian, Spanish, Turkish, Ukrainian, Amharic, Polish, Belarussian.
 
-Supported Currencies: EUR, USD, RUB, TRY, UAH, ETB, PLN.
+Supported Currencies: EUR, USD, RUB, TRY, UAH, ETB, PLN, BYN.
 
 Number Limit: 1 trillion</Description>
     <PackageProjectUrl>https://github.com/emrahyumuk/NUT-number-to-text</PackageProjectUrl>

@@ -8,7 +8,7 @@ Money To Text Converter
 
 **Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian.
 
-**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN.
+**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN.
 
 **Number Limit:** 1 trillion
 
