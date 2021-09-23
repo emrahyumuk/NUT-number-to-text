@@ -66,3 +66,9 @@ Money To Text Converter
 - [DeNcHiK3713](https://github.com/DeNcHiK3713) - Belarussian Language and Currency
 
 ---
+
+**LICENCE**
+
+NUT-number-to-text is [MIT licensed.](LICENSE)
+
+---
