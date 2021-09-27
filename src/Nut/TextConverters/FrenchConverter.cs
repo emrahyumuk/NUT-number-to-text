@@ -78,6 +78,21 @@ namespace Nut.TextConverters
       }
       return num;
     }
+
+    protected override long AppendHundreds(long num, StringBuilder builder)
+    {
+        if (num > 99)
+        {
+            var hundreds = num / 100;
+            if (hundreds != 1)
+                builder.AppendFormat("{0} {1} ", NumberTexts[hundreds][0], NumberTexts[100][0]);
+            else
+                builder.AppendFormat("{0} ", NumberTexts[100][0]);
+            num = num - (hundreds * 100);
+        }
+        return num;
+    }
+
     private void Initialize()
     {
       NumberTexts.Add(0, new[] { "zéro" });
