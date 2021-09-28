@@ -163,7 +163,10 @@ namespace Nut.TextConverters
                 var subUnitNum = Convert.ToInt64(subUnitText);
                 if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0)
                 {
-                    builder.Append(GetUnitSeparator(currencyModel));
+                    if (options.RadixInCurrencyNotConvertedToText)
+                        builder.Append(" "); 
+                    else
+                        builder.Append(GetUnitSeparator(currencyModel));
 
                     if (options.SubUnitNotConvertedToText)
                     {
