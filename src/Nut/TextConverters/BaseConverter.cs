@@ -165,9 +165,9 @@ namespace Nut.TextConverters
         if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0)
         {
           builder.Append(GetUnitSeparator(currencyModel));
-        if (options.RadixInCurrencyNotConvertedToText)
-          builder.Append(" ");
-        else
+          if (options.RadixInCurrencyNotConvertedToText)
+            builder.Append(" ");
+          else
             builder.Append(GetUnitSeparator(currencyModel));
 
           if (options.SubUnitNotConvertedToText)
