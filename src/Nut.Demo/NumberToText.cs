@@ -16,7 +16,7 @@ namespace Nut.Demo
         private void btnNumberToText_Click(object sender, EventArgs e)
         {
             var lang = cmbLang.SelectedValue.ToString();
-            var text = Convert.ToDecimal(txtNumber.Text).ToText("", lang);
+            var text = Convert.ToInt32(txtNumber.Text).ToText(lang);
             txtResultText.Text = text;
         }
     }
