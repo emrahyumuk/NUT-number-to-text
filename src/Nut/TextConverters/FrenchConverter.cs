@@ -191,5 +191,10 @@ namespace Nut.TextConverters
       }
       return null;
     }
+
+    protected override string GetUnitSeparator(CurrencyModel currency)
+    {
+        return " et ";
+    }
   }
 }
