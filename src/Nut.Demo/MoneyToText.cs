@@ -21,7 +21,8 @@ namespace Nut.Demo {
                 MainUnitFirstCharUpper = cbMainUnitFirstCharUpper.Checked,
                 SubUnitFirstCharUpper = cbSubUnitFirstCharUpper.Checked,
                 CurrencyFirstCharUpper = cbCurrencyFirstCharUpper.Checked,
-                SubUnitZeroNotDisplayed = cbSubUnitZeroNotIncluded.Checked
+                SubUnitZeroNotDisplayed = cbSubUnitZeroNotIncluded.Checked,
+                RadixInCurrencyNotConvertedToText = cbRadixInCurrencyNotConvertedToText.Checked
             };
             var text = Convert.ToDecimal(txtNumber.Text, CultureInfo.CurrentCulture).ToText(currency, lang, options);
             txtResultText.Text = text;
