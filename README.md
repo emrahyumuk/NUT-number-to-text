@@ -6,9 +6,9 @@ Number To Text Converter
 
 Money To Text Converter
 
-**Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian.
+**Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese.
 
-**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS.
+**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL.
 
 **Number Limit:** 1 trillion
 
@@ -64,6 +64,7 @@ Money To Text Converter
 - [ashGHub](https://github.com/ashGHub) - .Net Standart Migration, Ethiopian Language and Currency
 - [kashiash](https://github.com/kashiash) - Polish Language and Currency
 - [DeNcHiK3713](https://github.com/DeNcHiK3713) - Belarussian Language and Currency
+- [Marciel032](https://github.com/Marciel032) - Portuguese Language and Currency
 
 ---
 
