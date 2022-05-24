@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Nut</PackageId>
-    <PackageVersion>3.2.5</PackageVersion>
+    <PackageVersion>3.3.0</PackageVersion>
     <Title>Nut (Number to Text)</Title>
     <Authors>Emrah Yumuk</Authors>
     <Description>Number To Text Converter
@@ -20,8 +20,8 @@ Number Limit: 1 trillion</Description>
     <RepositoryUrl>https://github.com/emrahyumuk/NUT-number-to-text</RepositoryUrl>
     <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, portuguese, BRL, BGN, amharic, ETB, polish, PLN, Belarussian, BLN, ARS, argentine pesos</PackageTags>
     <PackageReleaseNotes>- added Portuguese language and currency (BRL)</PackageReleaseNotes>
-    <AssemblyVersion>3.2.5</AssemblyVersion>
-    <FileVersion>3.2.5</FileVersion>
+    <AssemblyVersion>3.3.0</AssemblyVersion>
+    <FileVersion>3.3.0</FileVersion>
   </PropertyGroup>
 
 </Project>
