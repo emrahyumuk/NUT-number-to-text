@@ -54,6 +54,10 @@ namespace Nut
                 case Culture.Belarusian:
                     text = BelarusianConverter.Instance.ToText(num);
                     break;
+                case Language.Portuguese:
+                case Culture.PortugueseBR:
+                    text = PortugueseConverter.Instance.ToText(num);
+                    break;
             }
             return text;
         }
@@ -104,6 +108,10 @@ namespace Nut
                 case Language.Belarusian:
                 case Culture.Belarusian:
                     text = BelarusianConverter.Instance.ToText(num, currency, options);
+                    break;
+                case Language.Portuguese:
+                case Culture.PortugueseBR:
+                    text = PortugueseConverter.Instance.ToText(num, currency, options);
                     break;
             }
             return text;

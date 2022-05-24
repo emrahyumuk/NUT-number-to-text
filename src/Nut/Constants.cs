@@ -17,6 +17,7 @@
         public const string Amharic = "am";
         public const string Polish = "pl";
         public const string Belarusian = "by";
+        public const string Portuguese = "pt";
     }
 
     public static class Culture
@@ -33,6 +34,7 @@
         public const string EthiopianAM = "am-ET";
         public const string Polish = "pl-PL";
         public const string Belarusian = "by-BY";
+        public const string PortugueseBR = "pt-BR";
     }
 
     public static class Currency
@@ -48,5 +50,6 @@
         public const string PLN = "pln";
         public const string BYN = "byn";
         public const string ARS = "ars";
+        public const string BRL = "brl";
     }
 }
