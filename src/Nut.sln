@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nut", "Nut\Nut.csproj", "{D261F064-9A97-4157-AE88-0B105154322D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nut.Demo", "Nut.Demo\Nut.Demo.csproj", "{CBB545C1-70AB-4422-A5E5-0980F85E062B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nut.Demo", "Nut.Demo\Nut.Demo.csproj", "{CBB545C1-70AB-4422-A5E5-0980F85E062B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nut.Tests", "Nut.Tests\Nut.Tests.csproj", "{9011385D-007E-4637-8C76-2337DC82D0C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CBB545C1-70AB-4422-A5E5-0980F85E062B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB545C1-70AB-4422-A5E5-0980F85E062B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB545C1-70AB-4422-A5E5-0980F85E062B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9011385D-007E-4637-8C76-2337DC82D0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9011385D-007E-4637-8C76-2337DC82D0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9011385D-007E-4637-8C76-2337DC82D0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9011385D-007E-4637-8C76-2337DC82D0C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
