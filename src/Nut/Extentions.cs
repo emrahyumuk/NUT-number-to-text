@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Nut.TextConverters;
+using System;
 using System.Globalization;
 using System.Linq;
-using Nut.TextConverters;
 
 namespace Nut
 {
@@ -64,57 +64,45 @@ namespace Nut
 
         public static string ToText(this decimal num, string currency, string lang = Language.Default, Options options = new Options(), GenderGroup genderGroup = GenderGroup.None)
         {
-            var text = string.Empty;
             switch (lang)
             {
                 case Language.English:
                 case Culture.EnglishUS:
                 case Culture.EnglishGB:
-                    text = EnglishConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return EnglishConverter.Instance.ToText(num, currency, options);
                 case Language.French:
                 case Culture.French:
-                    text = FrenchConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return FrenchConverter.Instance.ToText(num, currency, options);
                 case Language.Russian:
                 case Culture.Russian:
-                    text = RussianConverter.Instance.ToText(num, currency, options);
-                    break;
-
+                    return RussianConverter.Instance.ToText(num, currency, options);
                 case Language.Polish:
                 case Culture.Polish:
-                    text = PolishConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return PolishConverter.Instance.ToText(num, currency, options);
                 case Language.Spanish:
                 case Culture.Spanish:
-                    text = SpanishConverter.Instance.ToText(num, currency, options, genderGroup);
-                    break;
+                    return SpanishConverter.Instance.ToText(num, currency, options, genderGroup);
                 case Language.Turkish:
                 case Culture.Turkish:
-                    text = TurkishConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return TurkishConverter.Instance.ToText(num, currency, options);
                 case Language.Ukrainian:
                 case Culture.Ukrainian:
-                    text = UkrainianConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return UkrainianConverter.Instance.ToText(num, currency, options);
                 case Language.Bulgarian:
                 case Culture.Bulgarian:
-                    text = BulgarianConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return BulgarianConverter.Instance.ToText(num, currency, options);
                 case Language.Amharic:
                 case Culture.EthiopianAM:
-                    text = AmharicConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return AmharicConverter.Instance.ToText(num, currency, options);
                 case Language.Belarusian:
                 case Culture.Belarusian:
-                    text = BelarusianConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return BelarusianConverter.Instance.ToText(num, currency, options);
                 case Language.Portuguese:
                 case Culture.PortugueseBR:
-                    text = PortugueseConverter.Instance.ToText(num, currency, options);
-                    break;
+                    return PortugueseConverter.Instance.ToText(num, currency, options);
+                default:
+                    return string.Empty;
             }
-            return text;
         }
 
         public static string ToText(this int num, string lang = Language.Default, GenderGroup genderGroup = GenderGroup.None)
