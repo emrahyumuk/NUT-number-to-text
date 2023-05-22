@@ -65,6 +65,7 @@ Money To Text Converter
 - [kashiash](https://github.com/kashiash) - Polish Language and Currency
 - [DeNcHiK3713](https://github.com/DeNcHiK3713) - Belarussian Language and Currency
 - [Marciel032](https://github.com/Marciel032) - Portuguese Language and Currency
+- [ArkadiuszMakosa](https://github.com/ArkadiuszMakosa) - Polish Language Unit Tests
 
 ---
 
