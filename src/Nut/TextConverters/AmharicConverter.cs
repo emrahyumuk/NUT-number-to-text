@@ -1,5 +1,6 @@
 ﻿using Nut.Models;
 using System;
+using System.Text;
 
 namespace Nut.TextConverters
 {
@@ -19,7 +20,7 @@ namespace Nut.TextConverters
         {
             NumberTexts.Add(0, new[] { "ዜሮ" });
             NumberTexts.Add(1, new[] { "አንድ" });
-            NumberTexts.Add(2, new[] { "ሁለት"});
+            NumberTexts.Add(2, new[] { "ሁለት" });
             NumberTexts.Add(3, new[] { "ሶስት" });
             NumberTexts.Add(4, new[] { "አራት" });
             NumberTexts.Add(5, new[] { "አምስት" });
@@ -131,5 +132,16 @@ namespace Nut.TextConverters
         }
 
         #endregion Currency
+
+        protected override long Append(long num, long scale, StringBuilder builder)
+        {
+            if (num < 0)
+            {
+                builder.AppendFormat("ሲቀነስ ");
+                num = -num;
+            }
+
+            return base.Append(num, scale, builder);
+        }
     }
 }

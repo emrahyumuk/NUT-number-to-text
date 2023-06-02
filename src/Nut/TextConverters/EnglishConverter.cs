@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Nut.Models;
 
 namespace Nut.TextConverters
@@ -116,6 +117,17 @@ namespace Nut.TextConverters
                     };
             }
             return null;
+        }
+
+        protected override long Append(long num, long scale, StringBuilder builder)
+        {
+            if (num < 0)
+            {
+                builder.AppendFormat("minus ");
+                num = -num;
+            }
+
+            return base.Append(num, scale, builder);
         }
     }
 }

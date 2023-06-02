@@ -18,6 +18,11 @@ namespace Nut.TextConverters
 
         protected override long Append(long num, long scale, StringBuilder builder)
         {
+            if (num < 0)
+            {
+                builder.AppendFormat("menos ");
+                num = -num;
+            }
             if (num > scale - 1)
             {
                 var baseScale = num / scale;
