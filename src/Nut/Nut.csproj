@@ -4,24 +4,28 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Nut</PackageId>
-    <PackageVersion>3.3.0</PackageVersion>
+    <PackageVersion>3.4.1</PackageVersion>
     <Title>Nut (Number to Text)</Title>
     <Authors>Emrah Yumuk</Authors>
     <Description>Number To Text Converter
 Money To Text Converter
 
-Supported Languages: English, French, Russian, Spanish, Turkish, Ukrainian, Amharic, Polish, Belarussian, Portuguese, German.
+Supported Languages: English, Spanish, French, German, Turkish, Russian, Ukrainian, Amharic, Polish, Belarussian, Portuguese.
 
 Supported Currencies: EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL.
 
 Number Limit: 1 trillion</Description>
     <PackageProjectUrl>https://github.com/emrahyumuk/NUT-number-to-text</PackageProjectUrl>
-    <PackageLicenseUrl>MIT</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/emrahyumuk/NUT-number-to-text</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, german currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, portuguese, BRL, BGN, amharic, ETB, polish, PLN, Belarussian, BLN, ARS, argentine pesos</PackageTags>
-    <PackageReleaseNotes>- added Portuguese language and currency (BRL)</PackageReleaseNotes>
-    <AssemblyVersion>3.3.0</AssemblyVersion>
-    <FileVersion>3.3.0</FileVersion>
+    <PackageReleaseNotes>- added German language</PackageReleaseNotes>
+    <AssemblyVersion>3.4.1</AssemblyVersion>
+    <FileVersion>3.4.1</FileVersion>
   </PropertyGroup>
-
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
