@@ -58,6 +58,10 @@ namespace Nut
                 case Culture.PortugueseBR:
                     text = PortugueseConverter.Instance.ToText(num);
                     break;
+                case Language.German:
+                case Culture.GermanDE:
+                    text = GermanConverter.Instance.ToText(num);
+                    break;
             }
             return text;
         }
@@ -100,6 +104,9 @@ namespace Nut
                 case Language.Portuguese:
                 case Culture.PortugueseBR:
                     return PortugueseConverter.Instance.ToText(num, currency, options);
+                case Language.German:
+                case Culture.GermanDE:
+                    return GermanConverter.Instance.ToText(num, currency, options);              
                 default:
                     return string.Empty;
             }
