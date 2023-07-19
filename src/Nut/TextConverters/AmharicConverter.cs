@@ -1,5 +1,6 @@
 ﻿using Nut.Models;
 using System;
+using System.Text;
 
 namespace Nut.TextConverters
 {
@@ -131,5 +132,17 @@ namespace Nut.TextConverters
         }
 
         #endregion Currency
+
+        protected override long Append(long num, long scale, StringBuilder builder)
+        {
+            num = AddNegativeSign(num, builder);
+
+            return base.Append(num, scale, builder);
+        }
+
+        protected override string GetNegativeSign()
+        {
+            return "ሲቀነስ";
+        }
     }
 }

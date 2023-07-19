@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Nut.Models;
 
 namespace Nut.TextConverters
@@ -116,6 +117,16 @@ namespace Nut.TextConverters
                     };
             }
             return null;
+        }
+
+        protected override long Append(long num, long scale, StringBuilder builder)
+        {
+            num = AddNegativeSign(num, builder);
+            return base.Append(num, scale, builder);
+        }
+        protected override string GetNegativeSign()
+        {
+            return "minus";
         }
     }
 }

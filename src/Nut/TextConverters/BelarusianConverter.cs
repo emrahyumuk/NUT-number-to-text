@@ -41,6 +41,7 @@ namespace Nut.TextConverters
 
         protected override long Append(long num, long scale, StringBuilder builder)
         {
+            num = AddNegativeSign(num, builder);
             if (num > scale - 1)
             {
                 var baseScale = num / scale;
@@ -234,5 +235,10 @@ namespace Nut.TextConverters
         }
 
         #endregion
+
+        protected override string GetNegativeSign()
+        {
+            return "мінус";
+        }
     }
 }
