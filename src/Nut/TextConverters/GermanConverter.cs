@@ -125,11 +125,7 @@ namespace Nut.TextConverters
 
         protected override long Append(long num, long scale, StringBuilder builder)
         {
-            if (num < 0)
-            {
-                builder.AppendFormat("minus ");
-                num = -num;
-            }
+            num = AddNegativeSign(num, builder);
             if (num > scale - 1)
             {
                 var baseScale = num / scale;
@@ -159,6 +155,11 @@ namespace Nut.TextConverters
                 AppendTens(num, builder);
             }
 
+        }
+
+        protected override string GetNegativeSign()
+        {
+            return "minus";
         }
     }
 }

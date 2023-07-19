@@ -36,6 +36,7 @@ namespace Nut.TextConverters
 
         protected override long Append(long num, long scale, StringBuilder builder)
         {
+            num = AddNegativeSign(num, builder);
             if (num > scale - 1)
             {
                 var baseScale = num / scale;
@@ -234,10 +235,11 @@ namespace Nut.TextConverters
                         SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копейки" } }
                     };
                 case Currency.BGN:
-                    return new CurrencyModel {
+                    return new CurrencyModel
+                    {
                         Currency = currency,
-                        Names = new[] {"лев", "лева", "лева"},
-                        SubUnitCurrency = new BaseCurrencyModel {Names = new[] {"стотинка", "стотинки", "стотинки"}}
+                        Names = new[] { "лев", "лева", "лева" },
+                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "стотинка", "стотинки", "стотинки" } }
                     };
                 case Currency.ETB:
                     return new CurrencyModel
@@ -270,5 +272,10 @@ namespace Nut.TextConverters
         }
 
         #endregion
+
+        protected override string GetNegativeSign()
+        {
+            return "минус";
+        }
     }
 }
