@@ -62,6 +62,10 @@ namespace Nut
                 case Culture.GermanDE:
                     text = GermanConverter.Instance.ToText(num);
                     break;
+                case Language.Uzbek:
+                case Culture.Uzbek:
+                    text = UzbekLatinConverter.Instance.ToText(num);
+                    break;
             }
             return text;
         }
@@ -106,7 +110,10 @@ namespace Nut
                     return PortugueseConverter.Instance.ToText(num, currency, options);
                 case Language.German:
                 case Culture.GermanDE:
-                    return GermanConverter.Instance.ToText(num, currency, options);              
+                    return GermanConverter.Instance.ToText(num, currency, options);  
+                case Language.Uzbek:
+                case Culture.Uzbek:
+                    return UzbekLatinConverter.Instance.ToText(num, currency, options);
                 default:
                     return string.Empty;
             }
