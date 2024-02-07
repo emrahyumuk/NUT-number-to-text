@@ -1,5 +1,5 @@
-# NUT - Number To Text
-
+# NUT Extended - Number To Text
+Package based on the Nut package - https://github.com/emrahyumuk/NUT-number-to-text
 ---
 
 Number To Text Converter
@@ -8,7 +8,7 @@ Money To Text Converter
 
 **Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese.
 
-**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL.
+**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL, GBP.
 
 **Number Limit:** 1 trillion
 
@@ -53,20 +53,7 @@ Money To Text Converter
 
 **NUGET**
 
-<https://www.nuget.org/packages/Nut/>
-
----
-
-**THANKS**
-
-- [Latif Turk](https://github.com/Latif07) - Ukrainian Language and Currency
-- [SecreT2k8](https://github.com/SecreT2k8) - Bulgarian Language and Currency
-- [ashGHub](https://github.com/ashGHub) - .Net Standart Migration, Ethiopian Language and Currency
-- [kashiash](https://github.com/kashiash) - Polish Language and Currency
-- [DeNcHiK3713](https://github.com/DeNcHiK3713) - Belarussian Language and Currency
-- [Marciel032](https://github.com/Marciel032) - Portuguese Language and Currency
-- [ArkadiuszMakosa](https://github.com/ArkadiuszMakosa) - Polish Language Unit Tests
-- [Maryam1986](https://github.com/Maryam1986) - German Language and Currency
+<https://www.nuget.org/packages/NutExtended/>
 
 ---
 
