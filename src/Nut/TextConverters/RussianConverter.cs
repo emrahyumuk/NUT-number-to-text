@@ -92,6 +92,14 @@ namespace Nut.TextConverters
       return num;
     }
 
+    protected override void AppendUnitsForAdditional(long num, StringBuilder builder)
+    {
+      if (num > 0)
+      {
+        builder.AppendFormat("{0} ", NumberTexts[num][1]);
+      }
+    }
+
     private byte GetTextType(long num)
     {
       const int femmeMinBaseScale = 2;
