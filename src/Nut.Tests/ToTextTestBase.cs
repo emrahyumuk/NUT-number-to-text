@@ -6,7 +6,7 @@
         {
             var moneyText = number.ToText(currency, lang).ToLower();
 
-            Assert.AreEqual(expectedText, moneyText);
+            Assert.That(moneyText, Is.EqualTo(expectedText));
         }
     }
 }
