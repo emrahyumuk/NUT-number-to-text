@@ -18,14 +18,29 @@ namespace Nut.TextConverters
       Initialize();
     }
 
-    public override string ToText(decimal num, string currency, Options options, GenderGroup genderGroup = GenderGroup.None)
+    // Set only on the short-lived per-conversion instance used for money.
+    private readonly bool _beforeNoun;
+
+    private SpanishConverter(SpanishConverter template, bool beforeNoun) : base(template)
     {
-      return base.ToText(num, currency, options, genderGroup);
+      _beforeNoun = beforeNoun;
     }
 
-    protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit, GenderGroup genderGroup = GenderGroup.None)
+    /// <summary>
+    /// An amount is followed by the currency name, and a numeral in front of a noun takes
+    /// its apocopated form: "un euro" and "veintiún euros", not "uno euro".
+    /// </summary>
+    protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
     {
-      return base.ToText(num, currencyModel, isMainUnit, genderGroup);
+      return new SpanishConverter(this, true).ToText(num);
+    }
+
+    protected override void AppendUnits(long num, StringBuilder builder)
+    {
+      if (_beforeNoun && (num == 1 || num == 21))
+        builder.AppendFormat("{0} ", NumberTexts[num][1]);
+      else
+        base.AppendUnits(num, builder);
     }
 
     protected override long Append(long num, long scale, StringBuilder builder)
@@ -33,13 +48,14 @@ namespace Nut.TextConverters
       if (num > scale - 1)
       {
         var baseScale = num / scale;
-        if (scale > 999 && baseScale == 1)
+
+        // "mil" and "mil millones" are said without a leading one — "mil euros", never
+        // "un mil euros" — while "un millón" keeps it. Everything in front of a scale word
+        // is apocopated: "cuarenta y un mil", not "cuarenta y uno mil".
+        var omitsLeadingOne = scale == 1000 || scale == 1000000000;
+        if (!(baseScale == 1 && omitsLeadingOne))
         {
-          AppendUnitsForAdditional(baseScale, builder);
-        }
-        else
-        {
-          AppendLessThanOneThousand(baseScale, builder);
+          AppendLessThanOneThousandApocopated(baseScale, builder);
         }
 
         if (scale == 1000000 && num / scale > 1)
@@ -54,6 +70,18 @@ namespace Nut.TextConverters
         num = num - (baseScale * scale);
       }
       return num;
+    }
+
+    /// <summary>
+    /// Entry [1] of one and twenty-one is the apocopated form, which is what a numeral
+    /// takes in front of a noun — and a scale word is a noun.
+    /// </summary>
+    private void AppendLessThanOneThousandApocopated(long num, StringBuilder builder)
+    {
+      num = AppendHundreds(num, builder);
+      num = AppendTens(num, builder);
+      if (num == 1 || num == 21) builder.AppendFormat("{0} ", NumberTexts[num][1]);
+      else AppendUnits(num, builder);
     }
 
     protected override long AppendTens(long num, StringBuilder builder)
@@ -74,15 +102,15 @@ namespace Nut.TextConverters
       if (num > 99)
       {
         var hundreds = num / 100 * 100;
-         if (num % 100 > 0)
-         {
-           builder.AppendFormat("{0} ", NumberTexts[hundreds][1]);
-         }
-         else
-         {
-           builder.AppendFormat("{0} ", NumberTexts[hundreds][0]);
-         }
-                    
+
+        // Only "cien" has a second form: it becomes "ciento" when something follows. For
+        // the other hundreds, entry [1] is the feminine form, so using it here made 999
+        // read as "novecientas" while 200 stayed masculine.
+        var followedByMore = num % 100 > 0;
+        builder.AppendFormat("{0} ", hundreds == 100 && followedByMore
+          ? NumberTexts[100][1]
+          : NumberTexts[hundreds][0]);
+
         num = num - hundreds;
       }
       return num;
@@ -116,7 +144,8 @@ namespace Nut.TextConverters
       NumberTexts.Add(18, new[] { "dieciocho" });
       NumberTexts.Add(19, new[] { "diecinueve" });
       NumberTexts.Add(20, new[] { "veinte" });
-      NumberTexts.Add(21, new[] { "veintiún", "veintiun", "veintiuno", "veintiuna" });
+      // [0] full form, [1] apocopated before a noun, [2] feminine — same shape as one.
+      NumberTexts.Add(21, new[] { "veintiuno", "veintiún", "veintiuna" });
       NumberTexts.Add(22, new[] { "veintidós", "veintidos" });
       NumberTexts.Add(23, new[] { "veintitrés", "veintitres" });
       NumberTexts.Add(24, new[] { "veinticuatro" });
@@ -142,7 +171,11 @@ namespace Nut.TextConverters
       NumberTexts.Add(800, new[] { "ochocientos", "ochocientas" });
       NumberTexts.Add(900, new[] { "novecientos", "novecientas" });
 
-      ScaleTexts.Add(1000000000, new[] { "billón", "billon", "billones" });
+      // RAE: "billón" is 10^12 in Spanish, not the English billion. 10^9 is "mil millones"
+      // (or "millardo"), so the previous entry was out by a factor of a thousand.
+      // One form only, like "mil": the plural entry is read for millón alone, and
+      // "mil millones" is already plural.
+      ScaleTexts.Add(1000000000, new[] { "mil millones" });
       ScaleTexts.Add(1000000, new[] { "millón", "millon", "millones" });
       ScaleTexts.Add(1000, new[] { "mil" });
     }

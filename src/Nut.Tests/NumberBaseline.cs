@@ -75,21 +75,18 @@ namespace Nut.Tests
         [TestCase(1, "uno")]
         [TestCase(11, "once")]
         [TestCase(20, "veinte")]
-        [TestCase(21, "veintiún")]
+        [TestCase(21, "veintiuno")] // full form standing alone; "veintiún" only before a noun
         [TestCase(42, "cuarenta y dos")]
         [TestCase(100, "cien")]
         [TestCase(101, "ciento uno")]
         [TestCase(200, "doscientos")]
-        [TestCase(999, "novecientas noventa y nueve")] // BUG: feminine hundreds by default while 200 is masculine — RAE: gender follows the noun, so the bare form should be masculine
-        // RAE: "mil" forces apocope of uno -> "un". "uno mil" / "cuarenta y uno mil" are not Spanish.
-        [TestCase(1000, "uno mil")] // BUG: -> "mil"
+        [TestCase(999, "novecientos noventa y nueve")]
+        [TestCase(1000, "mil")]
         [TestCase(2000, "dos mil")]
-        [TestCase(41000, "cuarenta y uno mil")] // BUG: -> "cuarenta y un mil"
-        [TestCase(1000000, "uno millón")] // BUG: -> "un millón"
+        [TestCase(41000, "cuarenta y un mil")]
+        [TestCase(1000000, "un millón")]
         [TestCase(2000000, "dos millones")]
-        // BUG, worst in the file: RAE/FundéuRAE — Spanish "billón" is 10^12, not the English
-        // billion. 10^9 is "mil millones" (or "millardo"), so this is off by a factor of 1000.
-        [TestCase(1000000000, "uno billón")]
+        [TestCase(1000000000, "mil millones")]
         public void Spanish(long number, string expected) => Check(number, Language.Spanish, expected);
 
         [TestCase(0, "zero")]
