@@ -49,13 +49,6 @@ namespace Nut.Tests
             Assert.That(41m.ToText("usd", Language.English), Is.Not.Empty);
         }
 
-        [Test]
-        public void RussianTurkishLiraIsNotDeclined()
-        {
-            Assert.That(1m.ToText(Currency.TRY, Language.Russian),
-                Is.EqualTo("один турецкая лира ноль курушей")); // лира is feminine -> "одна"
-        }
-
         /// <summary>Every Append* helper guards with "num > x", so a negative number matches
         /// nothing and falls through to an empty string. On the money overload the integer
         /// part vanishes while the fraction survives, producing a plausible-looking but

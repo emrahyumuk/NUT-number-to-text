@@ -24,23 +24,10 @@ namespace Nut.TextConverters
         private BelarusianConverter(BelarusianConverter template, CurrencyModel currencyModel, bool isMainUnit)
             : base(template)
         {
-            switch (currencyModel.Currency)
-            {
-                case Currency.BYN:
-                case Currency.RUB:
-                case Currency.EUR:
-                    _one = isMainUnit ? "адзін" : "адна";
-                    _two = isMainUnit ? "два" : "дзве";
-                    break;
-                case Currency.UAH:
-                    _one = "адна";
-                    _two = "дзве";
-                    break;
-                default:
-                    _one = "адзін";
-                    _two = "два";
-                    break;
-            }
+            var gender = isMainUnit ? currencyModel.Gender : currencyModel.SubUnitCurrency.Gender;
+            var feminine = gender == GenderGroup.Feminine;
+            _one = feminine ? "адна" : "адзін";
+            _two = feminine ? "дзве" : "два";
         }
 
         protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
@@ -220,56 +207,64 @@ namespace Nut.TextConverters
                     {
                         Currency = currency,
                         Names = new[] { "евро", "евро", "евро" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "евроцэнт", "евроцэнта", "евроцэнтаў" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "евроцэнт", "евроцэнта", "евроцэнтаў" } }
                     };
                 case Currency.USD:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "даляр", "даляра", "даляраў" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "цэнт", "цэнта", "цэнтаў" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "цэнт", "цэнта", "цэнтаў" } }
                     };
                 case Currency.RUB:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "рубель", "рубля", "рублёў" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "капейка", "капейкі", "капеек" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "капейка", "капейкі", "капеек" } }
                     };
                 case Currency.TRY:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "турэцкая ліра", "турэцкіх лір", "турэцкіх лір" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "куруш", "курушы", "курушей" } }
+                        Gender = GenderGroup.Feminine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "куруш", "курушы", "курушей" } }
                     };
                 case Currency.UAH:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "грыўна", "грыўны", "грыўняў" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "капейка", "капейкі", "капеек" } }
+                        Gender = GenderGroup.Feminine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "капейка", "капейкі", "капеек" } }
                     };
                 case Currency.ETB:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "быр", "быр", "быр" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "капейка", "капейкі", "капеек" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "капейка", "капейкі", "капеек" } }
                     };
                 case Currency.PLN:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "злоты", "злотых", "злотых" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "грош", "гроша", "грошаў" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "грош", "гроша", "грошаў" } }
                     };
                 case Currency.BYN:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "беларускі рубель", "беларускіх рубля", "беларускіх рублёў" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "капейка", "капейкі", "капеек" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "капейка", "капейкі", "капеек" } }
                     };
             }
             return null;
