@@ -2,9 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Nut</PackageId>
-    <PackageVersion>3.4.1</PackageVersion>
     <Title>Nut (Number to Text)</Title>
     <Authors>Emrah Yumuk</Authors>
     <Description>Number To Text Converter
@@ -21,9 +19,6 @@ Number Limit: 1 trillion</Description>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, german currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, portuguese, BRL, BGN, amharic, ETB, polish, PLN, Belarussian, BLN, ARS, argentine pesos</PackageTags>
-    <PackageReleaseNotes>- added German language</PackageReleaseNotes>
-    <AssemblyVersion>3.4.1</AssemblyVersion>
-    <FileVersion>3.4.1</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
