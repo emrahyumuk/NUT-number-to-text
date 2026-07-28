@@ -95,6 +95,17 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   `"TL"` resolve like their lower-case forms; previously an upper-case currency code
   returned `""`.
 
+- **Spanish 10^9 was rendered as "billón", which means 10^12** — out by a factor of a
+  thousand. Per RAE it is now "mil millones". The library produced this correctly until a
+  2016 refactor; git history has `Scales.Add(1000000000, "mil millones")` before that.
+
+- **Spanish "uno" is now apocopated in front of a noun or scale word**, as RAE requires:
+  `uno mil` → `mil`, `uno millón` → `un millón`, `cuarenta y uno mil` →
+  `cuarenta y un mil`, `uno euro` → `un euro`. Standing alone it keeps its full form.
+
+- **Spanish hundreds above 100 no longer switch to their feminine form** when something
+  follows, so `999` reads as `novecientos noventa y nueve` rather than `novecientas`.
+
 ### Added
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
