@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -40,7 +40,7 @@ namespace Nut.Tests
             0m, 0.01m, 0.02m, 1m, 1.01m, 1.02m, 2m, 2.02m, 3m, 5m, 11m, 21m, 22m, 42m, 100m,
             101m, 121m, 999m, 1000m, 1001m, 2000m, 2001m, 5000m, 21000m, 22000m, 41000m,
             42000m, 100000m, 1000000m, 2000000m, 1000000000m, 123.45m,
-            -1m, -2m, -41.5m, -1000m,
+            -1m, -2m, -41.5m, -1000m, 1.999m, 123.456m, 1.005m,
         };
 
         private static readonly long[] PlainNumbers =

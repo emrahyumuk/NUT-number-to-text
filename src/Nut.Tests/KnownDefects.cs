@@ -49,15 +49,6 @@ namespace Nut.Tests
             Assert.That(41m.ToText("usd", Language.English), Is.Not.Empty);
         }
 
-        /// <summary>BaseConverter pads the fraction to two digits but never trims it, so a
-        /// third decimal is read as if it were part of the sub-unit count.</summary>
-        [Test]
-        public void MoreThanTwoDecimalsAreReadAsWholeSubUnits()
-        {
-            Assert.That(123.456m.ToText(Currency.USD, Language.English),
-                Is.EqualTo("one hundred twenty three dollars four hundred fifty six cents"));
-        }
-
         /// <summary>Callers cannot catch this selectively.</summary>
         [Test]
         public void OverTheLimitThrowsBareException()
