@@ -47,6 +47,15 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
 - **Bulgarian**: `1` rendered as an empty string, millions lost their count entirely
   (`милиона` rather than `един милион`), and `милион` was treated as feminine.
 
+- **Ukrainian currency wording.** Most of the table had been copied from Russian, so it
+  produced Russian words in Ukrainian output: `доллар`, `Нуль центов`, `турецкая лира`.
+  The Polish sub unit read `грубий`, which means "coarse". Corrected throughout, with the
+  three agreement forms Ukrainian requires (1 / 2-4 / 5+).
+
+- **`5 ETB` and above threw `IndexOutOfRangeException` in Ukrainian.** The birr had two
+  name forms where the converter indexes three. It now has all three, and its sub unit is
+  the cent rather than the kopiyka.
+
 ### Added
 
 - `Currency.RUR` as an alias for `Currency.RUB`, mirroring how `tl` maps to `try`.

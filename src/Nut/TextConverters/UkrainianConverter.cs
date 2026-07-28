@@ -211,33 +211,33 @@ namespace Nut.TextConverters
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "евро", "евро", "евро" },
+            Names = new[] { "євро", "євро", "євро" },
             Gender = GenderGroup.Masculine,
-            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "евроцент", "евроцента", "евроцентов" } }
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "євроцент", "євроценти", "євроцентів" } }
           };
         case Currency.USD:
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "доллар", "доллара", "долларов" },
+            Names = new[] { "долар", "долари", "доларів" },
             Gender = GenderGroup.Masculine,
-            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "цент", "цента", "центов" } }
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "цент", "центи", "центів" } }
           };
         case Currency.RUB:
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "рубль", "рубля", "рублей" },
+            Names = new[] { "рубль", "рублі", "рублів" },
             Gender = GenderGroup.Masculine,
-            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "копейка", "копейки", "копеек" } }
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "копійка", "копійки", "копійок" } }
           };
         case Currency.TRY:
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "турецкая лира", "турецких лир", "турецких лир" },
+            Names = new[] { "турецька ліра", "турецькі ліри", "турецьких лір" },
             Gender = GenderGroup.Feminine,
-            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "куруш", "куруша", "курушей" } }
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "куруш", "куруші", "курушів" } }
           };
         case Currency.UAH:
           return new CurrencyModel
@@ -251,17 +251,19 @@ namespace Nut.TextConverters
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "берр", "берр" },
+            // Only two forms here previously, which threw IndexOutOfRangeException for
+            // counts of five and above. The birr's sub unit is the cent, not the kopiyka.
+            Names = new[] { "бир", "бири", "бирів" },
             Gender = GenderGroup.Masculine,
-            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "копійка", "копійки", "копійок" } }
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "цент", "центи", "центів" } }
           };
         case Currency.PLN:
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "злотий", "злотий", "злотих" },
+            Names = new[] { "злотий", "злоті", "злотих" },
             Gender = GenderGroup.Masculine,
-            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "грубий", "грубий", "груба" } }
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "гріш", "гроші", "грошів" } }
           };
       }
       return null;

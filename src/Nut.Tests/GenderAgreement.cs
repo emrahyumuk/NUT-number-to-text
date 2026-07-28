@@ -110,7 +110,7 @@ namespace Nut.Tests
         [TestCase(Language.Belarusian, Currency.BYN, "адзін беларускі рубель адна капейка")]
         [TestCase(Language.Belarusian, Currency.TRY, "адна турэцкая ліра адзін куруш")]
         [TestCase(Language.Ukrainian, Currency.UAH, "Одна гривня Одна копійка")]
-        [TestCase(Language.Ukrainian, Currency.USD, "Один доллар Один цент")]
+        [TestCase(Language.Ukrainian, Currency.USD, "Один долар Один цент")]
         [TestCase(Language.Bulgarian, Currency.BGN, "един лев и една стотинка")] // лев masculine, стотинка feminine
         public void OneOfEachUnit(string lang, string currency, string expected)
         {
