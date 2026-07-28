@@ -12,6 +12,8 @@ namespace Nut.TextConverters
 
     public override string CultureName => Culture.Turkish;
 
+    protected override string NegativeSign => "eksi";
+
     public TurkishConverter()
     {
       Initialize();

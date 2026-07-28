@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace Nut.Tests
 {
@@ -47,18 +47,6 @@ namespace Nut.Tests
         {
             Assert.That(41m.ToText("USD", Language.English), Is.Empty);
             Assert.That(41m.ToText("usd", Language.English), Is.Not.Empty);
-        }
-
-        /// <summary>Every Append* helper guards with "num > x", so a negative number matches
-        /// nothing and falls through to an empty string. On the money overload the integer
-        /// part vanishes while the fraction survives, producing a plausible-looking but
-        /// completely wrong amount.</summary>
-        [Test]
-        public void NegativeNumbersProduceEmptyOrWrongText()
-        {
-            Assert.That((-5L).ToText(Language.English), Is.Empty);
-            Assert.That((-41.5m).ToText(Currency.USD, Language.English),
-                Is.EqualTo("dollar fifty cents")); // the 41 and the minus are both gone
         }
 
         /// <summary>BaseConverter pads the fraction to two digits but never trims it, so a

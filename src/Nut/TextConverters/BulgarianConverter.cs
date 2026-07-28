@@ -10,6 +10,8 @@ namespace Nut.TextConverters
         public static BulgarianConverter Instance => Lazy.Value;
         public override string CultureName { get; } = Culture.Bulgarian;
 
+        protected override string NegativeSign => "минус";
+
         protected int textType = 0;
 
         public BulgarianConverter()

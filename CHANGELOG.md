@@ -56,6 +56,25 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   name forms where the converter indexes three. It now has all three, and its sub unit is
   the cent rather than the kopiyka.
 
+- **Negative amounts are converted instead of vanishing**
+  ([#22](https://github.com/emrahyumuk/NUT-number-to-text/pull/22)). Every `Append` helper
+  is guarded by `num > x`, so a negative number matched none of them:
+
+  | Input | Before | After |
+  | --- | --- | --- |
+  | `(-41).ToText("en")` | `""` | `minus forty one` |
+  | `(-41.5m)` USD | `dollar fifty cents` | `minus forty one dollars fifty cents` |
+
+  The money case was the dangerous one: the integer part disappeared while the fraction
+  survived, producing a plausible-looking but wrong amount rather than an obvious failure.
+
+  The sign word is per language — minus, moins, menos, eksi, минус, мінус, ሲቀነስ — taken
+  from the list in #22.
+
+  The one-trillion limit now applies on both sides. Previously an amount below
+  -1 000 000 000 000 returned nonsense (`dollar zero cent`) where the positive equivalent
+  threw; both now throw.
+
 ### Added
 
 - `Currency.RUR` as an alias for `Currency.RUB`, mirroring how `tl` maps to `try`.

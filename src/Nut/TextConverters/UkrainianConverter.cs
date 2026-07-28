@@ -15,6 +15,8 @@ namespace Nut.TextConverters
       get { return "uk-UA"; }
     }
 
+    protected override string NegativeSign => "мінус";
+
     public UkrainianConverter()
     {
       Initialize();

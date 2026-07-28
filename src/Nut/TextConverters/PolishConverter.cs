@@ -14,6 +14,8 @@ namespace Nut.TextConverters
             get { return "pl-PL"; }
         }
 
+        protected override string NegativeSign => "minus";
+
         public PolishConverter()
         {
             Initialize();

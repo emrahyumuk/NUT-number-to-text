@@ -12,6 +12,8 @@ namespace Nut.TextConverters
 
         public override string CultureName => Culture.Belarusian;
 
+        protected override string NegativeSign => "мінус";
+
         public BelarusianConverter()
         {
             Initialize();
