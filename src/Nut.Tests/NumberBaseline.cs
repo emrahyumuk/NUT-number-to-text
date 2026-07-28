@@ -148,23 +148,23 @@ namespace Nut.Tests
         [TestCase(1000000000, "один миллиард")]
         public void Russian(long number, string expected) => Check(number, Language.Russian, expected);
 
-        // Ukrainian's table is feminine-first, so bare numbers come out feminine and
-        // millions inherit that. Capitalisation of units is also inconsistent with scales.
+        // Capitalisation of units is still inconsistent with scales ("Одна тисяча"); that
+        // is a separate defect from gender.
         [TestCase(0, "Нуль")]
-        [TestCase(1, "Одна")] // BUG: the bare numeral is masculine -> "один"
-        [TestCase(2, "Дві")] // BUG: -> "два"
+        [TestCase(1, "Один")]
+        [TestCase(2, "Два")]
         [TestCase(3, "Три")]
         [TestCase(11, "Одинадцять")]
         [TestCase(20, "Двадцять")]
-        [TestCase(21, "Двадцять Одна")] // BUG: -> "двадцять один"
+        [TestCase(21, "Двадцять Один")]
         [TestCase(100, "Сто")]
         [TestCase(999, "Дев'ятсот Дев'яносто Дев'ять")]
-        [TestCase(1000, "Одна тисяча")] // correct: тисяча is feminine
+        [TestCase(1000, "Одна тисяча")] // тисяча is feminine
         [TestCase(2000, "Дві тисячі")]
         [TestCase(5000, "П'ять тисяч")]
         [TestCase(41000, "Сорок Одна тисяча")]
-        [TestCase(1000000, "Одна мільйон")] // BUG: мільйон is masculine -> "один мільйон"
-        [TestCase(1000000000, "Одна мільярд")] // BUG: -> "один мільярд"
+        [TestCase(1000000, "Один мільйон")] // мільйон is masculine
+        [TestCase(1000000000, "Один мільярд")]
         public void Ukrainian(long number, string expected) => Check(number, Language.Ukrainian, expected);
 
         [TestCase(0, "нуль")]
@@ -185,6 +185,7 @@ namespace Nut.Tests
         public void Belarusian(long number, string expected) => Check(number, Language.Belarusian, expected);
 
         [TestCase(0, "нула")]
+        [TestCase(1, "един")]
         [TestCase(2, "два")]
         [TestCase(3, "три")]
         [TestCase(11, "единадесет")]
@@ -193,11 +194,13 @@ namespace Nut.Tests
         [TestCase(100, "сто")]
         [TestCase(101, "сто и един")]
         [TestCase(999, "деветстотин деветдесет и девет")]
-        [TestCase(1000, "хиляда")]
+        [TestCase(1000, "хиляда")] // Bulgarian drops the leading one before хиляда
         [TestCase(2000, "две хиляди")]
         [TestCase(5000, "пет хиляди")]
         [TestCase(41000, "четиридесет и една хиляди")]
-        [TestCase(2000000, "две милиона")] // BUG: милион is masculine -> "два милиона"
+        [TestCase(100000, "сто хиляди")]
+        [TestCase(1000000, "един милион")] // but keeps it before милион
+        [TestCase(2000000, "два милиона")]
         public void Bulgarian(long number, string expected) => Check(number, Language.Bulgarian, expected);
 
         [TestCase(0, "Zero")]

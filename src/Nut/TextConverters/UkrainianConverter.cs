@@ -36,6 +36,9 @@ namespace Nut.TextConverters
           _two = isMainUnit ? "Два" : "Дві";
           break;
         default:
+          // Feminine, which suits гривня but not долар — currency gender is not modelled
+          // yet, so USD still comes out as "Одна доллар". Tracked separately; note this
+          // is deliberately not the masculine entry [0] of the word table.
           _one = "Одна";
           _two = "Дві";
           break;
@@ -54,10 +57,12 @@ namespace Nut.TextConverters
       if (!AppendGendered(num, builder)) base.AppendUnits(num, builder);
     }
 
-    // The scale-prefix path reads the same entries, so it needs the same treatment.
+    // Append only routes here for scale 1000, and the count before тисяча agrees with
+    // тисяча, which is feminine whatever currency is being counted. Entry [1] is feminine.
     protected override void AppendUnitsForAdditional(long num, StringBuilder builder)
     {
-      if (!AppendGendered(num, builder)) base.AppendUnitsForAdditional(num, builder);
+      if (num == 1 || num == 2) builder.AppendFormat("{0} ", NumberTexts[num][1]);
+      else base.AppendUnitsForAdditional(num, builder);
     }
 
     private bool AppendGendered(long num, StringBuilder builder)
@@ -75,13 +80,14 @@ namespace Nut.TextConverters
         var baseScale = num / scale;
 
         var textType = GetTextType(baseScale);
-        if ((scale == 1000000 || scale == 1000000000) && textType < 3 && (baseScale == 1 || baseScale == 2))
+        var baseUnitNumber = baseScale % 10;
+        if (scale == 1000 && textType < 3 && (baseUnitNumber == 1 || baseUnitNumber == 2))
         {
           AppendLessThanOneThousandForAdditional(baseScale, builder);
         }
         else
         {
-          AppendLessThanOneThousand(baseScale, builder);
+          AppendLessThanOneThousandForScale(baseScale, builder);
         }
 
         switch (textType)
@@ -107,6 +113,15 @@ namespace Nut.TextConverters
       num = AppendHundreds(num, builder);
       num = AppendTens(num, builder);
       AppendUnitsForAdditional(num, builder);
+    }
+
+    // мільйон and мільярд are masculine, so their count must not pick up the currency's
+    // gender the way the trailing unit does: "один мільйон гривень", not "одна мільйон".
+    private void AppendLessThanOneThousandForScale(long num, StringBuilder builder)
+    {
+      num = AppendHundreds(num, builder);
+      num = AppendTens(num, builder);
+      base.AppendUnits(num, builder);
     }
 
     protected override long AppendHundreds(long num, StringBuilder builder)
@@ -141,8 +156,10 @@ namespace Nut.TextConverters
     private void Initialize()
     {
       NumberTexts.Add(0, new[] { "Нуль" });
-      NumberTexts.Add(1, new[] { "Одна", "Один" });
-      NumberTexts.Add(2, new[] { "Дві", "Два" });
+      // Masculine first, like the other Slavic converters: entry [0] is the bare form,
+      // entry [1] the feminine one used before тисяча.
+      NumberTexts.Add(1, new[] { "Один", "Одна" });
+      NumberTexts.Add(2, new[] { "Два", "Дві" });
       NumberTexts.Add(3, new[] { "Три" });
       NumberTexts.Add(4, new[] { "Чотири" });
       NumberTexts.Add(5, new[] { "П'ять" });

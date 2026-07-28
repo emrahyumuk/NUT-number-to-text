@@ -51,7 +51,11 @@ namespace Nut.TextConverters
             {
                 var baseScale = num / scale;
 
-                textType = scale < 999 ? GetTextType(baseScale) : (num < 2000 ? 0 : 1);
+                // Singular for exactly one of a scale, plural otherwise: хиляда/хиляди,
+                // милион/милиона. The old expression tested "scale < 999", never true here
+                // since the smallest scale is 1000, and fell back to a test on the whole
+                // number that got millions wrong.
+                textType = baseScale == 1 ? 0 : 1;
 
                 var baseUnitNumber = baseScale % 10;
 
@@ -62,9 +66,14 @@ namespace Nut.TextConverters
                 {
                     AppendLessThanOneThousandForAdditional(baseScale, builder);
                 }
+                else if (scale == 1000)
+                {
+                    // Still the thousands prefix; textType carries the feminine form here.
+                    AppendLessThanOneThousand(baseScale, builder);
+                }
                 else
                 {
-                    AppendLessThanOneThousand(baseScale, builder);
+                    AppendLessThanOneThousandForScale(baseScale, builder);
                 }
 
                 builder.AppendFormat("{0} ", ScaleTexts[scale][textType > 0 ? 1 : 0]);
@@ -78,16 +87,31 @@ namespace Nut.TextConverters
         {
             num = AppendHundreds(num, builder);
             num = AppendTens(num, builder);
-            if (num == 1 && builder.ToString().Trim().Length == 0) return;
             AppendUnits(num, builder);
         }
 
+        /// <summary>Bulgarian says "хиляда", not "една хиляда", so a leading one before
+        /// the thousands word is dropped. That elision belongs to this path only — applying
+        /// it to the trailing unit is what made 1 render as an empty string.</summary>
         private void AppendLessThanOneThousandForAdditional(long num, StringBuilder builder)
         {
             num = AppendHundreds(num, builder);
             num = AppendTens(num, builder);
             if (num == 1 && builder.ToString().Trim().Length == 0) return;
             AppendUnits(num, builder);
+        }
+
+        /// <summary>милион and милиард are masculine and, unlike хиляда, are counted
+        /// explicitly: "един милион", "два милиона".</summary>
+        private void AppendLessThanOneThousandForScale(long num, StringBuilder builder)
+        {
+            num = AppendHundreds(num, builder);
+            num = AppendTens(num, builder);
+            if (num > 0)
+            {
+                if (builder.ToString().Trim().Length > 0) builder.Append("и ");
+                builder.AppendFormat("{0} ", NumberTexts[num][0]);
+            }
         }
 
         protected override long AppendHundreds(long num, StringBuilder builder)
@@ -132,24 +156,6 @@ namespace Nut.TextConverters
             // overwritten in the shared table per currency.
             if (num == 2 && _two != null) builder.AppendFormat("{0} ", _two);
             else base.AppendUnitsForAdditional(num, builder);
-        }
-
-        private byte GetTextType(long num)
-        {
-            const int femmeMinBaseScale = 2;
-            const int pluralMinBaseScale = 5;
-
-            var baseUnitNumber = num % 10;
-            var baseTens = num % 100;
-
-            if (baseTens < 10 || baseTens > 20)
-            {
-                if (baseUnitNumber == 1)
-                    return 0;
-                if (baseUnitNumber >= femmeMinBaseScale && baseUnitNumber < pluralMinBaseScale)
-                    return 1;
-            }
-            return 0;
         }
 
         private void Initialize()

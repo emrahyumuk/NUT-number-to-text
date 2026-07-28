@@ -49,36 +49,11 @@ namespace Nut.Tests
             Assert.That(41m.ToText("usd", Language.English), Is.Not.Empty);
         }
 
-        /// <summary>Ukrainian is wrong in the opposite direction: its table is feminine-first,
-        /// so thousands come out right and millions come out feminine. тисяча is feminine,
-        /// мільйон is masculine, so the correct forms are "одна тисяча" and "один мільйон".</summary>
-        [Test]
-        public void UkrainianMillionsUseTheFeminineFormInstead()
-        {
-            Assert.That(1000000m.ToText(Currency.UAH, Language.Ukrainian),
-                Is.EqualTo("Одна мільйон гривень Нуль копійок")); // "Один мільйон"
-        }
-
         [Test]
         public void RussianTurkishLiraIsNotDeclined()
         {
             Assert.That(1m.ToText(Currency.TRY, Language.Russian),
                 Is.EqualTo("один турецкая лира ноль курушей")); // лира is feminine -> "одна"
-        }
-
-        [Test]
-        public void BulgarianOneIsEmpty()
-        {
-            Assert.That(1L.ToText(Language.Bulgarian), Is.Empty); // "един"
-            Assert.That(21L.ToText(Language.Bulgarian), Is.EqualTo("двадесет и един")); // works inside compounds
-        }
-
-        [Test]
-        public void BulgarianDropsTheCountEntirely()
-        {
-            Assert.That(1m.ToText(Currency.BGN, Language.Bulgarian),
-                Is.EqualTo("лев и нула стотинки")); // "един лев"
-            Assert.That(1000000L.ToText(Language.Bulgarian), Is.EqualTo("милиона")); // "един милион"
         }
 
         /// <summary>Every Append* helper guards with "num > x", so a negative number matches
