@@ -17,7 +17,11 @@ namespace Nut.TextConverters
             Initialize();
         }
 
-        protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+        // Set only on the short-lived per-conversion instance; null on the shared singleton.
+        private string _two;
+
+        private BulgarianConverter(BulgarianConverter template, CurrencyModel currencyModel)
+            : base(template)
         {
             switch (currencyModel.Currency)
             {
@@ -25,13 +29,20 @@ namespace Nut.TextConverters
                 case Currency.EUR:
                 case Currency.RUB:
                 case Currency.UAH:
-                    NumberTexts[2][0] = "две";
+                    _two = "две";
                     break;
                 default:
-                    NumberTexts[2][0] = "два";
+                    _two = "два";
                     break;
             }
-            return ToText(num);
+        }
+
+        protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+        {
+            // Gendered forms are per-conversion; see RussianConverter for why this is not
+            // written into the shared singleton. This also gives textType, which Append
+            // rewrites as it walks the number, an instance of its own.
+            return new BulgarianConverter(this, currencyModel).ToText(num);
         }
 
         protected override long Append(long num, long scale, StringBuilder builder)
@@ -106,7 +117,10 @@ namespace Nut.TextConverters
                 if (builder.ToString().Trim().Length > 0)
                     builder.Append("и ");
                 var targetType = Math.Min(NumberTexts[num].Length - 1, textType);
-                builder.AppendFormat("{0} ", NumberTexts[num][targetType]);
+                // _two stands in for entry 2's default form, which used to be overwritten
+                // in the shared table per currency.
+                builder.AppendFormat("{0} ",
+                    num == 2 && targetType == 0 && _two != null ? _two : NumberTexts[num][targetType]);
             }
         }
 
@@ -114,7 +128,10 @@ namespace Nut.TextConverters
         {
             if (num != 0 && builder.ToString().Trim().Length > 0)
                 builder.Append("и ");
-            base.AppendUnitsForAdditional(num, builder);
+            // Same substitution as AppendUnits: entry 2's default form used to be
+            // overwritten in the shared table per currency.
+            if (num == 2 && _two != null) builder.AppendFormat("{0} ", _two);
+            else base.AppendUnitsForAdditional(num, builder);
         }
 
         private byte GetTextType(long num)

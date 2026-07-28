@@ -49,29 +49,6 @@ namespace Nut.Tests
             Assert.That(41m.ToText("usd", Language.English), Is.Not.Empty);
         }
 
-        /// <summary>
-        /// The Slavic converters assign into the singleton's shared word table to pick a
-        /// gender, and never restore it. A plain ToText(long) carries no currency context
-        /// yet still returns whatever the previous conversion left behind, so the same
-        /// input produces different output depending on call order. Under concurrent load
-        /// this also corrupts results outright.
-        /// </summary>
-        [Test]
-        public void RussianOneDependsOnThePreviousCurrencyConversion()
-        {
-            1m.ToText(Currency.USD, Language.Russian); // default branch leaves masculine
-            var afterDollar = 1L.ToText(Language.Russian);
-
-            1m.ToText(Currency.RUB, Language.Russian); // sub-unit pass leaves feminine
-            var afterRuble = 1L.ToText(Language.Russian);
-
-            Assert.That(afterDollar, Is.EqualTo("один"));
-            Assert.That(afterRuble, Is.EqualTo("одна"));
-            Assert.That(afterDollar, Is.Not.EqualTo(afterRuble), "same call, different answers");
-
-            1m.ToText(Currency.USD, Language.Russian); // leave the table as we found it
-        }
-
         /// <summary>Thousands take the feminine form in these languages; millions stay masculine.</summary>
         [Test]
         public void RussianThousandsUseTheMasculineFormInstead()
