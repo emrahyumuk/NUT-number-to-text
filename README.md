@@ -1,16 +1,31 @@
 # NUT - Number To Text
 
+[![NuGet](https://img.shields.io/nuget/v/Nut.svg)](https://www.nuget.org/packages/Nut/)
+[![Downloads](https://img.shields.io/nuget/dt/Nut.svg)](https://www.nuget.org/packages/Nut/)
+[![CI](https://github.com/emrahyumuk/NUT-number-to-text/actions/workflows/ci.yml/badge.svg)](https://github.com/emrahyumuk/NUT-number-to-text/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENCE)
+
 ---
 
 Number To Text Converter
 
 Money To Text Converter
 
-**Supported Languages:** English, French, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese.
+**Supported Languages:** English, French, German, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese.
 
 **Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL.
 
 **Number Limit:** 1 trillion
+
+**Target Framework:** .NET Standard 2.0 — runs on .NET Framework 4.6.1+, .NET Core 2.0+ and .NET 5 and later.
+
+---
+
+**INSTALL**
+
+```
+dotnet add package Nut
+```
 
 ---
 
@@ -57,6 +72,25 @@ Money To Text Converter
 
 ---
 
+**CHANGELOG**
+
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+
+---
+
+**CONTRIBUTING**
+
+Pull requests are welcome. Two things make them much easier to accept:
+
+- **Add tests for what you change.** `dotnet test src/Nut.sln` runs the suite, and CI runs
+  it on every pull request.
+- **A new language or currency needs tests written by someone who speaks it.** Reviewers
+  cannot verify wording in a language they do not read, so a table of expected outputs is
+  the only thing that makes such a contribution reviewable. Cover at least `0, 1, 2, 11,
+  21, 100, 1000, 2000, 41000, 1000000` plus one decimal amount.
+
+---
+
 **THANKS**
 
 - [Latif Turk](https://github.com/Latif07) - Ukrainian Language and Currency
@@ -72,6 +106,6 @@ Money To Text Converter
 
 **LICENCE**
 
-NUT-number-to-text is [MIT licensed.](LICENSE)
+NUT-number-to-text is [MIT licensed.](LICENCE)
 
 ---
