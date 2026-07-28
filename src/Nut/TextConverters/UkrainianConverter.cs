@@ -20,22 +20,52 @@ namespace Nut.TextConverters
       Initialize();
     }
 
-    protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+    // Set only on the short-lived per-conversion instance; null on the shared singleton.
+    private string _one;
+    private string _two;
+
+    private UkrainianConverter(UkrainianConverter template, CurrencyModel currencyModel, bool isMainUnit)
+      : base(template)
     {
       switch (currencyModel.Currency)
       {
         case Currency.BYN:
         case Currency.RUB:
         case Currency.EUR:
-          NumberTexts[1][0] = isMainUnit ? "Один" : "Одна";
-          NumberTexts[2][0] = isMainUnit ? "Два" : "Дві";
+          _one = isMainUnit ? "Один" : "Одна";
+          _two = isMainUnit ? "Два" : "Дві";
           break;
         default:
-          NumberTexts[1][0] = "Одна";
-          NumberTexts[2][0] = "Дві";
+          _one = "Одна";
+          _two = "Дві";
           break;
       }
-      return ToText(num);
+    }
+
+    protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+    {
+      // Gendered forms are per-conversion; see RussianConverter for why this is not
+      // written into the shared singleton.
+      return new UkrainianConverter(this, currencyModel, isMainUnit).ToText(num);
+    }
+
+    protected override void AppendUnits(long num, StringBuilder builder)
+    {
+      if (!AppendGendered(num, builder)) base.AppendUnits(num, builder);
+    }
+
+    // The scale-prefix path reads the same entries, so it needs the same treatment.
+    protected override void AppendUnitsForAdditional(long num, StringBuilder builder)
+    {
+      if (!AppendGendered(num, builder)) base.AppendUnitsForAdditional(num, builder);
+    }
+
+    private bool AppendGendered(long num, StringBuilder builder)
+    {
+      var word = num == 1 ? _one : num == 2 ? _two : null;
+      if (word == null) return false;
+      builder.AppendFormat("{0} ", word);
+      return true;
     }
 
     protected override long Append(long num, long scale, StringBuilder builder)

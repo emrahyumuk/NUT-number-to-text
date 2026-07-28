@@ -20,6 +20,18 @@ namespace Nut.TextConverters
       ScaleTexts = new Dictionary<long, string[]>();
     }
 
+    /// <summary>
+    /// Shares another converter's word tables instead of rebuilding them. Used by the
+    /// converters that need per-conversion state (gendered numerals) so they can keep that
+    /// state on a short-lived instance without paying to rebuild the tables. The tables are
+    /// shared, so a subclass using this must never write into them.
+    /// </summary>
+    protected BaseConverter(BaseConverter template)
+    {
+      NumberTexts = template.NumberTexts;
+      ScaleTexts = template.ScaleTexts;
+    }
+
     public abstract string CultureName { get; }
 
     public virtual string ToText(long num, GenderGroup genderGroup = GenderGroup.None)

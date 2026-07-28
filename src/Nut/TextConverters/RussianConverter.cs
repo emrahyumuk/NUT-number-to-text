@@ -17,26 +17,57 @@ namespace Nut.TextConverters
       Initialize();
     }
 
-    protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+    // Set only on the short-lived per-conversion instance; null on the shared singleton.
+    private string _one;
+    private string _two;
+
+    private RussianConverter(RussianConverter template, CurrencyModel currencyModel, bool isMainUnit)
+      : base(template)
     {
       switch (currencyModel.Currency)
       {
         case Currency.BYN:
         case Currency.RUB:
         case Currency.EUR:
-          NumberTexts[1][0] = isMainUnit ? "один" : "одна";
-          NumberTexts[2][0] = isMainUnit ? "два" : "две";
+          _one = isMainUnit ? "один" : "одна";
+          _two = isMainUnit ? "два" : "две";
           break;
         case Currency.UAH:
-          NumberTexts[1][0] = "одна";
-          NumberTexts[2][0] = "две";
+          _one = "одна";
+          _two = "две";
           break;
         default:
-          NumberTexts[1][0] = "один";
-          NumberTexts[2][0] = "два";
+          _one = "один";
+          _two = "два";
           break;
       }
-      return ToText(num);
+    }
+
+    protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+    {
+      // One and two agree in gender with the unit being counted, so the choice differs per
+      // conversion. Keep it on a throwaway instance: writing it into the singleton's word
+      // table would leak into the next call and corrupt concurrent ones.
+      return new RussianConverter(this, currencyModel, isMainUnit).ToText(num);
+    }
+
+    protected override void AppendUnits(long num, StringBuilder builder)
+    {
+      if (!AppendGendered(num, builder)) base.AppendUnits(num, builder);
+    }
+
+    // The scale-prefix path reads the same entries, so it needs the same treatment.
+    protected override void AppendUnitsForAdditional(long num, StringBuilder builder)
+    {
+      if (!AppendGendered(num, builder)) base.AppendUnitsForAdditional(num, builder);
+    }
+
+    private bool AppendGendered(long num, StringBuilder builder)
+    {
+      var word = num == 1 ? _one : num == 2 ? _two : null;
+      if (word == null) return false;
+      builder.AppendFormat("{0} ", word);
+      return true;
     }
 
     protected override long Append(long num, long scale, StringBuilder builder)

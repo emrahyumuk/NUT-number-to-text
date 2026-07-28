@@ -17,26 +17,56 @@ namespace Nut.TextConverters
             Initialize();
         }
 
-        protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+        // Set only on the short-lived per-conversion instance; null on the shared singleton.
+        private string _one;
+        private string _two;
+
+        private BelarusianConverter(BelarusianConverter template, CurrencyModel currencyModel, bool isMainUnit)
+            : base(template)
         {
             switch (currencyModel.Currency)
             {
                 case Currency.BYN:
                 case Currency.RUB:
                 case Currency.EUR:
-                    NumberTexts[1][0] = isMainUnit ? "адзін" : "адна";
-                    NumberTexts[2][0] = isMainUnit ? "два" : "дзве";
+                    _one = isMainUnit ? "адзін" : "адна";
+                    _two = isMainUnit ? "два" : "дзве";
                     break;
                 case Currency.UAH:
-                    NumberTexts[1][0] = "адна";
-                    NumberTexts[2][0] = "дзве";
+                    _one = "адна";
+                    _two = "дзве";
                     break;
                 default:
-                    NumberTexts[1][0] = "адзін";
-                    NumberTexts[2][0] = "два";
+                    _one = "адзін";
+                    _two = "два";
                     break;
             }
-            return ToText(num);
+        }
+
+        protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+        {
+            // Gendered forms are per-conversion; see RussianConverter for why this is not
+            // written into the shared singleton.
+            return new BelarusianConverter(this, currencyModel, isMainUnit).ToText(num);
+        }
+
+        protected override void AppendUnits(long num, StringBuilder builder)
+        {
+            if (!AppendGendered(num, builder)) base.AppendUnits(num, builder);
+        }
+
+        // The scale-prefix path reads the same entries, so it needs the same treatment.
+        protected override void AppendUnitsForAdditional(long num, StringBuilder builder)
+        {
+            if (!AppendGendered(num, builder)) base.AppendUnitsForAdditional(num, builder);
+        }
+
+        private bool AppendGendered(long num, StringBuilder builder)
+        {
+            var word = num == 1 ? _one : num == 2 ? _two : null;
+            if (word == null) return false;
+            builder.AppendFormat("{0} ", word);
+            return true;
         }
 
         protected override long Append(long num, long scale, StringBuilder builder)
