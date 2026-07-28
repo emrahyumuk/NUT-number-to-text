@@ -1,0 +1,4536 @@
+plain	en	0	zero
+plain	en	1	one
+plain	en	2	two
+plain	en	3	three
+plain	en	5	five
+plain	en	11	eleven
+plain	en	15	fifteen
+plain	en	20	twenty
+plain	en	21	twenty one
+plain	en	22	twenty two
+plain	en	42	forty two
+plain	en	100	one hundred
+plain	en	101	one hundred one
+plain	en	121	one hundred twenty one
+plain	en	200	two hundred
+plain	en	999	nine hundred ninety nine
+plain	en	1000	one thousand
+plain	en	1001	one thousand one
+plain	en	2000	two thousand
+plain	en	5000	five thousand
+plain	en	21000	twenty one thousand
+plain	en	41000	forty one thousand
+plain	en	100000	one hundred thousand
+plain	en	1000000	one million
+plain	en	2000000	two million
+plain	en	999999999	nine hundred ninety nine million nine hundred ninety nine thousand nine hundred ninety nine
+money	en	eur	0	zero euro zero eurocent
+money	en	eur	0.01	zero euro one eurocent
+money	en	eur	0.02	zero euro two eurocents
+money	en	eur	1	one euro zero eurocent
+money	en	eur	1.01	one euro one eurocent
+money	en	eur	1.02	one euro two eurocents
+money	en	eur	2	two euros zero eurocent
+money	en	eur	2.02	two euros two eurocents
+money	en	eur	3	three euros zero eurocent
+money	en	eur	5	five euros zero eurocent
+money	en	eur	11	eleven euros zero eurocent
+money	en	eur	21	twenty one euros zero eurocent
+money	en	eur	22	twenty two euros zero eurocent
+money	en	eur	42	forty two euros zero eurocent
+money	en	eur	100	one hundred euros zero eurocent
+money	en	eur	101	one hundred one euros zero eurocent
+money	en	eur	121	one hundred twenty one euros zero eurocent
+money	en	eur	999	nine hundred ninety nine euros zero eurocent
+money	en	eur	1000	one thousand euros zero eurocent
+money	en	eur	1001	one thousand one euros zero eurocent
+money	en	eur	2000	two thousand euros zero eurocent
+money	en	eur	2001	two thousand one euros zero eurocent
+money	en	eur	5000	five thousand euros zero eurocent
+money	en	eur	21000	twenty one thousand euros zero eurocent
+money	en	eur	22000	twenty two thousand euros zero eurocent
+money	en	eur	41000	forty one thousand euros zero eurocent
+money	en	eur	42000	forty two thousand euros zero eurocent
+money	en	eur	100000	one hundred thousand euros zero eurocent
+money	en	eur	1000000	one million euros zero eurocent
+money	en	eur	2000000	two million euros zero eurocent
+money	en	eur	1000000000	one billion euros zero eurocent
+money	en	eur	123.45	one hundred twenty three euros forty five eurocents
+money	en	usd	0	zero dollar zero cent
+money	en	usd	0.01	zero dollar one cent
+money	en	usd	0.02	zero dollar two cents
+money	en	usd	1	one dollar zero cent
+money	en	usd	1.01	one dollar one cent
+money	en	usd	1.02	one dollar two cents
+money	en	usd	2	two dollars zero cent
+money	en	usd	2.02	two dollars two cents
+money	en	usd	3	three dollars zero cent
+money	en	usd	5	five dollars zero cent
+money	en	usd	11	eleven dollars zero cent
+money	en	usd	21	twenty one dollars zero cent
+money	en	usd	22	twenty two dollars zero cent
+money	en	usd	42	forty two dollars zero cent
+money	en	usd	100	one hundred dollars zero cent
+money	en	usd	101	one hundred one dollars zero cent
+money	en	usd	121	one hundred twenty one dollars zero cent
+money	en	usd	999	nine hundred ninety nine dollars zero cent
+money	en	usd	1000	one thousand dollars zero cent
+money	en	usd	1001	one thousand one dollars zero cent
+money	en	usd	2000	two thousand dollars zero cent
+money	en	usd	2001	two thousand one dollars zero cent
+money	en	usd	5000	five thousand dollars zero cent
+money	en	usd	21000	twenty one thousand dollars zero cent
+money	en	usd	22000	twenty two thousand dollars zero cent
+money	en	usd	41000	forty one thousand dollars zero cent
+money	en	usd	42000	forty two thousand dollars zero cent
+money	en	usd	100000	one hundred thousand dollars zero cent
+money	en	usd	1000000	one million dollars zero cent
+money	en	usd	2000000	two million dollars zero cent
+money	en	usd	1000000000	one billion dollars zero cent
+money	en	usd	123.45	one hundred twenty three dollars forty five cents
+money	en	rub	0	zero ruble zero kopek
+money	en	rub	0.01	zero ruble one kopek
+money	en	rub	0.02	zero ruble two kopeks
+money	en	rub	1	one ruble zero kopek
+money	en	rub	1.01	one ruble one kopek
+money	en	rub	1.02	one ruble two kopeks
+money	en	rub	2	two rubles zero kopek
+money	en	rub	2.02	two rubles two kopeks
+money	en	rub	3	three rubles zero kopek
+money	en	rub	5	five rubles zero kopek
+money	en	rub	11	eleven rubles zero kopek
+money	en	rub	21	twenty one rubles zero kopek
+money	en	rub	22	twenty two rubles zero kopek
+money	en	rub	42	forty two rubles zero kopek
+money	en	rub	100	one hundred rubles zero kopek
+money	en	rub	101	one hundred one rubles zero kopek
+money	en	rub	121	one hundred twenty one rubles zero kopek
+money	en	rub	999	nine hundred ninety nine rubles zero kopek
+money	en	rub	1000	one thousand rubles zero kopek
+money	en	rub	1001	one thousand one rubles zero kopek
+money	en	rub	2000	two thousand rubles zero kopek
+money	en	rub	2001	two thousand one rubles zero kopek
+money	en	rub	5000	five thousand rubles zero kopek
+money	en	rub	21000	twenty one thousand rubles zero kopek
+money	en	rub	22000	twenty two thousand rubles zero kopek
+money	en	rub	41000	forty one thousand rubles zero kopek
+money	en	rub	42000	forty two thousand rubles zero kopek
+money	en	rub	100000	one hundred thousand rubles zero kopek
+money	en	rub	1000000	one million rubles zero kopek
+money	en	rub	2000000	two million rubles zero kopek
+money	en	rub	1000000000	one billion rubles zero kopek
+money	en	rub	123.45	one hundred twenty three rubles forty five kopeks
+money	en	try	0	zero turkish lira zero kurus
+money	en	try	0.01	zero turkish lira one kurus
+money	en	try	0.02	zero turkish lira two kurus
+money	en	try	1	one turkish lira zero kurus
+money	en	try	1.01	one turkish lira one kurus
+money	en	try	1.02	one turkish lira two kurus
+money	en	try	2	two turkish lira zero kurus
+money	en	try	2.02	two turkish lira two kurus
+money	en	try	3	three turkish lira zero kurus
+money	en	try	5	five turkish lira zero kurus
+money	en	try	11	eleven turkish lira zero kurus
+money	en	try	21	twenty one turkish lira zero kurus
+money	en	try	22	twenty two turkish lira zero kurus
+money	en	try	42	forty two turkish lira zero kurus
+money	en	try	100	one hundred turkish lira zero kurus
+money	en	try	101	one hundred one turkish lira zero kurus
+money	en	try	121	one hundred twenty one turkish lira zero kurus
+money	en	try	999	nine hundred ninety nine turkish lira zero kurus
+money	en	try	1000	one thousand turkish lira zero kurus
+money	en	try	1001	one thousand one turkish lira zero kurus
+money	en	try	2000	two thousand turkish lira zero kurus
+money	en	try	2001	two thousand one turkish lira zero kurus
+money	en	try	5000	five thousand turkish lira zero kurus
+money	en	try	21000	twenty one thousand turkish lira zero kurus
+money	en	try	22000	twenty two thousand turkish lira zero kurus
+money	en	try	41000	forty one thousand turkish lira zero kurus
+money	en	try	42000	forty two thousand turkish lira zero kurus
+money	en	try	100000	one hundred thousand turkish lira zero kurus
+money	en	try	1000000	one million turkish lira zero kurus
+money	en	try	2000000	two million turkish lira zero kurus
+money	en	try	1000000000	one billion turkish lira zero kurus
+money	en	try	123.45	one hundred twenty three turkish lira forty five kurus
+money	en	uah	0	zero ukrainian hryvnia zero kopiyka
+money	en	uah	0.01	zero ukrainian hryvnia one kopiyka
+money	en	uah	0.02	zero ukrainian hryvnia two kopiyky
+money	en	uah	1	one ukrainian hryvnia zero kopiyka
+money	en	uah	1.01	one ukrainian hryvnia one kopiyka
+money	en	uah	1.02	one ukrainian hryvnia two kopiyky
+money	en	uah	2	two ukrainian hryvnia zero kopiyka
+money	en	uah	2.02	two ukrainian hryvnia two kopiyky
+money	en	uah	3	three ukrainian hryvnia zero kopiyka
+money	en	uah	5	five ukrainian hryvnia zero kopiyka
+money	en	uah	11	eleven ukrainian hryvnia zero kopiyka
+money	en	uah	21	twenty one ukrainian hryvnia zero kopiyka
+money	en	uah	22	twenty two ukrainian hryvnia zero kopiyka
+money	en	uah	42	forty two ukrainian hryvnia zero kopiyka
+money	en	uah	100	one hundred ukrainian hryvnia zero kopiyka
+money	en	uah	101	one hundred one ukrainian hryvnia zero kopiyka
+money	en	uah	121	one hundred twenty one ukrainian hryvnia zero kopiyka
+money	en	uah	999	nine hundred ninety nine ukrainian hryvnia zero kopiyka
+money	en	uah	1000	one thousand ukrainian hryvnia zero kopiyka
+money	en	uah	1001	one thousand one ukrainian hryvnia zero kopiyka
+money	en	uah	2000	two thousand ukrainian hryvnia zero kopiyka
+money	en	uah	2001	two thousand one ukrainian hryvnia zero kopiyka
+money	en	uah	5000	five thousand ukrainian hryvnia zero kopiyka
+money	en	uah	21000	twenty one thousand ukrainian hryvnia zero kopiyka
+money	en	uah	22000	twenty two thousand ukrainian hryvnia zero kopiyka
+money	en	uah	41000	forty one thousand ukrainian hryvnia zero kopiyka
+money	en	uah	42000	forty two thousand ukrainian hryvnia zero kopiyka
+money	en	uah	100000	one hundred thousand ukrainian hryvnia zero kopiyka
+money	en	uah	1000000	one million ukrainian hryvnia zero kopiyka
+money	en	uah	2000000	two million ukrainian hryvnia zero kopiyka
+money	en	uah	1000000000	one billion ukrainian hryvnia zero kopiyka
+money	en	uah	123.45	one hundred twenty three ukrainian hryvnia forty five kopiyky
+money	en	bgn	0	
+money	en	bgn	0.01	
+money	en	bgn	0.02	
+money	en	bgn	1	
+money	en	bgn	1.01	
+money	en	bgn	1.02	
+money	en	bgn	2	
+money	en	bgn	2.02	
+money	en	bgn	3	
+money	en	bgn	5	
+money	en	bgn	11	
+money	en	bgn	21	
+money	en	bgn	22	
+money	en	bgn	42	
+money	en	bgn	100	
+money	en	bgn	101	
+money	en	bgn	121	
+money	en	bgn	999	
+money	en	bgn	1000	
+money	en	bgn	1001	
+money	en	bgn	2000	
+money	en	bgn	2001	
+money	en	bgn	5000	
+money	en	bgn	21000	
+money	en	bgn	22000	
+money	en	bgn	41000	
+money	en	bgn	42000	
+money	en	bgn	100000	
+money	en	bgn	1000000	
+money	en	bgn	2000000	
+money	en	bgn	1000000000	
+money	en	bgn	123.45	
+money	en	etb	0	zero birr zero cent
+money	en	etb	0.01	zero birr one cent
+money	en	etb	0.02	zero birr two cents
+money	en	etb	1	one birr zero cent
+money	en	etb	1.01	one birr one cent
+money	en	etb	1.02	one birr two cents
+money	en	etb	2	two birr zero cent
+money	en	etb	2.02	two birr two cents
+money	en	etb	3	three birr zero cent
+money	en	etb	5	five birr zero cent
+money	en	etb	11	eleven birr zero cent
+money	en	etb	21	twenty one birr zero cent
+money	en	etb	22	twenty two birr zero cent
+money	en	etb	42	forty two birr zero cent
+money	en	etb	100	one hundred birr zero cent
+money	en	etb	101	one hundred one birr zero cent
+money	en	etb	121	one hundred twenty one birr zero cent
+money	en	etb	999	nine hundred ninety nine birr zero cent
+money	en	etb	1000	one thousand birr zero cent
+money	en	etb	1001	one thousand one birr zero cent
+money	en	etb	2000	two thousand birr zero cent
+money	en	etb	2001	two thousand one birr zero cent
+money	en	etb	5000	five thousand birr zero cent
+money	en	etb	21000	twenty one thousand birr zero cent
+money	en	etb	22000	twenty two thousand birr zero cent
+money	en	etb	41000	forty one thousand birr zero cent
+money	en	etb	42000	forty two thousand birr zero cent
+money	en	etb	100000	one hundred thousand birr zero cent
+money	en	etb	1000000	one million birr zero cent
+money	en	etb	2000000	two million birr zero cent
+money	en	etb	1000000000	one billion birr zero cent
+money	en	etb	123.45	one hundred twenty three birr forty five cents
+money	en	pln	0	zero zloty zero grosz
+money	en	pln	0.01	zero zloty one grosz
+money	en	pln	0.02	zero zloty two grosze
+money	en	pln	1	one zloty zero grosz
+money	en	pln	1.01	one zloty one grosz
+money	en	pln	1.02	one zloty two grosze
+money	en	pln	2	two zloty zero grosz
+money	en	pln	2.02	two zloty two grosze
+money	en	pln	3	three zloty zero grosz
+money	en	pln	5	five zloty zero grosz
+money	en	pln	11	eleven zloty zero grosz
+money	en	pln	21	twenty one zloty zero grosz
+money	en	pln	22	twenty two zloty zero grosz
+money	en	pln	42	forty two zloty zero grosz
+money	en	pln	100	one hundred zloty zero grosz
+money	en	pln	101	one hundred one zloty zero grosz
+money	en	pln	121	one hundred twenty one zloty zero grosz
+money	en	pln	999	nine hundred ninety nine zloty zero grosz
+money	en	pln	1000	one thousand zloty zero grosz
+money	en	pln	1001	one thousand one zloty zero grosz
+money	en	pln	2000	two thousand zloty zero grosz
+money	en	pln	2001	two thousand one zloty zero grosz
+money	en	pln	5000	five thousand zloty zero grosz
+money	en	pln	21000	twenty one thousand zloty zero grosz
+money	en	pln	22000	twenty two thousand zloty zero grosz
+money	en	pln	41000	forty one thousand zloty zero grosz
+money	en	pln	42000	forty two thousand zloty zero grosz
+money	en	pln	100000	one hundred thousand zloty zero grosz
+money	en	pln	1000000	one million zloty zero grosz
+money	en	pln	2000000	two million zloty zero grosz
+money	en	pln	1000000000	one billion zloty zero grosz
+money	en	pln	123.45	one hundred twenty three zloty forty five grosze
+money	en	byn	0	zero Belarusian ruble zero kopek
+money	en	byn	0.01	zero Belarusian ruble one kopek
+money	en	byn	0.02	zero Belarusian ruble two kopeks
+money	en	byn	1	one Belarusian ruble zero kopek
+money	en	byn	1.01	one Belarusian ruble one kopek
+money	en	byn	1.02	one Belarusian ruble two kopeks
+money	en	byn	2	two Belarusian rubles zero kopek
+money	en	byn	2.02	two Belarusian rubles two kopeks
+money	en	byn	3	three Belarusian rubles zero kopek
+money	en	byn	5	five Belarusian rubles zero kopek
+money	en	byn	11	eleven Belarusian rubles zero kopek
+money	en	byn	21	twenty one Belarusian rubles zero kopek
+money	en	byn	22	twenty two Belarusian rubles zero kopek
+money	en	byn	42	forty two Belarusian rubles zero kopek
+money	en	byn	100	one hundred Belarusian rubles zero kopek
+money	en	byn	101	one hundred one Belarusian rubles zero kopek
+money	en	byn	121	one hundred twenty one Belarusian rubles zero kopek
+money	en	byn	999	nine hundred ninety nine Belarusian rubles zero kopek
+money	en	byn	1000	one thousand Belarusian rubles zero kopek
+money	en	byn	1001	one thousand one Belarusian rubles zero kopek
+money	en	byn	2000	two thousand Belarusian rubles zero kopek
+money	en	byn	2001	two thousand one Belarusian rubles zero kopek
+money	en	byn	5000	five thousand Belarusian rubles zero kopek
+money	en	byn	21000	twenty one thousand Belarusian rubles zero kopek
+money	en	byn	22000	twenty two thousand Belarusian rubles zero kopek
+money	en	byn	41000	forty one thousand Belarusian rubles zero kopek
+money	en	byn	42000	forty two thousand Belarusian rubles zero kopek
+money	en	byn	100000	one hundred thousand Belarusian rubles zero kopek
+money	en	byn	1000000	one million Belarusian rubles zero kopek
+money	en	byn	2000000	two million Belarusian rubles zero kopek
+money	en	byn	1000000000	one billion Belarusian rubles zero kopek
+money	en	byn	123.45	one hundred twenty three Belarusian rubles forty five kopeks
+money	en	ars	0	
+money	en	ars	0.01	
+money	en	ars	0.02	
+money	en	ars	1	
+money	en	ars	1.01	
+money	en	ars	1.02	
+money	en	ars	2	
+money	en	ars	2.02	
+money	en	ars	3	
+money	en	ars	5	
+money	en	ars	11	
+money	en	ars	21	
+money	en	ars	22	
+money	en	ars	42	
+money	en	ars	100	
+money	en	ars	101	
+money	en	ars	121	
+money	en	ars	999	
+money	en	ars	1000	
+money	en	ars	1001	
+money	en	ars	2000	
+money	en	ars	2001	
+money	en	ars	5000	
+money	en	ars	21000	
+money	en	ars	22000	
+money	en	ars	41000	
+money	en	ars	42000	
+money	en	ars	100000	
+money	en	ars	1000000	
+money	en	ars	2000000	
+money	en	ars	1000000000	
+money	en	ars	123.45	
+money	en	brl	0	
+money	en	brl	0.01	
+money	en	brl	0.02	
+money	en	brl	1	
+money	en	brl	1.01	
+money	en	brl	1.02	
+money	en	brl	2	
+money	en	brl	2.02	
+money	en	brl	3	
+money	en	brl	5	
+money	en	brl	11	
+money	en	brl	21	
+money	en	brl	22	
+money	en	brl	42	
+money	en	brl	100	
+money	en	brl	101	
+money	en	brl	121	
+money	en	brl	999	
+money	en	brl	1000	
+money	en	brl	1001	
+money	en	brl	2000	
+money	en	brl	2001	
+money	en	brl	5000	
+money	en	brl	21000	
+money	en	brl	22000	
+money	en	brl	41000	
+money	en	brl	42000	
+money	en	brl	100000	
+money	en	brl	1000000	
+money	en	brl	2000000	
+money	en	brl	1000000000	
+money	en	brl	123.45	
+plain	fr	0	zéro
+plain	fr	1	un
+plain	fr	2	deux
+plain	fr	3	trois
+plain	fr	5	cinq
+plain	fr	11	onze
+plain	fr	15	quinze
+plain	fr	20	vingt
+plain	fr	21	vingt et un
+plain	fr	22	vingt deux
+plain	fr	42	quarante deux
+plain	fr	100	cent
+plain	fr	101	cent un
+plain	fr	121	cent vingt et un
+plain	fr	200	deux cent
+plain	fr	999	neuf cent quatre-vingt-dix-neuf
+plain	fr	1000	mille
+plain	fr	1001	mille un
+plain	fr	2000	deux mille
+plain	fr	5000	cinq mille
+plain	fr	21000	vingt et un mille
+plain	fr	41000	quarante et un mille
+plain	fr	100000	cent mille
+plain	fr	1000000	un million
+plain	fr	2000000	deux million
+plain	fr	999999999	neuf cent quatre-vingt-dix-neuf million neuf cent quatre-vingt-dix-neuf mille neuf cent quatre-vingt-dix-neuf
+money	fr	eur	0	zéro euro zéro centime
+money	fr	eur	0.01	zéro euro un centime
+money	fr	eur	0.02	zéro euro deux centimes
+money	fr	eur	1	un euro zéro centime
+money	fr	eur	1.01	un euro un centime
+money	fr	eur	1.02	un euro deux centimes
+money	fr	eur	2	deux euros zéro centime
+money	fr	eur	2.02	deux euros deux centimes
+money	fr	eur	3	trois euros zéro centime
+money	fr	eur	5	cinq euros zéro centime
+money	fr	eur	11	onze euros zéro centime
+money	fr	eur	21	vingt et un euros zéro centime
+money	fr	eur	22	vingt deux euros zéro centime
+money	fr	eur	42	quarante deux euros zéro centime
+money	fr	eur	100	cent euros zéro centime
+money	fr	eur	101	cent un euros zéro centime
+money	fr	eur	121	cent vingt et un euros zéro centime
+money	fr	eur	999	neuf cent quatre-vingt-dix-neuf euros zéro centime
+money	fr	eur	1000	mille euros zéro centime
+money	fr	eur	1001	mille un euros zéro centime
+money	fr	eur	2000	deux mille euros zéro centime
+money	fr	eur	2001	deux mille un euros zéro centime
+money	fr	eur	5000	cinq mille euros zéro centime
+money	fr	eur	21000	vingt et un mille euros zéro centime
+money	fr	eur	22000	vingt deux mille euros zéro centime
+money	fr	eur	41000	quarante et un mille euros zéro centime
+money	fr	eur	42000	quarante deux mille euros zéro centime
+money	fr	eur	100000	cent mille euros zéro centime
+money	fr	eur	1000000	un million euros zéro centime
+money	fr	eur	2000000	deux million euros zéro centime
+money	fr	eur	1000000000	un milliard euros zéro centime
+money	fr	eur	123.45	cent vingt trois euros quarante cinq centimes
+money	fr	usd	0	zéro dollar zéro centime
+money	fr	usd	0.01	zéro dollar un centime
+money	fr	usd	0.02	zéro dollar deux centimes
+money	fr	usd	1	un dollar zéro centime
+money	fr	usd	1.01	un dollar un centime
+money	fr	usd	1.02	un dollar deux centimes
+money	fr	usd	2	deux dollars zéro centime
+money	fr	usd	2.02	deux dollars deux centimes
+money	fr	usd	3	trois dollars zéro centime
+money	fr	usd	5	cinq dollars zéro centime
+money	fr	usd	11	onze dollars zéro centime
+money	fr	usd	21	vingt et un dollars zéro centime
+money	fr	usd	22	vingt deux dollars zéro centime
+money	fr	usd	42	quarante deux dollars zéro centime
+money	fr	usd	100	cent dollars zéro centime
+money	fr	usd	101	cent un dollars zéro centime
+money	fr	usd	121	cent vingt et un dollars zéro centime
+money	fr	usd	999	neuf cent quatre-vingt-dix-neuf dollars zéro centime
+money	fr	usd	1000	mille dollars zéro centime
+money	fr	usd	1001	mille un dollars zéro centime
+money	fr	usd	2000	deux mille dollars zéro centime
+money	fr	usd	2001	deux mille un dollars zéro centime
+money	fr	usd	5000	cinq mille dollars zéro centime
+money	fr	usd	21000	vingt et un mille dollars zéro centime
+money	fr	usd	22000	vingt deux mille dollars zéro centime
+money	fr	usd	41000	quarante et un mille dollars zéro centime
+money	fr	usd	42000	quarante deux mille dollars zéro centime
+money	fr	usd	100000	cent mille dollars zéro centime
+money	fr	usd	1000000	un million dollars zéro centime
+money	fr	usd	2000000	deux million dollars zéro centime
+money	fr	usd	1000000000	un milliard dollars zéro centime
+money	fr	usd	123.45	cent vingt trois dollars quarante cinq centimes
+money	fr	rub	0	zéro rouble zéro kopeck
+money	fr	rub	0.01	zéro rouble un kopeck
+money	fr	rub	0.02	zéro rouble deux kopecks
+money	fr	rub	1	un rouble zéro kopeck
+money	fr	rub	1.01	un rouble un kopeck
+money	fr	rub	1.02	un rouble deux kopecks
+money	fr	rub	2	deux roubles zéro kopeck
+money	fr	rub	2.02	deux roubles deux kopecks
+money	fr	rub	3	trois roubles zéro kopeck
+money	fr	rub	5	cinq roubles zéro kopeck
+money	fr	rub	11	onze roubles zéro kopeck
+money	fr	rub	21	vingt et un roubles zéro kopeck
+money	fr	rub	22	vingt deux roubles zéro kopeck
+money	fr	rub	42	quarante deux roubles zéro kopeck
+money	fr	rub	100	cent roubles zéro kopeck
+money	fr	rub	101	cent un roubles zéro kopeck
+money	fr	rub	121	cent vingt et un roubles zéro kopeck
+money	fr	rub	999	neuf cent quatre-vingt-dix-neuf roubles zéro kopeck
+money	fr	rub	1000	mille roubles zéro kopeck
+money	fr	rub	1001	mille un roubles zéro kopeck
+money	fr	rub	2000	deux mille roubles zéro kopeck
+money	fr	rub	2001	deux mille un roubles zéro kopeck
+money	fr	rub	5000	cinq mille roubles zéro kopeck
+money	fr	rub	21000	vingt et un mille roubles zéro kopeck
+money	fr	rub	22000	vingt deux mille roubles zéro kopeck
+money	fr	rub	41000	quarante et un mille roubles zéro kopeck
+money	fr	rub	42000	quarante deux mille roubles zéro kopeck
+money	fr	rub	100000	cent mille roubles zéro kopeck
+money	fr	rub	1000000	un million roubles zéro kopeck
+money	fr	rub	2000000	deux million roubles zéro kopeck
+money	fr	rub	1000000000	un milliard roubles zéro kopeck
+money	fr	rub	123.45	cent vingt trois roubles quarante cinq kopecks
+money	fr	try	0	zéro livre turques zéro kuruş
+money	fr	try	0.01	zéro livre turques un kuruş
+money	fr	try	0.02	zéro livre turques deux kuruş
+money	fr	try	1	un livre turques zéro kuruş
+money	fr	try	1.01	un livre turques un kuruş
+money	fr	try	1.02	un livre turques deux kuruş
+money	fr	try	2	deux livres turques zéro kuruş
+money	fr	try	2.02	deux livres turques deux kuruş
+money	fr	try	3	trois livres turques zéro kuruş
+money	fr	try	5	cinq livres turques zéro kuruş
+money	fr	try	11	onze livres turques zéro kuruş
+money	fr	try	21	vingt et un livres turques zéro kuruş
+money	fr	try	22	vingt deux livres turques zéro kuruş
+money	fr	try	42	quarante deux livres turques zéro kuruş
+money	fr	try	100	cent livres turques zéro kuruş
+money	fr	try	101	cent un livres turques zéro kuruş
+money	fr	try	121	cent vingt et un livres turques zéro kuruş
+money	fr	try	999	neuf cent quatre-vingt-dix-neuf livres turques zéro kuruş
+money	fr	try	1000	mille livres turques zéro kuruş
+money	fr	try	1001	mille un livres turques zéro kuruş
+money	fr	try	2000	deux mille livres turques zéro kuruş
+money	fr	try	2001	deux mille un livres turques zéro kuruş
+money	fr	try	5000	cinq mille livres turques zéro kuruş
+money	fr	try	21000	vingt et un mille livres turques zéro kuruş
+money	fr	try	22000	vingt deux mille livres turques zéro kuruş
+money	fr	try	41000	quarante et un mille livres turques zéro kuruş
+money	fr	try	42000	quarante deux mille livres turques zéro kuruş
+money	fr	try	100000	cent mille livres turques zéro kuruş
+money	fr	try	1000000	un million livres turques zéro kuruş
+money	fr	try	2000000	deux million livres turques zéro kuruş
+money	fr	try	1000000000	un milliard livres turques zéro kuruş
+money	fr	try	123.45	cent vingt trois livres turques quarante cinq kuruş
+money	fr	uah	0	zéro hryvnia ukrainienne zéro kopiyka
+money	fr	uah	0.01	zéro hryvnia ukrainienne un kopiyka
+money	fr	uah	0.02	zéro hryvnia ukrainienne deux kopiyka
+money	fr	uah	1	un hryvnia ukrainienne zéro kopiyka
+money	fr	uah	1.01	un hryvnia ukrainienne un kopiyka
+money	fr	uah	1.02	un hryvnia ukrainienne deux kopiyka
+money	fr	uah	2	deux hryvnias ukrainienne zéro kopiyka
+money	fr	uah	2.02	deux hryvnias ukrainienne deux kopiyka
+money	fr	uah	3	trois hryvnias ukrainienne zéro kopiyka
+money	fr	uah	5	cinq hryvnias ukrainienne zéro kopiyka
+money	fr	uah	11	onze hryvnias ukrainienne zéro kopiyka
+money	fr	uah	21	vingt et un hryvnias ukrainienne zéro kopiyka
+money	fr	uah	22	vingt deux hryvnias ukrainienne zéro kopiyka
+money	fr	uah	42	quarante deux hryvnias ukrainienne zéro kopiyka
+money	fr	uah	100	cent hryvnias ukrainienne zéro kopiyka
+money	fr	uah	101	cent un hryvnias ukrainienne zéro kopiyka
+money	fr	uah	121	cent vingt et un hryvnias ukrainienne zéro kopiyka
+money	fr	uah	999	neuf cent quatre-vingt-dix-neuf hryvnias ukrainienne zéro kopiyka
+money	fr	uah	1000	mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	1001	mille un hryvnias ukrainienne zéro kopiyka
+money	fr	uah	2000	deux mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	2001	deux mille un hryvnias ukrainienne zéro kopiyka
+money	fr	uah	5000	cinq mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	21000	vingt et un mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	22000	vingt deux mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	41000	quarante et un mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	42000	quarante deux mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	100000	cent mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	1000000	un million hryvnias ukrainienne zéro kopiyka
+money	fr	uah	2000000	deux million hryvnias ukrainienne zéro kopiyka
+money	fr	uah	1000000000	un milliard hryvnias ukrainienne zéro kopiyka
+money	fr	uah	123.45	cent vingt trois hryvnias ukrainienne quarante cinq kopiyka
+money	fr	bgn	0	
+money	fr	bgn	0.01	
+money	fr	bgn	0.02	
+money	fr	bgn	1	
+money	fr	bgn	1.01	
+money	fr	bgn	1.02	
+money	fr	bgn	2	
+money	fr	bgn	2.02	
+money	fr	bgn	3	
+money	fr	bgn	5	
+money	fr	bgn	11	
+money	fr	bgn	21	
+money	fr	bgn	22	
+money	fr	bgn	42	
+money	fr	bgn	100	
+money	fr	bgn	101	
+money	fr	bgn	121	
+money	fr	bgn	999	
+money	fr	bgn	1000	
+money	fr	bgn	1001	
+money	fr	bgn	2000	
+money	fr	bgn	2001	
+money	fr	bgn	5000	
+money	fr	bgn	21000	
+money	fr	bgn	22000	
+money	fr	bgn	41000	
+money	fr	bgn	42000	
+money	fr	bgn	100000	
+money	fr	bgn	1000000	
+money	fr	bgn	2000000	
+money	fr	bgn	1000000000	
+money	fr	bgn	123.45	
+money	fr	etb	0	zéro Birr zéro centime
+money	fr	etb	0.01	zéro Birr un centime
+money	fr	etb	0.02	zéro Birr deux centimes
+money	fr	etb	1	un Birr zéro centime
+money	fr	etb	1.01	un Birr un centime
+money	fr	etb	1.02	un Birr deux centimes
+money	fr	etb	2	deux Birr zéro centime
+money	fr	etb	2.02	deux Birr deux centimes
+money	fr	etb	3	trois Birr zéro centime
+money	fr	etb	5	cinq Birr zéro centime
+money	fr	etb	11	onze Birr zéro centime
+money	fr	etb	21	vingt et un Birr zéro centime
+money	fr	etb	22	vingt deux Birr zéro centime
+money	fr	etb	42	quarante deux Birr zéro centime
+money	fr	etb	100	cent Birr zéro centime
+money	fr	etb	101	cent un Birr zéro centime
+money	fr	etb	121	cent vingt et un Birr zéro centime
+money	fr	etb	999	neuf cent quatre-vingt-dix-neuf Birr zéro centime
+money	fr	etb	1000	mille Birr zéro centime
+money	fr	etb	1001	mille un Birr zéro centime
+money	fr	etb	2000	deux mille Birr zéro centime
+money	fr	etb	2001	deux mille un Birr zéro centime
+money	fr	etb	5000	cinq mille Birr zéro centime
+money	fr	etb	21000	vingt et un mille Birr zéro centime
+money	fr	etb	22000	vingt deux mille Birr zéro centime
+money	fr	etb	41000	quarante et un mille Birr zéro centime
+money	fr	etb	42000	quarante deux mille Birr zéro centime
+money	fr	etb	100000	cent mille Birr zéro centime
+money	fr	etb	1000000	un million Birr zéro centime
+money	fr	etb	2000000	deux million Birr zéro centime
+money	fr	etb	1000000000	un milliard Birr zéro centime
+money	fr	etb	123.45	cent vingt trois Birr quarante cinq centimes
+money	fr	pln	0	zéro zloty zéro groszy
+money	fr	pln	0.01	zéro zloty un groszy
+money	fr	pln	0.02	zéro zloty deux groszy
+money	fr	pln	1	un zloty zéro groszy
+money	fr	pln	1.01	un zloty un groszy
+money	fr	pln	1.02	un zloty deux groszy
+money	fr	pln	2	deux zloty zéro groszy
+money	fr	pln	2.02	deux zloty deux groszy
+money	fr	pln	3	trois zloty zéro groszy
+money	fr	pln	5	cinq zloty zéro groszy
+money	fr	pln	11	onze zloty zéro groszy
+money	fr	pln	21	vingt et un zloty zéro groszy
+money	fr	pln	22	vingt deux zloty zéro groszy
+money	fr	pln	42	quarante deux zloty zéro groszy
+money	fr	pln	100	cent zloty zéro groszy
+money	fr	pln	101	cent un zloty zéro groszy
+money	fr	pln	121	cent vingt et un zloty zéro groszy
+money	fr	pln	999	neuf cent quatre-vingt-dix-neuf zloty zéro groszy
+money	fr	pln	1000	mille zloty zéro groszy
+money	fr	pln	1001	mille un zloty zéro groszy
+money	fr	pln	2000	deux mille zloty zéro groszy
+money	fr	pln	2001	deux mille un zloty zéro groszy
+money	fr	pln	5000	cinq mille zloty zéro groszy
+money	fr	pln	21000	vingt et un mille zloty zéro groszy
+money	fr	pln	22000	vingt deux mille zloty zéro groszy
+money	fr	pln	41000	quarante et un mille zloty zéro groszy
+money	fr	pln	42000	quarante deux mille zloty zéro groszy
+money	fr	pln	100000	cent mille zloty zéro groszy
+money	fr	pln	1000000	un million zloty zéro groszy
+money	fr	pln	2000000	deux million zloty zéro groszy
+money	fr	pln	1000000000	un milliard zloty zéro groszy
+money	fr	pln	123.45	cent vingt trois zloty quarante cinq groszy
+money	fr	byn	0	zéro rouble biélorusse zéro kopeck
+money	fr	byn	0.01	zéro rouble biélorusse un kopeck
+money	fr	byn	0.02	zéro rouble biélorusse deux kopecks
+money	fr	byn	1	un rouble biélorusse zéro kopeck
+money	fr	byn	1.01	un rouble biélorusse un kopeck
+money	fr	byn	1.02	un rouble biélorusse deux kopecks
+money	fr	byn	2	deux roubles biélorusses zéro kopeck
+money	fr	byn	2.02	deux roubles biélorusses deux kopecks
+money	fr	byn	3	trois roubles biélorusses zéro kopeck
+money	fr	byn	5	cinq roubles biélorusses zéro kopeck
+money	fr	byn	11	onze roubles biélorusses zéro kopeck
+money	fr	byn	21	vingt et un roubles biélorusses zéro kopeck
+money	fr	byn	22	vingt deux roubles biélorusses zéro kopeck
+money	fr	byn	42	quarante deux roubles biélorusses zéro kopeck
+money	fr	byn	100	cent roubles biélorusses zéro kopeck
+money	fr	byn	101	cent un roubles biélorusses zéro kopeck
+money	fr	byn	121	cent vingt et un roubles biélorusses zéro kopeck
+money	fr	byn	999	neuf cent quatre-vingt-dix-neuf roubles biélorusses zéro kopeck
+money	fr	byn	1000	mille roubles biélorusses zéro kopeck
+money	fr	byn	1001	mille un roubles biélorusses zéro kopeck
+money	fr	byn	2000	deux mille roubles biélorusses zéro kopeck
+money	fr	byn	2001	deux mille un roubles biélorusses zéro kopeck
+money	fr	byn	5000	cinq mille roubles biélorusses zéro kopeck
+money	fr	byn	21000	vingt et un mille roubles biélorusses zéro kopeck
+money	fr	byn	22000	vingt deux mille roubles biélorusses zéro kopeck
+money	fr	byn	41000	quarante et un mille roubles biélorusses zéro kopeck
+money	fr	byn	42000	quarante deux mille roubles biélorusses zéro kopeck
+money	fr	byn	100000	cent mille roubles biélorusses zéro kopeck
+money	fr	byn	1000000	un million roubles biélorusses zéro kopeck
+money	fr	byn	2000000	deux million roubles biélorusses zéro kopeck
+money	fr	byn	1000000000	un milliard roubles biélorusses zéro kopeck
+money	fr	byn	123.45	cent vingt trois roubles biélorusses quarante cinq kopecks
+money	fr	ars	0	
+money	fr	ars	0.01	
+money	fr	ars	0.02	
+money	fr	ars	1	
+money	fr	ars	1.01	
+money	fr	ars	1.02	
+money	fr	ars	2	
+money	fr	ars	2.02	
+money	fr	ars	3	
+money	fr	ars	5	
+money	fr	ars	11	
+money	fr	ars	21	
+money	fr	ars	22	
+money	fr	ars	42	
+money	fr	ars	100	
+money	fr	ars	101	
+money	fr	ars	121	
+money	fr	ars	999	
+money	fr	ars	1000	
+money	fr	ars	1001	
+money	fr	ars	2000	
+money	fr	ars	2001	
+money	fr	ars	5000	
+money	fr	ars	21000	
+money	fr	ars	22000	
+money	fr	ars	41000	
+money	fr	ars	42000	
+money	fr	ars	100000	
+money	fr	ars	1000000	
+money	fr	ars	2000000	
+money	fr	ars	1000000000	
+money	fr	ars	123.45	
+money	fr	brl	0	
+money	fr	brl	0.01	
+money	fr	brl	0.02	
+money	fr	brl	1	
+money	fr	brl	1.01	
+money	fr	brl	1.02	
+money	fr	brl	2	
+money	fr	brl	2.02	
+money	fr	brl	3	
+money	fr	brl	5	
+money	fr	brl	11	
+money	fr	brl	21	
+money	fr	brl	22	
+money	fr	brl	42	
+money	fr	brl	100	
+money	fr	brl	101	
+money	fr	brl	121	
+money	fr	brl	999	
+money	fr	brl	1000	
+money	fr	brl	1001	
+money	fr	brl	2000	
+money	fr	brl	2001	
+money	fr	brl	5000	
+money	fr	brl	21000	
+money	fr	brl	22000	
+money	fr	brl	41000	
+money	fr	brl	42000	
+money	fr	brl	100000	
+money	fr	brl	1000000	
+money	fr	brl	2000000	
+money	fr	brl	1000000000	
+money	fr	brl	123.45	
+plain	de	0	null
+plain	de	1	ein
+plain	de	2	zwei
+plain	de	3	drei
+plain	de	5	fünf
+plain	de	11	elf
+plain	de	15	fünfzehn
+plain	de	20	zwanzig
+plain	de	21	einundzwanzig
+plain	de	22	zweiundzwanzig
+plain	de	42	zweiundvierzig
+plain	de	100	ein hundert
+plain	de	101	ein hundert ein
+plain	de	121	ein hundert einundzwanzig
+plain	de	200	zwei hundert
+plain	de	999	neun hundert neunundneunzig
+plain	de	1000	eintausend
+plain	de	1001	eintausend ein
+plain	de	2000	zwei tausend
+plain	de	5000	fünf tausend
+plain	de	21000	einundzwanzig tausend
+plain	de	41000	einundvierzig tausend
+plain	de	100000	ein hundert tausend
+plain	de	1000000	eine Million
+plain	de	2000000	zwei Millionen
+plain	de	999999999	neun hundert neunundneunzig Millionen neun hundert neunundneunzig tausend neun hundert neunundneunzig
+money	de	eur	0	null Euro null Cent
+money	de	eur	0.01	null Euro ein Cent
+money	de	eur	0.02	null Euro zwei Cent
+money	de	eur	1	ein Euro null Cent
+money	de	eur	1.01	ein Euro ein Cent
+money	de	eur	1.02	ein Euro zwei Cent
+money	de	eur	2	zwei Euro null Cent
+money	de	eur	2.02	zwei Euro zwei Cent
+money	de	eur	3	drei Euro null Cent
+money	de	eur	5	fünf Euro null Cent
+money	de	eur	11	elf Euro null Cent
+money	de	eur	21	einundzwanzig Euro null Cent
+money	de	eur	22	zweiundzwanzig Euro null Cent
+money	de	eur	42	zweiundvierzig Euro null Cent
+money	de	eur	100	ein hundert Euro null Cent
+money	de	eur	101	ein hundert ein Euro null Cent
+money	de	eur	121	ein hundert einundzwanzig Euro null Cent
+money	de	eur	999	neun hundert neunundneunzig Euro null Cent
+money	de	eur	1000	eintausend Euro null Cent
+money	de	eur	1001	eintausend ein Euro null Cent
+money	de	eur	2000	zwei tausend Euro null Cent
+money	de	eur	2001	zwei tausend ein Euro null Cent
+money	de	eur	5000	fünf tausend Euro null Cent
+money	de	eur	21000	einundzwanzig tausend Euro null Cent
+money	de	eur	22000	zweiundzwanzig tausend Euro null Cent
+money	de	eur	41000	einundvierzig tausend Euro null Cent
+money	de	eur	42000	zweiundvierzig tausend Euro null Cent
+money	de	eur	100000	ein hundert tausend Euro null Cent
+money	de	eur	1000000	eine Million Euro null Cent
+money	de	eur	2000000	zwei Millionen Euro null Cent
+money	de	eur	1000000000	eine Milliarde Euro null Cent
+money	de	eur	123.45	ein hundert dreiundzwanzig Euro fünfundvierzig Cent
+money	de	usd	0	null Dollar null Cent
+money	de	usd	0.01	null Dollar ein Cent
+money	de	usd	0.02	null Dollar zwei Cent
+money	de	usd	1	ein Dollar null Cent
+money	de	usd	1.01	ein Dollar ein Cent
+money	de	usd	1.02	ein Dollar zwei Cent
+money	de	usd	2	zwei Dollar null Cent
+money	de	usd	2.02	zwei Dollar zwei Cent
+money	de	usd	3	drei Dollar null Cent
+money	de	usd	5	fünf Dollar null Cent
+money	de	usd	11	elf Dollar null Cent
+money	de	usd	21	einundzwanzig Dollar null Cent
+money	de	usd	22	zweiundzwanzig Dollar null Cent
+money	de	usd	42	zweiundvierzig Dollar null Cent
+money	de	usd	100	ein hundert Dollar null Cent
+money	de	usd	101	ein hundert ein Dollar null Cent
+money	de	usd	121	ein hundert einundzwanzig Dollar null Cent
+money	de	usd	999	neun hundert neunundneunzig Dollar null Cent
+money	de	usd	1000	eintausend Dollar null Cent
+money	de	usd	1001	eintausend ein Dollar null Cent
+money	de	usd	2000	zwei tausend Dollar null Cent
+money	de	usd	2001	zwei tausend ein Dollar null Cent
+money	de	usd	5000	fünf tausend Dollar null Cent
+money	de	usd	21000	einundzwanzig tausend Dollar null Cent
+money	de	usd	22000	zweiundzwanzig tausend Dollar null Cent
+money	de	usd	41000	einundvierzig tausend Dollar null Cent
+money	de	usd	42000	zweiundvierzig tausend Dollar null Cent
+money	de	usd	100000	ein hundert tausend Dollar null Cent
+money	de	usd	1000000	eine Million Dollar null Cent
+money	de	usd	2000000	zwei Millionen Dollar null Cent
+money	de	usd	1000000000	eine Milliarde Dollar null Cent
+money	de	usd	123.45	ein hundert dreiundzwanzig Dollar fünfundvierzig Cent
+money	de	rub	0	null Rubel null Kopeke
+money	de	rub	0.01	null Rubel ein Kopeke
+money	de	rub	0.02	null Rubel zwei Kopeken
+money	de	rub	1	ein Rubel null Kopeke
+money	de	rub	1.01	ein Rubel ein Kopeke
+money	de	rub	1.02	ein Rubel zwei Kopeken
+money	de	rub	2	zwei Rubel null Kopeke
+money	de	rub	2.02	zwei Rubel zwei Kopeken
+money	de	rub	3	drei Rubel null Kopeke
+money	de	rub	5	fünf Rubel null Kopeke
+money	de	rub	11	elf Rubel null Kopeke
+money	de	rub	21	einundzwanzig Rubel null Kopeke
+money	de	rub	22	zweiundzwanzig Rubel null Kopeke
+money	de	rub	42	zweiundvierzig Rubel null Kopeke
+money	de	rub	100	ein hundert Rubel null Kopeke
+money	de	rub	101	ein hundert ein Rubel null Kopeke
+money	de	rub	121	ein hundert einundzwanzig Rubel null Kopeke
+money	de	rub	999	neun hundert neunundneunzig Rubel null Kopeke
+money	de	rub	1000	eintausend Rubel null Kopeke
+money	de	rub	1001	eintausend ein Rubel null Kopeke
+money	de	rub	2000	zwei tausend Rubel null Kopeke
+money	de	rub	2001	zwei tausend ein Rubel null Kopeke
+money	de	rub	5000	fünf tausend Rubel null Kopeke
+money	de	rub	21000	einundzwanzig tausend Rubel null Kopeke
+money	de	rub	22000	zweiundzwanzig tausend Rubel null Kopeke
+money	de	rub	41000	einundvierzig tausend Rubel null Kopeke
+money	de	rub	42000	zweiundvierzig tausend Rubel null Kopeke
+money	de	rub	100000	ein hundert tausend Rubel null Kopeke
+money	de	rub	1000000	eine Million Rubel null Kopeke
+money	de	rub	2000000	zwei Millionen Rubel null Kopeke
+money	de	rub	1000000000	eine Milliarde Rubel null Kopeke
+money	de	rub	123.45	ein hundert dreiundzwanzig Rubel fünfundvierzig Kopeken
+money	de	try	0	null türkische Lire null Kurus
+money	de	try	0.01	null türkische Lire ein Kurus
+money	de	try	0.02	null türkische Lire zwei Kurus
+money	de	try	1	ein türkische Lire null Kurus
+money	de	try	1.01	ein türkische Lire ein Kurus
+money	de	try	1.02	ein türkische Lire zwei Kurus
+money	de	try	2	zwei türkische Lire null Kurus
+money	de	try	2.02	zwei türkische Lire zwei Kurus
+money	de	try	3	drei türkische Lire null Kurus
+money	de	try	5	fünf türkische Lire null Kurus
+money	de	try	11	elf türkische Lire null Kurus
+money	de	try	21	einundzwanzig türkische Lire null Kurus
+money	de	try	22	zweiundzwanzig türkische Lire null Kurus
+money	de	try	42	zweiundvierzig türkische Lire null Kurus
+money	de	try	100	ein hundert türkische Lire null Kurus
+money	de	try	101	ein hundert ein türkische Lire null Kurus
+money	de	try	121	ein hundert einundzwanzig türkische Lire null Kurus
+money	de	try	999	neun hundert neunundneunzig türkische Lire null Kurus
+money	de	try	1000	eintausend türkische Lire null Kurus
+money	de	try	1001	eintausend ein türkische Lire null Kurus
+money	de	try	2000	zwei tausend türkische Lire null Kurus
+money	de	try	2001	zwei tausend ein türkische Lire null Kurus
+money	de	try	5000	fünf tausend türkische Lire null Kurus
+money	de	try	21000	einundzwanzig tausend türkische Lire null Kurus
+money	de	try	22000	zweiundzwanzig tausend türkische Lire null Kurus
+money	de	try	41000	einundvierzig tausend türkische Lire null Kurus
+money	de	try	42000	zweiundvierzig tausend türkische Lire null Kurus
+money	de	try	100000	ein hundert tausend türkische Lire null Kurus
+money	de	try	1000000	eine Million türkische Lire null Kurus
+money	de	try	2000000	zwei Millionen türkische Lire null Kurus
+money	de	try	1000000000	eine Milliarde türkische Lire null Kurus
+money	de	try	123.45	ein hundert dreiundzwanzig türkische Lire fünfundvierzig Kurus
+money	de	uah	0	null ukrainische Griwna null kopiyka
+money	de	uah	0.01	null ukrainische Griwna ein kopiyka
+money	de	uah	0.02	null ukrainische Griwna zwei kopiyky
+money	de	uah	1	ein ukrainische Griwna null kopiyka
+money	de	uah	1.01	ein ukrainische Griwna ein kopiyka
+money	de	uah	1.02	ein ukrainische Griwna zwei kopiyky
+money	de	uah	2	zwei ukrainische Griwna null kopiyka
+money	de	uah	2.02	zwei ukrainische Griwna zwei kopiyky
+money	de	uah	3	drei ukrainische Griwna null kopiyka
+money	de	uah	5	fünf ukrainische Griwna null kopiyka
+money	de	uah	11	elf ukrainische Griwna null kopiyka
+money	de	uah	21	einundzwanzig ukrainische Griwna null kopiyka
+money	de	uah	22	zweiundzwanzig ukrainische Griwna null kopiyka
+money	de	uah	42	zweiundvierzig ukrainische Griwna null kopiyka
+money	de	uah	100	ein hundert ukrainische Griwna null kopiyka
+money	de	uah	101	ein hundert ein ukrainische Griwna null kopiyka
+money	de	uah	121	ein hundert einundzwanzig ukrainische Griwna null kopiyka
+money	de	uah	999	neun hundert neunundneunzig ukrainische Griwna null kopiyka
+money	de	uah	1000	eintausend ukrainische Griwna null kopiyka
+money	de	uah	1001	eintausend ein ukrainische Griwna null kopiyka
+money	de	uah	2000	zwei tausend ukrainische Griwna null kopiyka
+money	de	uah	2001	zwei tausend ein ukrainische Griwna null kopiyka
+money	de	uah	5000	fünf tausend ukrainische Griwna null kopiyka
+money	de	uah	21000	einundzwanzig tausend ukrainische Griwna null kopiyka
+money	de	uah	22000	zweiundzwanzig tausend ukrainische Griwna null kopiyka
+money	de	uah	41000	einundvierzig tausend ukrainische Griwna null kopiyka
+money	de	uah	42000	zweiundvierzig tausend ukrainische Griwna null kopiyka
+money	de	uah	100000	ein hundert tausend ukrainische Griwna null kopiyka
+money	de	uah	1000000	eine Million ukrainische Griwna null kopiyka
+money	de	uah	2000000	zwei Millionen ukrainische Griwna null kopiyka
+money	de	uah	1000000000	eine Milliarde ukrainische Griwna null kopiyka
+money	de	uah	123.45	ein hundert dreiundzwanzig ukrainische Griwna fünfundvierzig kopiyky
+money	de	bgn	0	
+money	de	bgn	0.01	
+money	de	bgn	0.02	
+money	de	bgn	1	
+money	de	bgn	1.01	
+money	de	bgn	1.02	
+money	de	bgn	2	
+money	de	bgn	2.02	
+money	de	bgn	3	
+money	de	bgn	5	
+money	de	bgn	11	
+money	de	bgn	21	
+money	de	bgn	22	
+money	de	bgn	42	
+money	de	bgn	100	
+money	de	bgn	101	
+money	de	bgn	121	
+money	de	bgn	999	
+money	de	bgn	1000	
+money	de	bgn	1001	
+money	de	bgn	2000	
+money	de	bgn	2001	
+money	de	bgn	5000	
+money	de	bgn	21000	
+money	de	bgn	22000	
+money	de	bgn	41000	
+money	de	bgn	42000	
+money	de	bgn	100000	
+money	de	bgn	1000000	
+money	de	bgn	2000000	
+money	de	bgn	1000000000	
+money	de	bgn	123.45	
+money	de	etb	0	null Birr null Cent
+money	de	etb	0.01	null Birr ein Cent
+money	de	etb	0.02	null Birr zwei Cent
+money	de	etb	1	ein Birr null Cent
+money	de	etb	1.01	ein Birr ein Cent
+money	de	etb	1.02	ein Birr zwei Cent
+money	de	etb	2	zwei Birr null Cent
+money	de	etb	2.02	zwei Birr zwei Cent
+money	de	etb	3	drei Birr null Cent
+money	de	etb	5	fünf Birr null Cent
+money	de	etb	11	elf Birr null Cent
+money	de	etb	21	einundzwanzig Birr null Cent
+money	de	etb	22	zweiundzwanzig Birr null Cent
+money	de	etb	42	zweiundvierzig Birr null Cent
+money	de	etb	100	ein hundert Birr null Cent
+money	de	etb	101	ein hundert ein Birr null Cent
+money	de	etb	121	ein hundert einundzwanzig Birr null Cent
+money	de	etb	999	neun hundert neunundneunzig Birr null Cent
+money	de	etb	1000	eintausend Birr null Cent
+money	de	etb	1001	eintausend ein Birr null Cent
+money	de	etb	2000	zwei tausend Birr null Cent
+money	de	etb	2001	zwei tausend ein Birr null Cent
+money	de	etb	5000	fünf tausend Birr null Cent
+money	de	etb	21000	einundzwanzig tausend Birr null Cent
+money	de	etb	22000	zweiundzwanzig tausend Birr null Cent
+money	de	etb	41000	einundvierzig tausend Birr null Cent
+money	de	etb	42000	zweiundvierzig tausend Birr null Cent
+money	de	etb	100000	ein hundert tausend Birr null Cent
+money	de	etb	1000000	eine Million Birr null Cent
+money	de	etb	2000000	zwei Millionen Birr null Cent
+money	de	etb	1000000000	eine Milliarde Birr null Cent
+money	de	etb	123.45	ein hundert dreiundzwanzig Birr fünfundvierzig Cent
+money	de	pln	0	null Zloty null grosz
+money	de	pln	0.01	null Zloty ein grosz
+money	de	pln	0.02	null Zloty zwei grosze
+money	de	pln	1	ein Zloty null grosz
+money	de	pln	1.01	ein Zloty ein grosz
+money	de	pln	1.02	ein Zloty zwei grosze
+money	de	pln	2	zwei Zloty null grosz
+money	de	pln	2.02	zwei Zloty zwei grosze
+money	de	pln	3	drei Zloty null grosz
+money	de	pln	5	fünf Zloty null grosz
+money	de	pln	11	elf Zloty null grosz
+money	de	pln	21	einundzwanzig Zloty null grosz
+money	de	pln	22	zweiundzwanzig Zloty null grosz
+money	de	pln	42	zweiundvierzig Zloty null grosz
+money	de	pln	100	ein hundert Zloty null grosz
+money	de	pln	101	ein hundert ein Zloty null grosz
+money	de	pln	121	ein hundert einundzwanzig Zloty null grosz
+money	de	pln	999	neun hundert neunundneunzig Zloty null grosz
+money	de	pln	1000	eintausend Zloty null grosz
+money	de	pln	1001	eintausend ein Zloty null grosz
+money	de	pln	2000	zwei tausend Zloty null grosz
+money	de	pln	2001	zwei tausend ein Zloty null grosz
+money	de	pln	5000	fünf tausend Zloty null grosz
+money	de	pln	21000	einundzwanzig tausend Zloty null grosz
+money	de	pln	22000	zweiundzwanzig tausend Zloty null grosz
+money	de	pln	41000	einundvierzig tausend Zloty null grosz
+money	de	pln	42000	zweiundvierzig tausend Zloty null grosz
+money	de	pln	100000	ein hundert tausend Zloty null grosz
+money	de	pln	1000000	eine Million Zloty null grosz
+money	de	pln	2000000	zwei Millionen Zloty null grosz
+money	de	pln	1000000000	eine Milliarde Zloty null grosz
+money	de	pln	123.45	ein hundert dreiundzwanzig Zloty fünfundvierzig grosze
+money	de	byn	0	null weißrussischer Rubel null Kopeke
+money	de	byn	0.01	null weißrussischer Rubel ein Kopeke
+money	de	byn	0.02	null weißrussischer Rubel zwei Kopeken
+money	de	byn	1	ein weißrussischer Rubel null Kopeke
+money	de	byn	1.01	ein weißrussischer Rubel ein Kopeke
+money	de	byn	1.02	ein weißrussischer Rubel zwei Kopeken
+money	de	byn	2	zwei weißrussischer Rubel null Kopeke
+money	de	byn	2.02	zwei weißrussischer Rubel zwei Kopeken
+money	de	byn	3	drei weißrussischer Rubel null Kopeke
+money	de	byn	5	fünf weißrussischer Rubel null Kopeke
+money	de	byn	11	elf weißrussischer Rubel null Kopeke
+money	de	byn	21	einundzwanzig weißrussischer Rubel null Kopeke
+money	de	byn	22	zweiundzwanzig weißrussischer Rubel null Kopeke
+money	de	byn	42	zweiundvierzig weißrussischer Rubel null Kopeke
+money	de	byn	100	ein hundert weißrussischer Rubel null Kopeke
+money	de	byn	101	ein hundert ein weißrussischer Rubel null Kopeke
+money	de	byn	121	ein hundert einundzwanzig weißrussischer Rubel null Kopeke
+money	de	byn	999	neun hundert neunundneunzig weißrussischer Rubel null Kopeke
+money	de	byn	1000	eintausend weißrussischer Rubel null Kopeke
+money	de	byn	1001	eintausend ein weißrussischer Rubel null Kopeke
+money	de	byn	2000	zwei tausend weißrussischer Rubel null Kopeke
+money	de	byn	2001	zwei tausend ein weißrussischer Rubel null Kopeke
+money	de	byn	5000	fünf tausend weißrussischer Rubel null Kopeke
+money	de	byn	21000	einundzwanzig tausend weißrussischer Rubel null Kopeke
+money	de	byn	22000	zweiundzwanzig tausend weißrussischer Rubel null Kopeke
+money	de	byn	41000	einundvierzig tausend weißrussischer Rubel null Kopeke
+money	de	byn	42000	zweiundvierzig tausend weißrussischer Rubel null Kopeke
+money	de	byn	100000	ein hundert tausend weißrussischer Rubel null Kopeke
+money	de	byn	1000000	eine Million weißrussischer Rubel null Kopeke
+money	de	byn	2000000	zwei Millionen weißrussischer Rubel null Kopeke
+money	de	byn	1000000000	eine Milliarde weißrussischer Rubel null Kopeke
+money	de	byn	123.45	ein hundert dreiundzwanzig weißrussischer Rubel fünfundvierzig Kopeken
+money	de	ars	0	
+money	de	ars	0.01	
+money	de	ars	0.02	
+money	de	ars	1	
+money	de	ars	1.01	
+money	de	ars	1.02	
+money	de	ars	2	
+money	de	ars	2.02	
+money	de	ars	3	
+money	de	ars	5	
+money	de	ars	11	
+money	de	ars	21	
+money	de	ars	22	
+money	de	ars	42	
+money	de	ars	100	
+money	de	ars	101	
+money	de	ars	121	
+money	de	ars	999	
+money	de	ars	1000	
+money	de	ars	1001	
+money	de	ars	2000	
+money	de	ars	2001	
+money	de	ars	5000	
+money	de	ars	21000	
+money	de	ars	22000	
+money	de	ars	41000	
+money	de	ars	42000	
+money	de	ars	100000	
+money	de	ars	1000000	
+money	de	ars	2000000	
+money	de	ars	1000000000	
+money	de	ars	123.45	
+money	de	brl	0	
+money	de	brl	0.01	
+money	de	brl	0.02	
+money	de	brl	1	
+money	de	brl	1.01	
+money	de	brl	1.02	
+money	de	brl	2	
+money	de	brl	2.02	
+money	de	brl	3	
+money	de	brl	5	
+money	de	brl	11	
+money	de	brl	21	
+money	de	brl	22	
+money	de	brl	42	
+money	de	brl	100	
+money	de	brl	101	
+money	de	brl	121	
+money	de	brl	999	
+money	de	brl	1000	
+money	de	brl	1001	
+money	de	brl	2000	
+money	de	brl	2001	
+money	de	brl	5000	
+money	de	brl	21000	
+money	de	brl	22000	
+money	de	brl	41000	
+money	de	brl	42000	
+money	de	brl	100000	
+money	de	brl	1000000	
+money	de	brl	2000000	
+money	de	brl	1000000000	
+money	de	brl	123.45	
+plain	es	0	cero
+plain	es	1	uno
+plain	es	2	dos
+plain	es	3	tres
+plain	es	5	cinco
+plain	es	11	once
+plain	es	15	quince
+plain	es	20	veinte
+plain	es	21	veintiún
+plain	es	22	veintidós
+plain	es	42	cuarenta y dos
+plain	es	100	cien
+plain	es	101	ciento uno
+plain	es	121	ciento veintiún
+plain	es	200	doscientos
+plain	es	999	novecientas noventa y nueve
+plain	es	1000	uno mil
+plain	es	1001	uno mil uno
+plain	es	2000	dos mil
+plain	es	5000	cinco mil
+plain	es	21000	veintiún mil
+plain	es	41000	cuarenta y uno mil
+plain	es	100000	cien mil
+plain	es	1000000	uno millón
+plain	es	2000000	dos millones
+plain	es	999999999	novecientas noventa y nueve millones novecientas noventa y nueve mil novecientas noventa y nueve
+money	es	eur	0	cero euro con cero céntimo de euro
+money	es	eur	0.01	cero euro con uno céntimo de euro
+money	es	eur	0.02	cero euro con dos céntimos de euro
+money	es	eur	1	uno euro con cero céntimo de euro
+money	es	eur	1.01	uno euro con uno céntimo de euro
+money	es	eur	1.02	uno euro con dos céntimos de euro
+money	es	eur	2	dos euros con cero céntimo de euro
+money	es	eur	2.02	dos euros con dos céntimos de euro
+money	es	eur	3	tres euros con cero céntimo de euro
+money	es	eur	5	cinco euros con cero céntimo de euro
+money	es	eur	11	once euros con cero céntimo de euro
+money	es	eur	21	veintiún euros con cero céntimo de euro
+money	es	eur	22	veintidós euros con cero céntimo de euro
+money	es	eur	42	cuarenta y dos euros con cero céntimo de euro
+money	es	eur	100	cien euros con cero céntimo de euro
+money	es	eur	101	ciento uno euros con cero céntimo de euro
+money	es	eur	121	ciento veintiún euros con cero céntimo de euro
+money	es	eur	999	novecientas noventa y nueve euros con cero céntimo de euro
+money	es	eur	1000	uno mil euros con cero céntimo de euro
+money	es	eur	1001	uno mil uno euros con cero céntimo de euro
+money	es	eur	2000	dos mil euros con cero céntimo de euro
+money	es	eur	2001	dos mil uno euros con cero céntimo de euro
+money	es	eur	5000	cinco mil euros con cero céntimo de euro
+money	es	eur	21000	veintiún mil euros con cero céntimo de euro
+money	es	eur	22000	veintidós mil euros con cero céntimo de euro
+money	es	eur	41000	cuarenta y uno mil euros con cero céntimo de euro
+money	es	eur	42000	cuarenta y dos mil euros con cero céntimo de euro
+money	es	eur	100000	cien mil euros con cero céntimo de euro
+money	es	eur	1000000	uno millón euros con cero céntimo de euro
+money	es	eur	2000000	dos millones euros con cero céntimo de euro
+money	es	eur	1000000000	uno billón euros con cero céntimo de euro
+money	es	eur	123.45	ciento veintitrés euros con cuarenta y cinco céntimos de euro
+money	es	usd	0	cero dólar con cero centavo
+money	es	usd	0.01	cero dólar con uno centavo
+money	es	usd	0.02	cero dólar con dos centavos
+money	es	usd	1	uno dólar con cero centavo
+money	es	usd	1.01	uno dólar con uno centavo
+money	es	usd	1.02	uno dólar con dos centavos
+money	es	usd	2	dos dólares con cero centavo
+money	es	usd	2.02	dos dólares con dos centavos
+money	es	usd	3	tres dólares con cero centavo
+money	es	usd	5	cinco dólares con cero centavo
+money	es	usd	11	once dólares con cero centavo
+money	es	usd	21	veintiún dólares con cero centavo
+money	es	usd	22	veintidós dólares con cero centavo
+money	es	usd	42	cuarenta y dos dólares con cero centavo
+money	es	usd	100	cien dólares con cero centavo
+money	es	usd	101	ciento uno dólares con cero centavo
+money	es	usd	121	ciento veintiún dólares con cero centavo
+money	es	usd	999	novecientas noventa y nueve dólares con cero centavo
+money	es	usd	1000	uno mil dólares con cero centavo
+money	es	usd	1001	uno mil uno dólares con cero centavo
+money	es	usd	2000	dos mil dólares con cero centavo
+money	es	usd	2001	dos mil uno dólares con cero centavo
+money	es	usd	5000	cinco mil dólares con cero centavo
+money	es	usd	21000	veintiún mil dólares con cero centavo
+money	es	usd	22000	veintidós mil dólares con cero centavo
+money	es	usd	41000	cuarenta y uno mil dólares con cero centavo
+money	es	usd	42000	cuarenta y dos mil dólares con cero centavo
+money	es	usd	100000	cien mil dólares con cero centavo
+money	es	usd	1000000	uno millón dólares con cero centavo
+money	es	usd	2000000	dos millones dólares con cero centavo
+money	es	usd	1000000000	uno billón dólares con cero centavo
+money	es	usd	123.45	ciento veintitrés dólares con cuarenta y cinco centavos
+money	es	rub	0	cero rublo con cero kopek
+money	es	rub	0.01	cero rublo con uno kopek
+money	es	rub	0.02	cero rublo con dos kopeks
+money	es	rub	1	uno rublo con cero kopek
+money	es	rub	1.01	uno rublo con uno kopek
+money	es	rub	1.02	uno rublo con dos kopeks
+money	es	rub	2	dos rublos con cero kopek
+money	es	rub	2.02	dos rublos con dos kopeks
+money	es	rub	3	tres rublos con cero kopek
+money	es	rub	5	cinco rublos con cero kopek
+money	es	rub	11	once rublos con cero kopek
+money	es	rub	21	veintiún rublos con cero kopek
+money	es	rub	22	veintidós rublos con cero kopek
+money	es	rub	42	cuarenta y dos rublos con cero kopek
+money	es	rub	100	cien rublos con cero kopek
+money	es	rub	101	ciento uno rublos con cero kopek
+money	es	rub	121	ciento veintiún rublos con cero kopek
+money	es	rub	999	novecientas noventa y nueve rublos con cero kopek
+money	es	rub	1000	uno mil rublos con cero kopek
+money	es	rub	1001	uno mil uno rublos con cero kopek
+money	es	rub	2000	dos mil rublos con cero kopek
+money	es	rub	2001	dos mil uno rublos con cero kopek
+money	es	rub	5000	cinco mil rublos con cero kopek
+money	es	rub	21000	veintiún mil rublos con cero kopek
+money	es	rub	22000	veintidós mil rublos con cero kopek
+money	es	rub	41000	cuarenta y uno mil rublos con cero kopek
+money	es	rub	42000	cuarenta y dos mil rublos con cero kopek
+money	es	rub	100000	cien mil rublos con cero kopek
+money	es	rub	1000000	uno millón rublos con cero kopek
+money	es	rub	2000000	dos millones rublos con cero kopek
+money	es	rub	1000000000	uno billón rublos con cero kopek
+money	es	rub	123.45	ciento veintitrés rublos con cuarenta y cinco kopeks
+money	es	try	0	cero lira turco con cero kuruş
+money	es	try	0.01	cero lira turco con uno kuruş
+money	es	try	0.02	cero lira turco con dos kuruş
+money	es	try	1	uno lira turco con cero kuruş
+money	es	try	1.01	uno lira turco con uno kuruş
+money	es	try	1.02	uno lira turco con dos kuruş
+money	es	try	2	dos liras turco con cero kuruş
+money	es	try	2.02	dos liras turco con dos kuruş
+money	es	try	3	tres liras turco con cero kuruş
+money	es	try	5	cinco liras turco con cero kuruş
+money	es	try	11	once liras turco con cero kuruş
+money	es	try	21	veintiún liras turco con cero kuruş
+money	es	try	22	veintidós liras turco con cero kuruş
+money	es	try	42	cuarenta y dos liras turco con cero kuruş
+money	es	try	100	cien liras turco con cero kuruş
+money	es	try	101	ciento uno liras turco con cero kuruş
+money	es	try	121	ciento veintiún liras turco con cero kuruş
+money	es	try	999	novecientas noventa y nueve liras turco con cero kuruş
+money	es	try	1000	uno mil liras turco con cero kuruş
+money	es	try	1001	uno mil uno liras turco con cero kuruş
+money	es	try	2000	dos mil liras turco con cero kuruş
+money	es	try	2001	dos mil uno liras turco con cero kuruş
+money	es	try	5000	cinco mil liras turco con cero kuruş
+money	es	try	21000	veintiún mil liras turco con cero kuruş
+money	es	try	22000	veintidós mil liras turco con cero kuruş
+money	es	try	41000	cuarenta y uno mil liras turco con cero kuruş
+money	es	try	42000	cuarenta y dos mil liras turco con cero kuruş
+money	es	try	100000	cien mil liras turco con cero kuruş
+money	es	try	1000000	uno millón liras turco con cero kuruş
+money	es	try	2000000	dos millones liras turco con cero kuruş
+money	es	try	1000000000	uno billón liras turco con cero kuruş
+money	es	try	123.45	ciento veintitrés liras turco con cuarenta y cinco kuruş
+money	es	uah	0	cero grivna ucraniana con cero kopek
+money	es	uah	0.01	cero grivna ucraniana con uno kopek
+money	es	uah	0.02	cero grivna ucraniana con dos kopeks
+money	es	uah	1	uno grivna ucraniana con cero kopek
+money	es	uah	1.01	uno grivna ucraniana con uno kopek
+money	es	uah	1.02	uno grivna ucraniana con dos kopeks
+money	es	uah	2	dos grivnas ucraniana con cero kopek
+money	es	uah	2.02	dos grivnas ucraniana con dos kopeks
+money	es	uah	3	tres grivnas ucraniana con cero kopek
+money	es	uah	5	cinco grivnas ucraniana con cero kopek
+money	es	uah	11	once grivnas ucraniana con cero kopek
+money	es	uah	21	veintiún grivnas ucraniana con cero kopek
+money	es	uah	22	veintidós grivnas ucraniana con cero kopek
+money	es	uah	42	cuarenta y dos grivnas ucraniana con cero kopek
+money	es	uah	100	cien grivnas ucraniana con cero kopek
+money	es	uah	101	ciento uno grivnas ucraniana con cero kopek
+money	es	uah	121	ciento veintiún grivnas ucraniana con cero kopek
+money	es	uah	999	novecientas noventa y nueve grivnas ucraniana con cero kopek
+money	es	uah	1000	uno mil grivnas ucraniana con cero kopek
+money	es	uah	1001	uno mil uno grivnas ucraniana con cero kopek
+money	es	uah	2000	dos mil grivnas ucraniana con cero kopek
+money	es	uah	2001	dos mil uno grivnas ucraniana con cero kopek
+money	es	uah	5000	cinco mil grivnas ucraniana con cero kopek
+money	es	uah	21000	veintiún mil grivnas ucraniana con cero kopek
+money	es	uah	22000	veintidós mil grivnas ucraniana con cero kopek
+money	es	uah	41000	cuarenta y uno mil grivnas ucraniana con cero kopek
+money	es	uah	42000	cuarenta y dos mil grivnas ucraniana con cero kopek
+money	es	uah	100000	cien mil grivnas ucraniana con cero kopek
+money	es	uah	1000000	uno millón grivnas ucraniana con cero kopek
+money	es	uah	2000000	dos millones grivnas ucraniana con cero kopek
+money	es	uah	1000000000	uno billón grivnas ucraniana con cero kopek
+money	es	uah	123.45	ciento veintitrés grivnas ucraniana con cuarenta y cinco kopeks
+money	es	bgn	0	
+money	es	bgn	0.01	
+money	es	bgn	0.02	
+money	es	bgn	1	
+money	es	bgn	1.01	
+money	es	bgn	1.02	
+money	es	bgn	2	
+money	es	bgn	2.02	
+money	es	bgn	3	
+money	es	bgn	5	
+money	es	bgn	11	
+money	es	bgn	21	
+money	es	bgn	22	
+money	es	bgn	42	
+money	es	bgn	100	
+money	es	bgn	101	
+money	es	bgn	121	
+money	es	bgn	999	
+money	es	bgn	1000	
+money	es	bgn	1001	
+money	es	bgn	2000	
+money	es	bgn	2001	
+money	es	bgn	5000	
+money	es	bgn	21000	
+money	es	bgn	22000	
+money	es	bgn	41000	
+money	es	bgn	42000	
+money	es	bgn	100000	
+money	es	bgn	1000000	
+money	es	bgn	2000000	
+money	es	bgn	1000000000	
+money	es	bgn	123.45	
+money	es	etb	0	cero birr con cero centavo
+money	es	etb	0.01	cero birr con uno centavo
+money	es	etb	0.02	cero birr con dos centavos
+money	es	etb	1	uno birr con cero centavo
+money	es	etb	1.01	uno birr con uno centavo
+money	es	etb	1.02	uno birr con dos centavos
+money	es	etb	2	dos birr con cero centavo
+money	es	etb	2.02	dos birr con dos centavos
+money	es	etb	3	tres birr con cero centavo
+money	es	etb	5	cinco birr con cero centavo
+money	es	etb	11	once birr con cero centavo
+money	es	etb	21	veintiún birr con cero centavo
+money	es	etb	22	veintidós birr con cero centavo
+money	es	etb	42	cuarenta y dos birr con cero centavo
+money	es	etb	100	cien birr con cero centavo
+money	es	etb	101	ciento uno birr con cero centavo
+money	es	etb	121	ciento veintiún birr con cero centavo
+money	es	etb	999	novecientas noventa y nueve birr con cero centavo
+money	es	etb	1000	uno mil birr con cero centavo
+money	es	etb	1001	uno mil uno birr con cero centavo
+money	es	etb	2000	dos mil birr con cero centavo
+money	es	etb	2001	dos mil uno birr con cero centavo
+money	es	etb	5000	cinco mil birr con cero centavo
+money	es	etb	21000	veintiún mil birr con cero centavo
+money	es	etb	22000	veintidós mil birr con cero centavo
+money	es	etb	41000	cuarenta y uno mil birr con cero centavo
+money	es	etb	42000	cuarenta y dos mil birr con cero centavo
+money	es	etb	100000	cien mil birr con cero centavo
+money	es	etb	1000000	uno millón birr con cero centavo
+money	es	etb	2000000	dos millones birr con cero centavo
+money	es	etb	1000000000	uno billón birr con cero centavo
+money	es	etb	123.45	ciento veintitrés birr con cuarenta y cinco centavos
+money	es	pln	0	cero zloty con cero groszy
+money	es	pln	0.01	cero zloty con uno groszy
+money	es	pln	0.02	cero zloty con dos groszy
+money	es	pln	1	uno zloty con cero groszy
+money	es	pln	1.01	uno zloty con uno groszy
+money	es	pln	1.02	uno zloty con dos groszy
+money	es	pln	2	dos zloty con cero groszy
+money	es	pln	2.02	dos zloty con dos groszy
+money	es	pln	3	tres zloty con cero groszy
+money	es	pln	5	cinco zloty con cero groszy
+money	es	pln	11	once zloty con cero groszy
+money	es	pln	21	veintiún zloty con cero groszy
+money	es	pln	22	veintidós zloty con cero groszy
+money	es	pln	42	cuarenta y dos zloty con cero groszy
+money	es	pln	100	cien zloty con cero groszy
+money	es	pln	101	ciento uno zloty con cero groszy
+money	es	pln	121	ciento veintiún zloty con cero groszy
+money	es	pln	999	novecientas noventa y nueve zloty con cero groszy
+money	es	pln	1000	uno mil zloty con cero groszy
+money	es	pln	1001	uno mil uno zloty con cero groszy
+money	es	pln	2000	dos mil zloty con cero groszy
+money	es	pln	2001	dos mil uno zloty con cero groszy
+money	es	pln	5000	cinco mil zloty con cero groszy
+money	es	pln	21000	veintiún mil zloty con cero groszy
+money	es	pln	22000	veintidós mil zloty con cero groszy
+money	es	pln	41000	cuarenta y uno mil zloty con cero groszy
+money	es	pln	42000	cuarenta y dos mil zloty con cero groszy
+money	es	pln	100000	cien mil zloty con cero groszy
+money	es	pln	1000000	uno millón zloty con cero groszy
+money	es	pln	2000000	dos millones zloty con cero groszy
+money	es	pln	1000000000	uno billón zloty con cero groszy
+money	es	pln	123.45	ciento veintitrés zloty con cuarenta y cinco groszy
+money	es	byn	0	cero rublo bielorruso con cero kopek
+money	es	byn	0.01	cero rublo bielorruso con uno kopek
+money	es	byn	0.02	cero rublo bielorruso con dos kopeks
+money	es	byn	1	uno rublo bielorruso con cero kopek
+money	es	byn	1.01	uno rublo bielorruso con uno kopek
+money	es	byn	1.02	uno rublo bielorruso con dos kopeks
+money	es	byn	2	dos rublos bielorrusos con cero kopek
+money	es	byn	2.02	dos rublos bielorrusos con dos kopeks
+money	es	byn	3	tres rublos bielorrusos con cero kopek
+money	es	byn	5	cinco rublos bielorrusos con cero kopek
+money	es	byn	11	once rublos bielorrusos con cero kopek
+money	es	byn	21	veintiún rublos bielorrusos con cero kopek
+money	es	byn	22	veintidós rublos bielorrusos con cero kopek
+money	es	byn	42	cuarenta y dos rublos bielorrusos con cero kopek
+money	es	byn	100	cien rublos bielorrusos con cero kopek
+money	es	byn	101	ciento uno rublos bielorrusos con cero kopek
+money	es	byn	121	ciento veintiún rublos bielorrusos con cero kopek
+money	es	byn	999	novecientas noventa y nueve rublos bielorrusos con cero kopek
+money	es	byn	1000	uno mil rublos bielorrusos con cero kopek
+money	es	byn	1001	uno mil uno rublos bielorrusos con cero kopek
+money	es	byn	2000	dos mil rublos bielorrusos con cero kopek
+money	es	byn	2001	dos mil uno rublos bielorrusos con cero kopek
+money	es	byn	5000	cinco mil rublos bielorrusos con cero kopek
+money	es	byn	21000	veintiún mil rublos bielorrusos con cero kopek
+money	es	byn	22000	veintidós mil rublos bielorrusos con cero kopek
+money	es	byn	41000	cuarenta y uno mil rublos bielorrusos con cero kopek
+money	es	byn	42000	cuarenta y dos mil rublos bielorrusos con cero kopek
+money	es	byn	100000	cien mil rublos bielorrusos con cero kopek
+money	es	byn	1000000	uno millón rublos bielorrusos con cero kopek
+money	es	byn	2000000	dos millones rublos bielorrusos con cero kopek
+money	es	byn	1000000000	uno billón rublos bielorrusos con cero kopek
+money	es	byn	123.45	ciento veintitrés rublos bielorrusos con cuarenta y cinco kopeks
+money	es	ars	0	cero peso con cero centavo
+money	es	ars	0.01	cero peso con uno centavo
+money	es	ars	0.02	cero peso con dos centavos
+money	es	ars	1	uno peso con cero centavo
+money	es	ars	1.01	uno peso con uno centavo
+money	es	ars	1.02	uno peso con dos centavos
+money	es	ars	2	dos pesos con cero centavo
+money	es	ars	2.02	dos pesos con dos centavos
+money	es	ars	3	tres pesos con cero centavo
+money	es	ars	5	cinco pesos con cero centavo
+money	es	ars	11	once pesos con cero centavo
+money	es	ars	21	veintiún pesos con cero centavo
+money	es	ars	22	veintidós pesos con cero centavo
+money	es	ars	42	cuarenta y dos pesos con cero centavo
+money	es	ars	100	cien pesos con cero centavo
+money	es	ars	101	ciento uno pesos con cero centavo
+money	es	ars	121	ciento veintiún pesos con cero centavo
+money	es	ars	999	novecientas noventa y nueve pesos con cero centavo
+money	es	ars	1000	uno mil pesos con cero centavo
+money	es	ars	1001	uno mil uno pesos con cero centavo
+money	es	ars	2000	dos mil pesos con cero centavo
+money	es	ars	2001	dos mil uno pesos con cero centavo
+money	es	ars	5000	cinco mil pesos con cero centavo
+money	es	ars	21000	veintiún mil pesos con cero centavo
+money	es	ars	22000	veintidós mil pesos con cero centavo
+money	es	ars	41000	cuarenta y uno mil pesos con cero centavo
+money	es	ars	42000	cuarenta y dos mil pesos con cero centavo
+money	es	ars	100000	cien mil pesos con cero centavo
+money	es	ars	1000000	uno millón pesos con cero centavo
+money	es	ars	2000000	dos millones pesos con cero centavo
+money	es	ars	1000000000	uno billón pesos con cero centavo
+money	es	ars	123.45	ciento veintitrés pesos con cuarenta y cinco centavos
+money	es	brl	0	
+money	es	brl	0.01	
+money	es	brl	0.02	
+money	es	brl	1	
+money	es	brl	1.01	
+money	es	brl	1.02	
+money	es	brl	2	
+money	es	brl	2.02	
+money	es	brl	3	
+money	es	brl	5	
+money	es	brl	11	
+money	es	brl	21	
+money	es	brl	22	
+money	es	brl	42	
+money	es	brl	100	
+money	es	brl	101	
+money	es	brl	121	
+money	es	brl	999	
+money	es	brl	1000	
+money	es	brl	1001	
+money	es	brl	2000	
+money	es	brl	2001	
+money	es	brl	5000	
+money	es	brl	21000	
+money	es	brl	22000	
+money	es	brl	41000	
+money	es	brl	42000	
+money	es	brl	100000	
+money	es	brl	1000000	
+money	es	brl	2000000	
+money	es	brl	1000000000	
+money	es	brl	123.45	
+plain	pt	0	zero
+plain	pt	1	um
+plain	pt	2	dois
+plain	pt	3	três
+plain	pt	5	cinco
+plain	pt	11	onze
+plain	pt	15	quinze
+plain	pt	20	vinte
+plain	pt	21	vinte e um
+plain	pt	22	vinte e dois
+plain	pt	42	quarenta e dois
+plain	pt	100	cem
+plain	pt	101	cento e um
+plain	pt	121	cento e vinte e um
+plain	pt	200	duzentos
+plain	pt	999	novecentos e noventa e nove
+plain	pt	1000	um mil
+plain	pt	1001	um mil e um
+plain	pt	2000	dois mil
+plain	pt	5000	cinco mil
+plain	pt	21000	vinte e um mil
+plain	pt	41000	quarenta e um mil
+plain	pt	100000	cem mil
+plain	pt	1000000	um milhão
+plain	pt	2000000	dois milhões
+plain	pt	999999999	novecentos e noventa e nove milhões e novecentos e noventa e nove mil e novecentos e noventa e nove
+money	pt	eur	0	zero euro com zero centavo de euro
+money	pt	eur	0.01	zero euro com um centavo de euro
+money	pt	eur	0.02	zero euro com dois centavos de euro
+money	pt	eur	1	um euro com zero centavo de euro
+money	pt	eur	1.01	um euro com um centavo de euro
+money	pt	eur	1.02	um euro com dois centavos de euro
+money	pt	eur	2	dois euros com zero centavo de euro
+money	pt	eur	2.02	dois euros com dois centavos de euro
+money	pt	eur	3	três euros com zero centavo de euro
+money	pt	eur	5	cinco euros com zero centavo de euro
+money	pt	eur	11	onze euros com zero centavo de euro
+money	pt	eur	21	vinte e um euros com zero centavo de euro
+money	pt	eur	22	vinte e dois euros com zero centavo de euro
+money	pt	eur	42	quarenta e dois euros com zero centavo de euro
+money	pt	eur	100	cem euros com zero centavo de euro
+money	pt	eur	101	cento e um euros com zero centavo de euro
+money	pt	eur	121	cento e vinte e um euros com zero centavo de euro
+money	pt	eur	999	novecentos e noventa e nove euros com zero centavo de euro
+money	pt	eur	1000	um mil euros com zero centavo de euro
+money	pt	eur	1001	um mil e um euros com zero centavo de euro
+money	pt	eur	2000	dois mil euros com zero centavo de euro
+money	pt	eur	2001	dois mil e um euros com zero centavo de euro
+money	pt	eur	5000	cinco mil euros com zero centavo de euro
+money	pt	eur	21000	vinte e um mil euros com zero centavo de euro
+money	pt	eur	22000	vinte e dois mil euros com zero centavo de euro
+money	pt	eur	41000	quarenta e um mil euros com zero centavo de euro
+money	pt	eur	42000	quarenta e dois mil euros com zero centavo de euro
+money	pt	eur	100000	cem mil euros com zero centavo de euro
+money	pt	eur	1000000	um milhão euros com zero centavo de euro
+money	pt	eur	2000000	dois milhões euros com zero centavo de euro
+money	pt	eur	1000000000	um bilhão euros com zero centavo de euro
+money	pt	eur	123.45	cento e vinte e três euros com quarenta e cinco centavos de euro
+money	pt	usd	0	zero dólar com zero centavo
+money	pt	usd	0.01	zero dólar com um centavo
+money	pt	usd	0.02	zero dólar com dois centavos
+money	pt	usd	1	um dólar com zero centavo
+money	pt	usd	1.01	um dólar com um centavo
+money	pt	usd	1.02	um dólar com dois centavos
+money	pt	usd	2	dois dólares com zero centavo
+money	pt	usd	2.02	dois dólares com dois centavos
+money	pt	usd	3	três dólares com zero centavo
+money	pt	usd	5	cinco dólares com zero centavo
+money	pt	usd	11	onze dólares com zero centavo
+money	pt	usd	21	vinte e um dólares com zero centavo
+money	pt	usd	22	vinte e dois dólares com zero centavo
+money	pt	usd	42	quarenta e dois dólares com zero centavo
+money	pt	usd	100	cem dólares com zero centavo
+money	pt	usd	101	cento e um dólares com zero centavo
+money	pt	usd	121	cento e vinte e um dólares com zero centavo
+money	pt	usd	999	novecentos e noventa e nove dólares com zero centavo
+money	pt	usd	1000	um mil dólares com zero centavo
+money	pt	usd	1001	um mil e um dólares com zero centavo
+money	pt	usd	2000	dois mil dólares com zero centavo
+money	pt	usd	2001	dois mil e um dólares com zero centavo
+money	pt	usd	5000	cinco mil dólares com zero centavo
+money	pt	usd	21000	vinte e um mil dólares com zero centavo
+money	pt	usd	22000	vinte e dois mil dólares com zero centavo
+money	pt	usd	41000	quarenta e um mil dólares com zero centavo
+money	pt	usd	42000	quarenta e dois mil dólares com zero centavo
+money	pt	usd	100000	cem mil dólares com zero centavo
+money	pt	usd	1000000	um milhão dólares com zero centavo
+money	pt	usd	2000000	dois milhões dólares com zero centavo
+money	pt	usd	1000000000	um bilhão dólares com zero centavo
+money	pt	usd	123.45	cento e vinte e três dólares com quarenta e cinco centavos
+money	pt	rub	0	zero rublo com zero kopek
+money	pt	rub	0.01	zero rublo com um kopek
+money	pt	rub	0.02	zero rublo com dois kopeks
+money	pt	rub	1	um rublo com zero kopek
+money	pt	rub	1.01	um rublo com um kopek
+money	pt	rub	1.02	um rublo com dois kopeks
+money	pt	rub	2	dois rublos com zero kopek
+money	pt	rub	2.02	dois rublos com dois kopeks
+money	pt	rub	3	três rublos com zero kopek
+money	pt	rub	5	cinco rublos com zero kopek
+money	pt	rub	11	onze rublos com zero kopek
+money	pt	rub	21	vinte e um rublos com zero kopek
+money	pt	rub	22	vinte e dois rublos com zero kopek
+money	pt	rub	42	quarenta e dois rublos com zero kopek
+money	pt	rub	100	cem rublos com zero kopek
+money	pt	rub	101	cento e um rublos com zero kopek
+money	pt	rub	121	cento e vinte e um rublos com zero kopek
+money	pt	rub	999	novecentos e noventa e nove rublos com zero kopek
+money	pt	rub	1000	um mil rublos com zero kopek
+money	pt	rub	1001	um mil e um rublos com zero kopek
+money	pt	rub	2000	dois mil rublos com zero kopek
+money	pt	rub	2001	dois mil e um rublos com zero kopek
+money	pt	rub	5000	cinco mil rublos com zero kopek
+money	pt	rub	21000	vinte e um mil rublos com zero kopek
+money	pt	rub	22000	vinte e dois mil rublos com zero kopek
+money	pt	rub	41000	quarenta e um mil rublos com zero kopek
+money	pt	rub	42000	quarenta e dois mil rublos com zero kopek
+money	pt	rub	100000	cem mil rublos com zero kopek
+money	pt	rub	1000000	um milhão rublos com zero kopek
+money	pt	rub	2000000	dois milhões rublos com zero kopek
+money	pt	rub	1000000000	um bilhão rublos com zero kopek
+money	pt	rub	123.45	cento e vinte e três rublos com quarenta e cinco kopeks
+money	pt	try	0	zero lira turco com zero kuruş
+money	pt	try	0.01	zero lira turco com um kuruş
+money	pt	try	0.02	zero lira turco com dois kuruş
+money	pt	try	1	um lira turco com zero kuruş
+money	pt	try	1.01	um lira turco com um kuruş
+money	pt	try	1.02	um lira turco com dois kuruş
+money	pt	try	2	dois liras turco com zero kuruş
+money	pt	try	2.02	dois liras turco com dois kuruş
+money	pt	try	3	três liras turco com zero kuruş
+money	pt	try	5	cinco liras turco com zero kuruş
+money	pt	try	11	onze liras turco com zero kuruş
+money	pt	try	21	vinte e um liras turco com zero kuruş
+money	pt	try	22	vinte e dois liras turco com zero kuruş
+money	pt	try	42	quarenta e dois liras turco com zero kuruş
+money	pt	try	100	cem liras turco com zero kuruş
+money	pt	try	101	cento e um liras turco com zero kuruş
+money	pt	try	121	cento e vinte e um liras turco com zero kuruş
+money	pt	try	999	novecentos e noventa e nove liras turco com zero kuruş
+money	pt	try	1000	um mil liras turco com zero kuruş
+money	pt	try	1001	um mil e um liras turco com zero kuruş
+money	pt	try	2000	dois mil liras turco com zero kuruş
+money	pt	try	2001	dois mil e um liras turco com zero kuruş
+money	pt	try	5000	cinco mil liras turco com zero kuruş
+money	pt	try	21000	vinte e um mil liras turco com zero kuruş
+money	pt	try	22000	vinte e dois mil liras turco com zero kuruş
+money	pt	try	41000	quarenta e um mil liras turco com zero kuruş
+money	pt	try	42000	quarenta e dois mil liras turco com zero kuruş
+money	pt	try	100000	cem mil liras turco com zero kuruş
+money	pt	try	1000000	um milhão liras turco com zero kuruş
+money	pt	try	2000000	dois milhões liras turco com zero kuruş
+money	pt	try	1000000000	um bilhão liras turco com zero kuruş
+money	pt	try	123.45	cento e vinte e três liras turco com quarenta e cinco kuruş
+money	pt	uah	0	zero grivna ucraniana com zero kopek
+money	pt	uah	0.01	zero grivna ucraniana com um kopek
+money	pt	uah	0.02	zero grivna ucraniana com dois kopeks
+money	pt	uah	1	um grivna ucraniana com zero kopek
+money	pt	uah	1.01	um grivna ucraniana com um kopek
+money	pt	uah	1.02	um grivna ucraniana com dois kopeks
+money	pt	uah	2	dois grivnas ucraniana com zero kopek
+money	pt	uah	2.02	dois grivnas ucraniana com dois kopeks
+money	pt	uah	3	três grivnas ucraniana com zero kopek
+money	pt	uah	5	cinco grivnas ucraniana com zero kopek
+money	pt	uah	11	onze grivnas ucraniana com zero kopek
+money	pt	uah	21	vinte e um grivnas ucraniana com zero kopek
+money	pt	uah	22	vinte e dois grivnas ucraniana com zero kopek
+money	pt	uah	42	quarenta e dois grivnas ucraniana com zero kopek
+money	pt	uah	100	cem grivnas ucraniana com zero kopek
+money	pt	uah	101	cento e um grivnas ucraniana com zero kopek
+money	pt	uah	121	cento e vinte e um grivnas ucraniana com zero kopek
+money	pt	uah	999	novecentos e noventa e nove grivnas ucraniana com zero kopek
+money	pt	uah	1000	um mil grivnas ucraniana com zero kopek
+money	pt	uah	1001	um mil e um grivnas ucraniana com zero kopek
+money	pt	uah	2000	dois mil grivnas ucraniana com zero kopek
+money	pt	uah	2001	dois mil e um grivnas ucraniana com zero kopek
+money	pt	uah	5000	cinco mil grivnas ucraniana com zero kopek
+money	pt	uah	21000	vinte e um mil grivnas ucraniana com zero kopek
+money	pt	uah	22000	vinte e dois mil grivnas ucraniana com zero kopek
+money	pt	uah	41000	quarenta e um mil grivnas ucraniana com zero kopek
+money	pt	uah	42000	quarenta e dois mil grivnas ucraniana com zero kopek
+money	pt	uah	100000	cem mil grivnas ucraniana com zero kopek
+money	pt	uah	1000000	um milhão grivnas ucraniana com zero kopek
+money	pt	uah	2000000	dois milhões grivnas ucraniana com zero kopek
+money	pt	uah	1000000000	um bilhão grivnas ucraniana com zero kopek
+money	pt	uah	123.45	cento e vinte e três grivnas ucraniana com quarenta e cinco kopeks
+money	pt	bgn	0	
+money	pt	bgn	0.01	
+money	pt	bgn	0.02	
+money	pt	bgn	1	
+money	pt	bgn	1.01	
+money	pt	bgn	1.02	
+money	pt	bgn	2	
+money	pt	bgn	2.02	
+money	pt	bgn	3	
+money	pt	bgn	5	
+money	pt	bgn	11	
+money	pt	bgn	21	
+money	pt	bgn	22	
+money	pt	bgn	42	
+money	pt	bgn	100	
+money	pt	bgn	101	
+money	pt	bgn	121	
+money	pt	bgn	999	
+money	pt	bgn	1000	
+money	pt	bgn	1001	
+money	pt	bgn	2000	
+money	pt	bgn	2001	
+money	pt	bgn	5000	
+money	pt	bgn	21000	
+money	pt	bgn	22000	
+money	pt	bgn	41000	
+money	pt	bgn	42000	
+money	pt	bgn	100000	
+money	pt	bgn	1000000	
+money	pt	bgn	2000000	
+money	pt	bgn	1000000000	
+money	pt	bgn	123.45	
+money	pt	etb	0	zero birr com zero centavo
+money	pt	etb	0.01	zero birr com um centavo
+money	pt	etb	0.02	zero birr com dois centavos
+money	pt	etb	1	um birr com zero centavo
+money	pt	etb	1.01	um birr com um centavo
+money	pt	etb	1.02	um birr com dois centavos
+money	pt	etb	2	dois birr com zero centavo
+money	pt	etb	2.02	dois birr com dois centavos
+money	pt	etb	3	três birr com zero centavo
+money	pt	etb	5	cinco birr com zero centavo
+money	pt	etb	11	onze birr com zero centavo
+money	pt	etb	21	vinte e um birr com zero centavo
+money	pt	etb	22	vinte e dois birr com zero centavo
+money	pt	etb	42	quarenta e dois birr com zero centavo
+money	pt	etb	100	cem birr com zero centavo
+money	pt	etb	101	cento e um birr com zero centavo
+money	pt	etb	121	cento e vinte e um birr com zero centavo
+money	pt	etb	999	novecentos e noventa e nove birr com zero centavo
+money	pt	etb	1000	um mil birr com zero centavo
+money	pt	etb	1001	um mil e um birr com zero centavo
+money	pt	etb	2000	dois mil birr com zero centavo
+money	pt	etb	2001	dois mil e um birr com zero centavo
+money	pt	etb	5000	cinco mil birr com zero centavo
+money	pt	etb	21000	vinte e um mil birr com zero centavo
+money	pt	etb	22000	vinte e dois mil birr com zero centavo
+money	pt	etb	41000	quarenta e um mil birr com zero centavo
+money	pt	etb	42000	quarenta e dois mil birr com zero centavo
+money	pt	etb	100000	cem mil birr com zero centavo
+money	pt	etb	1000000	um milhão birr com zero centavo
+money	pt	etb	2000000	dois milhões birr com zero centavo
+money	pt	etb	1000000000	um bilhão birr com zero centavo
+money	pt	etb	123.45	cento e vinte e três birr com quarenta e cinco centavos
+money	pt	pln	0	zero zloty com zero groszy
+money	pt	pln	0.01	zero zloty com um groszy
+money	pt	pln	0.02	zero zloty com dois groszy
+money	pt	pln	1	um zloty com zero groszy
+money	pt	pln	1.01	um zloty com um groszy
+money	pt	pln	1.02	um zloty com dois groszy
+money	pt	pln	2	dois zloty com zero groszy
+money	pt	pln	2.02	dois zloty com dois groszy
+money	pt	pln	3	três zloty com zero groszy
+money	pt	pln	5	cinco zloty com zero groszy
+money	pt	pln	11	onze zloty com zero groszy
+money	pt	pln	21	vinte e um zloty com zero groszy
+money	pt	pln	22	vinte e dois zloty com zero groszy
+money	pt	pln	42	quarenta e dois zloty com zero groszy
+money	pt	pln	100	cem zloty com zero groszy
+money	pt	pln	101	cento e um zloty com zero groszy
+money	pt	pln	121	cento e vinte e um zloty com zero groszy
+money	pt	pln	999	novecentos e noventa e nove zloty com zero groszy
+money	pt	pln	1000	um mil zloty com zero groszy
+money	pt	pln	1001	um mil e um zloty com zero groszy
+money	pt	pln	2000	dois mil zloty com zero groszy
+money	pt	pln	2001	dois mil e um zloty com zero groszy
+money	pt	pln	5000	cinco mil zloty com zero groszy
+money	pt	pln	21000	vinte e um mil zloty com zero groszy
+money	pt	pln	22000	vinte e dois mil zloty com zero groszy
+money	pt	pln	41000	quarenta e um mil zloty com zero groszy
+money	pt	pln	42000	quarenta e dois mil zloty com zero groszy
+money	pt	pln	100000	cem mil zloty com zero groszy
+money	pt	pln	1000000	um milhão zloty com zero groszy
+money	pt	pln	2000000	dois milhões zloty com zero groszy
+money	pt	pln	1000000000	um bilhão zloty com zero groszy
+money	pt	pln	123.45	cento e vinte e três zloty com quarenta e cinco groszy
+money	pt	byn	0	zero rublo bielorruso com zero kopek
+money	pt	byn	0.01	zero rublo bielorruso com um kopek
+money	pt	byn	0.02	zero rublo bielorruso com dois kopeks
+money	pt	byn	1	um rublo bielorruso com zero kopek
+money	pt	byn	1.01	um rublo bielorruso com um kopek
+money	pt	byn	1.02	um rublo bielorruso com dois kopeks
+money	pt	byn	2	dois rublos bielorrusos com zero kopek
+money	pt	byn	2.02	dois rublos bielorrusos com dois kopeks
+money	pt	byn	3	três rublos bielorrusos com zero kopek
+money	pt	byn	5	cinco rublos bielorrusos com zero kopek
+money	pt	byn	11	onze rublos bielorrusos com zero kopek
+money	pt	byn	21	vinte e um rublos bielorrusos com zero kopek
+money	pt	byn	22	vinte e dois rublos bielorrusos com zero kopek
+money	pt	byn	42	quarenta e dois rublos bielorrusos com zero kopek
+money	pt	byn	100	cem rublos bielorrusos com zero kopek
+money	pt	byn	101	cento e um rublos bielorrusos com zero kopek
+money	pt	byn	121	cento e vinte e um rublos bielorrusos com zero kopek
+money	pt	byn	999	novecentos e noventa e nove rublos bielorrusos com zero kopek
+money	pt	byn	1000	um mil rublos bielorrusos com zero kopek
+money	pt	byn	1001	um mil e um rublos bielorrusos com zero kopek
+money	pt	byn	2000	dois mil rublos bielorrusos com zero kopek
+money	pt	byn	2001	dois mil e um rublos bielorrusos com zero kopek
+money	pt	byn	5000	cinco mil rublos bielorrusos com zero kopek
+money	pt	byn	21000	vinte e um mil rublos bielorrusos com zero kopek
+money	pt	byn	22000	vinte e dois mil rublos bielorrusos com zero kopek
+money	pt	byn	41000	quarenta e um mil rublos bielorrusos com zero kopek
+money	pt	byn	42000	quarenta e dois mil rublos bielorrusos com zero kopek
+money	pt	byn	100000	cem mil rublos bielorrusos com zero kopek
+money	pt	byn	1000000	um milhão rublos bielorrusos com zero kopek
+money	pt	byn	2000000	dois milhões rublos bielorrusos com zero kopek
+money	pt	byn	1000000000	um bilhão rublos bielorrusos com zero kopek
+money	pt	byn	123.45	cento e vinte e três rublos bielorrusos com quarenta e cinco kopeks
+money	pt	ars	0	zero peso com zero centavo
+money	pt	ars	0.01	zero peso com um centavo
+money	pt	ars	0.02	zero peso com dois centavos
+money	pt	ars	1	um peso com zero centavo
+money	pt	ars	1.01	um peso com um centavo
+money	pt	ars	1.02	um peso com dois centavos
+money	pt	ars	2	dois pesos com zero centavo
+money	pt	ars	2.02	dois pesos com dois centavos
+money	pt	ars	3	três pesos com zero centavo
+money	pt	ars	5	cinco pesos com zero centavo
+money	pt	ars	11	onze pesos com zero centavo
+money	pt	ars	21	vinte e um pesos com zero centavo
+money	pt	ars	22	vinte e dois pesos com zero centavo
+money	pt	ars	42	quarenta e dois pesos com zero centavo
+money	pt	ars	100	cem pesos com zero centavo
+money	pt	ars	101	cento e um pesos com zero centavo
+money	pt	ars	121	cento e vinte e um pesos com zero centavo
+money	pt	ars	999	novecentos e noventa e nove pesos com zero centavo
+money	pt	ars	1000	um mil pesos com zero centavo
+money	pt	ars	1001	um mil e um pesos com zero centavo
+money	pt	ars	2000	dois mil pesos com zero centavo
+money	pt	ars	2001	dois mil e um pesos com zero centavo
+money	pt	ars	5000	cinco mil pesos com zero centavo
+money	pt	ars	21000	vinte e um mil pesos com zero centavo
+money	pt	ars	22000	vinte e dois mil pesos com zero centavo
+money	pt	ars	41000	quarenta e um mil pesos com zero centavo
+money	pt	ars	42000	quarenta e dois mil pesos com zero centavo
+money	pt	ars	100000	cem mil pesos com zero centavo
+money	pt	ars	1000000	um milhão pesos com zero centavo
+money	pt	ars	2000000	dois milhões pesos com zero centavo
+money	pt	ars	1000000000	um bilhão pesos com zero centavo
+money	pt	ars	123.45	cento e vinte e três pesos com quarenta e cinco centavos
+money	pt	brl	0	zero real com zero centavo
+money	pt	brl	0.01	zero real com um centavo
+money	pt	brl	0.02	zero real com dois centavos
+money	pt	brl	1	um real com zero centavo
+money	pt	brl	1.01	um real com um centavo
+money	pt	brl	1.02	um real com dois centavos
+money	pt	brl	2	dois reais com zero centavo
+money	pt	brl	2.02	dois reais com dois centavos
+money	pt	brl	3	três reais com zero centavo
+money	pt	brl	5	cinco reais com zero centavo
+money	pt	brl	11	onze reais com zero centavo
+money	pt	brl	21	vinte e um reais com zero centavo
+money	pt	brl	22	vinte e dois reais com zero centavo
+money	pt	brl	42	quarenta e dois reais com zero centavo
+money	pt	brl	100	cem reais com zero centavo
+money	pt	brl	101	cento e um reais com zero centavo
+money	pt	brl	121	cento e vinte e um reais com zero centavo
+money	pt	brl	999	novecentos e noventa e nove reais com zero centavo
+money	pt	brl	1000	um mil reais com zero centavo
+money	pt	brl	1001	um mil e um reais com zero centavo
+money	pt	brl	2000	dois mil reais com zero centavo
+money	pt	brl	2001	dois mil e um reais com zero centavo
+money	pt	brl	5000	cinco mil reais com zero centavo
+money	pt	brl	21000	vinte e um mil reais com zero centavo
+money	pt	brl	22000	vinte e dois mil reais com zero centavo
+money	pt	brl	41000	quarenta e um mil reais com zero centavo
+money	pt	brl	42000	quarenta e dois mil reais com zero centavo
+money	pt	brl	100000	cem mil reais com zero centavo
+money	pt	brl	1000000	um milhão reais com zero centavo
+money	pt	brl	2000000	dois milhões reais com zero centavo
+money	pt	brl	1000000000	um bilhão reais com zero centavo
+money	pt	brl	123.45	cento e vinte e três reais com quarenta e cinco centavos
+plain	tr	0	sıfır
+plain	tr	1	bir
+plain	tr	2	iki
+plain	tr	3	üç
+plain	tr	5	beş
+plain	tr	11	on bir
+plain	tr	15	on beş
+plain	tr	20	yirmi
+plain	tr	21	yirmi bir
+plain	tr	22	yirmi iki
+plain	tr	42	kırk iki
+plain	tr	100	yüz
+plain	tr	101	yüz bir
+plain	tr	121	yüz yirmi bir
+plain	tr	200	iki yüz
+plain	tr	999	dokuz yüz doksan dokuz
+plain	tr	1000	bin
+plain	tr	1001	bin bir
+plain	tr	2000	iki bin
+plain	tr	5000	beş bin
+plain	tr	21000	yirmi bir bin
+plain	tr	41000	kırk bir bin
+plain	tr	100000	yüz bin
+plain	tr	1000000	bir milyon
+plain	tr	2000000	iki milyon
+plain	tr	999999999	dokuz yüz doksan dokuz milyon dokuz yüz doksan dokuz bin dokuz yüz doksan dokuz
+money	tr	eur	0	sıfır avro sıfır avro sent
+money	tr	eur	0.01	sıfır avro bir avro sent
+money	tr	eur	0.02	sıfır avro iki avro sent
+money	tr	eur	1	bir avro sıfır avro sent
+money	tr	eur	1.01	bir avro bir avro sent
+money	tr	eur	1.02	bir avro iki avro sent
+money	tr	eur	2	iki avro sıfır avro sent
+money	tr	eur	2.02	iki avro iki avro sent
+money	tr	eur	3	üç avro sıfır avro sent
+money	tr	eur	5	beş avro sıfır avro sent
+money	tr	eur	11	on bir avro sıfır avro sent
+money	tr	eur	21	yirmi bir avro sıfır avro sent
+money	tr	eur	22	yirmi iki avro sıfır avro sent
+money	tr	eur	42	kırk iki avro sıfır avro sent
+money	tr	eur	100	yüz avro sıfır avro sent
+money	tr	eur	101	yüz bir avro sıfır avro sent
+money	tr	eur	121	yüz yirmi bir avro sıfır avro sent
+money	tr	eur	999	dokuz yüz doksan dokuz avro sıfır avro sent
+money	tr	eur	1000	bin avro sıfır avro sent
+money	tr	eur	1001	bin bir avro sıfır avro sent
+money	tr	eur	2000	iki bin avro sıfır avro sent
+money	tr	eur	2001	iki bin bir avro sıfır avro sent
+money	tr	eur	5000	beş bin avro sıfır avro sent
+money	tr	eur	21000	yirmi bir bin avro sıfır avro sent
+money	tr	eur	22000	yirmi iki bin avro sıfır avro sent
+money	tr	eur	41000	kırk bir bin avro sıfır avro sent
+money	tr	eur	42000	kırk iki bin avro sıfır avro sent
+money	tr	eur	100000	yüz bin avro sıfır avro sent
+money	tr	eur	1000000	bir milyon avro sıfır avro sent
+money	tr	eur	2000000	iki milyon avro sıfır avro sent
+money	tr	eur	1000000000	bir milyar avro sıfır avro sent
+money	tr	eur	123.45	yüz yirmi üç avro kırk beş avro sent
+money	tr	usd	0	sıfır dolar sıfır sent
+money	tr	usd	0.01	sıfır dolar bir sent
+money	tr	usd	0.02	sıfır dolar iki sent
+money	tr	usd	1	bir dolar sıfır sent
+money	tr	usd	1.01	bir dolar bir sent
+money	tr	usd	1.02	bir dolar iki sent
+money	tr	usd	2	iki dolar sıfır sent
+money	tr	usd	2.02	iki dolar iki sent
+money	tr	usd	3	üç dolar sıfır sent
+money	tr	usd	5	beş dolar sıfır sent
+money	tr	usd	11	on bir dolar sıfır sent
+money	tr	usd	21	yirmi bir dolar sıfır sent
+money	tr	usd	22	yirmi iki dolar sıfır sent
+money	tr	usd	42	kırk iki dolar sıfır sent
+money	tr	usd	100	yüz dolar sıfır sent
+money	tr	usd	101	yüz bir dolar sıfır sent
+money	tr	usd	121	yüz yirmi bir dolar sıfır sent
+money	tr	usd	999	dokuz yüz doksan dokuz dolar sıfır sent
+money	tr	usd	1000	bin dolar sıfır sent
+money	tr	usd	1001	bin bir dolar sıfır sent
+money	tr	usd	2000	iki bin dolar sıfır sent
+money	tr	usd	2001	iki bin bir dolar sıfır sent
+money	tr	usd	5000	beş bin dolar sıfır sent
+money	tr	usd	21000	yirmi bir bin dolar sıfır sent
+money	tr	usd	22000	yirmi iki bin dolar sıfır sent
+money	tr	usd	41000	kırk bir bin dolar sıfır sent
+money	tr	usd	42000	kırk iki bin dolar sıfır sent
+money	tr	usd	100000	yüz bin dolar sıfır sent
+money	tr	usd	1000000	bir milyon dolar sıfır sent
+money	tr	usd	2000000	iki milyon dolar sıfır sent
+money	tr	usd	1000000000	bir milyar dolar sıfır sent
+money	tr	usd	123.45	yüz yirmi üç dolar kırk beş sent
+money	tr	rub	0	sıfır ruble sıfır kopek
+money	tr	rub	0.01	sıfır ruble bir kopek
+money	tr	rub	0.02	sıfır ruble iki kopek
+money	tr	rub	1	bir ruble sıfır kopek
+money	tr	rub	1.01	bir ruble bir kopek
+money	tr	rub	1.02	bir ruble iki kopek
+money	tr	rub	2	iki ruble sıfır kopek
+money	tr	rub	2.02	iki ruble iki kopek
+money	tr	rub	3	üç ruble sıfır kopek
+money	tr	rub	5	beş ruble sıfır kopek
+money	tr	rub	11	on bir ruble sıfır kopek
+money	tr	rub	21	yirmi bir ruble sıfır kopek
+money	tr	rub	22	yirmi iki ruble sıfır kopek
+money	tr	rub	42	kırk iki ruble sıfır kopek
+money	tr	rub	100	yüz ruble sıfır kopek
+money	tr	rub	101	yüz bir ruble sıfır kopek
+money	tr	rub	121	yüz yirmi bir ruble sıfır kopek
+money	tr	rub	999	dokuz yüz doksan dokuz ruble sıfır kopek
+money	tr	rub	1000	bin ruble sıfır kopek
+money	tr	rub	1001	bin bir ruble sıfır kopek
+money	tr	rub	2000	iki bin ruble sıfır kopek
+money	tr	rub	2001	iki bin bir ruble sıfır kopek
+money	tr	rub	5000	beş bin ruble sıfır kopek
+money	tr	rub	21000	yirmi bir bin ruble sıfır kopek
+money	tr	rub	22000	yirmi iki bin ruble sıfır kopek
+money	tr	rub	41000	kırk bir bin ruble sıfır kopek
+money	tr	rub	42000	kırk iki bin ruble sıfır kopek
+money	tr	rub	100000	yüz bin ruble sıfır kopek
+money	tr	rub	1000000	bir milyon ruble sıfır kopek
+money	tr	rub	2000000	iki milyon ruble sıfır kopek
+money	tr	rub	1000000000	bir milyar ruble sıfır kopek
+money	tr	rub	123.45	yüz yirmi üç ruble kırk beş kopek
+money	tr	try	0	sıfır türk lirası sıfır kuruş
+money	tr	try	0.01	sıfır türk lirası bir kuruş
+money	tr	try	0.02	sıfır türk lirası iki kuruş
+money	tr	try	1	bir türk lirası sıfır kuruş
+money	tr	try	1.01	bir türk lirası bir kuruş
+money	tr	try	1.02	bir türk lirası iki kuruş
+money	tr	try	2	iki türk lirası sıfır kuruş
+money	tr	try	2.02	iki türk lirası iki kuruş
+money	tr	try	3	üç türk lirası sıfır kuruş
+money	tr	try	5	beş türk lirası sıfır kuruş
+money	tr	try	11	on bir türk lirası sıfır kuruş
+money	tr	try	21	yirmi bir türk lirası sıfır kuruş
+money	tr	try	22	yirmi iki türk lirası sıfır kuruş
+money	tr	try	42	kırk iki türk lirası sıfır kuruş
+money	tr	try	100	yüz türk lirası sıfır kuruş
+money	tr	try	101	yüz bir türk lirası sıfır kuruş
+money	tr	try	121	yüz yirmi bir türk lirası sıfır kuruş
+money	tr	try	999	dokuz yüz doksan dokuz türk lirası sıfır kuruş
+money	tr	try	1000	bin türk lirası sıfır kuruş
+money	tr	try	1001	bin bir türk lirası sıfır kuruş
+money	tr	try	2000	iki bin türk lirası sıfır kuruş
+money	tr	try	2001	iki bin bir türk lirası sıfır kuruş
+money	tr	try	5000	beş bin türk lirası sıfır kuruş
+money	tr	try	21000	yirmi bir bin türk lirası sıfır kuruş
+money	tr	try	22000	yirmi iki bin türk lirası sıfır kuruş
+money	tr	try	41000	kırk bir bin türk lirası sıfır kuruş
+money	tr	try	42000	kırk iki bin türk lirası sıfır kuruş
+money	tr	try	100000	yüz bin türk lirası sıfır kuruş
+money	tr	try	1000000	bir milyon türk lirası sıfır kuruş
+money	tr	try	2000000	iki milyon türk lirası sıfır kuruş
+money	tr	try	1000000000	bir milyar türk lirası sıfır kuruş
+money	tr	try	123.45	yüz yirmi üç türk lirası kırk beş kuruş
+money	tr	uah	0	sıfır grivna sıfır kopiyka
+money	tr	uah	0.01	sıfır grivna bir kopiyka
+money	tr	uah	0.02	sıfır grivna iki kopiyka
+money	tr	uah	1	bir grivna sıfır kopiyka
+money	tr	uah	1.01	bir grivna bir kopiyka
+money	tr	uah	1.02	bir grivna iki kopiyka
+money	tr	uah	2	iki grivna sıfır kopiyka
+money	tr	uah	2.02	iki grivna iki kopiyka
+money	tr	uah	3	üç grivna sıfır kopiyka
+money	tr	uah	5	beş grivna sıfır kopiyka
+money	tr	uah	11	on bir grivna sıfır kopiyka
+money	tr	uah	21	yirmi bir grivna sıfır kopiyka
+money	tr	uah	22	yirmi iki grivna sıfır kopiyka
+money	tr	uah	42	kırk iki grivna sıfır kopiyka
+money	tr	uah	100	yüz grivna sıfır kopiyka
+money	tr	uah	101	yüz bir grivna sıfır kopiyka
+money	tr	uah	121	yüz yirmi bir grivna sıfır kopiyka
+money	tr	uah	999	dokuz yüz doksan dokuz grivna sıfır kopiyka
+money	tr	uah	1000	bin grivna sıfır kopiyka
+money	tr	uah	1001	bin bir grivna sıfır kopiyka
+money	tr	uah	2000	iki bin grivna sıfır kopiyka
+money	tr	uah	2001	iki bin bir grivna sıfır kopiyka
+money	tr	uah	5000	beş bin grivna sıfır kopiyka
+money	tr	uah	21000	yirmi bir bin grivna sıfır kopiyka
+money	tr	uah	22000	yirmi iki bin grivna sıfır kopiyka
+money	tr	uah	41000	kırk bir bin grivna sıfır kopiyka
+money	tr	uah	42000	kırk iki bin grivna sıfır kopiyka
+money	tr	uah	100000	yüz bin grivna sıfır kopiyka
+money	tr	uah	1000000	bir milyon grivna sıfır kopiyka
+money	tr	uah	2000000	iki milyon grivna sıfır kopiyka
+money	tr	uah	1000000000	bir milyar grivna sıfır kopiyka
+money	tr	uah	123.45	yüz yirmi üç grivna kırk beş kopiyka
+money	tr	bgn	0	
+money	tr	bgn	0.01	
+money	tr	bgn	0.02	
+money	tr	bgn	1	
+money	tr	bgn	1.01	
+money	tr	bgn	1.02	
+money	tr	bgn	2	
+money	tr	bgn	2.02	
+money	tr	bgn	3	
+money	tr	bgn	5	
+money	tr	bgn	11	
+money	tr	bgn	21	
+money	tr	bgn	22	
+money	tr	bgn	42	
+money	tr	bgn	100	
+money	tr	bgn	101	
+money	tr	bgn	121	
+money	tr	bgn	999	
+money	tr	bgn	1000	
+money	tr	bgn	1001	
+money	tr	bgn	2000	
+money	tr	bgn	2001	
+money	tr	bgn	5000	
+money	tr	bgn	21000	
+money	tr	bgn	22000	
+money	tr	bgn	41000	
+money	tr	bgn	42000	
+money	tr	bgn	100000	
+money	tr	bgn	1000000	
+money	tr	bgn	2000000	
+money	tr	bgn	1000000000	
+money	tr	bgn	123.45	
+money	tr	etb	0	sıfır birr sıfır santim
+money	tr	etb	0.01	sıfır birr bir santim
+money	tr	etb	0.02	sıfır birr iki santim
+money	tr	etb	1	bir birr sıfır santim
+money	tr	etb	1.01	bir birr bir santim
+money	tr	etb	1.02	bir birr iki santim
+money	tr	etb	2	iki birr sıfır santim
+money	tr	etb	2.02	iki birr iki santim
+money	tr	etb	3	üç birr sıfır santim
+money	tr	etb	5	beş birr sıfır santim
+money	tr	etb	11	on bir birr sıfır santim
+money	tr	etb	21	yirmi bir birr sıfır santim
+money	tr	etb	22	yirmi iki birr sıfır santim
+money	tr	etb	42	kırk iki birr sıfır santim
+money	tr	etb	100	yüz birr sıfır santim
+money	tr	etb	101	yüz bir birr sıfır santim
+money	tr	etb	121	yüz yirmi bir birr sıfır santim
+money	tr	etb	999	dokuz yüz doksan dokuz birr sıfır santim
+money	tr	etb	1000	bin birr sıfır santim
+money	tr	etb	1001	bin bir birr sıfır santim
+money	tr	etb	2000	iki bin birr sıfır santim
+money	tr	etb	2001	iki bin bir birr sıfır santim
+money	tr	etb	5000	beş bin birr sıfır santim
+money	tr	etb	21000	yirmi bir bin birr sıfır santim
+money	tr	etb	22000	yirmi iki bin birr sıfır santim
+money	tr	etb	41000	kırk bir bin birr sıfır santim
+money	tr	etb	42000	kırk iki bin birr sıfır santim
+money	tr	etb	100000	yüz bin birr sıfır santim
+money	tr	etb	1000000	bir milyon birr sıfır santim
+money	tr	etb	2000000	iki milyon birr sıfır santim
+money	tr	etb	1000000000	bir milyar birr sıfır santim
+money	tr	etb	123.45	yüz yirmi üç birr kırk beş santim
+money	tr	pln	0	sıfır zloti sıfır grosz
+money	tr	pln	0.01	sıfır zloti bir grosz
+money	tr	pln	0.02	sıfır zloti iki grosz
+money	tr	pln	1	bir zloti sıfır grosz
+money	tr	pln	1.01	bir zloti bir grosz
+money	tr	pln	1.02	bir zloti iki grosz
+money	tr	pln	2	iki zloti sıfır grosz
+money	tr	pln	2.02	iki zloti iki grosz
+money	tr	pln	3	üç zloti sıfır grosz
+money	tr	pln	5	beş zloti sıfır grosz
+money	tr	pln	11	on bir zloti sıfır grosz
+money	tr	pln	21	yirmi bir zloti sıfır grosz
+money	tr	pln	22	yirmi iki zloti sıfır grosz
+money	tr	pln	42	kırk iki zloti sıfır grosz
+money	tr	pln	100	yüz zloti sıfır grosz
+money	tr	pln	101	yüz bir zloti sıfır grosz
+money	tr	pln	121	yüz yirmi bir zloti sıfır grosz
+money	tr	pln	999	dokuz yüz doksan dokuz zloti sıfır grosz
+money	tr	pln	1000	bin zloti sıfır grosz
+money	tr	pln	1001	bin bir zloti sıfır grosz
+money	tr	pln	2000	iki bin zloti sıfır grosz
+money	tr	pln	2001	iki bin bir zloti sıfır grosz
+money	tr	pln	5000	beş bin zloti sıfır grosz
+money	tr	pln	21000	yirmi bir bin zloti sıfır grosz
+money	tr	pln	22000	yirmi iki bin zloti sıfır grosz
+money	tr	pln	41000	kırk bir bin zloti sıfır grosz
+money	tr	pln	42000	kırk iki bin zloti sıfır grosz
+money	tr	pln	100000	yüz bin zloti sıfır grosz
+money	tr	pln	1000000	bir milyon zloti sıfır grosz
+money	tr	pln	2000000	iki milyon zloti sıfır grosz
+money	tr	pln	1000000000	bir milyar zloti sıfır grosz
+money	tr	pln	123.45	yüz yirmi üç zloti kırk beş grosz
+money	tr	byn	0	sıfır Belarus rublesi sıfır kopek
+money	tr	byn	0.01	sıfır Belarus rublesi bir kopek
+money	tr	byn	0.02	sıfır Belarus rublesi iki kopek
+money	tr	byn	1	bir Belarus rublesi sıfır kopek
+money	tr	byn	1.01	bir Belarus rublesi bir kopek
+money	tr	byn	1.02	bir Belarus rublesi iki kopek
+money	tr	byn	2	iki Belarus rublesi sıfır kopek
+money	tr	byn	2.02	iki Belarus rublesi iki kopek
+money	tr	byn	3	üç Belarus rublesi sıfır kopek
+money	tr	byn	5	beş Belarus rublesi sıfır kopek
+money	tr	byn	11	on bir Belarus rublesi sıfır kopek
+money	tr	byn	21	yirmi bir Belarus rublesi sıfır kopek
+money	tr	byn	22	yirmi iki Belarus rublesi sıfır kopek
+money	tr	byn	42	kırk iki Belarus rublesi sıfır kopek
+money	tr	byn	100	yüz Belarus rublesi sıfır kopek
+money	tr	byn	101	yüz bir Belarus rublesi sıfır kopek
+money	tr	byn	121	yüz yirmi bir Belarus rublesi sıfır kopek
+money	tr	byn	999	dokuz yüz doksan dokuz Belarus rublesi sıfır kopek
+money	tr	byn	1000	bin Belarus rublesi sıfır kopek
+money	tr	byn	1001	bin bir Belarus rublesi sıfır kopek
+money	tr	byn	2000	iki bin Belarus rublesi sıfır kopek
+money	tr	byn	2001	iki bin bir Belarus rublesi sıfır kopek
+money	tr	byn	5000	beş bin Belarus rublesi sıfır kopek
+money	tr	byn	21000	yirmi bir bin Belarus rublesi sıfır kopek
+money	tr	byn	22000	yirmi iki bin Belarus rublesi sıfır kopek
+money	tr	byn	41000	kırk bir bin Belarus rublesi sıfır kopek
+money	tr	byn	42000	kırk iki bin Belarus rublesi sıfır kopek
+money	tr	byn	100000	yüz bin Belarus rublesi sıfır kopek
+money	tr	byn	1000000	bir milyon Belarus rublesi sıfır kopek
+money	tr	byn	2000000	iki milyon Belarus rublesi sıfır kopek
+money	tr	byn	1000000000	bir milyar Belarus rublesi sıfır kopek
+money	tr	byn	123.45	yüz yirmi üç Belarus rublesi kırk beş kopek
+money	tr	ars	0	
+money	tr	ars	0.01	
+money	tr	ars	0.02	
+money	tr	ars	1	
+money	tr	ars	1.01	
+money	tr	ars	1.02	
+money	tr	ars	2	
+money	tr	ars	2.02	
+money	tr	ars	3	
+money	tr	ars	5	
+money	tr	ars	11	
+money	tr	ars	21	
+money	tr	ars	22	
+money	tr	ars	42	
+money	tr	ars	100	
+money	tr	ars	101	
+money	tr	ars	121	
+money	tr	ars	999	
+money	tr	ars	1000	
+money	tr	ars	1001	
+money	tr	ars	2000	
+money	tr	ars	2001	
+money	tr	ars	5000	
+money	tr	ars	21000	
+money	tr	ars	22000	
+money	tr	ars	41000	
+money	tr	ars	42000	
+money	tr	ars	100000	
+money	tr	ars	1000000	
+money	tr	ars	2000000	
+money	tr	ars	1000000000	
+money	tr	ars	123.45	
+money	tr	brl	0	
+money	tr	brl	0.01	
+money	tr	brl	0.02	
+money	tr	brl	1	
+money	tr	brl	1.01	
+money	tr	brl	1.02	
+money	tr	brl	2	
+money	tr	brl	2.02	
+money	tr	brl	3	
+money	tr	brl	5	
+money	tr	brl	11	
+money	tr	brl	21	
+money	tr	brl	22	
+money	tr	brl	42	
+money	tr	brl	100	
+money	tr	brl	101	
+money	tr	brl	121	
+money	tr	brl	999	
+money	tr	brl	1000	
+money	tr	brl	1001	
+money	tr	brl	2000	
+money	tr	brl	2001	
+money	tr	brl	5000	
+money	tr	brl	21000	
+money	tr	brl	22000	
+money	tr	brl	41000	
+money	tr	brl	42000	
+money	tr	brl	100000	
+money	tr	brl	1000000	
+money	tr	brl	2000000	
+money	tr	brl	1000000000	
+money	tr	brl	123.45	
+plain	ru	0	ноль
+plain	ru	1	один
+plain	ru	2	два
+plain	ru	3	три
+plain	ru	5	пять
+plain	ru	11	одиннадцать
+plain	ru	15	пятнадцать
+plain	ru	20	двадцать
+plain	ru	21	двадцать один
+plain	ru	22	двадцать два
+plain	ru	42	сорок два
+plain	ru	100	сто
+plain	ru	101	сто один
+plain	ru	121	сто двадцать один
+plain	ru	200	двести
+plain	ru	999	девятьсот девяносто девять
+plain	ru	1000	одна тысяча
+plain	ru	1001	одна тысяча один
+plain	ru	2000	две тысячи
+plain	ru	5000	пять тысяч
+plain	ru	21000	двадцать одна тысяча
+plain	ru	41000	сорок одна тысяча
+plain	ru	100000	сто тысяч
+plain	ru	1000000	один миллион
+plain	ru	2000000	два миллиона
+plain	ru	999999999	девятьсот девяносто девять миллионов девятьсот девяносто девять тысяч девятьсот девяносто девять
+money	ru	eur	0	ноль евро ноль евроцентов
+money	ru	eur	0.01	ноль евро одна евроцент
+money	ru	eur	0.02	ноль евро две евроцента
+money	ru	eur	1	один евро ноль евроцентов
+money	ru	eur	1.01	один евро одна евроцент
+money	ru	eur	1.02	один евро две евроцента
+money	ru	eur	2	два евро ноль евроцентов
+money	ru	eur	2.02	два евро две евроцента
+money	ru	eur	3	три евро ноль евроцентов
+money	ru	eur	5	пять евро ноль евроцентов
+money	ru	eur	11	одиннадцать евро ноль евроцентов
+money	ru	eur	21	двадцать один евро ноль евроцентов
+money	ru	eur	22	двадцать два евро ноль евроцентов
+money	ru	eur	42	сорок два евро ноль евроцентов
+money	ru	eur	100	сто евро ноль евроцентов
+money	ru	eur	101	сто один евро ноль евроцентов
+money	ru	eur	121	сто двадцать один евро ноль евроцентов
+money	ru	eur	999	девятьсот девяносто девять евро ноль евроцентов
+money	ru	eur	1000	одна тысяча евро ноль евроцентов
+money	ru	eur	1001	одна тысяча один евро ноль евроцентов
+money	ru	eur	2000	две тысячи евро ноль евроцентов
+money	ru	eur	2001	две тысячи один евро ноль евроцентов
+money	ru	eur	5000	пять тысяч евро ноль евроцентов
+money	ru	eur	21000	двадцать одна тысяча евро ноль евроцентов
+money	ru	eur	22000	двадцать две тысячи евро ноль евроцентов
+money	ru	eur	41000	сорок одна тысяча евро ноль евроцентов
+money	ru	eur	42000	сорок две тысячи евро ноль евроцентов
+money	ru	eur	100000	сто тысяч евро ноль евроцентов
+money	ru	eur	1000000	один миллион евро ноль евроцентов
+money	ru	eur	2000000	два миллиона евро ноль евроцентов
+money	ru	eur	1000000000	один миллиард евро ноль евроцентов
+money	ru	eur	123.45	сто двадцать три евро сорок пять евроцентов
+money	ru	usd	0	ноль долларов ноль центов
+money	ru	usd	0.01	ноль долларов один цент
+money	ru	usd	0.02	ноль долларов два цента
+money	ru	usd	1	один доллар ноль центов
+money	ru	usd	1.01	один доллар один цент
+money	ru	usd	1.02	один доллар два цента
+money	ru	usd	2	два доллара ноль центов
+money	ru	usd	2.02	два доллара два цента
+money	ru	usd	3	три доллара ноль центов
+money	ru	usd	5	пять долларов ноль центов
+money	ru	usd	11	одиннадцать долларов ноль центов
+money	ru	usd	21	двадцать один доллар ноль центов
+money	ru	usd	22	двадцать два доллара ноль центов
+money	ru	usd	42	сорок два доллара ноль центов
+money	ru	usd	100	сто долларов ноль центов
+money	ru	usd	101	сто один доллар ноль центов
+money	ru	usd	121	сто двадцать один доллар ноль центов
+money	ru	usd	999	девятьсот девяносто девять долларов ноль центов
+money	ru	usd	1000	одна тысяча долларов ноль центов
+money	ru	usd	1001	одна тысяча один доллар ноль центов
+money	ru	usd	2000	две тысячи долларов ноль центов
+money	ru	usd	2001	две тысячи один доллар ноль центов
+money	ru	usd	5000	пять тысяч долларов ноль центов
+money	ru	usd	21000	двадцать одна тысяча долларов ноль центов
+money	ru	usd	22000	двадцать две тысячи долларов ноль центов
+money	ru	usd	41000	сорок одна тысяча долларов ноль центов
+money	ru	usd	42000	сорок две тысячи долларов ноль центов
+money	ru	usd	100000	сто тысяч долларов ноль центов
+money	ru	usd	1000000	один миллион долларов ноль центов
+money	ru	usd	2000000	два миллиона долларов ноль центов
+money	ru	usd	1000000000	один миллиард долларов ноль центов
+money	ru	usd	123.45	сто двадцать три доллара сорок пять центов
+money	ru	rub	0	ноль рублей ноль копеек
+money	ru	rub	0.01	ноль рублей одна копейка
+money	ru	rub	0.02	ноль рублей две копейки
+money	ru	rub	1	один рубль ноль копеек
+money	ru	rub	1.01	один рубль одна копейка
+money	ru	rub	1.02	один рубль две копейки
+money	ru	rub	2	два рубля ноль копеек
+money	ru	rub	2.02	два рубля две копейки
+money	ru	rub	3	три рубля ноль копеек
+money	ru	rub	5	пять рублей ноль копеек
+money	ru	rub	11	одиннадцать рублей ноль копеек
+money	ru	rub	21	двадцать один рубль ноль копеек
+money	ru	rub	22	двадцать два рубля ноль копеек
+money	ru	rub	42	сорок два рубля ноль копеек
+money	ru	rub	100	сто рублей ноль копеек
+money	ru	rub	101	сто один рубль ноль копеек
+money	ru	rub	121	сто двадцать один рубль ноль копеек
+money	ru	rub	999	девятьсот девяносто девять рублей ноль копеек
+money	ru	rub	1000	одна тысяча рублей ноль копеек
+money	ru	rub	1001	одна тысяча один рубль ноль копеек
+money	ru	rub	2000	две тысячи рублей ноль копеек
+money	ru	rub	2001	две тысячи один рубль ноль копеек
+money	ru	rub	5000	пять тысяч рублей ноль копеек
+money	ru	rub	21000	двадцать одна тысяча рублей ноль копеек
+money	ru	rub	22000	двадцать две тысячи рублей ноль копеек
+money	ru	rub	41000	сорок одна тысяча рублей ноль копеек
+money	ru	rub	42000	сорок две тысячи рублей ноль копеек
+money	ru	rub	100000	сто тысяч рублей ноль копеек
+money	ru	rub	1000000	один миллион рублей ноль копеек
+money	ru	rub	2000000	два миллиона рублей ноль копеек
+money	ru	rub	1000000000	один миллиард рублей ноль копеек
+money	ru	rub	123.45	сто двадцать три рубля сорок пять копеек
+money	ru	try	0	ноль турецких лир ноль курушей
+money	ru	try	0.01	ноль турецких лир один куруш
+money	ru	try	0.02	ноль турецких лир два куруша
+money	ru	try	1	один турецкая лира ноль курушей
+money	ru	try	1.01	один турецкая лира один куруш
+money	ru	try	1.02	один турецкая лира два куруша
+money	ru	try	2	два турецких лир ноль курушей
+money	ru	try	2.02	два турецких лир два куруша
+money	ru	try	3	три турецких лир ноль курушей
+money	ru	try	5	пять турецких лир ноль курушей
+money	ru	try	11	одиннадцать турецких лир ноль курушей
+money	ru	try	21	двадцать один турецкая лира ноль курушей
+money	ru	try	22	двадцать два турецких лир ноль курушей
+money	ru	try	42	сорок два турецких лир ноль курушей
+money	ru	try	100	сто турецких лир ноль курушей
+money	ru	try	101	сто один турецкая лира ноль курушей
+money	ru	try	121	сто двадцать один турецкая лира ноль курушей
+money	ru	try	999	девятьсот девяносто девять турецких лир ноль курушей
+money	ru	try	1000	одна тысяча турецких лир ноль курушей
+money	ru	try	1001	одна тысяча один турецкая лира ноль курушей
+money	ru	try	2000	две тысячи турецких лир ноль курушей
+money	ru	try	2001	две тысячи один турецкая лира ноль курушей
+money	ru	try	5000	пять тысяч турецких лир ноль курушей
+money	ru	try	21000	двадцать одна тысяча турецких лир ноль курушей
+money	ru	try	22000	двадцать две тысячи турецких лир ноль курушей
+money	ru	try	41000	сорок одна тысяча турецких лир ноль курушей
+money	ru	try	42000	сорок две тысячи турецких лир ноль курушей
+money	ru	try	100000	сто тысяч турецких лир ноль курушей
+money	ru	try	1000000	один миллион турецких лир ноль курушей
+money	ru	try	2000000	два миллиона турецких лир ноль курушей
+money	ru	try	1000000000	один миллиард турецких лир ноль курушей
+money	ru	try	123.45	сто двадцать три турецких лир сорок пять курушей
+money	ru	uah	0	ноль гривень ноль копеек
+money	ru	uah	0.01	ноль гривень одна копейка
+money	ru	uah	0.02	ноль гривень две копейки
+money	ru	uah	1	одна гривня ноль копеек
+money	ru	uah	1.01	одна гривня одна копейка
+money	ru	uah	1.02	одна гривня две копейки
+money	ru	uah	2	две гривні ноль копеек
+money	ru	uah	2.02	две гривні две копейки
+money	ru	uah	3	три гривні ноль копеек
+money	ru	uah	5	пять гривень ноль копеек
+money	ru	uah	11	одиннадцать гривень ноль копеек
+money	ru	uah	21	двадцать одна гривня ноль копеек
+money	ru	uah	22	двадцать две гривні ноль копеек
+money	ru	uah	42	сорок две гривні ноль копеек
+money	ru	uah	100	сто гривень ноль копеек
+money	ru	uah	101	сто одна гривня ноль копеек
+money	ru	uah	121	сто двадцать одна гривня ноль копеек
+money	ru	uah	999	девятьсот девяносто девять гривень ноль копеек
+money	ru	uah	1000	одна тысяча гривень ноль копеек
+money	ru	uah	1001	одна тысяча одна гривня ноль копеек
+money	ru	uah	2000	две тысячи гривень ноль копеек
+money	ru	uah	2001	две тысячи одна гривня ноль копеек
+money	ru	uah	5000	пять тысяч гривень ноль копеек
+money	ru	uah	21000	двадцать одна тысяча гривень ноль копеек
+money	ru	uah	22000	двадцать две тысячи гривень ноль копеек
+money	ru	uah	41000	сорок одна тысяча гривень ноль копеек
+money	ru	uah	42000	сорок две тысячи гривень ноль копеек
+money	ru	uah	100000	сто тысяч гривень ноль копеек
+money	ru	uah	1000000	один миллион гривень ноль копеек
+money	ru	uah	2000000	два миллиона гривень ноль копеек
+money	ru	uah	1000000000	один миллиард гривень ноль копеек
+money	ru	uah	123.45	сто двадцать три гривні сорок пять копеек
+money	ru	bgn	0	
+money	ru	bgn	0.01	
+money	ru	bgn	0.02	
+money	ru	bgn	1	
+money	ru	bgn	1.01	
+money	ru	bgn	1.02	
+money	ru	bgn	2	
+money	ru	bgn	2.02	
+money	ru	bgn	3	
+money	ru	bgn	5	
+money	ru	bgn	11	
+money	ru	bgn	21	
+money	ru	bgn	22	
+money	ru	bgn	42	
+money	ru	bgn	100	
+money	ru	bgn	101	
+money	ru	bgn	121	
+money	ru	bgn	999	
+money	ru	bgn	1000	
+money	ru	bgn	1001	
+money	ru	bgn	2000	
+money	ru	bgn	2001	
+money	ru	bgn	5000	
+money	ru	bgn	21000	
+money	ru	bgn	22000	
+money	ru	bgn	41000	
+money	ru	bgn	42000	
+money	ru	bgn	100000	
+money	ru	bgn	1000000	
+money	ru	bgn	2000000	
+money	ru	bgn	1000000000	
+money	ru	bgn	123.45	
+money	ru	etb	0	ноль быр ноль копеек
+money	ru	etb	0.01	ноль быр один копейка
+money	ru	etb	0.02	ноль быр два копейки
+money	ru	etb	1	один быр ноль копеек
+money	ru	etb	1.01	один быр один копейка
+money	ru	etb	1.02	один быр два копейки
+money	ru	etb	2	два быр ноль копеек
+money	ru	etb	2.02	два быр два копейки
+money	ru	etb	3	три быр ноль копеек
+money	ru	etb	5	пять быр ноль копеек
+money	ru	etb	11	одиннадцать быр ноль копеек
+money	ru	etb	21	двадцать один быр ноль копеек
+money	ru	etb	22	двадцать два быр ноль копеек
+money	ru	etb	42	сорок два быр ноль копеек
+money	ru	etb	100	сто быр ноль копеек
+money	ru	etb	101	сто один быр ноль копеек
+money	ru	etb	121	сто двадцать один быр ноль копеек
+money	ru	etb	999	девятьсот девяносто девять быр ноль копеек
+money	ru	etb	1000	одна тысяча быр ноль копеек
+money	ru	etb	1001	одна тысяча один быр ноль копеек
+money	ru	etb	2000	две тысячи быр ноль копеек
+money	ru	etb	2001	две тысячи один быр ноль копеек
+money	ru	etb	5000	пять тысяч быр ноль копеек
+money	ru	etb	21000	двадцать одна тысяча быр ноль копеек
+money	ru	etb	22000	двадцать две тысячи быр ноль копеек
+money	ru	etb	41000	сорок одна тысяча быр ноль копеек
+money	ru	etb	42000	сорок две тысячи быр ноль копеек
+money	ru	etb	100000	сто тысяч быр ноль копеек
+money	ru	etb	1000000	один миллион быр ноль копеек
+money	ru	etb	2000000	два миллиона быр ноль копеек
+money	ru	etb	1000000000	один миллиард быр ноль копеек
+money	ru	etb	123.45	сто двадцать три быр сорок пять копеек
+money	ru	pln	0	ноль злотых ноль грошей
+money	ru	pln	0.01	ноль злотых один грош
+money	ru	pln	0.02	ноль злотых два гроша
+money	ru	pln	1	один злотый ноль грошей
+money	ru	pln	1.01	один злотый один грош
+money	ru	pln	1.02	один злотый два гроша
+money	ru	pln	2	два злотый ноль грошей
+money	ru	pln	2.02	два злотый два гроша
+money	ru	pln	3	три злотый ноль грошей
+money	ru	pln	5	пять злотых ноль грошей
+money	ru	pln	11	одиннадцать злотых ноль грошей
+money	ru	pln	21	двадцать один злотый ноль грошей
+money	ru	pln	22	двадцать два злотый ноль грошей
+money	ru	pln	42	сорок два злотый ноль грошей
+money	ru	pln	100	сто злотых ноль грошей
+money	ru	pln	101	сто один злотый ноль грошей
+money	ru	pln	121	сто двадцать один злотый ноль грошей
+money	ru	pln	999	девятьсот девяносто девять злотых ноль грошей
+money	ru	pln	1000	одна тысяча злотых ноль грошей
+money	ru	pln	1001	одна тысяча один злотый ноль грошей
+money	ru	pln	2000	две тысячи злотых ноль грошей
+money	ru	pln	2001	две тысячи один злотый ноль грошей
+money	ru	pln	5000	пять тысяч злотых ноль грошей
+money	ru	pln	21000	двадцать одна тысяча злотых ноль грошей
+money	ru	pln	22000	двадцать две тысячи злотых ноль грошей
+money	ru	pln	41000	сорок одна тысяча злотых ноль грошей
+money	ru	pln	42000	сорок две тысячи злотых ноль грошей
+money	ru	pln	100000	сто тысяч злотых ноль грошей
+money	ru	pln	1000000	один миллион злотых ноль грошей
+money	ru	pln	2000000	два миллиона злотых ноль грошей
+money	ru	pln	1000000000	один миллиард злотых ноль грошей
+money	ru	pln	123.45	сто двадцать три злотый сорок пять грошей
+money	ru	byn	0	ноль белорусских рублей ноль копеек
+money	ru	byn	0.01	ноль белорусских рублей одна копейка
+money	ru	byn	0.02	ноль белорусских рублей две копейки
+money	ru	byn	1	один белорусский рубль ноль копеек
+money	ru	byn	1.01	один белорусский рубль одна копейка
+money	ru	byn	1.02	один белорусский рубль две копейки
+money	ru	byn	2	два белорусских рубля ноль копеек
+money	ru	byn	2.02	два белорусских рубля две копейки
+money	ru	byn	3	три белорусских рубля ноль копеек
+money	ru	byn	5	пять белорусских рублей ноль копеек
+money	ru	byn	11	одиннадцать белорусских рублей ноль копеек
+money	ru	byn	21	двадцать один белорусский рубль ноль копеек
+money	ru	byn	22	двадцать два белорусских рубля ноль копеек
+money	ru	byn	42	сорок два белорусских рубля ноль копеек
+money	ru	byn	100	сто белорусских рублей ноль копеек
+money	ru	byn	101	сто один белорусский рубль ноль копеек
+money	ru	byn	121	сто двадцать один белорусский рубль ноль копеек
+money	ru	byn	999	девятьсот девяносто девять белорусских рублей ноль копеек
+money	ru	byn	1000	одна тысяча белорусских рублей ноль копеек
+money	ru	byn	1001	одна тысяча один белорусский рубль ноль копеек
+money	ru	byn	2000	две тысячи белорусских рублей ноль копеек
+money	ru	byn	2001	две тысячи один белорусский рубль ноль копеек
+money	ru	byn	5000	пять тысяч белорусских рублей ноль копеек
+money	ru	byn	21000	двадцать одна тысяча белорусских рублей ноль копеек
+money	ru	byn	22000	двадцать две тысячи белорусских рублей ноль копеек
+money	ru	byn	41000	сорок одна тысяча белорусских рублей ноль копеек
+money	ru	byn	42000	сорок две тысячи белорусских рублей ноль копеек
+money	ru	byn	100000	сто тысяч белорусских рублей ноль копеек
+money	ru	byn	1000000	один миллион белорусских рублей ноль копеек
+money	ru	byn	2000000	два миллиона белорусских рублей ноль копеек
+money	ru	byn	1000000000	один миллиард белорусских рублей ноль копеек
+money	ru	byn	123.45	сто двадцать три белорусских рубля сорок пять копеек
+money	ru	ars	0	
+money	ru	ars	0.01	
+money	ru	ars	0.02	
+money	ru	ars	1	
+money	ru	ars	1.01	
+money	ru	ars	1.02	
+money	ru	ars	2	
+money	ru	ars	2.02	
+money	ru	ars	3	
+money	ru	ars	5	
+money	ru	ars	11	
+money	ru	ars	21	
+money	ru	ars	22	
+money	ru	ars	42	
+money	ru	ars	100	
+money	ru	ars	101	
+money	ru	ars	121	
+money	ru	ars	999	
+money	ru	ars	1000	
+money	ru	ars	1001	
+money	ru	ars	2000	
+money	ru	ars	2001	
+money	ru	ars	5000	
+money	ru	ars	21000	
+money	ru	ars	22000	
+money	ru	ars	41000	
+money	ru	ars	42000	
+money	ru	ars	100000	
+money	ru	ars	1000000	
+money	ru	ars	2000000	
+money	ru	ars	1000000000	
+money	ru	ars	123.45	
+money	ru	brl	0	
+money	ru	brl	0.01	
+money	ru	brl	0.02	
+money	ru	brl	1	
+money	ru	brl	1.01	
+money	ru	brl	1.02	
+money	ru	brl	2	
+money	ru	brl	2.02	
+money	ru	brl	3	
+money	ru	brl	5	
+money	ru	brl	11	
+money	ru	brl	21	
+money	ru	brl	22	
+money	ru	brl	42	
+money	ru	brl	100	
+money	ru	brl	101	
+money	ru	brl	121	
+money	ru	brl	999	
+money	ru	brl	1000	
+money	ru	brl	1001	
+money	ru	brl	2000	
+money	ru	brl	2001	
+money	ru	brl	5000	
+money	ru	brl	21000	
+money	ru	brl	22000	
+money	ru	brl	41000	
+money	ru	brl	42000	
+money	ru	brl	100000	
+money	ru	brl	1000000	
+money	ru	brl	2000000	
+money	ru	brl	1000000000	
+money	ru	brl	123.45	
+plain	ua	0	Нуль
+plain	ua	1	Одна
+plain	ua	2	Дві
+plain	ua	3	Три
+plain	ua	5	П'ять
+plain	ua	11	Одинадцять
+plain	ua	15	П'ятнадцять
+plain	ua	20	Двадцять
+plain	ua	21	Двадцять Одна
+plain	ua	22	Двадцять Дві
+plain	ua	42	Сорок Дві
+plain	ua	100	Сто
+plain	ua	101	Сто Одна
+plain	ua	121	Сто Двадцять Одна
+plain	ua	200	Двісті
+plain	ua	999	Дев'ятсот Дев'яносто Дев'ять
+plain	ua	1000	Одна тисяча
+plain	ua	1001	Одна тисяча Одна
+plain	ua	2000	Дві тисячі
+plain	ua	5000	П'ять тисяч
+plain	ua	21000	Двадцять Одна тисяча
+plain	ua	41000	Сорок Одна тисяча
+plain	ua	100000	Сто тисяч
+plain	ua	1000000	Одна мільйон
+plain	ua	2000000	Дві мільйони
+plain	ua	999999999	Дев'ятсот Дев'яносто Дев'ять мільйонів Дев'ятсот Дев'яносто Дев'ять тисяч Дев'ятсот Дев'яносто Дев'ять
+money	ua	eur	0	Нуль евро Нуль евроцентов
+money	ua	eur	0.01	Нуль евро Одна евроцент
+money	ua	eur	0.02	Нуль евро Дві евроцента
+money	ua	eur	1	Один евро Нуль евроцентов
+money	ua	eur	1.01	Один евро Одна евроцент
+money	ua	eur	1.02	Один евро Дві евроцента
+money	ua	eur	2	Два евро Нуль евроцентов
+money	ua	eur	2.02	Два евро Дві евроцента
+money	ua	eur	3	Три евро Нуль евроцентов
+money	ua	eur	5	П'ять евро Нуль евроцентов
+money	ua	eur	11	Одинадцять евро Нуль евроцентов
+money	ua	eur	21	Двадцять Один евро Нуль евроцентов
+money	ua	eur	22	Двадцять Два евро Нуль евроцентов
+money	ua	eur	42	Сорок Два евро Нуль евроцентов
+money	ua	eur	100	Сто евро Нуль евроцентов
+money	ua	eur	101	Сто Один евро Нуль евроцентов
+money	ua	eur	121	Сто Двадцять Один евро Нуль евроцентов
+money	ua	eur	999	Дев'ятсот Дев'яносто Дев'ять евро Нуль евроцентов
+money	ua	eur	1000	Один тисяча евро Нуль евроцентов
+money	ua	eur	1001	Один тисяча Один евро Нуль евроцентов
+money	ua	eur	2000	Два тисячі евро Нуль евроцентов
+money	ua	eur	2001	Два тисячі Один евро Нуль евроцентов
+money	ua	eur	5000	П'ять тисяч евро Нуль евроцентов
+money	ua	eur	21000	Двадцять Один тисяча евро Нуль евроцентов
+money	ua	eur	22000	Двадцять Два тисячі евро Нуль евроцентов
+money	ua	eur	41000	Сорок Один тисяча евро Нуль евроцентов
+money	ua	eur	42000	Сорок Два тисячі евро Нуль евроцентов
+money	ua	eur	100000	Сто тисяч евро Нуль евроцентов
+money	ua	eur	1000000	Один мільйон евро Нуль евроцентов
+money	ua	eur	2000000	Два мільйони евро Нуль евроцентов
+money	ua	eur	1000000000	Один мільярд евро Нуль евроцентов
+money	ua	eur	123.45	Сто Двадцять Три евро Сорок П'ять евроцентов
+money	ua	usd	0	Нуль долларов Нуль центов
+money	ua	usd	0.01	Нуль долларов Одна цент
+money	ua	usd	0.02	Нуль долларов Дві цента
+money	ua	usd	1	Одна доллар Нуль центов
+money	ua	usd	1.01	Одна доллар Одна цент
+money	ua	usd	1.02	Одна доллар Дві цента
+money	ua	usd	2	Дві доллара Нуль центов
+money	ua	usd	2.02	Дві доллара Дві цента
+money	ua	usd	3	Три доллара Нуль центов
+money	ua	usd	5	П'ять долларов Нуль центов
+money	ua	usd	11	Одинадцять долларов Нуль центов
+money	ua	usd	21	Двадцять Одна доллар Нуль центов
+money	ua	usd	22	Двадцять Дві доллара Нуль центов
+money	ua	usd	42	Сорок Дві доллара Нуль центов
+money	ua	usd	100	Сто долларов Нуль центов
+money	ua	usd	101	Сто Одна доллар Нуль центов
+money	ua	usd	121	Сто Двадцять Одна доллар Нуль центов
+money	ua	usd	999	Дев'ятсот Дев'яносто Дев'ять долларов Нуль центов
+money	ua	usd	1000	Одна тисяча долларов Нуль центов
+money	ua	usd	1001	Одна тисяча Одна доллар Нуль центов
+money	ua	usd	2000	Дві тисячі долларов Нуль центов
+money	ua	usd	2001	Дві тисячі Одна доллар Нуль центов
+money	ua	usd	5000	П'ять тисяч долларов Нуль центов
+money	ua	usd	21000	Двадцять Одна тисяча долларов Нуль центов
+money	ua	usd	22000	Двадцять Дві тисячі долларов Нуль центов
+money	ua	usd	41000	Сорок Одна тисяча долларов Нуль центов
+money	ua	usd	42000	Сорок Дві тисячі долларов Нуль центов
+money	ua	usd	100000	Сто тисяч долларов Нуль центов
+money	ua	usd	1000000	Одна мільйон долларов Нуль центов
+money	ua	usd	2000000	Дві мільйони долларов Нуль центов
+money	ua	usd	1000000000	Одна мільярд долларов Нуль центов
+money	ua	usd	123.45	Сто Двадцять Три доллара Сорок П'ять центов
+money	ua	rub	0	Нуль рублей Нуль копеек
+money	ua	rub	0.01	Нуль рублей Одна копейка
+money	ua	rub	0.02	Нуль рублей Дві копейки
+money	ua	rub	1	Один рубль Нуль копеек
+money	ua	rub	1.01	Один рубль Одна копейка
+money	ua	rub	1.02	Один рубль Дві копейки
+money	ua	rub	2	Два рубля Нуль копеек
+money	ua	rub	2.02	Два рубля Дві копейки
+money	ua	rub	3	Три рубля Нуль копеек
+money	ua	rub	5	П'ять рублей Нуль копеек
+money	ua	rub	11	Одинадцять рублей Нуль копеек
+money	ua	rub	21	Двадцять Один рубль Нуль копеек
+money	ua	rub	22	Двадцять Два рубля Нуль копеек
+money	ua	rub	42	Сорок Два рубля Нуль копеек
+money	ua	rub	100	Сто рублей Нуль копеек
+money	ua	rub	101	Сто Один рубль Нуль копеек
+money	ua	rub	121	Сто Двадцять Один рубль Нуль копеек
+money	ua	rub	999	Дев'ятсот Дев'яносто Дев'ять рублей Нуль копеек
+money	ua	rub	1000	Один тисяча рублей Нуль копеек
+money	ua	rub	1001	Один тисяча Один рубль Нуль копеек
+money	ua	rub	2000	Два тисячі рублей Нуль копеек
+money	ua	rub	2001	Два тисячі Один рубль Нуль копеек
+money	ua	rub	5000	П'ять тисяч рублей Нуль копеек
+money	ua	rub	21000	Двадцять Один тисяча рублей Нуль копеек
+money	ua	rub	22000	Двадцять Два тисячі рублей Нуль копеек
+money	ua	rub	41000	Сорок Один тисяча рублей Нуль копеек
+money	ua	rub	42000	Сорок Два тисячі рублей Нуль копеек
+money	ua	rub	100000	Сто тисяч рублей Нуль копеек
+money	ua	rub	1000000	Один мільйон рублей Нуль копеек
+money	ua	rub	2000000	Два мільйони рублей Нуль копеек
+money	ua	rub	1000000000	Один мільярд рублей Нуль копеек
+money	ua	rub	123.45	Сто Двадцять Три рубля Сорок П'ять копеек
+money	ua	try	0	Нуль турецких лир Нуль курушей
+money	ua	try	0.01	Нуль турецких лир Одна куруш
+money	ua	try	0.02	Нуль турецких лир Дві куруша
+money	ua	try	1	Одна турецкая лира Нуль курушей
+money	ua	try	1.01	Одна турецкая лира Одна куруш
+money	ua	try	1.02	Одна турецкая лира Дві куруша
+money	ua	try	2	Дві турецких лир Нуль курушей
+money	ua	try	2.02	Дві турецких лир Дві куруша
+money	ua	try	3	Три турецких лир Нуль курушей
+money	ua	try	5	П'ять турецких лир Нуль курушей
+money	ua	try	11	Одинадцять турецких лир Нуль курушей
+money	ua	try	21	Двадцять Одна турецкая лира Нуль курушей
+money	ua	try	22	Двадцять Дві турецких лир Нуль курушей
+money	ua	try	42	Сорок Дві турецких лир Нуль курушей
+money	ua	try	100	Сто турецких лир Нуль курушей
+money	ua	try	101	Сто Одна турецкая лира Нуль курушей
+money	ua	try	121	Сто Двадцять Одна турецкая лира Нуль курушей
+money	ua	try	999	Дев'ятсот Дев'яносто Дев'ять турецких лир Нуль курушей
+money	ua	try	1000	Одна тисяча турецких лир Нуль курушей
+money	ua	try	1001	Одна тисяча Одна турецкая лира Нуль курушей
+money	ua	try	2000	Дві тисячі турецких лир Нуль курушей
+money	ua	try	2001	Дві тисячі Одна турецкая лира Нуль курушей
+money	ua	try	5000	П'ять тисяч турецких лир Нуль курушей
+money	ua	try	21000	Двадцять Одна тисяча турецких лир Нуль курушей
+money	ua	try	22000	Двадцять Дві тисячі турецких лир Нуль курушей
+money	ua	try	41000	Сорок Одна тисяча турецких лир Нуль курушей
+money	ua	try	42000	Сорок Дві тисячі турецких лир Нуль курушей
+money	ua	try	100000	Сто тисяч турецких лир Нуль курушей
+money	ua	try	1000000	Одна мільйон турецких лир Нуль курушей
+money	ua	try	2000000	Дві мільйони турецких лир Нуль курушей
+money	ua	try	1000000000	Одна мільярд турецких лир Нуль курушей
+money	ua	try	123.45	Сто Двадцять Три турецких лир Сорок П'ять курушей
+money	ua	uah	0	Нуль гривень Нуль копійок
+money	ua	uah	0.01	Нуль гривень Одна копійка
+money	ua	uah	0.02	Нуль гривень Дві копійки
+money	ua	uah	1	Одна гривня Нуль копійок
+money	ua	uah	1.01	Одна гривня Одна копійка
+money	ua	uah	1.02	Одна гривня Дві копійки
+money	ua	uah	2	Дві гривні Нуль копійок
+money	ua	uah	2.02	Дві гривні Дві копійки
+money	ua	uah	3	Три гривні Нуль копійок
+money	ua	uah	5	П'ять гривень Нуль копійок
+money	ua	uah	11	Одинадцять гривень Нуль копійок
+money	ua	uah	21	Двадцять Одна гривня Нуль копійок
+money	ua	uah	22	Двадцять Дві гривні Нуль копійок
+money	ua	uah	42	Сорок Дві гривні Нуль копійок
+money	ua	uah	100	Сто гривень Нуль копійок
+money	ua	uah	101	Сто Одна гривня Нуль копійок
+money	ua	uah	121	Сто Двадцять Одна гривня Нуль копійок
+money	ua	uah	999	Дев'ятсот Дев'яносто Дев'ять гривень Нуль копійок
+money	ua	uah	1000	Одна тисяча гривень Нуль копійок
+money	ua	uah	1001	Одна тисяча Одна гривня Нуль копійок
+money	ua	uah	2000	Дві тисячі гривень Нуль копійок
+money	ua	uah	2001	Дві тисячі Одна гривня Нуль копійок
+money	ua	uah	5000	П'ять тисяч гривень Нуль копійок
+money	ua	uah	21000	Двадцять Одна тисяча гривень Нуль копійок
+money	ua	uah	22000	Двадцять Дві тисячі гривень Нуль копійок
+money	ua	uah	41000	Сорок Одна тисяча гривень Нуль копійок
+money	ua	uah	42000	Сорок Дві тисячі гривень Нуль копійок
+money	ua	uah	100000	Сто тисяч гривень Нуль копійок
+money	ua	uah	1000000	Одна мільйон гривень Нуль копійок
+money	ua	uah	2000000	Дві мільйони гривень Нуль копійок
+money	ua	uah	1000000000	Одна мільярд гривень Нуль копійок
+money	ua	uah	123.45	Сто Двадцять Три гривні Сорок П'ять копійок
+money	ua	bgn	0	
+money	ua	bgn	0.01	
+money	ua	bgn	0.02	
+money	ua	bgn	1	
+money	ua	bgn	1.01	
+money	ua	bgn	1.02	
+money	ua	bgn	2	
+money	ua	bgn	2.02	
+money	ua	bgn	3	
+money	ua	bgn	5	
+money	ua	bgn	11	
+money	ua	bgn	21	
+money	ua	bgn	22	
+money	ua	bgn	42	
+money	ua	bgn	100	
+money	ua	bgn	101	
+money	ua	bgn	121	
+money	ua	bgn	999	
+money	ua	bgn	1000	
+money	ua	bgn	1001	
+money	ua	bgn	2000	
+money	ua	bgn	2001	
+money	ua	bgn	5000	
+money	ua	bgn	21000	
+money	ua	bgn	22000	
+money	ua	bgn	41000	
+money	ua	bgn	42000	
+money	ua	bgn	100000	
+money	ua	bgn	1000000	
+money	ua	bgn	2000000	
+money	ua	bgn	1000000000	
+money	ua	bgn	123.45	
+money	ua	etb	0	EX:IndexOutOfRangeException
+money	ua	etb	0.01	EX:IndexOutOfRangeException
+money	ua	etb	0.02	EX:IndexOutOfRangeException
+money	ua	etb	1	Одна берр Нуль копійок
+money	ua	etb	1.01	Одна берр Одна копійка
+money	ua	etb	1.02	Одна берр Дві копійки
+money	ua	etb	2	Дві берр Нуль копійок
+money	ua	etb	2.02	Дві берр Дві копійки
+money	ua	etb	3	Три берр Нуль копійок
+money	ua	etb	5	EX:IndexOutOfRangeException
+money	ua	etb	11	EX:IndexOutOfRangeException
+money	ua	etb	21	Двадцять Одна берр Нуль копійок
+money	ua	etb	22	Двадцять Дві берр Нуль копійок
+money	ua	etb	42	Сорок Дві берр Нуль копійок
+money	ua	etb	100	EX:IndexOutOfRangeException
+money	ua	etb	101	Сто Одна берр Нуль копійок
+money	ua	etb	121	Сто Двадцять Одна берр Нуль копійок
+money	ua	etb	999	EX:IndexOutOfRangeException
+money	ua	etb	1000	EX:IndexOutOfRangeException
+money	ua	etb	1001	Одна тисяча Одна берр Нуль копійок
+money	ua	etb	2000	EX:IndexOutOfRangeException
+money	ua	etb	2001	Дві тисячі Одна берр Нуль копійок
+money	ua	etb	5000	EX:IndexOutOfRangeException
+money	ua	etb	21000	EX:IndexOutOfRangeException
+money	ua	etb	22000	EX:IndexOutOfRangeException
+money	ua	etb	41000	EX:IndexOutOfRangeException
+money	ua	etb	42000	EX:IndexOutOfRangeException
+money	ua	etb	100000	EX:IndexOutOfRangeException
+money	ua	etb	1000000	EX:IndexOutOfRangeException
+money	ua	etb	2000000	EX:IndexOutOfRangeException
+money	ua	etb	1000000000	EX:IndexOutOfRangeException
+money	ua	etb	123.45	Сто Двадцять Три берр Сорок П'ять копійок
+money	ua	pln	0	Нуль злотих Нуль груба
+money	ua	pln	0.01	Нуль злотих Одна грубий
+money	ua	pln	0.02	Нуль злотих Дві грубий
+money	ua	pln	1	Одна злотий Нуль груба
+money	ua	pln	1.01	Одна злотий Одна грубий
+money	ua	pln	1.02	Одна злотий Дві грубий
+money	ua	pln	2	Дві злотий Нуль груба
+money	ua	pln	2.02	Дві злотий Дві грубий
+money	ua	pln	3	Три злотий Нуль груба
+money	ua	pln	5	П'ять злотих Нуль груба
+money	ua	pln	11	Одинадцять злотих Нуль груба
+money	ua	pln	21	Двадцять Одна злотий Нуль груба
+money	ua	pln	22	Двадцять Дві злотий Нуль груба
+money	ua	pln	42	Сорок Дві злотий Нуль груба
+money	ua	pln	100	Сто злотих Нуль груба
+money	ua	pln	101	Сто Одна злотий Нуль груба
+money	ua	pln	121	Сто Двадцять Одна злотий Нуль груба
+money	ua	pln	999	Дев'ятсот Дев'яносто Дев'ять злотих Нуль груба
+money	ua	pln	1000	Одна тисяча злотих Нуль груба
+money	ua	pln	1001	Одна тисяча Одна злотий Нуль груба
+money	ua	pln	2000	Дві тисячі злотих Нуль груба
+money	ua	pln	2001	Дві тисячі Одна злотий Нуль груба
+money	ua	pln	5000	П'ять тисяч злотих Нуль груба
+money	ua	pln	21000	Двадцять Одна тисяча злотих Нуль груба
+money	ua	pln	22000	Двадцять Дві тисячі злотих Нуль груба
+money	ua	pln	41000	Сорок Одна тисяча злотих Нуль груба
+money	ua	pln	42000	Сорок Дві тисячі злотих Нуль груба
+money	ua	pln	100000	Сто тисяч злотих Нуль груба
+money	ua	pln	1000000	Одна мільйон злотих Нуль груба
+money	ua	pln	2000000	Дві мільйони злотих Нуль груба
+money	ua	pln	1000000000	Одна мільярд злотих Нуль груба
+money	ua	pln	123.45	Сто Двадцять Три злотий Сорок П'ять груба
+money	ua	byn	0	
+money	ua	byn	0.01	
+money	ua	byn	0.02	
+money	ua	byn	1	
+money	ua	byn	1.01	
+money	ua	byn	1.02	
+money	ua	byn	2	
+money	ua	byn	2.02	
+money	ua	byn	3	
+money	ua	byn	5	
+money	ua	byn	11	
+money	ua	byn	21	
+money	ua	byn	22	
+money	ua	byn	42	
+money	ua	byn	100	
+money	ua	byn	101	
+money	ua	byn	121	
+money	ua	byn	999	
+money	ua	byn	1000	
+money	ua	byn	1001	
+money	ua	byn	2000	
+money	ua	byn	2001	
+money	ua	byn	5000	
+money	ua	byn	21000	
+money	ua	byn	22000	
+money	ua	byn	41000	
+money	ua	byn	42000	
+money	ua	byn	100000	
+money	ua	byn	1000000	
+money	ua	byn	2000000	
+money	ua	byn	1000000000	
+money	ua	byn	123.45	
+money	ua	ars	0	
+money	ua	ars	0.01	
+money	ua	ars	0.02	
+money	ua	ars	1	
+money	ua	ars	1.01	
+money	ua	ars	1.02	
+money	ua	ars	2	
+money	ua	ars	2.02	
+money	ua	ars	3	
+money	ua	ars	5	
+money	ua	ars	11	
+money	ua	ars	21	
+money	ua	ars	22	
+money	ua	ars	42	
+money	ua	ars	100	
+money	ua	ars	101	
+money	ua	ars	121	
+money	ua	ars	999	
+money	ua	ars	1000	
+money	ua	ars	1001	
+money	ua	ars	2000	
+money	ua	ars	2001	
+money	ua	ars	5000	
+money	ua	ars	21000	
+money	ua	ars	22000	
+money	ua	ars	41000	
+money	ua	ars	42000	
+money	ua	ars	100000	
+money	ua	ars	1000000	
+money	ua	ars	2000000	
+money	ua	ars	1000000000	
+money	ua	ars	123.45	
+money	ua	brl	0	
+money	ua	brl	0.01	
+money	ua	brl	0.02	
+money	ua	brl	1	
+money	ua	brl	1.01	
+money	ua	brl	1.02	
+money	ua	brl	2	
+money	ua	brl	2.02	
+money	ua	brl	3	
+money	ua	brl	5	
+money	ua	brl	11	
+money	ua	brl	21	
+money	ua	brl	22	
+money	ua	brl	42	
+money	ua	brl	100	
+money	ua	brl	101	
+money	ua	brl	121	
+money	ua	brl	999	
+money	ua	brl	1000	
+money	ua	brl	1001	
+money	ua	brl	2000	
+money	ua	brl	2001	
+money	ua	brl	5000	
+money	ua	brl	21000	
+money	ua	brl	22000	
+money	ua	brl	41000	
+money	ua	brl	42000	
+money	ua	brl	100000	
+money	ua	brl	1000000	
+money	ua	brl	2000000	
+money	ua	brl	1000000000	
+money	ua	brl	123.45	
+plain	by	0	нуль
+plain	by	1	адзін
+plain	by	2	два
+plain	by	3	тры
+plain	by	5	пяць
+plain	by	11	адзінаццаць
+plain	by	15	пятнаццаць
+plain	by	20	дваццаць
+plain	by	21	дваццаць адзін
+plain	by	22	дваццаць два
+plain	by	42	сорак два
+plain	by	100	сто
+plain	by	101	сто адзін
+plain	by	121	сто дваццаць адзін
+plain	by	200	дзвесце
+plain	by	999	дзевяцьсот дзевяноста дзевяць
+plain	by	1000	адна тысяча
+plain	by	1001	адна тысяча адзін
+plain	by	2000	дзве тысячы
+plain	by	5000	пяць тысяч
+plain	by	21000	дваццаць адна тысяча
+plain	by	41000	сорак адна тысяча
+plain	by	100000	сто тысяч
+plain	by	1000000	адзін мільён
+plain	by	2000000	два мільёна
+plain	by	999999999	дзевяцьсот дзевяноста дзевяць мільёнаў дзевяцьсот дзевяноста дзевяць тысяч дзевяцьсот дзевяноста дзевяць
+money	by	eur	0	нуль евро нуль евроцэнтаў
+money	by	eur	0.01	нуль евро адна евроцэнт
+money	by	eur	0.02	нуль евро дзве евроцэнта
+money	by	eur	1	адзін евро нуль евроцэнтаў
+money	by	eur	1.01	адзін евро адна евроцэнт
+money	by	eur	1.02	адзін евро дзве евроцэнта
+money	by	eur	2	два евро нуль евроцэнтаў
+money	by	eur	2.02	два евро дзве евроцэнта
+money	by	eur	3	тры евро нуль евроцэнтаў
+money	by	eur	5	пяць евро нуль евроцэнтаў
+money	by	eur	11	адзінаццаць евро нуль евроцэнтаў
+money	by	eur	21	дваццаць адзін евро нуль евроцэнтаў
+money	by	eur	22	дваццаць два евро нуль евроцэнтаў
+money	by	eur	42	сорак два евро нуль евроцэнтаў
+money	by	eur	100	сто евро нуль евроцэнтаў
+money	by	eur	101	сто адзін евро нуль евроцэнтаў
+money	by	eur	121	сто дваццаць адзін евро нуль евроцэнтаў
+money	by	eur	999	дзевяцьсот дзевяноста дзевяць евро нуль евроцэнтаў
+money	by	eur	1000	адна тысяча евро нуль евроцэнтаў
+money	by	eur	1001	адна тысяча адзін евро нуль евроцэнтаў
+money	by	eur	2000	дзве тысячы евро нуль евроцэнтаў
+money	by	eur	2001	дзве тысячы адзін евро нуль евроцэнтаў
+money	by	eur	5000	пяць тысяч евро нуль евроцэнтаў
+money	by	eur	21000	дваццаць адна тысяча евро нуль евроцэнтаў
+money	by	eur	22000	дваццаць дзве тысячы евро нуль евроцэнтаў
+money	by	eur	41000	сорак адна тысяча евро нуль евроцэнтаў
+money	by	eur	42000	сорак дзве тысячы евро нуль евроцэнтаў
+money	by	eur	100000	сто тысяч евро нуль евроцэнтаў
+money	by	eur	1000000	адзін мільён евро нуль евроцэнтаў
+money	by	eur	2000000	два мільёна евро нуль евроцэнтаў
+money	by	eur	1000000000	адзін мільярд евро нуль евроцэнтаў
+money	by	eur	123.45	сто дваццаць тры евро сорак пяць евроцэнтаў
+money	by	usd	0	нуль даляраў нуль цэнтаў
+money	by	usd	0.01	нуль даляраў адзін цэнт
+money	by	usd	0.02	нуль даляраў два цэнта
+money	by	usd	1	адзін даляр нуль цэнтаў
+money	by	usd	1.01	адзін даляр адзін цэнт
+money	by	usd	1.02	адзін даляр два цэнта
+money	by	usd	2	два даляра нуль цэнтаў
+money	by	usd	2.02	два даляра два цэнта
+money	by	usd	3	тры даляра нуль цэнтаў
+money	by	usd	5	пяць даляраў нуль цэнтаў
+money	by	usd	11	адзінаццаць даляраў нуль цэнтаў
+money	by	usd	21	дваццаць адзін даляр нуль цэнтаў
+money	by	usd	22	дваццаць два даляра нуль цэнтаў
+money	by	usd	42	сорак два даляра нуль цэнтаў
+money	by	usd	100	сто даляраў нуль цэнтаў
+money	by	usd	101	сто адзін даляр нуль цэнтаў
+money	by	usd	121	сто дваццаць адзін даляр нуль цэнтаў
+money	by	usd	999	дзевяцьсот дзевяноста дзевяць даляраў нуль цэнтаў
+money	by	usd	1000	адна тысяча даляраў нуль цэнтаў
+money	by	usd	1001	адна тысяча адзін даляр нуль цэнтаў
+money	by	usd	2000	дзве тысячы даляраў нуль цэнтаў
+money	by	usd	2001	дзве тысячы адзін даляр нуль цэнтаў
+money	by	usd	5000	пяць тысяч даляраў нуль цэнтаў
+money	by	usd	21000	дваццаць адна тысяча даляраў нуль цэнтаў
+money	by	usd	22000	дваццаць дзве тысячы даляраў нуль цэнтаў
+money	by	usd	41000	сорак адна тысяча даляраў нуль цэнтаў
+money	by	usd	42000	сорак дзве тысячы даляраў нуль цэнтаў
+money	by	usd	100000	сто тысяч даляраў нуль цэнтаў
+money	by	usd	1000000	адзін мільён даляраў нуль цэнтаў
+money	by	usd	2000000	два мільёна даляраў нуль цэнтаў
+money	by	usd	1000000000	адзін мільярд даляраў нуль цэнтаў
+money	by	usd	123.45	сто дваццаць тры даляра сорак пяць цэнтаў
+money	by	rub	0	нуль рублёў нуль капеек
+money	by	rub	0.01	нуль рублёў адна капейка
+money	by	rub	0.02	нуль рублёў дзве капейкі
+money	by	rub	1	адзін рубель нуль капеек
+money	by	rub	1.01	адзін рубель адна капейка
+money	by	rub	1.02	адзін рубель дзве капейкі
+money	by	rub	2	два рубля нуль капеек
+money	by	rub	2.02	два рубля дзве капейкі
+money	by	rub	3	тры рубля нуль капеек
+money	by	rub	5	пяць рублёў нуль капеек
+money	by	rub	11	адзінаццаць рублёў нуль капеек
+money	by	rub	21	дваццаць адзін рубель нуль капеек
+money	by	rub	22	дваццаць два рубля нуль капеек
+money	by	rub	42	сорак два рубля нуль капеек
+money	by	rub	100	сто рублёў нуль капеек
+money	by	rub	101	сто адзін рубель нуль капеек
+money	by	rub	121	сто дваццаць адзін рубель нуль капеек
+money	by	rub	999	дзевяцьсот дзевяноста дзевяць рублёў нуль капеек
+money	by	rub	1000	адна тысяча рублёў нуль капеек
+money	by	rub	1001	адна тысяча адзін рубель нуль капеек
+money	by	rub	2000	дзве тысячы рублёў нуль капеек
+money	by	rub	2001	дзве тысячы адзін рубель нуль капеек
+money	by	rub	5000	пяць тысяч рублёў нуль капеек
+money	by	rub	21000	дваццаць адна тысяча рублёў нуль капеек
+money	by	rub	22000	дваццаць дзве тысячы рублёў нуль капеек
+money	by	rub	41000	сорак адна тысяча рублёў нуль капеек
+money	by	rub	42000	сорак дзве тысячы рублёў нуль капеек
+money	by	rub	100000	сто тысяч рублёў нуль капеек
+money	by	rub	1000000	адзін мільён рублёў нуль капеек
+money	by	rub	2000000	два мільёна рублёў нуль капеек
+money	by	rub	1000000000	адзін мільярд рублёў нуль капеек
+money	by	rub	123.45	сто дваццаць тры рубля сорак пяць капеек
+money	by	try	0	нуль турэцкіх лір нуль курушей
+money	by	try	0.01	нуль турэцкіх лір адзін куруш
+money	by	try	0.02	нуль турэцкіх лір два курушы
+money	by	try	1	адзін турэцкая ліра нуль курушей
+money	by	try	1.01	адзін турэцкая ліра адзін куруш
+money	by	try	1.02	адзін турэцкая ліра два курушы
+money	by	try	2	два турэцкіх лір нуль курушей
+money	by	try	2.02	два турэцкіх лір два курушы
+money	by	try	3	тры турэцкіх лір нуль курушей
+money	by	try	5	пяць турэцкіх лір нуль курушей
+money	by	try	11	адзінаццаць турэцкіх лір нуль курушей
+money	by	try	21	дваццаць адзін турэцкая ліра нуль курушей
+money	by	try	22	дваццаць два турэцкіх лір нуль курушей
+money	by	try	42	сорак два турэцкіх лір нуль курушей
+money	by	try	100	сто турэцкіх лір нуль курушей
+money	by	try	101	сто адзін турэцкая ліра нуль курушей
+money	by	try	121	сто дваццаць адзін турэцкая ліра нуль курушей
+money	by	try	999	дзевяцьсот дзевяноста дзевяць турэцкіх лір нуль курушей
+money	by	try	1000	адна тысяча турэцкіх лір нуль курушей
+money	by	try	1001	адна тысяча адзін турэцкая ліра нуль курушей
+money	by	try	2000	дзве тысячы турэцкіх лір нуль курушей
+money	by	try	2001	дзве тысячы адзін турэцкая ліра нуль курушей
+money	by	try	5000	пяць тысяч турэцкіх лір нуль курушей
+money	by	try	21000	дваццаць адна тысяча турэцкіх лір нуль курушей
+money	by	try	22000	дваццаць дзве тысячы турэцкіх лір нуль курушей
+money	by	try	41000	сорак адна тысяча турэцкіх лір нуль курушей
+money	by	try	42000	сорак дзве тысячы турэцкіх лір нуль курушей
+money	by	try	100000	сто тысяч турэцкіх лір нуль курушей
+money	by	try	1000000	адзін мільён турэцкіх лір нуль курушей
+money	by	try	2000000	два мільёна турэцкіх лір нуль курушей
+money	by	try	1000000000	адзін мільярд турэцкіх лір нуль курушей
+money	by	try	123.45	сто дваццаць тры турэцкіх лір сорак пяць курушей
+money	by	uah	0	нуль грыўняў нуль капеек
+money	by	uah	0.01	нуль грыўняў адна капейка
+money	by	uah	0.02	нуль грыўняў дзве капейкі
+money	by	uah	1	адна грыўна нуль капеек
+money	by	uah	1.01	адна грыўна адна капейка
+money	by	uah	1.02	адна грыўна дзве капейкі
+money	by	uah	2	дзве грыўны нуль капеек
+money	by	uah	2.02	дзве грыўны дзве капейкі
+money	by	uah	3	тры грыўны нуль капеек
+money	by	uah	5	пяць грыўняў нуль капеек
+money	by	uah	11	адзінаццаць грыўняў нуль капеек
+money	by	uah	21	дваццаць адна грыўна нуль капеек
+money	by	uah	22	дваццаць дзве грыўны нуль капеек
+money	by	uah	42	сорак дзве грыўны нуль капеек
+money	by	uah	100	сто грыўняў нуль капеек
+money	by	uah	101	сто адна грыўна нуль капеек
+money	by	uah	121	сто дваццаць адна грыўна нуль капеек
+money	by	uah	999	дзевяцьсот дзевяноста дзевяць грыўняў нуль капеек
+money	by	uah	1000	адна тысяча грыўняў нуль капеек
+money	by	uah	1001	адна тысяча адна грыўна нуль капеек
+money	by	uah	2000	дзве тысячы грыўняў нуль капеек
+money	by	uah	2001	дзве тысячы адна грыўна нуль капеек
+money	by	uah	5000	пяць тысяч грыўняў нуль капеек
+money	by	uah	21000	дваццаць адна тысяча грыўняў нуль капеек
+money	by	uah	22000	дваццаць дзве тысячы грыўняў нуль капеек
+money	by	uah	41000	сорак адна тысяча грыўняў нуль капеек
+money	by	uah	42000	сорак дзве тысячы грыўняў нуль капеек
+money	by	uah	100000	сто тысяч грыўняў нуль капеек
+money	by	uah	1000000	адзін мільён грыўняў нуль капеек
+money	by	uah	2000000	два мільёна грыўняў нуль капеек
+money	by	uah	1000000000	адзін мільярд грыўняў нуль капеек
+money	by	uah	123.45	сто дваццаць тры грыўны сорак пяць капеек
+money	by	bgn	0	
+money	by	bgn	0.01	
+money	by	bgn	0.02	
+money	by	bgn	1	
+money	by	bgn	1.01	
+money	by	bgn	1.02	
+money	by	bgn	2	
+money	by	bgn	2.02	
+money	by	bgn	3	
+money	by	bgn	5	
+money	by	bgn	11	
+money	by	bgn	21	
+money	by	bgn	22	
+money	by	bgn	42	
+money	by	bgn	100	
+money	by	bgn	101	
+money	by	bgn	121	
+money	by	bgn	999	
+money	by	bgn	1000	
+money	by	bgn	1001	
+money	by	bgn	2000	
+money	by	bgn	2001	
+money	by	bgn	5000	
+money	by	bgn	21000	
+money	by	bgn	22000	
+money	by	bgn	41000	
+money	by	bgn	42000	
+money	by	bgn	100000	
+money	by	bgn	1000000	
+money	by	bgn	2000000	
+money	by	bgn	1000000000	
+money	by	bgn	123.45	
+money	by	etb	0	нуль быр нуль капеек
+money	by	etb	0.01	нуль быр адзін капейка
+money	by	etb	0.02	нуль быр два капейкі
+money	by	etb	1	адзін быр нуль капеек
+money	by	etb	1.01	адзін быр адзін капейка
+money	by	etb	1.02	адзін быр два капейкі
+money	by	etb	2	два быр нуль капеек
+money	by	etb	2.02	два быр два капейкі
+money	by	etb	3	тры быр нуль капеек
+money	by	etb	5	пяць быр нуль капеек
+money	by	etb	11	адзінаццаць быр нуль капеек
+money	by	etb	21	дваццаць адзін быр нуль капеек
+money	by	etb	22	дваццаць два быр нуль капеек
+money	by	etb	42	сорак два быр нуль капеек
+money	by	etb	100	сто быр нуль капеек
+money	by	etb	101	сто адзін быр нуль капеек
+money	by	etb	121	сто дваццаць адзін быр нуль капеек
+money	by	etb	999	дзевяцьсот дзевяноста дзевяць быр нуль капеек
+money	by	etb	1000	адна тысяча быр нуль капеек
+money	by	etb	1001	адна тысяча адзін быр нуль капеек
+money	by	etb	2000	дзве тысячы быр нуль капеек
+money	by	etb	2001	дзве тысячы адзін быр нуль капеек
+money	by	etb	5000	пяць тысяч быр нуль капеек
+money	by	etb	21000	дваццаць адна тысяча быр нуль капеек
+money	by	etb	22000	дваццаць дзве тысячы быр нуль капеек
+money	by	etb	41000	сорак адна тысяча быр нуль капеек
+money	by	etb	42000	сорак дзве тысячы быр нуль капеек
+money	by	etb	100000	сто тысяч быр нуль капеек
+money	by	etb	1000000	адзін мільён быр нуль капеек
+money	by	etb	2000000	два мільёна быр нуль капеек
+money	by	etb	1000000000	адзін мільярд быр нуль капеек
+money	by	etb	123.45	сто дваццаць тры быр сорак пяць капеек
+money	by	pln	0	нуль злотых нуль грошаў
+money	by	pln	0.01	нуль злотых адзін грош
+money	by	pln	0.02	нуль злотых два гроша
+money	by	pln	1	адзін злоты нуль грошаў
+money	by	pln	1.01	адзін злоты адзін грош
+money	by	pln	1.02	адзін злоты два гроша
+money	by	pln	2	два злотых нуль грошаў
+money	by	pln	2.02	два злотых два гроша
+money	by	pln	3	тры злотых нуль грошаў
+money	by	pln	5	пяць злотых нуль грошаў
+money	by	pln	11	адзінаццаць злотых нуль грошаў
+money	by	pln	21	дваццаць адзін злоты нуль грошаў
+money	by	pln	22	дваццаць два злотых нуль грошаў
+money	by	pln	42	сорак два злотых нуль грошаў
+money	by	pln	100	сто злотых нуль грошаў
+money	by	pln	101	сто адзін злоты нуль грошаў
+money	by	pln	121	сто дваццаць адзін злоты нуль грошаў
+money	by	pln	999	дзевяцьсот дзевяноста дзевяць злотых нуль грошаў
+money	by	pln	1000	адна тысяча злотых нуль грошаў
+money	by	pln	1001	адна тысяча адзін злоты нуль грошаў
+money	by	pln	2000	дзве тысячы злотых нуль грошаў
+money	by	pln	2001	дзве тысячы адзін злоты нуль грошаў
+money	by	pln	5000	пяць тысяч злотых нуль грошаў
+money	by	pln	21000	дваццаць адна тысяча злотых нуль грошаў
+money	by	pln	22000	дваццаць дзве тысячы злотых нуль грошаў
+money	by	pln	41000	сорак адна тысяча злотых нуль грошаў
+money	by	pln	42000	сорак дзве тысячы злотых нуль грошаў
+money	by	pln	100000	сто тысяч злотых нуль грошаў
+money	by	pln	1000000	адзін мільён злотых нуль грошаў
+money	by	pln	2000000	два мільёна злотых нуль грошаў
+money	by	pln	1000000000	адзін мільярд злотых нуль грошаў
+money	by	pln	123.45	сто дваццаць тры злотых сорак пяць грошаў
+money	by	byn	0	нуль беларускіх рублёў нуль капеек
+money	by	byn	0.01	нуль беларускіх рублёў адна капейка
+money	by	byn	0.02	нуль беларускіх рублёў дзве капейкі
+money	by	byn	1	адзін беларускі рубель нуль капеек
+money	by	byn	1.01	адзін беларускі рубель адна капейка
+money	by	byn	1.02	адзін беларускі рубель дзве капейкі
+money	by	byn	2	два беларускіх рубля нуль капеек
+money	by	byn	2.02	два беларускіх рубля дзве капейкі
+money	by	byn	3	тры беларускіх рубля нуль капеек
+money	by	byn	5	пяць беларускіх рублёў нуль капеек
+money	by	byn	11	адзінаццаць беларускіх рублёў нуль капеек
+money	by	byn	21	дваццаць адзін беларускі рубель нуль капеек
+money	by	byn	22	дваццаць два беларускіх рубля нуль капеек
+money	by	byn	42	сорак два беларускіх рубля нуль капеек
+money	by	byn	100	сто беларускіх рублёў нуль капеек
+money	by	byn	101	сто адзін беларускі рубель нуль капеек
+money	by	byn	121	сто дваццаць адзін беларускі рубель нуль капеек
+money	by	byn	999	дзевяцьсот дзевяноста дзевяць беларускіх рублёў нуль капеек
+money	by	byn	1000	адна тысяча беларускіх рублёў нуль капеек
+money	by	byn	1001	адна тысяча адзін беларускі рубель нуль капеек
+money	by	byn	2000	дзве тысячы беларускіх рублёў нуль капеек
+money	by	byn	2001	дзве тысячы адзін беларускі рубель нуль капеек
+money	by	byn	5000	пяць тысяч беларускіх рублёў нуль капеек
+money	by	byn	21000	дваццаць адна тысяча беларускіх рублёў нуль капеек
+money	by	byn	22000	дваццаць дзве тысячы беларускіх рублёў нуль капеек
+money	by	byn	41000	сорак адна тысяча беларускіх рублёў нуль капеек
+money	by	byn	42000	сорак дзве тысячы беларускіх рублёў нуль капеек
+money	by	byn	100000	сто тысяч беларускіх рублёў нуль капеек
+money	by	byn	1000000	адзін мільён беларускіх рублёў нуль капеек
+money	by	byn	2000000	два мільёна беларускіх рублёў нуль капеек
+money	by	byn	1000000000	адзін мільярд беларускіх рублёў нуль капеек
+money	by	byn	123.45	сто дваццаць тры беларускіх рубля сорак пяць капеек
+money	by	ars	0	
+money	by	ars	0.01	
+money	by	ars	0.02	
+money	by	ars	1	
+money	by	ars	1.01	
+money	by	ars	1.02	
+money	by	ars	2	
+money	by	ars	2.02	
+money	by	ars	3	
+money	by	ars	5	
+money	by	ars	11	
+money	by	ars	21	
+money	by	ars	22	
+money	by	ars	42	
+money	by	ars	100	
+money	by	ars	101	
+money	by	ars	121	
+money	by	ars	999	
+money	by	ars	1000	
+money	by	ars	1001	
+money	by	ars	2000	
+money	by	ars	2001	
+money	by	ars	5000	
+money	by	ars	21000	
+money	by	ars	22000	
+money	by	ars	41000	
+money	by	ars	42000	
+money	by	ars	100000	
+money	by	ars	1000000	
+money	by	ars	2000000	
+money	by	ars	1000000000	
+money	by	ars	123.45	
+money	by	brl	0	
+money	by	brl	0.01	
+money	by	brl	0.02	
+money	by	brl	1	
+money	by	brl	1.01	
+money	by	brl	1.02	
+money	by	brl	2	
+money	by	brl	2.02	
+money	by	brl	3	
+money	by	brl	5	
+money	by	brl	11	
+money	by	brl	21	
+money	by	brl	22	
+money	by	brl	42	
+money	by	brl	100	
+money	by	brl	101	
+money	by	brl	121	
+money	by	brl	999	
+money	by	brl	1000	
+money	by	brl	1001	
+money	by	brl	2000	
+money	by	brl	2001	
+money	by	brl	5000	
+money	by	brl	21000	
+money	by	brl	22000	
+money	by	brl	41000	
+money	by	brl	42000	
+money	by	brl	100000	
+money	by	brl	1000000	
+money	by	brl	2000000	
+money	by	brl	1000000000	
+money	by	brl	123.45	
+plain	bg	0	нула
+plain	bg	1	
+plain	bg	2	два
+plain	bg	3	три
+plain	bg	5	пет
+plain	bg	11	единадесет
+plain	bg	15	петнадесет
+plain	bg	20	двадесет
+plain	bg	21	двадесет и един
+plain	bg	22	двадесет и два
+plain	bg	42	четиридесет и два
+plain	bg	100	сто
+plain	bg	101	сто и един
+plain	bg	121	сто двадесет и един
+plain	bg	200	двеста
+plain	bg	999	деветстотин деветдесет и девет
+plain	bg	1000	хиляда
+plain	bg	1001	хиляда и един
+plain	bg	2000	две хиляди
+plain	bg	5000	пет хиляди
+plain	bg	21000	двадесет и една хиляди
+plain	bg	41000	четиридесет и една хиляди
+plain	bg	100000	сто хиляди
+plain	bg	1000000	милиона
+plain	bg	2000000	две милиона
+plain	bg	999999999	деветстотин деветдесет и девет милиона деветстотин деветдесет и девет хиляди деветстотин деветдесет и девет
+money	bg	eur	0	нула евро и нула евроцента
+money	bg	eur	0.01	нула евро и  евроцент
+money	bg	eur	0.02	нула евро и две евроцента
+money	bg	eur	1	евро и нула евроцента
+money	bg	eur	1.01	евро и  евроцент
+money	bg	eur	1.02	евро и две евроцента
+money	bg	eur	2	две евро и нула евроцента
+money	bg	eur	2.02	две евро и две евроцента
+money	bg	eur	3	три евро и нула евроцента
+money	bg	eur	5	пет евро и нула евроцента
+money	bg	eur	11	единадесет евро и нула евроцента
+money	bg	eur	21	двадесет и един евро и нула евроцента
+money	bg	eur	22	двадесет и две евро и нула евроцента
+money	bg	eur	42	четиридесет и две евро и нула евроцента
+money	bg	eur	100	сто евро и нула евроцента
+money	bg	eur	101	сто и един евро и нула евроцента
+money	bg	eur	121	сто двадесет и един евро и нула евроцента
+money	bg	eur	999	деветстотин деветдесет и девет евро и нула евроцента
+money	bg	eur	1000	хиляда евро и нула евроцента
+money	bg	eur	1001	хиляда и един евро и нула евроцента
+money	bg	eur	2000	две хиляди евро и нула евроцента
+money	bg	eur	2001	две хиляди и един евро и нула евроцента
+money	bg	eur	5000	пет хиляди евро и нула евроцента
+money	bg	eur	21000	двадесет и една хиляди евро и нула евроцента
+money	bg	eur	22000	двадесет и две хиляди евро и нула евроцента
+money	bg	eur	41000	четиридесет и една хиляди евро и нула евроцента
+money	bg	eur	42000	четиридесет и две хиляди евро и нула евроцента
+money	bg	eur	100000	сто хиляди евро и нула евроцента
+money	bg	eur	1000000	милиона евро и нула евроцента
+money	bg	eur	2000000	две милиона евро и нула евроцента
+money	bg	eur	1000000000	милиарда евро и нула евроцента
+money	bg	eur	123.45	сто двадесет и три евро и четиридесет и пет евроцента
+money	bg	usd	0	нула долара и нула цента
+money	bg	usd	0.01	нула долара и  цент
+money	bg	usd	0.02	нула долара и два цента
+money	bg	usd	1	долар и нула цента
+money	bg	usd	1.01	долар и  цент
+money	bg	usd	1.02	долар и два цента
+money	bg	usd	2	два долара и нула цента
+money	bg	usd	2.02	два долара и два цента
+money	bg	usd	3	три долара и нула цента
+money	bg	usd	5	пет долара и нула цента
+money	bg	usd	11	единадесет долара и нула цента
+money	bg	usd	21	двадесет и един долара и нула цента
+money	bg	usd	22	двадесет и два долара и нула цента
+money	bg	usd	42	четиридесет и два долара и нула цента
+money	bg	usd	100	сто долара и нула цента
+money	bg	usd	101	сто и един долара и нула цента
+money	bg	usd	121	сто двадесет и един долара и нула цента
+money	bg	usd	999	деветстотин деветдесет и девет долара и нула цента
+money	bg	usd	1000	хиляда долара и нула цента
+money	bg	usd	1001	хиляда и един долара и нула цента
+money	bg	usd	2000	две хиляди долара и нула цента
+money	bg	usd	2001	две хиляди и един долара и нула цента
+money	bg	usd	5000	пет хиляди долара и нула цента
+money	bg	usd	21000	двадесет и една хиляди долара и нула цента
+money	bg	usd	22000	двадесет и две хиляди долара и нула цента
+money	bg	usd	41000	четиридесет и една хиляди долара и нула цента
+money	bg	usd	42000	четиридесет и две хиляди долара и нула цента
+money	bg	usd	100000	сто хиляди долара и нула цента
+money	bg	usd	1000000	милиона долара и нула цента
+money	bg	usd	2000000	две милиона долара и нула цента
+money	bg	usd	1000000000	милиарда долара и нула цента
+money	bg	usd	123.45	сто двадесет и три долара и четиридесет и пет цента
+money	bg	rub	0	нула рубли и нула копейки
+money	bg	rub	0.01	нула рубли и  копейки
+money	bg	rub	0.02	нула рубли и две копейки
+money	bg	rub	1	рубли и нула копейки
+money	bg	rub	1.01	рубли и  копейки
+money	bg	rub	1.02	рубли и две копейки
+money	bg	rub	2	две рубли и нула копейки
+money	bg	rub	2.02	две рубли и две копейки
+money	bg	rub	3	три рубли и нула копейки
+money	bg	rub	5	пет рубли и нула копейки
+money	bg	rub	11	единадесет рубли и нула копейки
+money	bg	rub	21	двадесет и един рубли и нула копейки
+money	bg	rub	22	двадесет и две рубли и нула копейки
+money	bg	rub	42	четиридесет и две рубли и нула копейки
+money	bg	rub	100	сто рубли и нула копейки
+money	bg	rub	101	сто и един рубли и нула копейки
+money	bg	rub	121	сто двадесет и един рубли и нула копейки
+money	bg	rub	999	деветстотин деветдесет и девет рубли и нула копейки
+money	bg	rub	1000	хиляда рубли и нула копейки
+money	bg	rub	1001	хиляда и един рубли и нула копейки
+money	bg	rub	2000	две хиляди рубли и нула копейки
+money	bg	rub	2001	две хиляди и един рубли и нула копейки
+money	bg	rub	5000	пет хиляди рубли и нула копейки
+money	bg	rub	21000	двадесет и една хиляди рубли и нула копейки
+money	bg	rub	22000	двадесет и две хиляди рубли и нула копейки
+money	bg	rub	41000	четиридесет и една хиляди рубли и нула копейки
+money	bg	rub	42000	четиридесет и две хиляди рубли и нула копейки
+money	bg	rub	100000	сто хиляди рубли и нула копейки
+money	bg	rub	1000000	милиона рубли и нула копейки
+money	bg	rub	2000000	две милиона рубли и нула копейки
+money	bg	rub	1000000000	милиарда рубли и нула копейки
+money	bg	rub	123.45	сто двадесет и три рубли и четиридесет и пет копейки
+money	bg	try	0	нула турска лира и нула куруши
+money	bg	try	0.01	нула турска лира и  куруш
+money	bg	try	0.02	нула турска лира и два куруши
+money	bg	try	1	турска лира и нула куруши
+money	bg	try	1.01	турска лира и  куруш
+money	bg	try	1.02	турска лира и два куруши
+money	bg	try	2	два турска лира и нула куруши
+money	bg	try	2.02	два турска лира и два куруши
+money	bg	try	3	три турска лира и нула куруши
+money	bg	try	5	пет турска лира и нула куруши
+money	bg	try	11	единадесет турска лира и нула куруши
+money	bg	try	21	двадесет и един турска лира и нула куруши
+money	bg	try	22	двадесет и два турска лира и нула куруши
+money	bg	try	42	четиридесет и два турска лира и нула куруши
+money	bg	try	100	сто турска лира и нула куруши
+money	bg	try	101	сто и един турска лира и нула куруши
+money	bg	try	121	сто двадесет и един турска лира и нула куруши
+money	bg	try	999	деветстотин деветдесет и девет турска лира и нула куруши
+money	bg	try	1000	хиляда турска лира и нула куруши
+money	bg	try	1001	хиляда и един турска лира и нула куруши
+money	bg	try	2000	две хиляди турска лира и нула куруши
+money	bg	try	2001	две хиляди и един турска лира и нула куруши
+money	bg	try	5000	пет хиляди турска лира и нула куруши
+money	bg	try	21000	двадесет и една хиляди турска лира и нула куруши
+money	bg	try	22000	двадесет и две хиляди турска лира и нула куруши
+money	bg	try	41000	четиридесет и една хиляди турска лира и нула куруши
+money	bg	try	42000	четиридесет и две хиляди турска лира и нула куруши
+money	bg	try	100000	сто хиляди турска лира и нула куруши
+money	bg	try	1000000	милиона турска лира и нула куруши
+money	bg	try	2000000	две милиона турска лира и нула куруши
+money	bg	try	1000000000	милиарда турска лира и нула куруши
+money	bg	try	123.45	сто двадесет и три турска лира и четиридесет и пет куруши
+money	bg	uah	0	нула гривни и нула копейки
+money	bg	uah	0.01	нула гривни и  копейка
+money	bg	uah	0.02	нула гривни и две копейки
+money	bg	uah	1	гривня и нула копейки
+money	bg	uah	1.01	гривня и  копейка
+money	bg	uah	1.02	гривня и две копейки
+money	bg	uah	2	две гривни и нула копейки
+money	bg	uah	2.02	две гривни и две копейки
+money	bg	uah	3	три гривни и нула копейки
+money	bg	uah	5	пет гривни и нула копейки
+money	bg	uah	11	единадесет гривни и нула копейки
+money	bg	uah	21	двадесет и един гривни и нула копейки
+money	bg	uah	22	двадесет и две гривни и нула копейки
+money	bg	uah	42	четиридесет и две гривни и нула копейки
+money	bg	uah	100	сто гривни и нула копейки
+money	bg	uah	101	сто и един гривни и нула копейки
+money	bg	uah	121	сто двадесет и един гривни и нула копейки
+money	bg	uah	999	деветстотин деветдесет и девет гривни и нула копейки
+money	bg	uah	1000	хиляда гривни и нула копейки
+money	bg	uah	1001	хиляда и един гривни и нула копейки
+money	bg	uah	2000	две хиляди гривни и нула копейки
+money	bg	uah	2001	две хиляди и един гривни и нула копейки
+money	bg	uah	5000	пет хиляди гривни и нула копейки
+money	bg	uah	21000	двадесет и една хиляди гривни и нула копейки
+money	bg	uah	22000	двадесет и две хиляди гривни и нула копейки
+money	bg	uah	41000	четиридесет и една хиляди гривни и нула копейки
+money	bg	uah	42000	четиридесет и две хиляди гривни и нула копейки
+money	bg	uah	100000	сто хиляди гривни и нула копейки
+money	bg	uah	1000000	милиона гривни и нула копейки
+money	bg	uah	2000000	две милиона гривни и нула копейки
+money	bg	uah	1000000000	милиарда гривни и нула копейки
+money	bg	uah	123.45	сто двадесет и три гривни и четиридесет и пет копейки
+money	bg	bgn	0	нула лева и нула стотинки
+money	bg	bgn	0.01	нула лева и  стотинка
+money	bg	bgn	0.02	нула лева и два стотинки
+money	bg	bgn	1	лев и нула стотинки
+money	bg	bgn	1.01	лев и  стотинка
+money	bg	bgn	1.02	лев и два стотинки
+money	bg	bgn	2	два лева и нула стотинки
+money	bg	bgn	2.02	два лева и два стотинки
+money	bg	bgn	3	три лева и нула стотинки
+money	bg	bgn	5	пет лева и нула стотинки
+money	bg	bgn	11	единадесет лева и нула стотинки
+money	bg	bgn	21	двадесет и един лева и нула стотинки
+money	bg	bgn	22	двадесет и два лева и нула стотинки
+money	bg	bgn	42	четиридесет и два лева и нула стотинки
+money	bg	bgn	100	сто лева и нула стотинки
+money	bg	bgn	101	сто и един лева и нула стотинки
+money	bg	bgn	121	сто двадесет и един лева и нула стотинки
+money	bg	bgn	999	деветстотин деветдесет и девет лева и нула стотинки
+money	bg	bgn	1000	хиляда лева и нула стотинки
+money	bg	bgn	1001	хиляда и един лева и нула стотинки
+money	bg	bgn	2000	две хиляди лева и нула стотинки
+money	bg	bgn	2001	две хиляди и един лева и нула стотинки
+money	bg	bgn	5000	пет хиляди лева и нула стотинки
+money	bg	bgn	21000	двадесет и една хиляди лева и нула стотинки
+money	bg	bgn	22000	двадесет и две хиляди лева и нула стотинки
+money	bg	bgn	41000	четиридесет и една хиляди лева и нула стотинки
+money	bg	bgn	42000	четиридесет и две хиляди лева и нула стотинки
+money	bg	bgn	100000	сто хиляди лева и нула стотинки
+money	bg	bgn	1000000	милиона лева и нула стотинки
+money	bg	bgn	2000000	две милиона лева и нула стотинки
+money	bg	bgn	1000000000	милиарда лева и нула стотинки
+money	bg	bgn	123.45	сто двадесет и три лева и четиридесет и пет стотинки
+money	bg	etb	0	нула бр и нула стотинки
+money	bg	etb	0.01	нула бр и  стотинка
+money	bg	etb	0.02	нула бр и два стотинки
+money	bg	etb	1	бр и нула стотинки
+money	bg	etb	1.01	бр и  стотинка
+money	bg	etb	1.02	бр и два стотинки
+money	bg	etb	2	два бр и нула стотинки
+money	bg	etb	2.02	два бр и два стотинки
+money	bg	etb	3	три бр и нула стотинки
+money	bg	etb	5	пет бр и нула стотинки
+money	bg	etb	11	единадесет бр и нула стотинки
+money	bg	etb	21	двадесет и един бр и нула стотинки
+money	bg	etb	22	двадесет и два бр и нула стотинки
+money	bg	etb	42	четиридесет и два бр и нула стотинки
+money	bg	etb	100	сто бр и нула стотинки
+money	bg	etb	101	сто и един бр и нула стотинки
+money	bg	etb	121	сто двадесет и един бр и нула стотинки
+money	bg	etb	999	деветстотин деветдесет и девет бр и нула стотинки
+money	bg	etb	1000	хиляда бр и нула стотинки
+money	bg	etb	1001	хиляда и един бр и нула стотинки
+money	bg	etb	2000	две хиляди бр и нула стотинки
+money	bg	etb	2001	две хиляди и един бр и нула стотинки
+money	bg	etb	5000	пет хиляди бр и нула стотинки
+money	bg	etb	21000	двадесет и една хиляди бр и нула стотинки
+money	bg	etb	22000	двадесет и две хиляди бр и нула стотинки
+money	bg	etb	41000	четиридесет и една хиляди бр и нула стотинки
+money	bg	etb	42000	четиридесет и две хиляди бр и нула стотинки
+money	bg	etb	100000	сто хиляди бр и нула стотинки
+money	bg	etb	1000000	милиона бр и нула стотинки
+money	bg	etb	2000000	две милиона бр и нула стотинки
+money	bg	etb	1000000000	милиарда бр и нула стотинки
+money	bg	etb	123.45	сто двадесет и три бр и четиридесет и пет стотинки
+money	bg	pln	0	нула злоти и нула гроз
+money	bg	pln	0.01	нула злоти и  гроз
+money	bg	pln	0.02	нула злоти и два гроз
+money	bg	pln	1	злоти и нула гроз
+money	bg	pln	1.01	злоти и  гроз
+money	bg	pln	1.02	злоти и два гроз
+money	bg	pln	2	два злоти и нула гроз
+money	bg	pln	2.02	два злоти и два гроз
+money	bg	pln	3	три злоти и нула гроз
+money	bg	pln	5	пет злоти и нула гроз
+money	bg	pln	11	единадесет злоти и нула гроз
+money	bg	pln	21	двадесет и един злоти и нула гроз
+money	bg	pln	22	двадесет и два злоти и нула гроз
+money	bg	pln	42	четиридесет и два злоти и нула гроз
+money	bg	pln	100	сто злоти и нула гроз
+money	bg	pln	101	сто и един злоти и нула гроз
+money	bg	pln	121	сто двадесет и един злоти и нула гроз
+money	bg	pln	999	деветстотин деветдесет и девет злоти и нула гроз
+money	bg	pln	1000	хиляда злоти и нула гроз
+money	bg	pln	1001	хиляда и един злоти и нула гроз
+money	bg	pln	2000	две хиляди злоти и нула гроз
+money	bg	pln	2001	две хиляди и един злоти и нула гроз
+money	bg	pln	5000	пет хиляди злоти и нула гроз
+money	bg	pln	21000	двадесет и една хиляди злоти и нула гроз
+money	bg	pln	22000	двадесет и две хиляди злоти и нула гроз
+money	bg	pln	41000	четиридесет и една хиляди злоти и нула гроз
+money	bg	pln	42000	четиридесет и две хиляди злоти и нула гроз
+money	bg	pln	100000	сто хиляди злоти и нула гроз
+money	bg	pln	1000000	милиона злоти и нула гроз
+money	bg	pln	2000000	две милиона злоти и нула гроз
+money	bg	pln	1000000000	милиарда злоти и нула гроз
+money	bg	pln	123.45	сто двадесет и три злоти и четиридесет и пет гроз
+money	bg	byn	0	нула белоруски рубли и нула копейки
+money	bg	byn	0.01	нула белоруски рубли и  копейки
+money	bg	byn	0.02	нула белоруски рубли и две копейки
+money	bg	byn	1	белоруски рубли и нула копейки
+money	bg	byn	1.01	белоруски рубли и  копейки
+money	bg	byn	1.02	белоруски рубли и две копейки
+money	bg	byn	2	две белоруски рубли и нула копейки
+money	bg	byn	2.02	две белоруски рубли и две копейки
+money	bg	byn	3	три белоруски рубли и нула копейки
+money	bg	byn	5	пет белоруски рубли и нула копейки
+money	bg	byn	11	единадесет белоруски рубли и нула копейки
+money	bg	byn	21	двадесет и един белоруски рубли и нула копейки
+money	bg	byn	22	двадесет и две белоруски рубли и нула копейки
+money	bg	byn	42	четиридесет и две белоруски рубли и нула копейки
+money	bg	byn	100	сто белоруски рубли и нула копейки
+money	bg	byn	101	сто и един белоруски рубли и нула копейки
+money	bg	byn	121	сто двадесет и един белоруски рубли и нула копейки
+money	bg	byn	999	деветстотин деветдесет и девет белоруски рубли и нула копейки
+money	bg	byn	1000	хиляда белоруски рубли и нула копейки
+money	bg	byn	1001	хиляда и един белоруски рубли и нула копейки
+money	bg	byn	2000	две хиляди белоруски рубли и нула копейки
+money	bg	byn	2001	две хиляди и един белоруски рубли и нула копейки
+money	bg	byn	5000	пет хиляди белоруски рубли и нула копейки
+money	bg	byn	21000	двадесет и една хиляди белоруски рубли и нула копейки
+money	bg	byn	22000	двадесет и две хиляди белоруски рубли и нула копейки
+money	bg	byn	41000	четиридесет и една хиляди белоруски рубли и нула копейки
+money	bg	byn	42000	четиридесет и две хиляди белоруски рубли и нула копейки
+money	bg	byn	100000	сто хиляди белоруски рубли и нула копейки
+money	bg	byn	1000000	милиона белоруски рубли и нула копейки
+money	bg	byn	2000000	две милиона белоруски рубли и нула копейки
+money	bg	byn	1000000000	милиарда белоруски рубли и нула копейки
+money	bg	byn	123.45	сто двадесет и три белоруски рубли и четиридесет и пет копейки
+money	bg	ars	0	
+money	bg	ars	0.01	
+money	bg	ars	0.02	
+money	bg	ars	1	
+money	bg	ars	1.01	
+money	bg	ars	1.02	
+money	bg	ars	2	
+money	bg	ars	2.02	
+money	bg	ars	3	
+money	bg	ars	5	
+money	bg	ars	11	
+money	bg	ars	21	
+money	bg	ars	22	
+money	bg	ars	42	
+money	bg	ars	100	
+money	bg	ars	101	
+money	bg	ars	121	
+money	bg	ars	999	
+money	bg	ars	1000	
+money	bg	ars	1001	
+money	bg	ars	2000	
+money	bg	ars	2001	
+money	bg	ars	5000	
+money	bg	ars	21000	
+money	bg	ars	22000	
+money	bg	ars	41000	
+money	bg	ars	42000	
+money	bg	ars	100000	
+money	bg	ars	1000000	
+money	bg	ars	2000000	
+money	bg	ars	1000000000	
+money	bg	ars	123.45	
+money	bg	brl	0	
+money	bg	brl	0.01	
+money	bg	brl	0.02	
+money	bg	brl	1	
+money	bg	brl	1.01	
+money	bg	brl	1.02	
+money	bg	brl	2	
+money	bg	brl	2.02	
+money	bg	brl	3	
+money	bg	brl	5	
+money	bg	brl	11	
+money	bg	brl	21	
+money	bg	brl	22	
+money	bg	brl	42	
+money	bg	brl	100	
+money	bg	brl	101	
+money	bg	brl	121	
+money	bg	brl	999	
+money	bg	brl	1000	
+money	bg	brl	1001	
+money	bg	brl	2000	
+money	bg	brl	2001	
+money	bg	brl	5000	
+money	bg	brl	21000	
+money	bg	brl	22000	
+money	bg	brl	41000	
+money	bg	brl	42000	
+money	bg	brl	100000	
+money	bg	brl	1000000	
+money	bg	brl	2000000	
+money	bg	brl	1000000000	
+money	bg	brl	123.45	
+plain	pl	0	Zero
+plain	pl	1	Jeden
+plain	pl	2	Dwa
+plain	pl	3	Trzy
+plain	pl	5	Pięć
+plain	pl	11	Jedenaście
+plain	pl	15	Piętnaście
+plain	pl	20	Dwadzieścia
+plain	pl	21	Dwadzieścia Jeden
+plain	pl	22	Dwadzieścia Dwa
+plain	pl	42	Czterdzieści Dwa
+plain	pl	100	Sto
+plain	pl	101	Sto Jeden
+plain	pl	121	Sto Dwadzieścia Jeden
+plain	pl	200	Dwieście
+plain	pl	999	Dziewięćset Dziewięćdziesiąt Dziewięć
+plain	pl	1000	Jeden tysiąc
+plain	pl	1001	Jeden tysiąc Jeden
+plain	pl	2000	Dwa tysiące
+plain	pl	5000	Pięć tysięcy
+plain	pl	21000	Dwadzieścia Jeden tysięcy
+plain	pl	41000	Czterdzieści Jeden tysięcy
+plain	pl	100000	Sto tysięcy
+plain	pl	1000000	Jeden milion
+plain	pl	2000000	Dwa miliony
+plain	pl	999999999	Dziewięćset Dziewięćdziesiąt Dziewięć milionów Dziewięćset Dziewięćdziesiąt Dziewięć tysięcy Dziewięćset Dziewięćdziesiąt Dziewięć
+money	pl	eur	0	Zero euro Zero eurocentów
+money	pl	eur	0.01	Zero euro Jeden eurocent
+money	pl	eur	0.02	Zero euro Dwa eurocenty
+money	pl	eur	1	Jeden euro Zero eurocentów
+money	pl	eur	1.01	Jeden euro Jeden eurocent
+money	pl	eur	1.02	Jeden euro Dwa eurocenty
+money	pl	eur	2	Dwa euro Zero eurocentów
+money	pl	eur	2.02	Dwa euro Dwa eurocenty
+money	pl	eur	3	Trzy euro Zero eurocentów
+money	pl	eur	5	Pięć euro Zero eurocentów
+money	pl	eur	11	Jedenaście euro Zero eurocentów
+money	pl	eur	21	Dwadzieścia Jeden euro Zero eurocentów
+money	pl	eur	22	Dwadzieścia Dwa euro Zero eurocentów
+money	pl	eur	42	Czterdzieści Dwa euro Zero eurocentów
+money	pl	eur	100	Sto euro Zero eurocentów
+money	pl	eur	101	Sto Jeden euro Zero eurocentów
+money	pl	eur	121	Sto Dwadzieścia Jeden euro Zero eurocentów
+money	pl	eur	999	Dziewięćset Dziewięćdziesiąt Dziewięć euro Zero eurocentów
+money	pl	eur	1000	Jeden tysiąc euro Zero eurocentów
+money	pl	eur	1001	Jeden tysiąc Jeden euro Zero eurocentów
+money	pl	eur	2000	Dwa tysiące euro Zero eurocentów
+money	pl	eur	2001	Dwa tysiące Jeden euro Zero eurocentów
+money	pl	eur	5000	Pięć tysięcy euro Zero eurocentów
+money	pl	eur	21000	Dwadzieścia Jeden tysięcy euro Zero eurocentów
+money	pl	eur	22000	Dwadzieścia Dwa tysiące euro Zero eurocentów
+money	pl	eur	41000	Czterdzieści Jeden tysięcy euro Zero eurocentów
+money	pl	eur	42000	Czterdzieści Dwa tysiące euro Zero eurocentów
+money	pl	eur	100000	Sto tysięcy euro Zero eurocentów
+money	pl	eur	1000000	Jeden milion euro Zero eurocentów
+money	pl	eur	2000000	Dwa miliony euro Zero eurocentów
+money	pl	eur	1000000000	Jeden miliard euro Zero eurocentów
+money	pl	eur	123.45	Sto Dwadzieścia Trzy euro Czterdzieści Pięć eurocentów
+money	pl	usd	0	Zero dolarów Zero centów
+money	pl	usd	0.01	Zero dolarów Jeden cent
+money	pl	usd	0.02	Zero dolarów Dwa centy
+money	pl	usd	1	Jeden dolar Zero centów
+money	pl	usd	1.01	Jeden dolar Jeden cent
+money	pl	usd	1.02	Jeden dolar Dwa centy
+money	pl	usd	2	Dwa dolary Zero centów
+money	pl	usd	2.02	Dwa dolary Dwa centy
+money	pl	usd	3	Trzy dolary Zero centów
+money	pl	usd	5	Pięć dolarów Zero centów
+money	pl	usd	11	Jedenaście dolarów Zero centów
+money	pl	usd	21	Dwadzieścia Jeden dolar Zero centów
+money	pl	usd	22	Dwadzieścia Dwa dolary Zero centów
+money	pl	usd	42	Czterdzieści Dwa dolary Zero centów
+money	pl	usd	100	Sto dolarów Zero centów
+money	pl	usd	101	Sto Jeden dolar Zero centów
+money	pl	usd	121	Sto Dwadzieścia Jeden dolar Zero centów
+money	pl	usd	999	Dziewięćset Dziewięćdziesiąt Dziewięć dolarów Zero centów
+money	pl	usd	1000	Jeden tysiąc dolarów Zero centów
+money	pl	usd	1001	Jeden tysiąc Jeden dolar Zero centów
+money	pl	usd	2000	Dwa tysiące dolarów Zero centów
+money	pl	usd	2001	Dwa tysiące Jeden dolar Zero centów
+money	pl	usd	5000	Pięć tysięcy dolarów Zero centów
+money	pl	usd	21000	Dwadzieścia Jeden tysięcy dolarów Zero centów
+money	pl	usd	22000	Dwadzieścia Dwa tysiące dolarów Zero centów
+money	pl	usd	41000	Czterdzieści Jeden tysięcy dolarów Zero centów
+money	pl	usd	42000	Czterdzieści Dwa tysiące dolarów Zero centów
+money	pl	usd	100000	Sto tysięcy dolarów Zero centów
+money	pl	usd	1000000	Jeden milion dolarów Zero centów
+money	pl	usd	2000000	Dwa miliony dolarów Zero centów
+money	pl	usd	1000000000	Jeden miliard dolarów Zero centów
+money	pl	usd	123.45	Sto Dwadzieścia Trzy dolary Czterdzieści Pięć centów
+money	pl	rub	0	Zero rubli Zero kopiejek
+money	pl	rub	0.01	Zero rubli Jeden kopiejka
+money	pl	rub	0.02	Zero rubli Dwa kopiejki
+money	pl	rub	1	Jeden rubel Zero kopiejek
+money	pl	rub	1.01	Jeden rubel Jeden kopiejka
+money	pl	rub	1.02	Jeden rubel Dwa kopiejki
+money	pl	rub	2	Dwa ruble Zero kopiejek
+money	pl	rub	2.02	Dwa ruble Dwa kopiejki
+money	pl	rub	3	Trzy ruble Zero kopiejek
+money	pl	rub	5	Pięć rubli Zero kopiejek
+money	pl	rub	11	Jedenaście rubli Zero kopiejek
+money	pl	rub	21	Dwadzieścia Jeden rubel Zero kopiejek
+money	pl	rub	22	Dwadzieścia Dwa ruble Zero kopiejek
+money	pl	rub	42	Czterdzieści Dwa ruble Zero kopiejek
+money	pl	rub	100	Sto rubli Zero kopiejek
+money	pl	rub	101	Sto Jeden rubel Zero kopiejek
+money	pl	rub	121	Sto Dwadzieścia Jeden rubel Zero kopiejek
+money	pl	rub	999	Dziewięćset Dziewięćdziesiąt Dziewięć rubli Zero kopiejek
+money	pl	rub	1000	Jeden tysiąc rubli Zero kopiejek
+money	pl	rub	1001	Jeden tysiąc Jeden rubel Zero kopiejek
+money	pl	rub	2000	Dwa tysiące rubli Zero kopiejek
+money	pl	rub	2001	Dwa tysiące Jeden rubel Zero kopiejek
+money	pl	rub	5000	Pięć tysięcy rubli Zero kopiejek
+money	pl	rub	21000	Dwadzieścia Jeden tysięcy rubli Zero kopiejek
+money	pl	rub	22000	Dwadzieścia Dwa tysiące rubli Zero kopiejek
+money	pl	rub	41000	Czterdzieści Jeden tysięcy rubli Zero kopiejek
+money	pl	rub	42000	Czterdzieści Dwa tysiące rubli Zero kopiejek
+money	pl	rub	100000	Sto tysięcy rubli Zero kopiejek
+money	pl	rub	1000000	Jeden milion rubli Zero kopiejek
+money	pl	rub	2000000	Dwa miliony rubli Zero kopiejek
+money	pl	rub	1000000000	Jeden miliard rubli Zero kopiejek
+money	pl	rub	123.45	Sto Dwadzieścia Trzy ruble Czterdzieści Pięć kopiejek
+money	pl	try	0	Zero tureckich lirów Zero курушей
+money	pl	try	0.01	Zero tureckich lirów Jeden куруш
+money	pl	try	0.02	Zero tureckich lirów Dwa куруша
+money	pl	try	1	Jeden turecki lir Zero курушей
+money	pl	try	1.01	Jeden turecki lir Jeden куруш
+money	pl	try	1.02	Jeden turecki lir Dwa куруша
+money	pl	try	2	Dwa tureckiego lira Zero курушей
+money	pl	try	2.02	Dwa tureckiego lira Dwa куруша
+money	pl	try	3	Trzy tureckiego lira Zero курушей
+money	pl	try	5	Pięć tureckich lirów Zero курушей
+money	pl	try	11	Jedenaście tureckich lirów Zero курушей
+money	pl	try	21	Dwadzieścia Jeden turecki lir Zero курушей
+money	pl	try	22	Dwadzieścia Dwa tureckiego lira Zero курушей
+money	pl	try	42	Czterdzieści Dwa tureckiego lira Zero курушей
+money	pl	try	100	Sto tureckich lirów Zero курушей
+money	pl	try	101	Sto Jeden turecki lir Zero курушей
+money	pl	try	121	Sto Dwadzieścia Jeden turecki lir Zero курушей
+money	pl	try	999	Dziewięćset Dziewięćdziesiąt Dziewięć tureckich lirów Zero курушей
+money	pl	try	1000	Jeden tysiąc tureckich lirów Zero курушей
+money	pl	try	1001	Jeden tysiąc Jeden turecki lir Zero курушей
+money	pl	try	2000	Dwa tysiące tureckich lirów Zero курушей
+money	pl	try	2001	Dwa tysiące Jeden turecki lir Zero курушей
+money	pl	try	5000	Pięć tysięcy tureckich lirów Zero курушей
+money	pl	try	21000	Dwadzieścia Jeden tysięcy tureckich lirów Zero курушей
+money	pl	try	22000	Dwadzieścia Dwa tysiące tureckich lirów Zero курушей
+money	pl	try	41000	Czterdzieści Jeden tysięcy tureckich lirów Zero курушей
+money	pl	try	42000	Czterdzieści Dwa tysiące tureckich lirów Zero курушей
+money	pl	try	100000	Sto tysięcy tureckich lirów Zero курушей
+money	pl	try	1000000	Jeden milion tureckich lirów Zero курушей
+money	pl	try	2000000	Dwa miliony tureckich lirów Zero курушей
+money	pl	try	1000000000	Jeden miliard tureckich lirów Zero курушей
+money	pl	try	123.45	Sto Dwadzieścia Trzy tureckiego lira Czterdzieści Pięć курушей
+money	pl	uah	0	Zero hrywien Zero kopiejek
+money	pl	uah	0.01	Zero hrywien Jeden kopiejka
+money	pl	uah	0.02	Zero hrywien Dwa kopiejki
+money	pl	uah	1	Jeden hrywna Zero kopiejek
+money	pl	uah	1.01	Jeden hrywna Jeden kopiejka
+money	pl	uah	1.02	Jeden hrywna Dwa kopiejki
+money	pl	uah	2	Dwa hrywny Zero kopiejek
+money	pl	uah	2.02	Dwa hrywny Dwa kopiejki
+money	pl	uah	3	Trzy hrywny Zero kopiejek
+money	pl	uah	5	Pięć hrywien Zero kopiejek
+money	pl	uah	11	Jedenaście hrywien Zero kopiejek
+money	pl	uah	21	Dwadzieścia Jeden hrywna Zero kopiejek
+money	pl	uah	22	Dwadzieścia Dwa hrywny Zero kopiejek
+money	pl	uah	42	Czterdzieści Dwa hrywny Zero kopiejek
+money	pl	uah	100	Sto hrywien Zero kopiejek
+money	pl	uah	101	Sto Jeden hrywna Zero kopiejek
+money	pl	uah	121	Sto Dwadzieścia Jeden hrywna Zero kopiejek
+money	pl	uah	999	Dziewięćset Dziewięćdziesiąt Dziewięć hrywien Zero kopiejek
+money	pl	uah	1000	Jeden tysiąc hrywien Zero kopiejek
+money	pl	uah	1001	Jeden tysiąc Jeden hrywna Zero kopiejek
+money	pl	uah	2000	Dwa tysiące hrywien Zero kopiejek
+money	pl	uah	2001	Dwa tysiące Jeden hrywna Zero kopiejek
+money	pl	uah	5000	Pięć tysięcy hrywien Zero kopiejek
+money	pl	uah	21000	Dwadzieścia Jeden tysięcy hrywien Zero kopiejek
+money	pl	uah	22000	Dwadzieścia Dwa tysiące hrywien Zero kopiejek
+money	pl	uah	41000	Czterdzieści Jeden tysięcy hrywien Zero kopiejek
+money	pl	uah	42000	Czterdzieści Dwa tysiące hrywien Zero kopiejek
+money	pl	uah	100000	Sto tysięcy hrywien Zero kopiejek
+money	pl	uah	1000000	Jeden milion hrywien Zero kopiejek
+money	pl	uah	2000000	Dwa miliony hrywien Zero kopiejek
+money	pl	uah	1000000000	Jeden miliard hrywien Zero kopiejek
+money	pl	uah	123.45	Sto Dwadzieścia Trzy hrywny Czterdzieści Pięć kopiejek
+money	pl	bgn	0	
+money	pl	bgn	0.01	
+money	pl	bgn	0.02	
+money	pl	bgn	1	
+money	pl	bgn	1.01	
+money	pl	bgn	1.02	
+money	pl	bgn	2	
+money	pl	bgn	2.02	
+money	pl	bgn	3	
+money	pl	bgn	5	
+money	pl	bgn	11	
+money	pl	bgn	21	
+money	pl	bgn	22	
+money	pl	bgn	42	
+money	pl	bgn	100	
+money	pl	bgn	101	
+money	pl	bgn	121	
+money	pl	bgn	999	
+money	pl	bgn	1000	
+money	pl	bgn	1001	
+money	pl	bgn	2000	
+money	pl	bgn	2001	
+money	pl	bgn	5000	
+money	pl	bgn	21000	
+money	pl	bgn	22000	
+money	pl	bgn	41000	
+money	pl	bgn	42000	
+money	pl	bgn	100000	
+money	pl	bgn	1000000	
+money	pl	bgn	2000000	
+money	pl	bgn	1000000000	
+money	pl	bgn	123.45	
+money	pl	etb	0	Zero берр Zero копійок
+money	pl	etb	0.01	Zero берр Jeden копійка
+money	pl	etb	0.02	Zero берр Dwa копійки
+money	pl	etb	1	Jeden берр Zero копійок
+money	pl	etb	1.01	Jeden берр Jeden копійка
+money	pl	etb	1.02	Jeden берр Dwa копійки
+money	pl	etb	2	Dwa берр Zero копійок
+money	pl	etb	2.02	Dwa берр Dwa копійки
+money	pl	etb	3	Trzy берр Zero копійок
+money	pl	etb	5	Pięć берр Zero копійок
+money	pl	etb	11	Jedenaście берр Zero копійок
+money	pl	etb	21	Dwadzieścia Jeden берр Zero копійок
+money	pl	etb	22	Dwadzieścia Dwa берр Zero копійок
+money	pl	etb	42	Czterdzieści Dwa берр Zero копійок
+money	pl	etb	100	Sto берр Zero копійок
+money	pl	etb	101	Sto Jeden берр Zero копійок
+money	pl	etb	121	Sto Dwadzieścia Jeden берр Zero копійок
+money	pl	etb	999	Dziewięćset Dziewięćdziesiąt Dziewięć берр Zero копійок
+money	pl	etb	1000	Jeden tysiąc берр Zero копійок
+money	pl	etb	1001	Jeden tysiąc Jeden берр Zero копійок
+money	pl	etb	2000	Dwa tysiące берр Zero копійок
+money	pl	etb	2001	Dwa tysiące Jeden берр Zero копійок
+money	pl	etb	5000	Pięć tysięcy берр Zero копійок
+money	pl	etb	21000	Dwadzieścia Jeden tysięcy берр Zero копійок
+money	pl	etb	22000	Dwadzieścia Dwa tysiące берр Zero копійок
+money	pl	etb	41000	Czterdzieści Jeden tysięcy берр Zero копійок
+money	pl	etb	42000	Czterdzieści Dwa tysiące берр Zero копійок
+money	pl	etb	100000	Sto tysięcy берр Zero копійок
+money	pl	etb	1000000	Jeden milion берр Zero копійок
+money	pl	etb	2000000	Dwa miliony берр Zero копійок
+money	pl	etb	1000000000	Jeden miliard берр Zero копійок
+money	pl	etb	123.45	Sto Dwadzieścia Trzy берр Czterdzieści Pięć копійок
+money	pl	pln	0	Zero złotych Zero groszy
+money	pl	pln	0.01	Zero złotych Jeden grosz
+money	pl	pln	0.02	Zero złotych Dwa grosze
+money	pl	pln	1	Jeden złoty Zero groszy
+money	pl	pln	1.01	Jeden złoty Jeden grosz
+money	pl	pln	1.02	Jeden złoty Dwa grosze
+money	pl	pln	2	Dwa złote Zero groszy
+money	pl	pln	2.02	Dwa złote Dwa grosze
+money	pl	pln	3	Trzy złote Zero groszy
+money	pl	pln	5	Pięć złotych Zero groszy
+money	pl	pln	11	Jedenaście złotych Zero groszy
+money	pl	pln	21	Dwadzieścia Jeden złoty Zero groszy
+money	pl	pln	22	Dwadzieścia Dwa złote Zero groszy
+money	pl	pln	42	Czterdzieści Dwa złote Zero groszy
+money	pl	pln	100	Sto złotych Zero groszy
+money	pl	pln	101	Sto Jeden złoty Zero groszy
+money	pl	pln	121	Sto Dwadzieścia Jeden złoty Zero groszy
+money	pl	pln	999	Dziewięćset Dziewięćdziesiąt Dziewięć złotych Zero groszy
+money	pl	pln	1000	Jeden tysiąc złotych Zero groszy
+money	pl	pln	1001	Jeden tysiąc Jeden złoty Zero groszy
+money	pl	pln	2000	Dwa tysiące złotych Zero groszy
+money	pl	pln	2001	Dwa tysiące Jeden złoty Zero groszy
+money	pl	pln	5000	Pięć tysięcy złotych Zero groszy
+money	pl	pln	21000	Dwadzieścia Jeden tysięcy złotych Zero groszy
+money	pl	pln	22000	Dwadzieścia Dwa tysiące złotych Zero groszy
+money	pl	pln	41000	Czterdzieści Jeden tysięcy złotych Zero groszy
+money	pl	pln	42000	Czterdzieści Dwa tysiące złotych Zero groszy
+money	pl	pln	100000	Sto tysięcy złotych Zero groszy
+money	pl	pln	1000000	Jeden milion złotych Zero groszy
+money	pl	pln	2000000	Dwa miliony złotych Zero groszy
+money	pl	pln	1000000000	Jeden miliard złotych Zero groszy
+money	pl	pln	123.45	Sto Dwadzieścia Trzy złote Czterdzieści Pięć groszy
+money	pl	byn	0	Zero rubli białoruskich Zero kopiejek
+money	pl	byn	0.01	Zero rubli białoruskich Jeden kopiejka
+money	pl	byn	0.02	Zero rubli białoruskich Dwa kopiejki
+money	pl	byn	1	Jeden rubel białoruski Zero kopiejek
+money	pl	byn	1.01	Jeden rubel białoruski Jeden kopiejka
+money	pl	byn	1.02	Jeden rubel białoruski Dwa kopiejki
+money	pl	byn	2	Dwa ruble białoruskie Zero kopiejek
+money	pl	byn	2.02	Dwa ruble białoruskie Dwa kopiejki
+money	pl	byn	3	Trzy ruble białoruskie Zero kopiejek
+money	pl	byn	5	Pięć rubli białoruskich Zero kopiejek
+money	pl	byn	11	Jedenaście rubli białoruskich Zero kopiejek
+money	pl	byn	21	Dwadzieścia Jeden rubel białoruski Zero kopiejek
+money	pl	byn	22	Dwadzieścia Dwa ruble białoruskie Zero kopiejek
+money	pl	byn	42	Czterdzieści Dwa ruble białoruskie Zero kopiejek
+money	pl	byn	100	Sto rubli białoruskich Zero kopiejek
+money	pl	byn	101	Sto Jeden rubel białoruski Zero kopiejek
+money	pl	byn	121	Sto Dwadzieścia Jeden rubel białoruski Zero kopiejek
+money	pl	byn	999	Dziewięćset Dziewięćdziesiąt Dziewięć rubli białoruskich Zero kopiejek
+money	pl	byn	1000	Jeden tysiąc rubli białoruskich Zero kopiejek
+money	pl	byn	1001	Jeden tysiąc Jeden rubel białoruski Zero kopiejek
+money	pl	byn	2000	Dwa tysiące rubli białoruskich Zero kopiejek
+money	pl	byn	2001	Dwa tysiące Jeden rubel białoruski Zero kopiejek
+money	pl	byn	5000	Pięć tysięcy rubli białoruskich Zero kopiejek
+money	pl	byn	21000	Dwadzieścia Jeden tysięcy rubli białoruskich Zero kopiejek
+money	pl	byn	22000	Dwadzieścia Dwa tysiące rubli białoruskich Zero kopiejek
+money	pl	byn	41000	Czterdzieści Jeden tysięcy rubli białoruskich Zero kopiejek
+money	pl	byn	42000	Czterdzieści Dwa tysiące rubli białoruskich Zero kopiejek
+money	pl	byn	100000	Sto tysięcy rubli białoruskich Zero kopiejek
+money	pl	byn	1000000	Jeden milion rubli białoruskich Zero kopiejek
+money	pl	byn	2000000	Dwa miliony rubli białoruskich Zero kopiejek
+money	pl	byn	1000000000	Jeden miliard rubli białoruskich Zero kopiejek
+money	pl	byn	123.45	Sto Dwadzieścia Trzy ruble białoruskie Czterdzieści Pięć kopiejek
+money	pl	ars	0	
+money	pl	ars	0.01	
+money	pl	ars	0.02	
+money	pl	ars	1	
+money	pl	ars	1.01	
+money	pl	ars	1.02	
+money	pl	ars	2	
+money	pl	ars	2.02	
+money	pl	ars	3	
+money	pl	ars	5	
+money	pl	ars	11	
+money	pl	ars	21	
+money	pl	ars	22	
+money	pl	ars	42	
+money	pl	ars	100	
+money	pl	ars	101	
+money	pl	ars	121	
+money	pl	ars	999	
+money	pl	ars	1000	
+money	pl	ars	1001	
+money	pl	ars	2000	
+money	pl	ars	2001	
+money	pl	ars	5000	
+money	pl	ars	21000	
+money	pl	ars	22000	
+money	pl	ars	41000	
+money	pl	ars	42000	
+money	pl	ars	100000	
+money	pl	ars	1000000	
+money	pl	ars	2000000	
+money	pl	ars	1000000000	
+money	pl	ars	123.45	
+money	pl	brl	0	
+money	pl	brl	0.01	
+money	pl	brl	0.02	
+money	pl	brl	1	
+money	pl	brl	1.01	
+money	pl	brl	1.02	
+money	pl	brl	2	
+money	pl	brl	2.02	
+money	pl	brl	3	
+money	pl	brl	5	
+money	pl	brl	11	
+money	pl	brl	21	
+money	pl	brl	22	
+money	pl	brl	42	
+money	pl	brl	100	
+money	pl	brl	101	
+money	pl	brl	121	
+money	pl	brl	999	
+money	pl	brl	1000	
+money	pl	brl	1001	
+money	pl	brl	2000	
+money	pl	brl	2001	
+money	pl	brl	5000	
+money	pl	brl	21000	
+money	pl	brl	22000	
+money	pl	brl	41000	
+money	pl	brl	42000	
+money	pl	brl	100000	
+money	pl	brl	1000000	
+money	pl	brl	2000000	
+money	pl	brl	1000000000	
+money	pl	brl	123.45	
+plain	am	0	ዜሮ
+plain	am	1	አንድ
+plain	am	2	ሁለት
+plain	am	3	ሶስት
+plain	am	5	አምስት
+plain	am	11	አስራ አንድ
+plain	am	15	አስራ አምስት
+plain	am	20	ሀያ
+plain	am	21	ሀያ አንድ
+plain	am	22	ሀያ ሁለት
+plain	am	42	አርባ ሁለት
+plain	am	100	አንድ መቶ
+plain	am	101	አንድ መቶ አንድ
+plain	am	121	አንድ መቶ ሀያ አንድ
+plain	am	200	ሁለት መቶ
+plain	am	999	ዘጠኝ መቶ ዘጠና ዘጠኝ
+plain	am	1000	አንድ ሺህ
+plain	am	1001	አንድ ሺህ አንድ
+plain	am	2000	ሁለት ሺህ
+plain	am	5000	አምስት ሺህ
+plain	am	21000	ሀያ አንድ ሺህ
+plain	am	41000	አርባ አንድ ሺህ
+plain	am	100000	አንድ መቶ ሺህ
+plain	am	1000000	አንድ ሚሊዮን
+plain	am	2000000	ሁለት ሚሊዮን
+plain	am	999999999	ዘጠኝ መቶ ዘጠና ዘጠኝ ሚሊዮን ዘጠኝ መቶ ዘጠና ዘጠኝ ሺህ ዘጠኝ መቶ ዘጠና ዘጠኝ
+money	am	eur	0	ዜሮ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	0.01	ዜሮ ዩሮ ከ አንድ ሳንቲም
+money	am	eur	0.02	ዜሮ ዩሮ ከ ሁለት ሳንቲም
+money	am	eur	1	አንድ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	1.01	አንድ ዩሮ ከ አንድ ሳንቲም
+money	am	eur	1.02	አንድ ዩሮ ከ ሁለት ሳንቲም
+money	am	eur	2	ሁለት ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	2.02	ሁለት ዩሮ ከ ሁለት ሳንቲም
+money	am	eur	3	ሶስት ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	5	አምስት ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	11	አስራ አንድ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	21	ሀያ አንድ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	22	ሀያ ሁለት ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	42	አርባ ሁለት ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	100	አንድ መቶ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	101	አንድ መቶ አንድ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	121	አንድ መቶ ሀያ አንድ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	999	ዘጠኝ መቶ ዘጠና ዘጠኝ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	1000	አንድ ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	1001	አንድ ሺህ አንድ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	2000	ሁለት ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	2001	ሁለት ሺህ አንድ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	5000	አምስት ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	21000	ሀያ አንድ ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	22000	ሀያ ሁለት ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	41000	አርባ አንድ ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	42000	አርባ ሁለት ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	100000	አንድ መቶ ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	1000000	አንድ ሚሊዮን ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	2000000	ሁለት ሚሊዮን ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	1000000000	አንድ ቢሊዮን ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	123.45	አንድ መቶ ሀያ ሶስት ዩሮ ከ አርባ አምስት ሳንቲም
+money	am	usd	0	ዜሮ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	0.01	ዜሮ ዶላር ከ አንድ ሳንቲም
+money	am	usd	0.02	ዜሮ ዶላር ከ ሁለት ሳንቲም
+money	am	usd	1	አንድ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	1.01	አንድ ዶላር ከ አንድ ሳንቲም
+money	am	usd	1.02	አንድ ዶላር ከ ሁለት ሳንቲም
+money	am	usd	2	ሁለት ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	2.02	ሁለት ዶላር ከ ሁለት ሳንቲም
+money	am	usd	3	ሶስት ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	5	አምስት ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	11	አስራ አንድ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	21	ሀያ አንድ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	22	ሀያ ሁለት ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	42	አርባ ሁለት ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	100	አንድ መቶ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	101	አንድ መቶ አንድ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	121	አንድ መቶ ሀያ አንድ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	999	ዘጠኝ መቶ ዘጠና ዘጠኝ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	1000	አንድ ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	1001	አንድ ሺህ አንድ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	2000	ሁለት ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	2001	ሁለት ሺህ አንድ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	5000	አምስት ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	21000	ሀያ አንድ ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	22000	ሀያ ሁለት ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	41000	አርባ አንድ ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	42000	አርባ ሁለት ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	100000	አንድ መቶ ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	1000000	አንድ ሚሊዮን ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	2000000	ሁለት ሚሊዮን ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	1000000000	አንድ ቢሊዮን ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	123.45	አንድ መቶ ሀያ ሶስት ዶላር ከ አርባ አምስት ሳንቲም
+money	am	rub	0	ዜሮ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	0.01	ዜሮ የራሺያ ሩብል ከ አንድ ሳንቲም
+money	am	rub	0.02	ዜሮ የራሺያ ሩብል ከ ሁለት ሳንቲም
+money	am	rub	1	አንድ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	1.01	አንድ የራሺያ ሩብል ከ አንድ ሳንቲም
+money	am	rub	1.02	አንድ የራሺያ ሩብል ከ ሁለት ሳንቲም
+money	am	rub	2	ሁለት የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	2.02	ሁለት የራሺያ ሩብል ከ ሁለት ሳንቲም
+money	am	rub	3	ሶስት የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	5	አምስት የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	11	አስራ አንድ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	21	ሀያ አንድ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	22	ሀያ ሁለት የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	42	አርባ ሁለት የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	100	አንድ መቶ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	101	አንድ መቶ አንድ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	121	አንድ መቶ ሀያ አንድ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	999	ዘጠኝ መቶ ዘጠና ዘጠኝ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	1000	አንድ ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	1001	አንድ ሺህ አንድ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	2000	ሁለት ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	2001	ሁለት ሺህ አንድ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	5000	አምስት ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	21000	ሀያ አንድ ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	22000	ሀያ ሁለት ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	41000	አርባ አንድ ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	42000	አርባ ሁለት ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	100000	አንድ መቶ ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	1000000	አንድ ሚሊዮን የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	2000000	ሁለት ሚሊዮን የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	1000000000	አንድ ቢሊዮን የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	123.45	አንድ መቶ ሀያ ሶስት የራሺያ ሩብል ከ አርባ አምስት ሳንቲም
+money	am	try	0	ዜሮ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	0.01	ዜሮ የቱርክ ሊራ ከ አንድ ሳንቲም
+money	am	try	0.02	ዜሮ የቱርክ ሊራ ከ ሁለት ሳንቲም
+money	am	try	1	አንድ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	1.01	አንድ የቱርክ ሊራ ከ አንድ ሳንቲም
+money	am	try	1.02	አንድ የቱርክ ሊራ ከ ሁለት ሳንቲም
+money	am	try	2	ሁለት የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	2.02	ሁለት የቱርክ ሊራ ከ ሁለት ሳንቲም
+money	am	try	3	ሶስት የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	5	አምስት የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	11	አስራ አንድ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	21	ሀያ አንድ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	22	ሀያ ሁለት የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	42	አርባ ሁለት የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	100	አንድ መቶ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	101	አንድ መቶ አንድ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	121	አንድ መቶ ሀያ አንድ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	999	ዘጠኝ መቶ ዘጠና ዘጠኝ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	1000	አንድ ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	1001	አንድ ሺህ አንድ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	2000	ሁለት ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	2001	ሁለት ሺህ አንድ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	5000	አምስት ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	21000	ሀያ አንድ ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	22000	ሀያ ሁለት ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	41000	አርባ አንድ ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	42000	አርባ ሁለት ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	100000	አንድ መቶ ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	1000000	አንድ ሚሊዮን የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	2000000	ሁለት ሚሊዮን የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	1000000000	አንድ ቢሊዮን የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	123.45	አንድ መቶ ሀያ ሶስት የቱርክ ሊራ ከ አርባ አምስት ሳንቲም
+money	am	uah	0	ዜሮ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	0.01	ዜሮ የዩክሬን ሀሪይቭኒአ ከ አንድ ሳንቲም
+money	am	uah	0.02	ዜሮ የዩክሬን ሀሪይቭኒአ ከ ሁለት ሳንቲም
+money	am	uah	1	አንድ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	1.01	አንድ የዩክሬን ሀሪይቭኒአ ከ አንድ ሳንቲም
+money	am	uah	1.02	አንድ የዩክሬን ሀሪይቭኒአ ከ ሁለት ሳንቲም
+money	am	uah	2	ሁለት የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	2.02	ሁለት የዩክሬን ሀሪይቭኒአ ከ ሁለት ሳንቲም
+money	am	uah	3	ሶስት የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	5	አምስት የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	11	አስራ አንድ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	21	ሀያ አንድ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	22	ሀያ ሁለት የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	42	አርባ ሁለት የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	100	አንድ መቶ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	101	አንድ መቶ አንድ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	121	አንድ መቶ ሀያ አንድ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	999	ዘጠኝ መቶ ዘጠና ዘጠኝ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	1000	አንድ ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	1001	አንድ ሺህ አንድ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	2000	ሁለት ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	2001	ሁለት ሺህ አንድ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	5000	አምስት ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	21000	ሀያ አንድ ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	22000	ሀያ ሁለት ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	41000	አርባ አንድ ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	42000	አርባ ሁለት ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	100000	አንድ መቶ ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	1000000	አንድ ሚሊዮን የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	2000000	ሁለት ሚሊዮን የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	1000000000	አንድ ቢሊዮን የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	123.45	አንድ መቶ ሀያ ሶስት የዩክሬን ሀሪይቭኒአ ከ አርባ አምስት ሳንቲም
+money	am	bgn	0	ዜሮ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	0.01	ዜሮ የቡልጋሪያ ሌቭ ከ አንድ ሳንቲም
+money	am	bgn	0.02	ዜሮ የቡልጋሪያ ሌቭ ከ ሁለት ሳንቲም
+money	am	bgn	1	አንድ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	1.01	አንድ የቡልጋሪያ ሌቭ ከ አንድ ሳንቲም
+money	am	bgn	1.02	አንድ የቡልጋሪያ ሌቭ ከ ሁለት ሳንቲም
+money	am	bgn	2	ሁለት የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	2.02	ሁለት የቡልጋሪያ ሌቭ ከ ሁለት ሳንቲም
+money	am	bgn	3	ሶስት የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	5	አምስት የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	11	አስራ አንድ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	21	ሀያ አንድ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	22	ሀያ ሁለት የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	42	አርባ ሁለት የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	100	አንድ መቶ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	101	አንድ መቶ አንድ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	121	አንድ መቶ ሀያ አንድ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	999	ዘጠኝ መቶ ዘጠና ዘጠኝ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	1000	አንድ ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	1001	አንድ ሺህ አንድ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	2000	ሁለት ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	2001	ሁለት ሺህ አንድ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	5000	አምስት ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	21000	ሀያ አንድ ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	22000	ሀያ ሁለት ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	41000	አርባ አንድ ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	42000	አርባ ሁለት ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	100000	አንድ መቶ ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	1000000	አንድ ሚሊዮን የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	2000000	ሁለት ሚሊዮን የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	1000000000	አንድ ቢሊዮን የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	123.45	አንድ መቶ ሀያ ሶስት የቡልጋሪያ ሌቭ ከ አርባ አምስት ሳንቲም
+money	am	etb	0	ዜሮ ብር ከ ዜሮ ሳንቲም
+money	am	etb	0.01	ዜሮ ብር ከ አንድ ሳንቲም
+money	am	etb	0.02	ዜሮ ብር ከ ሁለት ሳንቲም
+money	am	etb	1	አንድ ብር ከ ዜሮ ሳንቲም
+money	am	etb	1.01	አንድ ብር ከ አንድ ሳንቲም
+money	am	etb	1.02	አንድ ብር ከ ሁለት ሳንቲም
+money	am	etb	2	ሁለት ብር ከ ዜሮ ሳንቲም
+money	am	etb	2.02	ሁለት ብር ከ ሁለት ሳንቲም
+money	am	etb	3	ሶስት ብር ከ ዜሮ ሳንቲም
+money	am	etb	5	አምስት ብር ከ ዜሮ ሳንቲም
+money	am	etb	11	አስራ አንድ ብር ከ ዜሮ ሳንቲም
+money	am	etb	21	ሀያ አንድ ብር ከ ዜሮ ሳንቲም
+money	am	etb	22	ሀያ ሁለት ብር ከ ዜሮ ሳንቲም
+money	am	etb	42	አርባ ሁለት ብር ከ ዜሮ ሳንቲም
+money	am	etb	100	አንድ መቶ ብር ከ ዜሮ ሳንቲም
+money	am	etb	101	አንድ መቶ አንድ ብር ከ ዜሮ ሳንቲም
+money	am	etb	121	አንድ መቶ ሀያ አንድ ብር ከ ዜሮ ሳንቲም
+money	am	etb	999	ዘጠኝ መቶ ዘጠና ዘጠኝ ብር ከ ዜሮ ሳንቲም
+money	am	etb	1000	አንድ ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	1001	አንድ ሺህ አንድ ብር ከ ዜሮ ሳንቲም
+money	am	etb	2000	ሁለት ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	2001	ሁለት ሺህ አንድ ብር ከ ዜሮ ሳንቲም
+money	am	etb	5000	አምስት ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	21000	ሀያ አንድ ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	22000	ሀያ ሁለት ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	41000	አርባ አንድ ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	42000	አርባ ሁለት ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	100000	አንድ መቶ ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	1000000	አንድ ሚሊዮን ብር ከ ዜሮ ሳንቲም
+money	am	etb	2000000	ሁለት ሚሊዮን ብር ከ ዜሮ ሳንቲም
+money	am	etb	1000000000	አንድ ቢሊዮን ብር ከ ዜሮ ሳንቲም
+money	am	etb	123.45	አንድ መቶ ሀያ ሶስት ብር ከ አርባ አምስት ሳንቲም
+money	am	pln	0	ዜሮ ??? ከ ዜሮ ???
+money	am	pln	0.01	ዜሮ ??? ከ አንድ ???
+money	am	pln	0.02	ዜሮ ??? ከ ሁለት ???
+money	am	pln	1	አንድ ??? ከ ዜሮ ???
+money	am	pln	1.01	አንድ ??? ከ አንድ ???
+money	am	pln	1.02	አንድ ??? ከ ሁለት ???
+money	am	pln	2	ሁለት ??? ከ ዜሮ ???
+money	am	pln	2.02	ሁለት ??? ከ ሁለት ???
+money	am	pln	3	ሶስት ??? ከ ዜሮ ???
+money	am	pln	5	አምስት ??? ከ ዜሮ ???
+money	am	pln	11	አስራ አንድ ??? ከ ዜሮ ???
+money	am	pln	21	ሀያ አንድ ??? ከ ዜሮ ???
+money	am	pln	22	ሀያ ሁለት ??? ከ ዜሮ ???
+money	am	pln	42	አርባ ሁለት ??? ከ ዜሮ ???
+money	am	pln	100	አንድ መቶ ??? ከ ዜሮ ???
+money	am	pln	101	አንድ መቶ አንድ ??? ከ ዜሮ ???
+money	am	pln	121	አንድ መቶ ሀያ አንድ ??? ከ ዜሮ ???
+money	am	pln	999	ዘጠኝ መቶ ዘጠና ዘጠኝ ??? ከ ዜሮ ???
+money	am	pln	1000	አንድ ሺህ ??? ከ ዜሮ ???
+money	am	pln	1001	አንድ ሺህ አንድ ??? ከ ዜሮ ???
+money	am	pln	2000	ሁለት ሺህ ??? ከ ዜሮ ???
+money	am	pln	2001	ሁለት ሺህ አንድ ??? ከ ዜሮ ???
+money	am	pln	5000	አምስት ሺህ ??? ከ ዜሮ ???
+money	am	pln	21000	ሀያ አንድ ሺህ ??? ከ ዜሮ ???
+money	am	pln	22000	ሀያ ሁለት ሺህ ??? ከ ዜሮ ???
+money	am	pln	41000	አርባ አንድ ሺህ ??? ከ ዜሮ ???
+money	am	pln	42000	አርባ ሁለት ሺህ ??? ከ ዜሮ ???
+money	am	pln	100000	አንድ መቶ ሺህ ??? ከ ዜሮ ???
+money	am	pln	1000000	አንድ ሚሊዮን ??? ከ ዜሮ ???
+money	am	pln	2000000	ሁለት ሚሊዮን ??? ከ ዜሮ ???
+money	am	pln	1000000000	አንድ ቢሊዮን ??? ከ ዜሮ ???
+money	am	pln	123.45	አንድ መቶ ሀያ ሶስት ??? ከ አርባ አምስት ???
+money	am	byn	0	ዜሮ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	0.01	ዜሮ የቤላሩስ ሩብል ከ አንድ ሳንቲም
+money	am	byn	0.02	ዜሮ የቤላሩስ ሩብል ከ ሁለት ሳንቲም
+money	am	byn	1	አንድ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	1.01	አንድ የቤላሩስ ሩብል ከ አንድ ሳንቲም
+money	am	byn	1.02	አንድ የቤላሩስ ሩብል ከ ሁለት ሳንቲም
+money	am	byn	2	ሁለት የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	2.02	ሁለት የቤላሩስ ሩብል ከ ሁለት ሳንቲም
+money	am	byn	3	ሶስት የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	5	አምስት የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	11	አስራ አንድ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	21	ሀያ አንድ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	22	ሀያ ሁለት የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	42	አርባ ሁለት የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	100	አንድ መቶ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	101	አንድ መቶ አንድ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	121	አንድ መቶ ሀያ አንድ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	999	ዘጠኝ መቶ ዘጠና ዘጠኝ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	1000	አንድ ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	1001	አንድ ሺህ አንድ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	2000	ሁለት ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	2001	ሁለት ሺህ አንድ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	5000	አምስት ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	21000	ሀያ አንድ ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	22000	ሀያ ሁለት ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	41000	አርባ አንድ ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	42000	አርባ ሁለት ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	100000	አንድ መቶ ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	1000000	አንድ ሚሊዮን የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	2000000	ሁለት ሚሊዮን የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	1000000000	አንድ ቢሊዮን የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	123.45	አንድ መቶ ሀያ ሶስት የቤላሩስ ሩብል ከ አርባ አምስት ሳንቲም
+money	am	ars	0	
+money	am	ars	0.01	
+money	am	ars	0.02	
+money	am	ars	1	
+money	am	ars	1.01	
+money	am	ars	1.02	
+money	am	ars	2	
+money	am	ars	2.02	
+money	am	ars	3	
+money	am	ars	5	
+money	am	ars	11	
+money	am	ars	21	
+money	am	ars	22	
+money	am	ars	42	
+money	am	ars	100	
+money	am	ars	101	
+money	am	ars	121	
+money	am	ars	999	
+money	am	ars	1000	
+money	am	ars	1001	
+money	am	ars	2000	
+money	am	ars	2001	
+money	am	ars	5000	
+money	am	ars	21000	
+money	am	ars	22000	
+money	am	ars	41000	
+money	am	ars	42000	
+money	am	ars	100000	
+money	am	ars	1000000	
+money	am	ars	2000000	
+money	am	ars	1000000000	
+money	am	ars	123.45	
+money	am	brl	0	
+money	am	brl	0.01	
+money	am	brl	0.02	
+money	am	brl	1	
+money	am	brl	1.01	
+money	am	brl	1.02	
+money	am	brl	2	
+money	am	brl	2.02	
+money	am	brl	3	
+money	am	brl	5	
+money	am	brl	11	
+money	am	brl	21	
+money	am	brl	22	
+money	am	brl	42	
+money	am	brl	100	
+money	am	brl	101	
+money	am	brl	121	
+money	am	brl	999	
+money	am	brl	1000	
+money	am	brl	1001	
+money	am	brl	2000	
+money	am	brl	2001	
+money	am	brl	5000	
+money	am	brl	21000	
+money	am	brl	22000	
+money	am	brl	41000	
+money	am	brl	42000	
+money	am	brl	100000	
+money	am	brl	1000000	
+money	am	brl	2000000	
+money	am	brl	1000000000	
+money	am	brl	123.45	
