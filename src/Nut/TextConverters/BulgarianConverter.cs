@@ -158,24 +158,6 @@ namespace Nut.TextConverters
             else base.AppendUnitsForAdditional(num, builder);
         }
 
-        private byte GetTextType(long num)
-        {
-            const int femmeMinBaseScale = 2;
-            const int pluralMinBaseScale = 5;
-
-            var baseUnitNumber = num % 10;
-            var baseTens = num % 100;
-
-            if (baseTens < 10 || baseTens > 20)
-            {
-                if (baseUnitNumber == 1)
-                    return 0;
-                if (baseUnitNumber >= femmeMinBaseScale && baseUnitNumber < pluralMinBaseScale)
-                    return 1;
-            }
-            return 0;
-        }
-
         private void Initialize()
         {
             NumberTexts.Add(0, new[] { "нула" });
