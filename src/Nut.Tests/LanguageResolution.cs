@@ -13,7 +13,7 @@ namespace Nut.Tests
         [TestCase(Culture.EnglishUS, "one hundred one")]
         [TestCase(Culture.EnglishGB, "one hundred one")]
         [TestCase(Culture.French, "cent un")]
-        [TestCase(Culture.GermanDE, "ein hundert ein")]
+        [TestCase(Culture.GermanDE, "einhunderteins")]
         [TestCase(Culture.Spanish, "ciento uno")]
         [TestCase(Culture.PortugueseBR, "cento e um")]
         [TestCase(Culture.Turkish, "yüz bir")]

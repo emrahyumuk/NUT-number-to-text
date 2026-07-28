@@ -19,10 +19,29 @@ namespace Nut.TextConverters
             Initialize();
         }
 
+        // Set only on the short-lived per-conversion instance used for money.
+        private readonly bool _beforeNoun;
+
+        private GermanConverter(GermanConverter template, bool beforeNoun) : base(template)
+        {
+            _beforeNoun = beforeNoun;
+        }
+
+        /// <summary>
+        /// A currency name is a noun, and German uses "ein" before a noun where a bare
+        /// number ends in "eins": "ein Euro", but "eins" on its own.
+        /// </summary>
+        protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+        {
+            return new GermanConverter(this, true).ToText(num);
+        }
+
         private void Initialize()
         {
             NumberTexts.Add(0, new[] { "null" });
-            NumberTexts.Add(1, new[] { "ein" });
+            // [0] standing alone or ending a number, [1] inside a compound:
+            // "eins", but "einundzwanzig" and "einhundert".
+            NumberTexts.Add(1, new[] { "eins", "ein" });
             NumberTexts.Add(2, new[] { "zwei" });
             NumberTexts.Add(3, new[] { "drei" });
             NumberTexts.Add(4, new[] { "vier" });
@@ -125,19 +144,37 @@ namespace Nut.TextConverters
             return null;
         }
 
+        /// <summary>
+        /// Duden: numbers below a million are written as one closed-up word, and only from
+        /// a million upwards are the parts separated — "einhundertzwanzigtausend", but
+        /// "zwei Millionen einhundertzwanzigtausendvierhundertneunzehn".
+        /// </summary>
         protected override long Append(long num, long scale, StringBuilder builder)
         {
-            if (num < 0)
-            {
-                builder.AppendFormat("minus ");
-                num = -num;
-            }
             if (num > scale - 1)
             {
                 var baseScale = num / scale;
-                if (baseScale != 1)
-                    AppendLessThanOneThousand(baseScale, builder);
-                builder.AppendFormat("{0} ", baseScale == 1 ? ScaleTexts[scale][1] : ScaleTexts[scale][0]);
+                if (scale >= 1000000)
+                {
+                    if (baseScale != 1)
+                    {
+                        AppendLessThanOneThousand(baseScale, builder);
+                        builder.Append(" ");
+                    }
+                    builder.AppendFormat("{0} ", baseScale == 1 ? ScaleTexts[scale][1] : ScaleTexts[scale][0]);
+                }
+                else
+                {
+                    if (baseScale == 1)
+                    {
+                        builder.Append(ScaleTexts[scale][1]);
+                    }
+                    else
+                    {
+                        AppendLessThanOneThousand(baseScale, builder);
+                        builder.Append(ScaleTexts[scale][0]);
+                    }
+                }
                 num = num - (baseScale * scale);
             }
             return num;
@@ -155,12 +192,43 @@ namespace Nut.TextConverters
                 var units = num % 10;
                 if (units > 0)
                 {
-                    builder.AppendFormat("{0}und", NumberTexts[units][0]);
+                    builder.AppendFormat("{0}und", NumberTexts[units][units == 1 ? 1 : 0]);
                 }
 
                 AppendTens(num, builder);
             }
 
+        }
+
+        protected override long AppendHundreds(long num, StringBuilder builder)
+        {
+            if (num > 99)
+            {
+                var hundreds = num / 100;
+                builder.Append(NumberTexts[hundreds][hundreds == 1 ? 1 : 0]);
+                builder.Append(NumberTexts[100][0]);
+                num = num - (hundreds * 100);
+            }
+            return num;
+        }
+
+        protected override long AppendTens(long num, StringBuilder builder)
+        {
+            if (num > 20)
+            {
+                var tens = num / 10 * 10;
+                builder.Append(NumberTexts[tens][0]);
+                num = num - tens;
+            }
+            return num;
+        }
+
+        protected override void AppendUnits(long num, StringBuilder builder)
+        {
+            if (num > 0)
+            {
+                builder.Append(NumberTexts[num][_beforeNoun && num == 1 ? 1 : 0]);
+            }
         }
     }
 }

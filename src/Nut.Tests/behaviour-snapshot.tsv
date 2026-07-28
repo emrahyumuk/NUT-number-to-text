@@ -919,7 +919,7 @@ money	fr	brl	1.999
 money	fr	brl	123.456	
 money	fr	brl	1.005	
 plain	de	0	null
-plain	de	1	ein
+plain	de	1	eins
 plain	de	2	zwei
 plain	de	3	drei
 plain	de	5	fünf
@@ -929,22 +929,22 @@ plain	de	20	zwanzig
 plain	de	21	einundzwanzig
 plain	de	22	zweiundzwanzig
 plain	de	42	zweiundvierzig
-plain	de	100	ein hundert
-plain	de	101	ein hundert ein
-plain	de	121	ein hundert einundzwanzig
-plain	de	200	zwei hundert
-plain	de	999	neun hundert neunundneunzig
+plain	de	100	einhundert
+plain	de	101	einhunderteins
+plain	de	121	einhunderteinundzwanzig
+plain	de	200	zweihundert
+plain	de	999	neunhundertneunundneunzig
 plain	de	1000	eintausend
-plain	de	1001	eintausend ein
-plain	de	2000	zwei tausend
-plain	de	5000	fünf tausend
-plain	de	21000	einundzwanzig tausend
-plain	de	41000	einundvierzig tausend
-plain	de	100000	ein hundert tausend
+plain	de	1001	eintausendeins
+plain	de	2000	zweitausend
+plain	de	5000	fünftausend
+plain	de	21000	einundzwanzigtausend
+plain	de	41000	einundvierzigtausend
+plain	de	100000	einhunderttausend
 plain	de	1000000	eine Million
 plain	de	2000000	zwei Millionen
-plain	de	999999999	neun hundert neunundneunzig Millionen neun hundert neunundneunzig tausend neun hundert neunundneunzig
-plain	de	-1	minus ein
+plain	de	999999999	neunhundertneunundneunzig Millionen neunhundertneunundneunzigtausendneunhundertneunundneunzig
+plain	de	-1	minus eins
 plain	de	-2	minus zwei
 plain	de	-41	minus einundvierzig
 plain	de	-1000	minus eintausend
@@ -963,30 +963,30 @@ money	de	eur	11	elf Euro null Cent
 money	de	eur	21	einundzwanzig Euro null Cent
 money	de	eur	22	zweiundzwanzig Euro null Cent
 money	de	eur	42	zweiundvierzig Euro null Cent
-money	de	eur	100	ein hundert Euro null Cent
-money	de	eur	101	ein hundert ein Euro null Cent
-money	de	eur	121	ein hundert einundzwanzig Euro null Cent
-money	de	eur	999	neun hundert neunundneunzig Euro null Cent
+money	de	eur	100	einhundert Euro null Cent
+money	de	eur	101	einhundertein Euro null Cent
+money	de	eur	121	einhunderteinundzwanzig Euro null Cent
+money	de	eur	999	neunhundertneunundneunzig Euro null Cent
 money	de	eur	1000	eintausend Euro null Cent
-money	de	eur	1001	eintausend ein Euro null Cent
-money	de	eur	2000	zwei tausend Euro null Cent
-money	de	eur	2001	zwei tausend ein Euro null Cent
-money	de	eur	5000	fünf tausend Euro null Cent
-money	de	eur	21000	einundzwanzig tausend Euro null Cent
-money	de	eur	22000	zweiundzwanzig tausend Euro null Cent
-money	de	eur	41000	einundvierzig tausend Euro null Cent
-money	de	eur	42000	zweiundvierzig tausend Euro null Cent
-money	de	eur	100000	ein hundert tausend Euro null Cent
+money	de	eur	1001	eintausendein Euro null Cent
+money	de	eur	2000	zweitausend Euro null Cent
+money	de	eur	2001	zweitausendein Euro null Cent
+money	de	eur	5000	fünftausend Euro null Cent
+money	de	eur	21000	einundzwanzigtausend Euro null Cent
+money	de	eur	22000	zweiundzwanzigtausend Euro null Cent
+money	de	eur	41000	einundvierzigtausend Euro null Cent
+money	de	eur	42000	zweiundvierzigtausend Euro null Cent
+money	de	eur	100000	einhunderttausend Euro null Cent
 money	de	eur	1000000	eine Million Euro null Cent
 money	de	eur	2000000	zwei Millionen Euro null Cent
 money	de	eur	1000000000	eine Milliarde Euro null Cent
-money	de	eur	123.45	ein hundert dreiundzwanzig Euro fünfundvierzig Cent
+money	de	eur	123.45	einhundertdreiundzwanzig Euro fünfundvierzig Cent
 money	de	eur	-1	minus ein Euro null Cent
 money	de	eur	-2	minus zwei Euro null Cent
 money	de	eur	-41.5	minus einundvierzig Euro fünfzig Cent
 money	de	eur	-1000	minus eintausend Euro null Cent
 money	de	eur	1.999	zwei Euro null Cent
-money	de	eur	123.456	ein hundert dreiundzwanzig Euro sechsundvierzig Cent
+money	de	eur	123.456	einhundertdreiundzwanzig Euro sechsundvierzig Cent
 money	de	eur	1.005	ein Euro ein Cent
 money	de	usd	0	null Dollar null Cent
 money	de	usd	0.01	null Dollar ein Cent
@@ -1002,30 +1002,30 @@ money	de	usd	11	elf Dollar null Cent
 money	de	usd	21	einundzwanzig Dollar null Cent
 money	de	usd	22	zweiundzwanzig Dollar null Cent
 money	de	usd	42	zweiundvierzig Dollar null Cent
-money	de	usd	100	ein hundert Dollar null Cent
-money	de	usd	101	ein hundert ein Dollar null Cent
-money	de	usd	121	ein hundert einundzwanzig Dollar null Cent
-money	de	usd	999	neun hundert neunundneunzig Dollar null Cent
+money	de	usd	100	einhundert Dollar null Cent
+money	de	usd	101	einhundertein Dollar null Cent
+money	de	usd	121	einhunderteinundzwanzig Dollar null Cent
+money	de	usd	999	neunhundertneunundneunzig Dollar null Cent
 money	de	usd	1000	eintausend Dollar null Cent
-money	de	usd	1001	eintausend ein Dollar null Cent
-money	de	usd	2000	zwei tausend Dollar null Cent
-money	de	usd	2001	zwei tausend ein Dollar null Cent
-money	de	usd	5000	fünf tausend Dollar null Cent
-money	de	usd	21000	einundzwanzig tausend Dollar null Cent
-money	de	usd	22000	zweiundzwanzig tausend Dollar null Cent
-money	de	usd	41000	einundvierzig tausend Dollar null Cent
-money	de	usd	42000	zweiundvierzig tausend Dollar null Cent
-money	de	usd	100000	ein hundert tausend Dollar null Cent
+money	de	usd	1001	eintausendein Dollar null Cent
+money	de	usd	2000	zweitausend Dollar null Cent
+money	de	usd	2001	zweitausendein Dollar null Cent
+money	de	usd	5000	fünftausend Dollar null Cent
+money	de	usd	21000	einundzwanzigtausend Dollar null Cent
+money	de	usd	22000	zweiundzwanzigtausend Dollar null Cent
+money	de	usd	41000	einundvierzigtausend Dollar null Cent
+money	de	usd	42000	zweiundvierzigtausend Dollar null Cent
+money	de	usd	100000	einhunderttausend Dollar null Cent
 money	de	usd	1000000	eine Million Dollar null Cent
 money	de	usd	2000000	zwei Millionen Dollar null Cent
 money	de	usd	1000000000	eine Milliarde Dollar null Cent
-money	de	usd	123.45	ein hundert dreiundzwanzig Dollar fünfundvierzig Cent
+money	de	usd	123.45	einhundertdreiundzwanzig Dollar fünfundvierzig Cent
 money	de	usd	-1	minus ein Dollar null Cent
 money	de	usd	-2	minus zwei Dollar null Cent
 money	de	usd	-41.5	minus einundvierzig Dollar fünfzig Cent
 money	de	usd	-1000	minus eintausend Dollar null Cent
 money	de	usd	1.999	zwei Dollar null Cent
-money	de	usd	123.456	ein hundert dreiundzwanzig Dollar sechsundvierzig Cent
+money	de	usd	123.456	einhundertdreiundzwanzig Dollar sechsundvierzig Cent
 money	de	usd	1.005	ein Dollar ein Cent
 money	de	rub	0	null Rubel null Kopeke
 money	de	rub	0.01	null Rubel ein Kopeke
@@ -1041,30 +1041,30 @@ money	de	rub	11	elf Rubel null Kopeke
 money	de	rub	21	einundzwanzig Rubel null Kopeke
 money	de	rub	22	zweiundzwanzig Rubel null Kopeke
 money	de	rub	42	zweiundvierzig Rubel null Kopeke
-money	de	rub	100	ein hundert Rubel null Kopeke
-money	de	rub	101	ein hundert ein Rubel null Kopeke
-money	de	rub	121	ein hundert einundzwanzig Rubel null Kopeke
-money	de	rub	999	neun hundert neunundneunzig Rubel null Kopeke
+money	de	rub	100	einhundert Rubel null Kopeke
+money	de	rub	101	einhundertein Rubel null Kopeke
+money	de	rub	121	einhunderteinundzwanzig Rubel null Kopeke
+money	de	rub	999	neunhundertneunundneunzig Rubel null Kopeke
 money	de	rub	1000	eintausend Rubel null Kopeke
-money	de	rub	1001	eintausend ein Rubel null Kopeke
-money	de	rub	2000	zwei tausend Rubel null Kopeke
-money	de	rub	2001	zwei tausend ein Rubel null Kopeke
-money	de	rub	5000	fünf tausend Rubel null Kopeke
-money	de	rub	21000	einundzwanzig tausend Rubel null Kopeke
-money	de	rub	22000	zweiundzwanzig tausend Rubel null Kopeke
-money	de	rub	41000	einundvierzig tausend Rubel null Kopeke
-money	de	rub	42000	zweiundvierzig tausend Rubel null Kopeke
-money	de	rub	100000	ein hundert tausend Rubel null Kopeke
+money	de	rub	1001	eintausendein Rubel null Kopeke
+money	de	rub	2000	zweitausend Rubel null Kopeke
+money	de	rub	2001	zweitausendein Rubel null Kopeke
+money	de	rub	5000	fünftausend Rubel null Kopeke
+money	de	rub	21000	einundzwanzigtausend Rubel null Kopeke
+money	de	rub	22000	zweiundzwanzigtausend Rubel null Kopeke
+money	de	rub	41000	einundvierzigtausend Rubel null Kopeke
+money	de	rub	42000	zweiundvierzigtausend Rubel null Kopeke
+money	de	rub	100000	einhunderttausend Rubel null Kopeke
 money	de	rub	1000000	eine Million Rubel null Kopeke
 money	de	rub	2000000	zwei Millionen Rubel null Kopeke
 money	de	rub	1000000000	eine Milliarde Rubel null Kopeke
-money	de	rub	123.45	ein hundert dreiundzwanzig Rubel fünfundvierzig Kopeken
+money	de	rub	123.45	einhundertdreiundzwanzig Rubel fünfundvierzig Kopeken
 money	de	rub	-1	minus ein Rubel null Kopeke
 money	de	rub	-2	minus zwei Rubel null Kopeke
 money	de	rub	-41.5	minus einundvierzig Rubel fünfzig Kopeken
 money	de	rub	-1000	minus eintausend Rubel null Kopeke
 money	de	rub	1.999	zwei Rubel null Kopeke
-money	de	rub	123.456	ein hundert dreiundzwanzig Rubel sechsundvierzig Kopeken
+money	de	rub	123.456	einhundertdreiundzwanzig Rubel sechsundvierzig Kopeken
 money	de	rub	1.005	ein Rubel ein Kopeke
 money	de	try	0	null türkische Lire null Kurus
 money	de	try	0.01	null türkische Lire ein Kurus
@@ -1080,30 +1080,30 @@ money	de	try	11	elf türkische Lire null Kurus
 money	de	try	21	einundzwanzig türkische Lire null Kurus
 money	de	try	22	zweiundzwanzig türkische Lire null Kurus
 money	de	try	42	zweiundvierzig türkische Lire null Kurus
-money	de	try	100	ein hundert türkische Lire null Kurus
-money	de	try	101	ein hundert ein türkische Lire null Kurus
-money	de	try	121	ein hundert einundzwanzig türkische Lire null Kurus
-money	de	try	999	neun hundert neunundneunzig türkische Lire null Kurus
+money	de	try	100	einhundert türkische Lire null Kurus
+money	de	try	101	einhundertein türkische Lire null Kurus
+money	de	try	121	einhunderteinundzwanzig türkische Lire null Kurus
+money	de	try	999	neunhundertneunundneunzig türkische Lire null Kurus
 money	de	try	1000	eintausend türkische Lire null Kurus
-money	de	try	1001	eintausend ein türkische Lire null Kurus
-money	de	try	2000	zwei tausend türkische Lire null Kurus
-money	de	try	2001	zwei tausend ein türkische Lire null Kurus
-money	de	try	5000	fünf tausend türkische Lire null Kurus
-money	de	try	21000	einundzwanzig tausend türkische Lire null Kurus
-money	de	try	22000	zweiundzwanzig tausend türkische Lire null Kurus
-money	de	try	41000	einundvierzig tausend türkische Lire null Kurus
-money	de	try	42000	zweiundvierzig tausend türkische Lire null Kurus
-money	de	try	100000	ein hundert tausend türkische Lire null Kurus
+money	de	try	1001	eintausendein türkische Lire null Kurus
+money	de	try	2000	zweitausend türkische Lire null Kurus
+money	de	try	2001	zweitausendein türkische Lire null Kurus
+money	de	try	5000	fünftausend türkische Lire null Kurus
+money	de	try	21000	einundzwanzigtausend türkische Lire null Kurus
+money	de	try	22000	zweiundzwanzigtausend türkische Lire null Kurus
+money	de	try	41000	einundvierzigtausend türkische Lire null Kurus
+money	de	try	42000	zweiundvierzigtausend türkische Lire null Kurus
+money	de	try	100000	einhunderttausend türkische Lire null Kurus
 money	de	try	1000000	eine Million türkische Lire null Kurus
 money	de	try	2000000	zwei Millionen türkische Lire null Kurus
 money	de	try	1000000000	eine Milliarde türkische Lire null Kurus
-money	de	try	123.45	ein hundert dreiundzwanzig türkische Lire fünfundvierzig Kurus
+money	de	try	123.45	einhundertdreiundzwanzig türkische Lire fünfundvierzig Kurus
 money	de	try	-1	minus ein türkische Lire null Kurus
 money	de	try	-2	minus zwei türkische Lire null Kurus
 money	de	try	-41.5	minus einundvierzig türkische Lire fünfzig Kurus
 money	de	try	-1000	minus eintausend türkische Lire null Kurus
 money	de	try	1.999	zwei türkische Lire null Kurus
-money	de	try	123.456	ein hundert dreiundzwanzig türkische Lire sechsundvierzig Kurus
+money	de	try	123.456	einhundertdreiundzwanzig türkische Lire sechsundvierzig Kurus
 money	de	try	1.005	ein türkische Lire ein Kurus
 money	de	uah	0	null ukrainische Griwna null kopiyka
 money	de	uah	0.01	null ukrainische Griwna ein kopiyka
@@ -1119,30 +1119,30 @@ money	de	uah	11	elf ukrainische Griwna null kopiyka
 money	de	uah	21	einundzwanzig ukrainische Griwna null kopiyka
 money	de	uah	22	zweiundzwanzig ukrainische Griwna null kopiyka
 money	de	uah	42	zweiundvierzig ukrainische Griwna null kopiyka
-money	de	uah	100	ein hundert ukrainische Griwna null kopiyka
-money	de	uah	101	ein hundert ein ukrainische Griwna null kopiyka
-money	de	uah	121	ein hundert einundzwanzig ukrainische Griwna null kopiyka
-money	de	uah	999	neun hundert neunundneunzig ukrainische Griwna null kopiyka
+money	de	uah	100	einhundert ukrainische Griwna null kopiyka
+money	de	uah	101	einhundertein ukrainische Griwna null kopiyka
+money	de	uah	121	einhunderteinundzwanzig ukrainische Griwna null kopiyka
+money	de	uah	999	neunhundertneunundneunzig ukrainische Griwna null kopiyka
 money	de	uah	1000	eintausend ukrainische Griwna null kopiyka
-money	de	uah	1001	eintausend ein ukrainische Griwna null kopiyka
-money	de	uah	2000	zwei tausend ukrainische Griwna null kopiyka
-money	de	uah	2001	zwei tausend ein ukrainische Griwna null kopiyka
-money	de	uah	5000	fünf tausend ukrainische Griwna null kopiyka
-money	de	uah	21000	einundzwanzig tausend ukrainische Griwna null kopiyka
-money	de	uah	22000	zweiundzwanzig tausend ukrainische Griwna null kopiyka
-money	de	uah	41000	einundvierzig tausend ukrainische Griwna null kopiyka
-money	de	uah	42000	zweiundvierzig tausend ukrainische Griwna null kopiyka
-money	de	uah	100000	ein hundert tausend ukrainische Griwna null kopiyka
+money	de	uah	1001	eintausendein ukrainische Griwna null kopiyka
+money	de	uah	2000	zweitausend ukrainische Griwna null kopiyka
+money	de	uah	2001	zweitausendein ukrainische Griwna null kopiyka
+money	de	uah	5000	fünftausend ukrainische Griwna null kopiyka
+money	de	uah	21000	einundzwanzigtausend ukrainische Griwna null kopiyka
+money	de	uah	22000	zweiundzwanzigtausend ukrainische Griwna null kopiyka
+money	de	uah	41000	einundvierzigtausend ukrainische Griwna null kopiyka
+money	de	uah	42000	zweiundvierzigtausend ukrainische Griwna null kopiyka
+money	de	uah	100000	einhunderttausend ukrainische Griwna null kopiyka
 money	de	uah	1000000	eine Million ukrainische Griwna null kopiyka
 money	de	uah	2000000	zwei Millionen ukrainische Griwna null kopiyka
 money	de	uah	1000000000	eine Milliarde ukrainische Griwna null kopiyka
-money	de	uah	123.45	ein hundert dreiundzwanzig ukrainische Griwna fünfundvierzig kopiyky
+money	de	uah	123.45	einhundertdreiundzwanzig ukrainische Griwna fünfundvierzig kopiyky
 money	de	uah	-1	minus ein ukrainische Griwna null kopiyka
 money	de	uah	-2	minus zwei ukrainische Griwna null kopiyka
 money	de	uah	-41.5	minus einundvierzig ukrainische Griwna fünfzig kopiyky
 money	de	uah	-1000	minus eintausend ukrainische Griwna null kopiyka
 money	de	uah	1.999	zwei ukrainische Griwna null kopiyka
-money	de	uah	123.456	ein hundert dreiundzwanzig ukrainische Griwna sechsundvierzig kopiyky
+money	de	uah	123.456	einhundertdreiundzwanzig ukrainische Griwna sechsundvierzig kopiyky
 money	de	uah	1.005	ein ukrainische Griwna ein kopiyka
 money	de	bgn	0	
 money	de	bgn	0.01	
@@ -1197,30 +1197,30 @@ money	de	etb	11	elf Birr null Cent
 money	de	etb	21	einundzwanzig Birr null Cent
 money	de	etb	22	zweiundzwanzig Birr null Cent
 money	de	etb	42	zweiundvierzig Birr null Cent
-money	de	etb	100	ein hundert Birr null Cent
-money	de	etb	101	ein hundert ein Birr null Cent
-money	de	etb	121	ein hundert einundzwanzig Birr null Cent
-money	de	etb	999	neun hundert neunundneunzig Birr null Cent
+money	de	etb	100	einhundert Birr null Cent
+money	de	etb	101	einhundertein Birr null Cent
+money	de	etb	121	einhunderteinundzwanzig Birr null Cent
+money	de	etb	999	neunhundertneunundneunzig Birr null Cent
 money	de	etb	1000	eintausend Birr null Cent
-money	de	etb	1001	eintausend ein Birr null Cent
-money	de	etb	2000	zwei tausend Birr null Cent
-money	de	etb	2001	zwei tausend ein Birr null Cent
-money	de	etb	5000	fünf tausend Birr null Cent
-money	de	etb	21000	einundzwanzig tausend Birr null Cent
-money	de	etb	22000	zweiundzwanzig tausend Birr null Cent
-money	de	etb	41000	einundvierzig tausend Birr null Cent
-money	de	etb	42000	zweiundvierzig tausend Birr null Cent
-money	de	etb	100000	ein hundert tausend Birr null Cent
+money	de	etb	1001	eintausendein Birr null Cent
+money	de	etb	2000	zweitausend Birr null Cent
+money	de	etb	2001	zweitausendein Birr null Cent
+money	de	etb	5000	fünftausend Birr null Cent
+money	de	etb	21000	einundzwanzigtausend Birr null Cent
+money	de	etb	22000	zweiundzwanzigtausend Birr null Cent
+money	de	etb	41000	einundvierzigtausend Birr null Cent
+money	de	etb	42000	zweiundvierzigtausend Birr null Cent
+money	de	etb	100000	einhunderttausend Birr null Cent
 money	de	etb	1000000	eine Million Birr null Cent
 money	de	etb	2000000	zwei Millionen Birr null Cent
 money	de	etb	1000000000	eine Milliarde Birr null Cent
-money	de	etb	123.45	ein hundert dreiundzwanzig Birr fünfundvierzig Cent
+money	de	etb	123.45	einhundertdreiundzwanzig Birr fünfundvierzig Cent
 money	de	etb	-1	minus ein Birr null Cent
 money	de	etb	-2	minus zwei Birr null Cent
 money	de	etb	-41.5	minus einundvierzig Birr fünfzig Cent
 money	de	etb	-1000	minus eintausend Birr null Cent
 money	de	etb	1.999	zwei Birr null Cent
-money	de	etb	123.456	ein hundert dreiundzwanzig Birr sechsundvierzig Cent
+money	de	etb	123.456	einhundertdreiundzwanzig Birr sechsundvierzig Cent
 money	de	etb	1.005	ein Birr ein Cent
 money	de	pln	0	null Zloty null grosz
 money	de	pln	0.01	null Zloty ein grosz
@@ -1236,30 +1236,30 @@ money	de	pln	11	elf Zloty null grosz
 money	de	pln	21	einundzwanzig Zloty null grosz
 money	de	pln	22	zweiundzwanzig Zloty null grosz
 money	de	pln	42	zweiundvierzig Zloty null grosz
-money	de	pln	100	ein hundert Zloty null grosz
-money	de	pln	101	ein hundert ein Zloty null grosz
-money	de	pln	121	ein hundert einundzwanzig Zloty null grosz
-money	de	pln	999	neun hundert neunundneunzig Zloty null grosz
+money	de	pln	100	einhundert Zloty null grosz
+money	de	pln	101	einhundertein Zloty null grosz
+money	de	pln	121	einhunderteinundzwanzig Zloty null grosz
+money	de	pln	999	neunhundertneunundneunzig Zloty null grosz
 money	de	pln	1000	eintausend Zloty null grosz
-money	de	pln	1001	eintausend ein Zloty null grosz
-money	de	pln	2000	zwei tausend Zloty null grosz
-money	de	pln	2001	zwei tausend ein Zloty null grosz
-money	de	pln	5000	fünf tausend Zloty null grosz
-money	de	pln	21000	einundzwanzig tausend Zloty null grosz
-money	de	pln	22000	zweiundzwanzig tausend Zloty null grosz
-money	de	pln	41000	einundvierzig tausend Zloty null grosz
-money	de	pln	42000	zweiundvierzig tausend Zloty null grosz
-money	de	pln	100000	ein hundert tausend Zloty null grosz
+money	de	pln	1001	eintausendein Zloty null grosz
+money	de	pln	2000	zweitausend Zloty null grosz
+money	de	pln	2001	zweitausendein Zloty null grosz
+money	de	pln	5000	fünftausend Zloty null grosz
+money	de	pln	21000	einundzwanzigtausend Zloty null grosz
+money	de	pln	22000	zweiundzwanzigtausend Zloty null grosz
+money	de	pln	41000	einundvierzigtausend Zloty null grosz
+money	de	pln	42000	zweiundvierzigtausend Zloty null grosz
+money	de	pln	100000	einhunderttausend Zloty null grosz
 money	de	pln	1000000	eine Million Zloty null grosz
 money	de	pln	2000000	zwei Millionen Zloty null grosz
 money	de	pln	1000000000	eine Milliarde Zloty null grosz
-money	de	pln	123.45	ein hundert dreiundzwanzig Zloty fünfundvierzig grosze
+money	de	pln	123.45	einhundertdreiundzwanzig Zloty fünfundvierzig grosze
 money	de	pln	-1	minus ein Zloty null grosz
 money	de	pln	-2	minus zwei Zloty null grosz
 money	de	pln	-41.5	minus einundvierzig Zloty fünfzig grosze
 money	de	pln	-1000	minus eintausend Zloty null grosz
 money	de	pln	1.999	zwei Zloty null grosz
-money	de	pln	123.456	ein hundert dreiundzwanzig Zloty sechsundvierzig grosze
+money	de	pln	123.456	einhundertdreiundzwanzig Zloty sechsundvierzig grosze
 money	de	pln	1.005	ein Zloty ein grosz
 money	de	byn	0	null weißrussischer Rubel null Kopeke
 money	de	byn	0.01	null weißrussischer Rubel ein Kopeke
@@ -1275,30 +1275,30 @@ money	de	byn	11	elf weißrussischer Rubel null Kopeke
 money	de	byn	21	einundzwanzig weißrussischer Rubel null Kopeke
 money	de	byn	22	zweiundzwanzig weißrussischer Rubel null Kopeke
 money	de	byn	42	zweiundvierzig weißrussischer Rubel null Kopeke
-money	de	byn	100	ein hundert weißrussischer Rubel null Kopeke
-money	de	byn	101	ein hundert ein weißrussischer Rubel null Kopeke
-money	de	byn	121	ein hundert einundzwanzig weißrussischer Rubel null Kopeke
-money	de	byn	999	neun hundert neunundneunzig weißrussischer Rubel null Kopeke
+money	de	byn	100	einhundert weißrussischer Rubel null Kopeke
+money	de	byn	101	einhundertein weißrussischer Rubel null Kopeke
+money	de	byn	121	einhunderteinundzwanzig weißrussischer Rubel null Kopeke
+money	de	byn	999	neunhundertneunundneunzig weißrussischer Rubel null Kopeke
 money	de	byn	1000	eintausend weißrussischer Rubel null Kopeke
-money	de	byn	1001	eintausend ein weißrussischer Rubel null Kopeke
-money	de	byn	2000	zwei tausend weißrussischer Rubel null Kopeke
-money	de	byn	2001	zwei tausend ein weißrussischer Rubel null Kopeke
-money	de	byn	5000	fünf tausend weißrussischer Rubel null Kopeke
-money	de	byn	21000	einundzwanzig tausend weißrussischer Rubel null Kopeke
-money	de	byn	22000	zweiundzwanzig tausend weißrussischer Rubel null Kopeke
-money	de	byn	41000	einundvierzig tausend weißrussischer Rubel null Kopeke
-money	de	byn	42000	zweiundvierzig tausend weißrussischer Rubel null Kopeke
-money	de	byn	100000	ein hundert tausend weißrussischer Rubel null Kopeke
+money	de	byn	1001	eintausendein weißrussischer Rubel null Kopeke
+money	de	byn	2000	zweitausend weißrussischer Rubel null Kopeke
+money	de	byn	2001	zweitausendein weißrussischer Rubel null Kopeke
+money	de	byn	5000	fünftausend weißrussischer Rubel null Kopeke
+money	de	byn	21000	einundzwanzigtausend weißrussischer Rubel null Kopeke
+money	de	byn	22000	zweiundzwanzigtausend weißrussischer Rubel null Kopeke
+money	de	byn	41000	einundvierzigtausend weißrussischer Rubel null Kopeke
+money	de	byn	42000	zweiundvierzigtausend weißrussischer Rubel null Kopeke
+money	de	byn	100000	einhunderttausend weißrussischer Rubel null Kopeke
 money	de	byn	1000000	eine Million weißrussischer Rubel null Kopeke
 money	de	byn	2000000	zwei Millionen weißrussischer Rubel null Kopeke
 money	de	byn	1000000000	eine Milliarde weißrussischer Rubel null Kopeke
-money	de	byn	123.45	ein hundert dreiundzwanzig weißrussischer Rubel fünfundvierzig Kopeken
+money	de	byn	123.45	einhundertdreiundzwanzig weißrussischer Rubel fünfundvierzig Kopeken
 money	de	byn	-1	minus ein weißrussischer Rubel null Kopeke
 money	de	byn	-2	minus zwei weißrussischer Rubel null Kopeke
 money	de	byn	-41.5	minus einundvierzig weißrussischer Rubel fünfzig Kopeken
 money	de	byn	-1000	minus eintausend weißrussischer Rubel null Kopeke
 money	de	byn	1.999	zwei weißrussischer Rubel null Kopeke
-money	de	byn	123.456	ein hundert dreiundzwanzig weißrussischer Rubel sechsundvierzig Kopeken
+money	de	byn	123.456	einhundertdreiundzwanzig weißrussischer Rubel sechsundvierzig Kopeken
 money	de	byn	1.005	ein weißrussischer Rubel ein Kopeke
 money	de	ars	0	
 money	de	ars	0.01	
