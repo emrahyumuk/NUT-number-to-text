@@ -65,6 +65,9 @@ money	en	eur	-1	minus one euro zero eurocent
 money	en	eur	-2	minus two euros zero eurocent
 money	en	eur	-41.5	minus forty one euros fifty eurocents
 money	en	eur	-1000	minus one thousand euros zero eurocent
+money	en	eur	1.999	two euros zero eurocent
+money	en	eur	123.456	one hundred twenty three euros forty six eurocents
+money	en	eur	1.005	one euro one eurocent
 money	en	usd	0	zero dollar zero cent
 money	en	usd	0.01	zero dollar one cent
 money	en	usd	0.02	zero dollar two cents
@@ -101,6 +104,9 @@ money	en	usd	-1	minus one dollar zero cent
 money	en	usd	-2	minus two dollars zero cent
 money	en	usd	-41.5	minus forty one dollars fifty cents
 money	en	usd	-1000	minus one thousand dollars zero cent
+money	en	usd	1.999	two dollars zero cent
+money	en	usd	123.456	one hundred twenty three dollars forty six cents
+money	en	usd	1.005	one dollar one cent
 money	en	rub	0	zero ruble zero kopek
 money	en	rub	0.01	zero ruble one kopek
 money	en	rub	0.02	zero ruble two kopeks
@@ -137,6 +143,9 @@ money	en	rub	-1	minus one ruble zero kopek
 money	en	rub	-2	minus two rubles zero kopek
 money	en	rub	-41.5	minus forty one rubles fifty kopeks
 money	en	rub	-1000	minus one thousand rubles zero kopek
+money	en	rub	1.999	two rubles zero kopek
+money	en	rub	123.456	one hundred twenty three rubles forty six kopeks
+money	en	rub	1.005	one ruble one kopek
 money	en	try	0	zero turkish lira zero kurus
 money	en	try	0.01	zero turkish lira one kurus
 money	en	try	0.02	zero turkish lira two kurus
@@ -173,6 +182,9 @@ money	en	try	-1	minus one turkish lira zero kurus
 money	en	try	-2	minus two turkish lira zero kurus
 money	en	try	-41.5	minus forty one turkish lira fifty kurus
 money	en	try	-1000	minus one thousand turkish lira zero kurus
+money	en	try	1.999	two turkish lira zero kurus
+money	en	try	123.456	one hundred twenty three turkish lira forty six kurus
+money	en	try	1.005	one turkish lira one kurus
 money	en	uah	0	zero ukrainian hryvnia zero kopiyka
 money	en	uah	0.01	zero ukrainian hryvnia one kopiyka
 money	en	uah	0.02	zero ukrainian hryvnia two kopiyky
@@ -209,6 +221,9 @@ money	en	uah	-1	minus one ukrainian hryvnia zero kopiyka
 money	en	uah	-2	minus two ukrainian hryvnia zero kopiyka
 money	en	uah	-41.5	minus forty one ukrainian hryvnia fifty kopiyky
 money	en	uah	-1000	minus one thousand ukrainian hryvnia zero kopiyka
+money	en	uah	1.999	two ukrainian hryvnia zero kopiyka
+money	en	uah	123.456	one hundred twenty three ukrainian hryvnia forty six kopiyky
+money	en	uah	1.005	one ukrainian hryvnia one kopiyka
 money	en	bgn	0	
 money	en	bgn	0.01	
 money	en	bgn	0.02	
@@ -245,6 +260,9 @@ money	en	bgn	-1
 money	en	bgn	-2	
 money	en	bgn	-41.5	
 money	en	bgn	-1000	
+money	en	bgn	1.999	
+money	en	bgn	123.456	
+money	en	bgn	1.005	
 money	en	etb	0	zero birr zero cent
 money	en	etb	0.01	zero birr one cent
 money	en	etb	0.02	zero birr two cents
@@ -281,6 +299,9 @@ money	en	etb	-1	minus one birr zero cent
 money	en	etb	-2	minus two birr zero cent
 money	en	etb	-41.5	minus forty one birr fifty cents
 money	en	etb	-1000	minus one thousand birr zero cent
+money	en	etb	1.999	two birr zero cent
+money	en	etb	123.456	one hundred twenty three birr forty six cents
+money	en	etb	1.005	one birr one cent
 money	en	pln	0	zero zloty zero grosz
 money	en	pln	0.01	zero zloty one grosz
 money	en	pln	0.02	zero zloty two grosze
@@ -317,6 +338,9 @@ money	en	pln	-1	minus one zloty zero grosz
 money	en	pln	-2	minus two zloty zero grosz
 money	en	pln	-41.5	minus forty one zloty fifty grosze
 money	en	pln	-1000	minus one thousand zloty zero grosz
+money	en	pln	1.999	two zloty zero grosz
+money	en	pln	123.456	one hundred twenty three zloty forty six grosze
+money	en	pln	1.005	one zloty one grosz
 money	en	byn	0	zero Belarusian ruble zero kopek
 money	en	byn	0.01	zero Belarusian ruble one kopek
 money	en	byn	0.02	zero Belarusian ruble two kopeks
@@ -353,6 +377,9 @@ money	en	byn	-1	minus one Belarusian ruble zero kopek
 money	en	byn	-2	minus two Belarusian rubles zero kopek
 money	en	byn	-41.5	minus forty one Belarusian rubles fifty kopeks
 money	en	byn	-1000	minus one thousand Belarusian rubles zero kopek
+money	en	byn	1.999	two Belarusian rubles zero kopek
+money	en	byn	123.456	one hundred twenty three Belarusian rubles forty six kopeks
+money	en	byn	1.005	one Belarusian ruble one kopek
 money	en	ars	0	
 money	en	ars	0.01	
 money	en	ars	0.02	
@@ -389,6 +416,9 @@ money	en	ars	-1
 money	en	ars	-2	
 money	en	ars	-41.5	
 money	en	ars	-1000	
+money	en	ars	1.999	
+money	en	ars	123.456	
+money	en	ars	1.005	
 money	en	brl	0	
 money	en	brl	0.01	
 money	en	brl	0.02	
@@ -425,6 +455,9 @@ money	en	brl	-1
 money	en	brl	-2	
 money	en	brl	-41.5	
 money	en	brl	-1000	
+money	en	brl	1.999	
+money	en	brl	123.456	
+money	en	brl	1.005	
 plain	fr	0	zéro
 plain	fr	1	un
 plain	fr	2	deux
@@ -492,6 +525,9 @@ money	fr	eur	-1	moins un euro zéro centime
 money	fr	eur	-2	moins deux euros zéro centime
 money	fr	eur	-41.5	moins quarante et un euros cinquante centimes
 money	fr	eur	-1000	moins mille euros zéro centime
+money	fr	eur	1.999	deux euros zéro centime
+money	fr	eur	123.456	cent vingt trois euros quarante six centimes
+money	fr	eur	1.005	un euro un centime
 money	fr	usd	0	zéro dollar zéro centime
 money	fr	usd	0.01	zéro dollar un centime
 money	fr	usd	0.02	zéro dollar deux centimes
@@ -528,6 +564,9 @@ money	fr	usd	-1	moins un dollar zéro centime
 money	fr	usd	-2	moins deux dollars zéro centime
 money	fr	usd	-41.5	moins quarante et un dollars cinquante centimes
 money	fr	usd	-1000	moins mille dollars zéro centime
+money	fr	usd	1.999	deux dollars zéro centime
+money	fr	usd	123.456	cent vingt trois dollars quarante six centimes
+money	fr	usd	1.005	un dollar un centime
 money	fr	rub	0	zéro rouble zéro kopeck
 money	fr	rub	0.01	zéro rouble un kopeck
 money	fr	rub	0.02	zéro rouble deux kopecks
@@ -564,6 +603,9 @@ money	fr	rub	-1	moins un rouble zéro kopeck
 money	fr	rub	-2	moins deux roubles zéro kopeck
 money	fr	rub	-41.5	moins quarante et un roubles cinquante kopecks
 money	fr	rub	-1000	moins mille roubles zéro kopeck
+money	fr	rub	1.999	deux roubles zéro kopeck
+money	fr	rub	123.456	cent vingt trois roubles quarante six kopecks
+money	fr	rub	1.005	un rouble un kopeck
 money	fr	try	0	zéro livre turques zéro kuruş
 money	fr	try	0.01	zéro livre turques un kuruş
 money	fr	try	0.02	zéro livre turques deux kuruş
@@ -600,6 +642,9 @@ money	fr	try	-1	moins un livre turques zéro kuruş
 money	fr	try	-2	moins deux livres turques zéro kuruş
 money	fr	try	-41.5	moins quarante et un livres turques cinquante kuruş
 money	fr	try	-1000	moins mille livres turques zéro kuruş
+money	fr	try	1.999	deux livres turques zéro kuruş
+money	fr	try	123.456	cent vingt trois livres turques quarante six kuruş
+money	fr	try	1.005	un livre turques un kuruş
 money	fr	uah	0	zéro hryvnia ukrainienne zéro kopiyka
 money	fr	uah	0.01	zéro hryvnia ukrainienne un kopiyka
 money	fr	uah	0.02	zéro hryvnia ukrainienne deux kopiyka
@@ -636,6 +681,9 @@ money	fr	uah	-1	moins un hryvnia ukrainienne zéro kopiyka
 money	fr	uah	-2	moins deux hryvnias ukrainienne zéro kopiyka
 money	fr	uah	-41.5	moins quarante et un hryvnias ukrainienne cinquante kopiyka
 money	fr	uah	-1000	moins mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	1.999	deux hryvnias ukrainienne zéro kopiyka
+money	fr	uah	123.456	cent vingt trois hryvnias ukrainienne quarante six kopiyka
+money	fr	uah	1.005	un hryvnia ukrainienne un kopiyka
 money	fr	bgn	0	
 money	fr	bgn	0.01	
 money	fr	bgn	0.02	
@@ -672,6 +720,9 @@ money	fr	bgn	-1
 money	fr	bgn	-2	
 money	fr	bgn	-41.5	
 money	fr	bgn	-1000	
+money	fr	bgn	1.999	
+money	fr	bgn	123.456	
+money	fr	bgn	1.005	
 money	fr	etb	0	zéro Birr zéro centime
 money	fr	etb	0.01	zéro Birr un centime
 money	fr	etb	0.02	zéro Birr deux centimes
@@ -708,6 +759,9 @@ money	fr	etb	-1	moins un Birr zéro centime
 money	fr	etb	-2	moins deux Birr zéro centime
 money	fr	etb	-41.5	moins quarante et un Birr cinquante centimes
 money	fr	etb	-1000	moins mille Birr zéro centime
+money	fr	etb	1.999	deux Birr zéro centime
+money	fr	etb	123.456	cent vingt trois Birr quarante six centimes
+money	fr	etb	1.005	un Birr un centime
 money	fr	pln	0	zéro zloty zéro groszy
 money	fr	pln	0.01	zéro zloty un groszy
 money	fr	pln	0.02	zéro zloty deux groszy
@@ -744,6 +798,9 @@ money	fr	pln	-1	moins un zloty zéro groszy
 money	fr	pln	-2	moins deux zloty zéro groszy
 money	fr	pln	-41.5	moins quarante et un zloty cinquante groszy
 money	fr	pln	-1000	moins mille zloty zéro groszy
+money	fr	pln	1.999	deux zloty zéro groszy
+money	fr	pln	123.456	cent vingt trois zloty quarante six groszy
+money	fr	pln	1.005	un zloty un groszy
 money	fr	byn	0	zéro rouble biélorusse zéro kopeck
 money	fr	byn	0.01	zéro rouble biélorusse un kopeck
 money	fr	byn	0.02	zéro rouble biélorusse deux kopecks
@@ -780,6 +837,9 @@ money	fr	byn	-1	moins un rouble biélorusse zéro kopeck
 money	fr	byn	-2	moins deux roubles biélorusses zéro kopeck
 money	fr	byn	-41.5	moins quarante et un roubles biélorusses cinquante kopecks
 money	fr	byn	-1000	moins mille roubles biélorusses zéro kopeck
+money	fr	byn	1.999	deux roubles biélorusses zéro kopeck
+money	fr	byn	123.456	cent vingt trois roubles biélorusses quarante six kopecks
+money	fr	byn	1.005	un rouble biélorusse un kopeck
 money	fr	ars	0	
 money	fr	ars	0.01	
 money	fr	ars	0.02	
@@ -816,6 +876,9 @@ money	fr	ars	-1
 money	fr	ars	-2	
 money	fr	ars	-41.5	
 money	fr	ars	-1000	
+money	fr	ars	1.999	
+money	fr	ars	123.456	
+money	fr	ars	1.005	
 money	fr	brl	0	
 money	fr	brl	0.01	
 money	fr	brl	0.02	
@@ -852,6 +915,9 @@ money	fr	brl	-1
 money	fr	brl	-2	
 money	fr	brl	-41.5	
 money	fr	brl	-1000	
+money	fr	brl	1.999	
+money	fr	brl	123.456	
+money	fr	brl	1.005	
 plain	de	0	null
 plain	de	1	ein
 plain	de	2	zwei
@@ -919,6 +985,9 @@ money	de	eur	-1	minus ein Euro null Cent
 money	de	eur	-2	minus zwei Euro null Cent
 money	de	eur	-41.5	minus einundvierzig Euro fünfzig Cent
 money	de	eur	-1000	minus eintausend Euro null Cent
+money	de	eur	1.999	zwei Euro null Cent
+money	de	eur	123.456	ein hundert dreiundzwanzig Euro sechsundvierzig Cent
+money	de	eur	1.005	ein Euro ein Cent
 money	de	usd	0	null Dollar null Cent
 money	de	usd	0.01	null Dollar ein Cent
 money	de	usd	0.02	null Dollar zwei Cent
@@ -955,6 +1024,9 @@ money	de	usd	-1	minus ein Dollar null Cent
 money	de	usd	-2	minus zwei Dollar null Cent
 money	de	usd	-41.5	minus einundvierzig Dollar fünfzig Cent
 money	de	usd	-1000	minus eintausend Dollar null Cent
+money	de	usd	1.999	zwei Dollar null Cent
+money	de	usd	123.456	ein hundert dreiundzwanzig Dollar sechsundvierzig Cent
+money	de	usd	1.005	ein Dollar ein Cent
 money	de	rub	0	null Rubel null Kopeke
 money	de	rub	0.01	null Rubel ein Kopeke
 money	de	rub	0.02	null Rubel zwei Kopeken
@@ -991,6 +1063,9 @@ money	de	rub	-1	minus ein Rubel null Kopeke
 money	de	rub	-2	minus zwei Rubel null Kopeke
 money	de	rub	-41.5	minus einundvierzig Rubel fünfzig Kopeken
 money	de	rub	-1000	minus eintausend Rubel null Kopeke
+money	de	rub	1.999	zwei Rubel null Kopeke
+money	de	rub	123.456	ein hundert dreiundzwanzig Rubel sechsundvierzig Kopeken
+money	de	rub	1.005	ein Rubel ein Kopeke
 money	de	try	0	null türkische Lire null Kurus
 money	de	try	0.01	null türkische Lire ein Kurus
 money	de	try	0.02	null türkische Lire zwei Kurus
@@ -1027,6 +1102,9 @@ money	de	try	-1	minus ein türkische Lire null Kurus
 money	de	try	-2	minus zwei türkische Lire null Kurus
 money	de	try	-41.5	minus einundvierzig türkische Lire fünfzig Kurus
 money	de	try	-1000	minus eintausend türkische Lire null Kurus
+money	de	try	1.999	zwei türkische Lire null Kurus
+money	de	try	123.456	ein hundert dreiundzwanzig türkische Lire sechsundvierzig Kurus
+money	de	try	1.005	ein türkische Lire ein Kurus
 money	de	uah	0	null ukrainische Griwna null kopiyka
 money	de	uah	0.01	null ukrainische Griwna ein kopiyka
 money	de	uah	0.02	null ukrainische Griwna zwei kopiyky
@@ -1063,6 +1141,9 @@ money	de	uah	-1	minus ein ukrainische Griwna null kopiyka
 money	de	uah	-2	minus zwei ukrainische Griwna null kopiyka
 money	de	uah	-41.5	minus einundvierzig ukrainische Griwna fünfzig kopiyky
 money	de	uah	-1000	minus eintausend ukrainische Griwna null kopiyka
+money	de	uah	1.999	zwei ukrainische Griwna null kopiyka
+money	de	uah	123.456	ein hundert dreiundzwanzig ukrainische Griwna sechsundvierzig kopiyky
+money	de	uah	1.005	ein ukrainische Griwna ein kopiyka
 money	de	bgn	0	
 money	de	bgn	0.01	
 money	de	bgn	0.02	
@@ -1099,6 +1180,9 @@ money	de	bgn	-1
 money	de	bgn	-2	
 money	de	bgn	-41.5	
 money	de	bgn	-1000	
+money	de	bgn	1.999	
+money	de	bgn	123.456	
+money	de	bgn	1.005	
 money	de	etb	0	null Birr null Cent
 money	de	etb	0.01	null Birr ein Cent
 money	de	etb	0.02	null Birr zwei Cent
@@ -1135,6 +1219,9 @@ money	de	etb	-1	minus ein Birr null Cent
 money	de	etb	-2	minus zwei Birr null Cent
 money	de	etb	-41.5	minus einundvierzig Birr fünfzig Cent
 money	de	etb	-1000	minus eintausend Birr null Cent
+money	de	etb	1.999	zwei Birr null Cent
+money	de	etb	123.456	ein hundert dreiundzwanzig Birr sechsundvierzig Cent
+money	de	etb	1.005	ein Birr ein Cent
 money	de	pln	0	null Zloty null grosz
 money	de	pln	0.01	null Zloty ein grosz
 money	de	pln	0.02	null Zloty zwei grosze
@@ -1171,6 +1258,9 @@ money	de	pln	-1	minus ein Zloty null grosz
 money	de	pln	-2	minus zwei Zloty null grosz
 money	de	pln	-41.5	minus einundvierzig Zloty fünfzig grosze
 money	de	pln	-1000	minus eintausend Zloty null grosz
+money	de	pln	1.999	zwei Zloty null grosz
+money	de	pln	123.456	ein hundert dreiundzwanzig Zloty sechsundvierzig grosze
+money	de	pln	1.005	ein Zloty ein grosz
 money	de	byn	0	null weißrussischer Rubel null Kopeke
 money	de	byn	0.01	null weißrussischer Rubel ein Kopeke
 money	de	byn	0.02	null weißrussischer Rubel zwei Kopeken
@@ -1207,6 +1297,9 @@ money	de	byn	-1	minus ein weißrussischer Rubel null Kopeke
 money	de	byn	-2	minus zwei weißrussischer Rubel null Kopeke
 money	de	byn	-41.5	minus einundvierzig weißrussischer Rubel fünfzig Kopeken
 money	de	byn	-1000	minus eintausend weißrussischer Rubel null Kopeke
+money	de	byn	1.999	zwei weißrussischer Rubel null Kopeke
+money	de	byn	123.456	ein hundert dreiundzwanzig weißrussischer Rubel sechsundvierzig Kopeken
+money	de	byn	1.005	ein weißrussischer Rubel ein Kopeke
 money	de	ars	0	
 money	de	ars	0.01	
 money	de	ars	0.02	
@@ -1243,6 +1336,9 @@ money	de	ars	-1
 money	de	ars	-2	
 money	de	ars	-41.5	
 money	de	ars	-1000	
+money	de	ars	1.999	
+money	de	ars	123.456	
+money	de	ars	1.005	
 money	de	brl	0	
 money	de	brl	0.01	
 money	de	brl	0.02	
@@ -1279,6 +1375,9 @@ money	de	brl	-1
 money	de	brl	-2	
 money	de	brl	-41.5	
 money	de	brl	-1000	
+money	de	brl	1.999	
+money	de	brl	123.456	
+money	de	brl	1.005	
 plain	es	0	cero
 plain	es	1	uno
 plain	es	2	dos
@@ -1346,6 +1445,9 @@ money	es	eur	-1	menos uno euro con cero céntimo de euro
 money	es	eur	-2	menos dos euros con cero céntimo de euro
 money	es	eur	-41.5	menos cuarenta y uno euros con cincuenta céntimos de euro
 money	es	eur	-1000	menos uno mil euros con cero céntimo de euro
+money	es	eur	1.999	dos euros con cero céntimo de euro
+money	es	eur	123.456	ciento veintitrés euros con cuarenta y seis céntimos de euro
+money	es	eur	1.005	uno euro con uno céntimo de euro
 money	es	usd	0	cero dólar con cero centavo
 money	es	usd	0.01	cero dólar con uno centavo
 money	es	usd	0.02	cero dólar con dos centavos
@@ -1382,6 +1484,9 @@ money	es	usd	-1	menos uno dólar con cero centavo
 money	es	usd	-2	menos dos dólares con cero centavo
 money	es	usd	-41.5	menos cuarenta y uno dólares con cincuenta centavos
 money	es	usd	-1000	menos uno mil dólares con cero centavo
+money	es	usd	1.999	dos dólares con cero centavo
+money	es	usd	123.456	ciento veintitrés dólares con cuarenta y seis centavos
+money	es	usd	1.005	uno dólar con uno centavo
 money	es	rub	0	cero rublo con cero kopek
 money	es	rub	0.01	cero rublo con uno kopek
 money	es	rub	0.02	cero rublo con dos kopeks
@@ -1418,6 +1523,9 @@ money	es	rub	-1	menos uno rublo con cero kopek
 money	es	rub	-2	menos dos rublos con cero kopek
 money	es	rub	-41.5	menos cuarenta y uno rublos con cincuenta kopeks
 money	es	rub	-1000	menos uno mil rublos con cero kopek
+money	es	rub	1.999	dos rublos con cero kopek
+money	es	rub	123.456	ciento veintitrés rublos con cuarenta y seis kopeks
+money	es	rub	1.005	uno rublo con uno kopek
 money	es	try	0	cero lira turco con cero kuruş
 money	es	try	0.01	cero lira turco con uno kuruş
 money	es	try	0.02	cero lira turco con dos kuruş
@@ -1454,6 +1562,9 @@ money	es	try	-1	menos uno lira turco con cero kuruş
 money	es	try	-2	menos dos liras turco con cero kuruş
 money	es	try	-41.5	menos cuarenta y uno liras turco con cincuenta kuruş
 money	es	try	-1000	menos uno mil liras turco con cero kuruş
+money	es	try	1.999	dos liras turco con cero kuruş
+money	es	try	123.456	ciento veintitrés liras turco con cuarenta y seis kuruş
+money	es	try	1.005	uno lira turco con uno kuruş
 money	es	uah	0	cero grivna ucraniana con cero kopek
 money	es	uah	0.01	cero grivna ucraniana con uno kopek
 money	es	uah	0.02	cero grivna ucraniana con dos kopeks
@@ -1490,6 +1601,9 @@ money	es	uah	-1	menos uno grivna ucraniana con cero kopek
 money	es	uah	-2	menos dos grivnas ucraniana con cero kopek
 money	es	uah	-41.5	menos cuarenta y uno grivnas ucraniana con cincuenta kopeks
 money	es	uah	-1000	menos uno mil grivnas ucraniana con cero kopek
+money	es	uah	1.999	dos grivnas ucraniana con cero kopek
+money	es	uah	123.456	ciento veintitrés grivnas ucraniana con cuarenta y seis kopeks
+money	es	uah	1.005	uno grivna ucraniana con uno kopek
 money	es	bgn	0	
 money	es	bgn	0.01	
 money	es	bgn	0.02	
@@ -1526,6 +1640,9 @@ money	es	bgn	-1
 money	es	bgn	-2	
 money	es	bgn	-41.5	
 money	es	bgn	-1000	
+money	es	bgn	1.999	
+money	es	bgn	123.456	
+money	es	bgn	1.005	
 money	es	etb	0	cero birr con cero centavo
 money	es	etb	0.01	cero birr con uno centavo
 money	es	etb	0.02	cero birr con dos centavos
@@ -1562,6 +1679,9 @@ money	es	etb	-1	menos uno birr con cero centavo
 money	es	etb	-2	menos dos birr con cero centavo
 money	es	etb	-41.5	menos cuarenta y uno birr con cincuenta centavos
 money	es	etb	-1000	menos uno mil birr con cero centavo
+money	es	etb	1.999	dos birr con cero centavo
+money	es	etb	123.456	ciento veintitrés birr con cuarenta y seis centavos
+money	es	etb	1.005	uno birr con uno centavo
 money	es	pln	0	cero zloty con cero groszy
 money	es	pln	0.01	cero zloty con uno groszy
 money	es	pln	0.02	cero zloty con dos groszy
@@ -1598,6 +1718,9 @@ money	es	pln	-1	menos uno zloty con cero groszy
 money	es	pln	-2	menos dos zloty con cero groszy
 money	es	pln	-41.5	menos cuarenta y uno zloty con cincuenta groszy
 money	es	pln	-1000	menos uno mil zloty con cero groszy
+money	es	pln	1.999	dos zloty con cero groszy
+money	es	pln	123.456	ciento veintitrés zloty con cuarenta y seis groszy
+money	es	pln	1.005	uno zloty con uno groszy
 money	es	byn	0	cero rublo bielorruso con cero kopek
 money	es	byn	0.01	cero rublo bielorruso con uno kopek
 money	es	byn	0.02	cero rublo bielorruso con dos kopeks
@@ -1634,6 +1757,9 @@ money	es	byn	-1	menos uno rublo bielorruso con cero kopek
 money	es	byn	-2	menos dos rublos bielorrusos con cero kopek
 money	es	byn	-41.5	menos cuarenta y uno rublos bielorrusos con cincuenta kopeks
 money	es	byn	-1000	menos uno mil rublos bielorrusos con cero kopek
+money	es	byn	1.999	dos rublos bielorrusos con cero kopek
+money	es	byn	123.456	ciento veintitrés rublos bielorrusos con cuarenta y seis kopeks
+money	es	byn	1.005	uno rublo bielorruso con uno kopek
 money	es	ars	0	cero peso con cero centavo
 money	es	ars	0.01	cero peso con uno centavo
 money	es	ars	0.02	cero peso con dos centavos
@@ -1670,6 +1796,9 @@ money	es	ars	-1	menos uno peso con cero centavo
 money	es	ars	-2	menos dos pesos con cero centavo
 money	es	ars	-41.5	menos cuarenta y uno pesos con cincuenta centavos
 money	es	ars	-1000	menos uno mil pesos con cero centavo
+money	es	ars	1.999	dos pesos con cero centavo
+money	es	ars	123.456	ciento veintitrés pesos con cuarenta y seis centavos
+money	es	ars	1.005	uno peso con uno centavo
 money	es	brl	0	
 money	es	brl	0.01	
 money	es	brl	0.02	
@@ -1706,6 +1835,9 @@ money	es	brl	-1
 money	es	brl	-2	
 money	es	brl	-41.5	
 money	es	brl	-1000	
+money	es	brl	1.999	
+money	es	brl	123.456	
+money	es	brl	1.005	
 plain	pt	0	zero
 plain	pt	1	um
 plain	pt	2	dois
@@ -1773,6 +1905,9 @@ money	pt	eur	-1	menos um euro com zero centavo de euro
 money	pt	eur	-2	menos dois euros com zero centavo de euro
 money	pt	eur	-41.5	menos quarenta e um euros com cinquenta centavos de euro
 money	pt	eur	-1000	menos um mil euros com zero centavo de euro
+money	pt	eur	1.999	dois euros com zero centavo de euro
+money	pt	eur	123.456	cento e vinte e três euros com quarenta e seis centavos de euro
+money	pt	eur	1.005	um euro com um centavo de euro
 money	pt	usd	0	zero dólar com zero centavo
 money	pt	usd	0.01	zero dólar com um centavo
 money	pt	usd	0.02	zero dólar com dois centavos
@@ -1809,6 +1944,9 @@ money	pt	usd	-1	menos um dólar com zero centavo
 money	pt	usd	-2	menos dois dólares com zero centavo
 money	pt	usd	-41.5	menos quarenta e um dólares com cinquenta centavos
 money	pt	usd	-1000	menos um mil dólares com zero centavo
+money	pt	usd	1.999	dois dólares com zero centavo
+money	pt	usd	123.456	cento e vinte e três dólares com quarenta e seis centavos
+money	pt	usd	1.005	um dólar com um centavo
 money	pt	rub	0	zero rublo com zero kopek
 money	pt	rub	0.01	zero rublo com um kopek
 money	pt	rub	0.02	zero rublo com dois kopeks
@@ -1845,6 +1983,9 @@ money	pt	rub	-1	menos um rublo com zero kopek
 money	pt	rub	-2	menos dois rublos com zero kopek
 money	pt	rub	-41.5	menos quarenta e um rublos com cinquenta kopeks
 money	pt	rub	-1000	menos um mil rublos com zero kopek
+money	pt	rub	1.999	dois rublos com zero kopek
+money	pt	rub	123.456	cento e vinte e três rublos com quarenta e seis kopeks
+money	pt	rub	1.005	um rublo com um kopek
 money	pt	try	0	zero lira turco com zero kuruş
 money	pt	try	0.01	zero lira turco com um kuruş
 money	pt	try	0.02	zero lira turco com dois kuruş
@@ -1881,6 +2022,9 @@ money	pt	try	-1	menos um lira turco com zero kuruş
 money	pt	try	-2	menos dois liras turco com zero kuruş
 money	pt	try	-41.5	menos quarenta e um liras turco com cinquenta kuruş
 money	pt	try	-1000	menos um mil liras turco com zero kuruş
+money	pt	try	1.999	dois liras turco com zero kuruş
+money	pt	try	123.456	cento e vinte e três liras turco com quarenta e seis kuruş
+money	pt	try	1.005	um lira turco com um kuruş
 money	pt	uah	0	zero grivna ucraniana com zero kopek
 money	pt	uah	0.01	zero grivna ucraniana com um kopek
 money	pt	uah	0.02	zero grivna ucraniana com dois kopeks
@@ -1917,6 +2061,9 @@ money	pt	uah	-1	menos um grivna ucraniana com zero kopek
 money	pt	uah	-2	menos dois grivnas ucraniana com zero kopek
 money	pt	uah	-41.5	menos quarenta e um grivnas ucraniana com cinquenta kopeks
 money	pt	uah	-1000	menos um mil grivnas ucraniana com zero kopek
+money	pt	uah	1.999	dois grivnas ucraniana com zero kopek
+money	pt	uah	123.456	cento e vinte e três grivnas ucraniana com quarenta e seis kopeks
+money	pt	uah	1.005	um grivna ucraniana com um kopek
 money	pt	bgn	0	
 money	pt	bgn	0.01	
 money	pt	bgn	0.02	
@@ -1953,6 +2100,9 @@ money	pt	bgn	-1
 money	pt	bgn	-2	
 money	pt	bgn	-41.5	
 money	pt	bgn	-1000	
+money	pt	bgn	1.999	
+money	pt	bgn	123.456	
+money	pt	bgn	1.005	
 money	pt	etb	0	zero birr com zero centavo
 money	pt	etb	0.01	zero birr com um centavo
 money	pt	etb	0.02	zero birr com dois centavos
@@ -1989,6 +2139,9 @@ money	pt	etb	-1	menos um birr com zero centavo
 money	pt	etb	-2	menos dois birr com zero centavo
 money	pt	etb	-41.5	menos quarenta e um birr com cinquenta centavos
 money	pt	etb	-1000	menos um mil birr com zero centavo
+money	pt	etb	1.999	dois birr com zero centavo
+money	pt	etb	123.456	cento e vinte e três birr com quarenta e seis centavos
+money	pt	etb	1.005	um birr com um centavo
 money	pt	pln	0	zero zloty com zero groszy
 money	pt	pln	0.01	zero zloty com um groszy
 money	pt	pln	0.02	zero zloty com dois groszy
@@ -2025,6 +2178,9 @@ money	pt	pln	-1	menos um zloty com zero groszy
 money	pt	pln	-2	menos dois zloty com zero groszy
 money	pt	pln	-41.5	menos quarenta e um zloty com cinquenta groszy
 money	pt	pln	-1000	menos um mil zloty com zero groszy
+money	pt	pln	1.999	dois zloty com zero groszy
+money	pt	pln	123.456	cento e vinte e três zloty com quarenta e seis groszy
+money	pt	pln	1.005	um zloty com um groszy
 money	pt	byn	0	zero rublo bielorruso com zero kopek
 money	pt	byn	0.01	zero rublo bielorruso com um kopek
 money	pt	byn	0.02	zero rublo bielorruso com dois kopeks
@@ -2061,6 +2217,9 @@ money	pt	byn	-1	menos um rublo bielorruso com zero kopek
 money	pt	byn	-2	menos dois rublos bielorrusos com zero kopek
 money	pt	byn	-41.5	menos quarenta e um rublos bielorrusos com cinquenta kopeks
 money	pt	byn	-1000	menos um mil rublos bielorrusos com zero kopek
+money	pt	byn	1.999	dois rublos bielorrusos com zero kopek
+money	pt	byn	123.456	cento e vinte e três rublos bielorrusos com quarenta e seis kopeks
+money	pt	byn	1.005	um rublo bielorruso com um kopek
 money	pt	ars	0	zero peso com zero centavo
 money	pt	ars	0.01	zero peso com um centavo
 money	pt	ars	0.02	zero peso com dois centavos
@@ -2097,6 +2256,9 @@ money	pt	ars	-1	menos um peso com zero centavo
 money	pt	ars	-2	menos dois pesos com zero centavo
 money	pt	ars	-41.5	menos quarenta e um pesos com cinquenta centavos
 money	pt	ars	-1000	menos um mil pesos com zero centavo
+money	pt	ars	1.999	dois pesos com zero centavo
+money	pt	ars	123.456	cento e vinte e três pesos com quarenta e seis centavos
+money	pt	ars	1.005	um peso com um centavo
 money	pt	brl	0	zero real com zero centavo
 money	pt	brl	0.01	zero real com um centavo
 money	pt	brl	0.02	zero real com dois centavos
@@ -2133,6 +2295,9 @@ money	pt	brl	-1	menos um real com zero centavo
 money	pt	brl	-2	menos dois reais com zero centavo
 money	pt	brl	-41.5	menos quarenta e um reais com cinquenta centavos
 money	pt	brl	-1000	menos um mil reais com zero centavo
+money	pt	brl	1.999	dois reais com zero centavo
+money	pt	brl	123.456	cento e vinte e três reais com quarenta e seis centavos
+money	pt	brl	1.005	um real com um centavo
 plain	tr	0	sıfır
 plain	tr	1	bir
 plain	tr	2	iki
@@ -2200,6 +2365,9 @@ money	tr	eur	-1	eksi bir avro sıfır avro sent
 money	tr	eur	-2	eksi iki avro sıfır avro sent
 money	tr	eur	-41.5	eksi kırk bir avro elli avro sent
 money	tr	eur	-1000	eksi bin avro sıfır avro sent
+money	tr	eur	1.999	iki avro sıfır avro sent
+money	tr	eur	123.456	yüz yirmi üç avro kırk altı avro sent
+money	tr	eur	1.005	bir avro bir avro sent
 money	tr	usd	0	sıfır dolar sıfır sent
 money	tr	usd	0.01	sıfır dolar bir sent
 money	tr	usd	0.02	sıfır dolar iki sent
@@ -2236,6 +2404,9 @@ money	tr	usd	-1	eksi bir dolar sıfır sent
 money	tr	usd	-2	eksi iki dolar sıfır sent
 money	tr	usd	-41.5	eksi kırk bir dolar elli sent
 money	tr	usd	-1000	eksi bin dolar sıfır sent
+money	tr	usd	1.999	iki dolar sıfır sent
+money	tr	usd	123.456	yüz yirmi üç dolar kırk altı sent
+money	tr	usd	1.005	bir dolar bir sent
 money	tr	rub	0	sıfır ruble sıfır kopek
 money	tr	rub	0.01	sıfır ruble bir kopek
 money	tr	rub	0.02	sıfır ruble iki kopek
@@ -2272,6 +2443,9 @@ money	tr	rub	-1	eksi bir ruble sıfır kopek
 money	tr	rub	-2	eksi iki ruble sıfır kopek
 money	tr	rub	-41.5	eksi kırk bir ruble elli kopek
 money	tr	rub	-1000	eksi bin ruble sıfır kopek
+money	tr	rub	1.999	iki ruble sıfır kopek
+money	tr	rub	123.456	yüz yirmi üç ruble kırk altı kopek
+money	tr	rub	1.005	bir ruble bir kopek
 money	tr	try	0	sıfır türk lirası sıfır kuruş
 money	tr	try	0.01	sıfır türk lirası bir kuruş
 money	tr	try	0.02	sıfır türk lirası iki kuruş
@@ -2308,6 +2482,9 @@ money	tr	try	-1	eksi bir türk lirası sıfır kuruş
 money	tr	try	-2	eksi iki türk lirası sıfır kuruş
 money	tr	try	-41.5	eksi kırk bir türk lirası elli kuruş
 money	tr	try	-1000	eksi bin türk lirası sıfır kuruş
+money	tr	try	1.999	iki türk lirası sıfır kuruş
+money	tr	try	123.456	yüz yirmi üç türk lirası kırk altı kuruş
+money	tr	try	1.005	bir türk lirası bir kuruş
 money	tr	uah	0	sıfır grivna sıfır kopiyka
 money	tr	uah	0.01	sıfır grivna bir kopiyka
 money	tr	uah	0.02	sıfır grivna iki kopiyka
@@ -2344,6 +2521,9 @@ money	tr	uah	-1	eksi bir grivna sıfır kopiyka
 money	tr	uah	-2	eksi iki grivna sıfır kopiyka
 money	tr	uah	-41.5	eksi kırk bir grivna elli kopiyka
 money	tr	uah	-1000	eksi bin grivna sıfır kopiyka
+money	tr	uah	1.999	iki grivna sıfır kopiyka
+money	tr	uah	123.456	yüz yirmi üç grivna kırk altı kopiyka
+money	tr	uah	1.005	bir grivna bir kopiyka
 money	tr	bgn	0	
 money	tr	bgn	0.01	
 money	tr	bgn	0.02	
@@ -2380,6 +2560,9 @@ money	tr	bgn	-1
 money	tr	bgn	-2	
 money	tr	bgn	-41.5	
 money	tr	bgn	-1000	
+money	tr	bgn	1.999	
+money	tr	bgn	123.456	
+money	tr	bgn	1.005	
 money	tr	etb	0	sıfır birr sıfır santim
 money	tr	etb	0.01	sıfır birr bir santim
 money	tr	etb	0.02	sıfır birr iki santim
@@ -2416,6 +2599,9 @@ money	tr	etb	-1	eksi bir birr sıfır santim
 money	tr	etb	-2	eksi iki birr sıfır santim
 money	tr	etb	-41.5	eksi kırk bir birr elli santim
 money	tr	etb	-1000	eksi bin birr sıfır santim
+money	tr	etb	1.999	iki birr sıfır santim
+money	tr	etb	123.456	yüz yirmi üç birr kırk altı santim
+money	tr	etb	1.005	bir birr bir santim
 money	tr	pln	0	sıfır zloti sıfır grosz
 money	tr	pln	0.01	sıfır zloti bir grosz
 money	tr	pln	0.02	sıfır zloti iki grosz
@@ -2452,6 +2638,9 @@ money	tr	pln	-1	eksi bir zloti sıfır grosz
 money	tr	pln	-2	eksi iki zloti sıfır grosz
 money	tr	pln	-41.5	eksi kırk bir zloti elli grosz
 money	tr	pln	-1000	eksi bin zloti sıfır grosz
+money	tr	pln	1.999	iki zloti sıfır grosz
+money	tr	pln	123.456	yüz yirmi üç zloti kırk altı grosz
+money	tr	pln	1.005	bir zloti bir grosz
 money	tr	byn	0	sıfır Belarus rublesi sıfır kopek
 money	tr	byn	0.01	sıfır Belarus rublesi bir kopek
 money	tr	byn	0.02	sıfır Belarus rublesi iki kopek
@@ -2488,6 +2677,9 @@ money	tr	byn	-1	eksi bir Belarus rublesi sıfır kopek
 money	tr	byn	-2	eksi iki Belarus rublesi sıfır kopek
 money	tr	byn	-41.5	eksi kırk bir Belarus rublesi elli kopek
 money	tr	byn	-1000	eksi bin Belarus rublesi sıfır kopek
+money	tr	byn	1.999	iki Belarus rublesi sıfır kopek
+money	tr	byn	123.456	yüz yirmi üç Belarus rublesi kırk altı kopek
+money	tr	byn	1.005	bir Belarus rublesi bir kopek
 money	tr	ars	0	
 money	tr	ars	0.01	
 money	tr	ars	0.02	
@@ -2524,6 +2716,9 @@ money	tr	ars	-1
 money	tr	ars	-2	
 money	tr	ars	-41.5	
 money	tr	ars	-1000	
+money	tr	ars	1.999	
+money	tr	ars	123.456	
+money	tr	ars	1.005	
 money	tr	brl	0	
 money	tr	brl	0.01	
 money	tr	brl	0.02	
@@ -2560,6 +2755,9 @@ money	tr	brl	-1
 money	tr	brl	-2	
 money	tr	brl	-41.5	
 money	tr	brl	-1000	
+money	tr	brl	1.999	
+money	tr	brl	123.456	
+money	tr	brl	1.005	
 plain	ru	0	ноль
 plain	ru	1	один
 plain	ru	2	два
@@ -2627,6 +2825,9 @@ money	ru	eur	-1	минус один евро ноль евроцентов
 money	ru	eur	-2	минус два евро ноль евроцентов
 money	ru	eur	-41.5	минус сорок один евро пятьдесят евроцентов
 money	ru	eur	-1000	минус одна тысяча евро ноль евроцентов
+money	ru	eur	1.999	два евро ноль евроцентов
+money	ru	eur	123.456	сто двадцать три евро сорок шесть евроцентов
+money	ru	eur	1.005	один евро один евроцент
 money	ru	usd	0	ноль долларов ноль центов
 money	ru	usd	0.01	ноль долларов один цент
 money	ru	usd	0.02	ноль долларов два цента
@@ -2663,6 +2864,9 @@ money	ru	usd	-1	минус один доллар ноль центов
 money	ru	usd	-2	минус два доллара ноль центов
 money	ru	usd	-41.5	минус сорок один доллар пятьдесят центов
 money	ru	usd	-1000	минус одна тысяча долларов ноль центов
+money	ru	usd	1.999	два доллара ноль центов
+money	ru	usd	123.456	сто двадцать три доллара сорок шесть центов
+money	ru	usd	1.005	один доллар один цент
 money	ru	rub	0	ноль рублей ноль копеек
 money	ru	rub	0.01	ноль рублей одна копейка
 money	ru	rub	0.02	ноль рублей две копейки
@@ -2699,6 +2903,9 @@ money	ru	rub	-1	минус один рубль ноль копеек
 money	ru	rub	-2	минус два рубля ноль копеек
 money	ru	rub	-41.5	минус сорок один рубль пятьдесят копеек
 money	ru	rub	-1000	минус одна тысяча рублей ноль копеек
+money	ru	rub	1.999	два рубля ноль копеек
+money	ru	rub	123.456	сто двадцать три рубля сорок шесть копеек
+money	ru	rub	1.005	один рубль одна копейка
 money	ru	try	0	ноль турецких лир ноль курушей
 money	ru	try	0.01	ноль турецких лир один куруш
 money	ru	try	0.02	ноль турецких лир два куруша
@@ -2735,6 +2942,9 @@ money	ru	try	-1	минус одна турецкая лира ноль куру�
 money	ru	try	-2	минус две турецких лир ноль курушей
 money	ru	try	-41.5	минус сорок одна турецкая лира пятьдесят курушей
 money	ru	try	-1000	минус одна тысяча турецких лир ноль курушей
+money	ru	try	1.999	две турецких лир ноль курушей
+money	ru	try	123.456	сто двадцать три турецких лир сорок шесть курушей
+money	ru	try	1.005	одна турецкая лира один куруш
 money	ru	uah	0	ноль гривень ноль копеек
 money	ru	uah	0.01	ноль гривень одна копейка
 money	ru	uah	0.02	ноль гривень две копейки
@@ -2771,6 +2981,9 @@ money	ru	uah	-1	минус одна гривня ноль копеек
 money	ru	uah	-2	минус две гривні ноль копеек
 money	ru	uah	-41.5	минус сорок одна гривня пятьдесят копеек
 money	ru	uah	-1000	минус одна тысяча гривень ноль копеек
+money	ru	uah	1.999	две гривні ноль копеек
+money	ru	uah	123.456	сто двадцать три гривні сорок шесть копеек
+money	ru	uah	1.005	одна гривня одна копейка
 money	ru	bgn	0	
 money	ru	bgn	0.01	
 money	ru	bgn	0.02	
@@ -2807,6 +3020,9 @@ money	ru	bgn	-1
 money	ru	bgn	-2	
 money	ru	bgn	-41.5	
 money	ru	bgn	-1000	
+money	ru	bgn	1.999	
+money	ru	bgn	123.456	
+money	ru	bgn	1.005	
 money	ru	etb	0	ноль быр ноль копеек
 money	ru	etb	0.01	ноль быр одна копейка
 money	ru	etb	0.02	ноль быр две копейки
@@ -2843,6 +3059,9 @@ money	ru	etb	-1	минус один быр ноль копеек
 money	ru	etb	-2	минус два быр ноль копеек
 money	ru	etb	-41.5	минус сорок один быр пятьдесят копеек
 money	ru	etb	-1000	минус одна тысяча быр ноль копеек
+money	ru	etb	1.999	два быр ноль копеек
+money	ru	etb	123.456	сто двадцать три быр сорок шесть копеек
+money	ru	etb	1.005	один быр одна копейка
 money	ru	pln	0	ноль злотых ноль грошей
 money	ru	pln	0.01	ноль злотых один грош
 money	ru	pln	0.02	ноль злотых два гроша
@@ -2879,6 +3098,9 @@ money	ru	pln	-1	минус один злотый ноль грошей
 money	ru	pln	-2	минус два злотый ноль грошей
 money	ru	pln	-41.5	минус сорок один злотый пятьдесят грошей
 money	ru	pln	-1000	минус одна тысяча злотых ноль грошей
+money	ru	pln	1.999	два злотый ноль грошей
+money	ru	pln	123.456	сто двадцать три злотый сорок шесть грошей
+money	ru	pln	1.005	один злотый один грош
 money	ru	byn	0	ноль белорусских рублей ноль копеек
 money	ru	byn	0.01	ноль белорусских рублей одна копейка
 money	ru	byn	0.02	ноль белорусских рублей две копейки
@@ -2915,6 +3137,9 @@ money	ru	byn	-1	минус один белорусский рубль ноль �
 money	ru	byn	-2	минус два белорусских рубля ноль копеек
 money	ru	byn	-41.5	минус сорок один белорусский рубль пятьдесят копеек
 money	ru	byn	-1000	минус одна тысяча белорусских рублей ноль копеек
+money	ru	byn	1.999	два белорусских рубля ноль копеек
+money	ru	byn	123.456	сто двадцать три белорусских рубля сорок шесть копеек
+money	ru	byn	1.005	один белорусский рубль одна копейка
 money	ru	ars	0	
 money	ru	ars	0.01	
 money	ru	ars	0.02	
@@ -2951,6 +3176,9 @@ money	ru	ars	-1
 money	ru	ars	-2	
 money	ru	ars	-41.5	
 money	ru	ars	-1000	
+money	ru	ars	1.999	
+money	ru	ars	123.456	
+money	ru	ars	1.005	
 money	ru	brl	0	
 money	ru	brl	0.01	
 money	ru	brl	0.02	
@@ -2987,6 +3215,9 @@ money	ru	brl	-1
 money	ru	brl	-2	
 money	ru	brl	-41.5	
 money	ru	brl	-1000	
+money	ru	brl	1.999	
+money	ru	brl	123.456	
+money	ru	brl	1.005	
 plain	ua	0	Нуль
 plain	ua	1	Один
 plain	ua	2	Два
@@ -3054,6 +3285,9 @@ money	ua	eur	-1	мінус Один євро Нуль євроцентів
 money	ua	eur	-2	мінус Два євро Нуль євроцентів
 money	ua	eur	-41.5	мінус Сорок Один євро П'ятдесят євроцентів
 money	ua	eur	-1000	мінус Одна тисяча євро Нуль євроцентів
+money	ua	eur	1.999	Два євро Нуль євроцентів
+money	ua	eur	123.456	Сто Двадцять Три євро Сорок Шість євроцентів
+money	ua	eur	1.005	Один євро Один євроцент
 money	ua	usd	0	Нуль доларів Нуль центів
 money	ua	usd	0.01	Нуль доларів Один цент
 money	ua	usd	0.02	Нуль доларів Два центи
@@ -3090,6 +3324,9 @@ money	ua	usd	-1	мінус Один долар Нуль центів
 money	ua	usd	-2	мінус Два долари Нуль центів
 money	ua	usd	-41.5	мінус Сорок Один долар П'ятдесят центів
 money	ua	usd	-1000	мінус Одна тисяча доларів Нуль центів
+money	ua	usd	1.999	Два долари Нуль центів
+money	ua	usd	123.456	Сто Двадцять Три долари Сорок Шість центів
+money	ua	usd	1.005	Один долар Один цент
 money	ua	rub	0	Нуль рублів Нуль копійок
 money	ua	rub	0.01	Нуль рублів Одна копійка
 money	ua	rub	0.02	Нуль рублів Дві копійки
@@ -3126,6 +3363,9 @@ money	ua	rub	-1	мінус Один рубль Нуль копійок
 money	ua	rub	-2	мінус Два рублі Нуль копійок
 money	ua	rub	-41.5	мінус Сорок Один рубль П'ятдесят копійок
 money	ua	rub	-1000	мінус Одна тисяча рублів Нуль копійок
+money	ua	rub	1.999	Два рублі Нуль копійок
+money	ua	rub	123.456	Сто Двадцять Три рублі Сорок Шість копійок
+money	ua	rub	1.005	Один рубль Одна копійка
 money	ua	try	0	Нуль турецьких лір Нуль курушів
 money	ua	try	0.01	Нуль турецьких лір Один куруш
 money	ua	try	0.02	Нуль турецьких лір Два куруші
@@ -3162,6 +3402,9 @@ money	ua	try	-1	мінус Одна турецька ліра Нуль куру�
 money	ua	try	-2	мінус Дві турецькі ліри Нуль курушів
 money	ua	try	-41.5	мінус Сорок Одна турецька ліра П'ятдесят курушів
 money	ua	try	-1000	мінус Одна тисяча турецьких лір Нуль курушів
+money	ua	try	1.999	Дві турецькі ліри Нуль курушів
+money	ua	try	123.456	Сто Двадцять Три турецькі ліри Сорок Шість курушів
+money	ua	try	1.005	Одна турецька ліра Один куруш
 money	ua	uah	0	Нуль гривень Нуль копійок
 money	ua	uah	0.01	Нуль гривень Одна копійка
 money	ua	uah	0.02	Нуль гривень Дві копійки
@@ -3198,6 +3441,9 @@ money	ua	uah	-1	мінус Одна гривня Нуль копійок
 money	ua	uah	-2	мінус Дві гривні Нуль копійок
 money	ua	uah	-41.5	мінус Сорок Одна гривня П'ятдесят копійок
 money	ua	uah	-1000	мінус Одна тисяча гривень Нуль копійок
+money	ua	uah	1.999	Дві гривні Нуль копійок
+money	ua	uah	123.456	Сто Двадцять Три гривні Сорок Шість копійок
+money	ua	uah	1.005	Одна гривня Одна копійка
 money	ua	bgn	0	
 money	ua	bgn	0.01	
 money	ua	bgn	0.02	
@@ -3234,6 +3480,9 @@ money	ua	bgn	-1
 money	ua	bgn	-2	
 money	ua	bgn	-41.5	
 money	ua	bgn	-1000	
+money	ua	bgn	1.999	
+money	ua	bgn	123.456	
+money	ua	bgn	1.005	
 money	ua	etb	0	Нуль бирів Нуль центів
 money	ua	etb	0.01	Нуль бирів Один цент
 money	ua	etb	0.02	Нуль бирів Два центи
@@ -3270,6 +3519,9 @@ money	ua	etb	-1	мінус Один бир Нуль центів
 money	ua	etb	-2	мінус Два бири Нуль центів
 money	ua	etb	-41.5	мінус Сорок Один бир П'ятдесят центів
 money	ua	etb	-1000	мінус Одна тисяча бирів Нуль центів
+money	ua	etb	1.999	Два бири Нуль центів
+money	ua	etb	123.456	Сто Двадцять Три бири Сорок Шість центів
+money	ua	etb	1.005	Один бир Один цент
 money	ua	pln	0	Нуль злотих Нуль грошів
 money	ua	pln	0.01	Нуль злотих Один гріш
 money	ua	pln	0.02	Нуль злотих Два гроші
@@ -3306,6 +3558,9 @@ money	ua	pln	-1	мінус Один злотий Нуль грошів
 money	ua	pln	-2	мінус Два злоті Нуль грошів
 money	ua	pln	-41.5	мінус Сорок Один злотий П'ятдесят грошів
 money	ua	pln	-1000	мінус Одна тисяча злотих Нуль грошів
+money	ua	pln	1.999	Два злоті Нуль грошів
+money	ua	pln	123.456	Сто Двадцять Три злоті Сорок Шість грошів
+money	ua	pln	1.005	Один злотий Один гріш
 money	ua	byn	0	
 money	ua	byn	0.01	
 money	ua	byn	0.02	
@@ -3342,6 +3597,9 @@ money	ua	byn	-1
 money	ua	byn	-2	
 money	ua	byn	-41.5	
 money	ua	byn	-1000	
+money	ua	byn	1.999	
+money	ua	byn	123.456	
+money	ua	byn	1.005	
 money	ua	ars	0	
 money	ua	ars	0.01	
 money	ua	ars	0.02	
@@ -3378,6 +3636,9 @@ money	ua	ars	-1
 money	ua	ars	-2	
 money	ua	ars	-41.5	
 money	ua	ars	-1000	
+money	ua	ars	1.999	
+money	ua	ars	123.456	
+money	ua	ars	1.005	
 money	ua	brl	0	
 money	ua	brl	0.01	
 money	ua	brl	0.02	
@@ -3414,6 +3675,9 @@ money	ua	brl	-1
 money	ua	brl	-2	
 money	ua	brl	-41.5	
 money	ua	brl	-1000	
+money	ua	brl	1.999	
+money	ua	brl	123.456	
+money	ua	brl	1.005	
 plain	by	0	нуль
 plain	by	1	адзін
 plain	by	2	два
@@ -3481,6 +3745,9 @@ money	by	eur	-1	мінус адзін евро нуль евроцэнтаў
 money	by	eur	-2	мінус два евро нуль евроцэнтаў
 money	by	eur	-41.5	мінус сорак адзін евро пяцьдзесят евроцэнтаў
 money	by	eur	-1000	мінус адна тысяча евро нуль евроцэнтаў
+money	by	eur	1.999	два евро нуль евроцэнтаў
+money	by	eur	123.456	сто дваццаць тры евро сорак шэсць евроцэнтаў
+money	by	eur	1.005	адзін евро адзін евроцэнт
 money	by	usd	0	нуль даляраў нуль цэнтаў
 money	by	usd	0.01	нуль даляраў адзін цэнт
 money	by	usd	0.02	нуль даляраў два цэнта
@@ -3517,6 +3784,9 @@ money	by	usd	-1	мінус адзін даляр нуль цэнтаў
 money	by	usd	-2	мінус два даляра нуль цэнтаў
 money	by	usd	-41.5	мінус сорак адзін даляр пяцьдзесят цэнтаў
 money	by	usd	-1000	мінус адна тысяча даляраў нуль цэнтаў
+money	by	usd	1.999	два даляра нуль цэнтаў
+money	by	usd	123.456	сто дваццаць тры даляра сорак шэсць цэнтаў
+money	by	usd	1.005	адзін даляр адзін цэнт
 money	by	rub	0	нуль рублёў нуль капеек
 money	by	rub	0.01	нуль рублёў адна капейка
 money	by	rub	0.02	нуль рублёў дзве капейкі
@@ -3553,6 +3823,9 @@ money	by	rub	-1	мінус адзін рубель нуль капеек
 money	by	rub	-2	мінус два рубля нуль капеек
 money	by	rub	-41.5	мінус сорак адзін рубель пяцьдзесят капеек
 money	by	rub	-1000	мінус адна тысяча рублёў нуль капеек
+money	by	rub	1.999	два рубля нуль капеек
+money	by	rub	123.456	сто дваццаць тры рубля сорак шэсць капеек
+money	by	rub	1.005	адзін рубель адна капейка
 money	by	try	0	нуль турэцкіх лір нуль курушей
 money	by	try	0.01	нуль турэцкіх лір адзін куруш
 money	by	try	0.02	нуль турэцкіх лір два курушы
@@ -3589,6 +3862,9 @@ money	by	try	-1	мінус адна турэцкая ліра нуль куру�
 money	by	try	-2	мінус дзве турэцкіх лір нуль курушей
 money	by	try	-41.5	мінус сорак адна турэцкая ліра пяцьдзесят курушей
 money	by	try	-1000	мінус адна тысяча турэцкіх лір нуль курушей
+money	by	try	1.999	дзве турэцкіх лір нуль курушей
+money	by	try	123.456	сто дваццаць тры турэцкіх лір сорак шэсць курушей
+money	by	try	1.005	адна турэцкая ліра адзін куруш
 money	by	uah	0	нуль грыўняў нуль капеек
 money	by	uah	0.01	нуль грыўняў адна капейка
 money	by	uah	0.02	нуль грыўняў дзве капейкі
@@ -3625,6 +3901,9 @@ money	by	uah	-1	мінус адна грыўна нуль капеек
 money	by	uah	-2	мінус дзве грыўны нуль капеек
 money	by	uah	-41.5	мінус сорак адна грыўна пяцьдзесят капеек
 money	by	uah	-1000	мінус адна тысяча грыўняў нуль капеек
+money	by	uah	1.999	дзве грыўны нуль капеек
+money	by	uah	123.456	сто дваццаць тры грыўны сорак шэсць капеек
+money	by	uah	1.005	адна грыўна адна капейка
 money	by	bgn	0	
 money	by	bgn	0.01	
 money	by	bgn	0.02	
@@ -3661,6 +3940,9 @@ money	by	bgn	-1
 money	by	bgn	-2	
 money	by	bgn	-41.5	
 money	by	bgn	-1000	
+money	by	bgn	1.999	
+money	by	bgn	123.456	
+money	by	bgn	1.005	
 money	by	etb	0	нуль быр нуль капеек
 money	by	etb	0.01	нуль быр адна капейка
 money	by	etb	0.02	нуль быр дзве капейкі
@@ -3697,6 +3979,9 @@ money	by	etb	-1	мінус адзін быр нуль капеек
 money	by	etb	-2	мінус два быр нуль капеек
 money	by	etb	-41.5	мінус сорак адзін быр пяцьдзесят капеек
 money	by	etb	-1000	мінус адна тысяча быр нуль капеек
+money	by	etb	1.999	два быр нуль капеек
+money	by	etb	123.456	сто дваццаць тры быр сорак шэсць капеек
+money	by	etb	1.005	адзін быр адна капейка
 money	by	pln	0	нуль злотых нуль грошаў
 money	by	pln	0.01	нуль злотых адзін грош
 money	by	pln	0.02	нуль злотых два гроша
@@ -3733,6 +4018,9 @@ money	by	pln	-1	мінус адзін злоты нуль грошаў
 money	by	pln	-2	мінус два злотых нуль грошаў
 money	by	pln	-41.5	мінус сорак адзін злоты пяцьдзесят грошаў
 money	by	pln	-1000	мінус адна тысяча злотых нуль грошаў
+money	by	pln	1.999	два злотых нуль грошаў
+money	by	pln	123.456	сто дваццаць тры злотых сорак шэсць грошаў
+money	by	pln	1.005	адзін злоты адзін грош
 money	by	byn	0	нуль беларускіх рублёў нуль капеек
 money	by	byn	0.01	нуль беларускіх рублёў адна капейка
 money	by	byn	0.02	нуль беларускіх рублёў дзве капейкі
@@ -3769,6 +4057,9 @@ money	by	byn	-1	мінус адзін беларускі рубель нуль �
 money	by	byn	-2	мінус два беларускіх рубля нуль капеек
 money	by	byn	-41.5	мінус сорак адзін беларускі рубель пяцьдзесят капеек
 money	by	byn	-1000	мінус адна тысяча беларускіх рублёў нуль капеек
+money	by	byn	1.999	два беларускіх рубля нуль капеек
+money	by	byn	123.456	сто дваццаць тры беларускіх рубля сорак шэсць капеек
+money	by	byn	1.005	адзін беларускі рубель адна капейка
 money	by	ars	0	
 money	by	ars	0.01	
 money	by	ars	0.02	
@@ -3805,6 +4096,9 @@ money	by	ars	-1
 money	by	ars	-2	
 money	by	ars	-41.5	
 money	by	ars	-1000	
+money	by	ars	1.999	
+money	by	ars	123.456	
+money	by	ars	1.005	
 money	by	brl	0	
 money	by	brl	0.01	
 money	by	brl	0.02	
@@ -3841,6 +4135,9 @@ money	by	brl	-1
 money	by	brl	-2	
 money	by	brl	-41.5	
 money	by	brl	-1000	
+money	by	brl	1.999	
+money	by	brl	123.456	
+money	by	brl	1.005	
 plain	bg	0	нула
 plain	bg	1	един
 plain	bg	2	два
@@ -3908,6 +4205,9 @@ money	bg	eur	-1	минус един евро и нула евроцента
 money	bg	eur	-2	минус два евро и нула евроцента
 money	bg	eur	-41.5	минус четиридесет и един евро и петдесет евроцента
 money	bg	eur	-1000	минус хиляда евро и нула евроцента
+money	bg	eur	1.999	два евро и нула евроцента
+money	bg	eur	123.456	сто двадесет и три евро и четиридесет и шест евроцента
+money	bg	eur	1.005	един евро и един евроцент
 money	bg	usd	0	нула долара и нула цента
 money	bg	usd	0.01	нула долара и един цент
 money	bg	usd	0.02	нула долара и два цента
@@ -3944,6 +4244,9 @@ money	bg	usd	-1	минус един долар и нула цента
 money	bg	usd	-2	минус два долара и нула цента
 money	bg	usd	-41.5	минус четиридесет и един долара и петдесет цента
 money	bg	usd	-1000	минус хиляда долара и нула цента
+money	bg	usd	1.999	два долара и нула цента
+money	bg	usd	123.456	сто двадесет и три долара и четиридесет и шест цента
+money	bg	usd	1.005	един долар и един цент
 money	bg	rub	0	нула рубли и нула копейки
 money	bg	rub	0.01	нула рубли и една копейки
 money	bg	rub	0.02	нула рубли и две копейки
@@ -3980,6 +4283,9 @@ money	bg	rub	-1	минус един рубли и нула копейки
 money	bg	rub	-2	минус два рубли и нула копейки
 money	bg	rub	-41.5	минус четиридесет и един рубли и петдесет копейки
 money	bg	rub	-1000	минус хиляда рубли и нула копейки
+money	bg	rub	1.999	два рубли и нула копейки
+money	bg	rub	123.456	сто двадесет и три рубли и четиридесет и шест копейки
+money	bg	rub	1.005	един рубли и една копейки
 money	bg	try	0	нула турска лира и нула куруши
 money	bg	try	0.01	нула турска лира и един куруш
 money	bg	try	0.02	нула турска лира и два куруши
@@ -4016,6 +4322,9 @@ money	bg	try	-1	минус една турска лира и нула куруш
 money	bg	try	-2	минус две турска лира и нула куруши
 money	bg	try	-41.5	минус четиридесет и една турска лира и петдесет куруши
 money	bg	try	-1000	минус хиляда турска лира и нула куруши
+money	bg	try	1.999	две турска лира и нула куруши
+money	bg	try	123.456	сто двадесет и три турска лира и четиридесет и шест куруши
+money	bg	try	1.005	една турска лира и един куруш
 money	bg	uah	0	нула гривни и нула копейки
 money	bg	uah	0.01	нула гривни и една копейка
 money	bg	uah	0.02	нула гривни и две копейки
@@ -4052,6 +4361,9 @@ money	bg	uah	-1	минус една гривня и нула копейки
 money	bg	uah	-2	минус две гривни и нула копейки
 money	bg	uah	-41.5	минус четиридесет и една гривни и петдесет копейки
 money	bg	uah	-1000	минус хиляда гривни и нула копейки
+money	bg	uah	1.999	две гривни и нула копейки
+money	bg	uah	123.456	сто двадесет и три гривни и четиридесет и шест копейки
+money	bg	uah	1.005	една гривня и една копейка
 money	bg	bgn	0	нула лева и нула стотинки
 money	bg	bgn	0.01	нула лева и една стотинка
 money	bg	bgn	0.02	нула лева и две стотинки
@@ -4088,6 +4400,9 @@ money	bg	bgn	-1	минус един лев и нула стотинки
 money	bg	bgn	-2	минус два лева и нула стотинки
 money	bg	bgn	-41.5	минус четиридесет и един лева и петдесет стотинки
 money	bg	bgn	-1000	минус хиляда лева и нула стотинки
+money	bg	bgn	1.999	два лева и нула стотинки
+money	bg	bgn	123.456	сто двадесет и три лева и четиридесет и шест стотинки
+money	bg	bgn	1.005	един лев и една стотинка
 money	bg	etb	0	нула бр и нула стотинки
 money	bg	etb	0.01	нула бр и една стотинка
 money	bg	etb	0.02	нула бр и две стотинки
@@ -4124,6 +4439,9 @@ money	bg	etb	-1	минус един бр и нула стотинки
 money	bg	etb	-2	минус два бр и нула стотинки
 money	bg	etb	-41.5	минус четиридесет и един бр и петдесет стотинки
 money	bg	etb	-1000	минус хиляда бр и нула стотинки
+money	bg	etb	1.999	два бр и нула стотинки
+money	bg	etb	123.456	сто двадесет и три бр и четиридесет и шест стотинки
+money	bg	etb	1.005	един бр и една стотинка
 money	bg	pln	0	нула злоти и нула гроз
 money	bg	pln	0.01	нула злоти и един гроз
 money	bg	pln	0.02	нула злоти и два гроз
@@ -4160,6 +4478,9 @@ money	bg	pln	-1	минус един злоти и нула гроз
 money	bg	pln	-2	минус два злоти и нула гроз
 money	bg	pln	-41.5	минус четиридесет и един злоти и петдесет гроз
 money	bg	pln	-1000	минус хиляда злоти и нула гроз
+money	bg	pln	1.999	два злоти и нула гроз
+money	bg	pln	123.456	сто двадесет и три злоти и четиридесет и шест гроз
+money	bg	pln	1.005	един злоти и един гроз
 money	bg	byn	0	нула белоруски рубли и нула копейки
 money	bg	byn	0.01	нула белоруски рубли и една копейки
 money	bg	byn	0.02	нула белоруски рубли и две копейки
@@ -4196,6 +4517,9 @@ money	bg	byn	-1	минус един белоруски рубли и нула к
 money	bg	byn	-2	минус два белоруски рубли и нула копейки
 money	bg	byn	-41.5	минус четиридесет и един белоруски рубли и петдесет копейки
 money	bg	byn	-1000	минус хиляда белоруски рубли и нула копейки
+money	bg	byn	1.999	два белоруски рубли и нула копейки
+money	bg	byn	123.456	сто двадесет и три белоруски рубли и четиридесет и шест копейки
+money	bg	byn	1.005	един белоруски рубли и една копейки
 money	bg	ars	0	
 money	bg	ars	0.01	
 money	bg	ars	0.02	
@@ -4232,6 +4556,9 @@ money	bg	ars	-1
 money	bg	ars	-2	
 money	bg	ars	-41.5	
 money	bg	ars	-1000	
+money	bg	ars	1.999	
+money	bg	ars	123.456	
+money	bg	ars	1.005	
 money	bg	brl	0	
 money	bg	brl	0.01	
 money	bg	brl	0.02	
@@ -4268,6 +4595,9 @@ money	bg	brl	-1
 money	bg	brl	-2	
 money	bg	brl	-41.5	
 money	bg	brl	-1000	
+money	bg	brl	1.999	
+money	bg	brl	123.456	
+money	bg	brl	1.005	
 plain	pl	0	Zero
 plain	pl	1	Jeden
 plain	pl	2	Dwa
@@ -4335,6 +4665,9 @@ money	pl	eur	-1	minus Jeden euro Zero eurocentów
 money	pl	eur	-2	minus Dwa euro Zero eurocentów
 money	pl	eur	-41.5	minus Czterdzieści Jeden euro Pięćdziesiąt eurocentów
 money	pl	eur	-1000	minus Jeden tysiąc euro Zero eurocentów
+money	pl	eur	1.999	Dwa euro Zero eurocentów
+money	pl	eur	123.456	Sto Dwadzieścia Trzy euro Czterdzieści Sześć eurocentów
+money	pl	eur	1.005	Jeden euro Jeden eurocent
 money	pl	usd	0	Zero dolarów Zero centów
 money	pl	usd	0.01	Zero dolarów Jeden cent
 money	pl	usd	0.02	Zero dolarów Dwa centy
@@ -4371,6 +4704,9 @@ money	pl	usd	-1	minus Jeden dolar Zero centów
 money	pl	usd	-2	minus Dwa dolary Zero centów
 money	pl	usd	-41.5	minus Czterdzieści Jeden dolar Pięćdziesiąt centów
 money	pl	usd	-1000	minus Jeden tysiąc dolarów Zero centów
+money	pl	usd	1.999	Dwa dolary Zero centów
+money	pl	usd	123.456	Sto Dwadzieścia Trzy dolary Czterdzieści Sześć centów
+money	pl	usd	1.005	Jeden dolar Jeden cent
 money	pl	rub	0	Zero rubli Zero kopiejek
 money	pl	rub	0.01	Zero rubli Jeden kopiejka
 money	pl	rub	0.02	Zero rubli Dwa kopiejki
@@ -4407,6 +4743,9 @@ money	pl	rub	-1	minus Jeden rubel Zero kopiejek
 money	pl	rub	-2	minus Dwa ruble Zero kopiejek
 money	pl	rub	-41.5	minus Czterdzieści Jeden rubel Pięćdziesiąt kopiejek
 money	pl	rub	-1000	minus Jeden tysiąc rubli Zero kopiejek
+money	pl	rub	1.999	Dwa ruble Zero kopiejek
+money	pl	rub	123.456	Sto Dwadzieścia Trzy ruble Czterdzieści Sześć kopiejek
+money	pl	rub	1.005	Jeden rubel Jeden kopiejka
 money	pl	try	0	Zero tureckich lirów Zero курушей
 money	pl	try	0.01	Zero tureckich lirów Jeden куруш
 money	pl	try	0.02	Zero tureckich lirów Dwa куруша
@@ -4443,6 +4782,9 @@ money	pl	try	-1	minus Jeden turecki lir Zero курушей
 money	pl	try	-2	minus Dwa tureckiego lira Zero курушей
 money	pl	try	-41.5	minus Czterdzieści Jeden turecki lir Pięćdziesiąt курушей
 money	pl	try	-1000	minus Jeden tysiąc tureckich lirów Zero курушей
+money	pl	try	1.999	Dwa tureckiego lira Zero курушей
+money	pl	try	123.456	Sto Dwadzieścia Trzy tureckiego lira Czterdzieści Sześć курушей
+money	pl	try	1.005	Jeden turecki lir Jeden куруш
 money	pl	uah	0	Zero hrywien Zero kopiejek
 money	pl	uah	0.01	Zero hrywien Jeden kopiejka
 money	pl	uah	0.02	Zero hrywien Dwa kopiejki
@@ -4479,6 +4821,9 @@ money	pl	uah	-1	minus Jeden hrywna Zero kopiejek
 money	pl	uah	-2	minus Dwa hrywny Zero kopiejek
 money	pl	uah	-41.5	minus Czterdzieści Jeden hrywna Pięćdziesiąt kopiejek
 money	pl	uah	-1000	minus Jeden tysiąc hrywien Zero kopiejek
+money	pl	uah	1.999	Dwa hrywny Zero kopiejek
+money	pl	uah	123.456	Sto Dwadzieścia Trzy hrywny Czterdzieści Sześć kopiejek
+money	pl	uah	1.005	Jeden hrywna Jeden kopiejka
 money	pl	bgn	0	
 money	pl	bgn	0.01	
 money	pl	bgn	0.02	
@@ -4515,6 +4860,9 @@ money	pl	bgn	-1
 money	pl	bgn	-2	
 money	pl	bgn	-41.5	
 money	pl	bgn	-1000	
+money	pl	bgn	1.999	
+money	pl	bgn	123.456	
+money	pl	bgn	1.005	
 money	pl	etb	0	Zero берр Zero копійок
 money	pl	etb	0.01	Zero берр Jeden копійка
 money	pl	etb	0.02	Zero берр Dwa копійки
@@ -4551,6 +4899,9 @@ money	pl	etb	-1	minus Jeden берр Zero копійок
 money	pl	etb	-2	minus Dwa берр Zero копійок
 money	pl	etb	-41.5	minus Czterdzieści Jeden берр Pięćdziesiąt копійок
 money	pl	etb	-1000	minus Jeden tysiąc берр Zero копійок
+money	pl	etb	1.999	Dwa берр Zero копійок
+money	pl	etb	123.456	Sto Dwadzieścia Trzy берр Czterdzieści Sześć копійок
+money	pl	etb	1.005	Jeden берр Jeden копійка
 money	pl	pln	0	Zero złotych Zero groszy
 money	pl	pln	0.01	Zero złotych Jeden grosz
 money	pl	pln	0.02	Zero złotych Dwa grosze
@@ -4587,6 +4938,9 @@ money	pl	pln	-1	minus Jeden złoty Zero groszy
 money	pl	pln	-2	minus Dwa złote Zero groszy
 money	pl	pln	-41.5	minus Czterdzieści Jeden złoty Pięćdziesiąt groszy
 money	pl	pln	-1000	minus Jeden tysiąc złotych Zero groszy
+money	pl	pln	1.999	Dwa złote Zero groszy
+money	pl	pln	123.456	Sto Dwadzieścia Trzy złote Czterdzieści Sześć groszy
+money	pl	pln	1.005	Jeden złoty Jeden grosz
 money	pl	byn	0	Zero rubli białoruskich Zero kopiejek
 money	pl	byn	0.01	Zero rubli białoruskich Jeden kopiejka
 money	pl	byn	0.02	Zero rubli białoruskich Dwa kopiejki
@@ -4623,6 +4977,9 @@ money	pl	byn	-1	minus Jeden rubel białoruski Zero kopiejek
 money	pl	byn	-2	minus Dwa ruble białoruskie Zero kopiejek
 money	pl	byn	-41.5	minus Czterdzieści Jeden rubel białoruski Pięćdziesiąt kopiejek
 money	pl	byn	-1000	minus Jeden tysiąc rubli białoruskich Zero kopiejek
+money	pl	byn	1.999	Dwa ruble białoruskie Zero kopiejek
+money	pl	byn	123.456	Sto Dwadzieścia Trzy ruble białoruskie Czterdzieści Sześć kopiejek
+money	pl	byn	1.005	Jeden rubel białoruski Jeden kopiejka
 money	pl	ars	0	
 money	pl	ars	0.01	
 money	pl	ars	0.02	
@@ -4659,6 +5016,9 @@ money	pl	ars	-1
 money	pl	ars	-2	
 money	pl	ars	-41.5	
 money	pl	ars	-1000	
+money	pl	ars	1.999	
+money	pl	ars	123.456	
+money	pl	ars	1.005	
 money	pl	brl	0	
 money	pl	brl	0.01	
 money	pl	brl	0.02	
@@ -4695,6 +5055,9 @@ money	pl	brl	-1
 money	pl	brl	-2	
 money	pl	brl	-41.5	
 money	pl	brl	-1000	
+money	pl	brl	1.999	
+money	pl	brl	123.456	
+money	pl	brl	1.005	
 plain	am	0	ዜሮ
 plain	am	1	አንድ
 plain	am	2	ሁለት
@@ -4762,6 +5125,9 @@ money	am	eur	-1	ሲቀነስ አንድ ዩሮ ከ ዜሮ ሳንቲም
 money	am	eur	-2	ሲቀነስ ሁለት ዩሮ ከ ዜሮ ሳንቲም
 money	am	eur	-41.5	ሲቀነስ አርባ አንድ ዩሮ ከ ሀምሳ ሳንቲም
 money	am	eur	-1000	ሲቀነስ አንድ ሺህ ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	1.999	ሁለት ዩሮ ከ ዜሮ ሳንቲም
+money	am	eur	123.456	አንድ መቶ ሀያ ሶስት ዩሮ ከ አርባ ስድስት ሳንቲም
+money	am	eur	1.005	አንድ ዩሮ ከ አንድ ሳንቲም
 money	am	usd	0	ዜሮ ዶላር ከ ዜሮ ሳንቲም
 money	am	usd	0.01	ዜሮ ዶላር ከ አንድ ሳንቲም
 money	am	usd	0.02	ዜሮ ዶላር ከ ሁለት ሳንቲም
@@ -4798,6 +5164,9 @@ money	am	usd	-1	ሲቀነስ አንድ ዶላር ከ ዜሮ ሳንቲም
 money	am	usd	-2	ሲቀነስ ሁለት ዶላር ከ ዜሮ ሳንቲም
 money	am	usd	-41.5	ሲቀነስ አርባ አንድ ዶላር ከ ሀምሳ ሳንቲም
 money	am	usd	-1000	ሲቀነስ አንድ ሺህ ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	1.999	ሁለት ዶላር ከ ዜሮ ሳንቲም
+money	am	usd	123.456	አንድ መቶ ሀያ ሶስት ዶላር ከ አርባ ስድስት ሳንቲም
+money	am	usd	1.005	አንድ ዶላር ከ አንድ ሳንቲም
 money	am	rub	0	ዜሮ የራሺያ ሩብል ከ ዜሮ ሳንቲም
 money	am	rub	0.01	ዜሮ የራሺያ ሩብል ከ አንድ ሳንቲም
 money	am	rub	0.02	ዜሮ የራሺያ ሩብል ከ ሁለት ሳንቲም
@@ -4834,6 +5203,9 @@ money	am	rub	-1	ሲቀነስ አንድ የራሺያ ሩብል ከ ዜሮ ሳን�
 money	am	rub	-2	ሲቀነስ ሁለት የራሺያ ሩብል ከ ዜሮ ሳንቲም
 money	am	rub	-41.5	ሲቀነስ አርባ አንድ የራሺያ ሩብል ከ ሀምሳ ሳንቲም
 money	am	rub	-1000	ሲቀነስ አንድ ሺህ የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	1.999	ሁለት የራሺያ ሩብል ከ ዜሮ ሳንቲም
+money	am	rub	123.456	አንድ መቶ ሀያ ሶስት የራሺያ ሩብል ከ አርባ ስድስት ሳንቲም
+money	am	rub	1.005	አንድ የራሺያ ሩብል ከ አንድ ሳንቲም
 money	am	try	0	ዜሮ የቱርክ ሊራ ከ ዜሮ ሳንቲም
 money	am	try	0.01	ዜሮ የቱርክ ሊራ ከ አንድ ሳንቲም
 money	am	try	0.02	ዜሮ የቱርክ ሊራ ከ ሁለት ሳንቲም
@@ -4870,6 +5242,9 @@ money	am	try	-1	ሲቀነስ አንድ የቱርክ ሊራ ከ ዜሮ ሳንቲ�
 money	am	try	-2	ሲቀነስ ሁለት የቱርክ ሊራ ከ ዜሮ ሳንቲም
 money	am	try	-41.5	ሲቀነስ አርባ አንድ የቱርክ ሊራ ከ ሀምሳ ሳንቲም
 money	am	try	-1000	ሲቀነስ አንድ ሺህ የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	1.999	ሁለት የቱርክ ሊራ ከ ዜሮ ሳንቲም
+money	am	try	123.456	አንድ መቶ ሀያ ሶስት የቱርክ ሊራ ከ አርባ ስድስት ሳንቲም
+money	am	try	1.005	አንድ የቱርክ ሊራ ከ አንድ ሳንቲም
 money	am	uah	0	ዜሮ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
 money	am	uah	0.01	ዜሮ የዩክሬን ሀሪይቭኒአ ከ አንድ ሳንቲም
 money	am	uah	0.02	ዜሮ የዩክሬን ሀሪይቭኒአ ከ ሁለት ሳንቲም
@@ -4906,6 +5281,9 @@ money	am	uah	-1	ሲቀነስ አንድ የዩክሬን ሀሪይቭኒአ ከ �
 money	am	uah	-2	ሲቀነስ ሁለት የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
 money	am	uah	-41.5	ሲቀነስ አርባ አንድ የዩክሬን ሀሪይቭኒአ ከ ሀምሳ ሳንቲም
 money	am	uah	-1000	ሲቀነስ አንድ ሺህ የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	1.999	ሁለት የዩክሬን ሀሪይቭኒአ ከ ዜሮ ሳንቲም
+money	am	uah	123.456	አንድ መቶ ሀያ ሶስት የዩክሬን ሀሪይቭኒአ ከ አርባ ስድስት ሳንቲም
+money	am	uah	1.005	አንድ የዩክሬን ሀሪይቭኒአ ከ አንድ ሳንቲም
 money	am	bgn	0	ዜሮ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
 money	am	bgn	0.01	ዜሮ የቡልጋሪያ ሌቭ ከ አንድ ሳንቲም
 money	am	bgn	0.02	ዜሮ የቡልጋሪያ ሌቭ ከ ሁለት ሳንቲም
@@ -4942,6 +5320,9 @@ money	am	bgn	-1	ሲቀነስ አንድ የቡልጋሪያ ሌቭ ከ ዜሮ ሳ�
 money	am	bgn	-2	ሲቀነስ ሁለት የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
 money	am	bgn	-41.5	ሲቀነስ አርባ አንድ የቡልጋሪያ ሌቭ ከ ሀምሳ ሳንቲም
 money	am	bgn	-1000	ሲቀነስ አንድ ሺህ የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	1.999	ሁለት የቡልጋሪያ ሌቭ ከ ዜሮ ሳንቲም
+money	am	bgn	123.456	አንድ መቶ ሀያ ሶስት የቡልጋሪያ ሌቭ ከ አርባ ስድስት ሳንቲም
+money	am	bgn	1.005	አንድ የቡልጋሪያ ሌቭ ከ አንድ ሳንቲም
 money	am	etb	0	ዜሮ ብር ከ ዜሮ ሳንቲም
 money	am	etb	0.01	ዜሮ ብር ከ አንድ ሳንቲም
 money	am	etb	0.02	ዜሮ ብር ከ ሁለት ሳንቲም
@@ -4978,6 +5359,9 @@ money	am	etb	-1	ሲቀነስ አንድ ብር ከ ዜሮ ሳንቲም
 money	am	etb	-2	ሲቀነስ ሁለት ብር ከ ዜሮ ሳንቲም
 money	am	etb	-41.5	ሲቀነስ አርባ አንድ ብር ከ ሀምሳ ሳንቲም
 money	am	etb	-1000	ሲቀነስ አንድ ሺህ ብር ከ ዜሮ ሳንቲም
+money	am	etb	1.999	ሁለት ብር ከ ዜሮ ሳንቲም
+money	am	etb	123.456	አንድ መቶ ሀያ ሶስት ብር ከ አርባ ስድስት ሳንቲም
+money	am	etb	1.005	አንድ ብር ከ አንድ ሳንቲም
 money	am	pln	0	ዜሮ ??? ከ ዜሮ ???
 money	am	pln	0.01	ዜሮ ??? ከ አንድ ???
 money	am	pln	0.02	ዜሮ ??? ከ ሁለት ???
@@ -5014,6 +5398,9 @@ money	am	pln	-1	ሲቀነስ አንድ ??? ከ ዜሮ ???
 money	am	pln	-2	ሲቀነስ ሁለት ??? ከ ዜሮ ???
 money	am	pln	-41.5	ሲቀነስ አርባ አንድ ??? ከ ሀምሳ ???
 money	am	pln	-1000	ሲቀነስ አንድ ሺህ ??? ከ ዜሮ ???
+money	am	pln	1.999	ሁለት ??? ከ ዜሮ ???
+money	am	pln	123.456	አንድ መቶ ሀያ ሶስት ??? ከ አርባ ስድስት ???
+money	am	pln	1.005	አንድ ??? ከ አንድ ???
 money	am	byn	0	ዜሮ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
 money	am	byn	0.01	ዜሮ የቤላሩስ ሩብል ከ አንድ ሳንቲም
 money	am	byn	0.02	ዜሮ የቤላሩስ ሩብል ከ ሁለት ሳንቲም
@@ -5050,6 +5437,9 @@ money	am	byn	-1	ሲቀነስ አንድ የቤላሩስ ሩብል ከ ዜሮ ሳ�
 money	am	byn	-2	ሲቀነስ ሁለት የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
 money	am	byn	-41.5	ሲቀነስ አርባ አንድ የቤላሩስ ሩብል ከ ሀምሳ ሳንቲም
 money	am	byn	-1000	ሲቀነስ አንድ ሺህ የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	1.999	ሁለት የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
+money	am	byn	123.456	አንድ መቶ ሀያ ሶስት የቤላሩስ ሩብል ከ አርባ ስድስት ሳንቲም
+money	am	byn	1.005	አንድ የቤላሩስ ሩብል ከ አንድ ሳንቲም
 money	am	ars	0	
 money	am	ars	0.01	
 money	am	ars	0.02	
@@ -5086,6 +5476,9 @@ money	am	ars	-1
 money	am	ars	-2	
 money	am	ars	-41.5	
 money	am	ars	-1000	
+money	am	ars	1.999	
+money	am	ars	123.456	
+money	am	ars	1.005	
 money	am	brl	0	
 money	am	brl	0.01	
 money	am	brl	0.02	
@@ -5122,3 +5515,6 @@ money	am	brl	-1
 money	am	brl	-2	
 money	am	brl	-41.5	
 money	am	brl	-1000	
+money	am	brl	1.999	
+money	am	brl	123.456	
+money	am	brl	1.005	

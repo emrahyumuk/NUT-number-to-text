@@ -163,6 +163,20 @@ namespace Nut.TextConverters
       var isNegative = num < 0;
       if (isNegative) num = -num;
 
+      // Reduce to the sub-unit before splitting the number into text. Without this a third
+      // decimal was read as whole sub-units (123.456 became "four hundred fifty six
+      // cents"), and because decimal preserves trailing zeros, 1.100 and 1.10 disagreed.
+      // Rounding away from zero is the convention for money and carries into the main unit
+      // where it should: 1.999 is two. Truncating is available for callers who need the
+      // digits dropped rather than carried.
+      num = options.SubUnitTruncated
+        ? Math.Truncate(num * 100) / 100
+        : Math.Round(num, 2, MidpointRounding.AwayFromZero);
+
+      // An amount too small to register, like -0.001, rounds to zero; "minus zero" is not
+      // an amount anyone writes.
+      if (num == 0) isNegative = false;
+
       var decimalSeperator = num.ToString(CultureInfo.InvariantCulture).Contains(",") ? ',' : '.';
       var nums = num.ToString(CultureInfo.InvariantCulture).Split(decimalSeperator).ToList();
       if (nums.Count == 1) nums.Add("00");

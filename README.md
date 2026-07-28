@@ -17,6 +17,10 @@ Money To Text Converter
 
 **Number Limit:** 1 trillion
 
+**Rounding:** amounts with more decimals than the currency has are rounded to the sub-unit,
+half away from zero — the same result `decimal.ToString("C")` gives. Set
+`Options.SubUnitTruncated` to cut the extra digits instead.
+
 **Target Framework:** .NET Standard 2.0 — runs on .NET Framework 4.6.1+, .NET Core 2.0+ and .NET 5 and later.
 
 ---
@@ -59,7 +63,8 @@ dotnet add package Nut
         SubUnitZeroNotDisplayed = true,
         MainUnitFirstCharUpper = true,
         SubUnitFirstCharUpper = true,
-        CurrencyFirstCharUpper = true
+        CurrencyFirstCharUpper = true,
+        SubUnitTruncated = true
     }
     var moneyText = number.ToText(Nut.Currency.USD, Nut.Language.English, options);
 ```

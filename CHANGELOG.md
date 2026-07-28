@@ -75,7 +75,20 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   -1 000 000 000 000 returned nonsense (`dollar zero cent`) where the positive equivalent
   threw; both now throw.
 
+- **Amounts carrying more decimals than the currency has are now rounded**, rather than
+  read as whole sub-units. `123.456` USD produced "four hundred fifty six cents"; it now
+  produces "forty six cents". Rounding is half away from zero and carries into the main
+  unit, so `1.999` reads as two dollars — matching what `decimal.ToString("C")` renders
+  for the same value, so a document showing both the figure and the words stays
+  consistent.
+
+  This also fixes `1.100` and `1.10` disagreeing: `decimal` preserves the scale it was
+  written with, and the old code read it directly.
+
 ### Added
+
+- `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
+  carried: `1.999` reads as "one dollar ninety nine cents". Rounding remains the default.
 
 - `Currency.RUR` as an alias for `Currency.RUB`, mirroring how `tl` maps to `try`.
 
