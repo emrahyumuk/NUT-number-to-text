@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Nut.Tests
 {
@@ -11,44 +11,6 @@ namespace Nut.Tests
     [TestFixture]
     public class KnownDefects
     {
-        /// <summary>
-        /// Extentions.cs lowercases the language argument on the int overloads, but the
-        /// Culture constants are mixed case ("en-US"), so no case ever matches and the
-        /// caller silently gets "". The long and decimal overloads do not lowercase and
-        /// work fine, so the same culture string succeeds or fails depending on the
-        /// numeric type it is called on.
-        /// </summary>
-        [TestCase(Culture.EnglishUS)]
-        [TestCase(Culture.EnglishGB)]
-        [TestCase(Culture.French)]
-        [TestCase(Culture.Russian)]
-        [TestCase(Culture.Spanish)]
-        [TestCase(Culture.Turkish)]
-        [TestCase(Culture.Ukrainian)]
-        [TestCase(Culture.Bulgarian)]
-        [TestCase(Culture.EthiopianAM)]
-        [TestCase(Culture.Polish)]
-        [TestCase(Culture.Belarusian)]
-        [TestCase(Culture.PortugueseBR)]
-        [TestCase(Culture.GermanDE)]
-        public void CultureCodesReturnEmptyOnTheIntOverload(string culture)
-        {
-            Assert.That(101.ToText(culture), Is.Empty);
-        }
-
-        [Test]
-        public void SameCultureWorksOnTheLongOverload()
-        {
-            Assert.That(101L.ToText(Culture.EnglishUS), Is.EqualTo("one hundred one"));
-        }
-
-        [Test]
-        public void UppercaseCurrencyCodeReturnsEmpty()
-        {
-            Assert.That(41m.ToText("USD", Language.English), Is.Empty);
-            Assert.That(41m.ToText("usd", Language.English), Is.Not.Empty);
-        }
-
         /// <summary>Callers cannot catch this selectively.</summary>
         [Test]
         public void OverTheLimitThrowsBareException()

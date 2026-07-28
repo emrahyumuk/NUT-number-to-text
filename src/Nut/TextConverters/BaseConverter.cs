@@ -152,6 +152,10 @@ namespace Nut.TextConverters
     public virtual string ToText(decimal num, string currency, Options options, GenderGroup genderGroup = GenderGroup.None)
     {
       var builder = new StringBuilder();
+
+      // Currency codes are compared against lower-case constants, so "USD" used to miss
+      // every case and return "" while "usd" worked.
+      currency = currency == null ? null : currency.ToLowerInvariant();
       if (currency == Currency.TL) currency = Currency.TRY;
       if (currency == Currency.RUR) currency = Currency.RUB;
       var currencyModel = GetCurrencyModel(currency);

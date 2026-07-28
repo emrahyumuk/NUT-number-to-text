@@ -85,6 +85,16 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   This also fixes `1.100` and `1.10` disagreeing: `decimal` preserves the scale it was
   written with, and the old code read it directly.
 
+- **All thirteen `Culture` constants were dead on the `int` overloads.** Those overloads
+  lowercased the argument before comparing it against constants like `"en-US"`, so no case
+  ever matched and the caller silently got `""`. The same string worked on the `long` and
+  `decimal` overloads, so whether a culture code was accepted depended on the numeric type
+  it was called on.
+
+- **Language and currency matching now ignores case.** `"EN"`, `"en-US"`, `"USD"` and
+  `"TL"` resolve like their lower-case forms; previously an upper-case currency code
+  returned `""`.
+
 ### Added
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
