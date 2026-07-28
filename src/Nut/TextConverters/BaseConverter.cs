@@ -34,9 +34,17 @@ namespace Nut.TextConverters
 
     public abstract string CultureName { get; }
 
+    /// <summary>Word placed in front of a negative amount.</summary>
+    protected virtual string NegativeSign => "minus";
+
     public virtual string ToText(long num, GenderGroup genderGroup = GenderGroup.None)
     {
       NumberLimitControl(num);
+
+      // Every Append* helper is guarded by "num > x", so a negative number matches none of
+      // them and falls through to an empty string. Handle the sign once, here, and let the
+      // rest of the pipeline only ever see a positive number.
+      if (num < 0) return NegativeSign + " " + ToText(-num, genderGroup);
 
       var builder = new StringBuilder();
 
@@ -127,7 +135,8 @@ namespace Nut.TextConverters
 
     private static void NumberLimitControl(long num)
     {
-      if (num >= Parameters.NumberLimit)
+      // Checked on both sides so that negating below cannot overflow at long.MinValue.
+      if (num >= Parameters.NumberLimit || num <= -Parameters.NumberLimit)
       {
         throw new Exception(string.Format("{0} and larger than {0} numbers are not supported", Parameters.NumberLimit));
       }
@@ -147,6 +156,13 @@ namespace Nut.TextConverters
       if (currency == Currency.RUR) currency = Currency.RUB;
       var currencyModel = GetCurrencyModel(currency);
       if (currencyModel == null) return string.Empty;
+
+      // Take the sign off before splitting. Otherwise "-41.5" splits into "-41" and "5",
+      // and the minus is lost somewhere in the integer part while the fraction survives,
+      // which produced a plausible-looking but completely wrong amount.
+      var isNegative = num < 0;
+      if (isNegative) num = -num;
+
       var decimalSeperator = num.ToString(CultureInfo.InvariantCulture).Contains(",") ? ',' : '.';
       var nums = num.ToString(CultureInfo.InvariantCulture).Split(decimalSeperator).ToList();
       if (nums.Count == 1) nums.Add("00");
@@ -199,7 +215,8 @@ namespace Nut.TextConverters
 
       }
 
-      return builder.ToString().Trim();
+      var text = builder.ToString().Trim();
+      return isNegative ? NegativeSign + " " + text : text;
     }
 
     protected virtual string GetCurrencyText(long num, CurrencyModel currency)

@@ -13,6 +13,8 @@ namespace Nut.TextConverters
 
     public override string CultureName => Culture.French;
 
+    protected override string NegativeSign => "moins";
+
     public FrenchConverter()
     {
       Initialize();

@@ -10,6 +10,8 @@ namespace Nut.TextConverters
 
         public override string CultureName => Culture.EthiopianAM;
 
+        protected override string NegativeSign => "ሲቀነስ";
+
         public AmharicConverter()
         {
             Initialize();

@@ -11,6 +11,8 @@ namespace Nut.TextConverters
 
         public override string CultureName => Culture.Spanish;
 
+        protected override string NegativeSign => "menos";
+
         public PortugueseConverter()
         {
             Initialize();
