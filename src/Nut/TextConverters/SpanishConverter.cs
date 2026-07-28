@@ -173,7 +173,9 @@ namespace Nut.TextConverters
 
       // RAE: "billón" is 10^12 in Spanish, not the English billion. 10^9 is "mil millones"
       // (or "millardo"), so the previous entry was out by a factor of a thousand.
-      ScaleTexts.Add(1000000000, new[] { "mil millones", "mil millones", "mil millones" });
+      // One form only, like "mil": the plural entry is read for millón alone, and
+      // "mil millones" is already plural.
+      ScaleTexts.Add(1000000000, new[] { "mil millones" });
       ScaleTexts.Add(1000000, new[] { "millón", "millon", "millones" });
       ScaleTexts.Add(1000, new[] { "mil" });
     }
