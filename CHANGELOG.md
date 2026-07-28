@@ -106,6 +106,20 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
 - **Spanish hundreds above 100 no longer switch to their feminine form** when something
   follows, so `999` reads as `novecientos noventa y nueve` rather than `novecientas`.
 
+- **German numbers below a million are now written as one closed-up word**, as Duden
+  requires, and separated only from a million upwards. The converter mixed the two:
+  `ein hundert`, `zwei tausend`, but `eintausend`.
+
+  | Number | Before | After |
+  | --- | --- | --- |
+  | `100` | ein hundert | einhundert |
+  | `999` | neun hundert neunundneunzig | neunhundertneunundneunzig |
+  | `41000` | einundvierzig tausend | einundvierzigtausend |
+  | `2120419` | — | zwei Millionen einhundertzwanzigtausendvierhundertneunzehn |
+
+  Standing alone the numeral is now `eins` rather than `ein`, and `ein` is used before a
+  currency name, where German requires it: `ein Euro`.
+
 ### Added
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than

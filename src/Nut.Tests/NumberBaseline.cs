@@ -54,18 +54,18 @@ namespace Nut.Tests
         public void French(long number, string expected) => Check(number, Language.French, expected);
 
         [TestCase(0, "null")]
-        [TestCase(1, "ein")] // BUG: standalone one is "eins"; "ein" is only attributive (Duden)
+        [TestCase(1, "eins")]
         [TestCase(11, "elf")]
         [TestCase(20, "zwanzig")]
         [TestCase(21, "einundzwanzig")]
         [TestCase(42, "zweiundvierzig")]
-        // Duden: numbers below a million are written as one closed-up word, above a million separated.
-        [TestCase(100, "ein hundert")] // BUG: -> "einhundert"
-        [TestCase(101, "ein hundert ein")] // BUG: -> "einhunderteins"
-        [TestCase(999, "neun hundert neunundneunzig")] // BUG: -> "neunhundertneunundneunzig"
-        [TestCase(1000, "eintausend")] // closed up here, but not at 2000 — inconsistent
-        [TestCase(2000, "zwei tausend")] // BUG: -> "zweitausend"
-        [TestCase(41000, "einundvierzig tausend")] // BUG: -> "einundvierzigtausend"
+        // Duden: below a million one closed-up word, from a million upwards separated.
+        [TestCase(100, "einhundert")]
+        [TestCase(101, "einhunderteins")]
+        [TestCase(999, "neunhundertneunundneunzig")]
+        [TestCase(1000, "eintausend")]
+        [TestCase(2000, "zweitausend")]
+        [TestCase(41000, "einundvierzigtausend")]
         [TestCase(1000000, "eine Million")]
         [TestCase(2000000, "zwei Millionen")]
         [TestCase(1000000000, "eine Milliarde")]
