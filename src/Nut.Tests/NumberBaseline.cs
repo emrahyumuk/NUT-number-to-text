@@ -139,10 +139,10 @@ namespace Nut.Tests
         [TestCase(101, "сто один")]
         [TestCase(200, "двести")]
         [TestCase(999, "девятьсот девяносто девять")]
-        [TestCase(1000, "один тысяча")] // BUG: тысяча is feminine -> "одна тысяча"
-        [TestCase(2000, "два тысячи")] // BUG: -> "две тысячи"
+        [TestCase(1000, "одна тысяча")]
+        [TestCase(2000, "две тысячи")]
         [TestCase(5000, "пять тысяч")]
-        [TestCase(41000, "сорок один тысяча")] // BUG: issue #25 -> "сорок одна тысяча"
+        [TestCase(41000, "сорок одна тысяча")]
         [TestCase(1000000, "один миллион")] // correct: миллион is masculine
         [TestCase(2000000, "два миллиона")]
         [TestCase(1000000000, "один миллиард")]
@@ -177,10 +177,10 @@ namespace Nut.Tests
         [TestCase(100, "сто")]
         [TestCase(200, "дзвесце")]
         [TestCase(999, "дзевяцьсот дзевяноста дзевяць")]
-        [TestCase(1000, "адзін тысяча")] // BUG: тысяча is feminine -> "адна тысяча"
-        [TestCase(2000, "два тысячы")] // BUG: -> "дзве тысячы"
+        [TestCase(1000, "адна тысяча")]
+        [TestCase(2000, "дзве тысячы")]
         [TestCase(5000, "пяць тысяч")]
-        [TestCase(41000, "сорак адзін тысяча")] // BUG: same defect as Russian -> "сорак адна тысяча"
+        [TestCase(41000, "сорак адна тысяча")]
         [TestCase(1000000, "адзін мільён")] // correct: мільён is masculine
         public void Belarusian(long number, string expected) => Check(number, Language.Belarusian, expected);
 

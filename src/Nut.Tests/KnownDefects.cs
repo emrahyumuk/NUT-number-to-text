@@ -49,23 +49,6 @@ namespace Nut.Tests
             Assert.That(41m.ToText("usd", Language.English), Is.Not.Empty);
         }
 
-        /// <summary>Thousands take the feminine form in these languages; millions stay masculine.</summary>
-        [Test]
-        public void RussianThousandsUseTheMasculineFormInstead()
-        {
-            Assert.That(41000m.ToText(Currency.RUB, Language.Russian),
-                Is.EqualTo("сорок один тысяча рублей ноль копеек")); // "сорок одна тысяча"
-            Assert.That(42000m.ToText(Currency.RUB, Language.Russian),
-                Is.EqualTo("сорок два тысячи рублей ноль копеек")); // "сорок две тысячи"
-        }
-
-        [Test]
-        public void BelarusianHasTheSameThousandsDefect()
-        {
-            Assert.That(41000m.ToText(Currency.BYN, Language.Belarusian),
-                Is.EqualTo("сорак адзін тысяча беларускіх рублёў нуль капеек")); // "сорак адна тысяча"
-        }
-
         /// <summary>Ukrainian is wrong in the opposite direction: its table is feminine-first,
         /// so thousands come out right and millions come out feminine. тисяча is feminine,
         /// мільйон is masculine, so the correct forms are "одна тисяча" and "один мільйон".</summary>

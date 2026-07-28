@@ -144,6 +144,7 @@ namespace Nut.TextConverters
     {
       var builder = new StringBuilder();
       if (currency == Currency.TL) currency = Currency.TRY;
+      if (currency == Currency.RUR) currency = Currency.RUB;
       var currencyModel = GetCurrencyModel(currency);
       if (currencyModel == null) return string.Empty;
       var decimalSeperator = num.ToString(CultureInfo.InvariantCulture).Contains(",") ? ',' : '.';
