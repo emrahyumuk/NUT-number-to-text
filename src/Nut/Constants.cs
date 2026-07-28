@@ -44,6 +44,8 @@
         internal const string TL = "tl";
         public const string EUR = "eur";
         public const string RUB = "rub";
+        /// <summary>Widely used alias for the Russian ruble; treated as <see cref="RUB"/>.</summary>
+        public const string RUR = "rur";
         public const string TRY = "try";
         public const string USD = "usd";
         public const string UAH = "uah";

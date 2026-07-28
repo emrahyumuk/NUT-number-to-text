@@ -56,10 +56,13 @@ namespace Nut.TextConverters
       if (!AppendGendered(num, builder)) base.AppendUnits(num, builder);
     }
 
-    // The scale-prefix path reads the same entries, so it needs the same treatment.
+    // Append only routes here for scale 1000, and the count before тысяча agrees with
+    // тысяча, which is feminine whatever currency is being counted: "сорок одна тысяча
+    // рублей", not "сорок один тысяча рублей". Entry [1] holds the feminine form.
     protected override void AppendUnitsForAdditional(long num, StringBuilder builder)
     {
-      if (!AppendGendered(num, builder)) base.AppendUnitsForAdditional(num, builder);
+      if (num == 1 || num == 2) builder.AppendFormat("{0} ", NumberTexts[num][1]);
+      else base.AppendUnitsForAdditional(num, builder);
     }
 
     private bool AppendGendered(long num, StringBuilder builder)
@@ -84,7 +87,7 @@ namespace Nut.TextConverters
         }
         else
         {
-          AppendLessThanOneThousand(baseScale, builder);
+          AppendLessThanOneThousandForScale(baseScale, builder);
         }
 
         switch (textType)
@@ -110,6 +113,15 @@ namespace Nut.TextConverters
       num = AppendHundreds(num, builder);
       num = AppendTens(num, builder);
       AppendUnitsForAdditional(num, builder);
+    }
+
+    // миллион and миллиард are masculine, so their count must not pick up the currency's
+    // gender the way the trailing unit does: "один миллион гривень", not "одна миллион".
+    private void AppendLessThanOneThousandForScale(long num, StringBuilder builder)
+    {
+      num = AppendHundreds(num, builder);
+      num = AppendTens(num, builder);
+      base.AppendUnits(num, builder);
     }
 
     protected override long AppendHundreds(long num, StringBuilder builder)
