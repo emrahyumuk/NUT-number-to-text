@@ -39,21 +39,30 @@ namespace Nut.Tests
             Assert.That(first, Is.Not.EqualTo(second), "these two currencies should differ");
         }
 
-        [Test]
-        public void ConcurrentConversionsAgreeWithSequentialOnes()
+        /// <summary>
+        /// 21000 and 22000 go through the scale-prefix path, which is where the gendered
+        /// forms and — in Bulgarian — the mutable textType field are read.
+        /// </summary>
+        [TestCase(Language.Russian, Currency.RUB, Currency.UAH)]
+        [TestCase(Language.Ukrainian, Currency.UAH, Currency.RUB)]
+        [TestCase(Language.Belarusian, Currency.BYN, Currency.UAH)]
+        [TestCase(Language.Bulgarian, Currency.BGN, Currency.RUB)]
+        public void ConcurrentConversionsAgreeWithSequentialOnes(string lang, string a, string b)
         {
-            var ruble = 1m.ToText(Currency.RUB, Language.Russian);
-            var hryvnia = 1m.ToText(Currency.UAH, Language.Russian);
+            var expected = new[]
+            {
+                21000m.ToText(a, lang), 22000m.ToText(a, lang),
+                21000m.ToText(b, lang), 22000m.ToText(b, lang),
+            };
 
             var wrong = new ConcurrentBag<string>();
             Parallel.For(0, 20000, i =>
             {
-                var useRuble = i % 2 == 0;
-                var actual = useRuble
-                    ? 1m.ToText(Currency.RUB, Language.Russian)
-                    : 1m.ToText(Currency.UAH, Language.Russian);
-                var expected = useRuble ? ruble : hryvnia;
-                if (actual != expected) wrong.Add(actual);
+                var slot = i % 4;
+                var currency = slot < 2 ? a : b;
+                var amount = slot % 2 == 0 ? 21000m : 22000m;
+                var actual = amount.ToText(currency, lang);
+                if (actual != expected[slot]) wrong.Add($"{lang}/{currency}/{amount}: {actual}");
             });
 
             Assert.That(wrong, Is.Empty);
