@@ -1,5 +1,6 @@
 ﻿using Nut.TextConverters;
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
@@ -7,119 +8,70 @@ namespace Nut
 {
     public static class Extentions
     {
+        /// <summary>
+        /// Language and culture codes to converters. Matching ignores case, so "en-US",
+        /// "en-us" and "EN-US" all resolve — previously the int overloads lowercased the
+        /// argument before comparing it against the mixed-case Culture constants, so every
+        /// culture code silently produced an empty string on those overloads while working
+        /// on the others.
+        /// </summary>
+        private static readonly Dictionary<string, BaseConverter> Converters =
+            new Dictionary<string, BaseConverter>(StringComparer.OrdinalIgnoreCase)
+            {
+                { Language.English, EnglishConverter.Instance },
+                { Culture.EnglishUS, EnglishConverter.Instance },
+                { Culture.EnglishGB, EnglishConverter.Instance },
+                { Language.French, FrenchConverter.Instance },
+                { Culture.French, FrenchConverter.Instance },
+                { Language.German, GermanConverter.Instance },
+                { Culture.GermanDE, GermanConverter.Instance },
+                { Language.Spanish, SpanishConverter.Instance },
+                { Culture.Spanish, SpanishConverter.Instance },
+                { Language.Portuguese, PortugueseConverter.Instance },
+                { Culture.PortugueseBR, PortugueseConverter.Instance },
+                { Language.Turkish, TurkishConverter.Instance },
+                { Culture.Turkish, TurkishConverter.Instance },
+                { Language.Russian, RussianConverter.Instance },
+                { Culture.Russian, RussianConverter.Instance },
+                { Language.Ukrainian, UkrainianConverter.Instance },
+                { Culture.Ukrainian, UkrainianConverter.Instance },
+                { Language.Belarusian, BelarusianConverter.Instance },
+                { Culture.Belarusian, BelarusianConverter.Instance },
+                { Language.Bulgarian, BulgarianConverter.Instance },
+                { Culture.Bulgarian, BulgarianConverter.Instance },
+                { Language.Polish, PolishConverter.Instance },
+                { Culture.Polish, PolishConverter.Instance },
+                { Language.Amharic, AmharicConverter.Instance },
+                { Culture.EthiopianAM, AmharicConverter.Instance },
+            };
+
+        /// <summary>Returns null for an unknown language, which callers render as "".</summary>
+        private static BaseConverter Resolve(string lang)
+        {
+            BaseConverter converter;
+            return lang != null && Converters.TryGetValue(lang, out converter) ? converter : null;
+        }
 
         public static string ToText(this long num, string lang = Language.Default, GenderGroup genderGroup = GenderGroup.None)
         {
-            var text = string.Empty;
-            switch (lang)
-            {
-                case Language.English:
-                case Culture.EnglishUS:
-                case Culture.EnglishGB:
-                    text = EnglishConverter.Instance.ToText(num);
-                    break;
-                case Language.French:
-                case Culture.French:
-                    text = FrenchConverter.Instance.ToText(num);
-                    break;
-                case Language.Russian:
-                case Culture.Russian:
-                    text = RussianConverter.Instance.ToText(num);
-                    break;
-                case Language.Spanish:
-                case Culture.Spanish:
-                    text = SpanishConverter.Instance.ToText(num, genderGroup);
-                    break;
-                case Language.Turkish:
-                case Culture.Turkish:
-                    text = TurkishConverter.Instance.ToText(num);
-                    break;
-                case Language.Ukrainian:
-                case Culture.Ukrainian:
-                    text = UkrainianConverter.Instance.ToText(num);
-                    break;
-                case Language.Bulgarian:
-                case Culture.Bulgarian:
-                    text = BulgarianConverter.Instance.ToText(num);
-                    break;
-                case Language.Amharic:
-                case Culture.EthiopianAM:
-                    text = AmharicConverter.Instance.ToText(num);
-                    break;
-                case Language.Polish:
-                case Culture.Polish:
-                    text = PolishConverter.Instance.ToText(num);
-                    break;
-                case Language.Belarusian:
-                case Culture.Belarusian:
-                    text = BelarusianConverter.Instance.ToText(num);
-                    break;
-                case Language.Portuguese:
-                case Culture.PortugueseBR:
-                    text = PortugueseConverter.Instance.ToText(num);
-                    break;
-                case Language.German:
-                case Culture.GermanDE:
-                    text = GermanConverter.Instance.ToText(num);
-                    break;
-            }
-            return text;
+            var converter = Resolve(lang);
+            return converter == null ? string.Empty : converter.ToText(num, genderGroup);
         }
 
         public static string ToText(this decimal num, string currency, string lang = Language.Default, Options options = new Options(), GenderGroup genderGroup = GenderGroup.None)
         {
-            switch (lang)
-            {
-                case Language.English:
-                case Culture.EnglishUS:
-                case Culture.EnglishGB:
-                    return EnglishConverter.Instance.ToText(num, currency, options);
-                case Language.French:
-                case Culture.French:
-                    return FrenchConverter.Instance.ToText(num, currency, options);
-                case Language.Russian:
-                case Culture.Russian:
-                    return RussianConverter.Instance.ToText(num, currency, options);
-                case Language.Polish:
-                case Culture.Polish:
-                    return PolishConverter.Instance.ToText(num, currency, options);
-                case Language.Spanish:
-                case Culture.Spanish:
-                    return SpanishConverter.Instance.ToText(num, currency, options, genderGroup);
-                case Language.Turkish:
-                case Culture.Turkish:
-                    return TurkishConverter.Instance.ToText(num, currency, options);
-                case Language.Ukrainian:
-                case Culture.Ukrainian:
-                    return UkrainianConverter.Instance.ToText(num, currency, options);
-                case Language.Bulgarian:
-                case Culture.Bulgarian:
-                    return BulgarianConverter.Instance.ToText(num, currency, options);
-                case Language.Amharic:
-                case Culture.EthiopianAM:
-                    return AmharicConverter.Instance.ToText(num, currency, options);
-                case Language.Belarusian:
-                case Culture.Belarusian:
-                    return BelarusianConverter.Instance.ToText(num, currency, options);
-                case Language.Portuguese:
-                case Culture.PortugueseBR:
-                    return PortugueseConverter.Instance.ToText(num, currency, options);
-                case Language.German:
-                case Culture.GermanDE:
-                    return GermanConverter.Instance.ToText(num, currency, options);              
-                default:
-                    return string.Empty;
-            }
+            var converter = Resolve(lang);
+            return converter == null ? string.Empty : converter.ToText(num, currency, options, genderGroup);
         }
 
         public static string ToText(this int num, string lang = Language.Default, GenderGroup genderGroup = GenderGroup.None)
         {
-            return ToText(Convert.ToInt64(num), lang.ToLower(), genderGroup);
+            return ToText(Convert.ToInt64(num), lang, genderGroup);
         }
 
         public static string ToText(this int num, string currency, string lang)
         {
-            return ToText(Convert.ToDecimal(num), currency.ToLower(), lang.ToLower());
+            return ToText(Convert.ToDecimal(num), currency, lang);
         }
 
         internal static string ToFirstLetterUpper(this string text, string culture = null)
