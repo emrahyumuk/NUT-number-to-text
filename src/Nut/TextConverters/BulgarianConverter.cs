@@ -18,23 +18,16 @@ namespace Nut.TextConverters
         }
 
         // Set only on the short-lived per-conversion instance; null on the shared singleton.
+        private string _one;
         private string _two;
 
-        private BulgarianConverter(BulgarianConverter template, CurrencyModel currencyModel)
+        private BulgarianConverter(BulgarianConverter template, CurrencyModel currencyModel, bool isMainUnit)
             : base(template)
         {
-            switch (currencyModel.Currency)
-            {
-                case Currency.BYN:
-                case Currency.EUR:
-                case Currency.RUB:
-                case Currency.UAH:
-                    _two = "две";
-                    break;
-                default:
-                    _two = "два";
-                    break;
-            }
+            var gender = isMainUnit ? currencyModel.Gender : currencyModel.SubUnitCurrency.Gender;
+            var feminine = gender == GenderGroup.Feminine;
+            _one = feminine ? "една" : "един";
+            _two = feminine ? "две" : "два";
         }
 
         protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
@@ -42,7 +35,7 @@ namespace Nut.TextConverters
             // Gendered forms are per-conversion; see RussianConverter for why this is not
             // written into the shared singleton. This also gives textType, which Append
             // rewrites as it walks the number, an instance of its own.
-            return new BulgarianConverter(this, currencyModel).ToText(num);
+            return new BulgarianConverter(this, currencyModel, isMainUnit).ToText(num);
         }
 
         protected override long Append(long num, long scale, StringBuilder builder)
@@ -141,10 +134,10 @@ namespace Nut.TextConverters
                 if (builder.ToString().Trim().Length > 0)
                     builder.Append("и ");
                 var targetType = Math.Min(NumberTexts[num].Length - 1, textType);
-                // _two stands in for entry 2's default form, which used to be overwritten
-                // in the shared table per currency.
-                builder.AppendFormat("{0} ",
-                    num == 2 && targetType == 0 && _two != null ? _two : NumberTexts[num][targetType]);
+                // In the default slot the unit being counted decides the gender; the other
+                // slots are picked by textType for the scale words and stay as they are.
+                var byCurrency = targetType == 0 ? (num == 1 ? _one : num == 2 ? _two : null) : null;
+                builder.AppendFormat("{0} ", byCurrency ?? NumberTexts[num][targetType]);
             }
         }
 
@@ -226,62 +219,71 @@ namespace Nut.TextConverters
                     {
                         Currency = currency,
                         Names = new[] { "евро", "евро", "евро" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "евроцент", "евроцента", "евроцента" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "евроцент", "евроцента", "евроцента" } }
                     };
                 case Currency.USD:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "долар", "долара", "долара" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "цент", "цента", "цента" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "цент", "цента", "цента" } }
                     };
                 case Currency.RUB:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "рубли", "рубли", "рубли" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейки", "копейки", "копейки" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "копейки", "копейки", "копейки" } }
                     };
                 case Currency.TRY:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "турска лира", "турска лира", "турска лира" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "куруш", "куруши", "куруши" } }
+                        Gender = GenderGroup.Feminine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "куруш", "куруши", "куруши" } }
                     };
                 case Currency.UAH:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "гривня", "гривни", "гривни" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейка", "копейки", "копейки" } }
+                        Gender = GenderGroup.Feminine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "копейка", "копейки", "копейки" } }
                     };
                 case Currency.BGN:
                     return new CurrencyModel {
                         Currency = currency,
                         Names = new[] {"лев", "лева", "лева"},
-                        SubUnitCurrency = new BaseCurrencyModel {Names = new[] {"стотинка", "стотинки", "стотинки"}}
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel {Gender = GenderGroup.Feminine, Names = new[] {"стотинка", "стотинки", "стотинки"}}
                     };
                 case Currency.ETB:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "бр", "бр", "бр" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "стотинка", "стотинки", "стотинки" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "стотинка", "стотинки", "стотинки" } }
                     };
                 case Currency.PLN:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "злоти", "злоти", "злоти" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "гроз", "гроз", "гроз" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "гроз", "гроз", "гроз" } }
                     };
                 case Currency.BYN:
                     return new CurrencyModel
                     {
                         Currency = currency,
                         Names = new[] { "белоруски рубли", "белоруски рубли", "белоруски рубли" },
-                        SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "копейки", "копейки", "копейки" } }
+                        Gender = GenderGroup.Masculine,
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "копейки", "копейки", "копейки" } }
                     };
             }
             return null;

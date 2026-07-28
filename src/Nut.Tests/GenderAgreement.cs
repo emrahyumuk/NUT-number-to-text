@@ -96,6 +96,34 @@ namespace Nut.Tests
             Assert.That(amount.ToText(Currency.BGN, Language.Bulgarian), Is.EqualTo(expected));
         }
 
+        /// <summary>
+        /// The unit being counted decides the gender, and the main unit and the sub unit can
+        /// disagree: рубль is masculine while копейка is feminine, лев masculine while
+        /// стотинка is feminine. Gender lives on the currency model rather than in a switch,
+        /// so a currency that is not annotated simply reads as masculine.
+        /// </summary>
+        [TestCase(Language.Russian, Currency.RUB, "один рубль одна копейка")]
+        [TestCase(Language.Russian, Currency.UAH, "одна гривня одна копейка")]
+        [TestCase(Language.Russian, Currency.TRY, "одна турецкая лира один куруш")] // лира feminine, куруш masculine
+        [TestCase(Language.Russian, Currency.USD, "один доллар один цент")]
+        [TestCase(Language.Russian, Currency.EUR, "один евро один евроцент")]
+        [TestCase(Language.Belarusian, Currency.BYN, "адзін беларускі рубель адна капейка")]
+        [TestCase(Language.Belarusian, Currency.TRY, "адна турэцкая ліра адзін куруш")]
+        [TestCase(Language.Ukrainian, Currency.UAH, "Одна гривня Одна копійка")]
+        [TestCase(Language.Ukrainian, Currency.USD, "Один доллар Один цент")]
+        [TestCase(Language.Bulgarian, Currency.BGN, "един лев и една стотинка")] // лев masculine, стотинка feminine
+        public void OneOfEachUnit(string lang, string currency, string expected)
+        {
+            Assert.That(1.01m.ToText(currency, lang), Is.EqualTo(expected));
+        }
+
+        [TestCase(Language.Russian, Currency.TRY, "две турецких лир два куруша")]
+        [TestCase(Language.Bulgarian, Currency.BGN, "два лева и две стотинки")]
+        public void TwoOfEachUnit(string lang, string currency, string expected)
+        {
+            Assert.That(2.02m.ToText(currency, lang), Is.EqualTo(expected));
+        }
+
         /// <summary>"rur" is a widely used alias for the Russian ruble, like "tl" for "try".</summary>
         [Test]
         public void RurIsAnAliasForRub()

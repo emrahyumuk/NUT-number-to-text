@@ -28,7 +28,24 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   | `1000000 UAH` in Russian | **одна** миллион гривень | **один** миллион гривень |
   | `41000 BYN` | сорак **адзін** тысяча | сорак **адна** тысяча |
 
-  128 of 4536 checked conversions change; no other language is affected.
+  353 of 4536 checked conversions change across the four languages; the other eight are
+  untouched.
+
+- **Numerals now agree with the gender of the unit being counted**, in Russian,
+  Ukrainian, Belarusian and Bulgarian. Gender moved onto the currency model, so the main
+  unit and the sub unit can differ:
+
+  | Amount | Before | After |
+  | --- | --- | --- |
+  | `1 TRY` in Russian | **один** турецкая лира | **одна** турецкая лира |
+  | `1 USD` in Ukrainian | **Одна** доллар | **Один** доллар |
+  | `0.01 EUR` in Russian | **одна** евроцент | **один** евроцент |
+  | `2.02 BGN` | два лева и **два** стотинки | два лева и **две** стотинки |
+
+- **Ukrainian**: bare numerals and millions were feminine (`Одна`, `Одна мільйон`); the
+  word table was feminine-first and millions took the path thousands take elsewhere.
+- **Bulgarian**: `1` rendered as an empty string, millions lost their count entirely
+  (`милиона` rather than `един милион`), and `милион` was treated as feminine.
 
 ### Added
 
