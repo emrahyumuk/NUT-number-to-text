@@ -36,6 +36,9 @@ namespace Nut.TextConverters
           _two = isMainUnit ? "Два" : "Дві";
           break;
         default:
+          // Feminine, which suits гривня but not долар — currency gender is not modelled
+          // yet, so USD still comes out as "Одна доллар". Tracked separately; note this
+          // is deliberately not the masculine entry [0] of the word table.
           _one = "Одна";
           _two = "Дві";
           break;
