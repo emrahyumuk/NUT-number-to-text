@@ -72,6 +72,30 @@ namespace Nut.Tests
             Assert.That(amount.ToText(Currency.UAH, Language.Ukrainian), Is.EqualTo(expected));
         }
 
+        /// <summary>Bulgarian drops the leading one before хиляда but keeps it before
+        /// милион, and милион is masculine where хиляда is feminine.</summary>
+        [TestCase(1, "един")]
+        [TestCase(1000, "хиляда")]
+        [TestCase(2000, "две хиляди")] // хиляда feminine
+        [TestCase(5000, "пет хиляди")]
+        [TestCase(21000, "двадесет и една хиляди")]
+        [TestCase(100000, "сто хиляди")]
+        [TestCase(1000000, "един милион")] // милион masculine, and counted explicitly
+        [TestCase(2000000, "два милиона")]
+        [TestCase(1000000000, "един милиард")]
+        public void BulgarianPlainNumbers(long number, string expected)
+        {
+            Assert.That(number.ToText(Language.Bulgarian), Is.EqualTo(expected));
+        }
+
+        [TestCase(1, "един лев и нула стотинки")]
+        [TestCase(2, "два лева и нула стотинки")]
+        [TestCase(1000000, "един милион лева и нула стотинки")]
+        public void BulgarianLev(decimal amount, string expected)
+        {
+            Assert.That(amount.ToText(Currency.BGN, Language.Bulgarian), Is.EqualTo(expected));
+        }
+
         /// <summary>"rur" is a widely used alias for the Russian ruble, like "tl" for "try".</summary>
         [Test]
         public void RurIsAnAliasForRub()

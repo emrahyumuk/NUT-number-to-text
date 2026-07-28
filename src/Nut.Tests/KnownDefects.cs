@@ -56,21 +56,6 @@ namespace Nut.Tests
                 Is.EqualTo("один турецкая лира ноль курушей")); // лира is feminine -> "одна"
         }
 
-        [Test]
-        public void BulgarianOneIsEmpty()
-        {
-            Assert.That(1L.ToText(Language.Bulgarian), Is.Empty); // "един"
-            Assert.That(21L.ToText(Language.Bulgarian), Is.EqualTo("двадесет и един")); // works inside compounds
-        }
-
-        [Test]
-        public void BulgarianDropsTheCountEntirely()
-        {
-            Assert.That(1m.ToText(Currency.BGN, Language.Bulgarian),
-                Is.EqualTo("лев и нула стотинки")); // "един лев"
-            Assert.That(1000000L.ToText(Language.Bulgarian), Is.EqualTo("милиона")); // "един милион"
-        }
-
         /// <summary>Every Append* helper guards with "num > x", so a negative number matches
         /// nothing and falls through to an empty string. On the money overload the integer
         /// part vanishes while the fraction survives, producing a plausible-looking but
