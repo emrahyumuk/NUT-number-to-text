@@ -15,6 +15,25 @@ version rather than a complete list.
 Work in progress on the linguistic defects recorded in `Nut.Tests/KnownDefects.cs`. These
 change the produced text, so they are being collected for 4.0.0 rather than a minor release.
 
+### Fixed
+
+- **Russian and Belarusian: the count now agrees with the scale word rather than the
+  currency** ([#25](https://github.com/emrahyumuk/NUT-number-to-text/issues/25)).
+  `тысяча` is feminine and `миллион` is masculine, and both can occur in one amount.
+
+  | Amount | Before | After |
+  | --- | --- | --- |
+  | `41000 RUB` | сорок **один** тысяча рублей | сорок **одна** тысяча рублей |
+  | `42000 RUB` | сорок **два** тысячи рублей | сорок **две** тысячи рублей |
+  | `1000000 UAH` in Russian | **одна** миллион гривень | **один** миллион гривень |
+  | `41000 BYN` | сорак **адзін** тысяча | сорак **адна** тысяча |
+
+  128 of 4536 checked conversions change; no other language is affected.
+
+### Added
+
+- `Currency.RUR` as an alias for `Currency.RUB`, mirroring how `tl` maps to `try`.
+
 ## [3.5.0] - 2026-07-28
 
 Output is byte-for-byte identical to 3.4.1 in all 12 languages. The fix below is about
