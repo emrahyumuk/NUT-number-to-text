@@ -49,16 +49,6 @@ namespace Nut.Tests
             Assert.That(41m.ToText("usd", Language.English), Is.Not.Empty);
         }
 
-        /// <summary>Ukrainian is wrong in the opposite direction: its table is feminine-first,
-        /// so thousands come out right and millions come out feminine. тисяча is feminine,
-        /// мільйон is masculine, so the correct forms are "одна тисяча" and "один мільйон".</summary>
-        [Test]
-        public void UkrainianMillionsUseTheFeminineFormInstead()
-        {
-            Assert.That(1000000m.ToText(Currency.UAH, Language.Ukrainian),
-                Is.EqualTo("Одна мільйон гривень Нуль копійок")); // "Один мільйон"
-        }
-
         [Test]
         public void RussianTurkishLiraIsNotDeclined()
         {
