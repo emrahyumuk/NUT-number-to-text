@@ -24,7 +24,7 @@ namespace Nut.Tests
         [TestCase(11, "eleven")]
         [TestCase(15, "fifteen")]
         [TestCase(20, "twenty")]
-        [TestCase(21, "twenty one")] // BUG: English hyphenates compounds -> "twenty-one"
+        [TestCase(21, "twenty one")] // BUG: compounds 21-99 are always hyphenated -> "twenty-one" (Merriam-Webster)
         [TestCase(42, "forty two")] // BUG: -> "forty-two"
         [TestCase(100, "one hundred")]
         [TestCase(101, "one hundred one")]
@@ -41,25 +41,26 @@ namespace Nut.Tests
         [TestCase(11, "onze")]
         [TestCase(20, "vingt")]
         [TestCase(21, "vingt et un")]
-        [TestCase(42, "quarante deux")] // BUG: post-1990 spelling hyphenates -> "quarante-deux"
+        [TestCase(42, "quarante deux")] // BUG: hyphenated both traditionally and post-1990 -> "quarante-deux" (BDL/Académie)
         [TestCase(100, "cent")]
         [TestCase(101, "cent un")]
-        [TestCase(200, "deux cent")] // BUG: a multiplied "cent" with nothing after it takes -s -> "deux cents"
-        [TestCase(999, "neuf cent quatre-vingt-dix-neuf")]
+        [TestCase(200, "deux cent")] // BUG: multiplied "cent" with nothing after it takes -s -> "deux cents" (BDL)
+        [TestCase(999, "neuf cent quatre-vingt-dix-neuf")] // hyphenated here but not at 42 — inconsistent
         [TestCase(1000, "mille")]
         [TestCase(41000, "quarante et un mille")]
         [TestCase(1000000, "un million")]
-        [TestCase(2000000, "deux million")] // BUG: -> "deux millions"
+        [TestCase(2000000, "deux million")] // BUG: million is a noun and takes -s -> "deux millions"
         [TestCase(1000000000, "un milliard")]
         public void French(long number, string expected) => Check(number, Language.French, expected);
 
         [TestCase(0, "null")]
-        [TestCase(1, "ein")] // BUG: standalone one is "eins"; "ein" is the attributive form
+        [TestCase(1, "ein")] // BUG: standalone one is "eins"; "ein" is only attributive (Duden)
         [TestCase(11, "elf")]
         [TestCase(20, "zwanzig")]
         [TestCase(21, "einundzwanzig")]
         [TestCase(42, "zweiundvierzig")]
-        [TestCase(100, "ein hundert")] // BUG: German writes numbers closed up -> "einhundert"
+        // Duden: numbers below a million are written as one closed-up word, above a million separated.
+        [TestCase(100, "ein hundert")] // BUG: -> "einhundert"
         [TestCase(101, "ein hundert ein")] // BUG: -> "einhunderteins"
         [TestCase(999, "neun hundert neunundneunzig")] // BUG: -> "neunhundertneunundneunzig"
         [TestCase(1000, "eintausend")] // closed up here, but not at 2000 — inconsistent
@@ -79,13 +80,16 @@ namespace Nut.Tests
         [TestCase(100, "cien")]
         [TestCase(101, "ciento uno")]
         [TestCase(200, "doscientos")]
-        [TestCase(999, "novecientas noventa y nueve")] // BUG: feminine hundreds by default; 200 uses masculine
-        [TestCase(1000, "uno mil")] // BUG: Spanish has no "uno mil" -> "mil"
+        [TestCase(999, "novecientas noventa y nueve")] // BUG: feminine hundreds by default while 200 is masculine — RAE: gender follows the noun, so the bare form should be masculine
+        // RAE: "mil" forces apocope of uno -> "un". "uno mil" / "cuarenta y uno mil" are not Spanish.
+        [TestCase(1000, "uno mil")] // BUG: -> "mil"
         [TestCase(2000, "dos mil")]
-        [TestCase(41000, "cuarenta y uno mil")] // BUG: apocope -> "cuarenta y un mil"
+        [TestCase(41000, "cuarenta y uno mil")] // BUG: -> "cuarenta y un mil"
         [TestCase(1000000, "uno millón")] // BUG: -> "un millón"
         [TestCase(2000000, "dos millones")]
-        [TestCase(1000000000, "uno billón")] // BUG: Spanish billón is 10^12; 10^9 is "mil millones"
+        // BUG, worst in the file: RAE/FundéuRAE — Spanish "billón" is 10^12, not the English
+        // billion. 10^9 is "mil millones" (or "millardo"), so this is off by a factor of 1000.
+        [TestCase(1000000000, "uno billón")]
         public void Spanish(long number, string expected) => Check(number, Language.Spanish, expected);
 
         [TestCase(0, "zero")]
@@ -98,7 +102,7 @@ namespace Nut.Tests
         [TestCase(101, "cento e um")]
         [TestCase(200, "duzentos")]
         [TestCase(999, "novecentos e noventa e nove")]
-        [TestCase(1000, "um mil")] // BUG: -> "mil"
+        [TestCase(1000, "um mil")] // "mil" is the usual reading, but "um mil" is accepted and common on cheques — not a defect
         [TestCase(41000, "quarenta e um mil")]
         [TestCase(1000000, "um milhão")]
         [TestCase(2000000, "dois milhões")]
