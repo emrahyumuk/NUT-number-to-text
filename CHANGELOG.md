@@ -12,6 +12,8 @@ version rather than a complete list.
 
 ## [Unreleased]
 
+## [4.0.0] - 2026-07-29
+
 Every change below alters produced text, so this is **4.0.0** rather than a minor release.
 
 Measured against the published 3.4.1 over 5520 conversions — the twelve languages it
@@ -418,7 +420,8 @@ Initial release, with English, Spanish and Turkish.
 <!-- Bulgarian (2017) shipped between 2.4.2 and 3.0.0; the exact version is not
      recoverable from the available history. -->
 
-[Unreleased]: https://github.com/emrahyumuk/NUT-number-to-text/compare/v3.5.0...HEAD
+[Unreleased]: https://github.com/emrahyumuk/NUT-number-to-text/compare/v4.0.0...HEAD
+[4.0.0]: https://www.nuget.org/packages/Nut/4.0.0
 [3.5.0]: https://github.com/emrahyumuk/NUT-number-to-text/releases/tag/v3.5.0
 [3.4.1]: https://www.nuget.org/packages/Nut/3.4.1
 [3.3.0]: https://www.nuget.org/packages/Nut/3.3.0

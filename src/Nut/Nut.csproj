@@ -18,7 +18,7 @@ Number Limit: 1 trillion</Description>
     <RepositoryUrl>https://github.com/emrahyumuk/NUT-number-to-text</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>number, text, word, money, english, french, turkish, spanish, russian, german currency, try, usd, euro, rub, number, to money, currency, int, decimal, ukranian, UAH, bulgarian, portuguese, BRL, BGN, amharic, ETB, polish, PLN, Belarussian, BLN, ARS, argentine pesos</PackageTags>
+    <PackageTags>number-to-text;number-to-words;money-to-words;amount-in-words;spell-number;currency;invoice;cheque;localization;english;french;german;spanish;portuguese;turkish;russian;ukrainian;belarusian;bulgarian;polish;latvian;uzbek;amharic;EUR;USD;GBP;RUB;TRY;UAH;BGN;ETB;PLN;BYN;ARS;BRL;UZS</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
