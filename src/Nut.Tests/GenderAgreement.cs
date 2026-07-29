@@ -1,4 +1,4 @@
-namespace Nut.Tests
+﻿namespace Nut.Tests
 {
     /// <summary>
     /// The count in front of a scale word agrees with that scale word, not with the
@@ -130,7 +130,7 @@ namespace Nut.Tests
         {
             Assert.That(41000m.ToText(Currency.RUR, Language.Russian),
                 Is.EqualTo(41000m.ToText(Currency.RUB, Language.Russian)));
-            Assert.That("rur", Is.EqualTo(Currency.RUR));
+            Assert.That(Currency.RUR, Is.EqualTo("rur"));
         }
     }
 }

@@ -16,4 +16,6 @@ jobs:
       - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: 10.0.x
-      - run: dotnet test src/Nut.sln --configuration Release
+      # -warnaserror so an analyzer warning fails the build instead of scrolling past in
+      # the log. The suite is warning-free; keeping it that way is only cheap while it is.
+      - run: dotnet test src/Nut.sln --configuration Release -warnaserror
