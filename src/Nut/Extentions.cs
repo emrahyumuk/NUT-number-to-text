@@ -50,22 +50,42 @@ namespace Nut
             };
 
         /// <summary>Returns null for an unknown language, which callers render as "".</summary>
+        /// <summary>
+        /// An unsupported language is an error rather than an empty result. This library
+        /// writes amounts onto invoices and cheques, where a blank in the amount field is
+        /// worse than a failure: nothing surfaces it until the document is already out.
+        /// </summary>
         private static BaseConverter Resolve(string lang)
         {
             BaseConverter converter;
-            return lang != null && Converters.TryGetValue(lang, out converter) ? converter : null;
+            if (lang != null && Converters.TryGetValue(lang, out converter)) return converter;
+
+            throw new NotSupportedException(string.Format(
+                "Language '{0}' is not supported. Supported values are: {1}.",
+                lang ?? "(null)", string.Join(", ", SupportedLanguages)));
+        }
+
+        /// <summary>Every language and culture string this library accepts.</summary>
+        public static IEnumerable<string> SupportedLanguages
+        {
+            get
+            {
+                var keys = new List<string>(Converters.Keys);
+                keys.Sort(StringComparer.OrdinalIgnoreCase);
+                return keys;
+            }
         }
 
         public static string ToText(this long num, string lang = Language.Default, GenderGroup genderGroup = GenderGroup.None)
         {
             var converter = Resolve(lang);
-            return converter == null ? string.Empty : converter.ToText(num, genderGroup);
+            return converter.ToText(num, genderGroup);
         }
 
         public static string ToText(this decimal num, string currency, string lang = Language.Default, Options options = new Options(), GenderGroup genderGroup = GenderGroup.None)
         {
             var converter = Resolve(lang);
-            return converter == null ? string.Empty : converter.ToText(num, currency, options, genderGroup);
+            return converter.ToText(num, currency, options, genderGroup);
         }
 
         public static string ToText(this int num, string lang = Language.Default, GenderGroup genderGroup = GenderGroup.None)

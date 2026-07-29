@@ -6298,162 +6298,162 @@ money	am	byn	-1000	ሲቀነስ አንድ ሺህ የቤላሩስ ሩብል ከ �
 money	am	byn	1.999	ሁለት የቤላሩስ ሩብል ከ ዜሮ ሳንቲም
 money	am	byn	123.456	አንድ መቶ ሀያ ሶስት የቤላሩስ ሩብል ከ አርባ ስድስት ሳንቲም
 money	am	byn	1.005	አንድ የቤላሩስ ሩብል ከ አንድ ሳንቲም
-money	am	ars	0	
-money	am	ars	0.01	
-money	am	ars	0.02	
-money	am	ars	1	
-money	am	ars	1.01	
-money	am	ars	1.02	
-money	am	ars	2	
-money	am	ars	2.02	
-money	am	ars	3	
-money	am	ars	5	
-money	am	ars	11	
-money	am	ars	21	
-money	am	ars	22	
-money	am	ars	42	
-money	am	ars	100	
-money	am	ars	101	
-money	am	ars	121	
-money	am	ars	999	
-money	am	ars	1000	
-money	am	ars	1001	
-money	am	ars	2000	
-money	am	ars	2001	
-money	am	ars	5000	
-money	am	ars	21000	
-money	am	ars	22000	
-money	am	ars	41000	
-money	am	ars	42000	
-money	am	ars	100000	
-money	am	ars	1000000	
-money	am	ars	2000000	
-money	am	ars	1000000000	
-money	am	ars	123.45	
-money	am	ars	-1	
-money	am	ars	-2	
-money	am	ars	-41.5	
-money	am	ars	-1000	
-money	am	ars	1.999	
-money	am	ars	123.456	
-money	am	ars	1.005	
-money	am	brl	0	
-money	am	brl	0.01	
-money	am	brl	0.02	
-money	am	brl	1	
-money	am	brl	1.01	
-money	am	brl	1.02	
-money	am	brl	2	
-money	am	brl	2.02	
-money	am	brl	3	
-money	am	brl	5	
-money	am	brl	11	
-money	am	brl	21	
-money	am	brl	22	
-money	am	brl	42	
-money	am	brl	100	
-money	am	brl	101	
-money	am	brl	121	
-money	am	brl	999	
-money	am	brl	1000	
-money	am	brl	1001	
-money	am	brl	2000	
-money	am	brl	2001	
-money	am	brl	5000	
-money	am	brl	21000	
-money	am	brl	22000	
-money	am	brl	41000	
-money	am	brl	42000	
-money	am	brl	100000	
-money	am	brl	1000000	
-money	am	brl	2000000	
-money	am	brl	1000000000	
-money	am	brl	123.45	
-money	am	brl	-1	
-money	am	brl	-2	
-money	am	brl	-41.5	
-money	am	brl	-1000	
-money	am	brl	1.999	
-money	am	brl	123.456	
-money	am	brl	1.005	
-money	am	uzs	0	
-money	am	uzs	0.01	
-money	am	uzs	0.02	
-money	am	uzs	1	
-money	am	uzs	1.01	
-money	am	uzs	1.02	
-money	am	uzs	2	
-money	am	uzs	2.02	
-money	am	uzs	3	
-money	am	uzs	5	
-money	am	uzs	11	
-money	am	uzs	21	
-money	am	uzs	22	
-money	am	uzs	42	
-money	am	uzs	100	
-money	am	uzs	101	
-money	am	uzs	121	
-money	am	uzs	999	
-money	am	uzs	1000	
-money	am	uzs	1001	
-money	am	uzs	2000	
-money	am	uzs	2001	
-money	am	uzs	5000	
-money	am	uzs	21000	
-money	am	uzs	22000	
-money	am	uzs	41000	
-money	am	uzs	42000	
-money	am	uzs	100000	
-money	am	uzs	1000000	
-money	am	uzs	2000000	
-money	am	uzs	1000000000	
-money	am	uzs	123.45	
-money	am	uzs	-1	
-money	am	uzs	-2	
-money	am	uzs	-41.5	
-money	am	uzs	-1000	
-money	am	uzs	1.999	
-money	am	uzs	123.456	
-money	am	uzs	1.005	
-money	am	gbp	0	
-money	am	gbp	0.01	
-money	am	gbp	0.02	
-money	am	gbp	1	
-money	am	gbp	1.01	
-money	am	gbp	1.02	
-money	am	gbp	2	
-money	am	gbp	2.02	
-money	am	gbp	3	
-money	am	gbp	5	
-money	am	gbp	11	
-money	am	gbp	21	
-money	am	gbp	22	
-money	am	gbp	42	
-money	am	gbp	100	
-money	am	gbp	101	
-money	am	gbp	121	
-money	am	gbp	999	
-money	am	gbp	1000	
-money	am	gbp	1001	
-money	am	gbp	2000	
-money	am	gbp	2001	
-money	am	gbp	5000	
-money	am	gbp	21000	
-money	am	gbp	22000	
-money	am	gbp	41000	
-money	am	gbp	42000	
-money	am	gbp	100000	
-money	am	gbp	1000000	
-money	am	gbp	2000000	
-money	am	gbp	1000000000	
-money	am	gbp	123.45	
-money	am	gbp	-1	
-money	am	gbp	-2	
-money	am	gbp	-41.5	
-money	am	gbp	-1000	
-money	am	gbp	1.999	
-money	am	gbp	123.456	
-money	am	gbp	1.005	
+money	am	ars	0	EX:NotSupportedException
+money	am	ars	0.01	EX:NotSupportedException
+money	am	ars	0.02	EX:NotSupportedException
+money	am	ars	1	EX:NotSupportedException
+money	am	ars	1.01	EX:NotSupportedException
+money	am	ars	1.02	EX:NotSupportedException
+money	am	ars	2	EX:NotSupportedException
+money	am	ars	2.02	EX:NotSupportedException
+money	am	ars	3	EX:NotSupportedException
+money	am	ars	5	EX:NotSupportedException
+money	am	ars	11	EX:NotSupportedException
+money	am	ars	21	EX:NotSupportedException
+money	am	ars	22	EX:NotSupportedException
+money	am	ars	42	EX:NotSupportedException
+money	am	ars	100	EX:NotSupportedException
+money	am	ars	101	EX:NotSupportedException
+money	am	ars	121	EX:NotSupportedException
+money	am	ars	999	EX:NotSupportedException
+money	am	ars	1000	EX:NotSupportedException
+money	am	ars	1001	EX:NotSupportedException
+money	am	ars	2000	EX:NotSupportedException
+money	am	ars	2001	EX:NotSupportedException
+money	am	ars	5000	EX:NotSupportedException
+money	am	ars	21000	EX:NotSupportedException
+money	am	ars	22000	EX:NotSupportedException
+money	am	ars	41000	EX:NotSupportedException
+money	am	ars	42000	EX:NotSupportedException
+money	am	ars	100000	EX:NotSupportedException
+money	am	ars	1000000	EX:NotSupportedException
+money	am	ars	2000000	EX:NotSupportedException
+money	am	ars	1000000000	EX:NotSupportedException
+money	am	ars	123.45	EX:NotSupportedException
+money	am	ars	-1	EX:NotSupportedException
+money	am	ars	-2	EX:NotSupportedException
+money	am	ars	-41.5	EX:NotSupportedException
+money	am	ars	-1000	EX:NotSupportedException
+money	am	ars	1.999	EX:NotSupportedException
+money	am	ars	123.456	EX:NotSupportedException
+money	am	ars	1.005	EX:NotSupportedException
+money	am	brl	0	EX:NotSupportedException
+money	am	brl	0.01	EX:NotSupportedException
+money	am	brl	0.02	EX:NotSupportedException
+money	am	brl	1	EX:NotSupportedException
+money	am	brl	1.01	EX:NotSupportedException
+money	am	brl	1.02	EX:NotSupportedException
+money	am	brl	2	EX:NotSupportedException
+money	am	brl	2.02	EX:NotSupportedException
+money	am	brl	3	EX:NotSupportedException
+money	am	brl	5	EX:NotSupportedException
+money	am	brl	11	EX:NotSupportedException
+money	am	brl	21	EX:NotSupportedException
+money	am	brl	22	EX:NotSupportedException
+money	am	brl	42	EX:NotSupportedException
+money	am	brl	100	EX:NotSupportedException
+money	am	brl	101	EX:NotSupportedException
+money	am	brl	121	EX:NotSupportedException
+money	am	brl	999	EX:NotSupportedException
+money	am	brl	1000	EX:NotSupportedException
+money	am	brl	1001	EX:NotSupportedException
+money	am	brl	2000	EX:NotSupportedException
+money	am	brl	2001	EX:NotSupportedException
+money	am	brl	5000	EX:NotSupportedException
+money	am	brl	21000	EX:NotSupportedException
+money	am	brl	22000	EX:NotSupportedException
+money	am	brl	41000	EX:NotSupportedException
+money	am	brl	42000	EX:NotSupportedException
+money	am	brl	100000	EX:NotSupportedException
+money	am	brl	1000000	EX:NotSupportedException
+money	am	brl	2000000	EX:NotSupportedException
+money	am	brl	1000000000	EX:NotSupportedException
+money	am	brl	123.45	EX:NotSupportedException
+money	am	brl	-1	EX:NotSupportedException
+money	am	brl	-2	EX:NotSupportedException
+money	am	brl	-41.5	EX:NotSupportedException
+money	am	brl	-1000	EX:NotSupportedException
+money	am	brl	1.999	EX:NotSupportedException
+money	am	brl	123.456	EX:NotSupportedException
+money	am	brl	1.005	EX:NotSupportedException
+money	am	uzs	0	EX:NotSupportedException
+money	am	uzs	0.01	EX:NotSupportedException
+money	am	uzs	0.02	EX:NotSupportedException
+money	am	uzs	1	EX:NotSupportedException
+money	am	uzs	1.01	EX:NotSupportedException
+money	am	uzs	1.02	EX:NotSupportedException
+money	am	uzs	2	EX:NotSupportedException
+money	am	uzs	2.02	EX:NotSupportedException
+money	am	uzs	3	EX:NotSupportedException
+money	am	uzs	5	EX:NotSupportedException
+money	am	uzs	11	EX:NotSupportedException
+money	am	uzs	21	EX:NotSupportedException
+money	am	uzs	22	EX:NotSupportedException
+money	am	uzs	42	EX:NotSupportedException
+money	am	uzs	100	EX:NotSupportedException
+money	am	uzs	101	EX:NotSupportedException
+money	am	uzs	121	EX:NotSupportedException
+money	am	uzs	999	EX:NotSupportedException
+money	am	uzs	1000	EX:NotSupportedException
+money	am	uzs	1001	EX:NotSupportedException
+money	am	uzs	2000	EX:NotSupportedException
+money	am	uzs	2001	EX:NotSupportedException
+money	am	uzs	5000	EX:NotSupportedException
+money	am	uzs	21000	EX:NotSupportedException
+money	am	uzs	22000	EX:NotSupportedException
+money	am	uzs	41000	EX:NotSupportedException
+money	am	uzs	42000	EX:NotSupportedException
+money	am	uzs	100000	EX:NotSupportedException
+money	am	uzs	1000000	EX:NotSupportedException
+money	am	uzs	2000000	EX:NotSupportedException
+money	am	uzs	1000000000	EX:NotSupportedException
+money	am	uzs	123.45	EX:NotSupportedException
+money	am	uzs	-1	EX:NotSupportedException
+money	am	uzs	-2	EX:NotSupportedException
+money	am	uzs	-41.5	EX:NotSupportedException
+money	am	uzs	-1000	EX:NotSupportedException
+money	am	uzs	1.999	EX:NotSupportedException
+money	am	uzs	123.456	EX:NotSupportedException
+money	am	uzs	1.005	EX:NotSupportedException
+money	am	gbp	0	EX:NotSupportedException
+money	am	gbp	0.01	EX:NotSupportedException
+money	am	gbp	0.02	EX:NotSupportedException
+money	am	gbp	1	EX:NotSupportedException
+money	am	gbp	1.01	EX:NotSupportedException
+money	am	gbp	1.02	EX:NotSupportedException
+money	am	gbp	2	EX:NotSupportedException
+money	am	gbp	2.02	EX:NotSupportedException
+money	am	gbp	3	EX:NotSupportedException
+money	am	gbp	5	EX:NotSupportedException
+money	am	gbp	11	EX:NotSupportedException
+money	am	gbp	21	EX:NotSupportedException
+money	am	gbp	22	EX:NotSupportedException
+money	am	gbp	42	EX:NotSupportedException
+money	am	gbp	100	EX:NotSupportedException
+money	am	gbp	101	EX:NotSupportedException
+money	am	gbp	121	EX:NotSupportedException
+money	am	gbp	999	EX:NotSupportedException
+money	am	gbp	1000	EX:NotSupportedException
+money	am	gbp	1001	EX:NotSupportedException
+money	am	gbp	2000	EX:NotSupportedException
+money	am	gbp	2001	EX:NotSupportedException
+money	am	gbp	5000	EX:NotSupportedException
+money	am	gbp	21000	EX:NotSupportedException
+money	am	gbp	22000	EX:NotSupportedException
+money	am	gbp	41000	EX:NotSupportedException
+money	am	gbp	42000	EX:NotSupportedException
+money	am	gbp	100000	EX:NotSupportedException
+money	am	gbp	1000000	EX:NotSupportedException
+money	am	gbp	2000000	EX:NotSupportedException
+money	am	gbp	1000000000	EX:NotSupportedException
+money	am	gbp	123.45	EX:NotSupportedException
+money	am	gbp	-1	EX:NotSupportedException
+money	am	gbp	-2	EX:NotSupportedException
+money	am	gbp	-41.5	EX:NotSupportedException
+money	am	gbp	-1000	EX:NotSupportedException
+money	am	gbp	1.999	EX:NotSupportedException
+money	am	gbp	123.456	EX:NotSupportedException
+money	am	gbp	1.005	EX:NotSupportedException
 plain	uz	0	nol
 plain	uz	1	bir
 plain	uz	2	ikki
@@ -7140,162 +7140,162 @@ money	lv	rub	-1000	mīnus viens tūkstotis Krievijas rubļi un nulle kapeiku
 money	lv	rub	1.999	divi Krievijas rubļi un nulle kapeiku
 money	lv	rub	123.456	simts divdesmit trīs Krievijas rubļi un četrdesmit seši kapeikas
 money	lv	rub	1.005	viens Krievijas rublis un viena kapeika
-money	lv	try	0	
-money	lv	try	0.01	
-money	lv	try	0.02	
-money	lv	try	1	
-money	lv	try	1.01	
-money	lv	try	1.02	
-money	lv	try	2	
-money	lv	try	2.02	
-money	lv	try	3	
-money	lv	try	5	
-money	lv	try	11	
-money	lv	try	21	
-money	lv	try	22	
-money	lv	try	42	
-money	lv	try	100	
-money	lv	try	101	
-money	lv	try	121	
-money	lv	try	999	
-money	lv	try	1000	
-money	lv	try	1001	
-money	lv	try	2000	
-money	lv	try	2001	
-money	lv	try	5000	
-money	lv	try	21000	
-money	lv	try	22000	
-money	lv	try	41000	
-money	lv	try	42000	
-money	lv	try	100000	
-money	lv	try	1000000	
-money	lv	try	2000000	
-money	lv	try	1000000000	
-money	lv	try	123.45	
-money	lv	try	-1	
-money	lv	try	-2	
-money	lv	try	-41.5	
-money	lv	try	-1000	
-money	lv	try	1.999	
-money	lv	try	123.456	
-money	lv	try	1.005	
-money	lv	uah	0	
-money	lv	uah	0.01	
-money	lv	uah	0.02	
-money	lv	uah	1	
-money	lv	uah	1.01	
-money	lv	uah	1.02	
-money	lv	uah	2	
-money	lv	uah	2.02	
-money	lv	uah	3	
-money	lv	uah	5	
-money	lv	uah	11	
-money	lv	uah	21	
-money	lv	uah	22	
-money	lv	uah	42	
-money	lv	uah	100	
-money	lv	uah	101	
-money	lv	uah	121	
-money	lv	uah	999	
-money	lv	uah	1000	
-money	lv	uah	1001	
-money	lv	uah	2000	
-money	lv	uah	2001	
-money	lv	uah	5000	
-money	lv	uah	21000	
-money	lv	uah	22000	
-money	lv	uah	41000	
-money	lv	uah	42000	
-money	lv	uah	100000	
-money	lv	uah	1000000	
-money	lv	uah	2000000	
-money	lv	uah	1000000000	
-money	lv	uah	123.45	
-money	lv	uah	-1	
-money	lv	uah	-2	
-money	lv	uah	-41.5	
-money	lv	uah	-1000	
-money	lv	uah	1.999	
-money	lv	uah	123.456	
-money	lv	uah	1.005	
-money	lv	bgn	0	
-money	lv	bgn	0.01	
-money	lv	bgn	0.02	
-money	lv	bgn	1	
-money	lv	bgn	1.01	
-money	lv	bgn	1.02	
-money	lv	bgn	2	
-money	lv	bgn	2.02	
-money	lv	bgn	3	
-money	lv	bgn	5	
-money	lv	bgn	11	
-money	lv	bgn	21	
-money	lv	bgn	22	
-money	lv	bgn	42	
-money	lv	bgn	100	
-money	lv	bgn	101	
-money	lv	bgn	121	
-money	lv	bgn	999	
-money	lv	bgn	1000	
-money	lv	bgn	1001	
-money	lv	bgn	2000	
-money	lv	bgn	2001	
-money	lv	bgn	5000	
-money	lv	bgn	21000	
-money	lv	bgn	22000	
-money	lv	bgn	41000	
-money	lv	bgn	42000	
-money	lv	bgn	100000	
-money	lv	bgn	1000000	
-money	lv	bgn	2000000	
-money	lv	bgn	1000000000	
-money	lv	bgn	123.45	
-money	lv	bgn	-1	
-money	lv	bgn	-2	
-money	lv	bgn	-41.5	
-money	lv	bgn	-1000	
-money	lv	bgn	1.999	
-money	lv	bgn	123.456	
-money	lv	bgn	1.005	
-money	lv	etb	0	
-money	lv	etb	0.01	
-money	lv	etb	0.02	
-money	lv	etb	1	
-money	lv	etb	1.01	
-money	lv	etb	1.02	
-money	lv	etb	2	
-money	lv	etb	2.02	
-money	lv	etb	3	
-money	lv	etb	5	
-money	lv	etb	11	
-money	lv	etb	21	
-money	lv	etb	22	
-money	lv	etb	42	
-money	lv	etb	100	
-money	lv	etb	101	
-money	lv	etb	121	
-money	lv	etb	999	
-money	lv	etb	1000	
-money	lv	etb	1001	
-money	lv	etb	2000	
-money	lv	etb	2001	
-money	lv	etb	5000	
-money	lv	etb	21000	
-money	lv	etb	22000	
-money	lv	etb	41000	
-money	lv	etb	42000	
-money	lv	etb	100000	
-money	lv	etb	1000000	
-money	lv	etb	2000000	
-money	lv	etb	1000000000	
-money	lv	etb	123.45	
-money	lv	etb	-1	
-money	lv	etb	-2	
-money	lv	etb	-41.5	
-money	lv	etb	-1000	
-money	lv	etb	1.999	
-money	lv	etb	123.456	
-money	lv	etb	1.005	
+money	lv	try	0	EX:NotSupportedException
+money	lv	try	0.01	EX:NotSupportedException
+money	lv	try	0.02	EX:NotSupportedException
+money	lv	try	1	EX:NotSupportedException
+money	lv	try	1.01	EX:NotSupportedException
+money	lv	try	1.02	EX:NotSupportedException
+money	lv	try	2	EX:NotSupportedException
+money	lv	try	2.02	EX:NotSupportedException
+money	lv	try	3	EX:NotSupportedException
+money	lv	try	5	EX:NotSupportedException
+money	lv	try	11	EX:NotSupportedException
+money	lv	try	21	EX:NotSupportedException
+money	lv	try	22	EX:NotSupportedException
+money	lv	try	42	EX:NotSupportedException
+money	lv	try	100	EX:NotSupportedException
+money	lv	try	101	EX:NotSupportedException
+money	lv	try	121	EX:NotSupportedException
+money	lv	try	999	EX:NotSupportedException
+money	lv	try	1000	EX:NotSupportedException
+money	lv	try	1001	EX:NotSupportedException
+money	lv	try	2000	EX:NotSupportedException
+money	lv	try	2001	EX:NotSupportedException
+money	lv	try	5000	EX:NotSupportedException
+money	lv	try	21000	EX:NotSupportedException
+money	lv	try	22000	EX:NotSupportedException
+money	lv	try	41000	EX:NotSupportedException
+money	lv	try	42000	EX:NotSupportedException
+money	lv	try	100000	EX:NotSupportedException
+money	lv	try	1000000	EX:NotSupportedException
+money	lv	try	2000000	EX:NotSupportedException
+money	lv	try	1000000000	EX:NotSupportedException
+money	lv	try	123.45	EX:NotSupportedException
+money	lv	try	-1	EX:NotSupportedException
+money	lv	try	-2	EX:NotSupportedException
+money	lv	try	-41.5	EX:NotSupportedException
+money	lv	try	-1000	EX:NotSupportedException
+money	lv	try	1.999	EX:NotSupportedException
+money	lv	try	123.456	EX:NotSupportedException
+money	lv	try	1.005	EX:NotSupportedException
+money	lv	uah	0	EX:NotSupportedException
+money	lv	uah	0.01	EX:NotSupportedException
+money	lv	uah	0.02	EX:NotSupportedException
+money	lv	uah	1	EX:NotSupportedException
+money	lv	uah	1.01	EX:NotSupportedException
+money	lv	uah	1.02	EX:NotSupportedException
+money	lv	uah	2	EX:NotSupportedException
+money	lv	uah	2.02	EX:NotSupportedException
+money	lv	uah	3	EX:NotSupportedException
+money	lv	uah	5	EX:NotSupportedException
+money	lv	uah	11	EX:NotSupportedException
+money	lv	uah	21	EX:NotSupportedException
+money	lv	uah	22	EX:NotSupportedException
+money	lv	uah	42	EX:NotSupportedException
+money	lv	uah	100	EX:NotSupportedException
+money	lv	uah	101	EX:NotSupportedException
+money	lv	uah	121	EX:NotSupportedException
+money	lv	uah	999	EX:NotSupportedException
+money	lv	uah	1000	EX:NotSupportedException
+money	lv	uah	1001	EX:NotSupportedException
+money	lv	uah	2000	EX:NotSupportedException
+money	lv	uah	2001	EX:NotSupportedException
+money	lv	uah	5000	EX:NotSupportedException
+money	lv	uah	21000	EX:NotSupportedException
+money	lv	uah	22000	EX:NotSupportedException
+money	lv	uah	41000	EX:NotSupportedException
+money	lv	uah	42000	EX:NotSupportedException
+money	lv	uah	100000	EX:NotSupportedException
+money	lv	uah	1000000	EX:NotSupportedException
+money	lv	uah	2000000	EX:NotSupportedException
+money	lv	uah	1000000000	EX:NotSupportedException
+money	lv	uah	123.45	EX:NotSupportedException
+money	lv	uah	-1	EX:NotSupportedException
+money	lv	uah	-2	EX:NotSupportedException
+money	lv	uah	-41.5	EX:NotSupportedException
+money	lv	uah	-1000	EX:NotSupportedException
+money	lv	uah	1.999	EX:NotSupportedException
+money	lv	uah	123.456	EX:NotSupportedException
+money	lv	uah	1.005	EX:NotSupportedException
+money	lv	bgn	0	EX:NotSupportedException
+money	lv	bgn	0.01	EX:NotSupportedException
+money	lv	bgn	0.02	EX:NotSupportedException
+money	lv	bgn	1	EX:NotSupportedException
+money	lv	bgn	1.01	EX:NotSupportedException
+money	lv	bgn	1.02	EX:NotSupportedException
+money	lv	bgn	2	EX:NotSupportedException
+money	lv	bgn	2.02	EX:NotSupportedException
+money	lv	bgn	3	EX:NotSupportedException
+money	lv	bgn	5	EX:NotSupportedException
+money	lv	bgn	11	EX:NotSupportedException
+money	lv	bgn	21	EX:NotSupportedException
+money	lv	bgn	22	EX:NotSupportedException
+money	lv	bgn	42	EX:NotSupportedException
+money	lv	bgn	100	EX:NotSupportedException
+money	lv	bgn	101	EX:NotSupportedException
+money	lv	bgn	121	EX:NotSupportedException
+money	lv	bgn	999	EX:NotSupportedException
+money	lv	bgn	1000	EX:NotSupportedException
+money	lv	bgn	1001	EX:NotSupportedException
+money	lv	bgn	2000	EX:NotSupportedException
+money	lv	bgn	2001	EX:NotSupportedException
+money	lv	bgn	5000	EX:NotSupportedException
+money	lv	bgn	21000	EX:NotSupportedException
+money	lv	bgn	22000	EX:NotSupportedException
+money	lv	bgn	41000	EX:NotSupportedException
+money	lv	bgn	42000	EX:NotSupportedException
+money	lv	bgn	100000	EX:NotSupportedException
+money	lv	bgn	1000000	EX:NotSupportedException
+money	lv	bgn	2000000	EX:NotSupportedException
+money	lv	bgn	1000000000	EX:NotSupportedException
+money	lv	bgn	123.45	EX:NotSupportedException
+money	lv	bgn	-1	EX:NotSupportedException
+money	lv	bgn	-2	EX:NotSupportedException
+money	lv	bgn	-41.5	EX:NotSupportedException
+money	lv	bgn	-1000	EX:NotSupportedException
+money	lv	bgn	1.999	EX:NotSupportedException
+money	lv	bgn	123.456	EX:NotSupportedException
+money	lv	bgn	1.005	EX:NotSupportedException
+money	lv	etb	0	EX:NotSupportedException
+money	lv	etb	0.01	EX:NotSupportedException
+money	lv	etb	0.02	EX:NotSupportedException
+money	lv	etb	1	EX:NotSupportedException
+money	lv	etb	1.01	EX:NotSupportedException
+money	lv	etb	1.02	EX:NotSupportedException
+money	lv	etb	2	EX:NotSupportedException
+money	lv	etb	2.02	EX:NotSupportedException
+money	lv	etb	3	EX:NotSupportedException
+money	lv	etb	5	EX:NotSupportedException
+money	lv	etb	11	EX:NotSupportedException
+money	lv	etb	21	EX:NotSupportedException
+money	lv	etb	22	EX:NotSupportedException
+money	lv	etb	42	EX:NotSupportedException
+money	lv	etb	100	EX:NotSupportedException
+money	lv	etb	101	EX:NotSupportedException
+money	lv	etb	121	EX:NotSupportedException
+money	lv	etb	999	EX:NotSupportedException
+money	lv	etb	1000	EX:NotSupportedException
+money	lv	etb	1001	EX:NotSupportedException
+money	lv	etb	2000	EX:NotSupportedException
+money	lv	etb	2001	EX:NotSupportedException
+money	lv	etb	5000	EX:NotSupportedException
+money	lv	etb	21000	EX:NotSupportedException
+money	lv	etb	22000	EX:NotSupportedException
+money	lv	etb	41000	EX:NotSupportedException
+money	lv	etb	42000	EX:NotSupportedException
+money	lv	etb	100000	EX:NotSupportedException
+money	lv	etb	1000000	EX:NotSupportedException
+money	lv	etb	2000000	EX:NotSupportedException
+money	lv	etb	1000000000	EX:NotSupportedException
+money	lv	etb	123.45	EX:NotSupportedException
+money	lv	etb	-1	EX:NotSupportedException
+money	lv	etb	-2	EX:NotSupportedException
+money	lv	etb	-41.5	EX:NotSupportedException
+money	lv	etb	-1000	EX:NotSupportedException
+money	lv	etb	1.999	EX:NotSupportedException
+money	lv	etb	123.456	EX:NotSupportedException
+money	lv	etb	1.005	EX:NotSupportedException
 money	lv	pln	0	nulle Polijas zlotu un nulle grašu
 money	lv	pln	0.01	nulle Polijas zlotu un viens grasis
 money	lv	pln	0.02	nulle Polijas zlotu un divi graši
@@ -7335,162 +7335,162 @@ money	lv	pln	-1000	mīnus viens tūkstotis Polijas zloti un nulle grašu
 money	lv	pln	1.999	divi Polijas zloti un nulle grašu
 money	lv	pln	123.456	simts divdesmit trīs Polijas zloti un četrdesmit seši graši
 money	lv	pln	1.005	viens Polijas zlots un viens grasis
-money	lv	byn	0	
-money	lv	byn	0.01	
-money	lv	byn	0.02	
-money	lv	byn	1	
-money	lv	byn	1.01	
-money	lv	byn	1.02	
-money	lv	byn	2	
-money	lv	byn	2.02	
-money	lv	byn	3	
-money	lv	byn	5	
-money	lv	byn	11	
-money	lv	byn	21	
-money	lv	byn	22	
-money	lv	byn	42	
-money	lv	byn	100	
-money	lv	byn	101	
-money	lv	byn	121	
-money	lv	byn	999	
-money	lv	byn	1000	
-money	lv	byn	1001	
-money	lv	byn	2000	
-money	lv	byn	2001	
-money	lv	byn	5000	
-money	lv	byn	21000	
-money	lv	byn	22000	
-money	lv	byn	41000	
-money	lv	byn	42000	
-money	lv	byn	100000	
-money	lv	byn	1000000	
-money	lv	byn	2000000	
-money	lv	byn	1000000000	
-money	lv	byn	123.45	
-money	lv	byn	-1	
-money	lv	byn	-2	
-money	lv	byn	-41.5	
-money	lv	byn	-1000	
-money	lv	byn	1.999	
-money	lv	byn	123.456	
-money	lv	byn	1.005	
-money	lv	ars	0	
-money	lv	ars	0.01	
-money	lv	ars	0.02	
-money	lv	ars	1	
-money	lv	ars	1.01	
-money	lv	ars	1.02	
-money	lv	ars	2	
-money	lv	ars	2.02	
-money	lv	ars	3	
-money	lv	ars	5	
-money	lv	ars	11	
-money	lv	ars	21	
-money	lv	ars	22	
-money	lv	ars	42	
-money	lv	ars	100	
-money	lv	ars	101	
-money	lv	ars	121	
-money	lv	ars	999	
-money	lv	ars	1000	
-money	lv	ars	1001	
-money	lv	ars	2000	
-money	lv	ars	2001	
-money	lv	ars	5000	
-money	lv	ars	21000	
-money	lv	ars	22000	
-money	lv	ars	41000	
-money	lv	ars	42000	
-money	lv	ars	100000	
-money	lv	ars	1000000	
-money	lv	ars	2000000	
-money	lv	ars	1000000000	
-money	lv	ars	123.45	
-money	lv	ars	-1	
-money	lv	ars	-2	
-money	lv	ars	-41.5	
-money	lv	ars	-1000	
-money	lv	ars	1.999	
-money	lv	ars	123.456	
-money	lv	ars	1.005	
-money	lv	brl	0	
-money	lv	brl	0.01	
-money	lv	brl	0.02	
-money	lv	brl	1	
-money	lv	brl	1.01	
-money	lv	brl	1.02	
-money	lv	brl	2	
-money	lv	brl	2.02	
-money	lv	brl	3	
-money	lv	brl	5	
-money	lv	brl	11	
-money	lv	brl	21	
-money	lv	brl	22	
-money	lv	brl	42	
-money	lv	brl	100	
-money	lv	brl	101	
-money	lv	brl	121	
-money	lv	brl	999	
-money	lv	brl	1000	
-money	lv	brl	1001	
-money	lv	brl	2000	
-money	lv	brl	2001	
-money	lv	brl	5000	
-money	lv	brl	21000	
-money	lv	brl	22000	
-money	lv	brl	41000	
-money	lv	brl	42000	
-money	lv	brl	100000	
-money	lv	brl	1000000	
-money	lv	brl	2000000	
-money	lv	brl	1000000000	
-money	lv	brl	123.45	
-money	lv	brl	-1	
-money	lv	brl	-2	
-money	lv	brl	-41.5	
-money	lv	brl	-1000	
-money	lv	brl	1.999	
-money	lv	brl	123.456	
-money	lv	brl	1.005	
-money	lv	uzs	0	
-money	lv	uzs	0.01	
-money	lv	uzs	0.02	
-money	lv	uzs	1	
-money	lv	uzs	1.01	
-money	lv	uzs	1.02	
-money	lv	uzs	2	
-money	lv	uzs	2.02	
-money	lv	uzs	3	
-money	lv	uzs	5	
-money	lv	uzs	11	
-money	lv	uzs	21	
-money	lv	uzs	22	
-money	lv	uzs	42	
-money	lv	uzs	100	
-money	lv	uzs	101	
-money	lv	uzs	121	
-money	lv	uzs	999	
-money	lv	uzs	1000	
-money	lv	uzs	1001	
-money	lv	uzs	2000	
-money	lv	uzs	2001	
-money	lv	uzs	5000	
-money	lv	uzs	21000	
-money	lv	uzs	22000	
-money	lv	uzs	41000	
-money	lv	uzs	42000	
-money	lv	uzs	100000	
-money	lv	uzs	1000000	
-money	lv	uzs	2000000	
-money	lv	uzs	1000000000	
-money	lv	uzs	123.45	
-money	lv	uzs	-1	
-money	lv	uzs	-2	
-money	lv	uzs	-41.5	
-money	lv	uzs	-1000	
-money	lv	uzs	1.999	
-money	lv	uzs	123.456	
-money	lv	uzs	1.005	
+money	lv	byn	0	EX:NotSupportedException
+money	lv	byn	0.01	EX:NotSupportedException
+money	lv	byn	0.02	EX:NotSupportedException
+money	lv	byn	1	EX:NotSupportedException
+money	lv	byn	1.01	EX:NotSupportedException
+money	lv	byn	1.02	EX:NotSupportedException
+money	lv	byn	2	EX:NotSupportedException
+money	lv	byn	2.02	EX:NotSupportedException
+money	lv	byn	3	EX:NotSupportedException
+money	lv	byn	5	EX:NotSupportedException
+money	lv	byn	11	EX:NotSupportedException
+money	lv	byn	21	EX:NotSupportedException
+money	lv	byn	22	EX:NotSupportedException
+money	lv	byn	42	EX:NotSupportedException
+money	lv	byn	100	EX:NotSupportedException
+money	lv	byn	101	EX:NotSupportedException
+money	lv	byn	121	EX:NotSupportedException
+money	lv	byn	999	EX:NotSupportedException
+money	lv	byn	1000	EX:NotSupportedException
+money	lv	byn	1001	EX:NotSupportedException
+money	lv	byn	2000	EX:NotSupportedException
+money	lv	byn	2001	EX:NotSupportedException
+money	lv	byn	5000	EX:NotSupportedException
+money	lv	byn	21000	EX:NotSupportedException
+money	lv	byn	22000	EX:NotSupportedException
+money	lv	byn	41000	EX:NotSupportedException
+money	lv	byn	42000	EX:NotSupportedException
+money	lv	byn	100000	EX:NotSupportedException
+money	lv	byn	1000000	EX:NotSupportedException
+money	lv	byn	2000000	EX:NotSupportedException
+money	lv	byn	1000000000	EX:NotSupportedException
+money	lv	byn	123.45	EX:NotSupportedException
+money	lv	byn	-1	EX:NotSupportedException
+money	lv	byn	-2	EX:NotSupportedException
+money	lv	byn	-41.5	EX:NotSupportedException
+money	lv	byn	-1000	EX:NotSupportedException
+money	lv	byn	1.999	EX:NotSupportedException
+money	lv	byn	123.456	EX:NotSupportedException
+money	lv	byn	1.005	EX:NotSupportedException
+money	lv	ars	0	EX:NotSupportedException
+money	lv	ars	0.01	EX:NotSupportedException
+money	lv	ars	0.02	EX:NotSupportedException
+money	lv	ars	1	EX:NotSupportedException
+money	lv	ars	1.01	EX:NotSupportedException
+money	lv	ars	1.02	EX:NotSupportedException
+money	lv	ars	2	EX:NotSupportedException
+money	lv	ars	2.02	EX:NotSupportedException
+money	lv	ars	3	EX:NotSupportedException
+money	lv	ars	5	EX:NotSupportedException
+money	lv	ars	11	EX:NotSupportedException
+money	lv	ars	21	EX:NotSupportedException
+money	lv	ars	22	EX:NotSupportedException
+money	lv	ars	42	EX:NotSupportedException
+money	lv	ars	100	EX:NotSupportedException
+money	lv	ars	101	EX:NotSupportedException
+money	lv	ars	121	EX:NotSupportedException
+money	lv	ars	999	EX:NotSupportedException
+money	lv	ars	1000	EX:NotSupportedException
+money	lv	ars	1001	EX:NotSupportedException
+money	lv	ars	2000	EX:NotSupportedException
+money	lv	ars	2001	EX:NotSupportedException
+money	lv	ars	5000	EX:NotSupportedException
+money	lv	ars	21000	EX:NotSupportedException
+money	lv	ars	22000	EX:NotSupportedException
+money	lv	ars	41000	EX:NotSupportedException
+money	lv	ars	42000	EX:NotSupportedException
+money	lv	ars	100000	EX:NotSupportedException
+money	lv	ars	1000000	EX:NotSupportedException
+money	lv	ars	2000000	EX:NotSupportedException
+money	lv	ars	1000000000	EX:NotSupportedException
+money	lv	ars	123.45	EX:NotSupportedException
+money	lv	ars	-1	EX:NotSupportedException
+money	lv	ars	-2	EX:NotSupportedException
+money	lv	ars	-41.5	EX:NotSupportedException
+money	lv	ars	-1000	EX:NotSupportedException
+money	lv	ars	1.999	EX:NotSupportedException
+money	lv	ars	123.456	EX:NotSupportedException
+money	lv	ars	1.005	EX:NotSupportedException
+money	lv	brl	0	EX:NotSupportedException
+money	lv	brl	0.01	EX:NotSupportedException
+money	lv	brl	0.02	EX:NotSupportedException
+money	lv	brl	1	EX:NotSupportedException
+money	lv	brl	1.01	EX:NotSupportedException
+money	lv	brl	1.02	EX:NotSupportedException
+money	lv	brl	2	EX:NotSupportedException
+money	lv	brl	2.02	EX:NotSupportedException
+money	lv	brl	3	EX:NotSupportedException
+money	lv	brl	5	EX:NotSupportedException
+money	lv	brl	11	EX:NotSupportedException
+money	lv	brl	21	EX:NotSupportedException
+money	lv	brl	22	EX:NotSupportedException
+money	lv	brl	42	EX:NotSupportedException
+money	lv	brl	100	EX:NotSupportedException
+money	lv	brl	101	EX:NotSupportedException
+money	lv	brl	121	EX:NotSupportedException
+money	lv	brl	999	EX:NotSupportedException
+money	lv	brl	1000	EX:NotSupportedException
+money	lv	brl	1001	EX:NotSupportedException
+money	lv	brl	2000	EX:NotSupportedException
+money	lv	brl	2001	EX:NotSupportedException
+money	lv	brl	5000	EX:NotSupportedException
+money	lv	brl	21000	EX:NotSupportedException
+money	lv	brl	22000	EX:NotSupportedException
+money	lv	brl	41000	EX:NotSupportedException
+money	lv	brl	42000	EX:NotSupportedException
+money	lv	brl	100000	EX:NotSupportedException
+money	lv	brl	1000000	EX:NotSupportedException
+money	lv	brl	2000000	EX:NotSupportedException
+money	lv	brl	1000000000	EX:NotSupportedException
+money	lv	brl	123.45	EX:NotSupportedException
+money	lv	brl	-1	EX:NotSupportedException
+money	lv	brl	-2	EX:NotSupportedException
+money	lv	brl	-41.5	EX:NotSupportedException
+money	lv	brl	-1000	EX:NotSupportedException
+money	lv	brl	1.999	EX:NotSupportedException
+money	lv	brl	123.456	EX:NotSupportedException
+money	lv	brl	1.005	EX:NotSupportedException
+money	lv	uzs	0	EX:NotSupportedException
+money	lv	uzs	0.01	EX:NotSupportedException
+money	lv	uzs	0.02	EX:NotSupportedException
+money	lv	uzs	1	EX:NotSupportedException
+money	lv	uzs	1.01	EX:NotSupportedException
+money	lv	uzs	1.02	EX:NotSupportedException
+money	lv	uzs	2	EX:NotSupportedException
+money	lv	uzs	2.02	EX:NotSupportedException
+money	lv	uzs	3	EX:NotSupportedException
+money	lv	uzs	5	EX:NotSupportedException
+money	lv	uzs	11	EX:NotSupportedException
+money	lv	uzs	21	EX:NotSupportedException
+money	lv	uzs	22	EX:NotSupportedException
+money	lv	uzs	42	EX:NotSupportedException
+money	lv	uzs	100	EX:NotSupportedException
+money	lv	uzs	101	EX:NotSupportedException
+money	lv	uzs	121	EX:NotSupportedException
+money	lv	uzs	999	EX:NotSupportedException
+money	lv	uzs	1000	EX:NotSupportedException
+money	lv	uzs	1001	EX:NotSupportedException
+money	lv	uzs	2000	EX:NotSupportedException
+money	lv	uzs	2001	EX:NotSupportedException
+money	lv	uzs	5000	EX:NotSupportedException
+money	lv	uzs	21000	EX:NotSupportedException
+money	lv	uzs	22000	EX:NotSupportedException
+money	lv	uzs	41000	EX:NotSupportedException
+money	lv	uzs	42000	EX:NotSupportedException
+money	lv	uzs	100000	EX:NotSupportedException
+money	lv	uzs	1000000	EX:NotSupportedException
+money	lv	uzs	2000000	EX:NotSupportedException
+money	lv	uzs	1000000000	EX:NotSupportedException
+money	lv	uzs	123.45	EX:NotSupportedException
+money	lv	uzs	-1	EX:NotSupportedException
+money	lv	uzs	-2	EX:NotSupportedException
+money	lv	uzs	-41.5	EX:NotSupportedException
+money	lv	uzs	-1000	EX:NotSupportedException
+money	lv	uzs	1.999	EX:NotSupportedException
+money	lv	uzs	123.456	EX:NotSupportedException
+money	lv	uzs	1.005	EX:NotSupportedException
 money	lv	gbp	0	nulle sterliņu mārciņu un nulle pensu
 money	lv	gbp	0.01	nulle sterliņu mārciņu un viens penss
 money	lv	gbp	0.02	nulle sterliņu mārciņu un divi pensi

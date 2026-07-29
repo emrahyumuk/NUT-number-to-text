@@ -1,4 +1,5 @@
-﻿namespace Nut.Tests
+﻿using System;
+namespace Nut.Tests
 {
     /// <summary>
     /// Which language string resolves to which converter. The int overloads used to
@@ -67,22 +68,40 @@
             Assert.That(41m.ToText(currency, Language.English), Is.EqualTo(expected));
         }
 
-        /// <summary>Unknown input still returns empty rather than throwing.</summary>
+        /// <summary>An unsupported language fails loudly rather than returning "".</summary>
         [TestCase("xx")]
         [TestCase("")]
         [TestCase("zz-ZZ")]
         [TestCase(null)]
-        public void UnknownLanguageIsEmpty(string lang)
+        public void UnknownLanguageThrows(string lang)
         {
-            Assert.That(101.ToText(lang), Is.Empty);
-            Assert.That(41m.ToText(Currency.USD, lang), Is.Empty);
+            Assert.That(() => 101.ToText(lang), Throws.InstanceOf<NotSupportedException>());
+            Assert.That(() => 41m.ToText(Currency.USD, lang), Throws.InstanceOf<NotSupportedException>());
         }
 
         [Test]
-        public void UnknownCurrencyIsEmpty()
+        public void UnknownCurrencyThrows()
         {
-            Assert.That(41m.ToText("zzz", Language.English), Is.Empty);
-            Assert.That(41m.ToText(null, Language.English), Is.Empty);
+            Assert.That(() => 41m.ToText("zzz", Language.English), Throws.InstanceOf<NotSupportedException>());
+            Assert.That(() => 41m.ToText(null, Language.English), Throws.InstanceOf<NotSupportedException>());
+        }
+
+        /// <summary>The message has to say what went wrong and what would work.</summary>
+        [Test]
+        public void TheMessageNamesTheProblemAndTheAlternatives()
+        {
+            var lang = Assert.Throws<NotSupportedException>(() => 101.ToText("xx"));
+            Assert.That(lang.Message, Does.Contain("xx").And.Contain("en").And.Contain("tr"));
+
+            var currency = Assert.Throws<NotSupportedException>(
+                () => 1m.ToText(Currency.ARS, Language.Amharic));
+            Assert.That(currency.Message, Does.Contain("ars").And.Contain("am-ET"));
+        }
+
+        [Test]
+        public void SupportedLanguagesIsDiscoverable()
+        {
+            Assert.That(Extentions.SupportedLanguages, Contains.Item("en").And.Contains("en-GB").And.Contains("lv"));
         }
     }
 }

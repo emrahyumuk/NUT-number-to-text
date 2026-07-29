@@ -161,7 +161,13 @@ namespace Nut.TextConverters
       if (currency == Currency.TL) currency = Currency.TRY;
       if (currency == Currency.RUR) currency = Currency.RUB;
       var currencyModel = GetCurrencyModel(currency);
-      if (currencyModel == null) return string.Empty;
+      if (currencyModel == null)
+      {
+        // Same reasoning as an unknown language: a blank amount field on an invoice is a
+        // worse outcome than a failed call, because nothing surfaces it.
+        throw new NotSupportedException(string.Format(
+          "Currency '{0}' is not supported in {1}.", currency ?? "(null)", CultureName));
+      }
 
       // Take the sign off before splitting. Otherwise "-41.5" splits into "-41" and "5",
       // and the minus is lost somewhere in the integer part while the fraction survives,
