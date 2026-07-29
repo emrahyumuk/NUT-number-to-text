@@ -117,9 +117,11 @@ Pull requests are welcome. Two things make them much easier to accept:
 - [DeNcHiK3713](https://github.com/DeNcHiK3713) - Belarussian Language and Currency
 - [Marciel032](https://github.com/Marciel032) - Portuguese Language and Currency
 - [ArkadiuszMakosa](https://github.com/ArkadiuszMakosa) - Polish Language Unit Tests
-- [Maryam1986](https://github.com/Maryam1986) - German Language and Currency
+- [Maryam1986](https://github.com/Maryam1986) - German Language and Currency, Negative Numbers
 - [Furqat-Abduvosiqov](https://github.com/Furqat-Abduvosiqov) - Uzbek Language and Currency
 - [IlyashenkoA](https://github.com/IlyashenkoA) - GBP Currency, Latvian Language
+- [Stepami](https://github.com/Stepami) - Russian Gender Fixes, RUR
+- [fulviocanducci](https://github.com/fulviocanducci) - Portuguese Separator
 
 ---
 
