@@ -132,6 +132,11 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   Also fixes a stray trailing space in the word for fifty, which produced
   `cinquante -deux`.
 
+- **Spanish scale nouns now link to the currency with "de"**, which RAE requires:
+  `un millón de euros`, not `un millón euros`. `mil` is an adjective and takes none, so
+  `mil euros` is unchanged, and the preposition only appears when the amount ends on the
+  scale noun — `un millón quinientos mil euros` keeps none.
+
 ### Added
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than

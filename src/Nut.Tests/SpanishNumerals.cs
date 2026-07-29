@@ -1,4 +1,4 @@
-namespace Nut.Tests
+﻿namespace Nut.Tests
 {
     /// <summary>
     /// Spanish numerals, per RAE. Three separate rules were wrong:
@@ -73,6 +73,25 @@ namespace Nut.Tests
         public void HundredsUseTheMasculineForm(long number, string expected)
         {
             Assert.That(number.ToText(Language.Spanish), Is.EqualTo(expected));
+        }
+
+        /// <summary>RAE: millón is a noun and links what it counts with "de"; mil is an
+        /// adjective and takes none.</summary>
+        [TestCase(1000000, "un millón de euros con cero céntimo de euro")]
+        [TestCase(2000000, "dos millones de euros con cero céntimo de euro")]
+        [TestCase(1000000000, "mil millones de euros con cero céntimo de euro")]
+        public void ScaleNounsLinkWithDe(decimal amount, string expected)
+        {
+            Assert.That(amount.ToText(Currency.EUR, Language.Spanish), Is.EqualTo(expected));
+        }
+
+        /// <summary>No "de" when mil ends the amount, or when the scale noun is not final.</summary>
+        [TestCase(1000, "mil euros con cero céntimo de euro")]
+        [TestCase(2000, "dos mil euros con cero céntimo de euro")]
+        [TestCase(1500000, "un millón quinientos mil euros con cero céntimo de euro")]
+        public void NoDeWhereItDoesNotBelong(decimal amount, string expected)
+        {
+            Assert.That(amount.ToText(Currency.EUR, Language.Spanish), Is.EqualTo(expected));
         }
 
         [Test]

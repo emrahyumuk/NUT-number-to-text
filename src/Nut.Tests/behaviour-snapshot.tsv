@@ -1437,9 +1437,9 @@ money	es	eur	22000	veintidós mil euros con cero céntimo de euro
 money	es	eur	41000	cuarenta y un mil euros con cero céntimo de euro
 money	es	eur	42000	cuarenta y dos mil euros con cero céntimo de euro
 money	es	eur	100000	cien mil euros con cero céntimo de euro
-money	es	eur	1000000	un millón euros con cero céntimo de euro
-money	es	eur	2000000	dos millones euros con cero céntimo de euro
-money	es	eur	1000000000	mil millones euros con cero céntimo de euro
+money	es	eur	1000000	un millón de euros con cero céntimo de euro
+money	es	eur	2000000	dos millones de euros con cero céntimo de euro
+money	es	eur	1000000000	mil millones de euros con cero céntimo de euro
 money	es	eur	123.45	ciento veintitrés euros con cuarenta y cinco céntimos de euro
 money	es	eur	-1	menos un euro con cero céntimo de euro
 money	es	eur	-2	menos dos euros con cero céntimo de euro
@@ -1476,9 +1476,9 @@ money	es	usd	22000	veintidós mil dólares con cero centavo
 money	es	usd	41000	cuarenta y un mil dólares con cero centavo
 money	es	usd	42000	cuarenta y dos mil dólares con cero centavo
 money	es	usd	100000	cien mil dólares con cero centavo
-money	es	usd	1000000	un millón dólares con cero centavo
-money	es	usd	2000000	dos millones dólares con cero centavo
-money	es	usd	1000000000	mil millones dólares con cero centavo
+money	es	usd	1000000	un millón de dólares con cero centavo
+money	es	usd	2000000	dos millones de dólares con cero centavo
+money	es	usd	1000000000	mil millones de dólares con cero centavo
 money	es	usd	123.45	ciento veintitrés dólares con cuarenta y cinco centavos
 money	es	usd	-1	menos un dólar con cero centavo
 money	es	usd	-2	menos dos dólares con cero centavo
@@ -1515,9 +1515,9 @@ money	es	rub	22000	veintidós mil rublos con cero kopek
 money	es	rub	41000	cuarenta y un mil rublos con cero kopek
 money	es	rub	42000	cuarenta y dos mil rublos con cero kopek
 money	es	rub	100000	cien mil rublos con cero kopek
-money	es	rub	1000000	un millón rublos con cero kopek
-money	es	rub	2000000	dos millones rublos con cero kopek
-money	es	rub	1000000000	mil millones rublos con cero kopek
+money	es	rub	1000000	un millón de rublos con cero kopek
+money	es	rub	2000000	dos millones de rublos con cero kopek
+money	es	rub	1000000000	mil millones de rublos con cero kopek
 money	es	rub	123.45	ciento veintitrés rublos con cuarenta y cinco kopeks
 money	es	rub	-1	menos un rublo con cero kopek
 money	es	rub	-2	menos dos rublos con cero kopek
@@ -1554,9 +1554,9 @@ money	es	try	22000	veintidós mil liras turco con cero kuruş
 money	es	try	41000	cuarenta y un mil liras turco con cero kuruş
 money	es	try	42000	cuarenta y dos mil liras turco con cero kuruş
 money	es	try	100000	cien mil liras turco con cero kuruş
-money	es	try	1000000	un millón liras turco con cero kuruş
-money	es	try	2000000	dos millones liras turco con cero kuruş
-money	es	try	1000000000	mil millones liras turco con cero kuruş
+money	es	try	1000000	un millón de liras turco con cero kuruş
+money	es	try	2000000	dos millones de liras turco con cero kuruş
+money	es	try	1000000000	mil millones de liras turco con cero kuruş
 money	es	try	123.45	ciento veintitrés liras turco con cuarenta y cinco kuruş
 money	es	try	-1	menos un lira turco con cero kuruş
 money	es	try	-2	menos dos liras turco con cero kuruş
@@ -1593,9 +1593,9 @@ money	es	uah	22000	veintidós mil grivnas ucraniana con cero kopek
 money	es	uah	41000	cuarenta y un mil grivnas ucraniana con cero kopek
 money	es	uah	42000	cuarenta y dos mil grivnas ucraniana con cero kopek
 money	es	uah	100000	cien mil grivnas ucraniana con cero kopek
-money	es	uah	1000000	un millón grivnas ucraniana con cero kopek
-money	es	uah	2000000	dos millones grivnas ucraniana con cero kopek
-money	es	uah	1000000000	mil millones grivnas ucraniana con cero kopek
+money	es	uah	1000000	un millón de grivnas ucraniana con cero kopek
+money	es	uah	2000000	dos millones de grivnas ucraniana con cero kopek
+money	es	uah	1000000000	mil millones de grivnas ucraniana con cero kopek
 money	es	uah	123.45	ciento veintitrés grivnas ucraniana con cuarenta y cinco kopeks
 money	es	uah	-1	menos un grivna ucraniana con cero kopek
 money	es	uah	-2	menos dos grivnas ucraniana con cero kopek
@@ -1671,9 +1671,9 @@ money	es	etb	22000	veintidós mil birr con cero centavo
 money	es	etb	41000	cuarenta y un mil birr con cero centavo
 money	es	etb	42000	cuarenta y dos mil birr con cero centavo
 money	es	etb	100000	cien mil birr con cero centavo
-money	es	etb	1000000	un millón birr con cero centavo
-money	es	etb	2000000	dos millones birr con cero centavo
-money	es	etb	1000000000	mil millones birr con cero centavo
+money	es	etb	1000000	un millón de birr con cero centavo
+money	es	etb	2000000	dos millones de birr con cero centavo
+money	es	etb	1000000000	mil millones de birr con cero centavo
 money	es	etb	123.45	ciento veintitrés birr con cuarenta y cinco centavos
 money	es	etb	-1	menos un birr con cero centavo
 money	es	etb	-2	menos dos birr con cero centavo
@@ -1710,9 +1710,9 @@ money	es	pln	22000	veintidós mil zloty con cero groszy
 money	es	pln	41000	cuarenta y un mil zloty con cero groszy
 money	es	pln	42000	cuarenta y dos mil zloty con cero groszy
 money	es	pln	100000	cien mil zloty con cero groszy
-money	es	pln	1000000	un millón zloty con cero groszy
-money	es	pln	2000000	dos millones zloty con cero groszy
-money	es	pln	1000000000	mil millones zloty con cero groszy
+money	es	pln	1000000	un millón de zloty con cero groszy
+money	es	pln	2000000	dos millones de zloty con cero groszy
+money	es	pln	1000000000	mil millones de zloty con cero groszy
 money	es	pln	123.45	ciento veintitrés zloty con cuarenta y cinco groszy
 money	es	pln	-1	menos un zloty con cero groszy
 money	es	pln	-2	menos dos zloty con cero groszy
@@ -1749,9 +1749,9 @@ money	es	byn	22000	veintidós mil rublos bielorrusos con cero kopek
 money	es	byn	41000	cuarenta y un mil rublos bielorrusos con cero kopek
 money	es	byn	42000	cuarenta y dos mil rublos bielorrusos con cero kopek
 money	es	byn	100000	cien mil rublos bielorrusos con cero kopek
-money	es	byn	1000000	un millón rublos bielorrusos con cero kopek
-money	es	byn	2000000	dos millones rublos bielorrusos con cero kopek
-money	es	byn	1000000000	mil millones rublos bielorrusos con cero kopek
+money	es	byn	1000000	un millón de rublos bielorrusos con cero kopek
+money	es	byn	2000000	dos millones de rublos bielorrusos con cero kopek
+money	es	byn	1000000000	mil millones de rublos bielorrusos con cero kopek
 money	es	byn	123.45	ciento veintitrés rublos bielorrusos con cuarenta y cinco kopeks
 money	es	byn	-1	menos un rublo bielorruso con cero kopek
 money	es	byn	-2	menos dos rublos bielorrusos con cero kopek
@@ -1788,9 +1788,9 @@ money	es	ars	22000	veintidós mil pesos con cero centavo
 money	es	ars	41000	cuarenta y un mil pesos con cero centavo
 money	es	ars	42000	cuarenta y dos mil pesos con cero centavo
 money	es	ars	100000	cien mil pesos con cero centavo
-money	es	ars	1000000	un millón pesos con cero centavo
-money	es	ars	2000000	dos millones pesos con cero centavo
-money	es	ars	1000000000	mil millones pesos con cero centavo
+money	es	ars	1000000	un millón de pesos con cero centavo
+money	es	ars	2000000	dos millones de pesos con cero centavo
+money	es	ars	1000000000	mil millones de pesos con cero centavo
 money	es	ars	123.45	ciento veintitrés pesos con cuarenta y cinco centavos
 money	es	ars	-1	menos un peso con cero centavo
 money	es	ars	-2	menos dos pesos con cero centavo

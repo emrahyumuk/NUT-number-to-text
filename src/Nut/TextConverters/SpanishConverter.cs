@@ -116,6 +116,18 @@ namespace Nut.TextConverters
       return num;
     }
 
+    /// <summary>
+    /// RAE: millón and millardo are nouns, and what they count is linked to them with
+    /// "de" — "un millón de euros", never "un millón euros". mil is an adjective and takes
+    /// none, so "mil euros" stays as it is. The preposition only appears when the amount
+    /// ends on the scale noun; "un millón uno" is followed directly by the currency.
+    /// </summary>
+    protected override string GetCurrencyText(long num, CurrencyModel currency)
+    {
+      var name = base.GetCurrencyText(num, currency);
+      return num >= 1000000 && num % 1000000 == 0 ? "de " + name : name;
+    }
+
     protected override string GetUnitSeparator(CurrencyModel currency)
     {
       return " con ";
