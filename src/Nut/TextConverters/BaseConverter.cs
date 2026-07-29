@@ -71,11 +71,6 @@ namespace Nut.TextConverters
       return ToText(num);
     }
 
-    protected virtual string ToText(long num, CurrencyModel currencyModel, bool isMainUnit, GenderGroup genderGroup = GenderGroup.None)
-    {
-      return ToText(num, genderGroup);
-    }
-
     protected virtual long Append(long num, long scale, StringBuilder builder)
     {
       if (num > scale - 1)
@@ -151,12 +146,13 @@ namespace Nut.TextConverters
 
     #region Currency
 
+    /// <summary>
+    /// A money amount takes no gender argument. Which form a numeral needs is a property of
+    /// the currency it counts, and lives on <see cref="BaseCurrencyModel.Gender"/>; there is
+    /// nothing left for a caller to decide. The parameter that used to sit here was read by
+    /// nothing at all.
+    /// </summary>
     public virtual string ToText(decimal num, string currency, Options options)
-    {
-      return ToText(num, currency, options, GenderGroup.None);
-    }
-
-    public virtual string ToText(decimal num, string currency, Options options, GenderGroup genderGroup = GenderGroup.None)
     {
       // Before the split, and before MainUnitNotConvertedToText can route around the check
       // in the long overload by never calling it.

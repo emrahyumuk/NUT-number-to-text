@@ -146,6 +146,12 @@ assert on that text, review the tables below before taking this release.
   started throwing. `Culture.Belarusian` was `by-BY`, which is not a culture .NET knows; it
   is now `be-BY`. All three old strings still resolve.
 
+- **The money overloads no longer take a `GenderGroup`.** Nothing ever read it: which form
+  a numeral needs is a property of the currency it counts, and that now lives on the
+  currency model. Since this release rebuilt gender handling, a parameter that looks like
+  the control for it and is not is worse than no parameter. It was the last argument and
+  optional, so a call that did not pass one is unchanged.
+
 - **`BulgarianConverter` is now `sealed`**, like the other thirteen converters. Word
   tables are shared between instances, so a subclass writing to one would corrupt the
   singleton; sealing enforces what a comment previously only asked for.
