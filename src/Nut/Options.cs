@@ -9,11 +9,22 @@
         /// </summary>
         public bool SubUnitNotConvertedToText { get; set; }
 
+        private SubUnitFormat? _subUnitFormat;
+
         /// <summary>
         /// How the fractional part is written. Defaults to <see cref="SubUnitFormat.Words"/>.
         /// <see cref="SubUnitFormat.Fraction"/> gives the cheque form, "and 50/100".
+        /// <para>
+        /// Backed by a nullable field so that "left alone" and "deliberately set to Words"
+        /// are different states. Words is the enum's zero value, so without this the older
+        /// bool silently overruled a caller who asked for words in as many words.
+        /// </para>
         /// </summary>
-        public SubUnitFormat SubUnitFormat { get; set; }
+        public SubUnitFormat SubUnitFormat
+        {
+            get { return _subUnitFormat ?? (SubUnitNotConvertedToText ? SubUnitFormat.Digits : SubUnitFormat.Words); }
+            set { _subUnitFormat = value; }
+        }
         public bool SubUnitZeroNotDisplayed { get; set; }
         public bool MainUnitFirstCharUpper { get; set; }
         public bool SubUnitFirstCharUpper { get; set; }

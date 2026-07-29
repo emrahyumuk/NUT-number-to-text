@@ -37,6 +37,11 @@ namespace Nut
                 { Culture.Ukrainian, UkrainianConverter.Instance },
                 { Language.Belarusian, BelarusianConverter.Instance },
                 { Culture.Belarusian, BelarusianConverter.Instance },
+                // The ccTLDs these two languages used to be keyed by, kept so that callers
+                // who wrote them down keep working.
+                { "ua", UkrainianConverter.Instance },
+                { "by", BelarusianConverter.Instance },
+                { "by-BY", BelarusianConverter.Instance },
                 { Language.Bulgarian, BulgarianConverter.Instance },
                 { Culture.Bulgarian, BulgarianConverter.Instance },
                 { Language.Polish, PolishConverter.Instance },

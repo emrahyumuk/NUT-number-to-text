@@ -12,11 +12,13 @@
         public const string Russian = "ru";
         public const string Spanish = "es";
         public const string Turkish = "tr";
-        public const string Ukrainian = "ua";
+        // ISO 639-1, which is what CultureInfo.TwoLetterISOLanguageName hands you. These two
+        // used to be the ccTLDs "ua" and "by"; both are still accepted.
+        public const string Ukrainian = "uk";
         public const string Bulgarian = "bg";
         public const string Amharic = "am";
         public const string Polish = "pl";
-        public const string Belarusian = "by";
+        public const string Belarusian = "be";
         public const string Portuguese = "pt";
         public const string German = "de";
         public const string Uzbek = "uz";
@@ -36,7 +38,8 @@
         public const string Bulgarian = "bg-BG";
         public const string EthiopianAM = "am-ET";
         public const string Polish = "pl-PL";
-        public const string Belarusian = "by-BY";
+        // "by-BY" is not a culture .NET knows; the name is be-BY. Still accepted.
+        public const string Belarusian = "be-BY";
         public const string PortugueseBR = "pt-BR";
         public const string GermanDE = "de-DE";
         public const string Uzbek = "uz-UZ";

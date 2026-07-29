@@ -62,7 +62,10 @@ namespace Nut.TextConverters
         var omitsLeadingOne = scale == 1000 || scale == 1000000000;
         if (!(baseScale == 1 && omitsLeadingOne))
         {
-          AppendLessThanOneThousandApocopated(baseScale, builder);
+          // "mil" is an adjective and does not interrupt the agreement with what is being
+          // counted — "doscientas mil libras". "millón" and "mil millones" are masculine
+          // nouns and take their own: "doscientos millones de libras".
+          AppendLessThanOneThousandApocopated(baseScale, builder, _feminine && scale == 1000);
         }
 
         if (scale == 1000000 && num / scale > 1)
@@ -83,9 +86,9 @@ namespace Nut.TextConverters
     /// Entry [1] of one and twenty-one is the apocopated form, which is what a numeral
     /// takes in front of a noun — and a scale word is a noun.
     /// </summary>
-    private void AppendLessThanOneThousandApocopated(long num, StringBuilder builder)
+    private void AppendLessThanOneThousandApocopated(long num, StringBuilder builder, bool feminine)
     {
-      num = AppendHundreds(num, builder);
+      num = AppendHundreds(num, builder, feminine);
       num = AppendTens(num, builder);
       if (num == 1 || num == 21) builder.AppendFormat("{0} ", NumberTexts[num][1]);
       else AppendUnits(num, builder);
@@ -106,17 +109,24 @@ namespace Nut.TextConverters
 
     protected override long AppendHundreds(long num, StringBuilder builder)
     {
+      return AppendHundreds(num, builder, _feminine);
+    }
+
+    /// <summary>
+    /// The hundreds agree in gender with what they count — "doscientas libras esterlinas" —
+    /// and "cien" does not inflect for it at all, it only becomes "ciento" when something
+    /// follows. Entry [1] means those two different things depending on the hundred, which
+    /// is why the cases are split rather than sharing an index.
+    /// </summary>
+    private long AppendHundreds(long num, StringBuilder builder, bool feminine)
+    {
       if (num > 99)
       {
         var hundreds = num / 100 * 100;
 
-        // Only "cien" has a second form: it becomes "ciento" when something follows. For
-        // the other hundreds, entry [1] is the feminine form, so using it here made 999
-        // read as "novecientas" while 200 stayed masculine.
-        var followedByMore = num % 100 > 0;
-        builder.AppendFormat("{0} ", hundreds == 100 && followedByMore
-          ? NumberTexts[100][1]
-          : NumberTexts[hundreds][0]);
+        builder.AppendFormat("{0} ", hundreds == 100
+          ? NumberTexts[100][num % 100 > 0 ? 1 : 0]
+          : NumberTexts[hundreds][feminine ? 1 : 0]);
 
         num = num - hundreds;
       }

@@ -52,9 +52,13 @@ namespace Nut.TextConverters
       if (num > scale - 1)
       {
         var baseScale = num / scale;
-        // The count is always spoken here: "viens tūkstotis", not a bare "tūkstotis".
-        AppendLessThanOneThousand(baseScale, builder);
-        builder.AppendFormat("{0} ", ScaleTexts[scale][baseScale == 1 ? 0 : 1]);
+        // The count is always spoken here: "viens tūkstotis", not a bare "tūkstotis". It
+        // agrees with the scale word rather than with the currency, and tūkstotis, miljons
+        // and miljards are all masculine — so a feminine currency still gets "viens
+        // tūkstotis mārciņas", not "viena". The scale word itself inflects on the same rule
+        // as any other noun counted here: singular after a count ending in one.
+        new LatvianConverter(this, false).AppendLessThanOneThousand(baseScale, builder);
+        builder.AppendFormat("{0} ", Inflect(baseScale, ScaleTexts[scale]));
         num = num - (baseScale * scale);
       }
       return num;

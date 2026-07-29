@@ -133,7 +133,12 @@ namespace Nut.TextConverters
       return num;
     }
 
-    private static void NumberLimitControl(long num)
+    /// <summary>
+    /// Takes a decimal so the money path can check before converting to long. Doing it the
+    /// other way round let Convert.ToInt64 raise OverflowException above 2^63, which is not
+    /// the exception this library documents.
+    /// </summary>
+    private static void NumberLimitControl(decimal num)
     {
       // Checked on both sides so that negating below cannot overflow at long.MinValue.
       if (num >= Parameters.NumberLimit || num <= -Parameters.NumberLimit)
@@ -153,6 +158,10 @@ namespace Nut.TextConverters
 
     public virtual string ToText(decimal num, string currency, Options options, GenderGroup genderGroup = GenderGroup.None)
     {
+      // Before the split, and before MainUnitNotConvertedToText can route around the check
+      // in the long overload by never calling it.
+      NumberLimitControl(num);
+
       var builder = new StringBuilder();
 
       // Currency codes are compared against lower-case constants, so "USD" used to miss
@@ -223,10 +232,7 @@ namespace Nut.TextConverters
         var subUnitText = nums[1].PadRight(2, '0');
         var subUnitNum = Convert.ToInt64(subUnitText);
 
-        // The older bool says the same thing as Digits; whichever is set wins.
-        var subUnitFormat = options.SubUnitFormat != SubUnitFormat.Words ? options.SubUnitFormat
-          : options.SubUnitNotConvertedToText ? SubUnitFormat.Digits
-          : SubUnitFormat.Words;
+        var subUnitFormat = options.SubUnitFormat;
 
         if (subUnitFormat == SubUnitFormat.Fraction)
         {

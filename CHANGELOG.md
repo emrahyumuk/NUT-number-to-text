@@ -92,8 +92,12 @@ assert on that text, review the tables below before taking this release.
   RAE it is now `mil millones`. The library produced this correctly until a 2016 refactor.
 - **"uno" is apocopated in front of a noun or scale word**: `uno mil` → `mil`,
   `uno millón` → `un millón`, `uno euro` → `un euro`. Standing alone it keeps its full form.
-- **Hundreds above 100 no longer switch to their feminine form**, so `999` reads as
-  `novecientos noventa y nueve`.
+- **Hundreds agree in gender with what they count.** They used to take their feminine form
+  whenever something followed, so `999` read as `novecientas` while `200` stayed masculine.
+  They now follow the currency: `novecientos noventa y nueve euros` but `novecientas noventa
+  y nueve libras esterlinas`. `cien` and `ciento` do not inflect for gender. `mil` is an
+  adjective and does not interrupt the agreement — `doscientas mil libras` — while `millón`
+  is a noun and does: `doscientos millones de libras`.
 - **Scale nouns link to the currency with "de"**: `un millón de euros`. `mil` is an
   adjective and takes none.
 
@@ -124,9 +128,17 @@ assert on that text, review the tables below before taking this release.
 ### Changed
 
 - **`Nut.Extentions` is renamed to `Nut.Extensions`**, correcting a long-standing typo in
-  the class name. Extension-method calls — `number.ToText("en")` — are unaffected, since
-  they never name the class. Only code calling it explicitly, such as
-  `Nut.Extentions.ToText(...)`, needs updating.
+  the class name. Source using extension-method syntax — `number.ToText("en")` — only needs
+  recompiling, since it never names the class. Anything already compiled does name it: the
+  class is baked into the call site, so an assembly built against 3.x and not rebuilt will
+  fail to find `Nut.Extentions` at runtime. Recompile against 4.0.0 rather than swapping the
+  DLL underneath.
+
+- **Ukrainian and Belarusian answer to their ISO 639-1 codes**, `uk` and `be`, which is what
+  `CultureInfo.TwoLetterISOLanguageName` returns. They were keyed by the ccTLDs `ua` and
+  `by`, so the natural way to pick a language missed them — silently, before this release
+  started throwing. `Culture.Belarusian` was `by-BY`, which is not a culture .NET knows; it
+  is now `be-BY`. All three old strings still resolve.
 
 - **`BulgarianConverter` is now `sealed`**, like the other thirteen converters. Word
   tables are shared between instances, so a subclass writing to one would corrupt the
@@ -139,10 +151,15 @@ assert on that text, review the tables below before taking this release.
   it lists what is accepted.
 
   If you relied on the empty string, catch `NotSupportedException` or check
-  `Extentions.SupportedLanguages` first.
+  `Extensions.SupportedLanguages` first.
 
 - **Numbers past the supported range throw `ArgumentOutOfRangeException`** instead of a bare
   `Exception`, so callers can catch it selectively. The message states the range.
+
+  On money amounts the check now runs before the conversion rather than after it. Above
+  2^63 the conversion failed first and raised `OverflowException`, so a caller who narrowed
+  their catch the way this entry recommends still crashed. Leaving the whole part as digits
+  with `MainUnitNotConvertedToText` skipped the conversion, and with it the check.
 
 - **Neuter gender.** `GenderGroup` had only `None`, `Feminine` and `Masculine`, so a
   neuter currency name fell through to the masculine numeral: `един евро`, `один песо`.
@@ -168,16 +185,21 @@ assert on that text, review the tables below before taking this release.
   after a count ending in one, genitive plural after zero (`nulle centu`), plural
   otherwise.
 
+  The scale words take that same rule, and they are masculine nouns, so the count in front
+  of one agrees with the scale word rather than with the currency: `viens tūkstotis
+  sterliņu mārciņas`, not `viena`, and `divdesmit viens tūkstotis`, not `tūkstoši`.
+
 - **Uzbek (Latin script)** and the Uzbek som (`UZS`), from
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
 
-- `Extentions.SupportedLanguages`, listing every language and culture string accepted.
+- `Extensions.SupportedLanguages`, listing every language and culture string accepted.
 
 - `Options.SubUnitFormat`, an enum choosing how the fractional part is written: `Words`
   (the default, "fifty cents"), `Digits` ("50 cents"), or `Fraction` ("and 50/100"), the
   form commonly used on cheques. `SubUnitNotConvertedToText` still works and means
-  `Digits`.
+  `Digits`; setting `SubUnitFormat` explicitly overrides it, including when what you set is
+  `Words`.
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
   carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.

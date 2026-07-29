@@ -36,12 +36,15 @@ Pass either the short code or the culture code. Matching ignores case.
 | French | `fr`, `fr-FR` | | Portuguese | `pt`, `pt-BR` |
 | German | `de`, `de-DE` | | Russian | `ru`, `ru-RU` |
 | Spanish | `es`, `es-ES` | | Turkish | `tr`, `tr-TR` |
-| Amharic | `am`, `am-ET` | | Ukrainian | `ua`, `uk-UA` |
-| Belarusian | `by`, `by-BY` | | Uzbek | `uz`, `uz-UZ` |
+| Amharic | `am`, `am-ET` | | Ukrainian | `uk`, `uk-UA` |
+| Belarusian | `be`, `be-BY` | | Uzbek | `uz`, `uz-UZ` |
 | Bulgarian | `bg`, `bg-BG` | | | |
 
 `en-GB` differs from `en-US`: `101` reads as *one hundred **and** one* rather than *one
 hundred one*.
+
+Ukrainian and Belarusian used to be keyed by their ccTLDs, `ua` and `by`. Those still
+resolve, but the codes above are the ones `CultureInfo` hands you.
 
 `Extensions.SupportedLanguages` returns the full list at runtime.
 
