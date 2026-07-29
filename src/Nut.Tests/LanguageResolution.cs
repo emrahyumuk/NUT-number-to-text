@@ -101,7 +101,7 @@ namespace Nut.Tests
         [Test]
         public void SupportedLanguagesIsDiscoverable()
         {
-            Assert.That(Extentions.SupportedLanguages, Contains.Item("en").And.Contains("en-GB").And.Contains("lv"));
+            Assert.That(Extensions.SupportedLanguages, Contains.Item("en").And.Contains("en-GB").And.Contains("lv"));
         }
     }
 }

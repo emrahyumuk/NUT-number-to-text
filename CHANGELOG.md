@@ -123,6 +123,15 @@ assert on that text, review the tables below before taking this release.
 
 ### Changed
 
+- **`Nut.Extentions` is renamed to `Nut.Extensions`**, correcting a long-standing typo in
+  the class name. Extension-method calls — `number.ToText("en")` — are unaffected, since
+  they never name the class. Only code calling it explicitly, such as
+  `Nut.Extentions.ToText(...)`, needs updating.
+
+- **`BulgarianConverter` is now `sealed`**, like the other thirteen converters. Word
+  tables are shared between instances, so a subclass writing to one would corrupt the
+  singleton; sealing enforces what a comment previously only asked for.
+
 - **An unsupported language or currency now throws `NotSupportedException`** instead of
   returning an empty string. This library writes amounts onto invoices and cheques, where
   a blank in the amount field is worse than a failed call: nothing surfaces it until the
