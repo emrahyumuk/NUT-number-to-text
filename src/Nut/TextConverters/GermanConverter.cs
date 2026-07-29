@@ -97,6 +97,34 @@ namespace Nut.TextConverters
                     Names = new[] { "Pfund Sterling", "Pfund Sterling" },
                     SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "Penny", "Pence" } }
                   };
+                case Currency.ARS:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "argentinischer Peso", "argentinische Pesos" },
+                    SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "Centavo", "Centavos" } }
+                  };
+                case Currency.BGN:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "bulgarischer Lew", "bulgarische Lewa" },
+                    SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "Stotinka", "Stotinki" } }
+                  };
+                case Currency.BRL:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "brasilianischer Real", "brasilianische Reais" },
+                    SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "Centavo", "Centavos" } }
+                  };
+                case Currency.UZS:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "usbekischer Som", "usbekische Som" },
+                    SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "Tiyin", "Tiyin" } }
+                  };
                 case Currency.USD:
                     return new CurrencyModel
                     {
