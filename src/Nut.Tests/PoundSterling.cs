@@ -14,7 +14,6 @@ namespace Nut.Tests
         [TestCase(Language.English, "one pound sterling one penny")]
         [TestCase(Language.Turkish, "bir sterlin bir peni")]
         [TestCase(Language.German, "ein Pfund Sterling ein Penny")]
-        [TestCase(Language.Uzbek, "bir funt sterling bir pens")]
         [TestCase(Language.Russian, "один фунт стерлингов один пенни")]
         [TestCase(Language.Belarusian, "адзін фунт стэрлінгаў адзін пені")]
         public void MasculineOrUninflected(string lang, string expected)

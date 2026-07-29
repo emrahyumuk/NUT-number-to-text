@@ -241,6 +241,12 @@ assert on that text, review the tables below before taking this release.
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
 
+  Uzbek covers the three currencies #23 supplied — `UZS`, `USD` and `RUB` — and no others.
+  The rest were filled in for parity and their sub-unit names are in no Uzbek source: five
+  ended up as `tiyin`, which is the som's own sub-unit, not the Turkish lira's. #23 had the
+  rouble right, with `kopeyka`, and the parity pass wrote over it. Anything else raises
+  `NotSupportedException` until someone who reads Uzbek fills it in.
+
 - `Extensions.SupportedLanguages`, listing every language and culture string accepted.
 
 - `Options.SubUnitFormat`, an enum choosing how the fractional part is written: `Words`
@@ -249,11 +255,12 @@ assert on that text, review the tables below before taking this release.
   `Digits`; setting `SubUnitFormat` explicitly overrides it, including when what you set is
   `Words`.
 
-  `Fraction` is available in English, Spanish, Portuguese, Bulgarian, Latvian and Amharic —
-  the languages that join the two parts of an amount with a word. Writing the sub-unit over
-  a hundred is an anglophone cheque convention rather than a rule of any language, and the
-  other eight have no wording for it here, so asking for it there raises
-  `NotSupportedException`.
+  `Fraction` is **English only**. Writing the sub-unit over a hundred is an anglophone
+  cheque convention rather than a rule of any language. It first fell back to the English
+  *and* wherever a converter left the unit separator as a plain space, which reached nine of
+  the fourteen; deriving the word from the unit separator instead covered five more, but
+  having a word for "and" is not evidence that a country writes 50/100 on a cheque. Asking
+  for the form in any other language raises `NotSupportedException`.
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
   carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.

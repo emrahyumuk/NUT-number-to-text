@@ -6485,45 +6485,45 @@ plain	uz	-2	minus ikki
 plain	uz	-41	minus qirq bir
 plain	uz	-1000	minus ming
 plain	uz	-1000000	minus bir million
-money	uz	eur	0	nol yevro nol sent
-money	uz	eur	0.01	nol yevro bir sent
-money	uz	eur	0.02	nol yevro ikki sent
-money	uz	eur	1	bir yevro nol sent
-money	uz	eur	1.01	bir yevro bir sent
-money	uz	eur	1.02	bir yevro ikki sent
-money	uz	eur	2	ikki yevro nol sent
-money	uz	eur	2.02	ikki yevro ikki sent
-money	uz	eur	3	uch yevro nol sent
-money	uz	eur	5	besh yevro nol sent
-money	uz	eur	11	o'n bir yevro nol sent
-money	uz	eur	21	yigirma bir yevro nol sent
-money	uz	eur	22	yigirma ikki yevro nol sent
-money	uz	eur	42	qirq ikki yevro nol sent
-money	uz	eur	100	yuz yevro nol sent
-money	uz	eur	101	yuz bir yevro nol sent
-money	uz	eur	121	yuz yigirma bir yevro nol sent
-money	uz	eur	999	to'qqiz yuz to'qson to'qqiz yevro nol sent
-money	uz	eur	1000	ming yevro nol sent
-money	uz	eur	1001	ming bir yevro nol sent
-money	uz	eur	2000	ikki ming yevro nol sent
-money	uz	eur	2001	ikki ming bir yevro nol sent
-money	uz	eur	5000	besh ming yevro nol sent
-money	uz	eur	21000	yigirma bir ming yevro nol sent
-money	uz	eur	22000	yigirma ikki ming yevro nol sent
-money	uz	eur	41000	qirq bir ming yevro nol sent
-money	uz	eur	42000	qirq ikki ming yevro nol sent
-money	uz	eur	100000	yuz ming yevro nol sent
-money	uz	eur	1000000	bir million yevro nol sent
-money	uz	eur	2000000	ikki million yevro nol sent
-money	uz	eur	1000000000	bir milliard yevro nol sent
-money	uz	eur	123.45	yuz yigirma uch yevro qirq besh sent
-money	uz	eur	-1	minus bir yevro nol sent
-money	uz	eur	-2	minus ikki yevro nol sent
-money	uz	eur	-41.5	minus qirq bir yevro ellik sent
-money	uz	eur	-1000	minus ming yevro nol sent
-money	uz	eur	1.999	ikki yevro nol sent
-money	uz	eur	123.456	yuz yigirma uch yevro qirq olti sent
-money	uz	eur	1.005	bir yevro bir sent
+money	uz	eur	0	EX:NotSupportedException
+money	uz	eur	0.01	EX:NotSupportedException
+money	uz	eur	0.02	EX:NotSupportedException
+money	uz	eur	1	EX:NotSupportedException
+money	uz	eur	1.01	EX:NotSupportedException
+money	uz	eur	1.02	EX:NotSupportedException
+money	uz	eur	2	EX:NotSupportedException
+money	uz	eur	2.02	EX:NotSupportedException
+money	uz	eur	3	EX:NotSupportedException
+money	uz	eur	5	EX:NotSupportedException
+money	uz	eur	11	EX:NotSupportedException
+money	uz	eur	21	EX:NotSupportedException
+money	uz	eur	22	EX:NotSupportedException
+money	uz	eur	42	EX:NotSupportedException
+money	uz	eur	100	EX:NotSupportedException
+money	uz	eur	101	EX:NotSupportedException
+money	uz	eur	121	EX:NotSupportedException
+money	uz	eur	999	EX:NotSupportedException
+money	uz	eur	1000	EX:NotSupportedException
+money	uz	eur	1001	EX:NotSupportedException
+money	uz	eur	2000	EX:NotSupportedException
+money	uz	eur	2001	EX:NotSupportedException
+money	uz	eur	5000	EX:NotSupportedException
+money	uz	eur	21000	EX:NotSupportedException
+money	uz	eur	22000	EX:NotSupportedException
+money	uz	eur	41000	EX:NotSupportedException
+money	uz	eur	42000	EX:NotSupportedException
+money	uz	eur	100000	EX:NotSupportedException
+money	uz	eur	1000000	EX:NotSupportedException
+money	uz	eur	2000000	EX:NotSupportedException
+money	uz	eur	1000000000	EX:NotSupportedException
+money	uz	eur	123.45	EX:NotSupportedException
+money	uz	eur	-1	EX:NotSupportedException
+money	uz	eur	-2	EX:NotSupportedException
+money	uz	eur	-41.5	EX:NotSupportedException
+money	uz	eur	-1000	EX:NotSupportedException
+money	uz	eur	1.999	EX:NotSupportedException
+money	uz	eur	123.456	EX:NotSupportedException
+money	uz	eur	1.005	EX:NotSupportedException
 money	uz	usd	0	nol dollar nol sent
 money	uz	usd	0.01	nol dollar bir sent
 money	uz	usd	0.02	nol dollar ikki sent
@@ -6563,357 +6563,357 @@ money	uz	usd	-1000	minus ming dollar nol sent
 money	uz	usd	1.999	ikki dollar nol sent
 money	uz	usd	123.456	yuz yigirma uch dollar qirq olti sent
 money	uz	usd	1.005	bir dollar bir sent
-money	uz	rub	0	nol rubl nol tiyin
-money	uz	rub	0.01	nol rubl bir tiyin
-money	uz	rub	0.02	nol rubl ikki tiyin
-money	uz	rub	1	bir rubl nol tiyin
-money	uz	rub	1.01	bir rubl bir tiyin
-money	uz	rub	1.02	bir rubl ikki tiyin
-money	uz	rub	2	ikki rubl nol tiyin
-money	uz	rub	2.02	ikki rubl ikki tiyin
-money	uz	rub	3	uch rubl nol tiyin
-money	uz	rub	5	besh rubl nol tiyin
-money	uz	rub	11	o'n bir rubl nol tiyin
-money	uz	rub	21	yigirma bir rubl nol tiyin
-money	uz	rub	22	yigirma ikki rubl nol tiyin
-money	uz	rub	42	qirq ikki rubl nol tiyin
-money	uz	rub	100	yuz rubl nol tiyin
-money	uz	rub	101	yuz bir rubl nol tiyin
-money	uz	rub	121	yuz yigirma bir rubl nol tiyin
-money	uz	rub	999	to'qqiz yuz to'qson to'qqiz rubl nol tiyin
-money	uz	rub	1000	ming rubl nol tiyin
-money	uz	rub	1001	ming bir rubl nol tiyin
-money	uz	rub	2000	ikki ming rubl nol tiyin
-money	uz	rub	2001	ikki ming bir rubl nol tiyin
-money	uz	rub	5000	besh ming rubl nol tiyin
-money	uz	rub	21000	yigirma bir ming rubl nol tiyin
-money	uz	rub	22000	yigirma ikki ming rubl nol tiyin
-money	uz	rub	41000	qirq bir ming rubl nol tiyin
-money	uz	rub	42000	qirq ikki ming rubl nol tiyin
-money	uz	rub	100000	yuz ming rubl nol tiyin
-money	uz	rub	1000000	bir million rubl nol tiyin
-money	uz	rub	2000000	ikki million rubl nol tiyin
-money	uz	rub	1000000000	bir milliard rubl nol tiyin
-money	uz	rub	123.45	yuz yigirma uch rubl qirq besh tiyin
-money	uz	rub	-1	minus bir rubl nol tiyin
-money	uz	rub	-2	minus ikki rubl nol tiyin
-money	uz	rub	-41.5	minus qirq bir rubl ellik tiyin
-money	uz	rub	-1000	minus ming rubl nol tiyin
-money	uz	rub	1.999	ikki rubl nol tiyin
-money	uz	rub	123.456	yuz yigirma uch rubl qirq olti tiyin
-money	uz	rub	1.005	bir rubl bir tiyin
-money	uz	try	0	nol turk lirasi nol tiyin
-money	uz	try	0.01	nol turk lirasi bir tiyin
-money	uz	try	0.02	nol turk lirasi ikki tiyin
-money	uz	try	1	bir turk lirasi nol tiyin
-money	uz	try	1.01	bir turk lirasi bir tiyin
-money	uz	try	1.02	bir turk lirasi ikki tiyin
-money	uz	try	2	ikki turk lirasi nol tiyin
-money	uz	try	2.02	ikki turk lirasi ikki tiyin
-money	uz	try	3	uch turk lirasi nol tiyin
-money	uz	try	5	besh turk lirasi nol tiyin
-money	uz	try	11	o'n bir turk lirasi nol tiyin
-money	uz	try	21	yigirma bir turk lirasi nol tiyin
-money	uz	try	22	yigirma ikki turk lirasi nol tiyin
-money	uz	try	42	qirq ikki turk lirasi nol tiyin
-money	uz	try	100	yuz turk lirasi nol tiyin
-money	uz	try	101	yuz bir turk lirasi nol tiyin
-money	uz	try	121	yuz yigirma bir turk lirasi nol tiyin
-money	uz	try	999	to'qqiz yuz to'qson to'qqiz turk lirasi nol tiyin
-money	uz	try	1000	ming turk lirasi nol tiyin
-money	uz	try	1001	ming bir turk lirasi nol tiyin
-money	uz	try	2000	ikki ming turk lirasi nol tiyin
-money	uz	try	2001	ikki ming bir turk lirasi nol tiyin
-money	uz	try	5000	besh ming turk lirasi nol tiyin
-money	uz	try	21000	yigirma bir ming turk lirasi nol tiyin
-money	uz	try	22000	yigirma ikki ming turk lirasi nol tiyin
-money	uz	try	41000	qirq bir ming turk lirasi nol tiyin
-money	uz	try	42000	qirq ikki ming turk lirasi nol tiyin
-money	uz	try	100000	yuz ming turk lirasi nol tiyin
-money	uz	try	1000000	bir million turk lirasi nol tiyin
-money	uz	try	2000000	ikki million turk lirasi nol tiyin
-money	uz	try	1000000000	bir milliard turk lirasi nol tiyin
-money	uz	try	123.45	yuz yigirma uch turk lirasi qirq besh tiyin
-money	uz	try	-1	minus bir turk lirasi nol tiyin
-money	uz	try	-2	minus ikki turk lirasi nol tiyin
-money	uz	try	-41.5	minus qirq bir turk lirasi ellik tiyin
-money	uz	try	-1000	minus ming turk lirasi nol tiyin
-money	uz	try	1.999	ikki turk lirasi nol tiyin
-money	uz	try	123.456	yuz yigirma uch turk lirasi qirq olti tiyin
-money	uz	try	1.005	bir turk lirasi bir tiyin
-money	uz	uah	0	nol Ukraina grivnasi nol tiyin
-money	uz	uah	0.01	nol Ukraina grivnasi bir tiyin
-money	uz	uah	0.02	nol Ukraina grivnasi ikki tiyin
-money	uz	uah	1	bir Ukraina grivnasi nol tiyin
-money	uz	uah	1.01	bir Ukraina grivnasi bir tiyin
-money	uz	uah	1.02	bir Ukraina grivnasi ikki tiyin
-money	uz	uah	2	ikki Ukraina grivnasi nol tiyin
-money	uz	uah	2.02	ikki Ukraina grivnasi ikki tiyin
-money	uz	uah	3	uch Ukraina grivnasi nol tiyin
-money	uz	uah	5	besh Ukraina grivnasi nol tiyin
-money	uz	uah	11	o'n bir Ukraina grivnasi nol tiyin
-money	uz	uah	21	yigirma bir Ukraina grivnasi nol tiyin
-money	uz	uah	22	yigirma ikki Ukraina grivnasi nol tiyin
-money	uz	uah	42	qirq ikki Ukraina grivnasi nol tiyin
-money	uz	uah	100	yuz Ukraina grivnasi nol tiyin
-money	uz	uah	101	yuz bir Ukraina grivnasi nol tiyin
-money	uz	uah	121	yuz yigirma bir Ukraina grivnasi nol tiyin
-money	uz	uah	999	to'qqiz yuz to'qson to'qqiz Ukraina grivnasi nol tiyin
-money	uz	uah	1000	ming Ukraina grivnasi nol tiyin
-money	uz	uah	1001	ming bir Ukraina grivnasi nol tiyin
-money	uz	uah	2000	ikki ming Ukraina grivnasi nol tiyin
-money	uz	uah	2001	ikki ming bir Ukraina grivnasi nol tiyin
-money	uz	uah	5000	besh ming Ukraina grivnasi nol tiyin
-money	uz	uah	21000	yigirma bir ming Ukraina grivnasi nol tiyin
-money	uz	uah	22000	yigirma ikki ming Ukraina grivnasi nol tiyin
-money	uz	uah	41000	qirq bir ming Ukraina grivnasi nol tiyin
-money	uz	uah	42000	qirq ikki ming Ukraina grivnasi nol tiyin
-money	uz	uah	100000	yuz ming Ukraina grivnasi nol tiyin
-money	uz	uah	1000000	bir million Ukraina grivnasi nol tiyin
-money	uz	uah	2000000	ikki million Ukraina grivnasi nol tiyin
-money	uz	uah	1000000000	bir milliard Ukraina grivnasi nol tiyin
-money	uz	uah	123.45	yuz yigirma uch Ukraina grivnasi qirq besh tiyin
-money	uz	uah	-1	minus bir Ukraina grivnasi nol tiyin
-money	uz	uah	-2	minus ikki Ukraina grivnasi nol tiyin
-money	uz	uah	-41.5	minus qirq bir Ukraina grivnasi ellik tiyin
-money	uz	uah	-1000	minus ming Ukraina grivnasi nol tiyin
-money	uz	uah	1.999	ikki Ukraina grivnasi nol tiyin
-money	uz	uah	123.456	yuz yigirma uch Ukraina grivnasi qirq olti tiyin
-money	uz	uah	1.005	bir Ukraina grivnasi bir tiyin
-money	uz	bgn	0	nol Bolgariya levi nol stotinka
-money	uz	bgn	0.01	nol Bolgariya levi bir stotinka
-money	uz	bgn	0.02	nol Bolgariya levi ikki stotinka
-money	uz	bgn	1	bir Bolgariya levi nol stotinka
-money	uz	bgn	1.01	bir Bolgariya levi bir stotinka
-money	uz	bgn	1.02	bir Bolgariya levi ikki stotinka
-money	uz	bgn	2	ikki Bolgariya levi nol stotinka
-money	uz	bgn	2.02	ikki Bolgariya levi ikki stotinka
-money	uz	bgn	3	uch Bolgariya levi nol stotinka
-money	uz	bgn	5	besh Bolgariya levi nol stotinka
-money	uz	bgn	11	o'n bir Bolgariya levi nol stotinka
-money	uz	bgn	21	yigirma bir Bolgariya levi nol stotinka
-money	uz	bgn	22	yigirma ikki Bolgariya levi nol stotinka
-money	uz	bgn	42	qirq ikki Bolgariya levi nol stotinka
-money	uz	bgn	100	yuz Bolgariya levi nol stotinka
-money	uz	bgn	101	yuz bir Bolgariya levi nol stotinka
-money	uz	bgn	121	yuz yigirma bir Bolgariya levi nol stotinka
-money	uz	bgn	999	to'qqiz yuz to'qson to'qqiz Bolgariya levi nol stotinka
-money	uz	bgn	1000	ming Bolgariya levi nol stotinka
-money	uz	bgn	1001	ming bir Bolgariya levi nol stotinka
-money	uz	bgn	2000	ikki ming Bolgariya levi nol stotinka
-money	uz	bgn	2001	ikki ming bir Bolgariya levi nol stotinka
-money	uz	bgn	5000	besh ming Bolgariya levi nol stotinka
-money	uz	bgn	21000	yigirma bir ming Bolgariya levi nol stotinka
-money	uz	bgn	22000	yigirma ikki ming Bolgariya levi nol stotinka
-money	uz	bgn	41000	qirq bir ming Bolgariya levi nol stotinka
-money	uz	bgn	42000	qirq ikki ming Bolgariya levi nol stotinka
-money	uz	bgn	100000	yuz ming Bolgariya levi nol stotinka
-money	uz	bgn	1000000	bir million Bolgariya levi nol stotinka
-money	uz	bgn	2000000	ikki million Bolgariya levi nol stotinka
-money	uz	bgn	1000000000	bir milliard Bolgariya levi nol stotinka
-money	uz	bgn	123.45	yuz yigirma uch Bolgariya levi qirq besh stotinka
-money	uz	bgn	-1	minus bir Bolgariya levi nol stotinka
-money	uz	bgn	-2	minus ikki Bolgariya levi nol stotinka
-money	uz	bgn	-41.5	minus qirq bir Bolgariya levi ellik stotinka
-money	uz	bgn	-1000	minus ming Bolgariya levi nol stotinka
-money	uz	bgn	1.999	ikki Bolgariya levi nol stotinka
-money	uz	bgn	123.456	yuz yigirma uch Bolgariya levi qirq olti stotinka
-money	uz	bgn	1.005	bir Bolgariya levi bir stotinka
-money	uz	etb	0	nol Efiopiya biri nol tiyin
-money	uz	etb	0.01	nol Efiopiya biri bir tiyin
-money	uz	etb	0.02	nol Efiopiya biri ikki tiyin
-money	uz	etb	1	bir Efiopiya biri nol tiyin
-money	uz	etb	1.01	bir Efiopiya biri bir tiyin
-money	uz	etb	1.02	bir Efiopiya biri ikki tiyin
-money	uz	etb	2	ikki Efiopiya biri nol tiyin
-money	uz	etb	2.02	ikki Efiopiya biri ikki tiyin
-money	uz	etb	3	uch Efiopiya biri nol tiyin
-money	uz	etb	5	besh Efiopiya biri nol tiyin
-money	uz	etb	11	o'n bir Efiopiya biri nol tiyin
-money	uz	etb	21	yigirma bir Efiopiya biri nol tiyin
-money	uz	etb	22	yigirma ikki Efiopiya biri nol tiyin
-money	uz	etb	42	qirq ikki Efiopiya biri nol tiyin
-money	uz	etb	100	yuz Efiopiya biri nol tiyin
-money	uz	etb	101	yuz bir Efiopiya biri nol tiyin
-money	uz	etb	121	yuz yigirma bir Efiopiya biri nol tiyin
-money	uz	etb	999	to'qqiz yuz to'qson to'qqiz Efiopiya biri nol tiyin
-money	uz	etb	1000	ming Efiopiya biri nol tiyin
-money	uz	etb	1001	ming bir Efiopiya biri nol tiyin
-money	uz	etb	2000	ikki ming Efiopiya biri nol tiyin
-money	uz	etb	2001	ikki ming bir Efiopiya biri nol tiyin
-money	uz	etb	5000	besh ming Efiopiya biri nol tiyin
-money	uz	etb	21000	yigirma bir ming Efiopiya biri nol tiyin
-money	uz	etb	22000	yigirma ikki ming Efiopiya biri nol tiyin
-money	uz	etb	41000	qirq bir ming Efiopiya biri nol tiyin
-money	uz	etb	42000	qirq ikki ming Efiopiya biri nol tiyin
-money	uz	etb	100000	yuz ming Efiopiya biri nol tiyin
-money	uz	etb	1000000	bir million Efiopiya biri nol tiyin
-money	uz	etb	2000000	ikki million Efiopiya biri nol tiyin
-money	uz	etb	1000000000	bir milliard Efiopiya biri nol tiyin
-money	uz	etb	123.45	yuz yigirma uch Efiopiya biri qirq besh tiyin
-money	uz	etb	-1	minus bir Efiopiya biri nol tiyin
-money	uz	etb	-2	minus ikki Efiopiya biri nol tiyin
-money	uz	etb	-41.5	minus qirq bir Efiopiya biri ellik tiyin
-money	uz	etb	-1000	minus ming Efiopiya biri nol tiyin
-money	uz	etb	1.999	ikki Efiopiya biri nol tiyin
-money	uz	etb	123.456	yuz yigirma uch Efiopiya biri qirq olti tiyin
-money	uz	etb	1.005	bir Efiopiya biri bir tiyin
-money	uz	pln	0	nol Polsha zlotiysi nol grosh
-money	uz	pln	0.01	nol Polsha zlotiysi bir grosh
-money	uz	pln	0.02	nol Polsha zlotiysi ikki grosh
-money	uz	pln	1	bir Polsha zlotiysi nol grosh
-money	uz	pln	1.01	bir Polsha zlotiysi bir grosh
-money	uz	pln	1.02	bir Polsha zlotiysi ikki grosh
-money	uz	pln	2	ikki Polsha zlotiysi nol grosh
-money	uz	pln	2.02	ikki Polsha zlotiysi ikki grosh
-money	uz	pln	3	uch Polsha zlotiysi nol grosh
-money	uz	pln	5	besh Polsha zlotiysi nol grosh
-money	uz	pln	11	o'n bir Polsha zlotiysi nol grosh
-money	uz	pln	21	yigirma bir Polsha zlotiysi nol grosh
-money	uz	pln	22	yigirma ikki Polsha zlotiysi nol grosh
-money	uz	pln	42	qirq ikki Polsha zlotiysi nol grosh
-money	uz	pln	100	yuz Polsha zlotiysi nol grosh
-money	uz	pln	101	yuz bir Polsha zlotiysi nol grosh
-money	uz	pln	121	yuz yigirma bir Polsha zlotiysi nol grosh
-money	uz	pln	999	to'qqiz yuz to'qson to'qqiz Polsha zlotiysi nol grosh
-money	uz	pln	1000	ming Polsha zlotiysi nol grosh
-money	uz	pln	1001	ming bir Polsha zlotiysi nol grosh
-money	uz	pln	2000	ikki ming Polsha zlotiysi nol grosh
-money	uz	pln	2001	ikki ming bir Polsha zlotiysi nol grosh
-money	uz	pln	5000	besh ming Polsha zlotiysi nol grosh
-money	uz	pln	21000	yigirma bir ming Polsha zlotiysi nol grosh
-money	uz	pln	22000	yigirma ikki ming Polsha zlotiysi nol grosh
-money	uz	pln	41000	qirq bir ming Polsha zlotiysi nol grosh
-money	uz	pln	42000	qirq ikki ming Polsha zlotiysi nol grosh
-money	uz	pln	100000	yuz ming Polsha zlotiysi nol grosh
-money	uz	pln	1000000	bir million Polsha zlotiysi nol grosh
-money	uz	pln	2000000	ikki million Polsha zlotiysi nol grosh
-money	uz	pln	1000000000	bir milliard Polsha zlotiysi nol grosh
-money	uz	pln	123.45	yuz yigirma uch Polsha zlotiysi qirq besh grosh
-money	uz	pln	-1	minus bir Polsha zlotiysi nol grosh
-money	uz	pln	-2	minus ikki Polsha zlotiysi nol grosh
-money	uz	pln	-41.5	minus qirq bir Polsha zlotiysi ellik grosh
-money	uz	pln	-1000	minus ming Polsha zlotiysi nol grosh
-money	uz	pln	1.999	ikki Polsha zlotiysi nol grosh
-money	uz	pln	123.456	yuz yigirma uch Polsha zlotiysi qirq olti grosh
-money	uz	pln	1.005	bir Polsha zlotiysi bir grosh
-money	uz	byn	0	nol Belarus rubli nol tiyin
-money	uz	byn	0.01	nol Belarus rubli bir tiyin
-money	uz	byn	0.02	nol Belarus rubli ikki tiyin
-money	uz	byn	1	bir Belarus rubli nol tiyin
-money	uz	byn	1.01	bir Belarus rubli bir tiyin
-money	uz	byn	1.02	bir Belarus rubli ikki tiyin
-money	uz	byn	2	ikki Belarus rubli nol tiyin
-money	uz	byn	2.02	ikki Belarus rubli ikki tiyin
-money	uz	byn	3	uch Belarus rubli nol tiyin
-money	uz	byn	5	besh Belarus rubli nol tiyin
-money	uz	byn	11	o'n bir Belarus rubli nol tiyin
-money	uz	byn	21	yigirma bir Belarus rubli nol tiyin
-money	uz	byn	22	yigirma ikki Belarus rubli nol tiyin
-money	uz	byn	42	qirq ikki Belarus rubli nol tiyin
-money	uz	byn	100	yuz Belarus rubli nol tiyin
-money	uz	byn	101	yuz bir Belarus rubli nol tiyin
-money	uz	byn	121	yuz yigirma bir Belarus rubli nol tiyin
-money	uz	byn	999	to'qqiz yuz to'qson to'qqiz Belarus rubli nol tiyin
-money	uz	byn	1000	ming Belarus rubli nol tiyin
-money	uz	byn	1001	ming bir Belarus rubli nol tiyin
-money	uz	byn	2000	ikki ming Belarus rubli nol tiyin
-money	uz	byn	2001	ikki ming bir Belarus rubli nol tiyin
-money	uz	byn	5000	besh ming Belarus rubli nol tiyin
-money	uz	byn	21000	yigirma bir ming Belarus rubli nol tiyin
-money	uz	byn	22000	yigirma ikki ming Belarus rubli nol tiyin
-money	uz	byn	41000	qirq bir ming Belarus rubli nol tiyin
-money	uz	byn	42000	qirq ikki ming Belarus rubli nol tiyin
-money	uz	byn	100000	yuz ming Belarus rubli nol tiyin
-money	uz	byn	1000000	bir million Belarus rubli nol tiyin
-money	uz	byn	2000000	ikki million Belarus rubli nol tiyin
-money	uz	byn	1000000000	bir milliard Belarus rubli nol tiyin
-money	uz	byn	123.45	yuz yigirma uch Belarus rubli qirq besh tiyin
-money	uz	byn	-1	minus bir Belarus rubli nol tiyin
-money	uz	byn	-2	minus ikki Belarus rubli nol tiyin
-money	uz	byn	-41.5	minus qirq bir Belarus rubli ellik tiyin
-money	uz	byn	-1000	minus ming Belarus rubli nol tiyin
-money	uz	byn	1.999	ikki Belarus rubli nol tiyin
-money	uz	byn	123.456	yuz yigirma uch Belarus rubli qirq olti tiyin
-money	uz	byn	1.005	bir Belarus rubli bir tiyin
-money	uz	ars	0	nol Argentina pesosi nol sentavo
-money	uz	ars	0.01	nol Argentina pesosi bir sentavo
-money	uz	ars	0.02	nol Argentina pesosi ikki sentavo
-money	uz	ars	1	bir Argentina pesosi nol sentavo
-money	uz	ars	1.01	bir Argentina pesosi bir sentavo
-money	uz	ars	1.02	bir Argentina pesosi ikki sentavo
-money	uz	ars	2	ikki Argentina pesosi nol sentavo
-money	uz	ars	2.02	ikki Argentina pesosi ikki sentavo
-money	uz	ars	3	uch Argentina pesosi nol sentavo
-money	uz	ars	5	besh Argentina pesosi nol sentavo
-money	uz	ars	11	o'n bir Argentina pesosi nol sentavo
-money	uz	ars	21	yigirma bir Argentina pesosi nol sentavo
-money	uz	ars	22	yigirma ikki Argentina pesosi nol sentavo
-money	uz	ars	42	qirq ikki Argentina pesosi nol sentavo
-money	uz	ars	100	yuz Argentina pesosi nol sentavo
-money	uz	ars	101	yuz bir Argentina pesosi nol sentavo
-money	uz	ars	121	yuz yigirma bir Argentina pesosi nol sentavo
-money	uz	ars	999	to'qqiz yuz to'qson to'qqiz Argentina pesosi nol sentavo
-money	uz	ars	1000	ming Argentina pesosi nol sentavo
-money	uz	ars	1001	ming bir Argentina pesosi nol sentavo
-money	uz	ars	2000	ikki ming Argentina pesosi nol sentavo
-money	uz	ars	2001	ikki ming bir Argentina pesosi nol sentavo
-money	uz	ars	5000	besh ming Argentina pesosi nol sentavo
-money	uz	ars	21000	yigirma bir ming Argentina pesosi nol sentavo
-money	uz	ars	22000	yigirma ikki ming Argentina pesosi nol sentavo
-money	uz	ars	41000	qirq bir ming Argentina pesosi nol sentavo
-money	uz	ars	42000	qirq ikki ming Argentina pesosi nol sentavo
-money	uz	ars	100000	yuz ming Argentina pesosi nol sentavo
-money	uz	ars	1000000	bir million Argentina pesosi nol sentavo
-money	uz	ars	2000000	ikki million Argentina pesosi nol sentavo
-money	uz	ars	1000000000	bir milliard Argentina pesosi nol sentavo
-money	uz	ars	123.45	yuz yigirma uch Argentina pesosi qirq besh sentavo
-money	uz	ars	-1	minus bir Argentina pesosi nol sentavo
-money	uz	ars	-2	minus ikki Argentina pesosi nol sentavo
-money	uz	ars	-41.5	minus qirq bir Argentina pesosi ellik sentavo
-money	uz	ars	-1000	minus ming Argentina pesosi nol sentavo
-money	uz	ars	1.999	ikki Argentina pesosi nol sentavo
-money	uz	ars	123.456	yuz yigirma uch Argentina pesosi qirq olti sentavo
-money	uz	ars	1.005	bir Argentina pesosi bir sentavo
-money	uz	brl	0	nol Braziliya reali nol sentavo
-money	uz	brl	0.01	nol Braziliya reali bir sentavo
-money	uz	brl	0.02	nol Braziliya reali ikki sentavo
-money	uz	brl	1	bir Braziliya reali nol sentavo
-money	uz	brl	1.01	bir Braziliya reali bir sentavo
-money	uz	brl	1.02	bir Braziliya reali ikki sentavo
-money	uz	brl	2	ikki Braziliya reali nol sentavo
-money	uz	brl	2.02	ikki Braziliya reali ikki sentavo
-money	uz	brl	3	uch Braziliya reali nol sentavo
-money	uz	brl	5	besh Braziliya reali nol sentavo
-money	uz	brl	11	o'n bir Braziliya reali nol sentavo
-money	uz	brl	21	yigirma bir Braziliya reali nol sentavo
-money	uz	brl	22	yigirma ikki Braziliya reali nol sentavo
-money	uz	brl	42	qirq ikki Braziliya reali nol sentavo
-money	uz	brl	100	yuz Braziliya reali nol sentavo
-money	uz	brl	101	yuz bir Braziliya reali nol sentavo
-money	uz	brl	121	yuz yigirma bir Braziliya reali nol sentavo
-money	uz	brl	999	to'qqiz yuz to'qson to'qqiz Braziliya reali nol sentavo
-money	uz	brl	1000	ming Braziliya reali nol sentavo
-money	uz	brl	1001	ming bir Braziliya reali nol sentavo
-money	uz	brl	2000	ikki ming Braziliya reali nol sentavo
-money	uz	brl	2001	ikki ming bir Braziliya reali nol sentavo
-money	uz	brl	5000	besh ming Braziliya reali nol sentavo
-money	uz	brl	21000	yigirma bir ming Braziliya reali nol sentavo
-money	uz	brl	22000	yigirma ikki ming Braziliya reali nol sentavo
-money	uz	brl	41000	qirq bir ming Braziliya reali nol sentavo
-money	uz	brl	42000	qirq ikki ming Braziliya reali nol sentavo
-money	uz	brl	100000	yuz ming Braziliya reali nol sentavo
-money	uz	brl	1000000	bir million Braziliya reali nol sentavo
-money	uz	brl	2000000	ikki million Braziliya reali nol sentavo
-money	uz	brl	1000000000	bir milliard Braziliya reali nol sentavo
-money	uz	brl	123.45	yuz yigirma uch Braziliya reali qirq besh sentavo
-money	uz	brl	-1	minus bir Braziliya reali nol sentavo
-money	uz	brl	-2	minus ikki Braziliya reali nol sentavo
-money	uz	brl	-41.5	minus qirq bir Braziliya reali ellik sentavo
-money	uz	brl	-1000	minus ming Braziliya reali nol sentavo
-money	uz	brl	1.999	ikki Braziliya reali nol sentavo
-money	uz	brl	123.456	yuz yigirma uch Braziliya reali qirq olti sentavo
-money	uz	brl	1.005	bir Braziliya reali bir sentavo
+money	uz	rub	0	nol rubl nol kopeyka
+money	uz	rub	0.01	nol rubl bir kopeyka
+money	uz	rub	0.02	nol rubl ikki kopeyka
+money	uz	rub	1	bir rubl nol kopeyka
+money	uz	rub	1.01	bir rubl bir kopeyka
+money	uz	rub	1.02	bir rubl ikki kopeyka
+money	uz	rub	2	ikki rubl nol kopeyka
+money	uz	rub	2.02	ikki rubl ikki kopeyka
+money	uz	rub	3	uch rubl nol kopeyka
+money	uz	rub	5	besh rubl nol kopeyka
+money	uz	rub	11	o'n bir rubl nol kopeyka
+money	uz	rub	21	yigirma bir rubl nol kopeyka
+money	uz	rub	22	yigirma ikki rubl nol kopeyka
+money	uz	rub	42	qirq ikki rubl nol kopeyka
+money	uz	rub	100	yuz rubl nol kopeyka
+money	uz	rub	101	yuz bir rubl nol kopeyka
+money	uz	rub	121	yuz yigirma bir rubl nol kopeyka
+money	uz	rub	999	to'qqiz yuz to'qson to'qqiz rubl nol kopeyka
+money	uz	rub	1000	ming rubl nol kopeyka
+money	uz	rub	1001	ming bir rubl nol kopeyka
+money	uz	rub	2000	ikki ming rubl nol kopeyka
+money	uz	rub	2001	ikki ming bir rubl nol kopeyka
+money	uz	rub	5000	besh ming rubl nol kopeyka
+money	uz	rub	21000	yigirma bir ming rubl nol kopeyka
+money	uz	rub	22000	yigirma ikki ming rubl nol kopeyka
+money	uz	rub	41000	qirq bir ming rubl nol kopeyka
+money	uz	rub	42000	qirq ikki ming rubl nol kopeyka
+money	uz	rub	100000	yuz ming rubl nol kopeyka
+money	uz	rub	1000000	bir million rubl nol kopeyka
+money	uz	rub	2000000	ikki million rubl nol kopeyka
+money	uz	rub	1000000000	bir milliard rubl nol kopeyka
+money	uz	rub	123.45	yuz yigirma uch rubl qirq besh kopeyka
+money	uz	rub	-1	minus bir rubl nol kopeyka
+money	uz	rub	-2	minus ikki rubl nol kopeyka
+money	uz	rub	-41.5	minus qirq bir rubl ellik kopeyka
+money	uz	rub	-1000	minus ming rubl nol kopeyka
+money	uz	rub	1.999	ikki rubl nol kopeyka
+money	uz	rub	123.456	yuz yigirma uch rubl qirq olti kopeyka
+money	uz	rub	1.005	bir rubl bir kopeyka
+money	uz	try	0	EX:NotSupportedException
+money	uz	try	0.01	EX:NotSupportedException
+money	uz	try	0.02	EX:NotSupportedException
+money	uz	try	1	EX:NotSupportedException
+money	uz	try	1.01	EX:NotSupportedException
+money	uz	try	1.02	EX:NotSupportedException
+money	uz	try	2	EX:NotSupportedException
+money	uz	try	2.02	EX:NotSupportedException
+money	uz	try	3	EX:NotSupportedException
+money	uz	try	5	EX:NotSupportedException
+money	uz	try	11	EX:NotSupportedException
+money	uz	try	21	EX:NotSupportedException
+money	uz	try	22	EX:NotSupportedException
+money	uz	try	42	EX:NotSupportedException
+money	uz	try	100	EX:NotSupportedException
+money	uz	try	101	EX:NotSupportedException
+money	uz	try	121	EX:NotSupportedException
+money	uz	try	999	EX:NotSupportedException
+money	uz	try	1000	EX:NotSupportedException
+money	uz	try	1001	EX:NotSupportedException
+money	uz	try	2000	EX:NotSupportedException
+money	uz	try	2001	EX:NotSupportedException
+money	uz	try	5000	EX:NotSupportedException
+money	uz	try	21000	EX:NotSupportedException
+money	uz	try	22000	EX:NotSupportedException
+money	uz	try	41000	EX:NotSupportedException
+money	uz	try	42000	EX:NotSupportedException
+money	uz	try	100000	EX:NotSupportedException
+money	uz	try	1000000	EX:NotSupportedException
+money	uz	try	2000000	EX:NotSupportedException
+money	uz	try	1000000000	EX:NotSupportedException
+money	uz	try	123.45	EX:NotSupportedException
+money	uz	try	-1	EX:NotSupportedException
+money	uz	try	-2	EX:NotSupportedException
+money	uz	try	-41.5	EX:NotSupportedException
+money	uz	try	-1000	EX:NotSupportedException
+money	uz	try	1.999	EX:NotSupportedException
+money	uz	try	123.456	EX:NotSupportedException
+money	uz	try	1.005	EX:NotSupportedException
+money	uz	uah	0	EX:NotSupportedException
+money	uz	uah	0.01	EX:NotSupportedException
+money	uz	uah	0.02	EX:NotSupportedException
+money	uz	uah	1	EX:NotSupportedException
+money	uz	uah	1.01	EX:NotSupportedException
+money	uz	uah	1.02	EX:NotSupportedException
+money	uz	uah	2	EX:NotSupportedException
+money	uz	uah	2.02	EX:NotSupportedException
+money	uz	uah	3	EX:NotSupportedException
+money	uz	uah	5	EX:NotSupportedException
+money	uz	uah	11	EX:NotSupportedException
+money	uz	uah	21	EX:NotSupportedException
+money	uz	uah	22	EX:NotSupportedException
+money	uz	uah	42	EX:NotSupportedException
+money	uz	uah	100	EX:NotSupportedException
+money	uz	uah	101	EX:NotSupportedException
+money	uz	uah	121	EX:NotSupportedException
+money	uz	uah	999	EX:NotSupportedException
+money	uz	uah	1000	EX:NotSupportedException
+money	uz	uah	1001	EX:NotSupportedException
+money	uz	uah	2000	EX:NotSupportedException
+money	uz	uah	2001	EX:NotSupportedException
+money	uz	uah	5000	EX:NotSupportedException
+money	uz	uah	21000	EX:NotSupportedException
+money	uz	uah	22000	EX:NotSupportedException
+money	uz	uah	41000	EX:NotSupportedException
+money	uz	uah	42000	EX:NotSupportedException
+money	uz	uah	100000	EX:NotSupportedException
+money	uz	uah	1000000	EX:NotSupportedException
+money	uz	uah	2000000	EX:NotSupportedException
+money	uz	uah	1000000000	EX:NotSupportedException
+money	uz	uah	123.45	EX:NotSupportedException
+money	uz	uah	-1	EX:NotSupportedException
+money	uz	uah	-2	EX:NotSupportedException
+money	uz	uah	-41.5	EX:NotSupportedException
+money	uz	uah	-1000	EX:NotSupportedException
+money	uz	uah	1.999	EX:NotSupportedException
+money	uz	uah	123.456	EX:NotSupportedException
+money	uz	uah	1.005	EX:NotSupportedException
+money	uz	bgn	0	EX:NotSupportedException
+money	uz	bgn	0.01	EX:NotSupportedException
+money	uz	bgn	0.02	EX:NotSupportedException
+money	uz	bgn	1	EX:NotSupportedException
+money	uz	bgn	1.01	EX:NotSupportedException
+money	uz	bgn	1.02	EX:NotSupportedException
+money	uz	bgn	2	EX:NotSupportedException
+money	uz	bgn	2.02	EX:NotSupportedException
+money	uz	bgn	3	EX:NotSupportedException
+money	uz	bgn	5	EX:NotSupportedException
+money	uz	bgn	11	EX:NotSupportedException
+money	uz	bgn	21	EX:NotSupportedException
+money	uz	bgn	22	EX:NotSupportedException
+money	uz	bgn	42	EX:NotSupportedException
+money	uz	bgn	100	EX:NotSupportedException
+money	uz	bgn	101	EX:NotSupportedException
+money	uz	bgn	121	EX:NotSupportedException
+money	uz	bgn	999	EX:NotSupportedException
+money	uz	bgn	1000	EX:NotSupportedException
+money	uz	bgn	1001	EX:NotSupportedException
+money	uz	bgn	2000	EX:NotSupportedException
+money	uz	bgn	2001	EX:NotSupportedException
+money	uz	bgn	5000	EX:NotSupportedException
+money	uz	bgn	21000	EX:NotSupportedException
+money	uz	bgn	22000	EX:NotSupportedException
+money	uz	bgn	41000	EX:NotSupportedException
+money	uz	bgn	42000	EX:NotSupportedException
+money	uz	bgn	100000	EX:NotSupportedException
+money	uz	bgn	1000000	EX:NotSupportedException
+money	uz	bgn	2000000	EX:NotSupportedException
+money	uz	bgn	1000000000	EX:NotSupportedException
+money	uz	bgn	123.45	EX:NotSupportedException
+money	uz	bgn	-1	EX:NotSupportedException
+money	uz	bgn	-2	EX:NotSupportedException
+money	uz	bgn	-41.5	EX:NotSupportedException
+money	uz	bgn	-1000	EX:NotSupportedException
+money	uz	bgn	1.999	EX:NotSupportedException
+money	uz	bgn	123.456	EX:NotSupportedException
+money	uz	bgn	1.005	EX:NotSupportedException
+money	uz	etb	0	EX:NotSupportedException
+money	uz	etb	0.01	EX:NotSupportedException
+money	uz	etb	0.02	EX:NotSupportedException
+money	uz	etb	1	EX:NotSupportedException
+money	uz	etb	1.01	EX:NotSupportedException
+money	uz	etb	1.02	EX:NotSupportedException
+money	uz	etb	2	EX:NotSupportedException
+money	uz	etb	2.02	EX:NotSupportedException
+money	uz	etb	3	EX:NotSupportedException
+money	uz	etb	5	EX:NotSupportedException
+money	uz	etb	11	EX:NotSupportedException
+money	uz	etb	21	EX:NotSupportedException
+money	uz	etb	22	EX:NotSupportedException
+money	uz	etb	42	EX:NotSupportedException
+money	uz	etb	100	EX:NotSupportedException
+money	uz	etb	101	EX:NotSupportedException
+money	uz	etb	121	EX:NotSupportedException
+money	uz	etb	999	EX:NotSupportedException
+money	uz	etb	1000	EX:NotSupportedException
+money	uz	etb	1001	EX:NotSupportedException
+money	uz	etb	2000	EX:NotSupportedException
+money	uz	etb	2001	EX:NotSupportedException
+money	uz	etb	5000	EX:NotSupportedException
+money	uz	etb	21000	EX:NotSupportedException
+money	uz	etb	22000	EX:NotSupportedException
+money	uz	etb	41000	EX:NotSupportedException
+money	uz	etb	42000	EX:NotSupportedException
+money	uz	etb	100000	EX:NotSupportedException
+money	uz	etb	1000000	EX:NotSupportedException
+money	uz	etb	2000000	EX:NotSupportedException
+money	uz	etb	1000000000	EX:NotSupportedException
+money	uz	etb	123.45	EX:NotSupportedException
+money	uz	etb	-1	EX:NotSupportedException
+money	uz	etb	-2	EX:NotSupportedException
+money	uz	etb	-41.5	EX:NotSupportedException
+money	uz	etb	-1000	EX:NotSupportedException
+money	uz	etb	1.999	EX:NotSupportedException
+money	uz	etb	123.456	EX:NotSupportedException
+money	uz	etb	1.005	EX:NotSupportedException
+money	uz	pln	0	EX:NotSupportedException
+money	uz	pln	0.01	EX:NotSupportedException
+money	uz	pln	0.02	EX:NotSupportedException
+money	uz	pln	1	EX:NotSupportedException
+money	uz	pln	1.01	EX:NotSupportedException
+money	uz	pln	1.02	EX:NotSupportedException
+money	uz	pln	2	EX:NotSupportedException
+money	uz	pln	2.02	EX:NotSupportedException
+money	uz	pln	3	EX:NotSupportedException
+money	uz	pln	5	EX:NotSupportedException
+money	uz	pln	11	EX:NotSupportedException
+money	uz	pln	21	EX:NotSupportedException
+money	uz	pln	22	EX:NotSupportedException
+money	uz	pln	42	EX:NotSupportedException
+money	uz	pln	100	EX:NotSupportedException
+money	uz	pln	101	EX:NotSupportedException
+money	uz	pln	121	EX:NotSupportedException
+money	uz	pln	999	EX:NotSupportedException
+money	uz	pln	1000	EX:NotSupportedException
+money	uz	pln	1001	EX:NotSupportedException
+money	uz	pln	2000	EX:NotSupportedException
+money	uz	pln	2001	EX:NotSupportedException
+money	uz	pln	5000	EX:NotSupportedException
+money	uz	pln	21000	EX:NotSupportedException
+money	uz	pln	22000	EX:NotSupportedException
+money	uz	pln	41000	EX:NotSupportedException
+money	uz	pln	42000	EX:NotSupportedException
+money	uz	pln	100000	EX:NotSupportedException
+money	uz	pln	1000000	EX:NotSupportedException
+money	uz	pln	2000000	EX:NotSupportedException
+money	uz	pln	1000000000	EX:NotSupportedException
+money	uz	pln	123.45	EX:NotSupportedException
+money	uz	pln	-1	EX:NotSupportedException
+money	uz	pln	-2	EX:NotSupportedException
+money	uz	pln	-41.5	EX:NotSupportedException
+money	uz	pln	-1000	EX:NotSupportedException
+money	uz	pln	1.999	EX:NotSupportedException
+money	uz	pln	123.456	EX:NotSupportedException
+money	uz	pln	1.005	EX:NotSupportedException
+money	uz	byn	0	EX:NotSupportedException
+money	uz	byn	0.01	EX:NotSupportedException
+money	uz	byn	0.02	EX:NotSupportedException
+money	uz	byn	1	EX:NotSupportedException
+money	uz	byn	1.01	EX:NotSupportedException
+money	uz	byn	1.02	EX:NotSupportedException
+money	uz	byn	2	EX:NotSupportedException
+money	uz	byn	2.02	EX:NotSupportedException
+money	uz	byn	3	EX:NotSupportedException
+money	uz	byn	5	EX:NotSupportedException
+money	uz	byn	11	EX:NotSupportedException
+money	uz	byn	21	EX:NotSupportedException
+money	uz	byn	22	EX:NotSupportedException
+money	uz	byn	42	EX:NotSupportedException
+money	uz	byn	100	EX:NotSupportedException
+money	uz	byn	101	EX:NotSupportedException
+money	uz	byn	121	EX:NotSupportedException
+money	uz	byn	999	EX:NotSupportedException
+money	uz	byn	1000	EX:NotSupportedException
+money	uz	byn	1001	EX:NotSupportedException
+money	uz	byn	2000	EX:NotSupportedException
+money	uz	byn	2001	EX:NotSupportedException
+money	uz	byn	5000	EX:NotSupportedException
+money	uz	byn	21000	EX:NotSupportedException
+money	uz	byn	22000	EX:NotSupportedException
+money	uz	byn	41000	EX:NotSupportedException
+money	uz	byn	42000	EX:NotSupportedException
+money	uz	byn	100000	EX:NotSupportedException
+money	uz	byn	1000000	EX:NotSupportedException
+money	uz	byn	2000000	EX:NotSupportedException
+money	uz	byn	1000000000	EX:NotSupportedException
+money	uz	byn	123.45	EX:NotSupportedException
+money	uz	byn	-1	EX:NotSupportedException
+money	uz	byn	-2	EX:NotSupportedException
+money	uz	byn	-41.5	EX:NotSupportedException
+money	uz	byn	-1000	EX:NotSupportedException
+money	uz	byn	1.999	EX:NotSupportedException
+money	uz	byn	123.456	EX:NotSupportedException
+money	uz	byn	1.005	EX:NotSupportedException
+money	uz	ars	0	EX:NotSupportedException
+money	uz	ars	0.01	EX:NotSupportedException
+money	uz	ars	0.02	EX:NotSupportedException
+money	uz	ars	1	EX:NotSupportedException
+money	uz	ars	1.01	EX:NotSupportedException
+money	uz	ars	1.02	EX:NotSupportedException
+money	uz	ars	2	EX:NotSupportedException
+money	uz	ars	2.02	EX:NotSupportedException
+money	uz	ars	3	EX:NotSupportedException
+money	uz	ars	5	EX:NotSupportedException
+money	uz	ars	11	EX:NotSupportedException
+money	uz	ars	21	EX:NotSupportedException
+money	uz	ars	22	EX:NotSupportedException
+money	uz	ars	42	EX:NotSupportedException
+money	uz	ars	100	EX:NotSupportedException
+money	uz	ars	101	EX:NotSupportedException
+money	uz	ars	121	EX:NotSupportedException
+money	uz	ars	999	EX:NotSupportedException
+money	uz	ars	1000	EX:NotSupportedException
+money	uz	ars	1001	EX:NotSupportedException
+money	uz	ars	2000	EX:NotSupportedException
+money	uz	ars	2001	EX:NotSupportedException
+money	uz	ars	5000	EX:NotSupportedException
+money	uz	ars	21000	EX:NotSupportedException
+money	uz	ars	22000	EX:NotSupportedException
+money	uz	ars	41000	EX:NotSupportedException
+money	uz	ars	42000	EX:NotSupportedException
+money	uz	ars	100000	EX:NotSupportedException
+money	uz	ars	1000000	EX:NotSupportedException
+money	uz	ars	2000000	EX:NotSupportedException
+money	uz	ars	1000000000	EX:NotSupportedException
+money	uz	ars	123.45	EX:NotSupportedException
+money	uz	ars	-1	EX:NotSupportedException
+money	uz	ars	-2	EX:NotSupportedException
+money	uz	ars	-41.5	EX:NotSupportedException
+money	uz	ars	-1000	EX:NotSupportedException
+money	uz	ars	1.999	EX:NotSupportedException
+money	uz	ars	123.456	EX:NotSupportedException
+money	uz	ars	1.005	EX:NotSupportedException
+money	uz	brl	0	EX:NotSupportedException
+money	uz	brl	0.01	EX:NotSupportedException
+money	uz	brl	0.02	EX:NotSupportedException
+money	uz	brl	1	EX:NotSupportedException
+money	uz	brl	1.01	EX:NotSupportedException
+money	uz	brl	1.02	EX:NotSupportedException
+money	uz	brl	2	EX:NotSupportedException
+money	uz	brl	2.02	EX:NotSupportedException
+money	uz	brl	3	EX:NotSupportedException
+money	uz	brl	5	EX:NotSupportedException
+money	uz	brl	11	EX:NotSupportedException
+money	uz	brl	21	EX:NotSupportedException
+money	uz	brl	22	EX:NotSupportedException
+money	uz	brl	42	EX:NotSupportedException
+money	uz	brl	100	EX:NotSupportedException
+money	uz	brl	101	EX:NotSupportedException
+money	uz	brl	121	EX:NotSupportedException
+money	uz	brl	999	EX:NotSupportedException
+money	uz	brl	1000	EX:NotSupportedException
+money	uz	brl	1001	EX:NotSupportedException
+money	uz	brl	2000	EX:NotSupportedException
+money	uz	brl	2001	EX:NotSupportedException
+money	uz	brl	5000	EX:NotSupportedException
+money	uz	brl	21000	EX:NotSupportedException
+money	uz	brl	22000	EX:NotSupportedException
+money	uz	brl	41000	EX:NotSupportedException
+money	uz	brl	42000	EX:NotSupportedException
+money	uz	brl	100000	EX:NotSupportedException
+money	uz	brl	1000000	EX:NotSupportedException
+money	uz	brl	2000000	EX:NotSupportedException
+money	uz	brl	1000000000	EX:NotSupportedException
+money	uz	brl	123.45	EX:NotSupportedException
+money	uz	brl	-1	EX:NotSupportedException
+money	uz	brl	-2	EX:NotSupportedException
+money	uz	brl	-41.5	EX:NotSupportedException
+money	uz	brl	-1000	EX:NotSupportedException
+money	uz	brl	1.999	EX:NotSupportedException
+money	uz	brl	123.456	EX:NotSupportedException
+money	uz	brl	1.005	EX:NotSupportedException
 money	uz	uzs	0	nol so'm nol tiyin
 money	uz	uzs	0.01	nol so'm bir tiyin
 money	uz	uzs	0.02	nol so'm ikki tiyin
@@ -6953,45 +6953,45 @@ money	uz	uzs	-1000	minus ming so'm nol tiyin
 money	uz	uzs	1.999	ikki so'm nol tiyin
 money	uz	uzs	123.456	yuz yigirma uch so'm qirq olti tiyin
 money	uz	uzs	1.005	bir so'm bir tiyin
-money	uz	gbp	0	nol funt sterling nol pens
-money	uz	gbp	0.01	nol funt sterling bir pens
-money	uz	gbp	0.02	nol funt sterling ikki pens
-money	uz	gbp	1	bir funt sterling nol pens
-money	uz	gbp	1.01	bir funt sterling bir pens
-money	uz	gbp	1.02	bir funt sterling ikki pens
-money	uz	gbp	2	ikki funt sterling nol pens
-money	uz	gbp	2.02	ikki funt sterling ikki pens
-money	uz	gbp	3	uch funt sterling nol pens
-money	uz	gbp	5	besh funt sterling nol pens
-money	uz	gbp	11	o'n bir funt sterling nol pens
-money	uz	gbp	21	yigirma bir funt sterling nol pens
-money	uz	gbp	22	yigirma ikki funt sterling nol pens
-money	uz	gbp	42	qirq ikki funt sterling nol pens
-money	uz	gbp	100	yuz funt sterling nol pens
-money	uz	gbp	101	yuz bir funt sterling nol pens
-money	uz	gbp	121	yuz yigirma bir funt sterling nol pens
-money	uz	gbp	999	to'qqiz yuz to'qson to'qqiz funt sterling nol pens
-money	uz	gbp	1000	ming funt sterling nol pens
-money	uz	gbp	1001	ming bir funt sterling nol pens
-money	uz	gbp	2000	ikki ming funt sterling nol pens
-money	uz	gbp	2001	ikki ming bir funt sterling nol pens
-money	uz	gbp	5000	besh ming funt sterling nol pens
-money	uz	gbp	21000	yigirma bir ming funt sterling nol pens
-money	uz	gbp	22000	yigirma ikki ming funt sterling nol pens
-money	uz	gbp	41000	qirq bir ming funt sterling nol pens
-money	uz	gbp	42000	qirq ikki ming funt sterling nol pens
-money	uz	gbp	100000	yuz ming funt sterling nol pens
-money	uz	gbp	1000000	bir million funt sterling nol pens
-money	uz	gbp	2000000	ikki million funt sterling nol pens
-money	uz	gbp	1000000000	bir milliard funt sterling nol pens
-money	uz	gbp	123.45	yuz yigirma uch funt sterling qirq besh pens
-money	uz	gbp	-1	minus bir funt sterling nol pens
-money	uz	gbp	-2	minus ikki funt sterling nol pens
-money	uz	gbp	-41.5	minus qirq bir funt sterling ellik pens
-money	uz	gbp	-1000	minus ming funt sterling nol pens
-money	uz	gbp	1.999	ikki funt sterling nol pens
-money	uz	gbp	123.456	yuz yigirma uch funt sterling qirq olti pens
-money	uz	gbp	1.005	bir funt sterling bir pens
+money	uz	gbp	0	EX:NotSupportedException
+money	uz	gbp	0.01	EX:NotSupportedException
+money	uz	gbp	0.02	EX:NotSupportedException
+money	uz	gbp	1	EX:NotSupportedException
+money	uz	gbp	1.01	EX:NotSupportedException
+money	uz	gbp	1.02	EX:NotSupportedException
+money	uz	gbp	2	EX:NotSupportedException
+money	uz	gbp	2.02	EX:NotSupportedException
+money	uz	gbp	3	EX:NotSupportedException
+money	uz	gbp	5	EX:NotSupportedException
+money	uz	gbp	11	EX:NotSupportedException
+money	uz	gbp	21	EX:NotSupportedException
+money	uz	gbp	22	EX:NotSupportedException
+money	uz	gbp	42	EX:NotSupportedException
+money	uz	gbp	100	EX:NotSupportedException
+money	uz	gbp	101	EX:NotSupportedException
+money	uz	gbp	121	EX:NotSupportedException
+money	uz	gbp	999	EX:NotSupportedException
+money	uz	gbp	1000	EX:NotSupportedException
+money	uz	gbp	1001	EX:NotSupportedException
+money	uz	gbp	2000	EX:NotSupportedException
+money	uz	gbp	2001	EX:NotSupportedException
+money	uz	gbp	5000	EX:NotSupportedException
+money	uz	gbp	21000	EX:NotSupportedException
+money	uz	gbp	22000	EX:NotSupportedException
+money	uz	gbp	41000	EX:NotSupportedException
+money	uz	gbp	42000	EX:NotSupportedException
+money	uz	gbp	100000	EX:NotSupportedException
+money	uz	gbp	1000000	EX:NotSupportedException
+money	uz	gbp	2000000	EX:NotSupportedException
+money	uz	gbp	1000000000	EX:NotSupportedException
+money	uz	gbp	123.45	EX:NotSupportedException
+money	uz	gbp	-1	EX:NotSupportedException
+money	uz	gbp	-2	EX:NotSupportedException
+money	uz	gbp	-41.5	EX:NotSupportedException
+money	uz	gbp	-1000	EX:NotSupportedException
+money	uz	gbp	1.999	EX:NotSupportedException
+money	uz	gbp	123.456	EX:NotSupportedException
+money	uz	gbp	1.005	EX:NotSupportedException
 plain	lv	0	nulle
 plain	lv	1	viens
 plain	lv	2	divi

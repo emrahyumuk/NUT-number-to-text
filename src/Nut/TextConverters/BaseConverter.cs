@@ -240,8 +240,10 @@ namespace Nut.TextConverters
         {
           // "and 50/100", the form used on cheques. The sub-unit is not named, and zero is
           // written rather than dropped, so nothing can be appended to the amount later.
+          // Blank counts as absent, not as "join them with nothing": an override returning
+          // "" would otherwise slip past and produce "dollars50/100".
           var separator = GetFractionSeparator(currencyModel);
-          if (separator == null)
+          if (string.IsNullOrWhiteSpace(separator))
           {
             throw new NotSupportedException(string.Format(
               "SubUnitFormat.Fraction is not defined for {0}. Writing the sub-unit over a " +
@@ -303,20 +305,21 @@ namespace Nut.TextConverters
     }
 
     /// <summary>
-    /// What joins the amount to a fraction-form sub-unit. Languages that already join the
-    /// two parts with a word reuse that word; the rest return null, and asking for the
-    /// fraction form in one of them fails rather than guessing.
+    /// What joins the amount to a fraction-form sub-unit, or null if the language has no
+    /// wording for the form. Null is the default: a converter has to state the word before
+    /// <see cref="SubUnitFormat.Fraction"/> works, and until it does, asking for it fails.
     /// <para>
-    /// This used to fall back to the English "and" whenever a converter left the unit
-    /// separator as a plain space, which is nine of the fourteen — so a Russian cheque read
-    /// "сто пять рублей and 50/100". Writing over-a-hundred is an anglophone cheque
-    /// convention, and the languages that do not have it have no separator to borrow.
+    /// Writing the sub-unit over a hundred is an anglophone cheque convention rather than a
+    /// rule of any language, so only English states one. This first fell back to the English
+    /// "and" for every converter that left the unit separator as a plain space, which put it
+    /// into nine of the fourteen — "сто пять рублей and 50/100". Deriving it from the unit
+    /// separator instead reached five more, but that only narrowed the guess: having a word
+    /// for "and" is not evidence that a country's cheques carry 50/100 at all.
     /// </para>
     /// </summary>
     protected virtual string GetFractionSeparator(CurrencyModel currency)
     {
-      var separator = GetUnitSeparator(currency);
-      return separator.Trim().Length > 0 ? separator : null;
+      return null;
     }
     #endregion
   }

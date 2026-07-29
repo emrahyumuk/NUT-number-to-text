@@ -54,8 +54,9 @@ resolve, but the codes above are the ones `CultureInfo` hands you.
 
 Also accepted: `TL` for `TRY`, `RUR` for `RUB`.
 
-Every language covers every currency, except Amharic, which is missing `ARS`, `BRL`, `GBP`
-and `UZS`.
+Every language covers every currency, with two exceptions. Amharic is missing `ARS`, `BRL`,
+`GBP` and `UZS`. Uzbek covers only `UZS`, `USD` and `RUB` — the three its contributor
+supplied. A combination a language does not cover raises `NotSupportedException`.
 
 ```csharp
 2575.50m.ToText(Currency.EUR, Language.German);   // zweitausendfünfhundertfünfundsiebzig Euro fünfzig Cent
@@ -90,13 +91,11 @@ new Options { SubUnitFormat = SubUnitFormat.Fraction }
 ```
 
 Zero is written as `00/100` rather than dropped, so nothing can be added to the amount
-afterwards. Languages that join the two parts with a word keep it: *con 50/100* in Spanish,
-*un 50/100* in Latvian.
+afterwards.
 
 Writing the sub-unit over a hundred is an anglophone cheque convention rather than a rule
-of any language, so it is only available where there is a word to join the two parts with:
-English, Spanish, Portuguese, Bulgarian, Latvian and Amharic. Asking for it in one of the
-other eight raises `NotSupportedException` instead of borrowing the English *and*.
+of any language, so **English is the only language it is available in**. Asking for it in
+any other raises `NotSupportedException` rather than borrowing the English *and*.
 
 ## Behaviour worth knowing
 

@@ -63,23 +63,19 @@ namespace Nut.Tests
             Assert.That(text, Is.EqualTo("two thousand five hundred seventy-five dollars fifty cents"));
         }
 
-        /// <summary>Languages that already join the two parts with a word keep that word
-        /// rather than borrowing the English "and".</summary>
-        [TestCase(Language.Spanish, Currency.EUR, "ciento cinco euros con 50/100")]
-        [TestCase(Language.Portuguese, Currency.BRL, "cento e cinco reais e 50/100")]
-        [TestCase(Language.Bulgarian, Currency.BGN, "сто и пет лева и 50/100")]
-        [TestCase(Language.Latvian, Currency.EUR, "simts pieci eiro un 50/100")]
-        public void SeparatorFollowsTheLanguage(string lang, string currency, string expected)
-        {
-            Assert.That(105.50m.ToText(currency, lang, Fraction), Is.EqualTo(expected));
-        }
-
         /// <summary>
-        /// The rest have no separator to borrow, and the form is not theirs to begin with.
-        /// Falling back to the English "and" put it into nine of the fourteen — a Turkish
-        /// cheque read "yüz beş türk lirası and 50/100" — so ask for a form a language does
-        /// not have and you get told, rather than getting English in the amount field.
+        /// Every other language says so rather than producing something. The first cut
+        /// borrowed the English "and" wherever a converter left the unit separator as a
+        /// plain space, which reached nine of the fourteen: "yüz beş türk lirası and
+        /// 50/100". Deriving the word from the unit separator instead covered five more,
+        /// but having a word for "and" is not evidence that a country writes 50/100 on a
+        /// cheque, so those went too.
         /// </summary>
+        [TestCase(Language.Spanish, Currency.EUR)]
+        [TestCase(Language.Portuguese, Currency.BRL)]
+        [TestCase(Language.Bulgarian, Currency.BGN)]
+        [TestCase(Language.Latvian, Currency.EUR)]
+        [TestCase(Language.Amharic, Currency.ETB)]
         [TestCase(Language.French, Currency.EUR)]
         [TestCase(Language.German, Currency.EUR)]
         [TestCase(Language.Turkish, Currency.TRY)]
@@ -113,11 +109,6 @@ namespace Nut.Tests
             Assert.That(supported, Is.EquivalentTo(new[]
             {
                 Language.English, Culture.EnglishUS, Culture.EnglishGB,
-                Language.Spanish, Culture.Spanish,
-                Language.Portuguese, Culture.PortugueseBR,
-                Language.Bulgarian, Culture.Bulgarian,
-                Language.Latvian, Culture.Latvian,
-                Language.Amharic, Culture.EthiopianAM,
             }));
         }
 
