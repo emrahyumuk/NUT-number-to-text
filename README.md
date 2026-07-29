@@ -1,132 +1,157 @@
-# NUT - Number To Text
+# NUT — Number To Text
 
 [![NuGet](https://img.shields.io/nuget/v/Nut.svg)](https://www.nuget.org/packages/Nut/)
 [![Downloads](https://img.shields.io/nuget/dt/Nut.svg)](https://www.nuget.org/packages/Nut/)
 [![CI](https://github.com/emrahyumuk/NUT-number-to-text/actions/workflows/ci.yml/badge.svg)](https://github.com/emrahyumuk/NUT-number-to-text/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENCE)
 
----
+Writes numbers and money amounts as words, in 14 languages — for the *amount in words*
+field on invoices, cheques and contracts.
 
-Number To Text Converter
+```csharp
+using Nut;
 
-Money To Text Converter
+123456.ToText();                                    // one hundred twenty-three thousand four hundred fifty-six
+123456.78m.ToText(Currency.USD, Language.English);  // one hundred twenty-three thousand four hundred fifty-six dollars seventy-eight cents
+123456.78m.ToText(Currency.TRY, Language.Turkish);  // yüz yirmi üç bin dört yüz elli altı türk lirası yetmiş sekiz kuruş
+```
 
-**Supported Languages:** English, French, German, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese, Uzbek, Latvian.
-
-**Supported Currencies:** EUR, USD, GBP, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL, UZS.
-
-**Number Limit:** 1 trillion
-
-**Unsupported input:** asking for a language or currency that is not supported throws
-`NotSupportedException` rather than returning an empty string — a blank amount field is
-harder to notice than an exception. `Extensions.SupportedLanguages` lists what is accepted.
-
-**Cheque form:** `Options.SubUnitFormat = SubUnitFormat.Fraction` writes the fractional
-part as `and 50/100` instead of `fifty cents`, which is how amounts are commonly written
-on cheques. Zero is written as `00/100` rather than dropped.
-
-**Rounding:** amounts with more decimals than the currency has are rounded to the sub-unit,
-half away from zero — the same result `decimal.ToString("C")` gives. Set
-`Options.SubUnitTruncated` to cut the extra digits instead.
-
-**English variants:** `en-US` and `en` give American wording (`one hundred one`); `en-GB`
-gives British wording (`one hundred and one`).
-
-**Target Framework:** .NET Standard 2.0 — runs on .NET Framework 4.6.1+, .NET Core 2.0+ and .NET 5 and later.
-
----
-
-**INSTALL**
+## Install
 
 ```
 dotnet add package Nut
 ```
 
----
+Targets .NET Standard 2.0, so it runs on .NET Framework 4.6.1+, .NET Core 2.0+ and .NET 5
+and later. No dependencies.
 
-**USAGE - Number To Text**
+## Languages
+
+Pass either the short code or the culture code. Matching ignores case.
+
+| Language | Codes | | Language | Codes |
+|---|---|---|---|---|
+| English (US) | `en`, `en-US` | | Latvian | `lv`, `lv-LV` |
+| English (UK) | `en-GB` | | Polish | `pl`, `pl-PL` |
+| French | `fr`, `fr-FR` | | Portuguese | `pt`, `pt-BR` |
+| German | `de`, `de-DE` | | Russian | `ru`, `ru-RU` |
+| Spanish | `es`, `es-ES` | | Turkish | `tr`, `tr-TR` |
+| Amharic | `am`, `am-ET` | | Ukrainian | `ua`, `uk-UA` |
+| Belarusian | `by`, `by-BY` | | Uzbek | `uz`, `uz-UZ` |
+| Bulgarian | `bg`, `bg-BG` | | | |
+
+`en-GB` differs from `en-US`: `101` reads as *one hundred **and** one* rather than *one
+hundred one*.
+
+`Extensions.SupportedLanguages` returns the full list at runtime.
+
+## Currencies
+
+`EUR` `USD` `GBP` `RUB` `TRY` `UAH` `BGN` `ETB` `PLN` `BYN` `ARS` `BRL` `UZS`
+
+Also accepted: `TL` for `TRY`, `RUR` for `RUB`.
+
+Every language covers every currency, except Amharic, which is missing `ARS`, `BRL`, `GBP`
+and `UZS`.
 
 ```csharp
-
-    var number = 123456
-    var text = number.ToText("en");
-
-    var number = 123456;
-    var text = number.ToText(Language.English);
+2575.50m.ToText(Currency.EUR, Language.German);   // zweitausendfünfhundertfünfundsiebzig Euro fünfzig Cent
+2575.50m.ToText(Currency.EUR, Language.French);   // deux mille cinq cent soixante-quinze euros cinquante centimes
+2575.50m.ToText(Currency.EUR, Language.Russian);  // две тысячи пятьсот семьдесят пять евро пятьдесят евроцентов
+2575.50m.ToText(Currency.EUR, Language.Latvian);  // divi tūkstoši pieci simti septiņdesmit pieci eiro un piecdesmit centi
 ```
 
----
-
-**USAGE - Money To Text**
+## Options
 
 ```csharp
-
-    var number = 123456.78
-    var moneyText = number.ToText("usd", "en");
-
-    var number = 123456.78;
-    var moneyText = number.ToText(Nut.Currency.USD, Nut.Language.English);
-
-    var number = 123456.78;
-    var options = new Nut.Options {
-        MainUnitNotConvertedToText = true,
-        SubUnitNotConvertedToText = true,
-        SubUnitZeroNotDisplayed = true,
-        MainUnitFirstCharUpper = true,
-        SubUnitFirstCharUpper = true,
-        CurrencyFirstCharUpper = true,
-        SubUnitTruncated = true,
-        SubUnitFormat = Nut.SubUnitFormat.Fraction
-    }
-    var moneyText = number.ToText(Nut.Currency.USD, Nut.Language.English, options);
+var options = new Options { MainUnitFirstCharUpper = true, CurrencyFirstCharUpper = true };
+2575.50m.ToText(Currency.USD, Language.English, options);
+// Two thousand five hundred seventy-five Dollars fifty Cents
 ```
 
----
+| Option | Effect |
+|---|---|
+| `MainUnitFirstCharUpper` | Capitalises the first word. On a negative amount the capital goes on the sign: *Minus two thousand…* |
+| `SubUnitFirstCharUpper` | Capitalises the fractional part |
+| `CurrencyFirstCharUpper` | Capitalises the currency names |
+| `MainUnitNotConvertedToText` | Leaves the whole part as digits |
+| `SubUnitZeroNotDisplayed` | Drops the fractional part when it is zero |
+| `SubUnitFormat` | `Words` (default), `Digits`, or `Fraction` — see below |
+| `SubUnitTruncated` | Cuts extra decimals instead of rounding them |
 
-**NUGET**
+### Writing the fraction the way cheques do
 
-<https://www.nuget.org/packages/Nut/>
+```csharp
+new Options { SubUnitFormat = SubUnitFormat.Fraction }
+// two thousand five hundred seventy-five dollars and 50/100
+```
 
----
+Zero is written as `00/100` rather than dropped, so nothing can be added to the amount
+afterwards. Languages that join the two parts with a word keep it: *con 50/100* in Spanish,
+*un 50/100* in Latvian.
 
-**CHANGELOG**
+## Behaviour worth knowing
 
-See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+**Rounding.** Amounts carrying more decimals than the currency has are rounded to the
+sub-unit, half away from zero — the same result `decimal.ToString("C")` gives, so the
+figures and the words on a document agree.
 
----
+```csharp
+123.456m.ToText(Currency.USD, Language.English);  // one hundred twenty-three dollars forty-six cents
+```
 
-**CONTRIBUTING**
+Set `SubUnitTruncated` to cut the digits instead.
+
+**Negative amounts** use the language's own word — *minus*, *moins*, *menos*, *eksi*,
+*минус*, *mīnus*, *ሲቀነስ*.
+
+```csharp
+(-2575.50m).ToText(Currency.USD, Language.English);  // minus two thousand five hundred seventy-five dollars fifty cents
+```
+
+**Unsupported input throws.** An unknown language, or a currency a language does not cover,
+raises `NotSupportedException` naming what was asked for. It does not return an empty
+string: a blank amount field on a document is not noticed until the document has gone out.
+
+**Range.** Magnitudes below one trillion. Beyond that raises `ArgumentOutOfRangeException`.
+
+**Thread safety.** Conversions are independent and safe to run in parallel.
+
+## Contributing
 
 Pull requests are welcome. Two things make them much easier to accept:
 
-- **Add tests for what you change.** `dotnet test src/Nut.sln` runs the suite, and CI runs
-  it on every pull request.
-- **A new language or currency needs tests written by someone who speaks it.** Reviewers
-  cannot verify wording in a language they do not read, so a table of expected outputs is
-  the only thing that makes such a contribution reviewable. Cover at least `0, 1, 2, 11,
-  21, 100, 1000, 2000, 41000, 1000000` plus one decimal amount.
+- **Add tests for what you change.** `dotnet test src/Nut.sln` runs the suite; CI runs it
+  on every pull request and fails on warnings.
+- **A new language or currency needs expected outputs written by someone who reads it.**
+  Nobody here can check wording in a language they do not speak, and this text ends up on
+  financial documents. A table of expected results is what makes such a contribution
+  reviewable. Cover at least `0, 1, 2, 11, 21, 100, 1000, 2000, 41000, 1000000` plus one
+  decimal amount, and say where the forms come from.
 
----
+`src/Nut.Tests/behaviour-snapshot.tsv` pins every language × currency × amount
+combination. If a change is meant to alter output, regenerate it with
+`UPDATE_SNAPSHOT=1 dotnet test` — the diff of that file becomes the record of what changed.
 
-**THANKS**
+## Changelog
 
-- [Latif Turk](https://github.com/Latif07) - Ukrainian Language and Currency
-- [SecreT2k8](https://github.com/SecreT2k8) - Bulgarian Language and Currency
-- [ashGHub](https://github.com/ashGHub) - .Net Standart Migration, Ethiopian Language and Currency
-- [kashiash](https://github.com/kashiash) - Polish Language and Currency
-- [DeNcHiK3713](https://github.com/DeNcHiK3713) - Belarussian Language and Currency
-- [Marciel032](https://github.com/Marciel032) - Portuguese Language and Currency
-- [ArkadiuszMakosa](https://github.com/ArkadiuszMakosa) - Polish Language Unit Tests
-- [Maryam1986](https://github.com/Maryam1986) - German Language and Currency, Negative Numbers
-- [Furqat-Abduvosiqov](https://github.com/Furqat-Abduvosiqov) - Uzbek Language and Currency
-- [IlyashenkoA](https://github.com/IlyashenkoA) - GBP Currency, Latvian Language
-- [Stepami](https://github.com/Stepami) - Russian Gender Fixes, RUR
-- [fulviocanducci](https://github.com/fulviocanducci) - Portuguese Separator
+See [CHANGELOG.md](CHANGELOG.md).
 
----
+## Thanks
 
-**LICENCE**
+- [Latif Turk](https://github.com/Latif07) — Ukrainian language and currency
+- [SecreT2k8](https://github.com/SecreT2k8) — Bulgarian language and currency
+- [ashGHub](https://github.com/ashGHub) — .NET Standard migration, Ethiopian language and currency
+- [kashiash](https://github.com/kashiash) — Polish language and currency
+- [DeNcHiK3713](https://github.com/DeNcHiK3713) — Belarusian language and currency
+- [Marciel032](https://github.com/Marciel032) — Portuguese language and currency
+- [ArkadiuszMakosa](https://github.com/ArkadiuszMakosa) — Polish unit tests
+- [Maryam1986](https://github.com/Maryam1986) — German language and currency, negative numbers
+- [Furqat-Abduvosiqov](https://github.com/Furqat-Abduvosiqov) — Uzbek language and currency
+- [IlyashenkoA](https://github.com/IlyashenkoA) — GBP currency, Latvian language
+- [Stepami](https://github.com/Stepami) — Russian gender fixes, RUR
+- [fulviocanducci](https://github.com/fulviocanducci) — Portuguese separator
 
-NUT-number-to-text is [MIT licensed.](LICENCE)
+## Licence
 
----
+MIT — see [LICENCE](LICENCE).
