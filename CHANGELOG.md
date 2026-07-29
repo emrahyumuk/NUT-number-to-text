@@ -126,7 +126,17 @@ assert on that text, review the tables below before taking this release.
 - **Numbers past the supported range throw `ArgumentOutOfRangeException`** instead of a bare
   `Exception`, so callers can catch it selectively. The message states the range.
 
+- **Neuter gender.** `GenderGroup` had only `None`, `Feminine` and `Masculine`, so a
+  neuter currency name fell through to the masculine numeral: `един евро`, `один песо`.
+  Bulgarian marks all three (`един` / `една` / `едно`), and евро and пени are neuter;
+  песо is neuter in Russian, Ukrainian and Belarusian.
+
+  The Bulgarian name for GBP is corrected to `британска лира`, which is what the Bulgarian
+  National Bank uses.
+
 ### Added
+
+- `GenderGroup.Neuter`, appended so existing values keep their numbers.
 
 - **GBP**, in every language except Amharic
   ([#24](https://github.com/emrahyumuk/NUT-number-to-text/pull/24)). The pound is feminine

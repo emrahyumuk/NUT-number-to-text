@@ -27,9 +27,10 @@ namespace Nut.TextConverters
       : base(template)
     {
       var gender = isMainUnit ? currencyModel.Gender : currencyModel.SubUnitCurrency.Gender;
-      var feminine = gender == GenderGroup.Feminine;
-      _one = feminine ? "одна" : "один";
-      _two = feminine ? "две" : "два";
+      _one = gender == GenderGroup.Feminine ? "одна"
+           : gender == GenderGroup.Neuter ? "одно"
+           : "один";
+      _two = gender == GenderGroup.Feminine ? "две" : "два";
     }
 
     protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
@@ -145,7 +146,7 @@ namespace Nut.TextConverters
     private void Initialize()
     {
       NumberTexts.Add(0, new[] { "ноль" });
-      NumberTexts.Add(1, new[] { "один", "одна" });
+      NumberTexts.Add(1, new[] { "один", "одна", "одно" });
       NumberTexts.Add(2, new[] { "два", "две" });
       NumberTexts.Add(3, new[] { "три" });
       NumberTexts.Add(4, new[] { "четыре" });
@@ -226,7 +227,7 @@ namespace Nut.TextConverters
           {
             Currency = currency,
             Names = new[] { "аргентинское песо", "аргентинских песо", "аргентинских песо" },
-            Gender = GenderGroup.Masculine,
+            Gender = GenderGroup.Neuter,
             SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сентаво", "сентаво", "сентаво" } }
           };
         case Currency.BGN:

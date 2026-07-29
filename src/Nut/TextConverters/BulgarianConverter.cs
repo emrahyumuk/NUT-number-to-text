@@ -27,9 +27,11 @@ namespace Nut.TextConverters
             : base(template)
         {
             var gender = isMainUnit ? currencyModel.Gender : currencyModel.SubUnitCurrency.Gender;
-            var feminine = gender == GenderGroup.Feminine;
-            _one = feminine ? "една" : "един";
-            _two = feminine ? "две" : "два";
+            // Bulgarian marks all three: един / една / едно, and neuter two matches the feminine.
+            _one = gender == GenderGroup.Feminine ? "една"
+                 : gender == GenderGroup.Neuter ? "едно"
+                 : "един";
+            _two = gender == GenderGroup.Masculine ? "два" : "две";
         }
 
         protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
@@ -221,16 +223,16 @@ namespace Nut.TextConverters
                     {
                         Currency = currency,
                         Names = new[] { "евро", "евро", "евро" },
-                        Gender = GenderGroup.Masculine,
+                        Gender = GenderGroup.Neuter,
                         SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "евроцент", "евроцента", "евроцента" } }
                     };
                 case Currency.GBP:
                   return new CurrencyModel
                   {
                     Currency = currency,
-                    Names = new[] { "лира стерлинг", "лири стерлинг", "лири стерлинг" },
+                    Names = new[] { "британска лира", "британски лири", "британски лири" },
                     Gender = GenderGroup.Feminine,
-                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "пени", "пенита", "пенита" } }
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Neuter, Names = new[] { "пени", "пенита", "пенита" } }
                   };
                 case Currency.ARS:
                   return new CurrencyModel
