@@ -41,15 +41,15 @@
         [TestCase(11, "onze")]
         [TestCase(20, "vingt")]
         [TestCase(21, "vingt et un")]
-        [TestCase(42, "quarante deux")] // BUG: hyphenated both traditionally and post-1990 -> "quarante-deux" (BDL/Académie)
+        [TestCase(42, "quarante-deux")]
         [TestCase(100, "cent")]
         [TestCase(101, "cent un")]
-        [TestCase(200, "deux cent")] // BUG: multiplied "cent" with nothing after it takes -s -> "deux cents" (BDL)
-        [TestCase(999, "neuf cent quatre-vingt-dix-neuf")] // hyphenated here but not at 42 — inconsistent
+        [TestCase(200, "deux cents")]
+        [TestCase(999, "neuf cent quatre-vingt-dix-neuf")]
         [TestCase(1000, "mille")]
         [TestCase(41000, "quarante et un mille")]
         [TestCase(1000000, "un million")]
-        [TestCase(2000000, "deux million")] // BUG: million is a noun and takes -s -> "deux millions"
+        [TestCase(2000000, "deux millions")]
         [TestCase(1000000000, "un milliard")]
         public void French(long number, string expected) => Check(number, Language.French, expected);
 

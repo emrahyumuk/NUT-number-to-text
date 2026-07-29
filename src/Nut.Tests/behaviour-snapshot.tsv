@@ -467,12 +467,12 @@ plain	fr	11	onze
 plain	fr	15	quinze
 plain	fr	20	vingt
 plain	fr	21	vingt et un
-plain	fr	22	vingt deux
-plain	fr	42	quarante deux
+plain	fr	22	vingt-deux
+plain	fr	42	quarante-deux
 plain	fr	100	cent
 plain	fr	101	cent un
 plain	fr	121	cent vingt et un
-plain	fr	200	deux cent
+plain	fr	200	deux cents
 plain	fr	999	neuf cent quatre-vingt-dix-neuf
 plain	fr	1000	mille
 plain	fr	1001	mille un
@@ -482,8 +482,8 @@ plain	fr	21000	vingt et un mille
 plain	fr	41000	quarante et un mille
 plain	fr	100000	cent mille
 plain	fr	1000000	un million
-plain	fr	2000000	deux million
-plain	fr	999999999	neuf cent quatre-vingt-dix-neuf million neuf cent quatre-vingt-dix-neuf mille neuf cent quatre-vingt-dix-neuf
+plain	fr	2000000	deux millions
+plain	fr	999999999	neuf cent quatre-vingt-dix-neuf millions neuf cent quatre-vingt-dix-neuf mille neuf cent quatre-vingt-dix-neuf
 plain	fr	-1	moins un
 plain	fr	-2	moins deux
 plain	fr	-41	moins quarante et un
@@ -501,8 +501,8 @@ money	fr	eur	3	trois euros zéro centime
 money	fr	eur	5	cinq euros zéro centime
 money	fr	eur	11	onze euros zéro centime
 money	fr	eur	21	vingt et un euros zéro centime
-money	fr	eur	22	vingt deux euros zéro centime
-money	fr	eur	42	quarante deux euros zéro centime
+money	fr	eur	22	vingt-deux euros zéro centime
+money	fr	eur	42	quarante-deux euros zéro centime
 money	fr	eur	100	cent euros zéro centime
 money	fr	eur	101	cent un euros zéro centime
 money	fr	eur	121	cent vingt et un euros zéro centime
@@ -513,20 +513,20 @@ money	fr	eur	2000	deux mille euros zéro centime
 money	fr	eur	2001	deux mille un euros zéro centime
 money	fr	eur	5000	cinq mille euros zéro centime
 money	fr	eur	21000	vingt et un mille euros zéro centime
-money	fr	eur	22000	vingt deux mille euros zéro centime
+money	fr	eur	22000	vingt-deux mille euros zéro centime
 money	fr	eur	41000	quarante et un mille euros zéro centime
-money	fr	eur	42000	quarante deux mille euros zéro centime
+money	fr	eur	42000	quarante-deux mille euros zéro centime
 money	fr	eur	100000	cent mille euros zéro centime
 money	fr	eur	1000000	un million euros zéro centime
-money	fr	eur	2000000	deux million euros zéro centime
+money	fr	eur	2000000	deux millions euros zéro centime
 money	fr	eur	1000000000	un milliard euros zéro centime
-money	fr	eur	123.45	cent vingt trois euros quarante cinq centimes
+money	fr	eur	123.45	cent vingt-trois euros quarante-cinq centimes
 money	fr	eur	-1	moins un euro zéro centime
 money	fr	eur	-2	moins deux euros zéro centime
 money	fr	eur	-41.5	moins quarante et un euros cinquante centimes
 money	fr	eur	-1000	moins mille euros zéro centime
 money	fr	eur	1.999	deux euros zéro centime
-money	fr	eur	123.456	cent vingt trois euros quarante six centimes
+money	fr	eur	123.456	cent vingt-trois euros quarante-six centimes
 money	fr	eur	1.005	un euro un centime
 money	fr	usd	0	zéro dollar zéro centime
 money	fr	usd	0.01	zéro dollar un centime
@@ -540,8 +540,8 @@ money	fr	usd	3	trois dollars zéro centime
 money	fr	usd	5	cinq dollars zéro centime
 money	fr	usd	11	onze dollars zéro centime
 money	fr	usd	21	vingt et un dollars zéro centime
-money	fr	usd	22	vingt deux dollars zéro centime
-money	fr	usd	42	quarante deux dollars zéro centime
+money	fr	usd	22	vingt-deux dollars zéro centime
+money	fr	usd	42	quarante-deux dollars zéro centime
 money	fr	usd	100	cent dollars zéro centime
 money	fr	usd	101	cent un dollars zéro centime
 money	fr	usd	121	cent vingt et un dollars zéro centime
@@ -552,20 +552,20 @@ money	fr	usd	2000	deux mille dollars zéro centime
 money	fr	usd	2001	deux mille un dollars zéro centime
 money	fr	usd	5000	cinq mille dollars zéro centime
 money	fr	usd	21000	vingt et un mille dollars zéro centime
-money	fr	usd	22000	vingt deux mille dollars zéro centime
+money	fr	usd	22000	vingt-deux mille dollars zéro centime
 money	fr	usd	41000	quarante et un mille dollars zéro centime
-money	fr	usd	42000	quarante deux mille dollars zéro centime
+money	fr	usd	42000	quarante-deux mille dollars zéro centime
 money	fr	usd	100000	cent mille dollars zéro centime
 money	fr	usd	1000000	un million dollars zéro centime
-money	fr	usd	2000000	deux million dollars zéro centime
+money	fr	usd	2000000	deux millions dollars zéro centime
 money	fr	usd	1000000000	un milliard dollars zéro centime
-money	fr	usd	123.45	cent vingt trois dollars quarante cinq centimes
+money	fr	usd	123.45	cent vingt-trois dollars quarante-cinq centimes
 money	fr	usd	-1	moins un dollar zéro centime
 money	fr	usd	-2	moins deux dollars zéro centime
 money	fr	usd	-41.5	moins quarante et un dollars cinquante centimes
 money	fr	usd	-1000	moins mille dollars zéro centime
 money	fr	usd	1.999	deux dollars zéro centime
-money	fr	usd	123.456	cent vingt trois dollars quarante six centimes
+money	fr	usd	123.456	cent vingt-trois dollars quarante-six centimes
 money	fr	usd	1.005	un dollar un centime
 money	fr	rub	0	zéro rouble zéro kopeck
 money	fr	rub	0.01	zéro rouble un kopeck
@@ -579,8 +579,8 @@ money	fr	rub	3	trois roubles zéro kopeck
 money	fr	rub	5	cinq roubles zéro kopeck
 money	fr	rub	11	onze roubles zéro kopeck
 money	fr	rub	21	vingt et un roubles zéro kopeck
-money	fr	rub	22	vingt deux roubles zéro kopeck
-money	fr	rub	42	quarante deux roubles zéro kopeck
+money	fr	rub	22	vingt-deux roubles zéro kopeck
+money	fr	rub	42	quarante-deux roubles zéro kopeck
 money	fr	rub	100	cent roubles zéro kopeck
 money	fr	rub	101	cent un roubles zéro kopeck
 money	fr	rub	121	cent vingt et un roubles zéro kopeck
@@ -591,20 +591,20 @@ money	fr	rub	2000	deux mille roubles zéro kopeck
 money	fr	rub	2001	deux mille un roubles zéro kopeck
 money	fr	rub	5000	cinq mille roubles zéro kopeck
 money	fr	rub	21000	vingt et un mille roubles zéro kopeck
-money	fr	rub	22000	vingt deux mille roubles zéro kopeck
+money	fr	rub	22000	vingt-deux mille roubles zéro kopeck
 money	fr	rub	41000	quarante et un mille roubles zéro kopeck
-money	fr	rub	42000	quarante deux mille roubles zéro kopeck
+money	fr	rub	42000	quarante-deux mille roubles zéro kopeck
 money	fr	rub	100000	cent mille roubles zéro kopeck
 money	fr	rub	1000000	un million roubles zéro kopeck
-money	fr	rub	2000000	deux million roubles zéro kopeck
+money	fr	rub	2000000	deux millions roubles zéro kopeck
 money	fr	rub	1000000000	un milliard roubles zéro kopeck
-money	fr	rub	123.45	cent vingt trois roubles quarante cinq kopecks
+money	fr	rub	123.45	cent vingt-trois roubles quarante-cinq kopecks
 money	fr	rub	-1	moins un rouble zéro kopeck
 money	fr	rub	-2	moins deux roubles zéro kopeck
 money	fr	rub	-41.5	moins quarante et un roubles cinquante kopecks
 money	fr	rub	-1000	moins mille roubles zéro kopeck
 money	fr	rub	1.999	deux roubles zéro kopeck
-money	fr	rub	123.456	cent vingt trois roubles quarante six kopecks
+money	fr	rub	123.456	cent vingt-trois roubles quarante-six kopecks
 money	fr	rub	1.005	un rouble un kopeck
 money	fr	try	0	zéro livre turques zéro kuruş
 money	fr	try	0.01	zéro livre turques un kuruş
@@ -618,8 +618,8 @@ money	fr	try	3	trois livres turques zéro kuruş
 money	fr	try	5	cinq livres turques zéro kuruş
 money	fr	try	11	onze livres turques zéro kuruş
 money	fr	try	21	vingt et un livres turques zéro kuruş
-money	fr	try	22	vingt deux livres turques zéro kuruş
-money	fr	try	42	quarante deux livres turques zéro kuruş
+money	fr	try	22	vingt-deux livres turques zéro kuruş
+money	fr	try	42	quarante-deux livres turques zéro kuruş
 money	fr	try	100	cent livres turques zéro kuruş
 money	fr	try	101	cent un livres turques zéro kuruş
 money	fr	try	121	cent vingt et un livres turques zéro kuruş
@@ -630,20 +630,20 @@ money	fr	try	2000	deux mille livres turques zéro kuruş
 money	fr	try	2001	deux mille un livres turques zéro kuruş
 money	fr	try	5000	cinq mille livres turques zéro kuruş
 money	fr	try	21000	vingt et un mille livres turques zéro kuruş
-money	fr	try	22000	vingt deux mille livres turques zéro kuruş
+money	fr	try	22000	vingt-deux mille livres turques zéro kuruş
 money	fr	try	41000	quarante et un mille livres turques zéro kuruş
-money	fr	try	42000	quarante deux mille livres turques zéro kuruş
+money	fr	try	42000	quarante-deux mille livres turques zéro kuruş
 money	fr	try	100000	cent mille livres turques zéro kuruş
 money	fr	try	1000000	un million livres turques zéro kuruş
-money	fr	try	2000000	deux million livres turques zéro kuruş
+money	fr	try	2000000	deux millions livres turques zéro kuruş
 money	fr	try	1000000000	un milliard livres turques zéro kuruş
-money	fr	try	123.45	cent vingt trois livres turques quarante cinq kuruş
+money	fr	try	123.45	cent vingt-trois livres turques quarante-cinq kuruş
 money	fr	try	-1	moins un livre turques zéro kuruş
 money	fr	try	-2	moins deux livres turques zéro kuruş
 money	fr	try	-41.5	moins quarante et un livres turques cinquante kuruş
 money	fr	try	-1000	moins mille livres turques zéro kuruş
 money	fr	try	1.999	deux livres turques zéro kuruş
-money	fr	try	123.456	cent vingt trois livres turques quarante six kuruş
+money	fr	try	123.456	cent vingt-trois livres turques quarante-six kuruş
 money	fr	try	1.005	un livre turques un kuruş
 money	fr	uah	0	zéro hryvnia ukrainienne zéro kopiyka
 money	fr	uah	0.01	zéro hryvnia ukrainienne un kopiyka
@@ -657,8 +657,8 @@ money	fr	uah	3	trois hryvnias ukrainienne zéro kopiyka
 money	fr	uah	5	cinq hryvnias ukrainienne zéro kopiyka
 money	fr	uah	11	onze hryvnias ukrainienne zéro kopiyka
 money	fr	uah	21	vingt et un hryvnias ukrainienne zéro kopiyka
-money	fr	uah	22	vingt deux hryvnias ukrainienne zéro kopiyka
-money	fr	uah	42	quarante deux hryvnias ukrainienne zéro kopiyka
+money	fr	uah	22	vingt-deux hryvnias ukrainienne zéro kopiyka
+money	fr	uah	42	quarante-deux hryvnias ukrainienne zéro kopiyka
 money	fr	uah	100	cent hryvnias ukrainienne zéro kopiyka
 money	fr	uah	101	cent un hryvnias ukrainienne zéro kopiyka
 money	fr	uah	121	cent vingt et un hryvnias ukrainienne zéro kopiyka
@@ -669,20 +669,20 @@ money	fr	uah	2000	deux mille hryvnias ukrainienne zéro kopiyka
 money	fr	uah	2001	deux mille un hryvnias ukrainienne zéro kopiyka
 money	fr	uah	5000	cinq mille hryvnias ukrainienne zéro kopiyka
 money	fr	uah	21000	vingt et un mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	22000	vingt deux mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	22000	vingt-deux mille hryvnias ukrainienne zéro kopiyka
 money	fr	uah	41000	quarante et un mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	42000	quarante deux mille hryvnias ukrainienne zéro kopiyka
+money	fr	uah	42000	quarante-deux mille hryvnias ukrainienne zéro kopiyka
 money	fr	uah	100000	cent mille hryvnias ukrainienne zéro kopiyka
 money	fr	uah	1000000	un million hryvnias ukrainienne zéro kopiyka
-money	fr	uah	2000000	deux million hryvnias ukrainienne zéro kopiyka
+money	fr	uah	2000000	deux millions hryvnias ukrainienne zéro kopiyka
 money	fr	uah	1000000000	un milliard hryvnias ukrainienne zéro kopiyka
-money	fr	uah	123.45	cent vingt trois hryvnias ukrainienne quarante cinq kopiyka
+money	fr	uah	123.45	cent vingt-trois hryvnias ukrainienne quarante-cinq kopiyka
 money	fr	uah	-1	moins un hryvnia ukrainienne zéro kopiyka
 money	fr	uah	-2	moins deux hryvnias ukrainienne zéro kopiyka
 money	fr	uah	-41.5	moins quarante et un hryvnias ukrainienne cinquante kopiyka
 money	fr	uah	-1000	moins mille hryvnias ukrainienne zéro kopiyka
 money	fr	uah	1.999	deux hryvnias ukrainienne zéro kopiyka
-money	fr	uah	123.456	cent vingt trois hryvnias ukrainienne quarante six kopiyka
+money	fr	uah	123.456	cent vingt-trois hryvnias ukrainienne quarante-six kopiyka
 money	fr	uah	1.005	un hryvnia ukrainienne un kopiyka
 money	fr	bgn	0	
 money	fr	bgn	0.01	
@@ -735,8 +735,8 @@ money	fr	etb	3	trois Birr zéro centime
 money	fr	etb	5	cinq Birr zéro centime
 money	fr	etb	11	onze Birr zéro centime
 money	fr	etb	21	vingt et un Birr zéro centime
-money	fr	etb	22	vingt deux Birr zéro centime
-money	fr	etb	42	quarante deux Birr zéro centime
+money	fr	etb	22	vingt-deux Birr zéro centime
+money	fr	etb	42	quarante-deux Birr zéro centime
 money	fr	etb	100	cent Birr zéro centime
 money	fr	etb	101	cent un Birr zéro centime
 money	fr	etb	121	cent vingt et un Birr zéro centime
@@ -747,20 +747,20 @@ money	fr	etb	2000	deux mille Birr zéro centime
 money	fr	etb	2001	deux mille un Birr zéro centime
 money	fr	etb	5000	cinq mille Birr zéro centime
 money	fr	etb	21000	vingt et un mille Birr zéro centime
-money	fr	etb	22000	vingt deux mille Birr zéro centime
+money	fr	etb	22000	vingt-deux mille Birr zéro centime
 money	fr	etb	41000	quarante et un mille Birr zéro centime
-money	fr	etb	42000	quarante deux mille Birr zéro centime
+money	fr	etb	42000	quarante-deux mille Birr zéro centime
 money	fr	etb	100000	cent mille Birr zéro centime
 money	fr	etb	1000000	un million Birr zéro centime
-money	fr	etb	2000000	deux million Birr zéro centime
+money	fr	etb	2000000	deux millions Birr zéro centime
 money	fr	etb	1000000000	un milliard Birr zéro centime
-money	fr	etb	123.45	cent vingt trois Birr quarante cinq centimes
+money	fr	etb	123.45	cent vingt-trois Birr quarante-cinq centimes
 money	fr	etb	-1	moins un Birr zéro centime
 money	fr	etb	-2	moins deux Birr zéro centime
 money	fr	etb	-41.5	moins quarante et un Birr cinquante centimes
 money	fr	etb	-1000	moins mille Birr zéro centime
 money	fr	etb	1.999	deux Birr zéro centime
-money	fr	etb	123.456	cent vingt trois Birr quarante six centimes
+money	fr	etb	123.456	cent vingt-trois Birr quarante-six centimes
 money	fr	etb	1.005	un Birr un centime
 money	fr	pln	0	zéro zloty zéro groszy
 money	fr	pln	0.01	zéro zloty un groszy
@@ -774,8 +774,8 @@ money	fr	pln	3	trois zloty zéro groszy
 money	fr	pln	5	cinq zloty zéro groszy
 money	fr	pln	11	onze zloty zéro groszy
 money	fr	pln	21	vingt et un zloty zéro groszy
-money	fr	pln	22	vingt deux zloty zéro groszy
-money	fr	pln	42	quarante deux zloty zéro groszy
+money	fr	pln	22	vingt-deux zloty zéro groszy
+money	fr	pln	42	quarante-deux zloty zéro groszy
 money	fr	pln	100	cent zloty zéro groszy
 money	fr	pln	101	cent un zloty zéro groszy
 money	fr	pln	121	cent vingt et un zloty zéro groszy
@@ -786,20 +786,20 @@ money	fr	pln	2000	deux mille zloty zéro groszy
 money	fr	pln	2001	deux mille un zloty zéro groszy
 money	fr	pln	5000	cinq mille zloty zéro groszy
 money	fr	pln	21000	vingt et un mille zloty zéro groszy
-money	fr	pln	22000	vingt deux mille zloty zéro groszy
+money	fr	pln	22000	vingt-deux mille zloty zéro groszy
 money	fr	pln	41000	quarante et un mille zloty zéro groszy
-money	fr	pln	42000	quarante deux mille zloty zéro groszy
+money	fr	pln	42000	quarante-deux mille zloty zéro groszy
 money	fr	pln	100000	cent mille zloty zéro groszy
 money	fr	pln	1000000	un million zloty zéro groszy
-money	fr	pln	2000000	deux million zloty zéro groszy
+money	fr	pln	2000000	deux millions zloty zéro groszy
 money	fr	pln	1000000000	un milliard zloty zéro groszy
-money	fr	pln	123.45	cent vingt trois zloty quarante cinq groszy
+money	fr	pln	123.45	cent vingt-trois zloty quarante-cinq groszy
 money	fr	pln	-1	moins un zloty zéro groszy
 money	fr	pln	-2	moins deux zloty zéro groszy
 money	fr	pln	-41.5	moins quarante et un zloty cinquante groszy
 money	fr	pln	-1000	moins mille zloty zéro groszy
 money	fr	pln	1.999	deux zloty zéro groszy
-money	fr	pln	123.456	cent vingt trois zloty quarante six groszy
+money	fr	pln	123.456	cent vingt-trois zloty quarante-six groszy
 money	fr	pln	1.005	un zloty un groszy
 money	fr	byn	0	zéro rouble biélorusse zéro kopeck
 money	fr	byn	0.01	zéro rouble biélorusse un kopeck
@@ -813,8 +813,8 @@ money	fr	byn	3	trois roubles biélorusses zéro kopeck
 money	fr	byn	5	cinq roubles biélorusses zéro kopeck
 money	fr	byn	11	onze roubles biélorusses zéro kopeck
 money	fr	byn	21	vingt et un roubles biélorusses zéro kopeck
-money	fr	byn	22	vingt deux roubles biélorusses zéro kopeck
-money	fr	byn	42	quarante deux roubles biélorusses zéro kopeck
+money	fr	byn	22	vingt-deux roubles biélorusses zéro kopeck
+money	fr	byn	42	quarante-deux roubles biélorusses zéro kopeck
 money	fr	byn	100	cent roubles biélorusses zéro kopeck
 money	fr	byn	101	cent un roubles biélorusses zéro kopeck
 money	fr	byn	121	cent vingt et un roubles biélorusses zéro kopeck
@@ -825,20 +825,20 @@ money	fr	byn	2000	deux mille roubles biélorusses zéro kopeck
 money	fr	byn	2001	deux mille un roubles biélorusses zéro kopeck
 money	fr	byn	5000	cinq mille roubles biélorusses zéro kopeck
 money	fr	byn	21000	vingt et un mille roubles biélorusses zéro kopeck
-money	fr	byn	22000	vingt deux mille roubles biélorusses zéro kopeck
+money	fr	byn	22000	vingt-deux mille roubles biélorusses zéro kopeck
 money	fr	byn	41000	quarante et un mille roubles biélorusses zéro kopeck
-money	fr	byn	42000	quarante deux mille roubles biélorusses zéro kopeck
+money	fr	byn	42000	quarante-deux mille roubles biélorusses zéro kopeck
 money	fr	byn	100000	cent mille roubles biélorusses zéro kopeck
 money	fr	byn	1000000	un million roubles biélorusses zéro kopeck
-money	fr	byn	2000000	deux million roubles biélorusses zéro kopeck
+money	fr	byn	2000000	deux millions roubles biélorusses zéro kopeck
 money	fr	byn	1000000000	un milliard roubles biélorusses zéro kopeck
-money	fr	byn	123.45	cent vingt trois roubles biélorusses quarante cinq kopecks
+money	fr	byn	123.45	cent vingt-trois roubles biélorusses quarante-cinq kopecks
 money	fr	byn	-1	moins un rouble biélorusse zéro kopeck
 money	fr	byn	-2	moins deux roubles biélorusses zéro kopeck
 money	fr	byn	-41.5	moins quarante et un roubles biélorusses cinquante kopecks
 money	fr	byn	-1000	moins mille roubles biélorusses zéro kopeck
 money	fr	byn	1.999	deux roubles biélorusses zéro kopeck
-money	fr	byn	123.456	cent vingt trois roubles biélorusses quarante six kopecks
+money	fr	byn	123.456	cent vingt-trois roubles biélorusses quarante-six kopecks
 money	fr	byn	1.005	un rouble biélorusse un kopeck
 money	fr	ars	0	
 money	fr	ars	0.01	

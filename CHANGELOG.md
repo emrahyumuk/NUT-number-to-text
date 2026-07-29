@@ -124,6 +124,14 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   `ninety-nine`. Only the tens-and-units pair takes a hyphen, so `121` reads as
   "one hundred twenty-one".
 
+- **French compound numbers below a hundred are hyphenated** (`quarante-deux`),
+  multiplied `cent` takes its plural when it ends the number (`deux cents`, but
+  `deux cent un` and `deux cent mille`), and `million`/`milliard` — nouns — are now
+  pluralised (`deux millions`). `quatre-vingt` follows the same agreement rule as `cent`.
+
+  Also fixes a stray trailing space in the word for fifty, which produced
+  `cinquante -deux`.
+
 ### Added
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than

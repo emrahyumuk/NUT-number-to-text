@@ -20,6 +20,14 @@ namespace Nut.TextConverters
       Initialize();
     }
     
+    // Set only on the short-lived instance used for the part in front of a scale word.
+    private readonly bool _beforeScaleWord;
+
+    private FrenchConverter(FrenchConverter template, bool beforeScaleWord) : base(template)
+    {
+      _beforeScaleWord = beforeScaleWord;
+    }
+
     protected override long Append(long num, long scale, StringBuilder builder)
     {
       if (num > scale - 1)
@@ -28,10 +36,14 @@ namespace Nut.TextConverters
 
         if (scale != 1000 || baseScale != 1)
         {
-          AppendLessThanOneThousand(baseScale, builder);
+          // "cent" and "quatre-vingt" drop their -s when a scale word follows:
+          // "deux cents" but "deux cent mille".
+          new FrenchConverter(this, true).AppendLessThanOneThousand(baseScale, builder);
         }
 
-        builder.AppendFormat("{0} ", ScaleTexts[scale][0]);
+        // million and milliard are nouns and take -s; mille is invariable.
+        var plural = baseScale > 1 && ScaleTexts[scale].Length > 1;
+        builder.AppendFormat("{0} ", ScaleTexts[scale][plural ? 1 : 0]);
         num = num - (baseScale * scale);
       }
       return num;
@@ -44,7 +56,8 @@ namespace Nut.TextConverters
 
         if (num == 80)
         {
-          builder.AppendFormat("{0}", NumberTexts[num][1]);
+          // "quatre-vingts" alone, "quatre-vingt mille" before a scale word.
+          builder.AppendFormat("{0} ", NumberTexts[num][_beforeScaleWord ? 0 : 1]);
           return 0;
         }
 
@@ -66,14 +79,16 @@ namespace Nut.TextConverters
         }
         else
         {
-          builder.AppendFormat("{0} ", NumberTexts[tens][0]);
-
           var etUnList = new long[] { 21, 31, 41, 51, 61 };
           if (etUnList.Contains(num))
           {
-            builder.AppendFormat("{0} ", NumberTexts[num - tens][1]);
+            builder.AppendFormat("{0} {1} ", NumberTexts[tens][0], NumberTexts[num - tens][1]);
             return 0;
           }
+
+          // Compound numbers below a hundred are hyphenated: "quarante-deux".
+          builder.Append(NumberTexts[tens][0]);
+          builder.Append(num - tens > 0 ? "-" : " ");
         }
 
         num = num - tens;
@@ -86,11 +101,18 @@ namespace Nut.TextConverters
         if (num > 99)
         {
             var hundreds = num / 100;
+            var rest = num - (hundreds * 100);
             if (hundreds != 1)
-                builder.AppendFormat("{0} {1} ", NumberTexts[hundreds][0], NumberTexts[100][0]);
+            {
+                // Multiplied "cent" takes -s only when nothing follows it — not another
+                // numeral, and not a scale word: "deux cents", "deux cent un",
+                // "deux cent mille".
+                var takesPlural = rest == 0 && !_beforeScaleWord;
+                builder.AppendFormat("{0} {1} ", NumberTexts[hundreds][0], NumberTexts[100][takesPlural ? 1 : 0]);
+            }
             else
                 builder.AppendFormat("{0} ", NumberTexts[100][0]);
-            num = num - (hundreds * 100);
+            num = rest;
         }
         return num;
     }
@@ -120,13 +142,13 @@ namespace Nut.TextConverters
       NumberTexts.Add(20, new[] { "vingt" });
       NumberTexts.Add(30, new[] { "trente" });
       NumberTexts.Add(40, new[] { "quarante" });
-      NumberTexts.Add(50, new[] { "cinquante " });
+      NumberTexts.Add(50, new[] { "cinquante" });
       NumberTexts.Add(60, new[] { "soixante" });
       NumberTexts.Add(80, new[] { "quatre-vingt", "quatre-vingts" });
-      NumberTexts.Add(100, new[] { "cent" });
+      NumberTexts.Add(100, new[] { "cent", "cents" });
 
-      ScaleTexts.Add(1000000000, new[] { "milliard" });
-      ScaleTexts.Add(1000000, new[] { "million" });
+      ScaleTexts.Add(1000000000, new[] { "milliard", "milliards" });
+      ScaleTexts.Add(1000000, new[] { "million", "millions" });
       ScaleTexts.Add(1000, new[] { "mille" });
     }
 
