@@ -138,7 +138,9 @@ namespace Nut.TextConverters
       // Checked on both sides so that negating below cannot overflow at long.MinValue.
       if (num >= Parameters.NumberLimit || num <= -Parameters.NumberLimit)
       {
-        throw new Exception(string.Format("{0} and larger than {0} numbers are not supported", Parameters.NumberLimit));
+        throw new ArgumentOutOfRangeException(nameof(num), num,
+          string.Format("Only numbers between {0} and {1} are supported.",
+            -Parameters.NumberLimit + 1, Parameters.NumberLimit - 1));
       }
     }
 
