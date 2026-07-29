@@ -98,6 +98,11 @@ assert on that text, review the tables below before taking this release.
 - **`5 ETB` and above threw `IndexOutOfRangeException` in Ukrainian.** The birr had two
   name forms where the converter indexes three.
 
+- **The Ethiopian birr divides into santims, not into the neighbour's coin.** Russian read
+  `два быр две копейки` and Bulgarian `два бр и две стотинки`; both now say `сантим`. This
+  predates the release. Belarusian had the same fault and no dictionary gives the Belarusian
+  word, so `ETB` is unsupported there rather than wrong.
+
 ### Fixed — Spanish
 
 - **10^9 was rendered as "billón", which means 10^12** — out by a factor of a thousand. Per
@@ -231,6 +236,9 @@ assert on that text, review the tables below before taking this release.
   of one agrees with the scale word rather than with the currency: `viens tūkstotis
   sterliņu mārciņu`, not `viena`, and `divdesmit viens tūkstotis`, not `tūkstoši`.
 
+  Two spellings are corrected against Tēzaurs: the Turkish sub-unit is `kurušs`, which is
+  what #24 wrote before this repository dropped the diacritic, and `centavo` is `sentavo`.
+
   They also govern the genitive plural of what they count: `viens tūkstotis ASV dolāru`,
   not `dolāri`. This applies wherever the amount ends on one of them, so `simts`,
   `divi simti`, `viens tūkstotis simts` and `viens miljons` all take it, while `desmit`
@@ -240,6 +248,11 @@ assert on that text, review the tables below before taking this release.
 - **Uzbek (Latin script)** and the Uzbek som (`UZS`), from
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
+
+  The reverse holds too: `UZS` is gone from Belarusian, Polish, Bulgarian and Latvian. The
+  sum's sub-unit was written there as `тыйін`, `tijin`, `тиин` and `tijins`, none of which
+  is in a dictionary. It stays in Russian, French, Spanish and Portuguese, where the words
+  are attested.
 
   Uzbek covers the three currencies #23 supplied — `UZS`, `USD` and `RUB` — and no others.
   The rest were filled in for parity and their sub-unit names are in no Uzbek source: five

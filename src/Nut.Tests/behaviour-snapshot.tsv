@@ -3491,45 +3491,45 @@ money	ru	bgn	-1000	минус одна тысяча левов ноль стот
 money	ru	bgn	1.999	два лева ноль стотинок
 money	ru	bgn	123.456	сто двадцать три лева сорок шесть стотинок
 money	ru	bgn	1.005	один лев одна стотинка
-money	ru	etb	0	ноль быр ноль копеек
-money	ru	etb	0.01	ноль быр одна копейка
-money	ru	etb	0.02	ноль быр две копейки
-money	ru	etb	1	один быр ноль копеек
-money	ru	etb	1.01	один быр одна копейка
-money	ru	etb	1.02	один быр две копейки
-money	ru	etb	2	два быр ноль копеек
-money	ru	etb	2.02	два быр две копейки
-money	ru	etb	3	три быр ноль копеек
-money	ru	etb	5	пять быр ноль копеек
-money	ru	etb	11	одиннадцать быр ноль копеек
-money	ru	etb	21	двадцать один быр ноль копеек
-money	ru	etb	22	двадцать два быр ноль копеек
-money	ru	etb	42	сорок два быр ноль копеек
-money	ru	etb	100	сто быр ноль копеек
-money	ru	etb	101	сто один быр ноль копеек
-money	ru	etb	121	сто двадцать один быр ноль копеек
-money	ru	etb	999	девятьсот девяносто девять быр ноль копеек
-money	ru	etb	1000	одна тысяча быр ноль копеек
-money	ru	etb	1001	одна тысяча один быр ноль копеек
-money	ru	etb	2000	две тысячи быр ноль копеек
-money	ru	etb	2001	две тысячи один быр ноль копеек
-money	ru	etb	5000	пять тысяч быр ноль копеек
-money	ru	etb	21000	двадцать одна тысяча быр ноль копеек
-money	ru	etb	22000	двадцать две тысячи быр ноль копеек
-money	ru	etb	41000	сорок одна тысяча быр ноль копеек
-money	ru	etb	42000	сорок две тысячи быр ноль копеек
-money	ru	etb	100000	сто тысяч быр ноль копеек
-money	ru	etb	1000000	один миллион быр ноль копеек
-money	ru	etb	2000000	два миллиона быр ноль копеек
-money	ru	etb	1000000000	один миллиард быр ноль копеек
-money	ru	etb	123.45	сто двадцать три быр сорок пять копеек
-money	ru	etb	-1	минус один быр ноль копеек
-money	ru	etb	-2	минус два быр ноль копеек
-money	ru	etb	-41.5	минус сорок один быр пятьдесят копеек
-money	ru	etb	-1000	минус одна тысяча быр ноль копеек
-money	ru	etb	1.999	два быр ноль копеек
-money	ru	etb	123.456	сто двадцать три быр сорок шесть копеек
-money	ru	etb	1.005	один быр одна копейка
+money	ru	etb	0	ноль быр ноль сантимов
+money	ru	etb	0.01	ноль быр один сантим
+money	ru	etb	0.02	ноль быр два сантима
+money	ru	etb	1	один быр ноль сантимов
+money	ru	etb	1.01	один быр один сантим
+money	ru	etb	1.02	один быр два сантима
+money	ru	etb	2	два быр ноль сантимов
+money	ru	etb	2.02	два быр два сантима
+money	ru	etb	3	три быр ноль сантимов
+money	ru	etb	5	пять быр ноль сантимов
+money	ru	etb	11	одиннадцать быр ноль сантимов
+money	ru	etb	21	двадцать один быр ноль сантимов
+money	ru	etb	22	двадцать два быр ноль сантимов
+money	ru	etb	42	сорок два быр ноль сантимов
+money	ru	etb	100	сто быр ноль сантимов
+money	ru	etb	101	сто один быр ноль сантимов
+money	ru	etb	121	сто двадцать один быр ноль сантимов
+money	ru	etb	999	девятьсот девяносто девять быр ноль сантимов
+money	ru	etb	1000	одна тысяча быр ноль сантимов
+money	ru	etb	1001	одна тысяча один быр ноль сантимов
+money	ru	etb	2000	две тысячи быр ноль сантимов
+money	ru	etb	2001	две тысячи один быр ноль сантимов
+money	ru	etb	5000	пять тысяч быр ноль сантимов
+money	ru	etb	21000	двадцать одна тысяча быр ноль сантимов
+money	ru	etb	22000	двадцать две тысячи быр ноль сантимов
+money	ru	etb	41000	сорок одна тысяча быр ноль сантимов
+money	ru	etb	42000	сорок две тысячи быр ноль сантимов
+money	ru	etb	100000	сто тысяч быр ноль сантимов
+money	ru	etb	1000000	один миллион быр ноль сантимов
+money	ru	etb	2000000	два миллиона быр ноль сантимов
+money	ru	etb	1000000000	один миллиард быр ноль сантимов
+money	ru	etb	123.45	сто двадцать три быр сорок пять сантимов
+money	ru	etb	-1	минус один быр ноль сантимов
+money	ru	etb	-2	минус два быр ноль сантимов
+money	ru	etb	-41.5	минус сорок один быр пятьдесят сантимов
+money	ru	etb	-1000	минус одна тысяча быр ноль сантимов
+money	ru	etb	1.999	два быр ноль сантимов
+money	ru	etb	123.456	сто двадцать три быр сорок шесть сантимов
+money	ru	etb	1.005	один быр один сантим
 money	ru	pln	0	ноль злотых ноль грошей
 money	ru	pln	0.01	ноль злотых один грош
 money	ru	pln	0.02	ноль злотых два гроша
@@ -4567,45 +4567,45 @@ money	be	bgn	-1000	мінус адна тысяча леваў нуль стац
 money	be	bgn	1.999	два левы нуль стацінак
 money	be	bgn	123.456	сто дваццаць тры левы сорак шэсць стацінак
 money	be	bgn	1.005	адзін леў адна стацінка
-money	be	etb	0	нуль быр нуль капеек
-money	be	etb	0.01	нуль быр адна капейка
-money	be	etb	0.02	нуль быр дзве капейкі
-money	be	etb	1	адзін быр нуль капеек
-money	be	etb	1.01	адзін быр адна капейка
-money	be	etb	1.02	адзін быр дзве капейкі
-money	be	etb	2	два быр нуль капеек
-money	be	etb	2.02	два быр дзве капейкі
-money	be	etb	3	тры быр нуль капеек
-money	be	etb	5	пяць быр нуль капеек
-money	be	etb	11	адзінаццаць быр нуль капеек
-money	be	etb	21	дваццаць адзін быр нуль капеек
-money	be	etb	22	дваццаць два быр нуль капеек
-money	be	etb	42	сорак два быр нуль капеек
-money	be	etb	100	сто быр нуль капеек
-money	be	etb	101	сто адзін быр нуль капеек
-money	be	etb	121	сто дваццаць адзін быр нуль капеек
-money	be	etb	999	дзевяцьсот дзевяноста дзевяць быр нуль капеек
-money	be	etb	1000	адна тысяча быр нуль капеек
-money	be	etb	1001	адна тысяча адзін быр нуль капеек
-money	be	etb	2000	дзве тысячы быр нуль капеек
-money	be	etb	2001	дзве тысячы адзін быр нуль капеек
-money	be	etb	5000	пяць тысяч быр нуль капеек
-money	be	etb	21000	дваццаць адна тысяча быр нуль капеек
-money	be	etb	22000	дваццаць дзве тысячы быр нуль капеек
-money	be	etb	41000	сорак адна тысяча быр нуль капеек
-money	be	etb	42000	сорак дзве тысячы быр нуль капеек
-money	be	etb	100000	сто тысяч быр нуль капеек
-money	be	etb	1000000	адзін мільён быр нуль капеек
-money	be	etb	2000000	два мільёна быр нуль капеек
-money	be	etb	1000000000	адзін мільярд быр нуль капеек
-money	be	etb	123.45	сто дваццаць тры быр сорак пяць капеек
-money	be	etb	-1	мінус адзін быр нуль капеек
-money	be	etb	-2	мінус два быр нуль капеек
-money	be	etb	-41.5	мінус сорак адзін быр пяцьдзесят капеек
-money	be	etb	-1000	мінус адна тысяча быр нуль капеек
-money	be	etb	1.999	два быр нуль капеек
-money	be	etb	123.456	сто дваццаць тры быр сорак шэсць капеек
-money	be	etb	1.005	адзін быр адна капейка
+money	be	etb	0	EX:NotSupportedException
+money	be	etb	0.01	EX:NotSupportedException
+money	be	etb	0.02	EX:NotSupportedException
+money	be	etb	1	EX:NotSupportedException
+money	be	etb	1.01	EX:NotSupportedException
+money	be	etb	1.02	EX:NotSupportedException
+money	be	etb	2	EX:NotSupportedException
+money	be	etb	2.02	EX:NotSupportedException
+money	be	etb	3	EX:NotSupportedException
+money	be	etb	5	EX:NotSupportedException
+money	be	etb	11	EX:NotSupportedException
+money	be	etb	21	EX:NotSupportedException
+money	be	etb	22	EX:NotSupportedException
+money	be	etb	42	EX:NotSupportedException
+money	be	etb	100	EX:NotSupportedException
+money	be	etb	101	EX:NotSupportedException
+money	be	etb	121	EX:NotSupportedException
+money	be	etb	999	EX:NotSupportedException
+money	be	etb	1000	EX:NotSupportedException
+money	be	etb	1001	EX:NotSupportedException
+money	be	etb	2000	EX:NotSupportedException
+money	be	etb	2001	EX:NotSupportedException
+money	be	etb	5000	EX:NotSupportedException
+money	be	etb	21000	EX:NotSupportedException
+money	be	etb	22000	EX:NotSupportedException
+money	be	etb	41000	EX:NotSupportedException
+money	be	etb	42000	EX:NotSupportedException
+money	be	etb	100000	EX:NotSupportedException
+money	be	etb	1000000	EX:NotSupportedException
+money	be	etb	2000000	EX:NotSupportedException
+money	be	etb	1000000000	EX:NotSupportedException
+money	be	etb	123.45	EX:NotSupportedException
+money	be	etb	-1	EX:NotSupportedException
+money	be	etb	-2	EX:NotSupportedException
+money	be	etb	-41.5	EX:NotSupportedException
+money	be	etb	-1000	EX:NotSupportedException
+money	be	etb	1.999	EX:NotSupportedException
+money	be	etb	123.456	EX:NotSupportedException
+money	be	etb	1.005	EX:NotSupportedException
 money	be	pln	0	нуль злотых нуль грошаў
 money	be	pln	0.01	нуль злотых адзін грош
 money	be	pln	0.02	нуль злотых два гроша
@@ -4762,45 +4762,45 @@ money	be	brl	-1000	мінус адна тысяча бразільскіх рэ�
 money	be	brl	1.999	два бразільскія рэалы нуль сентава
 money	be	brl	123.456	сто дваццаць тры бразільскія рэалы сорак шэсць сентава
 money	be	brl	1.005	адзін бразільскі рэал адзін сентава
-money	be	uzs	0	нуль узбекскіх сумаў нуль тыйінаў
-money	be	uzs	0.01	нуль узбекскіх сумаў адзін тыйін
-money	be	uzs	0.02	нуль узбекскіх сумаў два тыйіны
-money	be	uzs	1	адзін узбекскі сум нуль тыйінаў
-money	be	uzs	1.01	адзін узбекскі сум адзін тыйін
-money	be	uzs	1.02	адзін узбекскі сум два тыйіны
-money	be	uzs	2	два узбекскія сумы нуль тыйінаў
-money	be	uzs	2.02	два узбекскія сумы два тыйіны
-money	be	uzs	3	тры узбекскія сумы нуль тыйінаў
-money	be	uzs	5	пяць узбекскіх сумаў нуль тыйінаў
-money	be	uzs	11	адзінаццаць узбекскіх сумаў нуль тыйінаў
-money	be	uzs	21	дваццаць адзін узбекскі сум нуль тыйінаў
-money	be	uzs	22	дваццаць два узбекскія сумы нуль тыйінаў
-money	be	uzs	42	сорак два узбекскія сумы нуль тыйінаў
-money	be	uzs	100	сто узбекскіх сумаў нуль тыйінаў
-money	be	uzs	101	сто адзін узбекскі сум нуль тыйінаў
-money	be	uzs	121	сто дваццаць адзін узбекскі сум нуль тыйінаў
-money	be	uzs	999	дзевяцьсот дзевяноста дзевяць узбекскіх сумаў нуль тыйінаў
-money	be	uzs	1000	адна тысяча узбекскіх сумаў нуль тыйінаў
-money	be	uzs	1001	адна тысяча адзін узбекскі сум нуль тыйінаў
-money	be	uzs	2000	дзве тысячы узбекскіх сумаў нуль тыйінаў
-money	be	uzs	2001	дзве тысячы адзін узбекскі сум нуль тыйінаў
-money	be	uzs	5000	пяць тысяч узбекскіх сумаў нуль тыйінаў
-money	be	uzs	21000	дваццаць адна тысяча узбекскіх сумаў нуль тыйінаў
-money	be	uzs	22000	дваццаць дзве тысячы узбекскіх сумаў нуль тыйінаў
-money	be	uzs	41000	сорак адна тысяча узбекскіх сумаў нуль тыйінаў
-money	be	uzs	42000	сорак дзве тысячы узбекскіх сумаў нуль тыйінаў
-money	be	uzs	100000	сто тысяч узбекскіх сумаў нуль тыйінаў
-money	be	uzs	1000000	адзін мільён узбекскіх сумаў нуль тыйінаў
-money	be	uzs	2000000	два мільёна узбекскіх сумаў нуль тыйінаў
-money	be	uzs	1000000000	адзін мільярд узбекскіх сумаў нуль тыйінаў
-money	be	uzs	123.45	сто дваццаць тры узбекскія сумы сорак пяць тыйінаў
-money	be	uzs	-1	мінус адзін узбекскі сум нуль тыйінаў
-money	be	uzs	-2	мінус два узбекскія сумы нуль тыйінаў
-money	be	uzs	-41.5	мінус сорак адзін узбекскі сум пяцьдзесят тыйінаў
-money	be	uzs	-1000	мінус адна тысяча узбекскіх сумаў нуль тыйінаў
-money	be	uzs	1.999	два узбекскія сумы нуль тыйінаў
-money	be	uzs	123.456	сто дваццаць тры узбекскія сумы сорак шэсць тыйінаў
-money	be	uzs	1.005	адзін узбекскі сум адзін тыйін
+money	be	uzs	0	EX:NotSupportedException
+money	be	uzs	0.01	EX:NotSupportedException
+money	be	uzs	0.02	EX:NotSupportedException
+money	be	uzs	1	EX:NotSupportedException
+money	be	uzs	1.01	EX:NotSupportedException
+money	be	uzs	1.02	EX:NotSupportedException
+money	be	uzs	2	EX:NotSupportedException
+money	be	uzs	2.02	EX:NotSupportedException
+money	be	uzs	3	EX:NotSupportedException
+money	be	uzs	5	EX:NotSupportedException
+money	be	uzs	11	EX:NotSupportedException
+money	be	uzs	21	EX:NotSupportedException
+money	be	uzs	22	EX:NotSupportedException
+money	be	uzs	42	EX:NotSupportedException
+money	be	uzs	100	EX:NotSupportedException
+money	be	uzs	101	EX:NotSupportedException
+money	be	uzs	121	EX:NotSupportedException
+money	be	uzs	999	EX:NotSupportedException
+money	be	uzs	1000	EX:NotSupportedException
+money	be	uzs	1001	EX:NotSupportedException
+money	be	uzs	2000	EX:NotSupportedException
+money	be	uzs	2001	EX:NotSupportedException
+money	be	uzs	5000	EX:NotSupportedException
+money	be	uzs	21000	EX:NotSupportedException
+money	be	uzs	22000	EX:NotSupportedException
+money	be	uzs	41000	EX:NotSupportedException
+money	be	uzs	42000	EX:NotSupportedException
+money	be	uzs	100000	EX:NotSupportedException
+money	be	uzs	1000000	EX:NotSupportedException
+money	be	uzs	2000000	EX:NotSupportedException
+money	be	uzs	1000000000	EX:NotSupportedException
+money	be	uzs	123.45	EX:NotSupportedException
+money	be	uzs	-1	EX:NotSupportedException
+money	be	uzs	-2	EX:NotSupportedException
+money	be	uzs	-41.5	EX:NotSupportedException
+money	be	uzs	-1000	EX:NotSupportedException
+money	be	uzs	1.999	EX:NotSupportedException
+money	be	uzs	123.456	EX:NotSupportedException
+money	be	uzs	1.005	EX:NotSupportedException
 money	be	gbp	0	нуль фунтаў стэрлінгаў нуль пені
 money	be	gbp	0.01	нуль фунтаў стэрлінгаў адзін пені
 money	be	gbp	0.02	нуль фунтаў стэрлінгаў два пені
@@ -5105,45 +5105,45 @@ money	bg	bgn	-1000	минус хиляда лева и нула стотинки
 money	bg	bgn	1.999	два лева и нула стотинки
 money	bg	bgn	123.456	сто двадесет и три лева и четиридесет и шест стотинки
 money	bg	bgn	1.005	един лев и една стотинка
-money	bg	etb	0	нула бр и нула стотинки
-money	bg	etb	0.01	нула бр и една стотинка
-money	bg	etb	0.02	нула бр и две стотинки
-money	bg	etb	1	един бр и нула стотинки
-money	bg	etb	1.01	един бр и една стотинка
-money	bg	etb	1.02	един бр и две стотинки
-money	bg	etb	2	два бр и нула стотинки
-money	bg	etb	2.02	два бр и две стотинки
-money	bg	etb	3	три бр и нула стотинки
-money	bg	etb	5	пет бр и нула стотинки
-money	bg	etb	11	единадесет бр и нула стотинки
-money	bg	etb	21	двадесет и един бр и нула стотинки
-money	bg	etb	22	двадесет и два бр и нула стотинки
-money	bg	etb	42	четиридесет и два бр и нула стотинки
-money	bg	etb	100	сто бр и нула стотинки
-money	bg	etb	101	сто и един бр и нула стотинки
-money	bg	etb	121	сто двадесет и един бр и нула стотинки
-money	bg	etb	999	деветстотин деветдесет и девет бр и нула стотинки
-money	bg	etb	1000	хиляда бр и нула стотинки
-money	bg	etb	1001	хиляда и един бр и нула стотинки
-money	bg	etb	2000	две хиляди бр и нула стотинки
-money	bg	etb	2001	две хиляди и един бр и нула стотинки
-money	bg	etb	5000	пет хиляди бр и нула стотинки
-money	bg	etb	21000	двадесет и една хиляди бр и нула стотинки
-money	bg	etb	22000	двадесет и две хиляди бр и нула стотинки
-money	bg	etb	41000	четиридесет и една хиляди бр и нула стотинки
-money	bg	etb	42000	четиридесет и две хиляди бр и нула стотинки
-money	bg	etb	100000	сто хиляди бр и нула стотинки
-money	bg	etb	1000000	един милион бр и нула стотинки
-money	bg	etb	2000000	два милиона бр и нула стотинки
-money	bg	etb	1000000000	един милиард бр и нула стотинки
-money	bg	etb	123.45	сто двадесет и три бр и четиридесет и пет стотинки
-money	bg	etb	-1	минус един бр и нула стотинки
-money	bg	etb	-2	минус два бр и нула стотинки
-money	bg	etb	-41.5	минус четиридесет и един бр и петдесет стотинки
-money	bg	etb	-1000	минус хиляда бр и нула стотинки
-money	bg	etb	1.999	два бр и нула стотинки
-money	bg	etb	123.456	сто двадесет и три бр и четиридесет и шест стотинки
-money	bg	etb	1.005	един бр и една стотинка
+money	bg	etb	0	нула бр и нула сантима
+money	bg	etb	0.01	нула бр и един сантим
+money	bg	etb	0.02	нула бр и два сантима
+money	bg	etb	1	един бр и нула сантима
+money	bg	etb	1.01	един бр и един сантим
+money	bg	etb	1.02	един бр и два сантима
+money	bg	etb	2	два бр и нула сантима
+money	bg	etb	2.02	два бр и два сантима
+money	bg	etb	3	три бр и нула сантима
+money	bg	etb	5	пет бр и нула сантима
+money	bg	etb	11	единадесет бр и нула сантима
+money	bg	etb	21	двадесет и един бр и нула сантима
+money	bg	etb	22	двадесет и два бр и нула сантима
+money	bg	etb	42	четиридесет и два бр и нула сантима
+money	bg	etb	100	сто бр и нула сантима
+money	bg	etb	101	сто и един бр и нула сантима
+money	bg	etb	121	сто двадесет и един бр и нула сантима
+money	bg	etb	999	деветстотин деветдесет и девет бр и нула сантима
+money	bg	etb	1000	хиляда бр и нула сантима
+money	bg	etb	1001	хиляда и един бр и нула сантима
+money	bg	etb	2000	две хиляди бр и нула сантима
+money	bg	etb	2001	две хиляди и един бр и нула сантима
+money	bg	etb	5000	пет хиляди бр и нула сантима
+money	bg	etb	21000	двадесет и една хиляди бр и нула сантима
+money	bg	etb	22000	двадесет и две хиляди бр и нула сантима
+money	bg	etb	41000	четиридесет и една хиляди бр и нула сантима
+money	bg	etb	42000	четиридесет и две хиляди бр и нула сантима
+money	bg	etb	100000	сто хиляди бр и нула сантима
+money	bg	etb	1000000	един милион бр и нула сантима
+money	bg	etb	2000000	два милиона бр и нула сантима
+money	bg	etb	1000000000	един милиард бр и нула сантима
+money	bg	etb	123.45	сто двадесет и три бр и четиридесет и пет сантима
+money	bg	etb	-1	минус един бр и нула сантима
+money	bg	etb	-2	минус два бр и нула сантима
+money	bg	etb	-41.5	минус четиридесет и един бр и петдесет сантима
+money	bg	etb	-1000	минус хиляда бр и нула сантима
+money	bg	etb	1.999	два бр и нула сантима
+money	bg	etb	123.456	сто двадесет и три бр и четиридесет и шест сантима
+money	bg	etb	1.005	един бр и един сантим
 money	bg	pln	0	нула злоти и нула гроз
 money	bg	pln	0.01	нула злоти и един гроз
 money	bg	pln	0.02	нула злоти и два гроз
@@ -5300,45 +5300,45 @@ money	bg	brl	-1000	минус хиляда бразилски реала и ну
 money	bg	brl	1.999	два бразилски реала и нула сентаво
 money	bg	brl	123.456	сто двадесет и три бразилски реала и четиридесет и шест сентаво
 money	bg	brl	1.005	един бразилски реал и един сентаво
-money	bg	uzs	0	нула узбекски сума и нула тиина
-money	bg	uzs	0.01	нула узбекски сума и един тиин
-money	bg	uzs	0.02	нула узбекски сума и два тиина
-money	bg	uzs	1	един узбекски сум и нула тиина
-money	bg	uzs	1.01	един узбекски сум и един тиин
-money	bg	uzs	1.02	един узбекски сум и два тиина
-money	bg	uzs	2	два узбекски сума и нула тиина
-money	bg	uzs	2.02	два узбекски сума и два тиина
-money	bg	uzs	3	три узбекски сума и нула тиина
-money	bg	uzs	5	пет узбекски сума и нула тиина
-money	bg	uzs	11	единадесет узбекски сума и нула тиина
-money	bg	uzs	21	двадесет и един узбекски сума и нула тиина
-money	bg	uzs	22	двадесет и два узбекски сума и нула тиина
-money	bg	uzs	42	четиридесет и два узбекски сума и нула тиина
-money	bg	uzs	100	сто узбекски сума и нула тиина
-money	bg	uzs	101	сто и един узбекски сума и нула тиина
-money	bg	uzs	121	сто двадесет и един узбекски сума и нула тиина
-money	bg	uzs	999	деветстотин деветдесет и девет узбекски сума и нула тиина
-money	bg	uzs	1000	хиляда узбекски сума и нула тиина
-money	bg	uzs	1001	хиляда и един узбекски сума и нула тиина
-money	bg	uzs	2000	две хиляди узбекски сума и нула тиина
-money	bg	uzs	2001	две хиляди и един узбекски сума и нула тиина
-money	bg	uzs	5000	пет хиляди узбекски сума и нула тиина
-money	bg	uzs	21000	двадесет и една хиляди узбекски сума и нула тиина
-money	bg	uzs	22000	двадесет и две хиляди узбекски сума и нула тиина
-money	bg	uzs	41000	четиридесет и една хиляди узбекски сума и нула тиина
-money	bg	uzs	42000	четиридесет и две хиляди узбекски сума и нула тиина
-money	bg	uzs	100000	сто хиляди узбекски сума и нула тиина
-money	bg	uzs	1000000	един милион узбекски сума и нула тиина
-money	bg	uzs	2000000	два милиона узбекски сума и нула тиина
-money	bg	uzs	1000000000	един милиард узбекски сума и нула тиина
-money	bg	uzs	123.45	сто двадесет и три узбекски сума и четиридесет и пет тиина
-money	bg	uzs	-1	минус един узбекски сум и нула тиина
-money	bg	uzs	-2	минус два узбекски сума и нула тиина
-money	bg	uzs	-41.5	минус четиридесет и един узбекски сума и петдесет тиина
-money	bg	uzs	-1000	минус хиляда узбекски сума и нула тиина
-money	bg	uzs	1.999	два узбекски сума и нула тиина
-money	bg	uzs	123.456	сто двадесет и три узбекски сума и четиридесет и шест тиина
-money	bg	uzs	1.005	един узбекски сум и един тиин
+money	bg	uzs	0	EX:NotSupportedException
+money	bg	uzs	0.01	EX:NotSupportedException
+money	bg	uzs	0.02	EX:NotSupportedException
+money	bg	uzs	1	EX:NotSupportedException
+money	bg	uzs	1.01	EX:NotSupportedException
+money	bg	uzs	1.02	EX:NotSupportedException
+money	bg	uzs	2	EX:NotSupportedException
+money	bg	uzs	2.02	EX:NotSupportedException
+money	bg	uzs	3	EX:NotSupportedException
+money	bg	uzs	5	EX:NotSupportedException
+money	bg	uzs	11	EX:NotSupportedException
+money	bg	uzs	21	EX:NotSupportedException
+money	bg	uzs	22	EX:NotSupportedException
+money	bg	uzs	42	EX:NotSupportedException
+money	bg	uzs	100	EX:NotSupportedException
+money	bg	uzs	101	EX:NotSupportedException
+money	bg	uzs	121	EX:NotSupportedException
+money	bg	uzs	999	EX:NotSupportedException
+money	bg	uzs	1000	EX:NotSupportedException
+money	bg	uzs	1001	EX:NotSupportedException
+money	bg	uzs	2000	EX:NotSupportedException
+money	bg	uzs	2001	EX:NotSupportedException
+money	bg	uzs	5000	EX:NotSupportedException
+money	bg	uzs	21000	EX:NotSupportedException
+money	bg	uzs	22000	EX:NotSupportedException
+money	bg	uzs	41000	EX:NotSupportedException
+money	bg	uzs	42000	EX:NotSupportedException
+money	bg	uzs	100000	EX:NotSupportedException
+money	bg	uzs	1000000	EX:NotSupportedException
+money	bg	uzs	2000000	EX:NotSupportedException
+money	bg	uzs	1000000000	EX:NotSupportedException
+money	bg	uzs	123.45	EX:NotSupportedException
+money	bg	uzs	-1	EX:NotSupportedException
+money	bg	uzs	-2	EX:NotSupportedException
+money	bg	uzs	-41.5	EX:NotSupportedException
+money	bg	uzs	-1000	EX:NotSupportedException
+money	bg	uzs	1.999	EX:NotSupportedException
+money	bg	uzs	123.456	EX:NotSupportedException
+money	bg	uzs	1.005	EX:NotSupportedException
 money	bg	gbp	0	нула британски лири и нула пенита
 money	bg	gbp	0.01	нула британски лири и едно пени
 money	bg	gbp	0.02	нула британски лири и две пенита
@@ -5838,45 +5838,45 @@ money	pl	brl	-1000	minus jeden tysiąc reali brazylijskich zero centavo
 money	pl	brl	1.999	dwa reale brazylijskie zero centavo
 money	pl	brl	123.456	sto dwadzieścia trzy reale brazylijskie czterdzieści sześć centavo
 money	pl	brl	1.005	jeden real brazylijski jeden centavo
-money	pl	uzs	0	zero somów uzbeckich zero tijinów
-money	pl	uzs	0.01	zero somów uzbeckich jeden tijin
-money	pl	uzs	0.02	zero somów uzbeckich dwa tijiny
-money	pl	uzs	1	jeden som uzbecki zero tijinów
-money	pl	uzs	1.01	jeden som uzbecki jeden tijin
-money	pl	uzs	1.02	jeden som uzbecki dwa tijiny
-money	pl	uzs	2	dwa somy uzbeckie zero tijinów
-money	pl	uzs	2.02	dwa somy uzbeckie dwa tijiny
-money	pl	uzs	3	trzy somy uzbeckie zero tijinów
-money	pl	uzs	5	pięć somów uzbeckich zero tijinów
-money	pl	uzs	11	jedenaście somów uzbeckich zero tijinów
-money	pl	uzs	21	dwadzieścia jeden som uzbecki zero tijinów
-money	pl	uzs	22	dwadzieścia dwa somy uzbeckie zero tijinów
-money	pl	uzs	42	czterdzieści dwa somy uzbeckie zero tijinów
-money	pl	uzs	100	sto somów uzbeckich zero tijinów
-money	pl	uzs	101	sto jeden som uzbecki zero tijinów
-money	pl	uzs	121	sto dwadzieścia jeden som uzbecki zero tijinów
-money	pl	uzs	999	dziewięćset dziewięćdziesiąt dziewięć somów uzbeckich zero tijinów
-money	pl	uzs	1000	jeden tysiąc somów uzbeckich zero tijinów
-money	pl	uzs	1001	jeden tysiąc jeden som uzbecki zero tijinów
-money	pl	uzs	2000	dwa tysiące somów uzbeckich zero tijinów
-money	pl	uzs	2001	dwa tysiące jeden som uzbecki zero tijinów
-money	pl	uzs	5000	pięć tysięcy somów uzbeckich zero tijinów
-money	pl	uzs	21000	dwadzieścia jeden tysięcy somów uzbeckich zero tijinów
-money	pl	uzs	22000	dwadzieścia dwa tysiące somów uzbeckich zero tijinów
-money	pl	uzs	41000	czterdzieści jeden tysięcy somów uzbeckich zero tijinów
-money	pl	uzs	42000	czterdzieści dwa tysiące somów uzbeckich zero tijinów
-money	pl	uzs	100000	sto tysięcy somów uzbeckich zero tijinów
-money	pl	uzs	1000000	jeden milion somów uzbeckich zero tijinów
-money	pl	uzs	2000000	dwa miliony somów uzbeckich zero tijinów
-money	pl	uzs	1000000000	jeden miliard somów uzbeckich zero tijinów
-money	pl	uzs	123.45	sto dwadzieścia trzy somy uzbeckie czterdzieści pięć tijinów
-money	pl	uzs	-1	minus jeden som uzbecki zero tijinów
-money	pl	uzs	-2	minus dwa somy uzbeckie zero tijinów
-money	pl	uzs	-41.5	minus czterdzieści jeden som uzbecki pięćdziesiąt tijinów
-money	pl	uzs	-1000	minus jeden tysiąc somów uzbeckich zero tijinów
-money	pl	uzs	1.999	dwa somy uzbeckie zero tijinów
-money	pl	uzs	123.456	sto dwadzieścia trzy somy uzbeckie czterdzieści sześć tijinów
-money	pl	uzs	1.005	jeden som uzbecki jeden tijin
+money	pl	uzs	0	EX:NotSupportedException
+money	pl	uzs	0.01	EX:NotSupportedException
+money	pl	uzs	0.02	EX:NotSupportedException
+money	pl	uzs	1	EX:NotSupportedException
+money	pl	uzs	1.01	EX:NotSupportedException
+money	pl	uzs	1.02	EX:NotSupportedException
+money	pl	uzs	2	EX:NotSupportedException
+money	pl	uzs	2.02	EX:NotSupportedException
+money	pl	uzs	3	EX:NotSupportedException
+money	pl	uzs	5	EX:NotSupportedException
+money	pl	uzs	11	EX:NotSupportedException
+money	pl	uzs	21	EX:NotSupportedException
+money	pl	uzs	22	EX:NotSupportedException
+money	pl	uzs	42	EX:NotSupportedException
+money	pl	uzs	100	EX:NotSupportedException
+money	pl	uzs	101	EX:NotSupportedException
+money	pl	uzs	121	EX:NotSupportedException
+money	pl	uzs	999	EX:NotSupportedException
+money	pl	uzs	1000	EX:NotSupportedException
+money	pl	uzs	1001	EX:NotSupportedException
+money	pl	uzs	2000	EX:NotSupportedException
+money	pl	uzs	2001	EX:NotSupportedException
+money	pl	uzs	5000	EX:NotSupportedException
+money	pl	uzs	21000	EX:NotSupportedException
+money	pl	uzs	22000	EX:NotSupportedException
+money	pl	uzs	41000	EX:NotSupportedException
+money	pl	uzs	42000	EX:NotSupportedException
+money	pl	uzs	100000	EX:NotSupportedException
+money	pl	uzs	1000000	EX:NotSupportedException
+money	pl	uzs	2000000	EX:NotSupportedException
+money	pl	uzs	1000000000	EX:NotSupportedException
+money	pl	uzs	123.45	EX:NotSupportedException
+money	pl	uzs	-1	EX:NotSupportedException
+money	pl	uzs	-2	EX:NotSupportedException
+money	pl	uzs	-41.5	EX:NotSupportedException
+money	pl	uzs	-1000	EX:NotSupportedException
+money	pl	uzs	1.999	EX:NotSupportedException
+money	pl	uzs	123.456	EX:NotSupportedException
+money	pl	uzs	1.005	EX:NotSupportedException
 money	pl	gbp	0	zero funtów szterlingów zero pensów
 money	pl	gbp	0.01	zero funtów szterlingów jeden pens
 money	pl	gbp	0.02	zero funtów szterlingów dwa pensy
@@ -7140,45 +7140,45 @@ money	lv	rub	-1000	mīnus viens tūkstotis Krievijas rubļu un nulle kapeiku
 money	lv	rub	1.999	divi Krievijas rubļi un nulle kapeiku
 money	lv	rub	123.456	simts divdesmit trīs Krievijas rubļi un četrdesmit seši kapeikas
 money	lv	rub	1.005	viens Krievijas rublis un viena kapeika
-money	lv	try	0	nulle Turcijas liru un nulle kurusu
-money	lv	try	0.01	nulle Turcijas liru un viens kuruss
-money	lv	try	0.02	nulle Turcijas liru un divi kurusi
-money	lv	try	1	viena Turcijas lira un nulle kurusu
-money	lv	try	1.01	viena Turcijas lira un viens kuruss
-money	lv	try	1.02	viena Turcijas lira un divi kurusi
-money	lv	try	2	divas Turcijas liras un nulle kurusu
-money	lv	try	2.02	divas Turcijas liras un divi kurusi
-money	lv	try	3	trīs Turcijas liras un nulle kurusu
-money	lv	try	5	pieci Turcijas liras un nulle kurusu
-money	lv	try	11	vienpadsmit Turcijas liras un nulle kurusu
-money	lv	try	21	divdesmit viena Turcijas lira un nulle kurusu
-money	lv	try	22	divdesmit divas Turcijas liras un nulle kurusu
-money	lv	try	42	četrdesmit divas Turcijas liras un nulle kurusu
-money	lv	try	100	simts Turcijas liru un nulle kurusu
-money	lv	try	101	simts viena Turcijas lira un nulle kurusu
-money	lv	try	121	simts divdesmit viena Turcijas lira un nulle kurusu
-money	lv	try	999	deviņi simti deviņdesmit deviņi Turcijas liras un nulle kurusu
-money	lv	try	1000	viens tūkstotis Turcijas liru un nulle kurusu
-money	lv	try	1001	viens tūkstotis viena Turcijas lira un nulle kurusu
-money	lv	try	2000	divi tūkstoši Turcijas liru un nulle kurusu
-money	lv	try	2001	divi tūkstoši viena Turcijas lira un nulle kurusu
-money	lv	try	5000	pieci tūkstoši Turcijas liru un nulle kurusu
-money	lv	try	21000	divdesmit viens tūkstotis Turcijas liru un nulle kurusu
-money	lv	try	22000	divdesmit divi tūkstoši Turcijas liru un nulle kurusu
-money	lv	try	41000	četrdesmit viens tūkstotis Turcijas liru un nulle kurusu
-money	lv	try	42000	četrdesmit divi tūkstoši Turcijas liru un nulle kurusu
-money	lv	try	100000	simts tūkstoši Turcijas liru un nulle kurusu
-money	lv	try	1000000	viens miljons Turcijas liru un nulle kurusu
-money	lv	try	2000000	divi miljoni Turcijas liru un nulle kurusu
-money	lv	try	1000000000	viens miljards Turcijas liru un nulle kurusu
-money	lv	try	123.45	simts divdesmit trīs Turcijas liras un četrdesmit pieci kurusi
-money	lv	try	-1	mīnus viena Turcijas lira un nulle kurusu
-money	lv	try	-2	mīnus divas Turcijas liras un nulle kurusu
-money	lv	try	-41.5	mīnus četrdesmit viena Turcijas lira un piecdesmit kurusi
-money	lv	try	-1000	mīnus viens tūkstotis Turcijas liru un nulle kurusu
-money	lv	try	1.999	divas Turcijas liras un nulle kurusu
-money	lv	try	123.456	simts divdesmit trīs Turcijas liras un četrdesmit seši kurusi
-money	lv	try	1.005	viena Turcijas lira un viens kuruss
+money	lv	try	0	nulle Turcijas liru un nulle kurušu
+money	lv	try	0.01	nulle Turcijas liru un viens kurušs
+money	lv	try	0.02	nulle Turcijas liru un divi kuruši
+money	lv	try	1	viena Turcijas lira un nulle kurušu
+money	lv	try	1.01	viena Turcijas lira un viens kurušs
+money	lv	try	1.02	viena Turcijas lira un divi kuruši
+money	lv	try	2	divas Turcijas liras un nulle kurušu
+money	lv	try	2.02	divas Turcijas liras un divi kuruši
+money	lv	try	3	trīs Turcijas liras un nulle kurušu
+money	lv	try	5	pieci Turcijas liras un nulle kurušu
+money	lv	try	11	vienpadsmit Turcijas liras un nulle kurušu
+money	lv	try	21	divdesmit viena Turcijas lira un nulle kurušu
+money	lv	try	22	divdesmit divas Turcijas liras un nulle kurušu
+money	lv	try	42	četrdesmit divas Turcijas liras un nulle kurušu
+money	lv	try	100	simts Turcijas liru un nulle kurušu
+money	lv	try	101	simts viena Turcijas lira un nulle kurušu
+money	lv	try	121	simts divdesmit viena Turcijas lira un nulle kurušu
+money	lv	try	999	deviņi simti deviņdesmit deviņi Turcijas liras un nulle kurušu
+money	lv	try	1000	viens tūkstotis Turcijas liru un nulle kurušu
+money	lv	try	1001	viens tūkstotis viena Turcijas lira un nulle kurušu
+money	lv	try	2000	divi tūkstoši Turcijas liru un nulle kurušu
+money	lv	try	2001	divi tūkstoši viena Turcijas lira un nulle kurušu
+money	lv	try	5000	pieci tūkstoši Turcijas liru un nulle kurušu
+money	lv	try	21000	divdesmit viens tūkstotis Turcijas liru un nulle kurušu
+money	lv	try	22000	divdesmit divi tūkstoši Turcijas liru un nulle kurušu
+money	lv	try	41000	četrdesmit viens tūkstotis Turcijas liru un nulle kurušu
+money	lv	try	42000	četrdesmit divi tūkstoši Turcijas liru un nulle kurušu
+money	lv	try	100000	simts tūkstoši Turcijas liru un nulle kurušu
+money	lv	try	1000000	viens miljons Turcijas liru un nulle kurušu
+money	lv	try	2000000	divi miljoni Turcijas liru un nulle kurušu
+money	lv	try	1000000000	viens miljards Turcijas liru un nulle kurušu
+money	lv	try	123.45	simts divdesmit trīs Turcijas liras un četrdesmit pieci kuruši
+money	lv	try	-1	mīnus viena Turcijas lira un nulle kurušu
+money	lv	try	-2	mīnus divas Turcijas liras un nulle kurušu
+money	lv	try	-41.5	mīnus četrdesmit viena Turcijas lira un piecdesmit kuruši
+money	lv	try	-1000	mīnus viens tūkstotis Turcijas liru un nulle kurušu
+money	lv	try	1.999	divas Turcijas liras un nulle kurušu
+money	lv	try	123.456	simts divdesmit trīs Turcijas liras un četrdesmit seši kuruši
+money	lv	try	1.005	viena Turcijas lira un viens kurušs
 money	lv	uah	0	nulle Ukrainas grivnu un nulle kapeiku
 money	lv	uah	0.01	nulle Ukrainas grivnu un viena kapeika
 money	lv	uah	0.02	nulle Ukrainas grivnu un divas kapeikas
@@ -7374,123 +7374,123 @@ money	lv	byn	-1000	mīnus viens tūkstotis Baltkrievijas rubļu un nulle kapeiku
 money	lv	byn	1.999	divi Baltkrievijas rubļi un nulle kapeiku
 money	lv	byn	123.456	simts divdesmit trīs Baltkrievijas rubļi un četrdesmit seši kapeikas
 money	lv	byn	1.005	viens Baltkrievijas rublis un viena kapeika
-money	lv	ars	0	nulle Argentīnas peso un nulle centavo
-money	lv	ars	0.01	nulle Argentīnas peso un viens centavo
-money	lv	ars	0.02	nulle Argentīnas peso un divi centavo
-money	lv	ars	1	viens Argentīnas peso un nulle centavo
-money	lv	ars	1.01	viens Argentīnas peso un viens centavo
-money	lv	ars	1.02	viens Argentīnas peso un divi centavo
-money	lv	ars	2	divi Argentīnas peso un nulle centavo
-money	lv	ars	2.02	divi Argentīnas peso un divi centavo
-money	lv	ars	3	trīs Argentīnas peso un nulle centavo
-money	lv	ars	5	pieci Argentīnas peso un nulle centavo
-money	lv	ars	11	vienpadsmit Argentīnas peso un nulle centavo
-money	lv	ars	21	divdesmit viens Argentīnas peso un nulle centavo
-money	lv	ars	22	divdesmit divi Argentīnas peso un nulle centavo
-money	lv	ars	42	četrdesmit divi Argentīnas peso un nulle centavo
-money	lv	ars	100	simts Argentīnas peso un nulle centavo
-money	lv	ars	101	simts viens Argentīnas peso un nulle centavo
-money	lv	ars	121	simts divdesmit viens Argentīnas peso un nulle centavo
-money	lv	ars	999	deviņi simti deviņdesmit deviņi Argentīnas peso un nulle centavo
-money	lv	ars	1000	viens tūkstotis Argentīnas peso un nulle centavo
-money	lv	ars	1001	viens tūkstotis viens Argentīnas peso un nulle centavo
-money	lv	ars	2000	divi tūkstoši Argentīnas peso un nulle centavo
-money	lv	ars	2001	divi tūkstoši viens Argentīnas peso un nulle centavo
-money	lv	ars	5000	pieci tūkstoši Argentīnas peso un nulle centavo
-money	lv	ars	21000	divdesmit viens tūkstotis Argentīnas peso un nulle centavo
-money	lv	ars	22000	divdesmit divi tūkstoši Argentīnas peso un nulle centavo
-money	lv	ars	41000	četrdesmit viens tūkstotis Argentīnas peso un nulle centavo
-money	lv	ars	42000	četrdesmit divi tūkstoši Argentīnas peso un nulle centavo
-money	lv	ars	100000	simts tūkstoši Argentīnas peso un nulle centavo
-money	lv	ars	1000000	viens miljons Argentīnas peso un nulle centavo
-money	lv	ars	2000000	divi miljoni Argentīnas peso un nulle centavo
-money	lv	ars	1000000000	viens miljards Argentīnas peso un nulle centavo
-money	lv	ars	123.45	simts divdesmit trīs Argentīnas peso un četrdesmit pieci centavo
-money	lv	ars	-1	mīnus viens Argentīnas peso un nulle centavo
-money	lv	ars	-2	mīnus divi Argentīnas peso un nulle centavo
-money	lv	ars	-41.5	mīnus četrdesmit viens Argentīnas peso un piecdesmit centavo
-money	lv	ars	-1000	mīnus viens tūkstotis Argentīnas peso un nulle centavo
-money	lv	ars	1.999	divi Argentīnas peso un nulle centavo
-money	lv	ars	123.456	simts divdesmit trīs Argentīnas peso un četrdesmit seši centavo
-money	lv	ars	1.005	viens Argentīnas peso un viens centavo
-money	lv	brl	0	nulle Brazīlijas reālu un nulle centavo
-money	lv	brl	0.01	nulle Brazīlijas reālu un viens centavo
-money	lv	brl	0.02	nulle Brazīlijas reālu un divi centavo
-money	lv	brl	1	viens Brazīlijas reāls un nulle centavo
-money	lv	brl	1.01	viens Brazīlijas reāls un viens centavo
-money	lv	brl	1.02	viens Brazīlijas reāls un divi centavo
-money	lv	brl	2	divi Brazīlijas reāli un nulle centavo
-money	lv	brl	2.02	divi Brazīlijas reāli un divi centavo
-money	lv	brl	3	trīs Brazīlijas reāli un nulle centavo
-money	lv	brl	5	pieci Brazīlijas reāli un nulle centavo
-money	lv	brl	11	vienpadsmit Brazīlijas reāli un nulle centavo
-money	lv	brl	21	divdesmit viens Brazīlijas reāls un nulle centavo
-money	lv	brl	22	divdesmit divi Brazīlijas reāli un nulle centavo
-money	lv	brl	42	četrdesmit divi Brazīlijas reāli un nulle centavo
-money	lv	brl	100	simts Brazīlijas reālu un nulle centavo
-money	lv	brl	101	simts viens Brazīlijas reāls un nulle centavo
-money	lv	brl	121	simts divdesmit viens Brazīlijas reāls un nulle centavo
-money	lv	brl	999	deviņi simti deviņdesmit deviņi Brazīlijas reāli un nulle centavo
-money	lv	brl	1000	viens tūkstotis Brazīlijas reālu un nulle centavo
-money	lv	brl	1001	viens tūkstotis viens Brazīlijas reāls un nulle centavo
-money	lv	brl	2000	divi tūkstoši Brazīlijas reālu un nulle centavo
-money	lv	brl	2001	divi tūkstoši viens Brazīlijas reāls un nulle centavo
-money	lv	brl	5000	pieci tūkstoši Brazīlijas reālu un nulle centavo
-money	lv	brl	21000	divdesmit viens tūkstotis Brazīlijas reālu un nulle centavo
-money	lv	brl	22000	divdesmit divi tūkstoši Brazīlijas reālu un nulle centavo
-money	lv	brl	41000	četrdesmit viens tūkstotis Brazīlijas reālu un nulle centavo
-money	lv	brl	42000	četrdesmit divi tūkstoši Brazīlijas reālu un nulle centavo
-money	lv	brl	100000	simts tūkstoši Brazīlijas reālu un nulle centavo
-money	lv	brl	1000000	viens miljons Brazīlijas reālu un nulle centavo
-money	lv	brl	2000000	divi miljoni Brazīlijas reālu un nulle centavo
-money	lv	brl	1000000000	viens miljards Brazīlijas reālu un nulle centavo
-money	lv	brl	123.45	simts divdesmit trīs Brazīlijas reāli un četrdesmit pieci centavo
-money	lv	brl	-1	mīnus viens Brazīlijas reāls un nulle centavo
-money	lv	brl	-2	mīnus divi Brazīlijas reāli un nulle centavo
-money	lv	brl	-41.5	mīnus četrdesmit viens Brazīlijas reāls un piecdesmit centavo
-money	lv	brl	-1000	mīnus viens tūkstotis Brazīlijas reālu un nulle centavo
-money	lv	brl	1.999	divi Brazīlijas reāli un nulle centavo
-money	lv	brl	123.456	simts divdesmit trīs Brazīlijas reāli un četrdesmit seši centavo
-money	lv	brl	1.005	viens Brazīlijas reāls un viens centavo
-money	lv	uzs	0	nulle Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	0.01	nulle Uzbekistānas sumu un viens tijins
-money	lv	uzs	0.02	nulle Uzbekistānas sumu un divi tijini
-money	lv	uzs	1	viens Uzbekistānas sums un nulle tijinu
-money	lv	uzs	1.01	viens Uzbekistānas sums un viens tijins
-money	lv	uzs	1.02	viens Uzbekistānas sums un divi tijini
-money	lv	uzs	2	divi Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	2.02	divi Uzbekistānas sumi un divi tijini
-money	lv	uzs	3	trīs Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	5	pieci Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	11	vienpadsmit Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	21	divdesmit viens Uzbekistānas sums un nulle tijinu
-money	lv	uzs	22	divdesmit divi Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	42	četrdesmit divi Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	100	simts Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	101	simts viens Uzbekistānas sums un nulle tijinu
-money	lv	uzs	121	simts divdesmit viens Uzbekistānas sums un nulle tijinu
-money	lv	uzs	999	deviņi simti deviņdesmit deviņi Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	1000	viens tūkstotis Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	1001	viens tūkstotis viens Uzbekistānas sums un nulle tijinu
-money	lv	uzs	2000	divi tūkstoši Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	2001	divi tūkstoši viens Uzbekistānas sums un nulle tijinu
-money	lv	uzs	5000	pieci tūkstoši Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	21000	divdesmit viens tūkstotis Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	22000	divdesmit divi tūkstoši Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	41000	četrdesmit viens tūkstotis Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	42000	četrdesmit divi tūkstoši Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	100000	simts tūkstoši Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	1000000	viens miljons Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	2000000	divi miljoni Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	1000000000	viens miljards Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	123.45	simts divdesmit trīs Uzbekistānas sumi un četrdesmit pieci tijini
-money	lv	uzs	-1	mīnus viens Uzbekistānas sums un nulle tijinu
-money	lv	uzs	-2	mīnus divi Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	-41.5	mīnus četrdesmit viens Uzbekistānas sums un piecdesmit tijini
-money	lv	uzs	-1000	mīnus viens tūkstotis Uzbekistānas sumu un nulle tijinu
-money	lv	uzs	1.999	divi Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	123.456	simts divdesmit trīs Uzbekistānas sumi un četrdesmit seši tijini
-money	lv	uzs	1.005	viens Uzbekistānas sums un viens tijins
+money	lv	ars	0	nulle Argentīnas peso un nulle sentavo
+money	lv	ars	0.01	nulle Argentīnas peso un viens sentavo
+money	lv	ars	0.02	nulle Argentīnas peso un divi sentavo
+money	lv	ars	1	viens Argentīnas peso un nulle sentavo
+money	lv	ars	1.01	viens Argentīnas peso un viens sentavo
+money	lv	ars	1.02	viens Argentīnas peso un divi sentavo
+money	lv	ars	2	divi Argentīnas peso un nulle sentavo
+money	lv	ars	2.02	divi Argentīnas peso un divi sentavo
+money	lv	ars	3	trīs Argentīnas peso un nulle sentavo
+money	lv	ars	5	pieci Argentīnas peso un nulle sentavo
+money	lv	ars	11	vienpadsmit Argentīnas peso un nulle sentavo
+money	lv	ars	21	divdesmit viens Argentīnas peso un nulle sentavo
+money	lv	ars	22	divdesmit divi Argentīnas peso un nulle sentavo
+money	lv	ars	42	četrdesmit divi Argentīnas peso un nulle sentavo
+money	lv	ars	100	simts Argentīnas peso un nulle sentavo
+money	lv	ars	101	simts viens Argentīnas peso un nulle sentavo
+money	lv	ars	121	simts divdesmit viens Argentīnas peso un nulle sentavo
+money	lv	ars	999	deviņi simti deviņdesmit deviņi Argentīnas peso un nulle sentavo
+money	lv	ars	1000	viens tūkstotis Argentīnas peso un nulle sentavo
+money	lv	ars	1001	viens tūkstotis viens Argentīnas peso un nulle sentavo
+money	lv	ars	2000	divi tūkstoši Argentīnas peso un nulle sentavo
+money	lv	ars	2001	divi tūkstoši viens Argentīnas peso un nulle sentavo
+money	lv	ars	5000	pieci tūkstoši Argentīnas peso un nulle sentavo
+money	lv	ars	21000	divdesmit viens tūkstotis Argentīnas peso un nulle sentavo
+money	lv	ars	22000	divdesmit divi tūkstoši Argentīnas peso un nulle sentavo
+money	lv	ars	41000	četrdesmit viens tūkstotis Argentīnas peso un nulle sentavo
+money	lv	ars	42000	četrdesmit divi tūkstoši Argentīnas peso un nulle sentavo
+money	lv	ars	100000	simts tūkstoši Argentīnas peso un nulle sentavo
+money	lv	ars	1000000	viens miljons Argentīnas peso un nulle sentavo
+money	lv	ars	2000000	divi miljoni Argentīnas peso un nulle sentavo
+money	lv	ars	1000000000	viens miljards Argentīnas peso un nulle sentavo
+money	lv	ars	123.45	simts divdesmit trīs Argentīnas peso un četrdesmit pieci sentavo
+money	lv	ars	-1	mīnus viens Argentīnas peso un nulle sentavo
+money	lv	ars	-2	mīnus divi Argentīnas peso un nulle sentavo
+money	lv	ars	-41.5	mīnus četrdesmit viens Argentīnas peso un piecdesmit sentavo
+money	lv	ars	-1000	mīnus viens tūkstotis Argentīnas peso un nulle sentavo
+money	lv	ars	1.999	divi Argentīnas peso un nulle sentavo
+money	lv	ars	123.456	simts divdesmit trīs Argentīnas peso un četrdesmit seši sentavo
+money	lv	ars	1.005	viens Argentīnas peso un viens sentavo
+money	lv	brl	0	nulle Brazīlijas reālu un nulle sentavo
+money	lv	brl	0.01	nulle Brazīlijas reālu un viens sentavo
+money	lv	brl	0.02	nulle Brazīlijas reālu un divi sentavo
+money	lv	brl	1	viens Brazīlijas reāls un nulle sentavo
+money	lv	brl	1.01	viens Brazīlijas reāls un viens sentavo
+money	lv	brl	1.02	viens Brazīlijas reāls un divi sentavo
+money	lv	brl	2	divi Brazīlijas reāli un nulle sentavo
+money	lv	brl	2.02	divi Brazīlijas reāli un divi sentavo
+money	lv	brl	3	trīs Brazīlijas reāli un nulle sentavo
+money	lv	brl	5	pieci Brazīlijas reāli un nulle sentavo
+money	lv	brl	11	vienpadsmit Brazīlijas reāli un nulle sentavo
+money	lv	brl	21	divdesmit viens Brazīlijas reāls un nulle sentavo
+money	lv	brl	22	divdesmit divi Brazīlijas reāli un nulle sentavo
+money	lv	brl	42	četrdesmit divi Brazīlijas reāli un nulle sentavo
+money	lv	brl	100	simts Brazīlijas reālu un nulle sentavo
+money	lv	brl	101	simts viens Brazīlijas reāls un nulle sentavo
+money	lv	brl	121	simts divdesmit viens Brazīlijas reāls un nulle sentavo
+money	lv	brl	999	deviņi simti deviņdesmit deviņi Brazīlijas reāli un nulle sentavo
+money	lv	brl	1000	viens tūkstotis Brazīlijas reālu un nulle sentavo
+money	lv	brl	1001	viens tūkstotis viens Brazīlijas reāls un nulle sentavo
+money	lv	brl	2000	divi tūkstoši Brazīlijas reālu un nulle sentavo
+money	lv	brl	2001	divi tūkstoši viens Brazīlijas reāls un nulle sentavo
+money	lv	brl	5000	pieci tūkstoši Brazīlijas reālu un nulle sentavo
+money	lv	brl	21000	divdesmit viens tūkstotis Brazīlijas reālu un nulle sentavo
+money	lv	brl	22000	divdesmit divi tūkstoši Brazīlijas reālu un nulle sentavo
+money	lv	brl	41000	četrdesmit viens tūkstotis Brazīlijas reālu un nulle sentavo
+money	lv	brl	42000	četrdesmit divi tūkstoši Brazīlijas reālu un nulle sentavo
+money	lv	brl	100000	simts tūkstoši Brazīlijas reālu un nulle sentavo
+money	lv	brl	1000000	viens miljons Brazīlijas reālu un nulle sentavo
+money	lv	brl	2000000	divi miljoni Brazīlijas reālu un nulle sentavo
+money	lv	brl	1000000000	viens miljards Brazīlijas reālu un nulle sentavo
+money	lv	brl	123.45	simts divdesmit trīs Brazīlijas reāli un četrdesmit pieci sentavo
+money	lv	brl	-1	mīnus viens Brazīlijas reāls un nulle sentavo
+money	lv	brl	-2	mīnus divi Brazīlijas reāli un nulle sentavo
+money	lv	brl	-41.5	mīnus četrdesmit viens Brazīlijas reāls un piecdesmit sentavo
+money	lv	brl	-1000	mīnus viens tūkstotis Brazīlijas reālu un nulle sentavo
+money	lv	brl	1.999	divi Brazīlijas reāli un nulle sentavo
+money	lv	brl	123.456	simts divdesmit trīs Brazīlijas reāli un četrdesmit seši sentavo
+money	lv	brl	1.005	viens Brazīlijas reāls un viens sentavo
+money	lv	uzs	0	EX:NotSupportedException
+money	lv	uzs	0.01	EX:NotSupportedException
+money	lv	uzs	0.02	EX:NotSupportedException
+money	lv	uzs	1	EX:NotSupportedException
+money	lv	uzs	1.01	EX:NotSupportedException
+money	lv	uzs	1.02	EX:NotSupportedException
+money	lv	uzs	2	EX:NotSupportedException
+money	lv	uzs	2.02	EX:NotSupportedException
+money	lv	uzs	3	EX:NotSupportedException
+money	lv	uzs	5	EX:NotSupportedException
+money	lv	uzs	11	EX:NotSupportedException
+money	lv	uzs	21	EX:NotSupportedException
+money	lv	uzs	22	EX:NotSupportedException
+money	lv	uzs	42	EX:NotSupportedException
+money	lv	uzs	100	EX:NotSupportedException
+money	lv	uzs	101	EX:NotSupportedException
+money	lv	uzs	121	EX:NotSupportedException
+money	lv	uzs	999	EX:NotSupportedException
+money	lv	uzs	1000	EX:NotSupportedException
+money	lv	uzs	1001	EX:NotSupportedException
+money	lv	uzs	2000	EX:NotSupportedException
+money	lv	uzs	2001	EX:NotSupportedException
+money	lv	uzs	5000	EX:NotSupportedException
+money	lv	uzs	21000	EX:NotSupportedException
+money	lv	uzs	22000	EX:NotSupportedException
+money	lv	uzs	41000	EX:NotSupportedException
+money	lv	uzs	42000	EX:NotSupportedException
+money	lv	uzs	100000	EX:NotSupportedException
+money	lv	uzs	1000000	EX:NotSupportedException
+money	lv	uzs	2000000	EX:NotSupportedException
+money	lv	uzs	1000000000	EX:NotSupportedException
+money	lv	uzs	123.45	EX:NotSupportedException
+money	lv	uzs	-1	EX:NotSupportedException
+money	lv	uzs	-2	EX:NotSupportedException
+money	lv	uzs	-41.5	EX:NotSupportedException
+money	lv	uzs	-1000	EX:NotSupportedException
+money	lv	uzs	1.999	EX:NotSupportedException
+money	lv	uzs	123.456	EX:NotSupportedException
+money	lv	uzs	1.005	EX:NotSupportedException
 money	lv	gbp	0	nulle sterliņu mārciņu un nulle pensu
 money	lv	gbp	0.01	nulle sterliņu mārciņu un viens penss
 money	lv	gbp	0.02	nulle sterliņu mārciņu un divi pensi

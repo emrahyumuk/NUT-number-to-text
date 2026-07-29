@@ -250,14 +250,9 @@ namespace Nut.TextConverters
                     Gender = GenderGroup.Masculine,
                     SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сентаво", "сентаво", "сентаво" } }
                   };
-                case Currency.UZS:
-                  return new CurrencyModel
-                  {
-                    Currency = currency,
-                    Names = new[] { "узбекски сум", "узбекски сума", "узбекски сума" },
-                    Gender = GenderGroup.Masculine,
-                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "тиин", "тиина", "тиина" } }
-                  };
+                // UZS is gone. The sum's sub-unit was written here as "тиин",
+                // which is in no dictionary — the same invented wording that had Uzbek
+                // naming the Turkish lira's sub-unit "tiyin".
                 case Currency.USD:
                     return new CurrencyModel
                     {
@@ -303,7 +298,9 @@ namespace Nut.TextConverters
                         Currency = currency,
                         Names = new[] { "бр", "бр", "бр" },
                         Gender = GenderGroup.Masculine,
-                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "стотинка", "стотинки", "стотинки" } }
+                        // The birr divides into сантими, not стотинки. Masculine inanimate,
+                        // so it takes the counting form -а after a number.
+                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сантим", "сантима", "сантима" } }
                     };
                 case Currency.PLN:
                     return new CurrencyModel

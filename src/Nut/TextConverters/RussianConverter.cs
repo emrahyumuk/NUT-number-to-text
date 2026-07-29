@@ -292,7 +292,8 @@ namespace Nut.TextConverters
             Currency = currency,
             Names = new[] { "быр", "быр", "быр" },
             Gender = GenderGroup.Masculine,
-            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "копейка", "копейки", "копеек" } }
+            // The birr divides into сантимы, not копейки. It had the neighbour's coin.
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сантим", "сантима", "сантимов" } }
           };
         case Currency.PLN:
           return new CurrencyModel

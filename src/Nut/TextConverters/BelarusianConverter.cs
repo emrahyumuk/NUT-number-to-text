@@ -245,14 +245,9 @@ namespace Nut.TextConverters
                     Gender = GenderGroup.Masculine,
                     SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сентава", "сентава", "сентава" } }
                   };
-                case Currency.UZS:
-                  return new CurrencyModel
-                  {
-                    Currency = currency,
-                    Names = new[] { "узбекскі сум", "узбекскія сумы", "узбекскіх сумаў" },
-                    Gender = GenderGroup.Masculine,
-                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "тыйін", "тыйіны", "тыйінаў" } }
-                  };
+                // UZS is gone. The sum's sub-unit was written here as "тыйін",
+                // which is in no dictionary — the same invented wording that had Uzbek
+                // naming the Turkish lira's sub-unit "tiyin".
                 case Currency.USD:
                     return new CurrencyModel
                     {
@@ -285,14 +280,10 @@ namespace Nut.TextConverters
                         Gender = GenderGroup.Feminine,
                         SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "капейка", "капейкі", "капеек" } }
                     };
-                case Currency.ETB:
-                    return new CurrencyModel
-                    {
-                        Currency = currency,
-                        Names = new[] { "быр", "быр", "быр" },
-                        Gender = GenderGroup.Masculine,
-                        SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "капейка", "капейкі", "капеек" } }
-                    };
+                // ETB is gone. The birr divides into сантимы, not капейкі — it had the
+                // neighbour's coin, the way Russian and Bulgarian did — but no Belarusian
+                // dictionary or encyclopaedia gives the word, and guessing at the spelling
+                // of a coin name is how the Uzbek sub-units went wrong.
                 case Currency.PLN:
                     return new CurrencyModel
                     {
