@@ -12,9 +12,21 @@ version rather than a complete list.
 
 ## [Unreleased]
 
-Every change below alters produced text, so this is shaping up as **4.0.0** rather than a
-minor release. Of 4536 checked conversions, **1181 change** relative to the published
-3.4.1; Turkish, Polish and Amharic are untouched.
+Every change below alters produced text, so this is **4.0.0** rather than a minor release.
+
+Measured against the published 3.4.1 over 5520 conversions — the twelve languages it
+shipped with, every currency it had, and a spread of amounts:
+
+| | |
+| --- | --- |
+| identical | 1978 |
+| wording changed | 2238 |
+| produced nothing at all before | 1304 (1226 now read, 78 now throw) |
+| worked before and fails now | 0 |
+
+No language is untouched, because the fixes to negative amounts and to decimals past the
+sub-unit reach all of them. Turkish and Amharic change on those seven amounts and nothing
+else; their wording is as it was.
 
 Upgrading from 3.4.1 or 3.5.0 will change the wording your application prints. If you
 assert on that text, review the tables below before taking this release.
@@ -66,7 +78,7 @@ assert on that text, review the tables below before taking this release.
   | `41000 RUB` | сорок **один** тысяча рублей | сорок **одна** тысяча рублей |
   | `1000000 UAH` in Russian | **одна** миллион гривень | **один** миллион гривень |
   | `41000 BYN` | сорак **адзін** тысяча | сорак **адна** тысяча |
-  | `1 USD` in Ukrainian | **Одна** доллар | **Один** долар |
+  | `1 USD` in Ukrainian | **Одна** доллар | **один** долар |
   | `2.02 BGN` | два лева и **два** стотинки | два лева и **две** стотинки |
 
   Gender moved onto the currency model, so the main unit and the sub unit can differ —
@@ -119,6 +131,12 @@ assert on that text, review the tables below before taking this release.
 - **Portuguese** joins the two parts of an amount with `e` rather than `com`
   ([#27](https://github.com/emrahyumuk/NUT-number-to-text/pull/27)).
 
+- **Polish and Ukrainian no longer capitalise every numeral.** Their word tables were stored
+  capitalised, so `105.50 PLN` read `Sto Pięć złotych Pięćdziesiąt groszy` — capitals in the
+  middle of a phrase that neither language uses, and inconsistent even with itself, since
+  the scale words were lower case. It also left `MainUnitFirstCharUpper` with nothing to do
+  in those two. Both now behave like the other twelve.
+
 - **Capitalisation no longer lands on the wrong word for a negative amount.**
   `MainUnitFirstCharUpper` capitalised the main unit, which stopped being the first word
   once the sign was added: `minus Forty-one dollars`. The sign takes the capital now —
@@ -139,6 +157,12 @@ assert on that text, review the tables below before taking this release.
   `by`, so the natural way to pick a language missed them — silently, before this release
   started throwing. `Culture.Belarusian` was `by-BY`, which is not a culture .NET knows; it
   is now `be-BY`. All three old strings still resolve.
+
+- **The money overloads no longer take a `GenderGroup`.** Nothing ever read it: which form
+  a numeral needs is a property of the currency it counts, and that now lives on the
+  currency model. Since this release rebuilt gender handling, a parameter that looks like
+  the control for it and is not is worse than no parameter. It was the last argument and
+  optional, so a call that did not pass one is unchanged.
 
 - **`BulgarianConverter` is now `sealed`**, like the other thirteen converters. Word
   tables are shared between instances, so a subclass writing to one would corrupt the
@@ -200,6 +224,12 @@ assert on that text, review the tables below before taking this release.
   form commonly used on cheques. `SubUnitNotConvertedToText` still works and means
   `Digits`; setting `SubUnitFormat` explicitly overrides it, including when what you set is
   `Words`.
+
+  `Fraction` is available in English, Spanish, Portuguese, Bulgarian, Latvian and Amharic —
+  the languages that join the two parts of an amount with a word. Writing the sub-unit over
+  a hundred is an anglophone cheque convention rather than a rule of any language, and the
+  other eight have no wording for it here, so asking for it there raises
+  `NotSupportedException`.
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
   carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.

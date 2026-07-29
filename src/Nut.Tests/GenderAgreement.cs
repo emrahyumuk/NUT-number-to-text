@@ -51,22 +51,22 @@
 
         /// <summary>Ukrainian follows the same rule; its table was feminine-first, which made
         /// bare numerals and millions feminine while thousands happened to come out right.</summary>
-        [TestCase(1, "Один")]
-        [TestCase(2, "Два")]
-        [TestCase(1000, "Одна тисяча")] // тисяча feminine
-        [TestCase(2000, "Дві тисячі")]
-        [TestCase(41000, "Сорок Одна тисяча")]
-        [TestCase(1001, "Одна тисяча Один")] // feminine, then masculine
-        [TestCase(1000000, "Один мільйон")] // мільйон masculine
-        [TestCase(2000000, "Два мільйони")]
-        [TestCase(1000000000, "Один мільярд")]
+        [TestCase(1, "один")]
+        [TestCase(2, "два")]
+        [TestCase(1000, "одна тисяча")] // тисяча feminine
+        [TestCase(2000, "дві тисячі")]
+        [TestCase(41000, "сорок одна тисяча")]
+        [TestCase(1001, "одна тисяча один")] // feminine, then masculine
+        [TestCase(1000000, "один мільйон")] // мільйон masculine
+        [TestCase(2000000, "два мільйони")]
+        [TestCase(1000000000, "один мільярд")]
         public void UkrainianPlainNumbers(long number, string expected)
         {
             Assert.That(number.ToText(Language.Ukrainian), Is.EqualTo(expected));
         }
 
-        [TestCase(41000, "Сорок Одна тисяча гривень Нуль копійок")]
-        [TestCase(1000000, "Один мільйон гривень Нуль копійок")]
+        [TestCase(41000, "сорок одна тисяча гривень нуль копійок")]
+        [TestCase(1000000, "один мільйон гривень нуль копійок")]
         public void UkrainianHryvnia(decimal amount, string expected)
         {
             Assert.That(amount.ToText(Currency.UAH, Language.Ukrainian), Is.EqualTo(expected));
@@ -109,8 +109,8 @@
         [TestCase(Language.Russian, Currency.EUR, "один евро один евроцент")]
         [TestCase(Language.Belarusian, Currency.BYN, "адзін беларускі рубель адна капейка")]
         [TestCase(Language.Belarusian, Currency.TRY, "адна турэцкая ліра адзін куруш")]
-        [TestCase(Language.Ukrainian, Currency.UAH, "Одна гривня Одна копійка")]
-        [TestCase(Language.Ukrainian, Currency.USD, "Один долар Один цент")]
+        [TestCase(Language.Ukrainian, Currency.UAH, "одна гривня одна копійка")]
+        [TestCase(Language.Ukrainian, Currency.USD, "один долар один цент")]
         [TestCase(Language.Bulgarian, Currency.BGN, "един лев и една стотинка")] // лев masculine, стотинка feminine
         public void OneOfEachUnit(string lang, string currency, string expected)
         {

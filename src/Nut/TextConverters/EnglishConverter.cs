@@ -52,6 +52,16 @@ namespace Nut.TextConverters
         }
 
         /// <summary>
+        /// The conjunction on a cheque written the American way, "one hundred five dollars
+        /// and 50/100". English is the language the form comes from, so it is the one that
+        /// states the word rather than borrowing it from the unit separator.
+        /// </summary>
+        protected override string GetFractionSeparator(CurrencyModel currency)
+        {
+            return " and ";
+        }
+
+        /// <summary>
         /// Compound numbers from twenty-one through ninety-nine are hyphenated
         /// (Merriam-Webster). Only the tens-and-units pair takes a hyphen; everything else
         /// stays spaced, so 121 is "one hundred twenty-one".

@@ -87,10 +87,10 @@ namespace Nut
             return converter.ToText(num, genderGroup);
         }
 
-        public static string ToText(this decimal num, string currency, string lang = Language.Default, Options options = new Options(), GenderGroup genderGroup = GenderGroup.None)
+        public static string ToText(this decimal num, string currency, string lang = Language.Default, Options options = new Options())
         {
             var converter = Resolve(lang);
-            return converter.ToText(num, currency, options, genderGroup);
+            return converter.ToText(num, currency, options);
         }
 
         public static string ToText(this int num, string lang = Language.Default, GenderGroup genderGroup = GenderGroup.None)

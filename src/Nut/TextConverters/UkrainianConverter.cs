@@ -30,10 +30,10 @@ namespace Nut.TextConverters
       : base(template)
     {
       var gender = isMainUnit ? currencyModel.Gender : currencyModel.SubUnitCurrency.Gender;
-      _one = gender == GenderGroup.Feminine ? "Одна"
-           : gender == GenderGroup.Neuter ? "Одне"
-           : "Один";
-      _two = gender == GenderGroup.Feminine ? "Дві" : "Два";
+      _one = gender == GenderGroup.Feminine ? "одна"
+           : gender == GenderGroup.Neuter ? "одне"
+           : "один";
+      _two = gender == GenderGroup.Feminine ? "дві" : "два";
     }
 
     protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
@@ -146,45 +146,45 @@ namespace Nut.TextConverters
 
     private void Initialize()
     {
-      NumberTexts.Add(0, new[] { "Нуль" });
+      NumberTexts.Add(0, new[] { "нуль" });
       // Masculine first, like the other Slavic converters: entry [0] is the bare form,
       // entry [1] the feminine one used before тисяча.
-      NumberTexts.Add(1, new[] { "Один", "Одна", "Одне" });
-      NumberTexts.Add(2, new[] { "Два", "Дві" });
-      NumberTexts.Add(3, new[] { "Три" });
-      NumberTexts.Add(4, new[] { "Чотири" });
-      NumberTexts.Add(5, new[] { "П'ять" });
-      NumberTexts.Add(6, new[] { "Шість" });
-      NumberTexts.Add(7, new[] { "Сім" });
-      NumberTexts.Add(8, new[] { "Вісім" });
-      NumberTexts.Add(9, new[] { "Дев'ять" });
-      NumberTexts.Add(10, new[] { "Десять" });
-      NumberTexts.Add(11, new[] { "Одинадцять" });
-      NumberTexts.Add(12, new[] { "Дванадцять" });
-      NumberTexts.Add(13, new[] { "Тринадцять" });
-      NumberTexts.Add(14, new[] { "Чотирнадцять" });
-      NumberTexts.Add(15, new[] { "П'ятнадцять" });
-      NumberTexts.Add(16, new[] { "Шістнадцять" });
-      NumberTexts.Add(17, new[] { "Сімнадцять" });
-      NumberTexts.Add(18, new[] { "Вісімнадцять" });
-      NumberTexts.Add(19, new[] { "Дев'ятнадцять" });
-      NumberTexts.Add(20, new[] { "Двадцять" });
-      NumberTexts.Add(30, new[] { "Тридцять" });
-      NumberTexts.Add(40, new[] { "Сорок" });
-      NumberTexts.Add(50, new[] { "П'ятдесят" });
-      NumberTexts.Add(60, new[] { "Шістдесят" });
-      NumberTexts.Add(70, new[] { "Сімдесят" });
-      NumberTexts.Add(80, new[] { "Вісімдесят" });
-      NumberTexts.Add(90, new[] { "Дев'яносто" });
-      NumberTexts.Add(100, new[] { "Сто" });
-      NumberTexts.Add(200, new[] { "Двісті" });
-      NumberTexts.Add(300, new[] { "Триста" });
-      NumberTexts.Add(400, new[] { "Чотириста" });
-      NumberTexts.Add(500, new[] { "П'ятсот" });
-      NumberTexts.Add(600, new[] { "Шістсот" });
-      NumberTexts.Add(700, new[] { "Сімсот" });
-      NumberTexts.Add(800, new[] { "Вісімсот" });
-      NumberTexts.Add(900, new[] { "Дев'ятсот" });
+      NumberTexts.Add(1, new[] { "один", "одна", "одне" });
+      NumberTexts.Add(2, new[] { "два", "дві" });
+      NumberTexts.Add(3, new[] { "три" });
+      NumberTexts.Add(4, new[] { "чотири" });
+      NumberTexts.Add(5, new[] { "п'ять" });
+      NumberTexts.Add(6, new[] { "шість" });
+      NumberTexts.Add(7, new[] { "сім" });
+      NumberTexts.Add(8, new[] { "вісім" });
+      NumberTexts.Add(9, new[] { "дев'ять" });
+      NumberTexts.Add(10, new[] { "десять" });
+      NumberTexts.Add(11, new[] { "одинадцять" });
+      NumberTexts.Add(12, new[] { "дванадцять" });
+      NumberTexts.Add(13, new[] { "тринадцять" });
+      NumberTexts.Add(14, new[] { "чотирнадцять" });
+      NumberTexts.Add(15, new[] { "п'ятнадцять" });
+      NumberTexts.Add(16, new[] { "шістнадцять" });
+      NumberTexts.Add(17, new[] { "сімнадцять" });
+      NumberTexts.Add(18, new[] { "вісімнадцять" });
+      NumberTexts.Add(19, new[] { "дев'ятнадцять" });
+      NumberTexts.Add(20, new[] { "двадцять" });
+      NumberTexts.Add(30, new[] { "тридцять" });
+      NumberTexts.Add(40, new[] { "сорок" });
+      NumberTexts.Add(50, new[] { "п'ятдесят" });
+      NumberTexts.Add(60, new[] { "шістдесят" });
+      NumberTexts.Add(70, new[] { "сімдесят" });
+      NumberTexts.Add(80, new[] { "вісімдесят" });
+      NumberTexts.Add(90, new[] { "дев'яносто" });
+      NumberTexts.Add(100, new[] { "сто" });
+      NumberTexts.Add(200, new[] { "двісті" });
+      NumberTexts.Add(300, new[] { "триста" });
+      NumberTexts.Add(400, new[] { "чотириста" });
+      NumberTexts.Add(500, new[] { "п'ятсот" });
+      NumberTexts.Add(600, new[] { "шістсот" });
+      NumberTexts.Add(700, new[] { "сімсот" });
+      NumberTexts.Add(800, new[] { "вісімсот" });
+      NumberTexts.Add(900, new[] { "дев'ятсот" });
 
       ScaleTexts.Add(1000000000, new[] { "мільярдів", "мільярд", "мільярди" });
       ScaleTexts.Add(1000000, new[] { "мільйонів", "мільйон", "мільйони" });

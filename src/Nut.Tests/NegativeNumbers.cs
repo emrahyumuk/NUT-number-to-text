@@ -20,10 +20,10 @@ namespace Nut.Tests
         [TestCase(Language.Portuguese, "menos quarenta e um")]
         [TestCase(Language.Turkish, "eksi kırk bir")]
         [TestCase(Language.Russian, "минус сорок один")]
-        [TestCase(Language.Ukrainian, "мінус Сорок Один")]
+        [TestCase(Language.Ukrainian, "мінус сорок один")]
         [TestCase(Language.Belarusian, "мінус сорак адзін")]
         [TestCase(Language.Bulgarian, "минус четиридесет и един")]
-        [TestCase(Language.Polish, "minus Czterdzieści Jeden")]
+        [TestCase(Language.Polish, "minus czterdzieści jeden")]
         [TestCase(Language.Amharic, "ሲቀነስ አርባ አንድ")]
         public void EveryLanguageHasItsOwnWord(string lang, string expected)
         {

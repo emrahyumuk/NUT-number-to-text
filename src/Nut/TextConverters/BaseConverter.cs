@@ -71,11 +71,6 @@ namespace Nut.TextConverters
       return ToText(num);
     }
 
-    protected virtual string ToText(long num, CurrencyModel currencyModel, bool isMainUnit, GenderGroup genderGroup = GenderGroup.None)
-    {
-      return ToText(num, genderGroup);
-    }
-
     protected virtual long Append(long num, long scale, StringBuilder builder)
     {
       if (num > scale - 1)
@@ -151,12 +146,13 @@ namespace Nut.TextConverters
 
     #region Currency
 
+    /// <summary>
+    /// A money amount takes no gender argument. Which form a numeral needs is a property of
+    /// the currency it counts, and lives on <see cref="BaseCurrencyModel.Gender"/>; there is
+    /// nothing left for a caller to decide. The parameter that used to sit here was read by
+    /// nothing at all.
+    /// </summary>
     public virtual string ToText(decimal num, string currency, Options options)
-    {
-      return ToText(num, currency, options, GenderGroup.None);
-    }
-
-    public virtual string ToText(decimal num, string currency, Options options, GenderGroup genderGroup = GenderGroup.None)
     {
       // Before the split, and before MainUnitNotConvertedToText can route around the check
       // in the long overload by never calling it.
@@ -238,7 +234,16 @@ namespace Nut.TextConverters
         {
           // "and 50/100", the form used on cheques. The sub-unit is not named, and zero is
           // written rather than dropped, so nothing can be appended to the amount later.
-          builder.Append(GetFractionSeparator(currencyModel));
+          var separator = GetFractionSeparator(currencyModel);
+          if (separator == null)
+          {
+            throw new NotSupportedException(string.Format(
+              "SubUnitFormat.Fraction is not defined for {0}. Writing the sub-unit over a " +
+              "hundred is an anglophone cheque convention, and this language has no wording " +
+              "for it here.", CultureName));
+          }
+
+          builder.Append(separator);
           builder.AppendFormat("{0:00}/100", subUnitNum);
         }
         else if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0)
@@ -292,13 +297,20 @@ namespace Nut.TextConverters
     }
 
     /// <summary>
-    /// What joins the amount to a fraction-form sub-unit. English cheques say "and";
-    /// languages that already join the two parts with a word reuse that word.
+    /// What joins the amount to a fraction-form sub-unit. Languages that already join the
+    /// two parts with a word reuse that word; the rest return null, and asking for the
+    /// fraction form in one of them fails rather than guessing.
+    /// <para>
+    /// This used to fall back to the English "and" whenever a converter left the unit
+    /// separator as a plain space, which is nine of the fourteen — so a Russian cheque read
+    /// "сто пять рублей and 50/100". Writing over-a-hundred is an anglophone cheque
+    /// convention, and the languages that do not have it have no separator to borrow.
+    /// </para>
     /// </summary>
     protected virtual string GetFractionSeparator(CurrencyModel currency)
     {
       var separator = GetUnitSeparator(currency);
-      return separator.Trim().Length > 0 ? separator : " and ";
+      return separator.Trim().Length > 0 ? separator : null;
     }
     #endregion
   }

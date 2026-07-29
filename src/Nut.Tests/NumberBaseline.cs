@@ -145,23 +145,23 @@
         [TestCase(1000000000, "один миллиард")]
         public void Russian(long number, string expected) => Check(number, Language.Russian, expected);
 
-        // Capitalisation of units is still inconsistent with scales ("Одна тисяча"); that
-        // is a separate defect from gender.
-        [TestCase(0, "Нуль")]
-        [TestCase(1, "Один")]
-        [TestCase(2, "Два")]
-        [TestCase(3, "Три")]
-        [TestCase(11, "Одинадцять")]
-        [TestCase(20, "Двадцять")]
-        [TestCase(21, "Двадцять Один")]
-        [TestCase(100, "Сто")]
-        [TestCase(999, "Дев'ятсот Дев'яносто Дев'ять")]
-        [TestCase(1000, "Одна тисяча")] // тисяча is feminine
-        [TestCase(2000, "Дві тисячі")]
-        [TestCase(5000, "П'ять тисяч")]
-        [TestCase(41000, "Сорок Одна тисяча")]
-        [TestCase(1000000, "Один мільйон")] // мільйон is masculine
-        [TestCase(1000000000, "Один мільярд")]
+        // The word table used to be stored capitalised, so units and scales disagreed
+        // ("Одна тисяча") and MainUnitFirstCharUpper had nothing left to do.
+        [TestCase(0, "нуль")]
+        [TestCase(1, "один")]
+        [TestCase(2, "два")]
+        [TestCase(3, "три")]
+        [TestCase(11, "одинадцять")]
+        [TestCase(20, "двадцять")]
+        [TestCase(21, "двадцять один")]
+        [TestCase(100, "сто")]
+        [TestCase(999, "дев'ятсот дев'яносто дев'ять")]
+        [TestCase(1000, "одна тисяча")] // тисяча is feminine
+        [TestCase(2000, "дві тисячі")]
+        [TestCase(5000, "п'ять тисяч")]
+        [TestCase(41000, "сорок одна тисяча")]
+        [TestCase(1000000, "один мільйон")] // мільйон is masculine
+        [TestCase(1000000000, "один мільярд")]
         public void Ukrainian(long number, string expected) => Check(number, Language.Ukrainian, expected);
 
         [TestCase(0, "нуль")]
@@ -200,19 +200,19 @@
         [TestCase(2000000, "два милиона")]
         public void Bulgarian(long number, string expected) => Check(number, Language.Bulgarian, expected);
 
-        [TestCase(0, "Zero")]
-        [TestCase(1, "Jeden")]
-        [TestCase(11, "Jedenaście")]
-        [TestCase(20, "Dwadzieścia")]
-        [TestCase(21, "Dwadzieścia Jeden")]
-        [TestCase(42, "Czterdzieści Dwa")]
-        [TestCase(100, "Sto")]
-        [TestCase(200, "Dwieście")]
-        [TestCase(999, "Dziewięćset Dziewięćdziesiąt Dziewięć")]
-        [TestCase(1000, "Jeden tysiąc")] // capitalisation is inconsistent: units are capitalised, scales are not
-        [TestCase(5000, "Pięć tysięcy")]
-        [TestCase(41000, "Czterdzieści Jeden tysięcy")]
-        [TestCase(1000000, "Jeden milion")]
+        [TestCase(0, "zero")]
+        [TestCase(1, "jeden")]
+        [TestCase(11, "jedenaście")]
+        [TestCase(20, "dwadzieścia")]
+        [TestCase(21, "dwadzieścia jeden")]
+        [TestCase(42, "czterdzieści dwa")]
+        [TestCase(100, "sto")]
+        [TestCase(200, "dwieście")]
+        [TestCase(999, "dziewięćset dziewięćdziesiąt dziewięć")]
+        [TestCase(1000, "jeden tysiąc")] // "Jeden tysiąc" before the table was lowercased
+        [TestCase(5000, "pięć tysięcy")]
+        [TestCase(41000, "czterdzieści jeden tysięcy")]
+        [TestCase(1000000, "jeden milion")]
         public void Polish(long number, string expected) => Check(number, Language.Polish, expected);
 
         [TestCase(0, "ዜሮ")]
