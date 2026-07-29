@@ -93,6 +93,11 @@ Zero is written as `00/100` rather than dropped, so nothing can be added to the 
 afterwards. Languages that join the two parts with a word keep it: *con 50/100* in Spanish,
 *un 50/100* in Latvian.
 
+Writing the sub-unit over a hundred is an anglophone cheque convention rather than a rule
+of any language, so it is only available where there is a word to join the two parts with:
+English, Spanish, Portuguese, Bulgarian, Latvian and Amharic. Asking for it in one of the
+other eight raises `NotSupportedException` instead of borrowing the English *and*.
+
 ## Behaviour worth knowing
 
 **Rounding.** Amounts carrying more decimals than the currency has are rounded to the

@@ -74,6 +74,58 @@ namespace Nut.Tests
             Assert.That(105.50m.ToText(currency, lang, Fraction), Is.EqualTo(expected));
         }
 
+        /// <summary>
+        /// The rest have no separator to borrow, and the form is not theirs to begin with.
+        /// Falling back to the English "and" put it into nine of the fourteen — a Turkish
+        /// cheque read "yüz beş türk lirası and 50/100" — so ask for a form a language does
+        /// not have and you get told, rather than getting English in the amount field.
+        /// </summary>
+        [TestCase(Language.French, Currency.EUR)]
+        [TestCase(Language.German, Currency.EUR)]
+        [TestCase(Language.Turkish, Currency.TRY)]
+        [TestCase(Language.Russian, Currency.RUB)]
+        [TestCase(Language.Ukrainian, Currency.UAH)]
+        [TestCase(Language.Belarusian, Currency.BYN)]
+        [TestCase(Language.Polish, Currency.PLN)]
+        [TestCase(Language.Uzbek, Currency.UZS)]
+        public void LanguagesWithoutTheFormSaySo(string lang, string currency)
+        {
+            Assert.That(() => 105.50m.ToText(currency, lang, Fraction),
+                Throws.InstanceOf<NotSupportedException>().With.Message.Contains("Fraction"));
+        }
+
+        /// <summary>
+        /// Pinned as a set so that adding a language cannot quietly extend the form to it.
+        /// A new converter has to say what joins the two parts before this form works, and
+        /// until it does, asking for it fails.
+        /// </summary>
+        [Test]
+        public void ExactlyTheseLanguagesHaveTheForm()
+        {
+            var supported = new List<string>();
+
+            foreach (var lang in AllLanguages)
+            {
+                try { 105.50m.ToText(Currency.EUR, lang, Fraction); supported.Add(lang); }
+                catch (NotSupportedException) { }
+            }
+
+            Assert.That(supported, Is.EquivalentTo(new[]
+            {
+                Language.English, Culture.EnglishUS, Culture.EnglishGB,
+                Language.Spanish, Culture.Spanish,
+                Language.Portuguese, Culture.PortugueseBR,
+                Language.Bulgarian, Culture.Bulgarian,
+                Language.Latvian, Culture.Latvian,
+                Language.Amharic, Culture.EthiopianAM,
+            }));
+        }
+
+        private static IEnumerable<string> AllLanguages
+        {
+            get { return Extensions.SupportedLanguages; }
+        }
+
         [Test]
         public void WorksWithTheOtherOptions()
         {

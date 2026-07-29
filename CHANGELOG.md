@@ -201,6 +201,12 @@ assert on that text, review the tables below before taking this release.
   `Digits`; setting `SubUnitFormat` explicitly overrides it, including when what you set is
   `Words`.
 
+  `Fraction` is available in English, Spanish, Portuguese, Bulgarian, Latvian and Amharic —
+  the languages that join the two parts of an amount with a word. Writing the sub-unit over
+  a hundred is an anglophone cheque convention rather than a rule of any language, and the
+  other eight have no wording for it here, so asking for it there raises
+  `NotSupportedException`.
+
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
   carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.
 - `Currency.RUR` as an alias for `Currency.RUB`, mirroring how `tl` maps to `try`.

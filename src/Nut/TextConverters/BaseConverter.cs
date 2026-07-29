@@ -238,7 +238,16 @@ namespace Nut.TextConverters
         {
           // "and 50/100", the form used on cheques. The sub-unit is not named, and zero is
           // written rather than dropped, so nothing can be appended to the amount later.
-          builder.Append(GetFractionSeparator(currencyModel));
+          var separator = GetFractionSeparator(currencyModel);
+          if (separator == null)
+          {
+            throw new NotSupportedException(string.Format(
+              "SubUnitFormat.Fraction is not defined for {0}. Writing the sub-unit over a " +
+              "hundred is an anglophone cheque convention, and this language has no wording " +
+              "for it here.", CultureName));
+          }
+
+          builder.Append(separator);
           builder.AppendFormat("{0:00}/100", subUnitNum);
         }
         else if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0)
@@ -292,13 +301,20 @@ namespace Nut.TextConverters
     }
 
     /// <summary>
-    /// What joins the amount to a fraction-form sub-unit. English cheques say "and";
-    /// languages that already join the two parts with a word reuse that word.
+    /// What joins the amount to a fraction-form sub-unit. Languages that already join the
+    /// two parts with a word reuse that word; the rest return null, and asking for the
+    /// fraction form in one of them fails rather than guessing.
+    /// <para>
+    /// This used to fall back to the English "and" whenever a converter left the unit
+    /// separator as a plain space, which is nine of the fourteen — so a Russian cheque read
+    /// "сто пять рублей and 50/100". Writing over-a-hundred is an anglophone cheque
+    /// convention, and the languages that do not have it have no separator to borrow.
+    /// </para>
     /// </summary>
     protected virtual string GetFractionSeparator(CurrencyModel currency)
     {
       var separator = GetUnitSeparator(currency);
-      return separator.Trim().Length > 0 ? separator : " and ";
+      return separator.Trim().Length > 0 ? separator : null;
     }
     #endregion
   }
