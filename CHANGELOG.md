@@ -144,6 +144,12 @@ assert on that text, review the tables below before taking this release.
   it is added here — in French the distinction carries meaning, since *le livre* is a book
   and *la livre* the currency.
 
+- **Latvian**, from
+  [#24](https://github.com/emrahyumuk/NUT-number-to-text/pull/24). Numerals agree in
+  gender (`viens eiro` but `viena mārciņa`), and the unit name takes three forms: singular
+  after a count ending in one, genitive plural after zero (`nulle centu`), plural
+  otherwise.
+
 - **Uzbek (Latin script)** and the Uzbek som (`UZS`), from
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
