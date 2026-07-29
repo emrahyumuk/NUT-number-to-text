@@ -196,7 +196,12 @@ namespace Nut.TextConverters
       else
       {
         var mainUnitText = ToText(mainUnitNum, currencyModel, true);
-        mainUnitText = options.MainUnitFirstCharUpper ? mainUnitText.ToFirstLetterUpper(CultureName) : mainUnitText;
+        // Only capitalise here when this really is the first word. On a negative amount
+        // the sign comes first, so capitalising the main unit would put the capital in the
+        // middle: "minus Forty-one dollars" instead of "Minus forty-one dollars".
+        mainUnitText = options.MainUnitFirstCharUpper && !isNegative
+          ? mainUnitText.ToFirstLetterUpper(CultureName)
+          : mainUnitText;
         builder.Append(mainUnitText);
       }
 
@@ -236,7 +241,10 @@ namespace Nut.TextConverters
       }
 
       var text = builder.ToString().Trim();
-      return isNegative ? NegativeSign + " " + text : text;
+      if (!isNegative) return text;
+
+      var sign = options.MainUnitFirstCharUpper ? NegativeSign.ToFirstLetterUpper(CultureName) : NegativeSign;
+      return sign + " " + text;
     }
 
     protected virtual string GetCurrencyText(long num, CurrencyModel currency)

@@ -115,6 +115,12 @@ assert on that text, review the tables below before taking this release.
 - **Portuguese** joins the two parts of an amount with `e` rather than `com`
   ([#27](https://github.com/emrahyumuk/NUT-number-to-text/pull/27)).
 
+- **Capitalisation no longer lands on the wrong word for a negative amount.**
+  `MainUnitFirstCharUpper` capitalised the main unit, which stopped being the first word
+  once the sign was added: `minus Forty-one dollars`. The sign takes the capital now —
+  `Minus forty-one dollars`. This matters on a cheque, where the amount in words is the
+  field the bank pays against.
+
 ### Changed
 
 - **Numbers past the supported range throw `ArgumentOutOfRangeException`** instead of a bare
@@ -217,6 +223,12 @@ correctness under concurrency and repeated calls, not wording.
 - Russian converter endings.
 
 ## [3.0.0] - 2020-07-03
+
+- **Capitalisation no longer lands on the wrong word for a negative amount.**
+  `MainUnitFirstCharUpper` capitalised the main unit, which stopped being the first word
+  once the sign was added: `minus Forty-one dollars`. The sign takes the capital now —
+  `Minus forty-one dollars`. This matters on a cheque, where the amount in words is the
+  field the bank pays against.
 
 ### Changed
 
