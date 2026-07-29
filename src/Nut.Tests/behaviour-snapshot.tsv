@@ -497,6 +497,45 @@ money	en	uzs	-1000
 money	en	uzs	1.999	
 money	en	uzs	123.456	
 money	en	uzs	1.005	
+money	en	gbp	0	zero pound sterling zero penny
+money	en	gbp	0.01	zero pound sterling one penny
+money	en	gbp	0.02	zero pound sterling two pence
+money	en	gbp	1	one pound sterling zero penny
+money	en	gbp	1.01	one pound sterling one penny
+money	en	gbp	1.02	one pound sterling two pence
+money	en	gbp	2	two pounds sterling zero penny
+money	en	gbp	2.02	two pounds sterling two pence
+money	en	gbp	3	three pounds sterling zero penny
+money	en	gbp	5	five pounds sterling zero penny
+money	en	gbp	11	eleven pounds sterling zero penny
+money	en	gbp	21	twenty-one pounds sterling zero penny
+money	en	gbp	22	twenty-two pounds sterling zero penny
+money	en	gbp	42	forty-two pounds sterling zero penny
+money	en	gbp	100	one hundred pounds sterling zero penny
+money	en	gbp	101	one hundred one pounds sterling zero penny
+money	en	gbp	121	one hundred twenty-one pounds sterling zero penny
+money	en	gbp	999	nine hundred ninety-nine pounds sterling zero penny
+money	en	gbp	1000	one thousand pounds sterling zero penny
+money	en	gbp	1001	one thousand one pounds sterling zero penny
+money	en	gbp	2000	two thousand pounds sterling zero penny
+money	en	gbp	2001	two thousand one pounds sterling zero penny
+money	en	gbp	5000	five thousand pounds sterling zero penny
+money	en	gbp	21000	twenty-one thousand pounds sterling zero penny
+money	en	gbp	22000	twenty-two thousand pounds sterling zero penny
+money	en	gbp	41000	forty-one thousand pounds sterling zero penny
+money	en	gbp	42000	forty-two thousand pounds sterling zero penny
+money	en	gbp	100000	one hundred thousand pounds sterling zero penny
+money	en	gbp	1000000	one million pounds sterling zero penny
+money	en	gbp	2000000	two million pounds sterling zero penny
+money	en	gbp	1000000000	one billion pounds sterling zero penny
+money	en	gbp	123.45	one hundred twenty-three pounds sterling forty-five pence
+money	en	gbp	-1	minus one pound sterling zero penny
+money	en	gbp	-2	minus two pounds sterling zero penny
+money	en	gbp	-41.5	minus forty-one pounds sterling fifty pence
+money	en	gbp	-1000	minus one thousand pounds sterling zero penny
+money	en	gbp	1.999	two pounds sterling zero penny
+money	en	gbp	123.456	one hundred twenty-three pounds sterling forty-six pence
+money	en	gbp	1.005	one pound sterling one penny
 plain	fr	0	zéro
 plain	fr	1	un
 plain	fr	2	deux
@@ -645,28 +684,28 @@ money	fr	rub	-1000	moins mille roubles zéro kopeck
 money	fr	rub	1.999	deux roubles zéro kopeck
 money	fr	rub	123.456	cent vingt-trois roubles quarante-six kopecks
 money	fr	rub	1.005	un rouble un kopeck
-money	fr	try	0	zéro livre turques zéro kuruş
-money	fr	try	0.01	zéro livre turques un kuruş
-money	fr	try	0.02	zéro livre turques deux kuruş
-money	fr	try	1	un livre turques zéro kuruş
-money	fr	try	1.01	un livre turques un kuruş
-money	fr	try	1.02	un livre turques deux kuruş
+money	fr	try	0	zéro livre turque zéro kuruş
+money	fr	try	0.01	zéro livre turque un kuruş
+money	fr	try	0.02	zéro livre turque deux kuruş
+money	fr	try	1	une livre turque zéro kuruş
+money	fr	try	1.01	une livre turque un kuruş
+money	fr	try	1.02	une livre turque deux kuruş
 money	fr	try	2	deux livres turques zéro kuruş
 money	fr	try	2.02	deux livres turques deux kuruş
 money	fr	try	3	trois livres turques zéro kuruş
 money	fr	try	5	cinq livres turques zéro kuruş
 money	fr	try	11	onze livres turques zéro kuruş
-money	fr	try	21	vingt et un livres turques zéro kuruş
+money	fr	try	21	vingt et une livres turques zéro kuruş
 money	fr	try	22	vingt-deux livres turques zéro kuruş
 money	fr	try	42	quarante-deux livres turques zéro kuruş
 money	fr	try	100	cent livres turques zéro kuruş
-money	fr	try	101	cent un livres turques zéro kuruş
-money	fr	try	121	cent vingt et un livres turques zéro kuruş
+money	fr	try	101	cent une livres turques zéro kuruş
+money	fr	try	121	cent vingt et une livres turques zéro kuruş
 money	fr	try	999	neuf cent quatre-vingt-dix-neuf livres turques zéro kuruş
 money	fr	try	1000	mille livres turques zéro kuruş
-money	fr	try	1001	mille un livres turques zéro kuruş
+money	fr	try	1001	mille une livres turques zéro kuruş
 money	fr	try	2000	deux mille livres turques zéro kuruş
-money	fr	try	2001	deux mille un livres turques zéro kuruş
+money	fr	try	2001	deux mille une livres turques zéro kuruş
 money	fr	try	5000	cinq mille livres turques zéro kuruş
 money	fr	try	21000	vingt et un mille livres turques zéro kuruş
 money	fr	try	22000	vingt-deux mille livres turques zéro kuruş
@@ -677,52 +716,52 @@ money	fr	try	1000000	un million livres turques zéro kuruş
 money	fr	try	2000000	deux millions livres turques zéro kuruş
 money	fr	try	1000000000	un milliard livres turques zéro kuruş
 money	fr	try	123.45	cent vingt-trois livres turques quarante-cinq kuruş
-money	fr	try	-1	moins un livre turques zéro kuruş
+money	fr	try	-1	moins une livre turque zéro kuruş
 money	fr	try	-2	moins deux livres turques zéro kuruş
-money	fr	try	-41.5	moins quarante et un livres turques cinquante kuruş
+money	fr	try	-41.5	moins quarante et une livres turques cinquante kuruş
 money	fr	try	-1000	moins mille livres turques zéro kuruş
 money	fr	try	1.999	deux livres turques zéro kuruş
 money	fr	try	123.456	cent vingt-trois livres turques quarante-six kuruş
-money	fr	try	1.005	un livre turques un kuruş
+money	fr	try	1.005	une livre turque un kuruş
 money	fr	uah	0	zéro hryvnia ukrainienne zéro kopiyka
 money	fr	uah	0.01	zéro hryvnia ukrainienne un kopiyka
 money	fr	uah	0.02	zéro hryvnia ukrainienne deux kopiyka
-money	fr	uah	1	un hryvnia ukrainienne zéro kopiyka
-money	fr	uah	1.01	un hryvnia ukrainienne un kopiyka
-money	fr	uah	1.02	un hryvnia ukrainienne deux kopiyka
-money	fr	uah	2	deux hryvnias ukrainienne zéro kopiyka
-money	fr	uah	2.02	deux hryvnias ukrainienne deux kopiyka
-money	fr	uah	3	trois hryvnias ukrainienne zéro kopiyka
-money	fr	uah	5	cinq hryvnias ukrainienne zéro kopiyka
-money	fr	uah	11	onze hryvnias ukrainienne zéro kopiyka
-money	fr	uah	21	vingt et un hryvnias ukrainienne zéro kopiyka
-money	fr	uah	22	vingt-deux hryvnias ukrainienne zéro kopiyka
-money	fr	uah	42	quarante-deux hryvnias ukrainienne zéro kopiyka
-money	fr	uah	100	cent hryvnias ukrainienne zéro kopiyka
-money	fr	uah	101	cent un hryvnias ukrainienne zéro kopiyka
-money	fr	uah	121	cent vingt et un hryvnias ukrainienne zéro kopiyka
-money	fr	uah	999	neuf cent quatre-vingt-dix-neuf hryvnias ukrainienne zéro kopiyka
-money	fr	uah	1000	mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	1001	mille un hryvnias ukrainienne zéro kopiyka
-money	fr	uah	2000	deux mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	2001	deux mille un hryvnias ukrainienne zéro kopiyka
-money	fr	uah	5000	cinq mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	21000	vingt et un mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	22000	vingt-deux mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	41000	quarante et un mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	42000	quarante-deux mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	100000	cent mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	1000000	un million hryvnias ukrainienne zéro kopiyka
-money	fr	uah	2000000	deux millions hryvnias ukrainienne zéro kopiyka
-money	fr	uah	1000000000	un milliard hryvnias ukrainienne zéro kopiyka
-money	fr	uah	123.45	cent vingt-trois hryvnias ukrainienne quarante-cinq kopiyka
-money	fr	uah	-1	moins un hryvnia ukrainienne zéro kopiyka
-money	fr	uah	-2	moins deux hryvnias ukrainienne zéro kopiyka
-money	fr	uah	-41.5	moins quarante et un hryvnias ukrainienne cinquante kopiyka
-money	fr	uah	-1000	moins mille hryvnias ukrainienne zéro kopiyka
-money	fr	uah	1.999	deux hryvnias ukrainienne zéro kopiyka
-money	fr	uah	123.456	cent vingt-trois hryvnias ukrainienne quarante-six kopiyka
-money	fr	uah	1.005	un hryvnia ukrainienne un kopiyka
+money	fr	uah	1	une hryvnia ukrainienne zéro kopiyka
+money	fr	uah	1.01	une hryvnia ukrainienne un kopiyka
+money	fr	uah	1.02	une hryvnia ukrainienne deux kopiyka
+money	fr	uah	2	deux hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	2.02	deux hryvnias ukrainiennes deux kopiyka
+money	fr	uah	3	trois hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	5	cinq hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	11	onze hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	21	vingt et une hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	22	vingt-deux hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	42	quarante-deux hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	100	cent hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	101	cent une hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	121	cent vingt et une hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	999	neuf cent quatre-vingt-dix-neuf hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	1000	mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	1001	mille une hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	2000	deux mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	2001	deux mille une hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	5000	cinq mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	21000	vingt et un mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	22000	vingt-deux mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	41000	quarante et un mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	42000	quarante-deux mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	100000	cent mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	1000000	un million hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	2000000	deux millions hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	1000000000	un milliard hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	123.45	cent vingt-trois hryvnias ukrainiennes quarante-cinq kopiyka
+money	fr	uah	-1	moins une hryvnia ukrainienne zéro kopiyka
+money	fr	uah	-2	moins deux hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	-41.5	moins quarante et une hryvnias ukrainiennes cinquante kopiyka
+money	fr	uah	-1000	moins mille hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	1.999	deux hryvnias ukrainiennes zéro kopiyka
+money	fr	uah	123.456	cent vingt-trois hryvnias ukrainiennes quarante-six kopiyka
+money	fr	uah	1.005	une hryvnia ukrainienne un kopiyka
 money	fr	bgn	0	
 money	fr	bgn	0.01	
 money	fr	bgn	0.02	
@@ -801,45 +840,45 @@ money	fr	etb	-1000	moins mille Birr zéro centime
 money	fr	etb	1.999	deux Birr zéro centime
 money	fr	etb	123.456	cent vingt-trois Birr quarante-six centimes
 money	fr	etb	1.005	un Birr un centime
-money	fr	pln	0	zéro zloty zéro groszy
-money	fr	pln	0.01	zéro zloty un groszy
-money	fr	pln	0.02	zéro zloty deux groszy
-money	fr	pln	1	un zloty zéro groszy
-money	fr	pln	1.01	un zloty un groszy
-money	fr	pln	1.02	un zloty deux groszy
-money	fr	pln	2	deux zloty zéro groszy
-money	fr	pln	2.02	deux zloty deux groszy
-money	fr	pln	3	trois zloty zéro groszy
-money	fr	pln	5	cinq zloty zéro groszy
-money	fr	pln	11	onze zloty zéro groszy
-money	fr	pln	21	vingt et un zloty zéro groszy
-money	fr	pln	22	vingt-deux zloty zéro groszy
-money	fr	pln	42	quarante-deux zloty zéro groszy
-money	fr	pln	100	cent zloty zéro groszy
-money	fr	pln	101	cent un zloty zéro groszy
-money	fr	pln	121	cent vingt et un zloty zéro groszy
-money	fr	pln	999	neuf cent quatre-vingt-dix-neuf zloty zéro groszy
-money	fr	pln	1000	mille zloty zéro groszy
-money	fr	pln	1001	mille un zloty zéro groszy
-money	fr	pln	2000	deux mille zloty zéro groszy
-money	fr	pln	2001	deux mille un zloty zéro groszy
-money	fr	pln	5000	cinq mille zloty zéro groszy
-money	fr	pln	21000	vingt et un mille zloty zéro groszy
-money	fr	pln	22000	vingt-deux mille zloty zéro groszy
-money	fr	pln	41000	quarante et un mille zloty zéro groszy
-money	fr	pln	42000	quarante-deux mille zloty zéro groszy
-money	fr	pln	100000	cent mille zloty zéro groszy
-money	fr	pln	1000000	un million zloty zéro groszy
-money	fr	pln	2000000	deux millions zloty zéro groszy
-money	fr	pln	1000000000	un milliard zloty zéro groszy
-money	fr	pln	123.45	cent vingt-trois zloty quarante-cinq groszy
-money	fr	pln	-1	moins un zloty zéro groszy
-money	fr	pln	-2	moins deux zloty zéro groszy
-money	fr	pln	-41.5	moins quarante et un zloty cinquante groszy
-money	fr	pln	-1000	moins mille zloty zéro groszy
-money	fr	pln	1.999	deux zloty zéro groszy
-money	fr	pln	123.456	cent vingt-trois zloty quarante-six groszy
-money	fr	pln	1.005	un zloty un groszy
+money	fr	pln	0	zéro zloty zéro grosz
+money	fr	pln	0.01	zéro zloty un grosz
+money	fr	pln	0.02	zéro zloty deux groszys
+money	fr	pln	1	un zloty zéro grosz
+money	fr	pln	1.01	un zloty un grosz
+money	fr	pln	1.02	un zloty deux groszys
+money	fr	pln	2	deux zlotys zéro grosz
+money	fr	pln	2.02	deux zlotys deux groszys
+money	fr	pln	3	trois zlotys zéro grosz
+money	fr	pln	5	cinq zlotys zéro grosz
+money	fr	pln	11	onze zlotys zéro grosz
+money	fr	pln	21	vingt et un zlotys zéro grosz
+money	fr	pln	22	vingt-deux zlotys zéro grosz
+money	fr	pln	42	quarante-deux zlotys zéro grosz
+money	fr	pln	100	cent zlotys zéro grosz
+money	fr	pln	101	cent un zlotys zéro grosz
+money	fr	pln	121	cent vingt et un zlotys zéro grosz
+money	fr	pln	999	neuf cent quatre-vingt-dix-neuf zlotys zéro grosz
+money	fr	pln	1000	mille zlotys zéro grosz
+money	fr	pln	1001	mille un zlotys zéro grosz
+money	fr	pln	2000	deux mille zlotys zéro grosz
+money	fr	pln	2001	deux mille un zlotys zéro grosz
+money	fr	pln	5000	cinq mille zlotys zéro grosz
+money	fr	pln	21000	vingt et un mille zlotys zéro grosz
+money	fr	pln	22000	vingt-deux mille zlotys zéro grosz
+money	fr	pln	41000	quarante et un mille zlotys zéro grosz
+money	fr	pln	42000	quarante-deux mille zlotys zéro grosz
+money	fr	pln	100000	cent mille zlotys zéro grosz
+money	fr	pln	1000000	un million zlotys zéro grosz
+money	fr	pln	2000000	deux millions zlotys zéro grosz
+money	fr	pln	1000000000	un milliard zlotys zéro grosz
+money	fr	pln	123.45	cent vingt-trois zlotys quarante-cinq groszys
+money	fr	pln	-1	moins un zloty zéro grosz
+money	fr	pln	-2	moins deux zlotys zéro grosz
+money	fr	pln	-41.5	moins quarante et un zlotys cinquante groszys
+money	fr	pln	-1000	moins mille zlotys zéro grosz
+money	fr	pln	1.999	deux zlotys zéro grosz
+money	fr	pln	123.456	cent vingt-trois zlotys quarante-six groszys
+money	fr	pln	1.005	un zloty un grosz
 money	fr	byn	0	zéro rouble biélorusse zéro kopeck
 money	fr	byn	0.01	zéro rouble biélorusse un kopeck
 money	fr	byn	0.02	zéro rouble biélorusse deux kopecks
@@ -996,6 +1035,45 @@ money	fr	uzs	-1000
 money	fr	uzs	1.999	
 money	fr	uzs	123.456	
 money	fr	uzs	1.005	
+money	fr	gbp	0	zéro livre sterling zéro penny
+money	fr	gbp	0.01	zéro livre sterling un penny
+money	fr	gbp	0.02	zéro livre sterling deux pence
+money	fr	gbp	1	une livre sterling zéro penny
+money	fr	gbp	1.01	une livre sterling un penny
+money	fr	gbp	1.02	une livre sterling deux pence
+money	fr	gbp	2	deux livres sterling zéro penny
+money	fr	gbp	2.02	deux livres sterling deux pence
+money	fr	gbp	3	trois livres sterling zéro penny
+money	fr	gbp	5	cinq livres sterling zéro penny
+money	fr	gbp	11	onze livres sterling zéro penny
+money	fr	gbp	21	vingt et une livres sterling zéro penny
+money	fr	gbp	22	vingt-deux livres sterling zéro penny
+money	fr	gbp	42	quarante-deux livres sterling zéro penny
+money	fr	gbp	100	cent livres sterling zéro penny
+money	fr	gbp	101	cent une livres sterling zéro penny
+money	fr	gbp	121	cent vingt et une livres sterling zéro penny
+money	fr	gbp	999	neuf cent quatre-vingt-dix-neuf livres sterling zéro penny
+money	fr	gbp	1000	mille livres sterling zéro penny
+money	fr	gbp	1001	mille une livres sterling zéro penny
+money	fr	gbp	2000	deux mille livres sterling zéro penny
+money	fr	gbp	2001	deux mille une livres sterling zéro penny
+money	fr	gbp	5000	cinq mille livres sterling zéro penny
+money	fr	gbp	21000	vingt et un mille livres sterling zéro penny
+money	fr	gbp	22000	vingt-deux mille livres sterling zéro penny
+money	fr	gbp	41000	quarante et un mille livres sterling zéro penny
+money	fr	gbp	42000	quarante-deux mille livres sterling zéro penny
+money	fr	gbp	100000	cent mille livres sterling zéro penny
+money	fr	gbp	1000000	un million livres sterling zéro penny
+money	fr	gbp	2000000	deux millions livres sterling zéro penny
+money	fr	gbp	1000000000	un milliard livres sterling zéro penny
+money	fr	gbp	123.45	cent vingt-trois livres sterling quarante-cinq pence
+money	fr	gbp	-1	moins une livre sterling zéro penny
+money	fr	gbp	-2	moins deux livres sterling zéro penny
+money	fr	gbp	-41.5	moins quarante et une livres sterling cinquante pence
+money	fr	gbp	-1000	moins mille livres sterling zéro penny
+money	fr	gbp	1.999	deux livres sterling zéro penny
+money	fr	gbp	123.456	cent vingt-trois livres sterling quarante-six pence
+money	fr	gbp	1.005	une livre sterling un penny
 plain	de	0	null
 plain	de	1	eins
 plain	de	2	zwei
@@ -1495,6 +1573,45 @@ money	de	uzs	-1000
 money	de	uzs	1.999	
 money	de	uzs	123.456	
 money	de	uzs	1.005	
+money	de	gbp	0	null Pfund Sterling null Penny
+money	de	gbp	0.01	null Pfund Sterling ein Penny
+money	de	gbp	0.02	null Pfund Sterling zwei Pence
+money	de	gbp	1	ein Pfund Sterling null Penny
+money	de	gbp	1.01	ein Pfund Sterling ein Penny
+money	de	gbp	1.02	ein Pfund Sterling zwei Pence
+money	de	gbp	2	zwei Pfund Sterling null Penny
+money	de	gbp	2.02	zwei Pfund Sterling zwei Pence
+money	de	gbp	3	drei Pfund Sterling null Penny
+money	de	gbp	5	fünf Pfund Sterling null Penny
+money	de	gbp	11	elf Pfund Sterling null Penny
+money	de	gbp	21	einundzwanzig Pfund Sterling null Penny
+money	de	gbp	22	zweiundzwanzig Pfund Sterling null Penny
+money	de	gbp	42	zweiundvierzig Pfund Sterling null Penny
+money	de	gbp	100	einhundert Pfund Sterling null Penny
+money	de	gbp	101	einhundertein Pfund Sterling null Penny
+money	de	gbp	121	einhunderteinundzwanzig Pfund Sterling null Penny
+money	de	gbp	999	neunhundertneunundneunzig Pfund Sterling null Penny
+money	de	gbp	1000	eintausend Pfund Sterling null Penny
+money	de	gbp	1001	eintausendein Pfund Sterling null Penny
+money	de	gbp	2000	zweitausend Pfund Sterling null Penny
+money	de	gbp	2001	zweitausendein Pfund Sterling null Penny
+money	de	gbp	5000	fünftausend Pfund Sterling null Penny
+money	de	gbp	21000	einundzwanzigtausend Pfund Sterling null Penny
+money	de	gbp	22000	zweiundzwanzigtausend Pfund Sterling null Penny
+money	de	gbp	41000	einundvierzigtausend Pfund Sterling null Penny
+money	de	gbp	42000	zweiundvierzigtausend Pfund Sterling null Penny
+money	de	gbp	100000	einhunderttausend Pfund Sterling null Penny
+money	de	gbp	1000000	eine Million Pfund Sterling null Penny
+money	de	gbp	2000000	zwei Millionen Pfund Sterling null Penny
+money	de	gbp	1000000000	eine Milliarde Pfund Sterling null Penny
+money	de	gbp	123.45	einhundertdreiundzwanzig Pfund Sterling fünfundvierzig Pence
+money	de	gbp	-1	minus ein Pfund Sterling null Penny
+money	de	gbp	-2	minus zwei Pfund Sterling null Penny
+money	de	gbp	-41.5	minus einundvierzig Pfund Sterling fünfzig Pence
+money	de	gbp	-1000	minus eintausend Pfund Sterling null Penny
+money	de	gbp	1.999	zwei Pfund Sterling null Penny
+money	de	gbp	123.456	einhundertdreiundzwanzig Pfund Sterling sechsundvierzig Pence
+money	de	gbp	1.005	ein Pfund Sterling ein Penny
 plain	es	0	cero
 plain	es	1	uno
 plain	es	2	dos
@@ -1994,6 +2111,45 @@ money	es	uzs	-1000
 money	es	uzs	1.999	
 money	es	uzs	123.456	
 money	es	uzs	1.005	
+money	es	gbp	0	cero libra esterlina con cero penique
+money	es	gbp	0.01	cero libra esterlina con un penique
+money	es	gbp	0.02	cero libra esterlina con dos peniques
+money	es	gbp	1	una libra esterlina con cero penique
+money	es	gbp	1.01	una libra esterlina con un penique
+money	es	gbp	1.02	una libra esterlina con dos peniques
+money	es	gbp	2	dos libras esterlinas con cero penique
+money	es	gbp	2.02	dos libras esterlinas con dos peniques
+money	es	gbp	3	tres libras esterlinas con cero penique
+money	es	gbp	5	cinco libras esterlinas con cero penique
+money	es	gbp	11	once libras esterlinas con cero penique
+money	es	gbp	21	veintiuna libras esterlinas con cero penique
+money	es	gbp	22	veintidós libras esterlinas con cero penique
+money	es	gbp	42	cuarenta y dos libras esterlinas con cero penique
+money	es	gbp	100	cien libras esterlinas con cero penique
+money	es	gbp	101	ciento una libras esterlinas con cero penique
+money	es	gbp	121	ciento veintiuna libras esterlinas con cero penique
+money	es	gbp	999	novecientos noventa y nueve libras esterlinas con cero penique
+money	es	gbp	1000	mil libras esterlinas con cero penique
+money	es	gbp	1001	mil una libras esterlinas con cero penique
+money	es	gbp	2000	dos mil libras esterlinas con cero penique
+money	es	gbp	2001	dos mil una libras esterlinas con cero penique
+money	es	gbp	5000	cinco mil libras esterlinas con cero penique
+money	es	gbp	21000	veintiún mil libras esterlinas con cero penique
+money	es	gbp	22000	veintidós mil libras esterlinas con cero penique
+money	es	gbp	41000	cuarenta y un mil libras esterlinas con cero penique
+money	es	gbp	42000	cuarenta y dos mil libras esterlinas con cero penique
+money	es	gbp	100000	cien mil libras esterlinas con cero penique
+money	es	gbp	1000000	un millón de libras esterlinas con cero penique
+money	es	gbp	2000000	dos millones de libras esterlinas con cero penique
+money	es	gbp	1000000000	mil millones de libras esterlinas con cero penique
+money	es	gbp	123.45	ciento veintitrés libras esterlinas con cuarenta y cinco peniques
+money	es	gbp	-1	menos una libra esterlina con cero penique
+money	es	gbp	-2	menos dos libras esterlinas con cero penique
+money	es	gbp	-41.5	menos cuarenta y una libras esterlinas con cincuenta peniques
+money	es	gbp	-1000	menos mil libras esterlinas con cero penique
+money	es	gbp	1.999	dos libras esterlinas con cero penique
+money	es	gbp	123.456	ciento veintitrés libras esterlinas con cuarenta y seis peniques
+money	es	gbp	1.005	una libra esterlina con un penique
 plain	pt	0	zero
 plain	pt	1	um
 plain	pt	2	dois
@@ -2493,6 +2649,45 @@ money	pt	uzs	-1000
 money	pt	uzs	1.999	
 money	pt	uzs	123.456	
 money	pt	uzs	1.005	
+money	pt	gbp	0	zero libra esterlina e zero pêni
+money	pt	gbp	0.01	zero libra esterlina e um pêni
+money	pt	gbp	0.02	zero libra esterlina e dois pence
+money	pt	gbp	1	uma libra esterlina e zero pêni
+money	pt	gbp	1.01	uma libra esterlina e um pêni
+money	pt	gbp	1.02	uma libra esterlina e dois pence
+money	pt	gbp	2	duas libras esterlinas e zero pêni
+money	pt	gbp	2.02	duas libras esterlinas e dois pence
+money	pt	gbp	3	três libras esterlinas e zero pêni
+money	pt	gbp	5	cinco libras esterlinas e zero pêni
+money	pt	gbp	11	onze libras esterlinas e zero pêni
+money	pt	gbp	21	vinte e uma libras esterlinas e zero pêni
+money	pt	gbp	22	vinte e duas libras esterlinas e zero pêni
+money	pt	gbp	42	quarenta e duas libras esterlinas e zero pêni
+money	pt	gbp	100	cem libras esterlinas e zero pêni
+money	pt	gbp	101	cento e uma libras esterlinas e zero pêni
+money	pt	gbp	121	cento e vinte e uma libras esterlinas e zero pêni
+money	pt	gbp	999	novecentos e noventa e nove libras esterlinas e zero pêni
+money	pt	gbp	1000	um mil libras esterlinas e zero pêni
+money	pt	gbp	1001	um mil e uma libras esterlinas e zero pêni
+money	pt	gbp	2000	duas mil libras esterlinas e zero pêni
+money	pt	gbp	2001	duas mil e uma libras esterlinas e zero pêni
+money	pt	gbp	5000	cinco mil libras esterlinas e zero pêni
+money	pt	gbp	21000	vinte e uma mil libras esterlinas e zero pêni
+money	pt	gbp	22000	vinte e duas mil libras esterlinas e zero pêni
+money	pt	gbp	41000	quarenta e uma mil libras esterlinas e zero pêni
+money	pt	gbp	42000	quarenta e duas mil libras esterlinas e zero pêni
+money	pt	gbp	100000	cem mil libras esterlinas e zero pêni
+money	pt	gbp	1000000	um milhão libras esterlinas e zero pêni
+money	pt	gbp	2000000	duas milhões libras esterlinas e zero pêni
+money	pt	gbp	1000000000	um bilhão libras esterlinas e zero pêni
+money	pt	gbp	123.45	cento e vinte e três libras esterlinas e quarenta e cinco pence
+money	pt	gbp	-1	menos uma libra esterlina e zero pêni
+money	pt	gbp	-2	menos duas libras esterlinas e zero pêni
+money	pt	gbp	-41.5	menos quarenta e uma libras esterlinas e cinquenta pence
+money	pt	gbp	-1000	menos um mil libras esterlinas e zero pêni
+money	pt	gbp	1.999	duas libras esterlinas e zero pêni
+money	pt	gbp	123.456	cento e vinte e três libras esterlinas e quarenta e seis pence
+money	pt	gbp	1.005	uma libra esterlina e um pêni
 plain	tr	0	sıfır
 plain	tr	1	bir
 plain	tr	2	iki
@@ -2992,6 +3187,45 @@ money	tr	uzs	-1000
 money	tr	uzs	1.999	
 money	tr	uzs	123.456	
 money	tr	uzs	1.005	
+money	tr	gbp	0	sıfır sterlin sıfır peni
+money	tr	gbp	0.01	sıfır sterlin bir peni
+money	tr	gbp	0.02	sıfır sterlin iki peni
+money	tr	gbp	1	bir sterlin sıfır peni
+money	tr	gbp	1.01	bir sterlin bir peni
+money	tr	gbp	1.02	bir sterlin iki peni
+money	tr	gbp	2	iki sterlin sıfır peni
+money	tr	gbp	2.02	iki sterlin iki peni
+money	tr	gbp	3	üç sterlin sıfır peni
+money	tr	gbp	5	beş sterlin sıfır peni
+money	tr	gbp	11	on bir sterlin sıfır peni
+money	tr	gbp	21	yirmi bir sterlin sıfır peni
+money	tr	gbp	22	yirmi iki sterlin sıfır peni
+money	tr	gbp	42	kırk iki sterlin sıfır peni
+money	tr	gbp	100	yüz sterlin sıfır peni
+money	tr	gbp	101	yüz bir sterlin sıfır peni
+money	tr	gbp	121	yüz yirmi bir sterlin sıfır peni
+money	tr	gbp	999	dokuz yüz doksan dokuz sterlin sıfır peni
+money	tr	gbp	1000	bin sterlin sıfır peni
+money	tr	gbp	1001	bin bir sterlin sıfır peni
+money	tr	gbp	2000	iki bin sterlin sıfır peni
+money	tr	gbp	2001	iki bin bir sterlin sıfır peni
+money	tr	gbp	5000	beş bin sterlin sıfır peni
+money	tr	gbp	21000	yirmi bir bin sterlin sıfır peni
+money	tr	gbp	22000	yirmi iki bin sterlin sıfır peni
+money	tr	gbp	41000	kırk bir bin sterlin sıfır peni
+money	tr	gbp	42000	kırk iki bin sterlin sıfır peni
+money	tr	gbp	100000	yüz bin sterlin sıfır peni
+money	tr	gbp	1000000	bir milyon sterlin sıfır peni
+money	tr	gbp	2000000	iki milyon sterlin sıfır peni
+money	tr	gbp	1000000000	bir milyar sterlin sıfır peni
+money	tr	gbp	123.45	yüz yirmi üç sterlin kırk beş peni
+money	tr	gbp	-1	eksi bir sterlin sıfır peni
+money	tr	gbp	-2	eksi iki sterlin sıfır peni
+money	tr	gbp	-41.5	eksi kırk bir sterlin elli peni
+money	tr	gbp	-1000	eksi bin sterlin sıfır peni
+money	tr	gbp	1.999	iki sterlin sıfır peni
+money	tr	gbp	123.456	yüz yirmi üç sterlin kırk altı peni
+money	tr	gbp	1.005	bir sterlin bir peni
 plain	ru	0	ноль
 plain	ru	1	один
 plain	ru	2	два
@@ -3491,6 +3725,45 @@ money	ru	uzs	-1000
 money	ru	uzs	1.999	
 money	ru	uzs	123.456	
 money	ru	uzs	1.005	
+money	ru	gbp	0	ноль фунтов стерлингов ноль пенни
+money	ru	gbp	0.01	ноль фунтов стерлингов один пенни
+money	ru	gbp	0.02	ноль фунтов стерлингов два пенни
+money	ru	gbp	1	один фунт стерлингов ноль пенни
+money	ru	gbp	1.01	один фунт стерлингов один пенни
+money	ru	gbp	1.02	один фунт стерлингов два пенни
+money	ru	gbp	2	два фунта стерлингов ноль пенни
+money	ru	gbp	2.02	два фунта стерлингов два пенни
+money	ru	gbp	3	три фунта стерлингов ноль пенни
+money	ru	gbp	5	пять фунтов стерлингов ноль пенни
+money	ru	gbp	11	одиннадцать фунтов стерлингов ноль пенни
+money	ru	gbp	21	двадцать один фунт стерлингов ноль пенни
+money	ru	gbp	22	двадцать два фунта стерлингов ноль пенни
+money	ru	gbp	42	сорок два фунта стерлингов ноль пенни
+money	ru	gbp	100	сто фунтов стерлингов ноль пенни
+money	ru	gbp	101	сто один фунт стерлингов ноль пенни
+money	ru	gbp	121	сто двадцать один фунт стерлингов ноль пенни
+money	ru	gbp	999	девятьсот девяносто девять фунтов стерлингов ноль пенни
+money	ru	gbp	1000	одна тысяча фунтов стерлингов ноль пенни
+money	ru	gbp	1001	одна тысяча один фунт стерлингов ноль пенни
+money	ru	gbp	2000	две тысячи фунтов стерлингов ноль пенни
+money	ru	gbp	2001	две тысячи один фунт стерлингов ноль пенни
+money	ru	gbp	5000	пять тысяч фунтов стерлингов ноль пенни
+money	ru	gbp	21000	двадцать одна тысяча фунтов стерлингов ноль пенни
+money	ru	gbp	22000	двадцать две тысячи фунтов стерлингов ноль пенни
+money	ru	gbp	41000	сорок одна тысяча фунтов стерлингов ноль пенни
+money	ru	gbp	42000	сорок две тысячи фунтов стерлингов ноль пенни
+money	ru	gbp	100000	сто тысяч фунтов стерлингов ноль пенни
+money	ru	gbp	1000000	один миллион фунтов стерлингов ноль пенни
+money	ru	gbp	2000000	два миллиона фунтов стерлингов ноль пенни
+money	ru	gbp	1000000000	один миллиард фунтов стерлингов ноль пенни
+money	ru	gbp	123.45	сто двадцать три фунта стерлингов сорок пять пенни
+money	ru	gbp	-1	минус один фунт стерлингов ноль пенни
+money	ru	gbp	-2	минус два фунта стерлингов ноль пенни
+money	ru	gbp	-41.5	минус сорок один фунт стерлингов пятьдесят пенни
+money	ru	gbp	-1000	минус одна тысяча фунтов стерлингов ноль пенни
+money	ru	gbp	1.999	два фунта стерлингов ноль пенни
+money	ru	gbp	123.456	сто двадцать три фунта стерлингов сорок шесть пенни
+money	ru	gbp	1.005	один фунт стерлингов один пенни
 plain	ua	0	Нуль
 plain	ua	1	Один
 plain	ua	2	Два
@@ -3990,6 +4263,45 @@ money	ua	uzs	-1000
 money	ua	uzs	1.999	
 money	ua	uzs	123.456	
 money	ua	uzs	1.005	
+money	ua	gbp	0	Нуль фунтів стерлінгів Нуль пенні
+money	ua	gbp	0.01	Нуль фунтів стерлінгів Один пенні
+money	ua	gbp	0.02	Нуль фунтів стерлінгів Два пенні
+money	ua	gbp	1	Один фунт стерлінгів Нуль пенні
+money	ua	gbp	1.01	Один фунт стерлінгів Один пенні
+money	ua	gbp	1.02	Один фунт стерлінгів Два пенні
+money	ua	gbp	2	Два фунти стерлінгів Нуль пенні
+money	ua	gbp	2.02	Два фунти стерлінгів Два пенні
+money	ua	gbp	3	Три фунти стерлінгів Нуль пенні
+money	ua	gbp	5	П'ять фунтів стерлінгів Нуль пенні
+money	ua	gbp	11	Одинадцять фунтів стерлінгів Нуль пенні
+money	ua	gbp	21	Двадцять Один фунт стерлінгів Нуль пенні
+money	ua	gbp	22	Двадцять Два фунти стерлінгів Нуль пенні
+money	ua	gbp	42	Сорок Два фунти стерлінгів Нуль пенні
+money	ua	gbp	100	Сто фунтів стерлінгів Нуль пенні
+money	ua	gbp	101	Сто Один фунт стерлінгів Нуль пенні
+money	ua	gbp	121	Сто Двадцять Один фунт стерлінгів Нуль пенні
+money	ua	gbp	999	Дев'ятсот Дев'яносто Дев'ять фунтів стерлінгів Нуль пенні
+money	ua	gbp	1000	Одна тисяча фунтів стерлінгів Нуль пенні
+money	ua	gbp	1001	Одна тисяча Один фунт стерлінгів Нуль пенні
+money	ua	gbp	2000	Дві тисячі фунтів стерлінгів Нуль пенні
+money	ua	gbp	2001	Дві тисячі Один фунт стерлінгів Нуль пенні
+money	ua	gbp	5000	П'ять тисяч фунтів стерлінгів Нуль пенні
+money	ua	gbp	21000	Двадцять Одна тисяча фунтів стерлінгів Нуль пенні
+money	ua	gbp	22000	Двадцять Дві тисячі фунтів стерлінгів Нуль пенні
+money	ua	gbp	41000	Сорок Одна тисяча фунтів стерлінгів Нуль пенні
+money	ua	gbp	42000	Сорок Дві тисячі фунтів стерлінгів Нуль пенні
+money	ua	gbp	100000	Сто тисяч фунтів стерлінгів Нуль пенні
+money	ua	gbp	1000000	Один мільйон фунтів стерлінгів Нуль пенні
+money	ua	gbp	2000000	Два мільйони фунтів стерлінгів Нуль пенні
+money	ua	gbp	1000000000	Один мільярд фунтів стерлінгів Нуль пенні
+money	ua	gbp	123.45	Сто Двадцять Три фунти стерлінгів Сорок П'ять пенні
+money	ua	gbp	-1	мінус Один фунт стерлінгів Нуль пенні
+money	ua	gbp	-2	мінус Два фунти стерлінгів Нуль пенні
+money	ua	gbp	-41.5	мінус Сорок Один фунт стерлінгів П'ятдесят пенні
+money	ua	gbp	-1000	мінус Одна тисяча фунтів стерлінгів Нуль пенні
+money	ua	gbp	1.999	Два фунти стерлінгів Нуль пенні
+money	ua	gbp	123.456	Сто Двадцять Три фунти стерлінгів Сорок Шість пенні
+money	ua	gbp	1.005	Один фунт стерлінгів Один пенні
 plain	by	0	нуль
 plain	by	1	адзін
 plain	by	2	два
@@ -4489,6 +4801,45 @@ money	by	uzs	-1000
 money	by	uzs	1.999	
 money	by	uzs	123.456	
 money	by	uzs	1.005	
+money	by	gbp	0	нуль фунтаў стэрлінгаў нуль пені
+money	by	gbp	0.01	нуль фунтаў стэрлінгаў адзін пені
+money	by	gbp	0.02	нуль фунтаў стэрлінгаў два пені
+money	by	gbp	1	адзін фунт стэрлінгаў нуль пені
+money	by	gbp	1.01	адзін фунт стэрлінгаў адзін пені
+money	by	gbp	1.02	адзін фунт стэрлінгаў два пені
+money	by	gbp	2	два фунты стэрлінгаў нуль пені
+money	by	gbp	2.02	два фунты стэрлінгаў два пені
+money	by	gbp	3	тры фунты стэрлінгаў нуль пені
+money	by	gbp	5	пяць фунтаў стэрлінгаў нуль пені
+money	by	gbp	11	адзінаццаць фунтаў стэрлінгаў нуль пені
+money	by	gbp	21	дваццаць адзін фунт стэрлінгаў нуль пені
+money	by	gbp	22	дваццаць два фунты стэрлінгаў нуль пені
+money	by	gbp	42	сорак два фунты стэрлінгаў нуль пені
+money	by	gbp	100	сто фунтаў стэрлінгаў нуль пені
+money	by	gbp	101	сто адзін фунт стэрлінгаў нуль пені
+money	by	gbp	121	сто дваццаць адзін фунт стэрлінгаў нуль пені
+money	by	gbp	999	дзевяцьсот дзевяноста дзевяць фунтаў стэрлінгаў нуль пені
+money	by	gbp	1000	адна тысяча фунтаў стэрлінгаў нуль пені
+money	by	gbp	1001	адна тысяча адзін фунт стэрлінгаў нуль пені
+money	by	gbp	2000	дзве тысячы фунтаў стэрлінгаў нуль пені
+money	by	gbp	2001	дзве тысячы адзін фунт стэрлінгаў нуль пені
+money	by	gbp	5000	пяць тысяч фунтаў стэрлінгаў нуль пені
+money	by	gbp	21000	дваццаць адна тысяча фунтаў стэрлінгаў нуль пені
+money	by	gbp	22000	дваццаць дзве тысячы фунтаў стэрлінгаў нуль пені
+money	by	gbp	41000	сорак адна тысяча фунтаў стэрлінгаў нуль пені
+money	by	gbp	42000	сорак дзве тысячы фунтаў стэрлінгаў нуль пені
+money	by	gbp	100000	сто тысяч фунтаў стэрлінгаў нуль пені
+money	by	gbp	1000000	адзін мільён фунтаў стэрлінгаў нуль пені
+money	by	gbp	2000000	два мільёна фунтаў стэрлінгаў нуль пені
+money	by	gbp	1000000000	адзін мільярд фунтаў стэрлінгаў нуль пені
+money	by	gbp	123.45	сто дваццаць тры фунты стэрлінгаў сорак пяць пені
+money	by	gbp	-1	мінус адзін фунт стэрлінгаў нуль пені
+money	by	gbp	-2	мінус два фунты стэрлінгаў нуль пені
+money	by	gbp	-41.5	мінус сорак адзін фунт стэрлінгаў пяцьдзесят пені
+money	by	gbp	-1000	мінус адна тысяча фунтаў стэрлінгаў нуль пені
+money	by	gbp	1.999	два фунты стэрлінгаў нуль пені
+money	by	gbp	123.456	сто дваццаць тры фунты стэрлінгаў сорак шэсць пені
+money	by	gbp	1.005	адзін фунт стэрлінгаў адзін пені
 plain	bg	0	нула
 plain	bg	1	един
 plain	bg	2	два
@@ -4988,6 +5339,45 @@ money	bg	uzs	-1000
 money	bg	uzs	1.999	
 money	bg	uzs	123.456	
 money	bg	uzs	1.005	
+money	bg	gbp	0	нула лири стерлинг и нула пенита
+money	bg	gbp	0.01	нула лири стерлинг и един пени
+money	bg	gbp	0.02	нула лири стерлинг и два пенита
+money	bg	gbp	1	една лира стерлинг и нула пенита
+money	bg	gbp	1.01	една лира стерлинг и един пени
+money	bg	gbp	1.02	една лира стерлинг и два пенита
+money	bg	gbp	2	две лири стерлинг и нула пенита
+money	bg	gbp	2.02	две лири стерлинг и два пенита
+money	bg	gbp	3	три лири стерлинг и нула пенита
+money	bg	gbp	5	пет лири стерлинг и нула пенита
+money	bg	gbp	11	единадесет лири стерлинг и нула пенита
+money	bg	gbp	21	двадесет и една лири стерлинг и нула пенита
+money	bg	gbp	22	двадесет и две лири стерлинг и нула пенита
+money	bg	gbp	42	четиридесет и две лири стерлинг и нула пенита
+money	bg	gbp	100	сто лири стерлинг и нула пенита
+money	bg	gbp	101	сто и една лири стерлинг и нула пенита
+money	bg	gbp	121	сто двадесет и една лири стерлинг и нула пенита
+money	bg	gbp	999	деветстотин деветдесет и девет лири стерлинг и нула пенита
+money	bg	gbp	1000	хиляда лири стерлинг и нула пенита
+money	bg	gbp	1001	хиляда и една лири стерлинг и нула пенита
+money	bg	gbp	2000	две хиляди лири стерлинг и нула пенита
+money	bg	gbp	2001	две хиляди и една лири стерлинг и нула пенита
+money	bg	gbp	5000	пет хиляди лири стерлинг и нула пенита
+money	bg	gbp	21000	двадесет и една хиляди лири стерлинг и нула пенита
+money	bg	gbp	22000	двадесет и две хиляди лири стерлинг и нула пенита
+money	bg	gbp	41000	четиридесет и една хиляди лири стерлинг и нула пенита
+money	bg	gbp	42000	четиридесет и две хиляди лири стерлинг и нула пенита
+money	bg	gbp	100000	сто хиляди лири стерлинг и нула пенита
+money	bg	gbp	1000000	един милион лири стерлинг и нула пенита
+money	bg	gbp	2000000	два милиона лири стерлинг и нула пенита
+money	bg	gbp	1000000000	един милиард лири стерлинг и нула пенита
+money	bg	gbp	123.45	сто двадесет и три лири стерлинг и четиридесет и пет пенита
+money	bg	gbp	-1	минус една лира стерлинг и нула пенита
+money	bg	gbp	-2	минус две лири стерлинг и нула пенита
+money	bg	gbp	-41.5	минус четиридесет и една лири стерлинг и петдесет пенита
+money	bg	gbp	-1000	минус хиляда лири стерлинг и нула пенита
+money	bg	gbp	1.999	две лири стерлинг и нула пенита
+money	bg	gbp	123.456	сто двадесет и три лири стерлинг и четиридесет и шест пенита
+money	bg	gbp	1.005	една лира стерлинг и един пени
 plain	pl	0	Zero
 plain	pl	1	Jeden
 plain	pl	2	Dwa
@@ -5487,6 +5877,45 @@ money	pl	uzs	-1000
 money	pl	uzs	1.999	
 money	pl	uzs	123.456	
 money	pl	uzs	1.005	
+money	pl	gbp	0	Zero funtów szterlingów Zero pensów
+money	pl	gbp	0.01	Zero funtów szterlingów Jeden pens
+money	pl	gbp	0.02	Zero funtów szterlingów Dwa pensy
+money	pl	gbp	1	Jeden funt szterling Zero pensów
+money	pl	gbp	1.01	Jeden funt szterling Jeden pens
+money	pl	gbp	1.02	Jeden funt szterling Dwa pensy
+money	pl	gbp	2	Dwa funty szterlingi Zero pensów
+money	pl	gbp	2.02	Dwa funty szterlingi Dwa pensy
+money	pl	gbp	3	Trzy funty szterlingi Zero pensów
+money	pl	gbp	5	Pięć funtów szterlingów Zero pensów
+money	pl	gbp	11	Jedenaście funtów szterlingów Zero pensów
+money	pl	gbp	21	Dwadzieścia Jeden funt szterling Zero pensów
+money	pl	gbp	22	Dwadzieścia Dwa funty szterlingi Zero pensów
+money	pl	gbp	42	Czterdzieści Dwa funty szterlingi Zero pensów
+money	pl	gbp	100	Sto funtów szterlingów Zero pensów
+money	pl	gbp	101	Sto Jeden funt szterling Zero pensów
+money	pl	gbp	121	Sto Dwadzieścia Jeden funt szterling Zero pensów
+money	pl	gbp	999	Dziewięćset Dziewięćdziesiąt Dziewięć funtów szterlingów Zero pensów
+money	pl	gbp	1000	Jeden tysiąc funtów szterlingów Zero pensów
+money	pl	gbp	1001	Jeden tysiąc Jeden funt szterling Zero pensów
+money	pl	gbp	2000	Dwa tysiące funtów szterlingów Zero pensów
+money	pl	gbp	2001	Dwa tysiące Jeden funt szterling Zero pensów
+money	pl	gbp	5000	Pięć tysięcy funtów szterlingów Zero pensów
+money	pl	gbp	21000	Dwadzieścia Jeden tysięcy funtów szterlingów Zero pensów
+money	pl	gbp	22000	Dwadzieścia Dwa tysiące funtów szterlingów Zero pensów
+money	pl	gbp	41000	Czterdzieści Jeden tysięcy funtów szterlingów Zero pensów
+money	pl	gbp	42000	Czterdzieści Dwa tysiące funtów szterlingów Zero pensów
+money	pl	gbp	100000	Sto tysięcy funtów szterlingów Zero pensów
+money	pl	gbp	1000000	Jeden milion funtów szterlingów Zero pensów
+money	pl	gbp	2000000	Dwa miliony funtów szterlingów Zero pensów
+money	pl	gbp	1000000000	Jeden miliard funtów szterlingów Zero pensów
+money	pl	gbp	123.45	Sto Dwadzieścia Trzy funty szterlingi Czterdzieści Pięć pensów
+money	pl	gbp	-1	minus Jeden funt szterling Zero pensów
+money	pl	gbp	-2	minus Dwa funty szterlingi Zero pensów
+money	pl	gbp	-41.5	minus Czterdzieści Jeden funt szterling Pięćdziesiąt pensów
+money	pl	gbp	-1000	minus Jeden tysiąc funtów szterlingów Zero pensów
+money	pl	gbp	1.999	Dwa funty szterlingi Zero pensów
+money	pl	gbp	123.456	Sto Dwadzieścia Trzy funty szterlingi Czterdzieści Sześć pensów
+money	pl	gbp	1.005	Jeden funt szterling Jeden pens
 plain	am	0	ዜሮ
 plain	am	1	አንድ
 plain	am	2	ሁለት
@@ -5986,6 +6415,45 @@ money	am	uzs	-1000
 money	am	uzs	1.999	
 money	am	uzs	123.456	
 money	am	uzs	1.005	
+money	am	gbp	0	
+money	am	gbp	0.01	
+money	am	gbp	0.02	
+money	am	gbp	1	
+money	am	gbp	1.01	
+money	am	gbp	1.02	
+money	am	gbp	2	
+money	am	gbp	2.02	
+money	am	gbp	3	
+money	am	gbp	5	
+money	am	gbp	11	
+money	am	gbp	21	
+money	am	gbp	22	
+money	am	gbp	42	
+money	am	gbp	100	
+money	am	gbp	101	
+money	am	gbp	121	
+money	am	gbp	999	
+money	am	gbp	1000	
+money	am	gbp	1001	
+money	am	gbp	2000	
+money	am	gbp	2001	
+money	am	gbp	5000	
+money	am	gbp	21000	
+money	am	gbp	22000	
+money	am	gbp	41000	
+money	am	gbp	42000	
+money	am	gbp	100000	
+money	am	gbp	1000000	
+money	am	gbp	2000000	
+money	am	gbp	1000000000	
+money	am	gbp	123.45	
+money	am	gbp	-1	
+money	am	gbp	-2	
+money	am	gbp	-41.5	
+money	am	gbp	-1000	
+money	am	gbp	1.999	
+money	am	gbp	123.456	
+money	am	gbp	1.005	
 plain	uz	0	nol
 plain	uz	1	bir
 plain	uz	2	ikki
@@ -6485,3 +6953,42 @@ money	uz	uzs	-1000	minus ming so'm nol tiyin
 money	uz	uzs	1.999	ikki so'm nol tiyin
 money	uz	uzs	123.456	yuz yigirma uch so'm qirq olti tiyin
 money	uz	uzs	1.005	bir so'm bir tiyin
+money	uz	gbp	0	nol funt sterling nol pens
+money	uz	gbp	0.01	nol funt sterling bir pens
+money	uz	gbp	0.02	nol funt sterling ikki pens
+money	uz	gbp	1	bir funt sterling nol pens
+money	uz	gbp	1.01	bir funt sterling bir pens
+money	uz	gbp	1.02	bir funt sterling ikki pens
+money	uz	gbp	2	ikki funt sterling nol pens
+money	uz	gbp	2.02	ikki funt sterling ikki pens
+money	uz	gbp	3	uch funt sterling nol pens
+money	uz	gbp	5	besh funt sterling nol pens
+money	uz	gbp	11	o'n bir funt sterling nol pens
+money	uz	gbp	21	yigirma bir funt sterling nol pens
+money	uz	gbp	22	yigirma ikki funt sterling nol pens
+money	uz	gbp	42	qirq ikki funt sterling nol pens
+money	uz	gbp	100	yuz funt sterling nol pens
+money	uz	gbp	101	yuz bir funt sterling nol pens
+money	uz	gbp	121	yuz yigirma bir funt sterling nol pens
+money	uz	gbp	999	to'qqiz yuz to'qson to'qqiz funt sterling nol pens
+money	uz	gbp	1000	ming funt sterling nol pens
+money	uz	gbp	1001	ming bir funt sterling nol pens
+money	uz	gbp	2000	ikki ming funt sterling nol pens
+money	uz	gbp	2001	ikki ming bir funt sterling nol pens
+money	uz	gbp	5000	besh ming funt sterling nol pens
+money	uz	gbp	21000	yigirma bir ming funt sterling nol pens
+money	uz	gbp	22000	yigirma ikki ming funt sterling nol pens
+money	uz	gbp	41000	qirq bir ming funt sterling nol pens
+money	uz	gbp	42000	qirq ikki ming funt sterling nol pens
+money	uz	gbp	100000	yuz ming funt sterling nol pens
+money	uz	gbp	1000000	bir million funt sterling nol pens
+money	uz	gbp	2000000	ikki million funt sterling nol pens
+money	uz	gbp	1000000000	bir milliard funt sterling nol pens
+money	uz	gbp	123.45	yuz yigirma uch funt sterling qirq besh pens
+money	uz	gbp	-1	minus bir funt sterling nol pens
+money	uz	gbp	-2	minus ikki funt sterling nol pens
+money	uz	gbp	-41.5	minus qirq bir funt sterling ellik pens
+money	uz	gbp	-1000	minus ming funt sterling nol pens
+money	uz	gbp	1.999	ikki funt sterling nol pens
+money	uz	gbp	123.456	yuz yigirma uch funt sterling qirq olti pens
+money	uz	gbp	1.005	bir funt sterling bir pens

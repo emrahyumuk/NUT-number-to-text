@@ -109,6 +109,13 @@ namespace Nut.TextConverters
             Names = new[] { "so'm", "so'm" },
             SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
           };
+        case Currency.GBP:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "funt sterling", "funt sterling" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "pens", "pens" } }
+          };
         case Currency.USD:
           return new CurrencyModel
           {

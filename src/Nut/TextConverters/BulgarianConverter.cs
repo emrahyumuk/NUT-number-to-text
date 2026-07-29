@@ -224,6 +224,14 @@ namespace Nut.TextConverters
                         Gender = GenderGroup.Masculine,
                         SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "евроцент", "евроцента", "евроцента" } }
                     };
+                case Currency.GBP:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "лира стерлинг", "лири стерлинг", "лири стерлинг" },
+                    Gender = GenderGroup.Feminine,
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "пени", "пенита", "пенита" } }
+                  };
                 case Currency.USD:
                     return new CurrencyModel
                     {
