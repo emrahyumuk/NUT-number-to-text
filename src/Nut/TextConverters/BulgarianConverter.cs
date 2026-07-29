@@ -4,7 +4,7 @@ using Nut.Models;
 
 namespace Nut.TextConverters
 {
-    public class BulgarianConverter : BaseConverter
+    public sealed class BulgarianConverter : BaseConverter
     {
         private static Lazy<BulgarianConverter> Lazy = new Lazy<BulgarianConverter>(() => new BulgarianConverter());
         public static BulgarianConverter Instance => Lazy.Value;
@@ -12,7 +12,7 @@ namespace Nut.TextConverters
 
         protected override string NegativeSign => "минус";
 
-        protected int textType = 0;
+        private int textType;
 
         public BulgarianConverter()
         {

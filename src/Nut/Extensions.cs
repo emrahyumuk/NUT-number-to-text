@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Nut
 {
-    public static class Extentions
+    public static class Extensions
     {
         /// <summary>
         /// Language and culture codes to converters. Matching ignores case, so "en-US",

@@ -19,7 +19,7 @@ Money To Text Converter
 
 **Unsupported input:** asking for a language or currency that is not supported throws
 `NotSupportedException` rather than returning an empty string — a blank amount field is
-harder to notice than an exception. `Extentions.SupportedLanguages` lists what is accepted.
+harder to notice than an exception. `Extensions.SupportedLanguages` lists what is accepted.
 
 **Cheque form:** `Options.SubUnitFormat = SubUnitFormat.Fraction` writes the fractional
 part as `and 50/100` instead of `fifty cents`, which is how amounts are commonly written
