@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 namespace Nut.Tests
 {
     /// <summary>
@@ -27,6 +28,42 @@ namespace Nut.Tests
         public void CultureCodesWorkOnTheIntOverload(string culture, string expected)
         {
             Assert.That(101.ToText(culture), Is.EqualTo(expected));
+        }
+
+        /// <summary>
+        /// The obvious way to pick a language is to ask the framework for one, so whatever
+        /// CultureInfo calls a language has to resolve. Ukrainian and Belarusian were keyed
+        /// by their ccTLDs, "ua" and "by", so the codes .NET actually hands you threw.
+        /// </summary>
+        [TestCase("en-US")]
+        [TestCase("fr-FR")]
+        [TestCase("de-DE")]
+        [TestCase("es-ES")]
+        [TestCase("pt-BR")]
+        [TestCase("tr-TR")]
+        [TestCase("ru-RU")]
+        [TestCase("uk-UA")]
+        [TestCase("be-BY")]
+        [TestCase("bg-BG")]
+        [TestCase("pl-PL")]
+        [TestCase("lv-LV")]
+        [TestCase("uz-UZ")]
+        [TestCase("am-ET")]
+        public void TheCodesCultureInfoReportsAllResolve(string cultureName)
+        {
+            var culture = new CultureInfo(cultureName);
+
+            Assert.That(() => 101.ToText(culture.Name), Throws.Nothing);
+            Assert.That(() => 101.ToText(culture.TwoLetterISOLanguageName), Throws.Nothing);
+        }
+
+        /// <summary>The ccTLDs those two languages used to be keyed by still work.</summary>
+        [TestCase("ua", "uk")]
+        [TestCase("by", "be")]
+        [TestCase("by-BY", "be-BY")]
+        public void TheOldCcTldKeysStillResolveToTheSameConverter(string old, string current)
+        {
+            Assert.That(101.ToText(old), Is.EqualTo(101.ToText(current)));
         }
 
         /// <summary>The same string must give the same answer whichever overload it reaches.</summary>

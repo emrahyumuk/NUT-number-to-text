@@ -124,9 +124,17 @@ assert on that text, review the tables below before taking this release.
 ### Changed
 
 - **`Nut.Extentions` is renamed to `Nut.Extensions`**, correcting a long-standing typo in
-  the class name. Extension-method calls — `number.ToText("en")` — are unaffected, since
-  they never name the class. Only code calling it explicitly, such as
-  `Nut.Extentions.ToText(...)`, needs updating.
+  the class name. Source using extension-method syntax — `number.ToText("en")` — only needs
+  recompiling, since it never names the class. Anything already compiled does name it: the
+  class is baked into the call site, so an assembly built against 3.x and not rebuilt will
+  fail to find `Nut.Extentions` at runtime. Recompile against 4.0.0 rather than swapping the
+  DLL underneath.
+
+- **Ukrainian and Belarusian answer to their ISO 639-1 codes**, `uk` and `be`, which is what
+  `CultureInfo.TwoLetterISOLanguageName` returns. They were keyed by the ccTLDs `ua` and
+  `by`, so the natural way to pick a language missed them — silently, before this release
+  started throwing. `Culture.Belarusian` was `by-BY`, which is not a culture .NET knows; it
+  is now `be-BY`. All three old strings still resolve.
 
 - **`BulgarianConverter` is now `sealed`**, like the other thirteen converters. Word
   tables are shared between instances, so a subclass writing to one would corrupt the
@@ -139,10 +147,15 @@ assert on that text, review the tables below before taking this release.
   it lists what is accepted.
 
   If you relied on the empty string, catch `NotSupportedException` or check
-  `Extentions.SupportedLanguages` first.
+  `Extensions.SupportedLanguages` first.
 
 - **Numbers past the supported range throw `ArgumentOutOfRangeException`** instead of a bare
   `Exception`, so callers can catch it selectively. The message states the range.
+
+  On money amounts the check now runs before the conversion rather than after it. Above
+  2^63 the conversion failed first and raised `OverflowException`, so a caller who narrowed
+  their catch the way this entry recommends still crashed. Leaving the whole part as digits
+  with `MainUnitNotConvertedToText` skipped the conversion, and with it the check.
 
 - **Neuter gender.** `GenderGroup` had only `None`, `Feminine` and `Masculine`, so a
   neuter currency name fell through to the masculine numeral: `един евро`, `один песо`.
@@ -172,12 +185,13 @@ assert on that text, review the tables below before taking this release.
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
 
-- `Extentions.SupportedLanguages`, listing every language and culture string accepted.
+- `Extensions.SupportedLanguages`, listing every language and culture string accepted.
 
 - `Options.SubUnitFormat`, an enum choosing how the fractional part is written: `Words`
   (the default, "fifty cents"), `Digits` ("50 cents"), or `Fraction` ("and 50/100"), the
   form commonly used on cheques. `SubUnitNotConvertedToText` still works and means
-  `Digits`.
+  `Digits`; setting `SubUnitFormat` explicitly overrides it, including when what you set is
+  `Words`.
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
   carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.

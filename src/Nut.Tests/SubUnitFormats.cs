@@ -49,6 +49,20 @@ namespace Nut.Tests
             Assert.That(viaBool, Is.EqualTo(viaEnum));
         }
 
+        /// <summary>
+        /// Words is the enum's zero value, so an explicit request for it used to be
+        /// indistinguishable from an unset option and the older bool quietly won — which
+        /// is exactly what a caller migrating one call site off the bool would hit.
+        /// </summary>
+        [Test]
+        public void AskingForWordsBeatsTheOlderFlag()
+        {
+            var text = 2575.50m.ToText(Currency.USD, Language.English,
+                new Options { SubUnitNotConvertedToText = true, SubUnitFormat = SubUnitFormat.Words });
+
+            Assert.That(text, Is.EqualTo("two thousand five hundred seventy-five dollars fifty cents"));
+        }
+
         /// <summary>Languages that already join the two parts with a word keep that word
         /// rather than borrowing the English "and".</summary>
         [TestCase(Language.Spanish, Currency.EUR, "ciento cinco euros con 50/100")]
