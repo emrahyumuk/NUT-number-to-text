@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Nut.Models;
 
 namespace Nut.TextConverters
@@ -16,6 +17,23 @@ namespace Nut.TextConverters
         public EnglishConverter()
         {
             Initialize();
+        }
+
+        /// <summary>
+        /// Compound numbers from twenty-one through ninety-nine are hyphenated
+        /// (Merriam-Webster). Only the tens-and-units pair takes a hyphen; everything else
+        /// stays spaced, so 121 is "one hundred twenty-one".
+        /// </summary>
+        protected override long AppendTens(long num, StringBuilder builder)
+        {
+            if (num > 20)
+            {
+                var tens = num / 10 * 10;
+                builder.Append(NumberTexts[tens][0]);
+                num = num - tens;
+                builder.Append(num > 0 ? "-" : " ");
+            }
+            return num;
         }
 
         private void Initialize()

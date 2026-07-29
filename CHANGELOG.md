@@ -120,6 +120,10 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   Standing alone the numeral is now `eins` rather than `ein`, and `ein` is used before a
   currency name, where German requires it: `ein Euro`.
 
+- **English compound numbers are hyphenated**: `twenty-one`, `forty-two`,
+  `ninety-nine`. Only the tens-and-units pair takes a hyphen, so `121` reads as
+  "one hundred twenty-one".
+
 ### Added
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than

@@ -1,4 +1,4 @@
-namespace Nut.Tests
+﻿namespace Nut.Tests
 {
     /// <summary>
     /// Pins the current plain-number output of every language so later refactors have to
@@ -24,14 +24,14 @@ namespace Nut.Tests
         [TestCase(11, "eleven")]
         [TestCase(15, "fifteen")]
         [TestCase(20, "twenty")]
-        [TestCase(21, "twenty one")] // BUG: compounds 21-99 are always hyphenated -> "twenty-one" (Merriam-Webster)
-        [TestCase(42, "forty two")] // BUG: -> "forty-two"
+        [TestCase(21, "twenty-one")]
+        [TestCase(42, "forty-two")]
         [TestCase(100, "one hundred")]
         [TestCase(101, "one hundred one")]
         [TestCase(200, "two hundred")]
-        [TestCase(999, "nine hundred ninety nine")]
+        [TestCase(999, "nine hundred ninety-nine")]
         [TestCase(1000, "one thousand")]
-        [TestCase(41000, "forty one thousand")]
+        [TestCase(41000, "forty-one thousand")]
         [TestCase(1000000, "one million")]
         [TestCase(1000000000, "one billion")]
         public void English(long number, string expected) => Check(number, Language.English, expected);
