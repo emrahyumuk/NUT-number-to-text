@@ -12,9 +12,21 @@ version rather than a complete list.
 
 ## [Unreleased]
 
-Every change below alters produced text, so this is shaping up as **4.0.0** rather than a
-minor release. Of 4536 checked conversions, **1181 change** relative to the published
-3.4.1. Turkish and Amharic are untouched; Polish is not, its numerals were stored capitalised.
+Every change below alters produced text, so this is **4.0.0** rather than a minor release.
+
+Measured against the published 3.4.1 over 5520 conversions — the twelve languages it
+shipped with, every currency it had, and a spread of amounts:
+
+| | |
+| --- | --- |
+| identical | 1978 |
+| wording changed | 2238 |
+| produced nothing at all before | 1304 (1226 now read, 78 now throw) |
+| worked before and fails now | 0 |
+
+No language is untouched, because the fixes to negative amounts and to decimals past the
+sub-unit reach all of them. Turkish and Amharic change on those seven amounts and nothing
+else; their wording is as it was.
 
 Upgrading from 3.4.1 or 3.5.0 will change the wording your application prints. If you
 assert on that text, review the tables below before taking this release.
