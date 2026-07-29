@@ -116,6 +116,55 @@ namespace Nut.TextConverters
             Names = new[] { "funt sterling", "funt sterling" },
             SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "pens", "pens" } }
           };
+        case Currency.ARS:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Argentina pesosi", "Argentina pesosi" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "sentavo", "sentavo" } }
+          };
+        case Currency.BGN:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Bolgariya levi", "Bolgariya levi" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "stotinka", "stotinka" } }
+          };
+        case Currency.BRL:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Braziliya reali", "Braziliya reali" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "sentavo", "sentavo" } }
+          };
+        case Currency.BYN:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Belarus rubli", "Belarus rubli" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
+          };
+        case Currency.ETB:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Efiopiya biri", "Efiopiya biri" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
+          };
+        case Currency.PLN:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Polsha zlotiysi", "Polsha zlotiysi" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "grosh", "grosh" } }
+          };
+        case Currency.UAH:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Ukraina grivnasi", "Ukraina grivnasi" },
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
+          };
         case Currency.USD:
           return new CurrencyModel
           {

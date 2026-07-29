@@ -224,45 +224,45 @@ money	en	uah	-1000	minus one thousand ukrainian hryvnia zero kopiyka
 money	en	uah	1.999	two ukrainian hryvnia zero kopiyka
 money	en	uah	123.456	one hundred twenty-three ukrainian hryvnia forty-six kopiyky
 money	en	uah	1.005	one ukrainian hryvnia one kopiyka
-money	en	bgn	0	
-money	en	bgn	0.01	
-money	en	bgn	0.02	
-money	en	bgn	1	
-money	en	bgn	1.01	
-money	en	bgn	1.02	
-money	en	bgn	2	
-money	en	bgn	2.02	
-money	en	bgn	3	
-money	en	bgn	5	
-money	en	bgn	11	
-money	en	bgn	21	
-money	en	bgn	22	
-money	en	bgn	42	
-money	en	bgn	100	
-money	en	bgn	101	
-money	en	bgn	121	
-money	en	bgn	999	
-money	en	bgn	1000	
-money	en	bgn	1001	
-money	en	bgn	2000	
-money	en	bgn	2001	
-money	en	bgn	5000	
-money	en	bgn	21000	
-money	en	bgn	22000	
-money	en	bgn	41000	
-money	en	bgn	42000	
-money	en	bgn	100000	
-money	en	bgn	1000000	
-money	en	bgn	2000000	
-money	en	bgn	1000000000	
-money	en	bgn	123.45	
-money	en	bgn	-1	
-money	en	bgn	-2	
-money	en	bgn	-41.5	
-money	en	bgn	-1000	
-money	en	bgn	1.999	
-money	en	bgn	123.456	
-money	en	bgn	1.005	
+money	en	bgn	0	zero Bulgarian lev zero stotinka
+money	en	bgn	0.01	zero Bulgarian lev one stotinka
+money	en	bgn	0.02	zero Bulgarian lev two stotinki
+money	en	bgn	1	one Bulgarian lev zero stotinka
+money	en	bgn	1.01	one Bulgarian lev one stotinka
+money	en	bgn	1.02	one Bulgarian lev two stotinki
+money	en	bgn	2	two Bulgarian leva zero stotinka
+money	en	bgn	2.02	two Bulgarian leva two stotinki
+money	en	bgn	3	three Bulgarian leva zero stotinka
+money	en	bgn	5	five Bulgarian leva zero stotinka
+money	en	bgn	11	eleven Bulgarian leva zero stotinka
+money	en	bgn	21	twenty-one Bulgarian leva zero stotinka
+money	en	bgn	22	twenty-two Bulgarian leva zero stotinka
+money	en	bgn	42	forty-two Bulgarian leva zero stotinka
+money	en	bgn	100	one hundred Bulgarian leva zero stotinka
+money	en	bgn	101	one hundred one Bulgarian leva zero stotinka
+money	en	bgn	121	one hundred twenty-one Bulgarian leva zero stotinka
+money	en	bgn	999	nine hundred ninety-nine Bulgarian leva zero stotinka
+money	en	bgn	1000	one thousand Bulgarian leva zero stotinka
+money	en	bgn	1001	one thousand one Bulgarian leva zero stotinka
+money	en	bgn	2000	two thousand Bulgarian leva zero stotinka
+money	en	bgn	2001	two thousand one Bulgarian leva zero stotinka
+money	en	bgn	5000	five thousand Bulgarian leva zero stotinka
+money	en	bgn	21000	twenty-one thousand Bulgarian leva zero stotinka
+money	en	bgn	22000	twenty-two thousand Bulgarian leva zero stotinka
+money	en	bgn	41000	forty-one thousand Bulgarian leva zero stotinka
+money	en	bgn	42000	forty-two thousand Bulgarian leva zero stotinka
+money	en	bgn	100000	one hundred thousand Bulgarian leva zero stotinka
+money	en	bgn	1000000	one million Bulgarian leva zero stotinka
+money	en	bgn	2000000	two million Bulgarian leva zero stotinka
+money	en	bgn	1000000000	one billion Bulgarian leva zero stotinka
+money	en	bgn	123.45	one hundred twenty-three Bulgarian leva forty-five stotinki
+money	en	bgn	-1	minus one Bulgarian lev zero stotinka
+money	en	bgn	-2	minus two Bulgarian leva zero stotinka
+money	en	bgn	-41.5	minus forty-one Bulgarian leva fifty stotinki
+money	en	bgn	-1000	minus one thousand Bulgarian leva zero stotinka
+money	en	bgn	1.999	two Bulgarian leva zero stotinka
+money	en	bgn	123.456	one hundred twenty-three Bulgarian leva forty-six stotinki
+money	en	bgn	1.005	one Bulgarian lev one stotinka
 money	en	etb	0	zero birr zero cent
 money	en	etb	0.01	zero birr one cent
 money	en	etb	0.02	zero birr two cents
@@ -380,123 +380,123 @@ money	en	byn	-1000	minus one thousand Belarusian rubles zero kopek
 money	en	byn	1.999	two Belarusian rubles zero kopek
 money	en	byn	123.456	one hundred twenty-three Belarusian rubles forty-six kopeks
 money	en	byn	1.005	one Belarusian ruble one kopek
-money	en	ars	0	
-money	en	ars	0.01	
-money	en	ars	0.02	
-money	en	ars	1	
-money	en	ars	1.01	
-money	en	ars	1.02	
-money	en	ars	2	
-money	en	ars	2.02	
-money	en	ars	3	
-money	en	ars	5	
-money	en	ars	11	
-money	en	ars	21	
-money	en	ars	22	
-money	en	ars	42	
-money	en	ars	100	
-money	en	ars	101	
-money	en	ars	121	
-money	en	ars	999	
-money	en	ars	1000	
-money	en	ars	1001	
-money	en	ars	2000	
-money	en	ars	2001	
-money	en	ars	5000	
-money	en	ars	21000	
-money	en	ars	22000	
-money	en	ars	41000	
-money	en	ars	42000	
-money	en	ars	100000	
-money	en	ars	1000000	
-money	en	ars	2000000	
-money	en	ars	1000000000	
-money	en	ars	123.45	
-money	en	ars	-1	
-money	en	ars	-2	
-money	en	ars	-41.5	
-money	en	ars	-1000	
-money	en	ars	1.999	
-money	en	ars	123.456	
-money	en	ars	1.005	
-money	en	brl	0	
-money	en	brl	0.01	
-money	en	brl	0.02	
-money	en	brl	1	
-money	en	brl	1.01	
-money	en	brl	1.02	
-money	en	brl	2	
-money	en	brl	2.02	
-money	en	brl	3	
-money	en	brl	5	
-money	en	brl	11	
-money	en	brl	21	
-money	en	brl	22	
-money	en	brl	42	
-money	en	brl	100	
-money	en	brl	101	
-money	en	brl	121	
-money	en	brl	999	
-money	en	brl	1000	
-money	en	brl	1001	
-money	en	brl	2000	
-money	en	brl	2001	
-money	en	brl	5000	
-money	en	brl	21000	
-money	en	brl	22000	
-money	en	brl	41000	
-money	en	brl	42000	
-money	en	brl	100000	
-money	en	brl	1000000	
-money	en	brl	2000000	
-money	en	brl	1000000000	
-money	en	brl	123.45	
-money	en	brl	-1	
-money	en	brl	-2	
-money	en	brl	-41.5	
-money	en	brl	-1000	
-money	en	brl	1.999	
-money	en	brl	123.456	
-money	en	brl	1.005	
-money	en	uzs	0	
-money	en	uzs	0.01	
-money	en	uzs	0.02	
-money	en	uzs	1	
-money	en	uzs	1.01	
-money	en	uzs	1.02	
-money	en	uzs	2	
-money	en	uzs	2.02	
-money	en	uzs	3	
-money	en	uzs	5	
-money	en	uzs	11	
-money	en	uzs	21	
-money	en	uzs	22	
-money	en	uzs	42	
-money	en	uzs	100	
-money	en	uzs	101	
-money	en	uzs	121	
-money	en	uzs	999	
-money	en	uzs	1000	
-money	en	uzs	1001	
-money	en	uzs	2000	
-money	en	uzs	2001	
-money	en	uzs	5000	
-money	en	uzs	21000	
-money	en	uzs	22000	
-money	en	uzs	41000	
-money	en	uzs	42000	
-money	en	uzs	100000	
-money	en	uzs	1000000	
-money	en	uzs	2000000	
-money	en	uzs	1000000000	
-money	en	uzs	123.45	
-money	en	uzs	-1	
-money	en	uzs	-2	
-money	en	uzs	-41.5	
-money	en	uzs	-1000	
-money	en	uzs	1.999	
-money	en	uzs	123.456	
-money	en	uzs	1.005	
+money	en	ars	0	zero Argentine peso zero centavo
+money	en	ars	0.01	zero Argentine peso one centavo
+money	en	ars	0.02	zero Argentine peso two centavos
+money	en	ars	1	one Argentine peso zero centavo
+money	en	ars	1.01	one Argentine peso one centavo
+money	en	ars	1.02	one Argentine peso two centavos
+money	en	ars	2	two Argentine pesos zero centavo
+money	en	ars	2.02	two Argentine pesos two centavos
+money	en	ars	3	three Argentine pesos zero centavo
+money	en	ars	5	five Argentine pesos zero centavo
+money	en	ars	11	eleven Argentine pesos zero centavo
+money	en	ars	21	twenty-one Argentine pesos zero centavo
+money	en	ars	22	twenty-two Argentine pesos zero centavo
+money	en	ars	42	forty-two Argentine pesos zero centavo
+money	en	ars	100	one hundred Argentine pesos zero centavo
+money	en	ars	101	one hundred one Argentine pesos zero centavo
+money	en	ars	121	one hundred twenty-one Argentine pesos zero centavo
+money	en	ars	999	nine hundred ninety-nine Argentine pesos zero centavo
+money	en	ars	1000	one thousand Argentine pesos zero centavo
+money	en	ars	1001	one thousand one Argentine pesos zero centavo
+money	en	ars	2000	two thousand Argentine pesos zero centavo
+money	en	ars	2001	two thousand one Argentine pesos zero centavo
+money	en	ars	5000	five thousand Argentine pesos zero centavo
+money	en	ars	21000	twenty-one thousand Argentine pesos zero centavo
+money	en	ars	22000	twenty-two thousand Argentine pesos zero centavo
+money	en	ars	41000	forty-one thousand Argentine pesos zero centavo
+money	en	ars	42000	forty-two thousand Argentine pesos zero centavo
+money	en	ars	100000	one hundred thousand Argentine pesos zero centavo
+money	en	ars	1000000	one million Argentine pesos zero centavo
+money	en	ars	2000000	two million Argentine pesos zero centavo
+money	en	ars	1000000000	one billion Argentine pesos zero centavo
+money	en	ars	123.45	one hundred twenty-three Argentine pesos forty-five centavos
+money	en	ars	-1	minus one Argentine peso zero centavo
+money	en	ars	-2	minus two Argentine pesos zero centavo
+money	en	ars	-41.5	minus forty-one Argentine pesos fifty centavos
+money	en	ars	-1000	minus one thousand Argentine pesos zero centavo
+money	en	ars	1.999	two Argentine pesos zero centavo
+money	en	ars	123.456	one hundred twenty-three Argentine pesos forty-six centavos
+money	en	ars	1.005	one Argentine peso one centavo
+money	en	brl	0	zero Brazilian real zero centavo
+money	en	brl	0.01	zero Brazilian real one centavo
+money	en	brl	0.02	zero Brazilian real two centavos
+money	en	brl	1	one Brazilian real zero centavo
+money	en	brl	1.01	one Brazilian real one centavo
+money	en	brl	1.02	one Brazilian real two centavos
+money	en	brl	2	two Brazilian reais zero centavo
+money	en	brl	2.02	two Brazilian reais two centavos
+money	en	brl	3	three Brazilian reais zero centavo
+money	en	brl	5	five Brazilian reais zero centavo
+money	en	brl	11	eleven Brazilian reais zero centavo
+money	en	brl	21	twenty-one Brazilian reais zero centavo
+money	en	brl	22	twenty-two Brazilian reais zero centavo
+money	en	brl	42	forty-two Brazilian reais zero centavo
+money	en	brl	100	one hundred Brazilian reais zero centavo
+money	en	brl	101	one hundred one Brazilian reais zero centavo
+money	en	brl	121	one hundred twenty-one Brazilian reais zero centavo
+money	en	brl	999	nine hundred ninety-nine Brazilian reais zero centavo
+money	en	brl	1000	one thousand Brazilian reais zero centavo
+money	en	brl	1001	one thousand one Brazilian reais zero centavo
+money	en	brl	2000	two thousand Brazilian reais zero centavo
+money	en	brl	2001	two thousand one Brazilian reais zero centavo
+money	en	brl	5000	five thousand Brazilian reais zero centavo
+money	en	brl	21000	twenty-one thousand Brazilian reais zero centavo
+money	en	brl	22000	twenty-two thousand Brazilian reais zero centavo
+money	en	brl	41000	forty-one thousand Brazilian reais zero centavo
+money	en	brl	42000	forty-two thousand Brazilian reais zero centavo
+money	en	brl	100000	one hundred thousand Brazilian reais zero centavo
+money	en	brl	1000000	one million Brazilian reais zero centavo
+money	en	brl	2000000	two million Brazilian reais zero centavo
+money	en	brl	1000000000	one billion Brazilian reais zero centavo
+money	en	brl	123.45	one hundred twenty-three Brazilian reais forty-five centavos
+money	en	brl	-1	minus one Brazilian real zero centavo
+money	en	brl	-2	minus two Brazilian reais zero centavo
+money	en	brl	-41.5	minus forty-one Brazilian reais fifty centavos
+money	en	brl	-1000	minus one thousand Brazilian reais zero centavo
+money	en	brl	1.999	two Brazilian reais zero centavo
+money	en	brl	123.456	one hundred twenty-three Brazilian reais forty-six centavos
+money	en	brl	1.005	one Brazilian real one centavo
+money	en	uzs	0	zero Uzbek som zero tiyin
+money	en	uzs	0.01	zero Uzbek som one tiyin
+money	en	uzs	0.02	zero Uzbek som two tiyin
+money	en	uzs	1	one Uzbek som zero tiyin
+money	en	uzs	1.01	one Uzbek som one tiyin
+money	en	uzs	1.02	one Uzbek som two tiyin
+money	en	uzs	2	two Uzbek som zero tiyin
+money	en	uzs	2.02	two Uzbek som two tiyin
+money	en	uzs	3	three Uzbek som zero tiyin
+money	en	uzs	5	five Uzbek som zero tiyin
+money	en	uzs	11	eleven Uzbek som zero tiyin
+money	en	uzs	21	twenty-one Uzbek som zero tiyin
+money	en	uzs	22	twenty-two Uzbek som zero tiyin
+money	en	uzs	42	forty-two Uzbek som zero tiyin
+money	en	uzs	100	one hundred Uzbek som zero tiyin
+money	en	uzs	101	one hundred one Uzbek som zero tiyin
+money	en	uzs	121	one hundred twenty-one Uzbek som zero tiyin
+money	en	uzs	999	nine hundred ninety-nine Uzbek som zero tiyin
+money	en	uzs	1000	one thousand Uzbek som zero tiyin
+money	en	uzs	1001	one thousand one Uzbek som zero tiyin
+money	en	uzs	2000	two thousand Uzbek som zero tiyin
+money	en	uzs	2001	two thousand one Uzbek som zero tiyin
+money	en	uzs	5000	five thousand Uzbek som zero tiyin
+money	en	uzs	21000	twenty-one thousand Uzbek som zero tiyin
+money	en	uzs	22000	twenty-two thousand Uzbek som zero tiyin
+money	en	uzs	41000	forty-one thousand Uzbek som zero tiyin
+money	en	uzs	42000	forty-two thousand Uzbek som zero tiyin
+money	en	uzs	100000	one hundred thousand Uzbek som zero tiyin
+money	en	uzs	1000000	one million Uzbek som zero tiyin
+money	en	uzs	2000000	two million Uzbek som zero tiyin
+money	en	uzs	1000000000	one billion Uzbek som zero tiyin
+money	en	uzs	123.45	one hundred twenty-three Uzbek som forty-five tiyin
+money	en	uzs	-1	minus one Uzbek som zero tiyin
+money	en	uzs	-2	minus two Uzbek som zero tiyin
+money	en	uzs	-41.5	minus forty-one Uzbek som fifty tiyin
+money	en	uzs	-1000	minus one thousand Uzbek som zero tiyin
+money	en	uzs	1.999	two Uzbek som zero tiyin
+money	en	uzs	123.456	one hundred twenty-three Uzbek som forty-six tiyin
+money	en	uzs	1.005	one Uzbek som one tiyin
 money	en	gbp	0	zero pound sterling zero penny
 money	en	gbp	0.01	zero pound sterling one penny
 money	en	gbp	0.02	zero pound sterling two pence
@@ -762,45 +762,45 @@ money	fr	uah	-1000	moins mille hryvnias ukrainiennes zéro kopiyka
 money	fr	uah	1.999	deux hryvnias ukrainiennes zéro kopiyka
 money	fr	uah	123.456	cent vingt-trois hryvnias ukrainiennes quarante-six kopiyka
 money	fr	uah	1.005	une hryvnia ukrainienne un kopiyka
-money	fr	bgn	0	
-money	fr	bgn	0.01	
-money	fr	bgn	0.02	
-money	fr	bgn	1	
-money	fr	bgn	1.01	
-money	fr	bgn	1.02	
-money	fr	bgn	2	
-money	fr	bgn	2.02	
-money	fr	bgn	3	
-money	fr	bgn	5	
-money	fr	bgn	11	
-money	fr	bgn	21	
-money	fr	bgn	22	
-money	fr	bgn	42	
-money	fr	bgn	100	
-money	fr	bgn	101	
-money	fr	bgn	121	
-money	fr	bgn	999	
-money	fr	bgn	1000	
-money	fr	bgn	1001	
-money	fr	bgn	2000	
-money	fr	bgn	2001	
-money	fr	bgn	5000	
-money	fr	bgn	21000	
-money	fr	bgn	22000	
-money	fr	bgn	41000	
-money	fr	bgn	42000	
-money	fr	bgn	100000	
-money	fr	bgn	1000000	
-money	fr	bgn	2000000	
-money	fr	bgn	1000000000	
-money	fr	bgn	123.45	
-money	fr	bgn	-1	
-money	fr	bgn	-2	
-money	fr	bgn	-41.5	
-money	fr	bgn	-1000	
-money	fr	bgn	1.999	
-money	fr	bgn	123.456	
-money	fr	bgn	1.005	
+money	fr	bgn	0	zéro lev bulgare zéro stotinka
+money	fr	bgn	0.01	zéro lev bulgare un stotinka
+money	fr	bgn	0.02	zéro lev bulgare deux stotinki
+money	fr	bgn	1	un lev bulgare zéro stotinka
+money	fr	bgn	1.01	un lev bulgare un stotinka
+money	fr	bgn	1.02	un lev bulgare deux stotinki
+money	fr	bgn	2	deux levs bulgares zéro stotinka
+money	fr	bgn	2.02	deux levs bulgares deux stotinki
+money	fr	bgn	3	trois levs bulgares zéro stotinka
+money	fr	bgn	5	cinq levs bulgares zéro stotinka
+money	fr	bgn	11	onze levs bulgares zéro stotinka
+money	fr	bgn	21	vingt et un levs bulgares zéro stotinka
+money	fr	bgn	22	vingt-deux levs bulgares zéro stotinka
+money	fr	bgn	42	quarante-deux levs bulgares zéro stotinka
+money	fr	bgn	100	cent levs bulgares zéro stotinka
+money	fr	bgn	101	cent un levs bulgares zéro stotinka
+money	fr	bgn	121	cent vingt et un levs bulgares zéro stotinka
+money	fr	bgn	999	neuf cent quatre-vingt-dix-neuf levs bulgares zéro stotinka
+money	fr	bgn	1000	mille levs bulgares zéro stotinka
+money	fr	bgn	1001	mille un levs bulgares zéro stotinka
+money	fr	bgn	2000	deux mille levs bulgares zéro stotinka
+money	fr	bgn	2001	deux mille un levs bulgares zéro stotinka
+money	fr	bgn	5000	cinq mille levs bulgares zéro stotinka
+money	fr	bgn	21000	vingt et un mille levs bulgares zéro stotinka
+money	fr	bgn	22000	vingt-deux mille levs bulgares zéro stotinka
+money	fr	bgn	41000	quarante et un mille levs bulgares zéro stotinka
+money	fr	bgn	42000	quarante-deux mille levs bulgares zéro stotinka
+money	fr	bgn	100000	cent mille levs bulgares zéro stotinka
+money	fr	bgn	1000000	un million levs bulgares zéro stotinka
+money	fr	bgn	2000000	deux millions levs bulgares zéro stotinka
+money	fr	bgn	1000000000	un milliard levs bulgares zéro stotinka
+money	fr	bgn	123.45	cent vingt-trois levs bulgares quarante-cinq stotinki
+money	fr	bgn	-1	moins un lev bulgare zéro stotinka
+money	fr	bgn	-2	moins deux levs bulgares zéro stotinka
+money	fr	bgn	-41.5	moins quarante et un levs bulgares cinquante stotinki
+money	fr	bgn	-1000	moins mille levs bulgares zéro stotinka
+money	fr	bgn	1.999	deux levs bulgares zéro stotinka
+money	fr	bgn	123.456	cent vingt-trois levs bulgares quarante-six stotinki
+money	fr	bgn	1.005	un lev bulgare un stotinka
 money	fr	etb	0	zéro Birr zéro centime
 money	fr	etb	0.01	zéro Birr un centime
 money	fr	etb	0.02	zéro Birr deux centimes
@@ -918,123 +918,123 @@ money	fr	byn	-1000	moins mille roubles biélorusses zéro kopeck
 money	fr	byn	1.999	deux roubles biélorusses zéro kopeck
 money	fr	byn	123.456	cent vingt-trois roubles biélorusses quarante-six kopecks
 money	fr	byn	1.005	un rouble biélorusse un kopeck
-money	fr	ars	0	
-money	fr	ars	0.01	
-money	fr	ars	0.02	
-money	fr	ars	1	
-money	fr	ars	1.01	
-money	fr	ars	1.02	
-money	fr	ars	2	
-money	fr	ars	2.02	
-money	fr	ars	3	
-money	fr	ars	5	
-money	fr	ars	11	
-money	fr	ars	21	
-money	fr	ars	22	
-money	fr	ars	42	
-money	fr	ars	100	
-money	fr	ars	101	
-money	fr	ars	121	
-money	fr	ars	999	
-money	fr	ars	1000	
-money	fr	ars	1001	
-money	fr	ars	2000	
-money	fr	ars	2001	
-money	fr	ars	5000	
-money	fr	ars	21000	
-money	fr	ars	22000	
-money	fr	ars	41000	
-money	fr	ars	42000	
-money	fr	ars	100000	
-money	fr	ars	1000000	
-money	fr	ars	2000000	
-money	fr	ars	1000000000	
-money	fr	ars	123.45	
-money	fr	ars	-1	
-money	fr	ars	-2	
-money	fr	ars	-41.5	
-money	fr	ars	-1000	
-money	fr	ars	1.999	
-money	fr	ars	123.456	
-money	fr	ars	1.005	
-money	fr	brl	0	
-money	fr	brl	0.01	
-money	fr	brl	0.02	
-money	fr	brl	1	
-money	fr	brl	1.01	
-money	fr	brl	1.02	
-money	fr	brl	2	
-money	fr	brl	2.02	
-money	fr	brl	3	
-money	fr	brl	5	
-money	fr	brl	11	
-money	fr	brl	21	
-money	fr	brl	22	
-money	fr	brl	42	
-money	fr	brl	100	
-money	fr	brl	101	
-money	fr	brl	121	
-money	fr	brl	999	
-money	fr	brl	1000	
-money	fr	brl	1001	
-money	fr	brl	2000	
-money	fr	brl	2001	
-money	fr	brl	5000	
-money	fr	brl	21000	
-money	fr	brl	22000	
-money	fr	brl	41000	
-money	fr	brl	42000	
-money	fr	brl	100000	
-money	fr	brl	1000000	
-money	fr	brl	2000000	
-money	fr	brl	1000000000	
-money	fr	brl	123.45	
-money	fr	brl	-1	
-money	fr	brl	-2	
-money	fr	brl	-41.5	
-money	fr	brl	-1000	
-money	fr	brl	1.999	
-money	fr	brl	123.456	
-money	fr	brl	1.005	
-money	fr	uzs	0	
-money	fr	uzs	0.01	
-money	fr	uzs	0.02	
-money	fr	uzs	1	
-money	fr	uzs	1.01	
-money	fr	uzs	1.02	
-money	fr	uzs	2	
-money	fr	uzs	2.02	
-money	fr	uzs	3	
-money	fr	uzs	5	
-money	fr	uzs	11	
-money	fr	uzs	21	
-money	fr	uzs	22	
-money	fr	uzs	42	
-money	fr	uzs	100	
-money	fr	uzs	101	
-money	fr	uzs	121	
-money	fr	uzs	999	
-money	fr	uzs	1000	
-money	fr	uzs	1001	
-money	fr	uzs	2000	
-money	fr	uzs	2001	
-money	fr	uzs	5000	
-money	fr	uzs	21000	
-money	fr	uzs	22000	
-money	fr	uzs	41000	
-money	fr	uzs	42000	
-money	fr	uzs	100000	
-money	fr	uzs	1000000	
-money	fr	uzs	2000000	
-money	fr	uzs	1000000000	
-money	fr	uzs	123.45	
-money	fr	uzs	-1	
-money	fr	uzs	-2	
-money	fr	uzs	-41.5	
-money	fr	uzs	-1000	
-money	fr	uzs	1.999	
-money	fr	uzs	123.456	
-money	fr	uzs	1.005	
+money	fr	ars	0	zéro peso argentin zéro centavo
+money	fr	ars	0.01	zéro peso argentin un centavo
+money	fr	ars	0.02	zéro peso argentin deux centavos
+money	fr	ars	1	un peso argentin zéro centavo
+money	fr	ars	1.01	un peso argentin un centavo
+money	fr	ars	1.02	un peso argentin deux centavos
+money	fr	ars	2	deux pesos argentins zéro centavo
+money	fr	ars	2.02	deux pesos argentins deux centavos
+money	fr	ars	3	trois pesos argentins zéro centavo
+money	fr	ars	5	cinq pesos argentins zéro centavo
+money	fr	ars	11	onze pesos argentins zéro centavo
+money	fr	ars	21	vingt et un pesos argentins zéro centavo
+money	fr	ars	22	vingt-deux pesos argentins zéro centavo
+money	fr	ars	42	quarante-deux pesos argentins zéro centavo
+money	fr	ars	100	cent pesos argentins zéro centavo
+money	fr	ars	101	cent un pesos argentins zéro centavo
+money	fr	ars	121	cent vingt et un pesos argentins zéro centavo
+money	fr	ars	999	neuf cent quatre-vingt-dix-neuf pesos argentins zéro centavo
+money	fr	ars	1000	mille pesos argentins zéro centavo
+money	fr	ars	1001	mille un pesos argentins zéro centavo
+money	fr	ars	2000	deux mille pesos argentins zéro centavo
+money	fr	ars	2001	deux mille un pesos argentins zéro centavo
+money	fr	ars	5000	cinq mille pesos argentins zéro centavo
+money	fr	ars	21000	vingt et un mille pesos argentins zéro centavo
+money	fr	ars	22000	vingt-deux mille pesos argentins zéro centavo
+money	fr	ars	41000	quarante et un mille pesos argentins zéro centavo
+money	fr	ars	42000	quarante-deux mille pesos argentins zéro centavo
+money	fr	ars	100000	cent mille pesos argentins zéro centavo
+money	fr	ars	1000000	un million pesos argentins zéro centavo
+money	fr	ars	2000000	deux millions pesos argentins zéro centavo
+money	fr	ars	1000000000	un milliard pesos argentins zéro centavo
+money	fr	ars	123.45	cent vingt-trois pesos argentins quarante-cinq centavos
+money	fr	ars	-1	moins un peso argentin zéro centavo
+money	fr	ars	-2	moins deux pesos argentins zéro centavo
+money	fr	ars	-41.5	moins quarante et un pesos argentins cinquante centavos
+money	fr	ars	-1000	moins mille pesos argentins zéro centavo
+money	fr	ars	1.999	deux pesos argentins zéro centavo
+money	fr	ars	123.456	cent vingt-trois pesos argentins quarante-six centavos
+money	fr	ars	1.005	un peso argentin un centavo
+money	fr	brl	0	zéro réal brésilien zéro centavo
+money	fr	brl	0.01	zéro réal brésilien un centavo
+money	fr	brl	0.02	zéro réal brésilien deux centavos
+money	fr	brl	1	un réal brésilien zéro centavo
+money	fr	brl	1.01	un réal brésilien un centavo
+money	fr	brl	1.02	un réal brésilien deux centavos
+money	fr	brl	2	deux réals brésiliens zéro centavo
+money	fr	brl	2.02	deux réals brésiliens deux centavos
+money	fr	brl	3	trois réals brésiliens zéro centavo
+money	fr	brl	5	cinq réals brésiliens zéro centavo
+money	fr	brl	11	onze réals brésiliens zéro centavo
+money	fr	brl	21	vingt et un réals brésiliens zéro centavo
+money	fr	brl	22	vingt-deux réals brésiliens zéro centavo
+money	fr	brl	42	quarante-deux réals brésiliens zéro centavo
+money	fr	brl	100	cent réals brésiliens zéro centavo
+money	fr	brl	101	cent un réals brésiliens zéro centavo
+money	fr	brl	121	cent vingt et un réals brésiliens zéro centavo
+money	fr	brl	999	neuf cent quatre-vingt-dix-neuf réals brésiliens zéro centavo
+money	fr	brl	1000	mille réals brésiliens zéro centavo
+money	fr	brl	1001	mille un réals brésiliens zéro centavo
+money	fr	brl	2000	deux mille réals brésiliens zéro centavo
+money	fr	brl	2001	deux mille un réals brésiliens zéro centavo
+money	fr	brl	5000	cinq mille réals brésiliens zéro centavo
+money	fr	brl	21000	vingt et un mille réals brésiliens zéro centavo
+money	fr	brl	22000	vingt-deux mille réals brésiliens zéro centavo
+money	fr	brl	41000	quarante et un mille réals brésiliens zéro centavo
+money	fr	brl	42000	quarante-deux mille réals brésiliens zéro centavo
+money	fr	brl	100000	cent mille réals brésiliens zéro centavo
+money	fr	brl	1000000	un million réals brésiliens zéro centavo
+money	fr	brl	2000000	deux millions réals brésiliens zéro centavo
+money	fr	brl	1000000000	un milliard réals brésiliens zéro centavo
+money	fr	brl	123.45	cent vingt-trois réals brésiliens quarante-cinq centavos
+money	fr	brl	-1	moins un réal brésilien zéro centavo
+money	fr	brl	-2	moins deux réals brésiliens zéro centavo
+money	fr	brl	-41.5	moins quarante et un réals brésiliens cinquante centavos
+money	fr	brl	-1000	moins mille réals brésiliens zéro centavo
+money	fr	brl	1.999	deux réals brésiliens zéro centavo
+money	fr	brl	123.456	cent vingt-trois réals brésiliens quarante-six centavos
+money	fr	brl	1.005	un réal brésilien un centavo
+money	fr	uzs	0	zéro sum ouzbek zéro tiyin
+money	fr	uzs	0.01	zéro sum ouzbek un tiyin
+money	fr	uzs	0.02	zéro sum ouzbek deux tiyin
+money	fr	uzs	1	un sum ouzbek zéro tiyin
+money	fr	uzs	1.01	un sum ouzbek un tiyin
+money	fr	uzs	1.02	un sum ouzbek deux tiyin
+money	fr	uzs	2	deux sums ouzbeks zéro tiyin
+money	fr	uzs	2.02	deux sums ouzbeks deux tiyin
+money	fr	uzs	3	trois sums ouzbeks zéro tiyin
+money	fr	uzs	5	cinq sums ouzbeks zéro tiyin
+money	fr	uzs	11	onze sums ouzbeks zéro tiyin
+money	fr	uzs	21	vingt et un sums ouzbeks zéro tiyin
+money	fr	uzs	22	vingt-deux sums ouzbeks zéro tiyin
+money	fr	uzs	42	quarante-deux sums ouzbeks zéro tiyin
+money	fr	uzs	100	cent sums ouzbeks zéro tiyin
+money	fr	uzs	101	cent un sums ouzbeks zéro tiyin
+money	fr	uzs	121	cent vingt et un sums ouzbeks zéro tiyin
+money	fr	uzs	999	neuf cent quatre-vingt-dix-neuf sums ouzbeks zéro tiyin
+money	fr	uzs	1000	mille sums ouzbeks zéro tiyin
+money	fr	uzs	1001	mille un sums ouzbeks zéro tiyin
+money	fr	uzs	2000	deux mille sums ouzbeks zéro tiyin
+money	fr	uzs	2001	deux mille un sums ouzbeks zéro tiyin
+money	fr	uzs	5000	cinq mille sums ouzbeks zéro tiyin
+money	fr	uzs	21000	vingt et un mille sums ouzbeks zéro tiyin
+money	fr	uzs	22000	vingt-deux mille sums ouzbeks zéro tiyin
+money	fr	uzs	41000	quarante et un mille sums ouzbeks zéro tiyin
+money	fr	uzs	42000	quarante-deux mille sums ouzbeks zéro tiyin
+money	fr	uzs	100000	cent mille sums ouzbeks zéro tiyin
+money	fr	uzs	1000000	un million sums ouzbeks zéro tiyin
+money	fr	uzs	2000000	deux millions sums ouzbeks zéro tiyin
+money	fr	uzs	1000000000	un milliard sums ouzbeks zéro tiyin
+money	fr	uzs	123.45	cent vingt-trois sums ouzbeks quarante-cinq tiyin
+money	fr	uzs	-1	moins un sum ouzbek zéro tiyin
+money	fr	uzs	-2	moins deux sums ouzbeks zéro tiyin
+money	fr	uzs	-41.5	moins quarante et un sums ouzbeks cinquante tiyin
+money	fr	uzs	-1000	moins mille sums ouzbeks zéro tiyin
+money	fr	uzs	1.999	deux sums ouzbeks zéro tiyin
+money	fr	uzs	123.456	cent vingt-trois sums ouzbeks quarante-six tiyin
+money	fr	uzs	1.005	un sum ouzbek un tiyin
 money	fr	gbp	0	zéro livre sterling zéro penny
 money	fr	gbp	0.01	zéro livre sterling un penny
 money	fr	gbp	0.02	zéro livre sterling deux pence
@@ -1300,45 +1300,45 @@ money	de	uah	-1000	minus eintausend ukrainische Griwna null kopiyka
 money	de	uah	1.999	zwei ukrainische Griwna null kopiyka
 money	de	uah	123.456	einhundertdreiundzwanzig ukrainische Griwna sechsundvierzig kopiyky
 money	de	uah	1.005	ein ukrainische Griwna ein kopiyka
-money	de	bgn	0	
-money	de	bgn	0.01	
-money	de	bgn	0.02	
-money	de	bgn	1	
-money	de	bgn	1.01	
-money	de	bgn	1.02	
-money	de	bgn	2	
-money	de	bgn	2.02	
-money	de	bgn	3	
-money	de	bgn	5	
-money	de	bgn	11	
-money	de	bgn	21	
-money	de	bgn	22	
-money	de	bgn	42	
-money	de	bgn	100	
-money	de	bgn	101	
-money	de	bgn	121	
-money	de	bgn	999	
-money	de	bgn	1000	
-money	de	bgn	1001	
-money	de	bgn	2000	
-money	de	bgn	2001	
-money	de	bgn	5000	
-money	de	bgn	21000	
-money	de	bgn	22000	
-money	de	bgn	41000	
-money	de	bgn	42000	
-money	de	bgn	100000	
-money	de	bgn	1000000	
-money	de	bgn	2000000	
-money	de	bgn	1000000000	
-money	de	bgn	123.45	
-money	de	bgn	-1	
-money	de	bgn	-2	
-money	de	bgn	-41.5	
-money	de	bgn	-1000	
-money	de	bgn	1.999	
-money	de	bgn	123.456	
-money	de	bgn	1.005	
+money	de	bgn	0	null bulgarischer Lew null Stotinka
+money	de	bgn	0.01	null bulgarischer Lew ein Stotinka
+money	de	bgn	0.02	null bulgarischer Lew zwei Stotinki
+money	de	bgn	1	ein bulgarischer Lew null Stotinka
+money	de	bgn	1.01	ein bulgarischer Lew ein Stotinka
+money	de	bgn	1.02	ein bulgarischer Lew zwei Stotinki
+money	de	bgn	2	zwei bulgarische Lewa null Stotinka
+money	de	bgn	2.02	zwei bulgarische Lewa zwei Stotinki
+money	de	bgn	3	drei bulgarische Lewa null Stotinka
+money	de	bgn	5	fünf bulgarische Lewa null Stotinka
+money	de	bgn	11	elf bulgarische Lewa null Stotinka
+money	de	bgn	21	einundzwanzig bulgarische Lewa null Stotinka
+money	de	bgn	22	zweiundzwanzig bulgarische Lewa null Stotinka
+money	de	bgn	42	zweiundvierzig bulgarische Lewa null Stotinka
+money	de	bgn	100	einhundert bulgarische Lewa null Stotinka
+money	de	bgn	101	einhundertein bulgarische Lewa null Stotinka
+money	de	bgn	121	einhunderteinundzwanzig bulgarische Lewa null Stotinka
+money	de	bgn	999	neunhundertneunundneunzig bulgarische Lewa null Stotinka
+money	de	bgn	1000	eintausend bulgarische Lewa null Stotinka
+money	de	bgn	1001	eintausendein bulgarische Lewa null Stotinka
+money	de	bgn	2000	zweitausend bulgarische Lewa null Stotinka
+money	de	bgn	2001	zweitausendein bulgarische Lewa null Stotinka
+money	de	bgn	5000	fünftausend bulgarische Lewa null Stotinka
+money	de	bgn	21000	einundzwanzigtausend bulgarische Lewa null Stotinka
+money	de	bgn	22000	zweiundzwanzigtausend bulgarische Lewa null Stotinka
+money	de	bgn	41000	einundvierzigtausend bulgarische Lewa null Stotinka
+money	de	bgn	42000	zweiundvierzigtausend bulgarische Lewa null Stotinka
+money	de	bgn	100000	einhunderttausend bulgarische Lewa null Stotinka
+money	de	bgn	1000000	eine Million bulgarische Lewa null Stotinka
+money	de	bgn	2000000	zwei Millionen bulgarische Lewa null Stotinka
+money	de	bgn	1000000000	eine Milliarde bulgarische Lewa null Stotinka
+money	de	bgn	123.45	einhundertdreiundzwanzig bulgarische Lewa fünfundvierzig Stotinki
+money	de	bgn	-1	minus ein bulgarischer Lew null Stotinka
+money	de	bgn	-2	minus zwei bulgarische Lewa null Stotinka
+money	de	bgn	-41.5	minus einundvierzig bulgarische Lewa fünfzig Stotinki
+money	de	bgn	-1000	minus eintausend bulgarische Lewa null Stotinka
+money	de	bgn	1.999	zwei bulgarische Lewa null Stotinka
+money	de	bgn	123.456	einhundertdreiundzwanzig bulgarische Lewa sechsundvierzig Stotinki
+money	de	bgn	1.005	ein bulgarischer Lew ein Stotinka
 money	de	etb	0	null Birr null Cent
 money	de	etb	0.01	null Birr ein Cent
 money	de	etb	0.02	null Birr zwei Cent
@@ -1456,123 +1456,123 @@ money	de	byn	-1000	minus eintausend weißrussischer Rubel null Kopeke
 money	de	byn	1.999	zwei weißrussischer Rubel null Kopeke
 money	de	byn	123.456	einhundertdreiundzwanzig weißrussischer Rubel sechsundvierzig Kopeken
 money	de	byn	1.005	ein weißrussischer Rubel ein Kopeke
-money	de	ars	0	
-money	de	ars	0.01	
-money	de	ars	0.02	
-money	de	ars	1	
-money	de	ars	1.01	
-money	de	ars	1.02	
-money	de	ars	2	
-money	de	ars	2.02	
-money	de	ars	3	
-money	de	ars	5	
-money	de	ars	11	
-money	de	ars	21	
-money	de	ars	22	
-money	de	ars	42	
-money	de	ars	100	
-money	de	ars	101	
-money	de	ars	121	
-money	de	ars	999	
-money	de	ars	1000	
-money	de	ars	1001	
-money	de	ars	2000	
-money	de	ars	2001	
-money	de	ars	5000	
-money	de	ars	21000	
-money	de	ars	22000	
-money	de	ars	41000	
-money	de	ars	42000	
-money	de	ars	100000	
-money	de	ars	1000000	
-money	de	ars	2000000	
-money	de	ars	1000000000	
-money	de	ars	123.45	
-money	de	ars	-1	
-money	de	ars	-2	
-money	de	ars	-41.5	
-money	de	ars	-1000	
-money	de	ars	1.999	
-money	de	ars	123.456	
-money	de	ars	1.005	
-money	de	brl	0	
-money	de	brl	0.01	
-money	de	brl	0.02	
-money	de	brl	1	
-money	de	brl	1.01	
-money	de	brl	1.02	
-money	de	brl	2	
-money	de	brl	2.02	
-money	de	brl	3	
-money	de	brl	5	
-money	de	brl	11	
-money	de	brl	21	
-money	de	brl	22	
-money	de	brl	42	
-money	de	brl	100	
-money	de	brl	101	
-money	de	brl	121	
-money	de	brl	999	
-money	de	brl	1000	
-money	de	brl	1001	
-money	de	brl	2000	
-money	de	brl	2001	
-money	de	brl	5000	
-money	de	brl	21000	
-money	de	brl	22000	
-money	de	brl	41000	
-money	de	brl	42000	
-money	de	brl	100000	
-money	de	brl	1000000	
-money	de	brl	2000000	
-money	de	brl	1000000000	
-money	de	brl	123.45	
-money	de	brl	-1	
-money	de	brl	-2	
-money	de	brl	-41.5	
-money	de	brl	-1000	
-money	de	brl	1.999	
-money	de	brl	123.456	
-money	de	brl	1.005	
-money	de	uzs	0	
-money	de	uzs	0.01	
-money	de	uzs	0.02	
-money	de	uzs	1	
-money	de	uzs	1.01	
-money	de	uzs	1.02	
-money	de	uzs	2	
-money	de	uzs	2.02	
-money	de	uzs	3	
-money	de	uzs	5	
-money	de	uzs	11	
-money	de	uzs	21	
-money	de	uzs	22	
-money	de	uzs	42	
-money	de	uzs	100	
-money	de	uzs	101	
-money	de	uzs	121	
-money	de	uzs	999	
-money	de	uzs	1000	
-money	de	uzs	1001	
-money	de	uzs	2000	
-money	de	uzs	2001	
-money	de	uzs	5000	
-money	de	uzs	21000	
-money	de	uzs	22000	
-money	de	uzs	41000	
-money	de	uzs	42000	
-money	de	uzs	100000	
-money	de	uzs	1000000	
-money	de	uzs	2000000	
-money	de	uzs	1000000000	
-money	de	uzs	123.45	
-money	de	uzs	-1	
-money	de	uzs	-2	
-money	de	uzs	-41.5	
-money	de	uzs	-1000	
-money	de	uzs	1.999	
-money	de	uzs	123.456	
-money	de	uzs	1.005	
+money	de	ars	0	null argentinischer Peso null Centavo
+money	de	ars	0.01	null argentinischer Peso ein Centavo
+money	de	ars	0.02	null argentinischer Peso zwei Centavos
+money	de	ars	1	ein argentinischer Peso null Centavo
+money	de	ars	1.01	ein argentinischer Peso ein Centavo
+money	de	ars	1.02	ein argentinischer Peso zwei Centavos
+money	de	ars	2	zwei argentinische Pesos null Centavo
+money	de	ars	2.02	zwei argentinische Pesos zwei Centavos
+money	de	ars	3	drei argentinische Pesos null Centavo
+money	de	ars	5	fünf argentinische Pesos null Centavo
+money	de	ars	11	elf argentinische Pesos null Centavo
+money	de	ars	21	einundzwanzig argentinische Pesos null Centavo
+money	de	ars	22	zweiundzwanzig argentinische Pesos null Centavo
+money	de	ars	42	zweiundvierzig argentinische Pesos null Centavo
+money	de	ars	100	einhundert argentinische Pesos null Centavo
+money	de	ars	101	einhundertein argentinische Pesos null Centavo
+money	de	ars	121	einhunderteinundzwanzig argentinische Pesos null Centavo
+money	de	ars	999	neunhundertneunundneunzig argentinische Pesos null Centavo
+money	de	ars	1000	eintausend argentinische Pesos null Centavo
+money	de	ars	1001	eintausendein argentinische Pesos null Centavo
+money	de	ars	2000	zweitausend argentinische Pesos null Centavo
+money	de	ars	2001	zweitausendein argentinische Pesos null Centavo
+money	de	ars	5000	fünftausend argentinische Pesos null Centavo
+money	de	ars	21000	einundzwanzigtausend argentinische Pesos null Centavo
+money	de	ars	22000	zweiundzwanzigtausend argentinische Pesos null Centavo
+money	de	ars	41000	einundvierzigtausend argentinische Pesos null Centavo
+money	de	ars	42000	zweiundvierzigtausend argentinische Pesos null Centavo
+money	de	ars	100000	einhunderttausend argentinische Pesos null Centavo
+money	de	ars	1000000	eine Million argentinische Pesos null Centavo
+money	de	ars	2000000	zwei Millionen argentinische Pesos null Centavo
+money	de	ars	1000000000	eine Milliarde argentinische Pesos null Centavo
+money	de	ars	123.45	einhundertdreiundzwanzig argentinische Pesos fünfundvierzig Centavos
+money	de	ars	-1	minus ein argentinischer Peso null Centavo
+money	de	ars	-2	minus zwei argentinische Pesos null Centavo
+money	de	ars	-41.5	minus einundvierzig argentinische Pesos fünfzig Centavos
+money	de	ars	-1000	minus eintausend argentinische Pesos null Centavo
+money	de	ars	1.999	zwei argentinische Pesos null Centavo
+money	de	ars	123.456	einhundertdreiundzwanzig argentinische Pesos sechsundvierzig Centavos
+money	de	ars	1.005	ein argentinischer Peso ein Centavo
+money	de	brl	0	null brasilianischer Real null Centavo
+money	de	brl	0.01	null brasilianischer Real ein Centavo
+money	de	brl	0.02	null brasilianischer Real zwei Centavos
+money	de	brl	1	ein brasilianischer Real null Centavo
+money	de	brl	1.01	ein brasilianischer Real ein Centavo
+money	de	brl	1.02	ein brasilianischer Real zwei Centavos
+money	de	brl	2	zwei brasilianische Reais null Centavo
+money	de	brl	2.02	zwei brasilianische Reais zwei Centavos
+money	de	brl	3	drei brasilianische Reais null Centavo
+money	de	brl	5	fünf brasilianische Reais null Centavo
+money	de	brl	11	elf brasilianische Reais null Centavo
+money	de	brl	21	einundzwanzig brasilianische Reais null Centavo
+money	de	brl	22	zweiundzwanzig brasilianische Reais null Centavo
+money	de	brl	42	zweiundvierzig brasilianische Reais null Centavo
+money	de	brl	100	einhundert brasilianische Reais null Centavo
+money	de	brl	101	einhundertein brasilianische Reais null Centavo
+money	de	brl	121	einhunderteinundzwanzig brasilianische Reais null Centavo
+money	de	brl	999	neunhundertneunundneunzig brasilianische Reais null Centavo
+money	de	brl	1000	eintausend brasilianische Reais null Centavo
+money	de	brl	1001	eintausendein brasilianische Reais null Centavo
+money	de	brl	2000	zweitausend brasilianische Reais null Centavo
+money	de	brl	2001	zweitausendein brasilianische Reais null Centavo
+money	de	brl	5000	fünftausend brasilianische Reais null Centavo
+money	de	brl	21000	einundzwanzigtausend brasilianische Reais null Centavo
+money	de	brl	22000	zweiundzwanzigtausend brasilianische Reais null Centavo
+money	de	brl	41000	einundvierzigtausend brasilianische Reais null Centavo
+money	de	brl	42000	zweiundvierzigtausend brasilianische Reais null Centavo
+money	de	brl	100000	einhunderttausend brasilianische Reais null Centavo
+money	de	brl	1000000	eine Million brasilianische Reais null Centavo
+money	de	brl	2000000	zwei Millionen brasilianische Reais null Centavo
+money	de	brl	1000000000	eine Milliarde brasilianische Reais null Centavo
+money	de	brl	123.45	einhundertdreiundzwanzig brasilianische Reais fünfundvierzig Centavos
+money	de	brl	-1	minus ein brasilianischer Real null Centavo
+money	de	brl	-2	minus zwei brasilianische Reais null Centavo
+money	de	brl	-41.5	minus einundvierzig brasilianische Reais fünfzig Centavos
+money	de	brl	-1000	minus eintausend brasilianische Reais null Centavo
+money	de	brl	1.999	zwei brasilianische Reais null Centavo
+money	de	brl	123.456	einhundertdreiundzwanzig brasilianische Reais sechsundvierzig Centavos
+money	de	brl	1.005	ein brasilianischer Real ein Centavo
+money	de	uzs	0	null usbekischer Som null Tiyin
+money	de	uzs	0.01	null usbekischer Som ein Tiyin
+money	de	uzs	0.02	null usbekischer Som zwei Tiyin
+money	de	uzs	1	ein usbekischer Som null Tiyin
+money	de	uzs	1.01	ein usbekischer Som ein Tiyin
+money	de	uzs	1.02	ein usbekischer Som zwei Tiyin
+money	de	uzs	2	zwei usbekische Som null Tiyin
+money	de	uzs	2.02	zwei usbekische Som zwei Tiyin
+money	de	uzs	3	drei usbekische Som null Tiyin
+money	de	uzs	5	fünf usbekische Som null Tiyin
+money	de	uzs	11	elf usbekische Som null Tiyin
+money	de	uzs	21	einundzwanzig usbekische Som null Tiyin
+money	de	uzs	22	zweiundzwanzig usbekische Som null Tiyin
+money	de	uzs	42	zweiundvierzig usbekische Som null Tiyin
+money	de	uzs	100	einhundert usbekische Som null Tiyin
+money	de	uzs	101	einhundertein usbekische Som null Tiyin
+money	de	uzs	121	einhunderteinundzwanzig usbekische Som null Tiyin
+money	de	uzs	999	neunhundertneunundneunzig usbekische Som null Tiyin
+money	de	uzs	1000	eintausend usbekische Som null Tiyin
+money	de	uzs	1001	eintausendein usbekische Som null Tiyin
+money	de	uzs	2000	zweitausend usbekische Som null Tiyin
+money	de	uzs	2001	zweitausendein usbekische Som null Tiyin
+money	de	uzs	5000	fünftausend usbekische Som null Tiyin
+money	de	uzs	21000	einundzwanzigtausend usbekische Som null Tiyin
+money	de	uzs	22000	zweiundzwanzigtausend usbekische Som null Tiyin
+money	de	uzs	41000	einundvierzigtausend usbekische Som null Tiyin
+money	de	uzs	42000	zweiundvierzigtausend usbekische Som null Tiyin
+money	de	uzs	100000	einhunderttausend usbekische Som null Tiyin
+money	de	uzs	1000000	eine Million usbekische Som null Tiyin
+money	de	uzs	2000000	zwei Millionen usbekische Som null Tiyin
+money	de	uzs	1000000000	eine Milliarde usbekische Som null Tiyin
+money	de	uzs	123.45	einhundertdreiundzwanzig usbekische Som fünfundvierzig Tiyin
+money	de	uzs	-1	minus ein usbekischer Som null Tiyin
+money	de	uzs	-2	minus zwei usbekische Som null Tiyin
+money	de	uzs	-41.5	minus einundvierzig usbekische Som fünfzig Tiyin
+money	de	uzs	-1000	minus eintausend usbekische Som null Tiyin
+money	de	uzs	1.999	zwei usbekische Som null Tiyin
+money	de	uzs	123.456	einhundertdreiundzwanzig usbekische Som sechsundvierzig Tiyin
+money	de	uzs	1.005	ein usbekischer Som ein Tiyin
 money	de	gbp	0	null Pfund Sterling null Penny
 money	de	gbp	0.01	null Pfund Sterling ein Penny
 money	de	gbp	0.02	null Pfund Sterling zwei Pence
@@ -1838,45 +1838,45 @@ money	es	uah	-1000	menos mil grivnas ucraniana con cero kopek
 money	es	uah	1.999	dos grivnas ucraniana con cero kopek
 money	es	uah	123.456	ciento veintitrés grivnas ucraniana con cuarenta y seis kopeks
 money	es	uah	1.005	un grivna ucraniana con un kopek
-money	es	bgn	0	
-money	es	bgn	0.01	
-money	es	bgn	0.02	
-money	es	bgn	1	
-money	es	bgn	1.01	
-money	es	bgn	1.02	
-money	es	bgn	2	
-money	es	bgn	2.02	
-money	es	bgn	3	
-money	es	bgn	5	
-money	es	bgn	11	
-money	es	bgn	21	
-money	es	bgn	22	
-money	es	bgn	42	
-money	es	bgn	100	
-money	es	bgn	101	
-money	es	bgn	121	
-money	es	bgn	999	
-money	es	bgn	1000	
-money	es	bgn	1001	
-money	es	bgn	2000	
-money	es	bgn	2001	
-money	es	bgn	5000	
-money	es	bgn	21000	
-money	es	bgn	22000	
-money	es	bgn	41000	
-money	es	bgn	42000	
-money	es	bgn	100000	
-money	es	bgn	1000000	
-money	es	bgn	2000000	
-money	es	bgn	1000000000	
-money	es	bgn	123.45	
-money	es	bgn	-1	
-money	es	bgn	-2	
-money	es	bgn	-41.5	
-money	es	bgn	-1000	
-money	es	bgn	1.999	
-money	es	bgn	123.456	
-money	es	bgn	1.005	
+money	es	bgn	0	cero lev búlgaro con cero stotinka
+money	es	bgn	0.01	cero lev búlgaro con un stotinka
+money	es	bgn	0.02	cero lev búlgaro con dos stotinki
+money	es	bgn	1	un lev búlgaro con cero stotinka
+money	es	bgn	1.01	un lev búlgaro con un stotinka
+money	es	bgn	1.02	un lev búlgaro con dos stotinki
+money	es	bgn	2	dos levs búlgaros con cero stotinka
+money	es	bgn	2.02	dos levs búlgaros con dos stotinki
+money	es	bgn	3	tres levs búlgaros con cero stotinka
+money	es	bgn	5	cinco levs búlgaros con cero stotinka
+money	es	bgn	11	once levs búlgaros con cero stotinka
+money	es	bgn	21	veintiún levs búlgaros con cero stotinka
+money	es	bgn	22	veintidós levs búlgaros con cero stotinka
+money	es	bgn	42	cuarenta y dos levs búlgaros con cero stotinka
+money	es	bgn	100	cien levs búlgaros con cero stotinka
+money	es	bgn	101	ciento un levs búlgaros con cero stotinka
+money	es	bgn	121	ciento veintiún levs búlgaros con cero stotinka
+money	es	bgn	999	novecientos noventa y nueve levs búlgaros con cero stotinka
+money	es	bgn	1000	mil levs búlgaros con cero stotinka
+money	es	bgn	1001	mil un levs búlgaros con cero stotinka
+money	es	bgn	2000	dos mil levs búlgaros con cero stotinka
+money	es	bgn	2001	dos mil un levs búlgaros con cero stotinka
+money	es	bgn	5000	cinco mil levs búlgaros con cero stotinka
+money	es	bgn	21000	veintiún mil levs búlgaros con cero stotinka
+money	es	bgn	22000	veintidós mil levs búlgaros con cero stotinka
+money	es	bgn	41000	cuarenta y un mil levs búlgaros con cero stotinka
+money	es	bgn	42000	cuarenta y dos mil levs búlgaros con cero stotinka
+money	es	bgn	100000	cien mil levs búlgaros con cero stotinka
+money	es	bgn	1000000	un millón de levs búlgaros con cero stotinka
+money	es	bgn	2000000	dos millones de levs búlgaros con cero stotinka
+money	es	bgn	1000000000	mil millones de levs búlgaros con cero stotinka
+money	es	bgn	123.45	ciento veintitrés levs búlgaros con cuarenta y cinco stotinki
+money	es	bgn	-1	menos un lev búlgaro con cero stotinka
+money	es	bgn	-2	menos dos levs búlgaros con cero stotinka
+money	es	bgn	-41.5	menos cuarenta y un levs búlgaros con cincuenta stotinki
+money	es	bgn	-1000	menos mil levs búlgaros con cero stotinka
+money	es	bgn	1.999	dos levs búlgaros con cero stotinka
+money	es	bgn	123.456	ciento veintitrés levs búlgaros con cuarenta y seis stotinki
+money	es	bgn	1.005	un lev búlgaro con un stotinka
 money	es	etb	0	cero birr con cero centavo
 money	es	etb	0.01	cero birr con un centavo
 money	es	etb	0.02	cero birr con dos centavos
@@ -2033,84 +2033,84 @@ money	es	ars	-1000	menos mil pesos con cero centavo
 money	es	ars	1.999	dos pesos con cero centavo
 money	es	ars	123.456	ciento veintitrés pesos con cuarenta y seis centavos
 money	es	ars	1.005	un peso con un centavo
-money	es	brl	0	
-money	es	brl	0.01	
-money	es	brl	0.02	
-money	es	brl	1	
-money	es	brl	1.01	
-money	es	brl	1.02	
-money	es	brl	2	
-money	es	brl	2.02	
-money	es	brl	3	
-money	es	brl	5	
-money	es	brl	11	
-money	es	brl	21	
-money	es	brl	22	
-money	es	brl	42	
-money	es	brl	100	
-money	es	brl	101	
-money	es	brl	121	
-money	es	brl	999	
-money	es	brl	1000	
-money	es	brl	1001	
-money	es	brl	2000	
-money	es	brl	2001	
-money	es	brl	5000	
-money	es	brl	21000	
-money	es	brl	22000	
-money	es	brl	41000	
-money	es	brl	42000	
-money	es	brl	100000	
-money	es	brl	1000000	
-money	es	brl	2000000	
-money	es	brl	1000000000	
-money	es	brl	123.45	
-money	es	brl	-1	
-money	es	brl	-2	
-money	es	brl	-41.5	
-money	es	brl	-1000	
-money	es	brl	1.999	
-money	es	brl	123.456	
-money	es	brl	1.005	
-money	es	uzs	0	
-money	es	uzs	0.01	
-money	es	uzs	0.02	
-money	es	uzs	1	
-money	es	uzs	1.01	
-money	es	uzs	1.02	
-money	es	uzs	2	
-money	es	uzs	2.02	
-money	es	uzs	3	
-money	es	uzs	5	
-money	es	uzs	11	
-money	es	uzs	21	
-money	es	uzs	22	
-money	es	uzs	42	
-money	es	uzs	100	
-money	es	uzs	101	
-money	es	uzs	121	
-money	es	uzs	999	
-money	es	uzs	1000	
-money	es	uzs	1001	
-money	es	uzs	2000	
-money	es	uzs	2001	
-money	es	uzs	5000	
-money	es	uzs	21000	
-money	es	uzs	22000	
-money	es	uzs	41000	
-money	es	uzs	42000	
-money	es	uzs	100000	
-money	es	uzs	1000000	
-money	es	uzs	2000000	
-money	es	uzs	1000000000	
-money	es	uzs	123.45	
-money	es	uzs	-1	
-money	es	uzs	-2	
-money	es	uzs	-41.5	
-money	es	uzs	-1000	
-money	es	uzs	1.999	
-money	es	uzs	123.456	
-money	es	uzs	1.005	
+money	es	brl	0	cero real brasileño con cero centavo
+money	es	brl	0.01	cero real brasileño con un centavo
+money	es	brl	0.02	cero real brasileño con dos centavos
+money	es	brl	1	un real brasileño con cero centavo
+money	es	brl	1.01	un real brasileño con un centavo
+money	es	brl	1.02	un real brasileño con dos centavos
+money	es	brl	2	dos reales brasileños con cero centavo
+money	es	brl	2.02	dos reales brasileños con dos centavos
+money	es	brl	3	tres reales brasileños con cero centavo
+money	es	brl	5	cinco reales brasileños con cero centavo
+money	es	brl	11	once reales brasileños con cero centavo
+money	es	brl	21	veintiún reales brasileños con cero centavo
+money	es	brl	22	veintidós reales brasileños con cero centavo
+money	es	brl	42	cuarenta y dos reales brasileños con cero centavo
+money	es	brl	100	cien reales brasileños con cero centavo
+money	es	brl	101	ciento un reales brasileños con cero centavo
+money	es	brl	121	ciento veintiún reales brasileños con cero centavo
+money	es	brl	999	novecientos noventa y nueve reales brasileños con cero centavo
+money	es	brl	1000	mil reales brasileños con cero centavo
+money	es	brl	1001	mil un reales brasileños con cero centavo
+money	es	brl	2000	dos mil reales brasileños con cero centavo
+money	es	brl	2001	dos mil un reales brasileños con cero centavo
+money	es	brl	5000	cinco mil reales brasileños con cero centavo
+money	es	brl	21000	veintiún mil reales brasileños con cero centavo
+money	es	brl	22000	veintidós mil reales brasileños con cero centavo
+money	es	brl	41000	cuarenta y un mil reales brasileños con cero centavo
+money	es	brl	42000	cuarenta y dos mil reales brasileños con cero centavo
+money	es	brl	100000	cien mil reales brasileños con cero centavo
+money	es	brl	1000000	un millón de reales brasileños con cero centavo
+money	es	brl	2000000	dos millones de reales brasileños con cero centavo
+money	es	brl	1000000000	mil millones de reales brasileños con cero centavo
+money	es	brl	123.45	ciento veintitrés reales brasileños con cuarenta y cinco centavos
+money	es	brl	-1	menos un real brasileño con cero centavo
+money	es	brl	-2	menos dos reales brasileños con cero centavo
+money	es	brl	-41.5	menos cuarenta y un reales brasileños con cincuenta centavos
+money	es	brl	-1000	menos mil reales brasileños con cero centavo
+money	es	brl	1.999	dos reales brasileños con cero centavo
+money	es	brl	123.456	ciento veintitrés reales brasileños con cuarenta y seis centavos
+money	es	brl	1.005	un real brasileño con un centavo
+money	es	uzs	0	cero som uzbeko con cero tiyin
+money	es	uzs	0.01	cero som uzbeko con un tiyin
+money	es	uzs	0.02	cero som uzbeko con dos tiyin
+money	es	uzs	1	un som uzbeko con cero tiyin
+money	es	uzs	1.01	un som uzbeko con un tiyin
+money	es	uzs	1.02	un som uzbeko con dos tiyin
+money	es	uzs	2	dos soms uzbekos con cero tiyin
+money	es	uzs	2.02	dos soms uzbekos con dos tiyin
+money	es	uzs	3	tres soms uzbekos con cero tiyin
+money	es	uzs	5	cinco soms uzbekos con cero tiyin
+money	es	uzs	11	once soms uzbekos con cero tiyin
+money	es	uzs	21	veintiún soms uzbekos con cero tiyin
+money	es	uzs	22	veintidós soms uzbekos con cero tiyin
+money	es	uzs	42	cuarenta y dos soms uzbekos con cero tiyin
+money	es	uzs	100	cien soms uzbekos con cero tiyin
+money	es	uzs	101	ciento un soms uzbekos con cero tiyin
+money	es	uzs	121	ciento veintiún soms uzbekos con cero tiyin
+money	es	uzs	999	novecientos noventa y nueve soms uzbekos con cero tiyin
+money	es	uzs	1000	mil soms uzbekos con cero tiyin
+money	es	uzs	1001	mil un soms uzbekos con cero tiyin
+money	es	uzs	2000	dos mil soms uzbekos con cero tiyin
+money	es	uzs	2001	dos mil un soms uzbekos con cero tiyin
+money	es	uzs	5000	cinco mil soms uzbekos con cero tiyin
+money	es	uzs	21000	veintiún mil soms uzbekos con cero tiyin
+money	es	uzs	22000	veintidós mil soms uzbekos con cero tiyin
+money	es	uzs	41000	cuarenta y un mil soms uzbekos con cero tiyin
+money	es	uzs	42000	cuarenta y dos mil soms uzbekos con cero tiyin
+money	es	uzs	100000	cien mil soms uzbekos con cero tiyin
+money	es	uzs	1000000	un millón de soms uzbekos con cero tiyin
+money	es	uzs	2000000	dos millones de soms uzbekos con cero tiyin
+money	es	uzs	1000000000	mil millones de soms uzbekos con cero tiyin
+money	es	uzs	123.45	ciento veintitrés soms uzbekos con cuarenta y cinco tiyin
+money	es	uzs	-1	menos un som uzbeko con cero tiyin
+money	es	uzs	-2	menos dos soms uzbekos con cero tiyin
+money	es	uzs	-41.5	menos cuarenta y un soms uzbekos con cincuenta tiyin
+money	es	uzs	-1000	menos mil soms uzbekos con cero tiyin
+money	es	uzs	1.999	dos soms uzbekos con cero tiyin
+money	es	uzs	123.456	ciento veintitrés soms uzbekos con cuarenta y seis tiyin
+money	es	uzs	1.005	un som uzbeko con un tiyin
 money	es	gbp	0	cero libra esterlina con cero penique
 money	es	gbp	0.01	cero libra esterlina con un penique
 money	es	gbp	0.02	cero libra esterlina con dos peniques
@@ -2376,45 +2376,45 @@ money	pt	uah	-1000	menos um mil grivnas ucraniana e zero kopek
 money	pt	uah	1.999	dois grivnas ucraniana e zero kopek
 money	pt	uah	123.456	cento e vinte e três grivnas ucraniana e quarenta e seis kopeks
 money	pt	uah	1.005	um grivna ucraniana e um kopek
-money	pt	bgn	0	
-money	pt	bgn	0.01	
-money	pt	bgn	0.02	
-money	pt	bgn	1	
-money	pt	bgn	1.01	
-money	pt	bgn	1.02	
-money	pt	bgn	2	
-money	pt	bgn	2.02	
-money	pt	bgn	3	
-money	pt	bgn	5	
-money	pt	bgn	11	
-money	pt	bgn	21	
-money	pt	bgn	22	
-money	pt	bgn	42	
-money	pt	bgn	100	
-money	pt	bgn	101	
-money	pt	bgn	121	
-money	pt	bgn	999	
-money	pt	bgn	1000	
-money	pt	bgn	1001	
-money	pt	bgn	2000	
-money	pt	bgn	2001	
-money	pt	bgn	5000	
-money	pt	bgn	21000	
-money	pt	bgn	22000	
-money	pt	bgn	41000	
-money	pt	bgn	42000	
-money	pt	bgn	100000	
-money	pt	bgn	1000000	
-money	pt	bgn	2000000	
-money	pt	bgn	1000000000	
-money	pt	bgn	123.45	
-money	pt	bgn	-1	
-money	pt	bgn	-2	
-money	pt	bgn	-41.5	
-money	pt	bgn	-1000	
-money	pt	bgn	1.999	
-money	pt	bgn	123.456	
-money	pt	bgn	1.005	
+money	pt	bgn	0	zero lev búlgaro e zero stotinka
+money	pt	bgn	0.01	zero lev búlgaro e um stotinka
+money	pt	bgn	0.02	zero lev búlgaro e dois stotinki
+money	pt	bgn	1	um lev búlgaro e zero stotinka
+money	pt	bgn	1.01	um lev búlgaro e um stotinka
+money	pt	bgn	1.02	um lev búlgaro e dois stotinki
+money	pt	bgn	2	dois levs búlgaros e zero stotinka
+money	pt	bgn	2.02	dois levs búlgaros e dois stotinki
+money	pt	bgn	3	três levs búlgaros e zero stotinka
+money	pt	bgn	5	cinco levs búlgaros e zero stotinka
+money	pt	bgn	11	onze levs búlgaros e zero stotinka
+money	pt	bgn	21	vinte e um levs búlgaros e zero stotinka
+money	pt	bgn	22	vinte e dois levs búlgaros e zero stotinka
+money	pt	bgn	42	quarenta e dois levs búlgaros e zero stotinka
+money	pt	bgn	100	cem levs búlgaros e zero stotinka
+money	pt	bgn	101	cento e um levs búlgaros e zero stotinka
+money	pt	bgn	121	cento e vinte e um levs búlgaros e zero stotinka
+money	pt	bgn	999	novecentos e noventa e nove levs búlgaros e zero stotinka
+money	pt	bgn	1000	um mil levs búlgaros e zero stotinka
+money	pt	bgn	1001	um mil e um levs búlgaros e zero stotinka
+money	pt	bgn	2000	dois mil levs búlgaros e zero stotinka
+money	pt	bgn	2001	dois mil e um levs búlgaros e zero stotinka
+money	pt	bgn	5000	cinco mil levs búlgaros e zero stotinka
+money	pt	bgn	21000	vinte e um mil levs búlgaros e zero stotinka
+money	pt	bgn	22000	vinte e dois mil levs búlgaros e zero stotinka
+money	pt	bgn	41000	quarenta e um mil levs búlgaros e zero stotinka
+money	pt	bgn	42000	quarenta e dois mil levs búlgaros e zero stotinka
+money	pt	bgn	100000	cem mil levs búlgaros e zero stotinka
+money	pt	bgn	1000000	um milhão levs búlgaros e zero stotinka
+money	pt	bgn	2000000	dois milhões levs búlgaros e zero stotinka
+money	pt	bgn	1000000000	um bilhão levs búlgaros e zero stotinka
+money	pt	bgn	123.45	cento e vinte e três levs búlgaros e quarenta e cinco stotinki
+money	pt	bgn	-1	menos um lev búlgaro e zero stotinka
+money	pt	bgn	-2	menos dois levs búlgaros e zero stotinka
+money	pt	bgn	-41.5	menos quarenta e um levs búlgaros e cinquenta stotinki
+money	pt	bgn	-1000	menos um mil levs búlgaros e zero stotinka
+money	pt	bgn	1.999	dois levs búlgaros e zero stotinka
+money	pt	bgn	123.456	cento e vinte e três levs búlgaros e quarenta e seis stotinki
+money	pt	bgn	1.005	um lev búlgaro e um stotinka
 money	pt	etb	0	zero birr e zero centavo
 money	pt	etb	0.01	zero birr e um centavo
 money	pt	etb	0.02	zero birr e dois centavos
@@ -2610,45 +2610,45 @@ money	pt	brl	-1000	menos um mil reais e zero centavo
 money	pt	brl	1.999	dois reais e zero centavo
 money	pt	brl	123.456	cento e vinte e três reais e quarenta e seis centavos
 money	pt	brl	1.005	um real e um centavo
-money	pt	uzs	0	
-money	pt	uzs	0.01	
-money	pt	uzs	0.02	
-money	pt	uzs	1	
-money	pt	uzs	1.01	
-money	pt	uzs	1.02	
-money	pt	uzs	2	
-money	pt	uzs	2.02	
-money	pt	uzs	3	
-money	pt	uzs	5	
-money	pt	uzs	11	
-money	pt	uzs	21	
-money	pt	uzs	22	
-money	pt	uzs	42	
-money	pt	uzs	100	
-money	pt	uzs	101	
-money	pt	uzs	121	
-money	pt	uzs	999	
-money	pt	uzs	1000	
-money	pt	uzs	1001	
-money	pt	uzs	2000	
-money	pt	uzs	2001	
-money	pt	uzs	5000	
-money	pt	uzs	21000	
-money	pt	uzs	22000	
-money	pt	uzs	41000	
-money	pt	uzs	42000	
-money	pt	uzs	100000	
-money	pt	uzs	1000000	
-money	pt	uzs	2000000	
-money	pt	uzs	1000000000	
-money	pt	uzs	123.45	
-money	pt	uzs	-1	
-money	pt	uzs	-2	
-money	pt	uzs	-41.5	
-money	pt	uzs	-1000	
-money	pt	uzs	1.999	
-money	pt	uzs	123.456	
-money	pt	uzs	1.005	
+money	pt	uzs	0	zero som uzbeque e zero tiyin
+money	pt	uzs	0.01	zero som uzbeque e um tiyin
+money	pt	uzs	0.02	zero som uzbeque e dois tiyin
+money	pt	uzs	1	um som uzbeque e zero tiyin
+money	pt	uzs	1.01	um som uzbeque e um tiyin
+money	pt	uzs	1.02	um som uzbeque e dois tiyin
+money	pt	uzs	2	dois soms uzbeques e zero tiyin
+money	pt	uzs	2.02	dois soms uzbeques e dois tiyin
+money	pt	uzs	3	três soms uzbeques e zero tiyin
+money	pt	uzs	5	cinco soms uzbeques e zero tiyin
+money	pt	uzs	11	onze soms uzbeques e zero tiyin
+money	pt	uzs	21	vinte e um soms uzbeques e zero tiyin
+money	pt	uzs	22	vinte e dois soms uzbeques e zero tiyin
+money	pt	uzs	42	quarenta e dois soms uzbeques e zero tiyin
+money	pt	uzs	100	cem soms uzbeques e zero tiyin
+money	pt	uzs	101	cento e um soms uzbeques e zero tiyin
+money	pt	uzs	121	cento e vinte e um soms uzbeques e zero tiyin
+money	pt	uzs	999	novecentos e noventa e nove soms uzbeques e zero tiyin
+money	pt	uzs	1000	um mil soms uzbeques e zero tiyin
+money	pt	uzs	1001	um mil e um soms uzbeques e zero tiyin
+money	pt	uzs	2000	dois mil soms uzbeques e zero tiyin
+money	pt	uzs	2001	dois mil e um soms uzbeques e zero tiyin
+money	pt	uzs	5000	cinco mil soms uzbeques e zero tiyin
+money	pt	uzs	21000	vinte e um mil soms uzbeques e zero tiyin
+money	pt	uzs	22000	vinte e dois mil soms uzbeques e zero tiyin
+money	pt	uzs	41000	quarenta e um mil soms uzbeques e zero tiyin
+money	pt	uzs	42000	quarenta e dois mil soms uzbeques e zero tiyin
+money	pt	uzs	100000	cem mil soms uzbeques e zero tiyin
+money	pt	uzs	1000000	um milhão soms uzbeques e zero tiyin
+money	pt	uzs	2000000	dois milhões soms uzbeques e zero tiyin
+money	pt	uzs	1000000000	um bilhão soms uzbeques e zero tiyin
+money	pt	uzs	123.45	cento e vinte e três soms uzbeques e quarenta e cinco tiyin
+money	pt	uzs	-1	menos um som uzbeque e zero tiyin
+money	pt	uzs	-2	menos dois soms uzbeques e zero tiyin
+money	pt	uzs	-41.5	menos quarenta e um soms uzbeques e cinquenta tiyin
+money	pt	uzs	-1000	menos um mil soms uzbeques e zero tiyin
+money	pt	uzs	1.999	dois soms uzbeques e zero tiyin
+money	pt	uzs	123.456	cento e vinte e três soms uzbeques e quarenta e seis tiyin
+money	pt	uzs	1.005	um som uzbeque e um tiyin
 money	pt	gbp	0	zero libra esterlina e zero pêni
 money	pt	gbp	0.01	zero libra esterlina e um pêni
 money	pt	gbp	0.02	zero libra esterlina e dois pence
@@ -2914,45 +2914,45 @@ money	tr	uah	-1000	eksi bin grivna sıfır kopiyka
 money	tr	uah	1.999	iki grivna sıfır kopiyka
 money	tr	uah	123.456	yüz yirmi üç grivna kırk altı kopiyka
 money	tr	uah	1.005	bir grivna bir kopiyka
-money	tr	bgn	0	
-money	tr	bgn	0.01	
-money	tr	bgn	0.02	
-money	tr	bgn	1	
-money	tr	bgn	1.01	
-money	tr	bgn	1.02	
-money	tr	bgn	2	
-money	tr	bgn	2.02	
-money	tr	bgn	3	
-money	tr	bgn	5	
-money	tr	bgn	11	
-money	tr	bgn	21	
-money	tr	bgn	22	
-money	tr	bgn	42	
-money	tr	bgn	100	
-money	tr	bgn	101	
-money	tr	bgn	121	
-money	tr	bgn	999	
-money	tr	bgn	1000	
-money	tr	bgn	1001	
-money	tr	bgn	2000	
-money	tr	bgn	2001	
-money	tr	bgn	5000	
-money	tr	bgn	21000	
-money	tr	bgn	22000	
-money	tr	bgn	41000	
-money	tr	bgn	42000	
-money	tr	bgn	100000	
-money	tr	bgn	1000000	
-money	tr	bgn	2000000	
-money	tr	bgn	1000000000	
-money	tr	bgn	123.45	
-money	tr	bgn	-1	
-money	tr	bgn	-2	
-money	tr	bgn	-41.5	
-money	tr	bgn	-1000	
-money	tr	bgn	1.999	
-money	tr	bgn	123.456	
-money	tr	bgn	1.005	
+money	tr	bgn	0	sıfır Bulgar levası sıfır stotinka
+money	tr	bgn	0.01	sıfır Bulgar levası bir stotinka
+money	tr	bgn	0.02	sıfır Bulgar levası iki stotinka
+money	tr	bgn	1	bir Bulgar levası sıfır stotinka
+money	tr	bgn	1.01	bir Bulgar levası bir stotinka
+money	tr	bgn	1.02	bir Bulgar levası iki stotinka
+money	tr	bgn	2	iki Bulgar levası sıfır stotinka
+money	tr	bgn	2.02	iki Bulgar levası iki stotinka
+money	tr	bgn	3	üç Bulgar levası sıfır stotinka
+money	tr	bgn	5	beş Bulgar levası sıfır stotinka
+money	tr	bgn	11	on bir Bulgar levası sıfır stotinka
+money	tr	bgn	21	yirmi bir Bulgar levası sıfır stotinka
+money	tr	bgn	22	yirmi iki Bulgar levası sıfır stotinka
+money	tr	bgn	42	kırk iki Bulgar levası sıfır stotinka
+money	tr	bgn	100	yüz Bulgar levası sıfır stotinka
+money	tr	bgn	101	yüz bir Bulgar levası sıfır stotinka
+money	tr	bgn	121	yüz yirmi bir Bulgar levası sıfır stotinka
+money	tr	bgn	999	dokuz yüz doksan dokuz Bulgar levası sıfır stotinka
+money	tr	bgn	1000	bin Bulgar levası sıfır stotinka
+money	tr	bgn	1001	bin bir Bulgar levası sıfır stotinka
+money	tr	bgn	2000	iki bin Bulgar levası sıfır stotinka
+money	tr	bgn	2001	iki bin bir Bulgar levası sıfır stotinka
+money	tr	bgn	5000	beş bin Bulgar levası sıfır stotinka
+money	tr	bgn	21000	yirmi bir bin Bulgar levası sıfır stotinka
+money	tr	bgn	22000	yirmi iki bin Bulgar levası sıfır stotinka
+money	tr	bgn	41000	kırk bir bin Bulgar levası sıfır stotinka
+money	tr	bgn	42000	kırk iki bin Bulgar levası sıfır stotinka
+money	tr	bgn	100000	yüz bin Bulgar levası sıfır stotinka
+money	tr	bgn	1000000	bir milyon Bulgar levası sıfır stotinka
+money	tr	bgn	2000000	iki milyon Bulgar levası sıfır stotinka
+money	tr	bgn	1000000000	bir milyar Bulgar levası sıfır stotinka
+money	tr	bgn	123.45	yüz yirmi üç Bulgar levası kırk beş stotinka
+money	tr	bgn	-1	eksi bir Bulgar levası sıfır stotinka
+money	tr	bgn	-2	eksi iki Bulgar levası sıfır stotinka
+money	tr	bgn	-41.5	eksi kırk bir Bulgar levası elli stotinka
+money	tr	bgn	-1000	eksi bin Bulgar levası sıfır stotinka
+money	tr	bgn	1.999	iki Bulgar levası sıfır stotinka
+money	tr	bgn	123.456	yüz yirmi üç Bulgar levası kırk altı stotinka
+money	tr	bgn	1.005	bir Bulgar levası bir stotinka
 money	tr	etb	0	sıfır birr sıfır santim
 money	tr	etb	0.01	sıfır birr bir santim
 money	tr	etb	0.02	sıfır birr iki santim
@@ -3070,123 +3070,123 @@ money	tr	byn	-1000	eksi bin Belarus rublesi sıfır kopek
 money	tr	byn	1.999	iki Belarus rublesi sıfır kopek
 money	tr	byn	123.456	yüz yirmi üç Belarus rublesi kırk altı kopek
 money	tr	byn	1.005	bir Belarus rublesi bir kopek
-money	tr	ars	0	
-money	tr	ars	0.01	
-money	tr	ars	0.02	
-money	tr	ars	1	
-money	tr	ars	1.01	
-money	tr	ars	1.02	
-money	tr	ars	2	
-money	tr	ars	2.02	
-money	tr	ars	3	
-money	tr	ars	5	
-money	tr	ars	11	
-money	tr	ars	21	
-money	tr	ars	22	
-money	tr	ars	42	
-money	tr	ars	100	
-money	tr	ars	101	
-money	tr	ars	121	
-money	tr	ars	999	
-money	tr	ars	1000	
-money	tr	ars	1001	
-money	tr	ars	2000	
-money	tr	ars	2001	
-money	tr	ars	5000	
-money	tr	ars	21000	
-money	tr	ars	22000	
-money	tr	ars	41000	
-money	tr	ars	42000	
-money	tr	ars	100000	
-money	tr	ars	1000000	
-money	tr	ars	2000000	
-money	tr	ars	1000000000	
-money	tr	ars	123.45	
-money	tr	ars	-1	
-money	tr	ars	-2	
-money	tr	ars	-41.5	
-money	tr	ars	-1000	
-money	tr	ars	1.999	
-money	tr	ars	123.456	
-money	tr	ars	1.005	
-money	tr	brl	0	
-money	tr	brl	0.01	
-money	tr	brl	0.02	
-money	tr	brl	1	
-money	tr	brl	1.01	
-money	tr	brl	1.02	
-money	tr	brl	2	
-money	tr	brl	2.02	
-money	tr	brl	3	
-money	tr	brl	5	
-money	tr	brl	11	
-money	tr	brl	21	
-money	tr	brl	22	
-money	tr	brl	42	
-money	tr	brl	100	
-money	tr	brl	101	
-money	tr	brl	121	
-money	tr	brl	999	
-money	tr	brl	1000	
-money	tr	brl	1001	
-money	tr	brl	2000	
-money	tr	brl	2001	
-money	tr	brl	5000	
-money	tr	brl	21000	
-money	tr	brl	22000	
-money	tr	brl	41000	
-money	tr	brl	42000	
-money	tr	brl	100000	
-money	tr	brl	1000000	
-money	tr	brl	2000000	
-money	tr	brl	1000000000	
-money	tr	brl	123.45	
-money	tr	brl	-1	
-money	tr	brl	-2	
-money	tr	brl	-41.5	
-money	tr	brl	-1000	
-money	tr	brl	1.999	
-money	tr	brl	123.456	
-money	tr	brl	1.005	
-money	tr	uzs	0	
-money	tr	uzs	0.01	
-money	tr	uzs	0.02	
-money	tr	uzs	1	
-money	tr	uzs	1.01	
-money	tr	uzs	1.02	
-money	tr	uzs	2	
-money	tr	uzs	2.02	
-money	tr	uzs	3	
-money	tr	uzs	5	
-money	tr	uzs	11	
-money	tr	uzs	21	
-money	tr	uzs	22	
-money	tr	uzs	42	
-money	tr	uzs	100	
-money	tr	uzs	101	
-money	tr	uzs	121	
-money	tr	uzs	999	
-money	tr	uzs	1000	
-money	tr	uzs	1001	
-money	tr	uzs	2000	
-money	tr	uzs	2001	
-money	tr	uzs	5000	
-money	tr	uzs	21000	
-money	tr	uzs	22000	
-money	tr	uzs	41000	
-money	tr	uzs	42000	
-money	tr	uzs	100000	
-money	tr	uzs	1000000	
-money	tr	uzs	2000000	
-money	tr	uzs	1000000000	
-money	tr	uzs	123.45	
-money	tr	uzs	-1	
-money	tr	uzs	-2	
-money	tr	uzs	-41.5	
-money	tr	uzs	-1000	
-money	tr	uzs	1.999	
-money	tr	uzs	123.456	
-money	tr	uzs	1.005	
+money	tr	ars	0	sıfır Arjantin pesosu sıfır sentavo
+money	tr	ars	0.01	sıfır Arjantin pesosu bir sentavo
+money	tr	ars	0.02	sıfır Arjantin pesosu iki sentavo
+money	tr	ars	1	bir Arjantin pesosu sıfır sentavo
+money	tr	ars	1.01	bir Arjantin pesosu bir sentavo
+money	tr	ars	1.02	bir Arjantin pesosu iki sentavo
+money	tr	ars	2	iki Arjantin pesosu sıfır sentavo
+money	tr	ars	2.02	iki Arjantin pesosu iki sentavo
+money	tr	ars	3	üç Arjantin pesosu sıfır sentavo
+money	tr	ars	5	beş Arjantin pesosu sıfır sentavo
+money	tr	ars	11	on bir Arjantin pesosu sıfır sentavo
+money	tr	ars	21	yirmi bir Arjantin pesosu sıfır sentavo
+money	tr	ars	22	yirmi iki Arjantin pesosu sıfır sentavo
+money	tr	ars	42	kırk iki Arjantin pesosu sıfır sentavo
+money	tr	ars	100	yüz Arjantin pesosu sıfır sentavo
+money	tr	ars	101	yüz bir Arjantin pesosu sıfır sentavo
+money	tr	ars	121	yüz yirmi bir Arjantin pesosu sıfır sentavo
+money	tr	ars	999	dokuz yüz doksan dokuz Arjantin pesosu sıfır sentavo
+money	tr	ars	1000	bin Arjantin pesosu sıfır sentavo
+money	tr	ars	1001	bin bir Arjantin pesosu sıfır sentavo
+money	tr	ars	2000	iki bin Arjantin pesosu sıfır sentavo
+money	tr	ars	2001	iki bin bir Arjantin pesosu sıfır sentavo
+money	tr	ars	5000	beş bin Arjantin pesosu sıfır sentavo
+money	tr	ars	21000	yirmi bir bin Arjantin pesosu sıfır sentavo
+money	tr	ars	22000	yirmi iki bin Arjantin pesosu sıfır sentavo
+money	tr	ars	41000	kırk bir bin Arjantin pesosu sıfır sentavo
+money	tr	ars	42000	kırk iki bin Arjantin pesosu sıfır sentavo
+money	tr	ars	100000	yüz bin Arjantin pesosu sıfır sentavo
+money	tr	ars	1000000	bir milyon Arjantin pesosu sıfır sentavo
+money	tr	ars	2000000	iki milyon Arjantin pesosu sıfır sentavo
+money	tr	ars	1000000000	bir milyar Arjantin pesosu sıfır sentavo
+money	tr	ars	123.45	yüz yirmi üç Arjantin pesosu kırk beş sentavo
+money	tr	ars	-1	eksi bir Arjantin pesosu sıfır sentavo
+money	tr	ars	-2	eksi iki Arjantin pesosu sıfır sentavo
+money	tr	ars	-41.5	eksi kırk bir Arjantin pesosu elli sentavo
+money	tr	ars	-1000	eksi bin Arjantin pesosu sıfır sentavo
+money	tr	ars	1.999	iki Arjantin pesosu sıfır sentavo
+money	tr	ars	123.456	yüz yirmi üç Arjantin pesosu kırk altı sentavo
+money	tr	ars	1.005	bir Arjantin pesosu bir sentavo
+money	tr	brl	0	sıfır Brezilya reali sıfır sentavo
+money	tr	brl	0.01	sıfır Brezilya reali bir sentavo
+money	tr	brl	0.02	sıfır Brezilya reali iki sentavo
+money	tr	brl	1	bir Brezilya reali sıfır sentavo
+money	tr	brl	1.01	bir Brezilya reali bir sentavo
+money	tr	brl	1.02	bir Brezilya reali iki sentavo
+money	tr	brl	2	iki Brezilya reali sıfır sentavo
+money	tr	brl	2.02	iki Brezilya reali iki sentavo
+money	tr	brl	3	üç Brezilya reali sıfır sentavo
+money	tr	brl	5	beş Brezilya reali sıfır sentavo
+money	tr	brl	11	on bir Brezilya reali sıfır sentavo
+money	tr	brl	21	yirmi bir Brezilya reali sıfır sentavo
+money	tr	brl	22	yirmi iki Brezilya reali sıfır sentavo
+money	tr	brl	42	kırk iki Brezilya reali sıfır sentavo
+money	tr	brl	100	yüz Brezilya reali sıfır sentavo
+money	tr	brl	101	yüz bir Brezilya reali sıfır sentavo
+money	tr	brl	121	yüz yirmi bir Brezilya reali sıfır sentavo
+money	tr	brl	999	dokuz yüz doksan dokuz Brezilya reali sıfır sentavo
+money	tr	brl	1000	bin Brezilya reali sıfır sentavo
+money	tr	brl	1001	bin bir Brezilya reali sıfır sentavo
+money	tr	brl	2000	iki bin Brezilya reali sıfır sentavo
+money	tr	brl	2001	iki bin bir Brezilya reali sıfır sentavo
+money	tr	brl	5000	beş bin Brezilya reali sıfır sentavo
+money	tr	brl	21000	yirmi bir bin Brezilya reali sıfır sentavo
+money	tr	brl	22000	yirmi iki bin Brezilya reali sıfır sentavo
+money	tr	brl	41000	kırk bir bin Brezilya reali sıfır sentavo
+money	tr	brl	42000	kırk iki bin Brezilya reali sıfır sentavo
+money	tr	brl	100000	yüz bin Brezilya reali sıfır sentavo
+money	tr	brl	1000000	bir milyon Brezilya reali sıfır sentavo
+money	tr	brl	2000000	iki milyon Brezilya reali sıfır sentavo
+money	tr	brl	1000000000	bir milyar Brezilya reali sıfır sentavo
+money	tr	brl	123.45	yüz yirmi üç Brezilya reali kırk beş sentavo
+money	tr	brl	-1	eksi bir Brezilya reali sıfır sentavo
+money	tr	brl	-2	eksi iki Brezilya reali sıfır sentavo
+money	tr	brl	-41.5	eksi kırk bir Brezilya reali elli sentavo
+money	tr	brl	-1000	eksi bin Brezilya reali sıfır sentavo
+money	tr	brl	1.999	iki Brezilya reali sıfır sentavo
+money	tr	brl	123.456	yüz yirmi üç Brezilya reali kırk altı sentavo
+money	tr	brl	1.005	bir Brezilya reali bir sentavo
+money	tr	uzs	0	sıfır Özbek somu sıfır tiyin
+money	tr	uzs	0.01	sıfır Özbek somu bir tiyin
+money	tr	uzs	0.02	sıfır Özbek somu iki tiyin
+money	tr	uzs	1	bir Özbek somu sıfır tiyin
+money	tr	uzs	1.01	bir Özbek somu bir tiyin
+money	tr	uzs	1.02	bir Özbek somu iki tiyin
+money	tr	uzs	2	iki Özbek somu sıfır tiyin
+money	tr	uzs	2.02	iki Özbek somu iki tiyin
+money	tr	uzs	3	üç Özbek somu sıfır tiyin
+money	tr	uzs	5	beş Özbek somu sıfır tiyin
+money	tr	uzs	11	on bir Özbek somu sıfır tiyin
+money	tr	uzs	21	yirmi bir Özbek somu sıfır tiyin
+money	tr	uzs	22	yirmi iki Özbek somu sıfır tiyin
+money	tr	uzs	42	kırk iki Özbek somu sıfır tiyin
+money	tr	uzs	100	yüz Özbek somu sıfır tiyin
+money	tr	uzs	101	yüz bir Özbek somu sıfır tiyin
+money	tr	uzs	121	yüz yirmi bir Özbek somu sıfır tiyin
+money	tr	uzs	999	dokuz yüz doksan dokuz Özbek somu sıfır tiyin
+money	tr	uzs	1000	bin Özbek somu sıfır tiyin
+money	tr	uzs	1001	bin bir Özbek somu sıfır tiyin
+money	tr	uzs	2000	iki bin Özbek somu sıfır tiyin
+money	tr	uzs	2001	iki bin bir Özbek somu sıfır tiyin
+money	tr	uzs	5000	beş bin Özbek somu sıfır tiyin
+money	tr	uzs	21000	yirmi bir bin Özbek somu sıfır tiyin
+money	tr	uzs	22000	yirmi iki bin Özbek somu sıfır tiyin
+money	tr	uzs	41000	kırk bir bin Özbek somu sıfır tiyin
+money	tr	uzs	42000	kırk iki bin Özbek somu sıfır tiyin
+money	tr	uzs	100000	yüz bin Özbek somu sıfır tiyin
+money	tr	uzs	1000000	bir milyon Özbek somu sıfır tiyin
+money	tr	uzs	2000000	iki milyon Özbek somu sıfır tiyin
+money	tr	uzs	1000000000	bir milyar Özbek somu sıfır tiyin
+money	tr	uzs	123.45	yüz yirmi üç Özbek somu kırk beş tiyin
+money	tr	uzs	-1	eksi bir Özbek somu sıfır tiyin
+money	tr	uzs	-2	eksi iki Özbek somu sıfır tiyin
+money	tr	uzs	-41.5	eksi kırk bir Özbek somu elli tiyin
+money	tr	uzs	-1000	eksi bin Özbek somu sıfır tiyin
+money	tr	uzs	1.999	iki Özbek somu sıfır tiyin
+money	tr	uzs	123.456	yüz yirmi üç Özbek somu kırk altı tiyin
+money	tr	uzs	1.005	bir Özbek somu bir tiyin
 money	tr	gbp	0	sıfır sterlin sıfır peni
 money	tr	gbp	0.01	sıfır sterlin bir peni
 money	tr	gbp	0.02	sıfır sterlin iki peni
@@ -6641,279 +6641,279 @@ money	uz	try	-1000	minus ming turk lirasi nol tiyin
 money	uz	try	1.999	ikki turk lirasi nol tiyin
 money	uz	try	123.456	yuz yigirma uch turk lirasi qirq olti tiyin
 money	uz	try	1.005	bir turk lirasi bir tiyin
-money	uz	uah	0	
-money	uz	uah	0.01	
-money	uz	uah	0.02	
-money	uz	uah	1	
-money	uz	uah	1.01	
-money	uz	uah	1.02	
-money	uz	uah	2	
-money	uz	uah	2.02	
-money	uz	uah	3	
-money	uz	uah	5	
-money	uz	uah	11	
-money	uz	uah	21	
-money	uz	uah	22	
-money	uz	uah	42	
-money	uz	uah	100	
-money	uz	uah	101	
-money	uz	uah	121	
-money	uz	uah	999	
-money	uz	uah	1000	
-money	uz	uah	1001	
-money	uz	uah	2000	
-money	uz	uah	2001	
-money	uz	uah	5000	
-money	uz	uah	21000	
-money	uz	uah	22000	
-money	uz	uah	41000	
-money	uz	uah	42000	
-money	uz	uah	100000	
-money	uz	uah	1000000	
-money	uz	uah	2000000	
-money	uz	uah	1000000000	
-money	uz	uah	123.45	
-money	uz	uah	-1	
-money	uz	uah	-2	
-money	uz	uah	-41.5	
-money	uz	uah	-1000	
-money	uz	uah	1.999	
-money	uz	uah	123.456	
-money	uz	uah	1.005	
-money	uz	bgn	0	
-money	uz	bgn	0.01	
-money	uz	bgn	0.02	
-money	uz	bgn	1	
-money	uz	bgn	1.01	
-money	uz	bgn	1.02	
-money	uz	bgn	2	
-money	uz	bgn	2.02	
-money	uz	bgn	3	
-money	uz	bgn	5	
-money	uz	bgn	11	
-money	uz	bgn	21	
-money	uz	bgn	22	
-money	uz	bgn	42	
-money	uz	bgn	100	
-money	uz	bgn	101	
-money	uz	bgn	121	
-money	uz	bgn	999	
-money	uz	bgn	1000	
-money	uz	bgn	1001	
-money	uz	bgn	2000	
-money	uz	bgn	2001	
-money	uz	bgn	5000	
-money	uz	bgn	21000	
-money	uz	bgn	22000	
-money	uz	bgn	41000	
-money	uz	bgn	42000	
-money	uz	bgn	100000	
-money	uz	bgn	1000000	
-money	uz	bgn	2000000	
-money	uz	bgn	1000000000	
-money	uz	bgn	123.45	
-money	uz	bgn	-1	
-money	uz	bgn	-2	
-money	uz	bgn	-41.5	
-money	uz	bgn	-1000	
-money	uz	bgn	1.999	
-money	uz	bgn	123.456	
-money	uz	bgn	1.005	
-money	uz	etb	0	
-money	uz	etb	0.01	
-money	uz	etb	0.02	
-money	uz	etb	1	
-money	uz	etb	1.01	
-money	uz	etb	1.02	
-money	uz	etb	2	
-money	uz	etb	2.02	
-money	uz	etb	3	
-money	uz	etb	5	
-money	uz	etb	11	
-money	uz	etb	21	
-money	uz	etb	22	
-money	uz	etb	42	
-money	uz	etb	100	
-money	uz	etb	101	
-money	uz	etb	121	
-money	uz	etb	999	
-money	uz	etb	1000	
-money	uz	etb	1001	
-money	uz	etb	2000	
-money	uz	etb	2001	
-money	uz	etb	5000	
-money	uz	etb	21000	
-money	uz	etb	22000	
-money	uz	etb	41000	
-money	uz	etb	42000	
-money	uz	etb	100000	
-money	uz	etb	1000000	
-money	uz	etb	2000000	
-money	uz	etb	1000000000	
-money	uz	etb	123.45	
-money	uz	etb	-1	
-money	uz	etb	-2	
-money	uz	etb	-41.5	
-money	uz	etb	-1000	
-money	uz	etb	1.999	
-money	uz	etb	123.456	
-money	uz	etb	1.005	
-money	uz	pln	0	
-money	uz	pln	0.01	
-money	uz	pln	0.02	
-money	uz	pln	1	
-money	uz	pln	1.01	
-money	uz	pln	1.02	
-money	uz	pln	2	
-money	uz	pln	2.02	
-money	uz	pln	3	
-money	uz	pln	5	
-money	uz	pln	11	
-money	uz	pln	21	
-money	uz	pln	22	
-money	uz	pln	42	
-money	uz	pln	100	
-money	uz	pln	101	
-money	uz	pln	121	
-money	uz	pln	999	
-money	uz	pln	1000	
-money	uz	pln	1001	
-money	uz	pln	2000	
-money	uz	pln	2001	
-money	uz	pln	5000	
-money	uz	pln	21000	
-money	uz	pln	22000	
-money	uz	pln	41000	
-money	uz	pln	42000	
-money	uz	pln	100000	
-money	uz	pln	1000000	
-money	uz	pln	2000000	
-money	uz	pln	1000000000	
-money	uz	pln	123.45	
-money	uz	pln	-1	
-money	uz	pln	-2	
-money	uz	pln	-41.5	
-money	uz	pln	-1000	
-money	uz	pln	1.999	
-money	uz	pln	123.456	
-money	uz	pln	1.005	
-money	uz	byn	0	
-money	uz	byn	0.01	
-money	uz	byn	0.02	
-money	uz	byn	1	
-money	uz	byn	1.01	
-money	uz	byn	1.02	
-money	uz	byn	2	
-money	uz	byn	2.02	
-money	uz	byn	3	
-money	uz	byn	5	
-money	uz	byn	11	
-money	uz	byn	21	
-money	uz	byn	22	
-money	uz	byn	42	
-money	uz	byn	100	
-money	uz	byn	101	
-money	uz	byn	121	
-money	uz	byn	999	
-money	uz	byn	1000	
-money	uz	byn	1001	
-money	uz	byn	2000	
-money	uz	byn	2001	
-money	uz	byn	5000	
-money	uz	byn	21000	
-money	uz	byn	22000	
-money	uz	byn	41000	
-money	uz	byn	42000	
-money	uz	byn	100000	
-money	uz	byn	1000000	
-money	uz	byn	2000000	
-money	uz	byn	1000000000	
-money	uz	byn	123.45	
-money	uz	byn	-1	
-money	uz	byn	-2	
-money	uz	byn	-41.5	
-money	uz	byn	-1000	
-money	uz	byn	1.999	
-money	uz	byn	123.456	
-money	uz	byn	1.005	
-money	uz	ars	0	
-money	uz	ars	0.01	
-money	uz	ars	0.02	
-money	uz	ars	1	
-money	uz	ars	1.01	
-money	uz	ars	1.02	
-money	uz	ars	2	
-money	uz	ars	2.02	
-money	uz	ars	3	
-money	uz	ars	5	
-money	uz	ars	11	
-money	uz	ars	21	
-money	uz	ars	22	
-money	uz	ars	42	
-money	uz	ars	100	
-money	uz	ars	101	
-money	uz	ars	121	
-money	uz	ars	999	
-money	uz	ars	1000	
-money	uz	ars	1001	
-money	uz	ars	2000	
-money	uz	ars	2001	
-money	uz	ars	5000	
-money	uz	ars	21000	
-money	uz	ars	22000	
-money	uz	ars	41000	
-money	uz	ars	42000	
-money	uz	ars	100000	
-money	uz	ars	1000000	
-money	uz	ars	2000000	
-money	uz	ars	1000000000	
-money	uz	ars	123.45	
-money	uz	ars	-1	
-money	uz	ars	-2	
-money	uz	ars	-41.5	
-money	uz	ars	-1000	
-money	uz	ars	1.999	
-money	uz	ars	123.456	
-money	uz	ars	1.005	
-money	uz	brl	0	
-money	uz	brl	0.01	
-money	uz	brl	0.02	
-money	uz	brl	1	
-money	uz	brl	1.01	
-money	uz	brl	1.02	
-money	uz	brl	2	
-money	uz	brl	2.02	
-money	uz	brl	3	
-money	uz	brl	5	
-money	uz	brl	11	
-money	uz	brl	21	
-money	uz	brl	22	
-money	uz	brl	42	
-money	uz	brl	100	
-money	uz	brl	101	
-money	uz	brl	121	
-money	uz	brl	999	
-money	uz	brl	1000	
-money	uz	brl	1001	
-money	uz	brl	2000	
-money	uz	brl	2001	
-money	uz	brl	5000	
-money	uz	brl	21000	
-money	uz	brl	22000	
-money	uz	brl	41000	
-money	uz	brl	42000	
-money	uz	brl	100000	
-money	uz	brl	1000000	
-money	uz	brl	2000000	
-money	uz	brl	1000000000	
-money	uz	brl	123.45	
-money	uz	brl	-1	
-money	uz	brl	-2	
-money	uz	brl	-41.5	
-money	uz	brl	-1000	
-money	uz	brl	1.999	
-money	uz	brl	123.456	
-money	uz	brl	1.005	
+money	uz	uah	0	nol Ukraina grivnasi nol tiyin
+money	uz	uah	0.01	nol Ukraina grivnasi bir tiyin
+money	uz	uah	0.02	nol Ukraina grivnasi ikki tiyin
+money	uz	uah	1	bir Ukraina grivnasi nol tiyin
+money	uz	uah	1.01	bir Ukraina grivnasi bir tiyin
+money	uz	uah	1.02	bir Ukraina grivnasi ikki tiyin
+money	uz	uah	2	ikki Ukraina grivnasi nol tiyin
+money	uz	uah	2.02	ikki Ukraina grivnasi ikki tiyin
+money	uz	uah	3	uch Ukraina grivnasi nol tiyin
+money	uz	uah	5	besh Ukraina grivnasi nol tiyin
+money	uz	uah	11	o'n bir Ukraina grivnasi nol tiyin
+money	uz	uah	21	yigirma bir Ukraina grivnasi nol tiyin
+money	uz	uah	22	yigirma ikki Ukraina grivnasi nol tiyin
+money	uz	uah	42	qirq ikki Ukraina grivnasi nol tiyin
+money	uz	uah	100	yuz Ukraina grivnasi nol tiyin
+money	uz	uah	101	yuz bir Ukraina grivnasi nol tiyin
+money	uz	uah	121	yuz yigirma bir Ukraina grivnasi nol tiyin
+money	uz	uah	999	to'qqiz yuz to'qson to'qqiz Ukraina grivnasi nol tiyin
+money	uz	uah	1000	ming Ukraina grivnasi nol tiyin
+money	uz	uah	1001	ming bir Ukraina grivnasi nol tiyin
+money	uz	uah	2000	ikki ming Ukraina grivnasi nol tiyin
+money	uz	uah	2001	ikki ming bir Ukraina grivnasi nol tiyin
+money	uz	uah	5000	besh ming Ukraina grivnasi nol tiyin
+money	uz	uah	21000	yigirma bir ming Ukraina grivnasi nol tiyin
+money	uz	uah	22000	yigirma ikki ming Ukraina grivnasi nol tiyin
+money	uz	uah	41000	qirq bir ming Ukraina grivnasi nol tiyin
+money	uz	uah	42000	qirq ikki ming Ukraina grivnasi nol tiyin
+money	uz	uah	100000	yuz ming Ukraina grivnasi nol tiyin
+money	uz	uah	1000000	bir million Ukraina grivnasi nol tiyin
+money	uz	uah	2000000	ikki million Ukraina grivnasi nol tiyin
+money	uz	uah	1000000000	bir milliard Ukraina grivnasi nol tiyin
+money	uz	uah	123.45	yuz yigirma uch Ukraina grivnasi qirq besh tiyin
+money	uz	uah	-1	minus bir Ukraina grivnasi nol tiyin
+money	uz	uah	-2	minus ikki Ukraina grivnasi nol tiyin
+money	uz	uah	-41.5	minus qirq bir Ukraina grivnasi ellik tiyin
+money	uz	uah	-1000	minus ming Ukraina grivnasi nol tiyin
+money	uz	uah	1.999	ikki Ukraina grivnasi nol tiyin
+money	uz	uah	123.456	yuz yigirma uch Ukraina grivnasi qirq olti tiyin
+money	uz	uah	1.005	bir Ukraina grivnasi bir tiyin
+money	uz	bgn	0	nol Bolgariya levi nol stotinka
+money	uz	bgn	0.01	nol Bolgariya levi bir stotinka
+money	uz	bgn	0.02	nol Bolgariya levi ikki stotinka
+money	uz	bgn	1	bir Bolgariya levi nol stotinka
+money	uz	bgn	1.01	bir Bolgariya levi bir stotinka
+money	uz	bgn	1.02	bir Bolgariya levi ikki stotinka
+money	uz	bgn	2	ikki Bolgariya levi nol stotinka
+money	uz	bgn	2.02	ikki Bolgariya levi ikki stotinka
+money	uz	bgn	3	uch Bolgariya levi nol stotinka
+money	uz	bgn	5	besh Bolgariya levi nol stotinka
+money	uz	bgn	11	o'n bir Bolgariya levi nol stotinka
+money	uz	bgn	21	yigirma bir Bolgariya levi nol stotinka
+money	uz	bgn	22	yigirma ikki Bolgariya levi nol stotinka
+money	uz	bgn	42	qirq ikki Bolgariya levi nol stotinka
+money	uz	bgn	100	yuz Bolgariya levi nol stotinka
+money	uz	bgn	101	yuz bir Bolgariya levi nol stotinka
+money	uz	bgn	121	yuz yigirma bir Bolgariya levi nol stotinka
+money	uz	bgn	999	to'qqiz yuz to'qson to'qqiz Bolgariya levi nol stotinka
+money	uz	bgn	1000	ming Bolgariya levi nol stotinka
+money	uz	bgn	1001	ming bir Bolgariya levi nol stotinka
+money	uz	bgn	2000	ikki ming Bolgariya levi nol stotinka
+money	uz	bgn	2001	ikki ming bir Bolgariya levi nol stotinka
+money	uz	bgn	5000	besh ming Bolgariya levi nol stotinka
+money	uz	bgn	21000	yigirma bir ming Bolgariya levi nol stotinka
+money	uz	bgn	22000	yigirma ikki ming Bolgariya levi nol stotinka
+money	uz	bgn	41000	qirq bir ming Bolgariya levi nol stotinka
+money	uz	bgn	42000	qirq ikki ming Bolgariya levi nol stotinka
+money	uz	bgn	100000	yuz ming Bolgariya levi nol stotinka
+money	uz	bgn	1000000	bir million Bolgariya levi nol stotinka
+money	uz	bgn	2000000	ikki million Bolgariya levi nol stotinka
+money	uz	bgn	1000000000	bir milliard Bolgariya levi nol stotinka
+money	uz	bgn	123.45	yuz yigirma uch Bolgariya levi qirq besh stotinka
+money	uz	bgn	-1	minus bir Bolgariya levi nol stotinka
+money	uz	bgn	-2	minus ikki Bolgariya levi nol stotinka
+money	uz	bgn	-41.5	minus qirq bir Bolgariya levi ellik stotinka
+money	uz	bgn	-1000	minus ming Bolgariya levi nol stotinka
+money	uz	bgn	1.999	ikki Bolgariya levi nol stotinka
+money	uz	bgn	123.456	yuz yigirma uch Bolgariya levi qirq olti stotinka
+money	uz	bgn	1.005	bir Bolgariya levi bir stotinka
+money	uz	etb	0	nol Efiopiya biri nol tiyin
+money	uz	etb	0.01	nol Efiopiya biri bir tiyin
+money	uz	etb	0.02	nol Efiopiya biri ikki tiyin
+money	uz	etb	1	bir Efiopiya biri nol tiyin
+money	uz	etb	1.01	bir Efiopiya biri bir tiyin
+money	uz	etb	1.02	bir Efiopiya biri ikki tiyin
+money	uz	etb	2	ikki Efiopiya biri nol tiyin
+money	uz	etb	2.02	ikki Efiopiya biri ikki tiyin
+money	uz	etb	3	uch Efiopiya biri nol tiyin
+money	uz	etb	5	besh Efiopiya biri nol tiyin
+money	uz	etb	11	o'n bir Efiopiya biri nol tiyin
+money	uz	etb	21	yigirma bir Efiopiya biri nol tiyin
+money	uz	etb	22	yigirma ikki Efiopiya biri nol tiyin
+money	uz	etb	42	qirq ikki Efiopiya biri nol tiyin
+money	uz	etb	100	yuz Efiopiya biri nol tiyin
+money	uz	etb	101	yuz bir Efiopiya biri nol tiyin
+money	uz	etb	121	yuz yigirma bir Efiopiya biri nol tiyin
+money	uz	etb	999	to'qqiz yuz to'qson to'qqiz Efiopiya biri nol tiyin
+money	uz	etb	1000	ming Efiopiya biri nol tiyin
+money	uz	etb	1001	ming bir Efiopiya biri nol tiyin
+money	uz	etb	2000	ikki ming Efiopiya biri nol tiyin
+money	uz	etb	2001	ikki ming bir Efiopiya biri nol tiyin
+money	uz	etb	5000	besh ming Efiopiya biri nol tiyin
+money	uz	etb	21000	yigirma bir ming Efiopiya biri nol tiyin
+money	uz	etb	22000	yigirma ikki ming Efiopiya biri nol tiyin
+money	uz	etb	41000	qirq bir ming Efiopiya biri nol tiyin
+money	uz	etb	42000	qirq ikki ming Efiopiya biri nol tiyin
+money	uz	etb	100000	yuz ming Efiopiya biri nol tiyin
+money	uz	etb	1000000	bir million Efiopiya biri nol tiyin
+money	uz	etb	2000000	ikki million Efiopiya biri nol tiyin
+money	uz	etb	1000000000	bir milliard Efiopiya biri nol tiyin
+money	uz	etb	123.45	yuz yigirma uch Efiopiya biri qirq besh tiyin
+money	uz	etb	-1	minus bir Efiopiya biri nol tiyin
+money	uz	etb	-2	minus ikki Efiopiya biri nol tiyin
+money	uz	etb	-41.5	minus qirq bir Efiopiya biri ellik tiyin
+money	uz	etb	-1000	minus ming Efiopiya biri nol tiyin
+money	uz	etb	1.999	ikki Efiopiya biri nol tiyin
+money	uz	etb	123.456	yuz yigirma uch Efiopiya biri qirq olti tiyin
+money	uz	etb	1.005	bir Efiopiya biri bir tiyin
+money	uz	pln	0	nol Polsha zlotiysi nol grosh
+money	uz	pln	0.01	nol Polsha zlotiysi bir grosh
+money	uz	pln	0.02	nol Polsha zlotiysi ikki grosh
+money	uz	pln	1	bir Polsha zlotiysi nol grosh
+money	uz	pln	1.01	bir Polsha zlotiysi bir grosh
+money	uz	pln	1.02	bir Polsha zlotiysi ikki grosh
+money	uz	pln	2	ikki Polsha zlotiysi nol grosh
+money	uz	pln	2.02	ikki Polsha zlotiysi ikki grosh
+money	uz	pln	3	uch Polsha zlotiysi nol grosh
+money	uz	pln	5	besh Polsha zlotiysi nol grosh
+money	uz	pln	11	o'n bir Polsha zlotiysi nol grosh
+money	uz	pln	21	yigirma bir Polsha zlotiysi nol grosh
+money	uz	pln	22	yigirma ikki Polsha zlotiysi nol grosh
+money	uz	pln	42	qirq ikki Polsha zlotiysi nol grosh
+money	uz	pln	100	yuz Polsha zlotiysi nol grosh
+money	uz	pln	101	yuz bir Polsha zlotiysi nol grosh
+money	uz	pln	121	yuz yigirma bir Polsha zlotiysi nol grosh
+money	uz	pln	999	to'qqiz yuz to'qson to'qqiz Polsha zlotiysi nol grosh
+money	uz	pln	1000	ming Polsha zlotiysi nol grosh
+money	uz	pln	1001	ming bir Polsha zlotiysi nol grosh
+money	uz	pln	2000	ikki ming Polsha zlotiysi nol grosh
+money	uz	pln	2001	ikki ming bir Polsha zlotiysi nol grosh
+money	uz	pln	5000	besh ming Polsha zlotiysi nol grosh
+money	uz	pln	21000	yigirma bir ming Polsha zlotiysi nol grosh
+money	uz	pln	22000	yigirma ikki ming Polsha zlotiysi nol grosh
+money	uz	pln	41000	qirq bir ming Polsha zlotiysi nol grosh
+money	uz	pln	42000	qirq ikki ming Polsha zlotiysi nol grosh
+money	uz	pln	100000	yuz ming Polsha zlotiysi nol grosh
+money	uz	pln	1000000	bir million Polsha zlotiysi nol grosh
+money	uz	pln	2000000	ikki million Polsha zlotiysi nol grosh
+money	uz	pln	1000000000	bir milliard Polsha zlotiysi nol grosh
+money	uz	pln	123.45	yuz yigirma uch Polsha zlotiysi qirq besh grosh
+money	uz	pln	-1	minus bir Polsha zlotiysi nol grosh
+money	uz	pln	-2	minus ikki Polsha zlotiysi nol grosh
+money	uz	pln	-41.5	minus qirq bir Polsha zlotiysi ellik grosh
+money	uz	pln	-1000	minus ming Polsha zlotiysi nol grosh
+money	uz	pln	1.999	ikki Polsha zlotiysi nol grosh
+money	uz	pln	123.456	yuz yigirma uch Polsha zlotiysi qirq olti grosh
+money	uz	pln	1.005	bir Polsha zlotiysi bir grosh
+money	uz	byn	0	nol Belarus rubli nol tiyin
+money	uz	byn	0.01	nol Belarus rubli bir tiyin
+money	uz	byn	0.02	nol Belarus rubli ikki tiyin
+money	uz	byn	1	bir Belarus rubli nol tiyin
+money	uz	byn	1.01	bir Belarus rubli bir tiyin
+money	uz	byn	1.02	bir Belarus rubli ikki tiyin
+money	uz	byn	2	ikki Belarus rubli nol tiyin
+money	uz	byn	2.02	ikki Belarus rubli ikki tiyin
+money	uz	byn	3	uch Belarus rubli nol tiyin
+money	uz	byn	5	besh Belarus rubli nol tiyin
+money	uz	byn	11	o'n bir Belarus rubli nol tiyin
+money	uz	byn	21	yigirma bir Belarus rubli nol tiyin
+money	uz	byn	22	yigirma ikki Belarus rubli nol tiyin
+money	uz	byn	42	qirq ikki Belarus rubli nol tiyin
+money	uz	byn	100	yuz Belarus rubli nol tiyin
+money	uz	byn	101	yuz bir Belarus rubli nol tiyin
+money	uz	byn	121	yuz yigirma bir Belarus rubli nol tiyin
+money	uz	byn	999	to'qqiz yuz to'qson to'qqiz Belarus rubli nol tiyin
+money	uz	byn	1000	ming Belarus rubli nol tiyin
+money	uz	byn	1001	ming bir Belarus rubli nol tiyin
+money	uz	byn	2000	ikki ming Belarus rubli nol tiyin
+money	uz	byn	2001	ikki ming bir Belarus rubli nol tiyin
+money	uz	byn	5000	besh ming Belarus rubli nol tiyin
+money	uz	byn	21000	yigirma bir ming Belarus rubli nol tiyin
+money	uz	byn	22000	yigirma ikki ming Belarus rubli nol tiyin
+money	uz	byn	41000	qirq bir ming Belarus rubli nol tiyin
+money	uz	byn	42000	qirq ikki ming Belarus rubli nol tiyin
+money	uz	byn	100000	yuz ming Belarus rubli nol tiyin
+money	uz	byn	1000000	bir million Belarus rubli nol tiyin
+money	uz	byn	2000000	ikki million Belarus rubli nol tiyin
+money	uz	byn	1000000000	bir milliard Belarus rubli nol tiyin
+money	uz	byn	123.45	yuz yigirma uch Belarus rubli qirq besh tiyin
+money	uz	byn	-1	minus bir Belarus rubli nol tiyin
+money	uz	byn	-2	minus ikki Belarus rubli nol tiyin
+money	uz	byn	-41.5	minus qirq bir Belarus rubli ellik tiyin
+money	uz	byn	-1000	minus ming Belarus rubli nol tiyin
+money	uz	byn	1.999	ikki Belarus rubli nol tiyin
+money	uz	byn	123.456	yuz yigirma uch Belarus rubli qirq olti tiyin
+money	uz	byn	1.005	bir Belarus rubli bir tiyin
+money	uz	ars	0	nol Argentina pesosi nol sentavo
+money	uz	ars	0.01	nol Argentina pesosi bir sentavo
+money	uz	ars	0.02	nol Argentina pesosi ikki sentavo
+money	uz	ars	1	bir Argentina pesosi nol sentavo
+money	uz	ars	1.01	bir Argentina pesosi bir sentavo
+money	uz	ars	1.02	bir Argentina pesosi ikki sentavo
+money	uz	ars	2	ikki Argentina pesosi nol sentavo
+money	uz	ars	2.02	ikki Argentina pesosi ikki sentavo
+money	uz	ars	3	uch Argentina pesosi nol sentavo
+money	uz	ars	5	besh Argentina pesosi nol sentavo
+money	uz	ars	11	o'n bir Argentina pesosi nol sentavo
+money	uz	ars	21	yigirma bir Argentina pesosi nol sentavo
+money	uz	ars	22	yigirma ikki Argentina pesosi nol sentavo
+money	uz	ars	42	qirq ikki Argentina pesosi nol sentavo
+money	uz	ars	100	yuz Argentina pesosi nol sentavo
+money	uz	ars	101	yuz bir Argentina pesosi nol sentavo
+money	uz	ars	121	yuz yigirma bir Argentina pesosi nol sentavo
+money	uz	ars	999	to'qqiz yuz to'qson to'qqiz Argentina pesosi nol sentavo
+money	uz	ars	1000	ming Argentina pesosi nol sentavo
+money	uz	ars	1001	ming bir Argentina pesosi nol sentavo
+money	uz	ars	2000	ikki ming Argentina pesosi nol sentavo
+money	uz	ars	2001	ikki ming bir Argentina pesosi nol sentavo
+money	uz	ars	5000	besh ming Argentina pesosi nol sentavo
+money	uz	ars	21000	yigirma bir ming Argentina pesosi nol sentavo
+money	uz	ars	22000	yigirma ikki ming Argentina pesosi nol sentavo
+money	uz	ars	41000	qirq bir ming Argentina pesosi nol sentavo
+money	uz	ars	42000	qirq ikki ming Argentina pesosi nol sentavo
+money	uz	ars	100000	yuz ming Argentina pesosi nol sentavo
+money	uz	ars	1000000	bir million Argentina pesosi nol sentavo
+money	uz	ars	2000000	ikki million Argentina pesosi nol sentavo
+money	uz	ars	1000000000	bir milliard Argentina pesosi nol sentavo
+money	uz	ars	123.45	yuz yigirma uch Argentina pesosi qirq besh sentavo
+money	uz	ars	-1	minus bir Argentina pesosi nol sentavo
+money	uz	ars	-2	minus ikki Argentina pesosi nol sentavo
+money	uz	ars	-41.5	minus qirq bir Argentina pesosi ellik sentavo
+money	uz	ars	-1000	minus ming Argentina pesosi nol sentavo
+money	uz	ars	1.999	ikki Argentina pesosi nol sentavo
+money	uz	ars	123.456	yuz yigirma uch Argentina pesosi qirq olti sentavo
+money	uz	ars	1.005	bir Argentina pesosi bir sentavo
+money	uz	brl	0	nol Braziliya reali nol sentavo
+money	uz	brl	0.01	nol Braziliya reali bir sentavo
+money	uz	brl	0.02	nol Braziliya reali ikki sentavo
+money	uz	brl	1	bir Braziliya reali nol sentavo
+money	uz	brl	1.01	bir Braziliya reali bir sentavo
+money	uz	brl	1.02	bir Braziliya reali ikki sentavo
+money	uz	brl	2	ikki Braziliya reali nol sentavo
+money	uz	brl	2.02	ikki Braziliya reali ikki sentavo
+money	uz	brl	3	uch Braziliya reali nol sentavo
+money	uz	brl	5	besh Braziliya reali nol sentavo
+money	uz	brl	11	o'n bir Braziliya reali nol sentavo
+money	uz	brl	21	yigirma bir Braziliya reali nol sentavo
+money	uz	brl	22	yigirma ikki Braziliya reali nol sentavo
+money	uz	brl	42	qirq ikki Braziliya reali nol sentavo
+money	uz	brl	100	yuz Braziliya reali nol sentavo
+money	uz	brl	101	yuz bir Braziliya reali nol sentavo
+money	uz	brl	121	yuz yigirma bir Braziliya reali nol sentavo
+money	uz	brl	999	to'qqiz yuz to'qson to'qqiz Braziliya reali nol sentavo
+money	uz	brl	1000	ming Braziliya reali nol sentavo
+money	uz	brl	1001	ming bir Braziliya reali nol sentavo
+money	uz	brl	2000	ikki ming Braziliya reali nol sentavo
+money	uz	brl	2001	ikki ming bir Braziliya reali nol sentavo
+money	uz	brl	5000	besh ming Braziliya reali nol sentavo
+money	uz	brl	21000	yigirma bir ming Braziliya reali nol sentavo
+money	uz	brl	22000	yigirma ikki ming Braziliya reali nol sentavo
+money	uz	brl	41000	qirq bir ming Braziliya reali nol sentavo
+money	uz	brl	42000	qirq ikki ming Braziliya reali nol sentavo
+money	uz	brl	100000	yuz ming Braziliya reali nol sentavo
+money	uz	brl	1000000	bir million Braziliya reali nol sentavo
+money	uz	brl	2000000	ikki million Braziliya reali nol sentavo
+money	uz	brl	1000000000	bir milliard Braziliya reali nol sentavo
+money	uz	brl	123.45	yuz yigirma uch Braziliya reali qirq besh sentavo
+money	uz	brl	-1	minus bir Braziliya reali nol sentavo
+money	uz	brl	-2	minus ikki Braziliya reali nol sentavo
+money	uz	brl	-41.5	minus qirq bir Braziliya reali ellik sentavo
+money	uz	brl	-1000	minus ming Braziliya reali nol sentavo
+money	uz	brl	1.999	ikki Braziliya reali nol sentavo
+money	uz	brl	123.456	yuz yigirma uch Braziliya reali qirq olti sentavo
+money	uz	brl	1.005	bir Braziliya reali bir sentavo
 money	uz	uzs	0	nol so'm nol tiyin
 money	uz	uzs	0.01	nol so'm bir tiyin
 money	uz	uzs	0.02	nol so'm ikki tiyin
