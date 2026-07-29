@@ -22,10 +22,30 @@ namespace Nut.TextConverters
     
     // Set only on the short-lived instance used for the part in front of a scale word.
     private readonly bool _beforeScaleWord;
+    private readonly bool _feminine;
 
     private FrenchConverter(FrenchConverter template, bool beforeScaleWord) : base(template)
     {
       _beforeScaleWord = beforeScaleWord;
+    }
+
+    private FrenchConverter(FrenchConverter template, bool beforeScaleWord, bool feminine) : base(template)
+    {
+      _beforeScaleWord = beforeScaleWord;
+      _feminine = feminine;
+    }
+
+    /// <summary>"la livre" is the pound; "le livre" is a book. The numeral has to agree.</summary>
+    protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
+    {
+      var gender = isMainUnit ? currencyModel.Gender : currencyModel.SubUnitCurrency.Gender;
+      return new FrenchConverter(this, false, gender == GenderGroup.Feminine).ToText(num);
+    }
+
+    protected override void AppendUnits(long num, StringBuilder builder)
+    {
+      if (_feminine && num == 1) builder.AppendFormat("{0} ", NumberTexts[1][2]);
+      else base.AppendUnits(num, builder);
     }
 
     protected override long Append(long num, long scale, StringBuilder builder)
@@ -82,7 +102,7 @@ namespace Nut.TextConverters
           var etUnList = new long[] { 21, 31, 41, 51, 61 };
           if (etUnList.Contains(num))
           {
-            builder.AppendFormat("{0} {1} ", NumberTexts[tens][0], NumberTexts[num - tens][1]);
+            builder.AppendFormat("{0} {1} ", NumberTexts[tens][0], NumberTexts[num - tens][_feminine && num - tens == 1 ? 3 : 1]);
             return 0;
           }
 
@@ -120,7 +140,7 @@ namespace Nut.TextConverters
     private void Initialize()
     {
       NumberTexts.Add(0, new[] { "zéro" });
-      NumberTexts.Add(1, new[] { "un", "et un" });
+      NumberTexts.Add(1, new[] { "un", "et un", "une", "et une" });
       NumberTexts.Add(2, new[] { "deux" });
       NumberTexts.Add(3, new[] { "trois" });
       NumberTexts.Add(4, new[] { "quatre" });
@@ -161,56 +181,72 @@ namespace Nut.TextConverters
           {
             Currency = currency,
             Names = new[] { "euro", "euros" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "centime", "centimes" } }
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "centime", "centimes" } }
+          };
+        case Currency.GBP:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "livre sterling", "livres sterling" },
+            Gender = GenderGroup.Feminine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "penny", "pence" } }
           };
         case Currency.USD:
           return new CurrencyModel
           {
             Currency = currency,
             Names = new[] { "dollar", "dollars" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "centime", "centimes" } }
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "centime", "centimes" } }
           };
         case Currency.RUB:
           return new CurrencyModel
           {
             Currency = currency,
             Names = new[] { "rouble", "roubles" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopeck ", "kopecks" } }
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "kopeck", "kopecks" } }
           };
         case Currency.TRY:
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "livre turques", "livres turques" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kuruş", "kuruş" } }
+            Names = new[] { "livre turque", "livres turques" },
+            Gender = GenderGroup.Feminine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "kuruş", "kuruş" } }
           };
         case Currency.UAH:
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "hryvnia ukrainienne", "hryvnias ukrainienne" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopiyka", "kopiyka" } }
+            Names = new[] { "hryvnia ukrainienne", "hryvnias ukrainiennes" },
+            Gender = GenderGroup.Feminine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "kopiyka", "kopiyka" } }
           };
         case Currency.ETB:
           return new CurrencyModel
           {
             Currency = currency,
             Names = new[] { "Birr", "Birr" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "centime", "centimes" } }
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "centime", "centimes" } }
           };
         case Currency.PLN:
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "zloty", "zloty" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "groszy", "groszy" } }
+            Names = new[] { "zloty", "zlotys" },
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "grosz", "groszys" } }
           };
         case Currency.BYN:
           return new CurrencyModel
           {
             Currency = currency,
             Names = new[] { "rouble biélorusse", "roubles biélorusses" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopeck ", "kopecks" } }
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "kopeck", "kopecks" } }
           };
       }
       return null;

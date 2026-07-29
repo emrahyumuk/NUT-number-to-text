@@ -118,6 +118,12 @@ assert on that text, review the tables below before taking this release.
 
 ### Added
 
+- **GBP**, in every language except Amharic
+  ([#24](https://github.com/emrahyumuk/NUT-number-to-text/pull/24)). The pound is feminine
+  in French, Spanish and Portuguese, and none of those three had any gender handling, so
+  it is added here — in French the distinction carries meaning, since *le livre* is a book
+  and *la livre* the currency.
+
 - **Uzbek (Latin script)** and the Uzbek som (`UZS`), from
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.

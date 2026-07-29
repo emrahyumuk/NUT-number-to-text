@@ -34,7 +34,7 @@ namespace Nut.Tests
         {
             Currency.EUR, Currency.USD, Currency.RUB, Currency.TRY, Currency.UAH,
             Currency.BGN, Currency.ETB, Currency.PLN, Currency.BYN, Currency.ARS, Currency.BRL,
-            Currency.UZS,
+            Currency.UZS, Currency.GBP,
         };
 
         private static readonly decimal[] Amounts =
