@@ -84,12 +84,20 @@ namespace Nut.TextConverters
     }
 
     /// <summary>
-    /// Singular after a count ending in one (but not eleven), genitive plural after zero,
-    /// plural otherwise.
+    /// Genitive plural after zero and after a scale word, singular after a count ending in
+    /// one (but not eleven), plural otherwise.
+    /// <para>
+    /// The declinable scale words — simts, tūkstotis, miljons, miljards — govern the
+    /// genitive plural of what they count: "viens tūkstotis dolāru", not "dolāri". One of
+    /// them is the last word spoken whenever the amount ends in two zeros, which is what
+    /// the modulo test detects. Ten is not among them (desmit does not decline), so
+    /// "desmit dolāri" and "simts desmit dolāri" stay in the nominative.
+    /// </para>
     /// </summary>
     private static string Inflect(long num, string[] names)
     {
-      if (num == 0) return names.Length > 2 ? names[2] : names[1];
+      var genitivePlural = names.Length > 2 ? names[2] : names[1];
+      if (num == 0 || num % 100 == 0) return genitivePlural;
       if (num % 10 == 1 && num % 100 != 11) return names[0];
       return names[1];
     }

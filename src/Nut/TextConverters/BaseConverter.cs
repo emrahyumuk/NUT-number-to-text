@@ -190,6 +190,12 @@ namespace Nut.TextConverters
         ? Math.Truncate(num * 100) / 100
         : Math.Round(num, 2, MidpointRounding.AwayFromZero);
 
+      // Rounding can carry an in-range amount over the limit — 999999999999.995 becomes a
+      // trillion — and only one of the two output paths converts to long afterwards, so
+      // the check below is the only thing standing between that and a rendered amount the
+      // library says it cannot produce.
+      NumberLimitControl(num);
+
       // An amount too small to register, like -0.001, rounds to zero; "minus zero" is not
       // an amount anyone writes.
       if (num == 0) isNegative = false;

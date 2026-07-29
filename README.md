@@ -121,7 +121,20 @@ Set `SubUnitTruncated` to cut the digits instead.
 raises `NotSupportedException` naming what was asked for. It does not return an empty
 string: a blank amount field on a document is not noticed until the document has gone out.
 
+**Ukrainian paper payment instructions** require the amount in words to start with a
+capital letter — NBU Board Resolution 29.07.2022 №163, Annex, field 4. Pass
+`MainUnitFirstCharUpper` when printing one. The same resolution says the field is left
+empty on electronic instructions.
+
+```csharp
+var options = new Options { MainUnitFirstCharUpper = true };
+105.50m.ToText(Currency.UAH, Language.Ukrainian, options);
+// Сто п'ять гривень п'ятдесят копійок
+```
+
 **Range.** Magnitudes below one trillion. Beyond that raises `ArgumentOutOfRangeException`.
+Rounding counts: an amount that crosses the limit only after being rounded to the sub-unit
+raises it too.
 
 **Thread safety.** Conversions are independent and safe to run in parallel.
 

@@ -29,7 +29,7 @@ namespace Nut.Tests
         [TestCase(1, "viens eiro un nulle centu")]
         [TestCase(2, "divi eiro un nulle centu")]
         [TestCase(21, "divdesmit viens eiro un nulle centu")]
-        [TestCase(1000, "viens tūkstotis eiro un nulle centu")]
+        [TestCase(1000, "viens tūkstotis eiro un nulle centu")]  // eiro does not decline
         [TestCase(1234.56, "viens tūkstotis divi simti trīsdesmit četri eiro un piecdesmit seši centi")]
         public void Euro(decimal amount, string expected)
         {
@@ -72,9 +72,50 @@ namespace Nut.Tests
         public void ScaleWordsStayMasculineAndInflect(decimal amount, string count)
         {
             Assert.That(amount.ToText(Currency.GBP, Language.Latvian),
-                Does.StartWith(count + " sterliņu mārciņas"));
+                Does.StartWith(count + " sterliņu mārciņu"));
             Assert.That(amount.ToText(Currency.USD, Language.Latvian),
-                Does.StartWith(count + " ASV dolāri"));
+                Does.StartWith(count + " ASV dolāru"));
+        }
+
+        /// <summary>
+        /// The declinable scale words — simts, tūkstotis, miljons, miljards — govern the
+        /// genitive plural of what they count. This test previously pinned the nominative,
+        /// which is wrong on exactly the amounts a document is most likely to carry.
+        /// <para>
+        /// Source: uzdevumi.lv, "Aiz lokāmajām formām desmits, simts, tūkstotis, miljons,
+        /// miljards pieņemts lietot lietvārdu daudzskaitļa ģenitīvā"; and
+        /// valodaskonsultacijas.lv, "pieci tūkstoši cilvēku", "četri simti iedzīvotāju".
+        /// </para>
+        /// </summary>
+        [TestCase(100, "simts ASV dolāru")]
+        [TestCase(200, "divi simti ASV dolāru")]
+        [TestCase(1000, "viens tūkstotis ASV dolāru")]
+        [TestCase(1100, "viens tūkstotis simts ASV dolāru")]
+        [TestCase(1200, "viens tūkstotis divi simti ASV dolāru")]
+        [TestCase(2000, "divi tūkstoši ASV dolāru")]
+        [TestCase(21000, "divdesmit viens tūkstotis ASV dolāru")]
+        [TestCase(100000, "simts tūkstoši ASV dolāru")]
+        [TestCase(1000000, "viens miljons ASV dolāru")]
+        [TestCase(1000000000, "viens miljards ASV dolāru")]
+        public void ScaleWordsGovernTheGenitivePlural(decimal amount, string expected)
+        {
+            Assert.That(amount.ToText(Currency.USD, Language.Latvian),
+                Is.EqualTo(expected + " un nulle centu"));
+        }
+
+        /// <summary>
+        /// Ten does not decline, so it governs nothing and the noun stays nominative. This
+        /// is the boundary the "ends in two zeros" test has to get right.
+        /// </summary>
+        [TestCase(10, "desmit ASV dolāri")]
+        [TestCase(110, "simts desmit ASV dolāri")]
+        [TestCase(120, "simts divdesmit ASV dolāri")]
+        [TestCase(101, "simts viens ASV dolārs")]
+        [TestCase(1234, "viens tūkstotis divi simti trīsdesmit četri ASV dolāri")]
+        public void TenDoesNotGovernTheGenitive(decimal amount, string expected)
+        {
+            Assert.That(amount.ToText(Currency.USD, Language.Latvian),
+                Is.EqualTo(expected + " un nulle centu"));
         }
 
         [Test]

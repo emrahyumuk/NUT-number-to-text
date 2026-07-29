@@ -54,7 +54,6 @@ namespace Nut
                 { Culture.EthiopianAM, AmharicConverter.Instance },
             };
 
-        /// <summary>Returns null for an unknown language, which callers render as "".</summary>
         /// <summary>
         /// An unsupported language is an error rather than an empty result. This library
         /// writes amounts onto invoices and cheques, where a blank in the amount field is
