@@ -30,9 +30,10 @@ namespace Nut.TextConverters
       : base(template)
     {
       var gender = isMainUnit ? currencyModel.Gender : currencyModel.SubUnitCurrency.Gender;
-      var feminine = gender == GenderGroup.Feminine;
-      _one = feminine ? "Одна" : "Один";
-      _two = feminine ? "Дві" : "Два";
+      _one = gender == GenderGroup.Feminine ? "Одна"
+           : gender == GenderGroup.Neuter ? "Одне"
+           : "Один";
+      _two = gender == GenderGroup.Feminine ? "Дві" : "Два";
     }
 
     protected override string ToText(long num, CurrencyModel currencyModel, bool isMainUnit)
@@ -148,7 +149,7 @@ namespace Nut.TextConverters
       NumberTexts.Add(0, new[] { "Нуль" });
       // Masculine first, like the other Slavic converters: entry [0] is the bare form,
       // entry [1] the feminine one used before тисяча.
-      NumberTexts.Add(1, new[] { "Один", "Одна" });
+      NumberTexts.Add(1, new[] { "Один", "Одна", "Одне" });
       NumberTexts.Add(2, new[] { "Два", "Дві" });
       NumberTexts.Add(3, new[] { "Три" });
       NumberTexts.Add(4, new[] { "Чотири" });
@@ -230,7 +231,7 @@ namespace Nut.TextConverters
           {
             Currency = currency,
             Names = new[] { "аргентинське песо", "аргентинських песо", "аргентинських песо" },
-            Gender = GenderGroup.Masculine,
+            Gender = GenderGroup.Neuter,
             SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сентаво", "сентаво", "сентаво" } }
           };
         case Currency.BGN:
