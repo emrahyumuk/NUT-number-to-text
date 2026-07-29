@@ -123,6 +123,15 @@ assert on that text, review the tables below before taking this release.
 
 ### Changed
 
+- **An unsupported language or currency now throws `NotSupportedException`** instead of
+  returning an empty string. This library writes amounts onto invoices and cheques, where
+  a blank in the amount field is worse than a failed call: nothing surfaces it until the
+  document has already gone out. The message names what was asked for, and for a language
+  it lists what is accepted.
+
+  If you relied on the empty string, catch `NotSupportedException` or check
+  `Extentions.SupportedLanguages` first.
+
 - **Numbers past the supported range throw `ArgumentOutOfRangeException`** instead of a bare
   `Exception`, so callers can catch it selectively. The message states the range.
 
@@ -153,6 +162,8 @@ assert on that text, review the tables below before taking this release.
 - **Uzbek (Latin script)** and the Uzbek som (`UZS`), from
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
+
+- `Extentions.SupportedLanguages`, listing every language and culture string accepted.
 
 - `Options.SubUnitFormat`, an enum choosing how the fractional part is written: `Words`
   (the default, "fifty cents"), `Digits` ("50 cents"), or `Fraction` ("and 50/100"), the
