@@ -118,6 +118,10 @@ assert on that text, review the tables below before taking this release.
 
 ### Added
 
+- **Uzbek (Latin script)** and the Uzbek som (`UZS`), from
+  [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
+  from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
+
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
   carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.
 - `Currency.RUR` as an alias for `Currency.RUB`, mirroring how `tl` maps to `try`.

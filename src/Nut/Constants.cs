@@ -19,6 +19,7 @@
         public const string Belarusian = "by";
         public const string Portuguese = "pt";
         public const string German = "de";
+        public const string Uzbek = "uz";
     }
 
     public static class Culture
@@ -37,6 +38,7 @@
         public const string Belarusian = "by-BY";
         public const string PortugueseBR = "pt-BR";
         public const string GermanDE = "de-DE";
+        public const string Uzbek = "uz-UZ";
     }
 
     public static class Currency
@@ -55,5 +57,6 @@
         public const string BYN = "byn";
         public const string ARS = "ars";
         public const string BRL = "brl";
+        public const string UZS = "uzs";
     }
 }

@@ -27,12 +27,14 @@ namespace Nut.Tests
             Language.English, Language.French, Language.German, Language.Spanish,
             Language.Portuguese, Language.Turkish, Language.Russian, Language.Ukrainian,
             Language.Belarusian, Language.Bulgarian, Language.Polish, Language.Amharic,
+            Language.Uzbek,
         };
 
         private static readonly string[] Currencies =
         {
             Currency.EUR, Currency.USD, Currency.RUB, Currency.TRY, Currency.UAH,
             Currency.BGN, Currency.ETB, Currency.PLN, Currency.BYN, Currency.ARS, Currency.BRL,
+            Currency.UZS,
         };
 
         private static readonly decimal[] Amounts =
