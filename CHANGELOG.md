@@ -12,49 +12,17 @@ version rather than a complete list.
 
 ## [Unreleased]
 
-Work in progress on the linguistic defects recorded in `Nut.Tests/KnownDefects.cs`. These
-change the produced text, so they are being collected for 4.0.0 rather than a minor release.
+Every change below alters produced text, so this is shaping up as **4.0.0** rather than a
+minor release. Of 4536 checked conversions, **1181 change** relative to the published
+3.4.1; Turkish, Polish and Amharic are untouched.
 
-### Fixed
+Upgrading from 3.4.1 or 3.5.0 will change the wording your application prints. If you
+assert on that text, review the tables below before taking this release.
 
-- **Russian and Belarusian: the count now agrees with the scale word rather than the
-  currency** ([#25](https://github.com/emrahyumuk/NUT-number-to-text/issues/25)).
-  `тысяча` is feminine and `миллион` is masculine, and both can occur in one amount.
+### Fixed — affecting every language
 
-  | Amount | Before | After |
-  | --- | --- | --- |
-  | `41000 RUB` | сорок **один** тысяча рублей | сорок **одна** тысяча рублей |
-  | `42000 RUB` | сорок **два** тысячи рублей | сорок **две** тысячи рублей |
-  | `1000000 UAH` in Russian | **одна** миллион гривень | **один** миллион гривень |
-  | `41000 BYN` | сорак **адзін** тысяча | сорак **адна** тысяча |
-
-  353 of 4536 checked conversions change across the four languages; the other eight are
-  untouched.
-
-- **Numerals now agree with the gender of the unit being counted**, in Russian,
-  Ukrainian, Belarusian and Bulgarian. Gender moved onto the currency model, so the main
-  unit and the sub unit can differ:
-
-  | Amount | Before | After |
-  | --- | --- | --- |
-  | `1 TRY` in Russian | **один** турецкая лира | **одна** турецкая лира |
-  | `1 USD` in Ukrainian | **Одна** доллар | **Один** доллар |
-  | `0.01 EUR` in Russian | **одна** евроцент | **один** евроцент |
-  | `2.02 BGN` | два лева и **два** стотинки | два лева и **две** стотинки |
-
-- **Ukrainian**: bare numerals and millions were feminine (`Одна`, `Одна мільйон`); the
-  word table was feminine-first and millions took the path thousands take elsewhere.
-- **Bulgarian**: `1` rendered as an empty string, millions lost their count entirely
-  (`милиона` rather than `един милион`), and `милион` was treated as feminine.
-
-- **Ukrainian currency wording.** Most of the table had been copied from Russian, so it
-  produced Russian words in Ukrainian output: `доллар`, `Нуль центов`, `турецкая лира`.
-  The Polish sub unit read `грубий`, which means "coarse". Corrected throughout, with the
-  three agreement forms Ukrainian requires (1 / 2-4 / 5+).
-
-- **`5 ETB` and above threw `IndexOutOfRangeException` in Ukrainian.** The birr had two
-  name forms where the converter indexes three. It now has all three, and its sub unit is
-  the cent rather than the kopiyka.
+- **Converters no longer share mutable state.** See 3.5.0; that fix shipped there and
+  changed no output.
 
 - **Negative amounts are converted instead of vanishing**
   ([#22](https://github.com/emrahyumuk/NUT-number-to-text/pull/22)). Every `Append` helper
@@ -62,95 +30,96 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
 
   | Input | Before | After |
   | --- | --- | --- |
-  | `(-41).ToText("en")` | `""` | `minus forty one` |
-  | `(-41.5m)` USD | `dollar fifty cents` | `minus forty one dollars fifty cents` |
+  | `(-41).ToText("en")` | `""` | `minus forty-one` |
+  | `(-41.5m)` USD | `dollar fifty cents` | `minus forty-one dollars fifty cents` |
 
   The money case was the dangerous one: the integer part disappeared while the fraction
-  survived, producing a plausible-looking but wrong amount rather than an obvious failure.
+  survived, producing a plausible-looking but wrong amount. The sign word is per language —
+  minus, moins, menos, eksi, минус, мінус, ሲቀነስ — taken from the list in #22.
 
-  The sign word is per language — minus, moins, menos, eksi, минус, мінус, ሲቀነስ — taken
-  from the list in #22.
+  The one-trillion limit now applies on both sides; previously an amount below
+  -1 000 000 000 000 returned nonsense where its positive twin threw.
 
-  The one-trillion limit now applies on both sides. Previously an amount below
-  -1 000 000 000 000 returned nonsense (`dollar zero cent`) where the positive equivalent
-  threw; both now throw.
+- **Amounts carrying more decimals than the currency has are rounded**, rather than read as
+  whole sub-units: `123.456` USD gave "four hundred fifty six cents" and now gives "forty-six
+  cents". Rounding is half away from zero and carries into the main unit, matching what
+  `decimal.ToString("C")` renders for the same value. This also fixes `1.100` and `1.10`
+  disagreeing, since `decimal` preserves the scale it was written with.
 
-- **Amounts carrying more decimals than the currency has are now rounded**, rather than
-  read as whole sub-units. `123.456` USD produced "four hundred fifty six cents"; it now
-  produces "forty six cents". Rounding is half away from zero and carries into the main
-  unit, so `1.999` reads as two dollars — matching what `decimal.ToString("C")` renders
-  for the same value, so a document showing both the figure and the words stays
-  consistent.
+- **All thirteen `Culture` constants were dead on the `int` overloads.** Those lowercased the
+  argument before comparing it against constants like `"en-US"`, so no case ever matched and
+  the caller silently got `""` — while the same string worked on the `long` and `decimal`
+  overloads.
 
-  This also fixes `1.100` and `1.10` disagreeing: `decimal` preserves the scale it was
-  written with, and the old code read it directly.
+- **Language and currency matching now ignores case.** `"EN"`, `"en-US"`, `"USD"` and `"TL"`
+  resolve like their lower-case forms; an upper-case currency code used to return `""`.
 
-- **All thirteen `Culture` constants were dead on the `int` overloads.** Those overloads
-  lowercased the argument before comparing it against constants like `"en-US"`, so no case
-  ever matched and the caller silently got `""`. The same string worked on the `long` and
-  `decimal` overloads, so whether a culture code was accepted depended on the numeric type
-  it was called on.
+### Fixed — Russian, Ukrainian, Belarusian, Bulgarian
 
-- **Language and currency matching now ignores case.** `"EN"`, `"en-US"`, `"USD"` and
-  `"TL"` resolve like their lower-case forms; previously an upper-case currency code
-  returned `""`.
+- **The count now agrees with the word it counts.** `тысяча` is feminine and `миллион`
+  masculine, and both can occur in one amount
+  ([#25](https://github.com/emrahyumuk/NUT-number-to-text/issues/25),
+  [#28](https://github.com/emrahyumuk/NUT-number-to-text/pull/28)):
 
-- **Spanish 10^9 was rendered as "billón", which means 10^12** — out by a factor of a
-  thousand. Per RAE it is now "mil millones". The library produced this correctly until a
-  2016 refactor; git history has `Scales.Add(1000000000, "mil millones")` before that.
-
-- **Spanish "uno" is now apocopated in front of a noun or scale word**, as RAE requires:
-  `uno mil` → `mil`, `uno millón` → `un millón`, `cuarenta y uno mil` →
-  `cuarenta y un mil`, `uno euro` → `un euro`. Standing alone it keeps its full form.
-
-- **Spanish hundreds above 100 no longer switch to their feminine form** when something
-  follows, so `999` reads as `novecientos noventa y nueve` rather than `novecientas`.
-
-- **German numbers below a million are now written as one closed-up word**, as Duden
-  requires, and separated only from a million upwards. The converter mixed the two:
-  `ein hundert`, `zwei tausend`, but `eintausend`.
-
-  | Number | Before | After |
+  | Amount | Before | After |
   | --- | --- | --- |
-  | `100` | ein hundert | einhundert |
-  | `999` | neun hundert neunundneunzig | neunhundertneunundneunzig |
-  | `41000` | einundvierzig tausend | einundvierzigtausend |
-  | `2120419` | — | zwei Millionen einhundertzwanzigtausendvierhundertneunzehn |
+  | `41000 RUB` | сорок **один** тысяча рублей | сорок **одна** тысяча рублей |
+  | `1000000 UAH` in Russian | **одна** миллион гривень | **один** миллион гривень |
+  | `41000 BYN` | сорак **адзін** тысяча | сорак **адна** тысяча |
+  | `1 USD` in Ukrainian | **Одна** доллар | **Один** долар |
+  | `2.02 BGN` | два лева и **два** стотинки | два лева и **две** стотинки |
 
-  Standing alone the numeral is now `eins` rather than `ein`, and `ein` is used before a
-  currency name, where German requires it: `ein Euro`.
+  Gender moved onto the currency model, so the main unit and the sub unit can differ —
+  рубль is masculine while копейка is feminine.
 
-- **English compound numbers are hyphenated**: `twenty-one`, `forty-two`,
-  `ninety-nine`. Only the tens-and-units pair takes a hyphen, so `121` reads as
-  "one hundred twenty-one".
+- **Ukrainian**: bare numerals and millions were feminine; its word table was
+  feminine-first and millions took the path thousands take elsewhere.
 
-- **French compound numbers below a hundred are hyphenated** (`quarante-deux`),
-  multiplied `cent` takes its plural when it ends the number (`deux cents`, but
-  `deux cent un` and `deux cent mille`), and `million`/`milliard` — nouns — are now
-  pluralised (`deux millions`). `quatre-vingt` follows the same agreement rule as `cent`.
+- **Bulgarian**: `1` rendered as an empty string, millions lost their count entirely
+  (`милиона` rather than `един милион`), and `милион` was treated as feminine.
 
-  Also fixes a stray trailing space in the word for fifty, which produced
-  `cinquante -deux`.
+- **Ukrainian currency wording.** Most of the table had been copied from Russian, so it
+  produced Russian words: `доллар`, `Нуль центов`, `турецкая лира`. The Polish sub unit
+  read `грубий`, which means "coarse". Corrected throughout, with the three agreement forms
+  Ukrainian requires.
 
-- **Spanish scale nouns now link to the currency with "de"**, which RAE requires:
-  `un millón de euros`, not `un millón euros`. `mil` is an adjective and takes none, so
-  `mil euros` is unchanged, and the preposition only appears when the amount ends on the
-  scale noun — `un millón quinientos mil euros` keeps none.
+- **`5 ETB` and above threw `IndexOutOfRangeException` in Ukrainian.** The birr had two
+  name forms where the converter indexes three.
 
-- **Portuguese joins the two parts of an amount with "e"** rather than "com"
-  ([#27](https://github.com/emrahyumuk/NUT-number-to-text/pull/27)): `um real e um
-  centavo`. "com" reads as "with".
+### Fixed — Spanish
+
+- **10^9 was rendered as "billón", which means 10^12** — out by a factor of a thousand. Per
+  RAE it is now `mil millones`. The library produced this correctly until a 2016 refactor.
+- **"uno" is apocopated in front of a noun or scale word**: `uno mil` → `mil`,
+  `uno millón` → `un millón`, `uno euro` → `un euro`. Standing alone it keeps its full form.
+- **Hundreds above 100 no longer switch to their feminine form**, so `999` reads as
+  `novecientos noventa y nueve`.
+- **Scale nouns link to the currency with "de"**: `un millón de euros`. `mil` is an
+  adjective and takes none.
+
+### Fixed — other languages
+
+- **German** writes numbers below a million as one closed-up word, as Duden requires, and
+  separates them only from a million upwards: `ein hundert` → `einhundert`,
+  `einundvierzig tausend` → `einundvierzigtausend`. Standing alone the numeral is `eins`;
+  `ein` is kept before a noun.
+- **English** hyphenates compounds: `twenty one` → `twenty-one`. Only the tens-and-units
+  pair, so `121` is `one hundred twenty-one`.
+- **French** hyphenates compounds below a hundred (`quarante-deux`), agrees multiplied
+  `cent` when it ends the number (`deux cents`, but `deux cent mille`), and pluralises
+  `million`/`milliard`. Also fixes a stray trailing space that produced `cinquante -deux`.
+- **Portuguese** joins the two parts of an amount with `e` rather than `com`
+  ([#27](https://github.com/emrahyumuk/NUT-number-to-text/pull/27)).
 
 ### Changed
 
-- **Numbers past the supported range now throw `ArgumentOutOfRangeException`** instead of
-  a bare `Exception`, so callers can catch it selectively. The message states the range.
+- **Numbers past the supported range throw `ArgumentOutOfRangeException`** instead of a bare
+  `Exception`, so callers can catch it selectively. The message states the range.
 
 ### Added
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
-  carried: `1.999` reads as "one dollar ninety nine cents". Rounding remains the default.
-
+  carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.
 - `Currency.RUR` as an alias for `Currency.RUB`, mirroring how `tl` maps to `try`.
 
 ## [3.5.0] - 2026-07-28
