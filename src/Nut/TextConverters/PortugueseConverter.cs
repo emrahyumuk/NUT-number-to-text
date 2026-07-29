@@ -84,9 +84,11 @@ namespace Nut.TextConverters
             return num;
         }
 
+        /// <summary>Portuguese joins the two parts of an amount with "e": "um real e um
+        /// centavo". "com" reads as "with", which is not how an amount is said.</summary>
         protected override string GetUnitSeparator(CurrencyModel currency)
         {
-            return " com ";
+            return " e ";
         }
 
         private void Initialize()

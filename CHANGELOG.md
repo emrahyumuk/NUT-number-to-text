@@ -137,6 +137,10 @@ change the produced text, so they are being collected for 4.0.0 rather than a mi
   `mil euros` is unchanged, and the preposition only appears when the amount ends on the
   scale noun — `un millón quinientos mil euros` keeps none.
 
+- **Portuguese joins the two parts of an amount with "e"** rather than "com"
+  ([#27](https://github.com/emrahyumuk/NUT-number-to-text/pull/27)): `um real e um
+  centavo`. "com" reads as "with".
+
 ### Changed
 
 - **Numbers past the supported range now throw `ArgumentOutOfRangeException`** instead of
