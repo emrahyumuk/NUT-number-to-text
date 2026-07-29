@@ -27,7 +27,7 @@ namespace Nut.Tests
             Language.English, Language.French, Language.German, Language.Spanish,
             Language.Portuguese, Language.Turkish, Language.Russian, Language.Ukrainian,
             Language.Belarusian, Language.Bulgarian, Language.Polish, Language.Amharic,
-            Language.Uzbek, Culture.EnglishGB,
+            Language.Uzbek, Language.Latvian, Culture.EnglishGB,
         };
 
         private static readonly string[] Currencies =

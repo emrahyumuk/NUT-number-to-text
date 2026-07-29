@@ -11,7 +11,7 @@ Number To Text Converter
 
 Money To Text Converter
 
-**Supported Languages:** English, French, German, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese, Uzbek.
+**Supported Languages:** English, French, German, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese, Uzbek, Latvian.
 
 **Supported Currencies:** EUR, USD, GBP, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL, UZS.
 
@@ -110,7 +110,7 @@ Pull requests are welcome. Two things make them much easier to accept:
 - [ArkadiuszMakosa](https://github.com/ArkadiuszMakosa) - Polish Language Unit Tests
 - [Maryam1986](https://github.com/Maryam1986) - German Language and Currency
 - [Furqat-Abduvosiqov](https://github.com/Furqat-Abduvosiqov) - Uzbek Language and Currency
-- [IlyashenkoA](https://github.com/IlyashenkoA) - GBP Currency
+- [IlyashenkoA](https://github.com/IlyashenkoA) - GBP Currency, Latvian Language
 
 ---
 

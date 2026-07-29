@@ -6992,6 +6992,544 @@ money	uz	gbp	-1000	minus ming funt sterling nol pens
 money	uz	gbp	1.999	ikki funt sterling nol pens
 money	uz	gbp	123.456	yuz yigirma uch funt sterling qirq olti pens
 money	uz	gbp	1.005	bir funt sterling bir pens
+plain	lv	0	nulle
+plain	lv	1	viens
+plain	lv	2	divi
+plain	lv	3	trīs
+plain	lv	5	pieci
+plain	lv	11	vienpadsmit
+plain	lv	15	piecpadsmit
+plain	lv	20	divdesmit
+plain	lv	21	divdesmit viens
+plain	lv	22	divdesmit divi
+plain	lv	42	četrdesmit divi
+plain	lv	100	simts
+plain	lv	101	simts viens
+plain	lv	121	simts divdesmit viens
+plain	lv	200	divi simti
+plain	lv	999	deviņi simti deviņdesmit deviņi
+plain	lv	1000	viens tūkstotis
+plain	lv	1001	viens tūkstotis viens
+plain	lv	2000	divi tūkstoši
+plain	lv	5000	pieci tūkstoši
+plain	lv	21000	divdesmit viens tūkstoši
+plain	lv	41000	četrdesmit viens tūkstoši
+plain	lv	100000	simts tūkstoši
+plain	lv	1000000	viens miljons
+plain	lv	2000000	divi miljoni
+plain	lv	999999999	deviņi simti deviņdesmit deviņi miljoni deviņi simti deviņdesmit deviņi tūkstoši deviņi simti deviņdesmit deviņi
+plain	lv	-1	mīnus viens
+plain	lv	-2	mīnus divi
+plain	lv	-41	mīnus četrdesmit viens
+plain	lv	-1000	mīnus viens tūkstotis
+plain	lv	-1000000	mīnus viens miljons
+money	lv	eur	0	nulle eiro un nulle centu
+money	lv	eur	0.01	nulle eiro un viens cents
+money	lv	eur	0.02	nulle eiro un divi centi
+money	lv	eur	1	viens eiro un nulle centu
+money	lv	eur	1.01	viens eiro un viens cents
+money	lv	eur	1.02	viens eiro un divi centi
+money	lv	eur	2	divi eiro un nulle centu
+money	lv	eur	2.02	divi eiro un divi centi
+money	lv	eur	3	trīs eiro un nulle centu
+money	lv	eur	5	pieci eiro un nulle centu
+money	lv	eur	11	vienpadsmit eiro un nulle centu
+money	lv	eur	21	divdesmit viens eiro un nulle centu
+money	lv	eur	22	divdesmit divi eiro un nulle centu
+money	lv	eur	42	četrdesmit divi eiro un nulle centu
+money	lv	eur	100	simts eiro un nulle centu
+money	lv	eur	101	simts viens eiro un nulle centu
+money	lv	eur	121	simts divdesmit viens eiro un nulle centu
+money	lv	eur	999	deviņi simti deviņdesmit deviņi eiro un nulle centu
+money	lv	eur	1000	viens tūkstotis eiro un nulle centu
+money	lv	eur	1001	viens tūkstotis viens eiro un nulle centu
+money	lv	eur	2000	divi tūkstoši eiro un nulle centu
+money	lv	eur	2001	divi tūkstoši viens eiro un nulle centu
+money	lv	eur	5000	pieci tūkstoši eiro un nulle centu
+money	lv	eur	21000	divdesmit viens tūkstoši eiro un nulle centu
+money	lv	eur	22000	divdesmit divi tūkstoši eiro un nulle centu
+money	lv	eur	41000	četrdesmit viens tūkstoši eiro un nulle centu
+money	lv	eur	42000	četrdesmit divi tūkstoši eiro un nulle centu
+money	lv	eur	100000	simts tūkstoši eiro un nulle centu
+money	lv	eur	1000000	viens miljons eiro un nulle centu
+money	lv	eur	2000000	divi miljoni eiro un nulle centu
+money	lv	eur	1000000000	viens miljards eiro un nulle centu
+money	lv	eur	123.45	simts divdesmit trīs eiro un četrdesmit pieci centi
+money	lv	eur	-1	mīnus viens eiro un nulle centu
+money	lv	eur	-2	mīnus divi eiro un nulle centu
+money	lv	eur	-41.5	mīnus četrdesmit viens eiro un piecdesmit centi
+money	lv	eur	-1000	mīnus viens tūkstotis eiro un nulle centu
+money	lv	eur	1.999	divi eiro un nulle centu
+money	lv	eur	123.456	simts divdesmit trīs eiro un četrdesmit seši centi
+money	lv	eur	1.005	viens eiro un viens cents
+money	lv	usd	0	nulle ASV dolāru un nulle centu
+money	lv	usd	0.01	nulle ASV dolāru un viens cents
+money	lv	usd	0.02	nulle ASV dolāru un divi centi
+money	lv	usd	1	viens ASV dolārs un nulle centu
+money	lv	usd	1.01	viens ASV dolārs un viens cents
+money	lv	usd	1.02	viens ASV dolārs un divi centi
+money	lv	usd	2	divi ASV dolāri un nulle centu
+money	lv	usd	2.02	divi ASV dolāri un divi centi
+money	lv	usd	3	trīs ASV dolāri un nulle centu
+money	lv	usd	5	pieci ASV dolāri un nulle centu
+money	lv	usd	11	vienpadsmit ASV dolāri un nulle centu
+money	lv	usd	21	divdesmit viens ASV dolārs un nulle centu
+money	lv	usd	22	divdesmit divi ASV dolāri un nulle centu
+money	lv	usd	42	četrdesmit divi ASV dolāri un nulle centu
+money	lv	usd	100	simts ASV dolāri un nulle centu
+money	lv	usd	101	simts viens ASV dolārs un nulle centu
+money	lv	usd	121	simts divdesmit viens ASV dolārs un nulle centu
+money	lv	usd	999	deviņi simti deviņdesmit deviņi ASV dolāri un nulle centu
+money	lv	usd	1000	viens tūkstotis ASV dolāri un nulle centu
+money	lv	usd	1001	viens tūkstotis viens ASV dolārs un nulle centu
+money	lv	usd	2000	divi tūkstoši ASV dolāri un nulle centu
+money	lv	usd	2001	divi tūkstoši viens ASV dolārs un nulle centu
+money	lv	usd	5000	pieci tūkstoši ASV dolāri un nulle centu
+money	lv	usd	21000	divdesmit viens tūkstoši ASV dolāri un nulle centu
+money	lv	usd	22000	divdesmit divi tūkstoši ASV dolāri un nulle centu
+money	lv	usd	41000	četrdesmit viens tūkstoši ASV dolāri un nulle centu
+money	lv	usd	42000	četrdesmit divi tūkstoši ASV dolāri un nulle centu
+money	lv	usd	100000	simts tūkstoši ASV dolāri un nulle centu
+money	lv	usd	1000000	viens miljons ASV dolāri un nulle centu
+money	lv	usd	2000000	divi miljoni ASV dolāri un nulle centu
+money	lv	usd	1000000000	viens miljards ASV dolāri un nulle centu
+money	lv	usd	123.45	simts divdesmit trīs ASV dolāri un četrdesmit pieci centi
+money	lv	usd	-1	mīnus viens ASV dolārs un nulle centu
+money	lv	usd	-2	mīnus divi ASV dolāri un nulle centu
+money	lv	usd	-41.5	mīnus četrdesmit viens ASV dolārs un piecdesmit centi
+money	lv	usd	-1000	mīnus viens tūkstotis ASV dolāri un nulle centu
+money	lv	usd	1.999	divi ASV dolāri un nulle centu
+money	lv	usd	123.456	simts divdesmit trīs ASV dolāri un četrdesmit seši centi
+money	lv	usd	1.005	viens ASV dolārs un viens cents
+money	lv	rub	0	nulle Krievijas rubļu un nulle kapeiku
+money	lv	rub	0.01	nulle Krievijas rubļu un viena kapeika
+money	lv	rub	0.02	nulle Krievijas rubļu un divas kapeikas
+money	lv	rub	1	viens Krievijas rublis un nulle kapeiku
+money	lv	rub	1.01	viens Krievijas rublis un viena kapeika
+money	lv	rub	1.02	viens Krievijas rublis un divas kapeikas
+money	lv	rub	2	divi Krievijas rubļi un nulle kapeiku
+money	lv	rub	2.02	divi Krievijas rubļi un divas kapeikas
+money	lv	rub	3	trīs Krievijas rubļi un nulle kapeiku
+money	lv	rub	5	pieci Krievijas rubļi un nulle kapeiku
+money	lv	rub	11	vienpadsmit Krievijas rubļi un nulle kapeiku
+money	lv	rub	21	divdesmit viens Krievijas rublis un nulle kapeiku
+money	lv	rub	22	divdesmit divi Krievijas rubļi un nulle kapeiku
+money	lv	rub	42	četrdesmit divi Krievijas rubļi un nulle kapeiku
+money	lv	rub	100	simts Krievijas rubļi un nulle kapeiku
+money	lv	rub	101	simts viens Krievijas rublis un nulle kapeiku
+money	lv	rub	121	simts divdesmit viens Krievijas rublis un nulle kapeiku
+money	lv	rub	999	deviņi simti deviņdesmit deviņi Krievijas rubļi un nulle kapeiku
+money	lv	rub	1000	viens tūkstotis Krievijas rubļi un nulle kapeiku
+money	lv	rub	1001	viens tūkstotis viens Krievijas rublis un nulle kapeiku
+money	lv	rub	2000	divi tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	2001	divi tūkstoši viens Krievijas rublis un nulle kapeiku
+money	lv	rub	5000	pieci tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	21000	divdesmit viens tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	22000	divdesmit divi tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	41000	četrdesmit viens tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	42000	četrdesmit divi tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	100000	simts tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	1000000	viens miljons Krievijas rubļi un nulle kapeiku
+money	lv	rub	2000000	divi miljoni Krievijas rubļi un nulle kapeiku
+money	lv	rub	1000000000	viens miljards Krievijas rubļi un nulle kapeiku
+money	lv	rub	123.45	simts divdesmit trīs Krievijas rubļi un četrdesmit pieci kapeikas
+money	lv	rub	-1	mīnus viens Krievijas rublis un nulle kapeiku
+money	lv	rub	-2	mīnus divi Krievijas rubļi un nulle kapeiku
+money	lv	rub	-41.5	mīnus četrdesmit viens Krievijas rublis un piecdesmit kapeikas
+money	lv	rub	-1000	mīnus viens tūkstotis Krievijas rubļi un nulle kapeiku
+money	lv	rub	1.999	divi Krievijas rubļi un nulle kapeiku
+money	lv	rub	123.456	simts divdesmit trīs Krievijas rubļi un četrdesmit seši kapeikas
+money	lv	rub	1.005	viens Krievijas rublis un viena kapeika
+money	lv	try	0	
+money	lv	try	0.01	
+money	lv	try	0.02	
+money	lv	try	1	
+money	lv	try	1.01	
+money	lv	try	1.02	
+money	lv	try	2	
+money	lv	try	2.02	
+money	lv	try	3	
+money	lv	try	5	
+money	lv	try	11	
+money	lv	try	21	
+money	lv	try	22	
+money	lv	try	42	
+money	lv	try	100	
+money	lv	try	101	
+money	lv	try	121	
+money	lv	try	999	
+money	lv	try	1000	
+money	lv	try	1001	
+money	lv	try	2000	
+money	lv	try	2001	
+money	lv	try	5000	
+money	lv	try	21000	
+money	lv	try	22000	
+money	lv	try	41000	
+money	lv	try	42000	
+money	lv	try	100000	
+money	lv	try	1000000	
+money	lv	try	2000000	
+money	lv	try	1000000000	
+money	lv	try	123.45	
+money	lv	try	-1	
+money	lv	try	-2	
+money	lv	try	-41.5	
+money	lv	try	-1000	
+money	lv	try	1.999	
+money	lv	try	123.456	
+money	lv	try	1.005	
+money	lv	uah	0	
+money	lv	uah	0.01	
+money	lv	uah	0.02	
+money	lv	uah	1	
+money	lv	uah	1.01	
+money	lv	uah	1.02	
+money	lv	uah	2	
+money	lv	uah	2.02	
+money	lv	uah	3	
+money	lv	uah	5	
+money	lv	uah	11	
+money	lv	uah	21	
+money	lv	uah	22	
+money	lv	uah	42	
+money	lv	uah	100	
+money	lv	uah	101	
+money	lv	uah	121	
+money	lv	uah	999	
+money	lv	uah	1000	
+money	lv	uah	1001	
+money	lv	uah	2000	
+money	lv	uah	2001	
+money	lv	uah	5000	
+money	lv	uah	21000	
+money	lv	uah	22000	
+money	lv	uah	41000	
+money	lv	uah	42000	
+money	lv	uah	100000	
+money	lv	uah	1000000	
+money	lv	uah	2000000	
+money	lv	uah	1000000000	
+money	lv	uah	123.45	
+money	lv	uah	-1	
+money	lv	uah	-2	
+money	lv	uah	-41.5	
+money	lv	uah	-1000	
+money	lv	uah	1.999	
+money	lv	uah	123.456	
+money	lv	uah	1.005	
+money	lv	bgn	0	
+money	lv	bgn	0.01	
+money	lv	bgn	0.02	
+money	lv	bgn	1	
+money	lv	bgn	1.01	
+money	lv	bgn	1.02	
+money	lv	bgn	2	
+money	lv	bgn	2.02	
+money	lv	bgn	3	
+money	lv	bgn	5	
+money	lv	bgn	11	
+money	lv	bgn	21	
+money	lv	bgn	22	
+money	lv	bgn	42	
+money	lv	bgn	100	
+money	lv	bgn	101	
+money	lv	bgn	121	
+money	lv	bgn	999	
+money	lv	bgn	1000	
+money	lv	bgn	1001	
+money	lv	bgn	2000	
+money	lv	bgn	2001	
+money	lv	bgn	5000	
+money	lv	bgn	21000	
+money	lv	bgn	22000	
+money	lv	bgn	41000	
+money	lv	bgn	42000	
+money	lv	bgn	100000	
+money	lv	bgn	1000000	
+money	lv	bgn	2000000	
+money	lv	bgn	1000000000	
+money	lv	bgn	123.45	
+money	lv	bgn	-1	
+money	lv	bgn	-2	
+money	lv	bgn	-41.5	
+money	lv	bgn	-1000	
+money	lv	bgn	1.999	
+money	lv	bgn	123.456	
+money	lv	bgn	1.005	
+money	lv	etb	0	
+money	lv	etb	0.01	
+money	lv	etb	0.02	
+money	lv	etb	1	
+money	lv	etb	1.01	
+money	lv	etb	1.02	
+money	lv	etb	2	
+money	lv	etb	2.02	
+money	lv	etb	3	
+money	lv	etb	5	
+money	lv	etb	11	
+money	lv	etb	21	
+money	lv	etb	22	
+money	lv	etb	42	
+money	lv	etb	100	
+money	lv	etb	101	
+money	lv	etb	121	
+money	lv	etb	999	
+money	lv	etb	1000	
+money	lv	etb	1001	
+money	lv	etb	2000	
+money	lv	etb	2001	
+money	lv	etb	5000	
+money	lv	etb	21000	
+money	lv	etb	22000	
+money	lv	etb	41000	
+money	lv	etb	42000	
+money	lv	etb	100000	
+money	lv	etb	1000000	
+money	lv	etb	2000000	
+money	lv	etb	1000000000	
+money	lv	etb	123.45	
+money	lv	etb	-1	
+money	lv	etb	-2	
+money	lv	etb	-41.5	
+money	lv	etb	-1000	
+money	lv	etb	1.999	
+money	lv	etb	123.456	
+money	lv	etb	1.005	
+money	lv	pln	0	nulle Polijas zlotu un nulle grašu
+money	lv	pln	0.01	nulle Polijas zlotu un viens grasis
+money	lv	pln	0.02	nulle Polijas zlotu un divi graši
+money	lv	pln	1	viens Polijas zlots un nulle grašu
+money	lv	pln	1.01	viens Polijas zlots un viens grasis
+money	lv	pln	1.02	viens Polijas zlots un divi graši
+money	lv	pln	2	divi Polijas zloti un nulle grašu
+money	lv	pln	2.02	divi Polijas zloti un divi graši
+money	lv	pln	3	trīs Polijas zloti un nulle grašu
+money	lv	pln	5	pieci Polijas zloti un nulle grašu
+money	lv	pln	11	vienpadsmit Polijas zloti un nulle grašu
+money	lv	pln	21	divdesmit viens Polijas zlots un nulle grašu
+money	lv	pln	22	divdesmit divi Polijas zloti un nulle grašu
+money	lv	pln	42	četrdesmit divi Polijas zloti un nulle grašu
+money	lv	pln	100	simts Polijas zloti un nulle grašu
+money	lv	pln	101	simts viens Polijas zlots un nulle grašu
+money	lv	pln	121	simts divdesmit viens Polijas zlots un nulle grašu
+money	lv	pln	999	deviņi simti deviņdesmit deviņi Polijas zloti un nulle grašu
+money	lv	pln	1000	viens tūkstotis Polijas zloti un nulle grašu
+money	lv	pln	1001	viens tūkstotis viens Polijas zlots un nulle grašu
+money	lv	pln	2000	divi tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	2001	divi tūkstoši viens Polijas zlots un nulle grašu
+money	lv	pln	5000	pieci tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	21000	divdesmit viens tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	22000	divdesmit divi tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	41000	četrdesmit viens tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	42000	četrdesmit divi tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	100000	simts tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	1000000	viens miljons Polijas zloti un nulle grašu
+money	lv	pln	2000000	divi miljoni Polijas zloti un nulle grašu
+money	lv	pln	1000000000	viens miljards Polijas zloti un nulle grašu
+money	lv	pln	123.45	simts divdesmit trīs Polijas zloti un četrdesmit pieci graši
+money	lv	pln	-1	mīnus viens Polijas zlots un nulle grašu
+money	lv	pln	-2	mīnus divi Polijas zloti un nulle grašu
+money	lv	pln	-41.5	mīnus četrdesmit viens Polijas zlots un piecdesmit graši
+money	lv	pln	-1000	mīnus viens tūkstotis Polijas zloti un nulle grašu
+money	lv	pln	1.999	divi Polijas zloti un nulle grašu
+money	lv	pln	123.456	simts divdesmit trīs Polijas zloti un četrdesmit seši graši
+money	lv	pln	1.005	viens Polijas zlots un viens grasis
+money	lv	byn	0	
+money	lv	byn	0.01	
+money	lv	byn	0.02	
+money	lv	byn	1	
+money	lv	byn	1.01	
+money	lv	byn	1.02	
+money	lv	byn	2	
+money	lv	byn	2.02	
+money	lv	byn	3	
+money	lv	byn	5	
+money	lv	byn	11	
+money	lv	byn	21	
+money	lv	byn	22	
+money	lv	byn	42	
+money	lv	byn	100	
+money	lv	byn	101	
+money	lv	byn	121	
+money	lv	byn	999	
+money	lv	byn	1000	
+money	lv	byn	1001	
+money	lv	byn	2000	
+money	lv	byn	2001	
+money	lv	byn	5000	
+money	lv	byn	21000	
+money	lv	byn	22000	
+money	lv	byn	41000	
+money	lv	byn	42000	
+money	lv	byn	100000	
+money	lv	byn	1000000	
+money	lv	byn	2000000	
+money	lv	byn	1000000000	
+money	lv	byn	123.45	
+money	lv	byn	-1	
+money	lv	byn	-2	
+money	lv	byn	-41.5	
+money	lv	byn	-1000	
+money	lv	byn	1.999	
+money	lv	byn	123.456	
+money	lv	byn	1.005	
+money	lv	ars	0	
+money	lv	ars	0.01	
+money	lv	ars	0.02	
+money	lv	ars	1	
+money	lv	ars	1.01	
+money	lv	ars	1.02	
+money	lv	ars	2	
+money	lv	ars	2.02	
+money	lv	ars	3	
+money	lv	ars	5	
+money	lv	ars	11	
+money	lv	ars	21	
+money	lv	ars	22	
+money	lv	ars	42	
+money	lv	ars	100	
+money	lv	ars	101	
+money	lv	ars	121	
+money	lv	ars	999	
+money	lv	ars	1000	
+money	lv	ars	1001	
+money	lv	ars	2000	
+money	lv	ars	2001	
+money	lv	ars	5000	
+money	lv	ars	21000	
+money	lv	ars	22000	
+money	lv	ars	41000	
+money	lv	ars	42000	
+money	lv	ars	100000	
+money	lv	ars	1000000	
+money	lv	ars	2000000	
+money	lv	ars	1000000000	
+money	lv	ars	123.45	
+money	lv	ars	-1	
+money	lv	ars	-2	
+money	lv	ars	-41.5	
+money	lv	ars	-1000	
+money	lv	ars	1.999	
+money	lv	ars	123.456	
+money	lv	ars	1.005	
+money	lv	brl	0	
+money	lv	brl	0.01	
+money	lv	brl	0.02	
+money	lv	brl	1	
+money	lv	brl	1.01	
+money	lv	brl	1.02	
+money	lv	brl	2	
+money	lv	brl	2.02	
+money	lv	brl	3	
+money	lv	brl	5	
+money	lv	brl	11	
+money	lv	brl	21	
+money	lv	brl	22	
+money	lv	brl	42	
+money	lv	brl	100	
+money	lv	brl	101	
+money	lv	brl	121	
+money	lv	brl	999	
+money	lv	brl	1000	
+money	lv	brl	1001	
+money	lv	brl	2000	
+money	lv	brl	2001	
+money	lv	brl	5000	
+money	lv	brl	21000	
+money	lv	brl	22000	
+money	lv	brl	41000	
+money	lv	brl	42000	
+money	lv	brl	100000	
+money	lv	brl	1000000	
+money	lv	brl	2000000	
+money	lv	brl	1000000000	
+money	lv	brl	123.45	
+money	lv	brl	-1	
+money	lv	brl	-2	
+money	lv	brl	-41.5	
+money	lv	brl	-1000	
+money	lv	brl	1.999	
+money	lv	brl	123.456	
+money	lv	brl	1.005	
+money	lv	uzs	0	
+money	lv	uzs	0.01	
+money	lv	uzs	0.02	
+money	lv	uzs	1	
+money	lv	uzs	1.01	
+money	lv	uzs	1.02	
+money	lv	uzs	2	
+money	lv	uzs	2.02	
+money	lv	uzs	3	
+money	lv	uzs	5	
+money	lv	uzs	11	
+money	lv	uzs	21	
+money	lv	uzs	22	
+money	lv	uzs	42	
+money	lv	uzs	100	
+money	lv	uzs	101	
+money	lv	uzs	121	
+money	lv	uzs	999	
+money	lv	uzs	1000	
+money	lv	uzs	1001	
+money	lv	uzs	2000	
+money	lv	uzs	2001	
+money	lv	uzs	5000	
+money	lv	uzs	21000	
+money	lv	uzs	22000	
+money	lv	uzs	41000	
+money	lv	uzs	42000	
+money	lv	uzs	100000	
+money	lv	uzs	1000000	
+money	lv	uzs	2000000	
+money	lv	uzs	1000000000	
+money	lv	uzs	123.45	
+money	lv	uzs	-1	
+money	lv	uzs	-2	
+money	lv	uzs	-41.5	
+money	lv	uzs	-1000	
+money	lv	uzs	1.999	
+money	lv	uzs	123.456	
+money	lv	uzs	1.005	
+money	lv	gbp	0	nulle sterliņu mārciņu un nulle pensu
+money	lv	gbp	0.01	nulle sterliņu mārciņu un viens penss
+money	lv	gbp	0.02	nulle sterliņu mārciņu un divi pensi
+money	lv	gbp	1	viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	1.01	viena sterliņu mārciņa un viens penss
+money	lv	gbp	1.02	viena sterliņu mārciņa un divi pensi
+money	lv	gbp	2	divas sterliņu mārciņas un nulle pensu
+money	lv	gbp	2.02	divas sterliņu mārciņas un divi pensi
+money	lv	gbp	3	trīs sterliņu mārciņas un nulle pensu
+money	lv	gbp	5	pieci sterliņu mārciņas un nulle pensu
+money	lv	gbp	11	vienpadsmit sterliņu mārciņas un nulle pensu
+money	lv	gbp	21	divdesmit viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	22	divdesmit divas sterliņu mārciņas un nulle pensu
+money	lv	gbp	42	četrdesmit divas sterliņu mārciņas un nulle pensu
+money	lv	gbp	100	simts sterliņu mārciņas un nulle pensu
+money	lv	gbp	101	simts viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	121	simts divdesmit viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	999	deviņi simti deviņdesmit deviņi sterliņu mārciņas un nulle pensu
+money	lv	gbp	1000	viena tūkstotis sterliņu mārciņas un nulle pensu
+money	lv	gbp	1001	viena tūkstotis viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	2000	divas tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	2001	divas tūkstoši viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	5000	pieci tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	21000	divdesmit viena tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	22000	divdesmit divas tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	41000	četrdesmit viena tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	42000	četrdesmit divas tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	100000	simts tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	1000000	viena miljons sterliņu mārciņas un nulle pensu
+money	lv	gbp	2000000	divas miljoni sterliņu mārciņas un nulle pensu
+money	lv	gbp	1000000000	viena miljards sterliņu mārciņas un nulle pensu
+money	lv	gbp	123.45	simts divdesmit trīs sterliņu mārciņas un četrdesmit pieci pensi
+money	lv	gbp	-1	mīnus viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	-2	mīnus divas sterliņu mārciņas un nulle pensu
+money	lv	gbp	-41.5	mīnus četrdesmit viena sterliņu mārciņa un piecdesmit pensi
+money	lv	gbp	-1000	mīnus viena tūkstotis sterliņu mārciņas un nulle pensu
+money	lv	gbp	1.999	divas sterliņu mārciņas un nulle pensu
+money	lv	gbp	123.456	simts divdesmit trīs sterliņu mārciņas un četrdesmit seši pensi
+money	lv	gbp	1.005	viena sterliņu mārciņa un viens penss
 plain	en-GB	0	zero
 plain	en-GB	1	one
 plain	en-GB	2	two

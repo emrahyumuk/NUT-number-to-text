@@ -41,6 +41,8 @@ namespace Nut
                 { Culture.Bulgarian, BulgarianConverter.Instance },
                 { Language.Polish, PolishConverter.Instance },
                 { Culture.Polish, PolishConverter.Instance },
+                { Language.Latvian, LatvianConverter.Instance },
+                { Culture.Latvian, LatvianConverter.Instance },
                 { Language.Uzbek, UzbekConverter.Instance },
                 { Culture.Uzbek, UzbekConverter.Instance },
                 { Language.Amharic, AmharicConverter.Instance },
