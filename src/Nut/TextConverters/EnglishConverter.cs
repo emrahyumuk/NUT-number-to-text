@@ -10,13 +10,45 @@ namespace Nut.TextConverters
         private static readonly Lazy<EnglishConverter> Lazy = new Lazy<EnglishConverter>(() => new EnglishConverter());
         public static EnglishConverter Instance => Lazy.Value;
 
-        public override string CultureName => Culture.EnglishUS;
+        private static readonly Lazy<EnglishConverter> LazyBritish =
+            new Lazy<EnglishConverter>(() => new EnglishConverter(true));
+
+        /// <summary>
+        /// British usage puts "and" before the last part when it is under a hundred:
+        /// "one hundred and one", "five thousand and twenty-six". American usage drops it.
+        /// Banks treat the written amount as the authoritative one, so the two are kept
+        /// apart rather than collapsed into one spelling.
+        /// </summary>
+        public static EnglishConverter BritishInstance => LazyBritish.Value;
+
+        private readonly bool _useAnd;
+
+        public override string CultureName => _useAnd ? Culture.EnglishGB : Culture.EnglishUS;
 
         protected override string NegativeSign => "minus";
 
         public EnglishConverter()
         {
             Initialize();
+        }
+
+        private EnglishConverter(bool useAnd)
+        {
+            _useAnd = useAnd;
+            Initialize();
+        }
+
+        /// <summary>
+        /// "and" goes in front of the final group when that group is under a hundred, so
+        /// "one hundred and one" and "five thousand and twenty-six", but "one hundred"
+        /// and "one thousand one hundred" take none.
+        /// </summary>
+        protected override void AppendLessThanOneThousand(long num, StringBuilder builder)
+        {
+            num = AppendHundreds(num, builder);
+            if (_useAnd && num > 0 && builder.Length > 0) builder.Append("and ");
+            num = AppendTens(num, builder);
+            AppendUnits(num, builder);
         }
 
         /// <summary>

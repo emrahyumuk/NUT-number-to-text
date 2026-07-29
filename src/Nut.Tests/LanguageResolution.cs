@@ -1,4 +1,4 @@
-namespace Nut.Tests
+﻿namespace Nut.Tests
 {
     /// <summary>
     /// Which language string resolves to which converter. The int overloads used to
@@ -11,7 +11,7 @@ namespace Nut.Tests
     public class LanguageResolution
     {
         [TestCase(Culture.EnglishUS, "one hundred one")]
-        [TestCase(Culture.EnglishGB, "one hundred one")]
+        [TestCase(Culture.EnglishGB, "one hundred and one")] // British "and"
         [TestCase(Culture.French, "cent un")]
         [TestCase(Culture.GermanDE, "einhunderteins")]
         [TestCase(Culture.Spanish, "ciento uno")]
