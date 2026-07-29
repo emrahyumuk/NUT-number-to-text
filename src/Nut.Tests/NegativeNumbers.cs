@@ -13,7 +13,7 @@ namespace Nut.Tests
     [TestFixture]
     public class NegativeNumbers
     {
-        [TestCase(Language.English, "minus forty one")]
+        [TestCase(Language.English, "minus forty-one")]
         [TestCase(Language.French, "moins quarante et un")]
         [TestCase(Language.German, "minus einundvierzig")]
         [TestCase(Language.Spanish, "menos cuarenta y uno")]
@@ -35,7 +35,7 @@ namespace Nut.Tests
         public void MoneyKeepsBothTheSignAndTheAmount()
         {
             Assert.That((-41.5m).ToText(Currency.USD, Language.English),
-                Is.EqualTo("minus forty one dollars fifty cents"));
+                Is.EqualTo("minus forty-one dollars fifty cents"));
             Assert.That((-0.5m).ToText(Currency.USD, Language.English),
                 Is.EqualTo("minus zero dollar fifty cents"));
         }

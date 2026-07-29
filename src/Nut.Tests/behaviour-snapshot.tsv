@@ -6,27 +6,27 @@ plain	en	5	five
 plain	en	11	eleven
 plain	en	15	fifteen
 plain	en	20	twenty
-plain	en	21	twenty one
-plain	en	22	twenty two
-plain	en	42	forty two
+plain	en	21	twenty-one
+plain	en	22	twenty-two
+plain	en	42	forty-two
 plain	en	100	one hundred
 plain	en	101	one hundred one
-plain	en	121	one hundred twenty one
+plain	en	121	one hundred twenty-one
 plain	en	200	two hundred
-plain	en	999	nine hundred ninety nine
+plain	en	999	nine hundred ninety-nine
 plain	en	1000	one thousand
 plain	en	1001	one thousand one
 plain	en	2000	two thousand
 plain	en	5000	five thousand
-plain	en	21000	twenty one thousand
-plain	en	41000	forty one thousand
+plain	en	21000	twenty-one thousand
+plain	en	41000	forty-one thousand
 plain	en	100000	one hundred thousand
 plain	en	1000000	one million
 plain	en	2000000	two million
-plain	en	999999999	nine hundred ninety nine million nine hundred ninety nine thousand nine hundred ninety nine
+plain	en	999999999	nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred ninety-nine
 plain	en	-1	minus one
 plain	en	-2	minus two
-plain	en	-41	minus forty one
+plain	en	-41	minus forty-one
 plain	en	-1000	minus one thousand
 plain	en	-1000000	minus one million
 money	en	eur	0	zero euro zero eurocent
@@ -40,33 +40,33 @@ money	en	eur	2.02	two euros two eurocents
 money	en	eur	3	three euros zero eurocent
 money	en	eur	5	five euros zero eurocent
 money	en	eur	11	eleven euros zero eurocent
-money	en	eur	21	twenty one euros zero eurocent
-money	en	eur	22	twenty two euros zero eurocent
-money	en	eur	42	forty two euros zero eurocent
+money	en	eur	21	twenty-one euros zero eurocent
+money	en	eur	22	twenty-two euros zero eurocent
+money	en	eur	42	forty-two euros zero eurocent
 money	en	eur	100	one hundred euros zero eurocent
 money	en	eur	101	one hundred one euros zero eurocent
-money	en	eur	121	one hundred twenty one euros zero eurocent
-money	en	eur	999	nine hundred ninety nine euros zero eurocent
+money	en	eur	121	one hundred twenty-one euros zero eurocent
+money	en	eur	999	nine hundred ninety-nine euros zero eurocent
 money	en	eur	1000	one thousand euros zero eurocent
 money	en	eur	1001	one thousand one euros zero eurocent
 money	en	eur	2000	two thousand euros zero eurocent
 money	en	eur	2001	two thousand one euros zero eurocent
 money	en	eur	5000	five thousand euros zero eurocent
-money	en	eur	21000	twenty one thousand euros zero eurocent
-money	en	eur	22000	twenty two thousand euros zero eurocent
-money	en	eur	41000	forty one thousand euros zero eurocent
-money	en	eur	42000	forty two thousand euros zero eurocent
+money	en	eur	21000	twenty-one thousand euros zero eurocent
+money	en	eur	22000	twenty-two thousand euros zero eurocent
+money	en	eur	41000	forty-one thousand euros zero eurocent
+money	en	eur	42000	forty-two thousand euros zero eurocent
 money	en	eur	100000	one hundred thousand euros zero eurocent
 money	en	eur	1000000	one million euros zero eurocent
 money	en	eur	2000000	two million euros zero eurocent
 money	en	eur	1000000000	one billion euros zero eurocent
-money	en	eur	123.45	one hundred twenty three euros forty five eurocents
+money	en	eur	123.45	one hundred twenty-three euros forty-five eurocents
 money	en	eur	-1	minus one euro zero eurocent
 money	en	eur	-2	minus two euros zero eurocent
-money	en	eur	-41.5	minus forty one euros fifty eurocents
+money	en	eur	-41.5	minus forty-one euros fifty eurocents
 money	en	eur	-1000	minus one thousand euros zero eurocent
 money	en	eur	1.999	two euros zero eurocent
-money	en	eur	123.456	one hundred twenty three euros forty six eurocents
+money	en	eur	123.456	one hundred twenty-three euros forty-six eurocents
 money	en	eur	1.005	one euro one eurocent
 money	en	usd	0	zero dollar zero cent
 money	en	usd	0.01	zero dollar one cent
@@ -79,33 +79,33 @@ money	en	usd	2.02	two dollars two cents
 money	en	usd	3	three dollars zero cent
 money	en	usd	5	five dollars zero cent
 money	en	usd	11	eleven dollars zero cent
-money	en	usd	21	twenty one dollars zero cent
-money	en	usd	22	twenty two dollars zero cent
-money	en	usd	42	forty two dollars zero cent
+money	en	usd	21	twenty-one dollars zero cent
+money	en	usd	22	twenty-two dollars zero cent
+money	en	usd	42	forty-two dollars zero cent
 money	en	usd	100	one hundred dollars zero cent
 money	en	usd	101	one hundred one dollars zero cent
-money	en	usd	121	one hundred twenty one dollars zero cent
-money	en	usd	999	nine hundred ninety nine dollars zero cent
+money	en	usd	121	one hundred twenty-one dollars zero cent
+money	en	usd	999	nine hundred ninety-nine dollars zero cent
 money	en	usd	1000	one thousand dollars zero cent
 money	en	usd	1001	one thousand one dollars zero cent
 money	en	usd	2000	two thousand dollars zero cent
 money	en	usd	2001	two thousand one dollars zero cent
 money	en	usd	5000	five thousand dollars zero cent
-money	en	usd	21000	twenty one thousand dollars zero cent
-money	en	usd	22000	twenty two thousand dollars zero cent
-money	en	usd	41000	forty one thousand dollars zero cent
-money	en	usd	42000	forty two thousand dollars zero cent
+money	en	usd	21000	twenty-one thousand dollars zero cent
+money	en	usd	22000	twenty-two thousand dollars zero cent
+money	en	usd	41000	forty-one thousand dollars zero cent
+money	en	usd	42000	forty-two thousand dollars zero cent
 money	en	usd	100000	one hundred thousand dollars zero cent
 money	en	usd	1000000	one million dollars zero cent
 money	en	usd	2000000	two million dollars zero cent
 money	en	usd	1000000000	one billion dollars zero cent
-money	en	usd	123.45	one hundred twenty three dollars forty five cents
+money	en	usd	123.45	one hundred twenty-three dollars forty-five cents
 money	en	usd	-1	minus one dollar zero cent
 money	en	usd	-2	minus two dollars zero cent
-money	en	usd	-41.5	minus forty one dollars fifty cents
+money	en	usd	-41.5	minus forty-one dollars fifty cents
 money	en	usd	-1000	minus one thousand dollars zero cent
 money	en	usd	1.999	two dollars zero cent
-money	en	usd	123.456	one hundred twenty three dollars forty six cents
+money	en	usd	123.456	one hundred twenty-three dollars forty-six cents
 money	en	usd	1.005	one dollar one cent
 money	en	rub	0	zero ruble zero kopek
 money	en	rub	0.01	zero ruble one kopek
@@ -118,33 +118,33 @@ money	en	rub	2.02	two rubles two kopeks
 money	en	rub	3	three rubles zero kopek
 money	en	rub	5	five rubles zero kopek
 money	en	rub	11	eleven rubles zero kopek
-money	en	rub	21	twenty one rubles zero kopek
-money	en	rub	22	twenty two rubles zero kopek
-money	en	rub	42	forty two rubles zero kopek
+money	en	rub	21	twenty-one rubles zero kopek
+money	en	rub	22	twenty-two rubles zero kopek
+money	en	rub	42	forty-two rubles zero kopek
 money	en	rub	100	one hundred rubles zero kopek
 money	en	rub	101	one hundred one rubles zero kopek
-money	en	rub	121	one hundred twenty one rubles zero kopek
-money	en	rub	999	nine hundred ninety nine rubles zero kopek
+money	en	rub	121	one hundred twenty-one rubles zero kopek
+money	en	rub	999	nine hundred ninety-nine rubles zero kopek
 money	en	rub	1000	one thousand rubles zero kopek
 money	en	rub	1001	one thousand one rubles zero kopek
 money	en	rub	2000	two thousand rubles zero kopek
 money	en	rub	2001	two thousand one rubles zero kopek
 money	en	rub	5000	five thousand rubles zero kopek
-money	en	rub	21000	twenty one thousand rubles zero kopek
-money	en	rub	22000	twenty two thousand rubles zero kopek
-money	en	rub	41000	forty one thousand rubles zero kopek
-money	en	rub	42000	forty two thousand rubles zero kopek
+money	en	rub	21000	twenty-one thousand rubles zero kopek
+money	en	rub	22000	twenty-two thousand rubles zero kopek
+money	en	rub	41000	forty-one thousand rubles zero kopek
+money	en	rub	42000	forty-two thousand rubles zero kopek
 money	en	rub	100000	one hundred thousand rubles zero kopek
 money	en	rub	1000000	one million rubles zero kopek
 money	en	rub	2000000	two million rubles zero kopek
 money	en	rub	1000000000	one billion rubles zero kopek
-money	en	rub	123.45	one hundred twenty three rubles forty five kopeks
+money	en	rub	123.45	one hundred twenty-three rubles forty-five kopeks
 money	en	rub	-1	minus one ruble zero kopek
 money	en	rub	-2	minus two rubles zero kopek
-money	en	rub	-41.5	minus forty one rubles fifty kopeks
+money	en	rub	-41.5	minus forty-one rubles fifty kopeks
 money	en	rub	-1000	minus one thousand rubles zero kopek
 money	en	rub	1.999	two rubles zero kopek
-money	en	rub	123.456	one hundred twenty three rubles forty six kopeks
+money	en	rub	123.456	one hundred twenty-three rubles forty-six kopeks
 money	en	rub	1.005	one ruble one kopek
 money	en	try	0	zero turkish lira zero kurus
 money	en	try	0.01	zero turkish lira one kurus
@@ -157,33 +157,33 @@ money	en	try	2.02	two turkish lira two kurus
 money	en	try	3	three turkish lira zero kurus
 money	en	try	5	five turkish lira zero kurus
 money	en	try	11	eleven turkish lira zero kurus
-money	en	try	21	twenty one turkish lira zero kurus
-money	en	try	22	twenty two turkish lira zero kurus
-money	en	try	42	forty two turkish lira zero kurus
+money	en	try	21	twenty-one turkish lira zero kurus
+money	en	try	22	twenty-two turkish lira zero kurus
+money	en	try	42	forty-two turkish lira zero kurus
 money	en	try	100	one hundred turkish lira zero kurus
 money	en	try	101	one hundred one turkish lira zero kurus
-money	en	try	121	one hundred twenty one turkish lira zero kurus
-money	en	try	999	nine hundred ninety nine turkish lira zero kurus
+money	en	try	121	one hundred twenty-one turkish lira zero kurus
+money	en	try	999	nine hundred ninety-nine turkish lira zero kurus
 money	en	try	1000	one thousand turkish lira zero kurus
 money	en	try	1001	one thousand one turkish lira zero kurus
 money	en	try	2000	two thousand turkish lira zero kurus
 money	en	try	2001	two thousand one turkish lira zero kurus
 money	en	try	5000	five thousand turkish lira zero kurus
-money	en	try	21000	twenty one thousand turkish lira zero kurus
-money	en	try	22000	twenty two thousand turkish lira zero kurus
-money	en	try	41000	forty one thousand turkish lira zero kurus
-money	en	try	42000	forty two thousand turkish lira zero kurus
+money	en	try	21000	twenty-one thousand turkish lira zero kurus
+money	en	try	22000	twenty-two thousand turkish lira zero kurus
+money	en	try	41000	forty-one thousand turkish lira zero kurus
+money	en	try	42000	forty-two thousand turkish lira zero kurus
 money	en	try	100000	one hundred thousand turkish lira zero kurus
 money	en	try	1000000	one million turkish lira zero kurus
 money	en	try	2000000	two million turkish lira zero kurus
 money	en	try	1000000000	one billion turkish lira zero kurus
-money	en	try	123.45	one hundred twenty three turkish lira forty five kurus
+money	en	try	123.45	one hundred twenty-three turkish lira forty-five kurus
 money	en	try	-1	minus one turkish lira zero kurus
 money	en	try	-2	minus two turkish lira zero kurus
-money	en	try	-41.5	minus forty one turkish lira fifty kurus
+money	en	try	-41.5	minus forty-one turkish lira fifty kurus
 money	en	try	-1000	minus one thousand turkish lira zero kurus
 money	en	try	1.999	two turkish lira zero kurus
-money	en	try	123.456	one hundred twenty three turkish lira forty six kurus
+money	en	try	123.456	one hundred twenty-three turkish lira forty-six kurus
 money	en	try	1.005	one turkish lira one kurus
 money	en	uah	0	zero ukrainian hryvnia zero kopiyka
 money	en	uah	0.01	zero ukrainian hryvnia one kopiyka
@@ -196,33 +196,33 @@ money	en	uah	2.02	two ukrainian hryvnia two kopiyky
 money	en	uah	3	three ukrainian hryvnia zero kopiyka
 money	en	uah	5	five ukrainian hryvnia zero kopiyka
 money	en	uah	11	eleven ukrainian hryvnia zero kopiyka
-money	en	uah	21	twenty one ukrainian hryvnia zero kopiyka
-money	en	uah	22	twenty two ukrainian hryvnia zero kopiyka
-money	en	uah	42	forty two ukrainian hryvnia zero kopiyka
+money	en	uah	21	twenty-one ukrainian hryvnia zero kopiyka
+money	en	uah	22	twenty-two ukrainian hryvnia zero kopiyka
+money	en	uah	42	forty-two ukrainian hryvnia zero kopiyka
 money	en	uah	100	one hundred ukrainian hryvnia zero kopiyka
 money	en	uah	101	one hundred one ukrainian hryvnia zero kopiyka
-money	en	uah	121	one hundred twenty one ukrainian hryvnia zero kopiyka
-money	en	uah	999	nine hundred ninety nine ukrainian hryvnia zero kopiyka
+money	en	uah	121	one hundred twenty-one ukrainian hryvnia zero kopiyka
+money	en	uah	999	nine hundred ninety-nine ukrainian hryvnia zero kopiyka
 money	en	uah	1000	one thousand ukrainian hryvnia zero kopiyka
 money	en	uah	1001	one thousand one ukrainian hryvnia zero kopiyka
 money	en	uah	2000	two thousand ukrainian hryvnia zero kopiyka
 money	en	uah	2001	two thousand one ukrainian hryvnia zero kopiyka
 money	en	uah	5000	five thousand ukrainian hryvnia zero kopiyka
-money	en	uah	21000	twenty one thousand ukrainian hryvnia zero kopiyka
-money	en	uah	22000	twenty two thousand ukrainian hryvnia zero kopiyka
-money	en	uah	41000	forty one thousand ukrainian hryvnia zero kopiyka
-money	en	uah	42000	forty two thousand ukrainian hryvnia zero kopiyka
+money	en	uah	21000	twenty-one thousand ukrainian hryvnia zero kopiyka
+money	en	uah	22000	twenty-two thousand ukrainian hryvnia zero kopiyka
+money	en	uah	41000	forty-one thousand ukrainian hryvnia zero kopiyka
+money	en	uah	42000	forty-two thousand ukrainian hryvnia zero kopiyka
 money	en	uah	100000	one hundred thousand ukrainian hryvnia zero kopiyka
 money	en	uah	1000000	one million ukrainian hryvnia zero kopiyka
 money	en	uah	2000000	two million ukrainian hryvnia zero kopiyka
 money	en	uah	1000000000	one billion ukrainian hryvnia zero kopiyka
-money	en	uah	123.45	one hundred twenty three ukrainian hryvnia forty five kopiyky
+money	en	uah	123.45	one hundred twenty-three ukrainian hryvnia forty-five kopiyky
 money	en	uah	-1	minus one ukrainian hryvnia zero kopiyka
 money	en	uah	-2	minus two ukrainian hryvnia zero kopiyka
-money	en	uah	-41.5	minus forty one ukrainian hryvnia fifty kopiyky
+money	en	uah	-41.5	minus forty-one ukrainian hryvnia fifty kopiyky
 money	en	uah	-1000	minus one thousand ukrainian hryvnia zero kopiyka
 money	en	uah	1.999	two ukrainian hryvnia zero kopiyka
-money	en	uah	123.456	one hundred twenty three ukrainian hryvnia forty six kopiyky
+money	en	uah	123.456	one hundred twenty-three ukrainian hryvnia forty-six kopiyky
 money	en	uah	1.005	one ukrainian hryvnia one kopiyka
 money	en	bgn	0	
 money	en	bgn	0.01	
@@ -274,33 +274,33 @@ money	en	etb	2.02	two birr two cents
 money	en	etb	3	three birr zero cent
 money	en	etb	5	five birr zero cent
 money	en	etb	11	eleven birr zero cent
-money	en	etb	21	twenty one birr zero cent
-money	en	etb	22	twenty two birr zero cent
-money	en	etb	42	forty two birr zero cent
+money	en	etb	21	twenty-one birr zero cent
+money	en	etb	22	twenty-two birr zero cent
+money	en	etb	42	forty-two birr zero cent
 money	en	etb	100	one hundred birr zero cent
 money	en	etb	101	one hundred one birr zero cent
-money	en	etb	121	one hundred twenty one birr zero cent
-money	en	etb	999	nine hundred ninety nine birr zero cent
+money	en	etb	121	one hundred twenty-one birr zero cent
+money	en	etb	999	nine hundred ninety-nine birr zero cent
 money	en	etb	1000	one thousand birr zero cent
 money	en	etb	1001	one thousand one birr zero cent
 money	en	etb	2000	two thousand birr zero cent
 money	en	etb	2001	two thousand one birr zero cent
 money	en	etb	5000	five thousand birr zero cent
-money	en	etb	21000	twenty one thousand birr zero cent
-money	en	etb	22000	twenty two thousand birr zero cent
-money	en	etb	41000	forty one thousand birr zero cent
-money	en	etb	42000	forty two thousand birr zero cent
+money	en	etb	21000	twenty-one thousand birr zero cent
+money	en	etb	22000	twenty-two thousand birr zero cent
+money	en	etb	41000	forty-one thousand birr zero cent
+money	en	etb	42000	forty-two thousand birr zero cent
 money	en	etb	100000	one hundred thousand birr zero cent
 money	en	etb	1000000	one million birr zero cent
 money	en	etb	2000000	two million birr zero cent
 money	en	etb	1000000000	one billion birr zero cent
-money	en	etb	123.45	one hundred twenty three birr forty five cents
+money	en	etb	123.45	one hundred twenty-three birr forty-five cents
 money	en	etb	-1	minus one birr zero cent
 money	en	etb	-2	minus two birr zero cent
-money	en	etb	-41.5	minus forty one birr fifty cents
+money	en	etb	-41.5	minus forty-one birr fifty cents
 money	en	etb	-1000	minus one thousand birr zero cent
 money	en	etb	1.999	two birr zero cent
-money	en	etb	123.456	one hundred twenty three birr forty six cents
+money	en	etb	123.456	one hundred twenty-three birr forty-six cents
 money	en	etb	1.005	one birr one cent
 money	en	pln	0	zero zloty zero grosz
 money	en	pln	0.01	zero zloty one grosz
@@ -313,33 +313,33 @@ money	en	pln	2.02	two zloty two grosze
 money	en	pln	3	three zloty zero grosz
 money	en	pln	5	five zloty zero grosz
 money	en	pln	11	eleven zloty zero grosz
-money	en	pln	21	twenty one zloty zero grosz
-money	en	pln	22	twenty two zloty zero grosz
-money	en	pln	42	forty two zloty zero grosz
+money	en	pln	21	twenty-one zloty zero grosz
+money	en	pln	22	twenty-two zloty zero grosz
+money	en	pln	42	forty-two zloty zero grosz
 money	en	pln	100	one hundred zloty zero grosz
 money	en	pln	101	one hundred one zloty zero grosz
-money	en	pln	121	one hundred twenty one zloty zero grosz
-money	en	pln	999	nine hundred ninety nine zloty zero grosz
+money	en	pln	121	one hundred twenty-one zloty zero grosz
+money	en	pln	999	nine hundred ninety-nine zloty zero grosz
 money	en	pln	1000	one thousand zloty zero grosz
 money	en	pln	1001	one thousand one zloty zero grosz
 money	en	pln	2000	two thousand zloty zero grosz
 money	en	pln	2001	two thousand one zloty zero grosz
 money	en	pln	5000	five thousand zloty zero grosz
-money	en	pln	21000	twenty one thousand zloty zero grosz
-money	en	pln	22000	twenty two thousand zloty zero grosz
-money	en	pln	41000	forty one thousand zloty zero grosz
-money	en	pln	42000	forty two thousand zloty zero grosz
+money	en	pln	21000	twenty-one thousand zloty zero grosz
+money	en	pln	22000	twenty-two thousand zloty zero grosz
+money	en	pln	41000	forty-one thousand zloty zero grosz
+money	en	pln	42000	forty-two thousand zloty zero grosz
 money	en	pln	100000	one hundred thousand zloty zero grosz
 money	en	pln	1000000	one million zloty zero grosz
 money	en	pln	2000000	two million zloty zero grosz
 money	en	pln	1000000000	one billion zloty zero grosz
-money	en	pln	123.45	one hundred twenty three zloty forty five grosze
+money	en	pln	123.45	one hundred twenty-three zloty forty-five grosze
 money	en	pln	-1	minus one zloty zero grosz
 money	en	pln	-2	minus two zloty zero grosz
-money	en	pln	-41.5	minus forty one zloty fifty grosze
+money	en	pln	-41.5	minus forty-one zloty fifty grosze
 money	en	pln	-1000	minus one thousand zloty zero grosz
 money	en	pln	1.999	two zloty zero grosz
-money	en	pln	123.456	one hundred twenty three zloty forty six grosze
+money	en	pln	123.456	one hundred twenty-three zloty forty-six grosze
 money	en	pln	1.005	one zloty one grosz
 money	en	byn	0	zero Belarusian ruble zero kopek
 money	en	byn	0.01	zero Belarusian ruble one kopek
@@ -352,33 +352,33 @@ money	en	byn	2.02	two Belarusian rubles two kopeks
 money	en	byn	3	three Belarusian rubles zero kopek
 money	en	byn	5	five Belarusian rubles zero kopek
 money	en	byn	11	eleven Belarusian rubles zero kopek
-money	en	byn	21	twenty one Belarusian rubles zero kopek
-money	en	byn	22	twenty two Belarusian rubles zero kopek
-money	en	byn	42	forty two Belarusian rubles zero kopek
+money	en	byn	21	twenty-one Belarusian rubles zero kopek
+money	en	byn	22	twenty-two Belarusian rubles zero kopek
+money	en	byn	42	forty-two Belarusian rubles zero kopek
 money	en	byn	100	one hundred Belarusian rubles zero kopek
 money	en	byn	101	one hundred one Belarusian rubles zero kopek
-money	en	byn	121	one hundred twenty one Belarusian rubles zero kopek
-money	en	byn	999	nine hundred ninety nine Belarusian rubles zero kopek
+money	en	byn	121	one hundred twenty-one Belarusian rubles zero kopek
+money	en	byn	999	nine hundred ninety-nine Belarusian rubles zero kopek
 money	en	byn	1000	one thousand Belarusian rubles zero kopek
 money	en	byn	1001	one thousand one Belarusian rubles zero kopek
 money	en	byn	2000	two thousand Belarusian rubles zero kopek
 money	en	byn	2001	two thousand one Belarusian rubles zero kopek
 money	en	byn	5000	five thousand Belarusian rubles zero kopek
-money	en	byn	21000	twenty one thousand Belarusian rubles zero kopek
-money	en	byn	22000	twenty two thousand Belarusian rubles zero kopek
-money	en	byn	41000	forty one thousand Belarusian rubles zero kopek
-money	en	byn	42000	forty two thousand Belarusian rubles zero kopek
+money	en	byn	21000	twenty-one thousand Belarusian rubles zero kopek
+money	en	byn	22000	twenty-two thousand Belarusian rubles zero kopek
+money	en	byn	41000	forty-one thousand Belarusian rubles zero kopek
+money	en	byn	42000	forty-two thousand Belarusian rubles zero kopek
 money	en	byn	100000	one hundred thousand Belarusian rubles zero kopek
 money	en	byn	1000000	one million Belarusian rubles zero kopek
 money	en	byn	2000000	two million Belarusian rubles zero kopek
 money	en	byn	1000000000	one billion Belarusian rubles zero kopek
-money	en	byn	123.45	one hundred twenty three Belarusian rubles forty five kopeks
+money	en	byn	123.45	one hundred twenty-three Belarusian rubles forty-five kopeks
 money	en	byn	-1	minus one Belarusian ruble zero kopek
 money	en	byn	-2	minus two Belarusian rubles zero kopek
-money	en	byn	-41.5	minus forty one Belarusian rubles fifty kopeks
+money	en	byn	-41.5	minus forty-one Belarusian rubles fifty kopeks
 money	en	byn	-1000	minus one thousand Belarusian rubles zero kopek
 money	en	byn	1.999	two Belarusian rubles zero kopek
-money	en	byn	123.456	one hundred twenty three Belarusian rubles forty six kopeks
+money	en	byn	123.456	one hundred twenty-three Belarusian rubles forty-six kopeks
 money	en	byn	1.005	one Belarusian ruble one kopek
 money	en	ars	0	
 money	en	ars	0.01	

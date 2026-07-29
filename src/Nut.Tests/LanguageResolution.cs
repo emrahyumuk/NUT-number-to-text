@@ -56,12 +56,12 @@ namespace Nut.Tests
         public void CurrencyMatchingIgnoresCase(string currency)
         {
             Assert.That(41m.ToText(currency, Language.English),
-                Is.EqualTo("forty one dollars zero cent"));
+                Is.EqualTo("forty-one dollars zero cent"));
         }
 
         /// <summary>Aliases resolve regardless of case too.</summary>
-        [TestCase("TL", "forty one turkish lira zero kurus")]
-        [TestCase("RUR", "forty one rubles zero kopek")]
+        [TestCase("TL", "forty-one turkish lira zero kurus")]
+        [TestCase("RUR", "forty-one rubles zero kopek")]
         public void CurrencyAliasesIgnoreCase(string currency, string expected)
         {
             Assert.That(41m.ToText(currency, Language.English), Is.EqualTo(expected));

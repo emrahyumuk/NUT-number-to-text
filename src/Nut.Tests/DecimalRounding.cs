@@ -13,9 +13,9 @@ namespace Nut.Tests
     {
         [TestCase(1.5, "one dollar fifty cents")]
         [TestCase(1.05, "one dollar five cents")]
-        [TestCase(1.994, "one dollar ninety nine cents")]
-        [TestCase(123.456, "one hundred twenty three dollars forty six cents")]
-        [TestCase(2.345, "two dollars thirty five cents")] // away from zero, not to even
+        [TestCase(1.994, "one dollar ninety-nine cents")]
+        [TestCase(123.456, "one hundred twenty-three dollars forty-six cents")]
+        [TestCase(2.345, "two dollars thirty-five cents")] // away from zero, not to even
         [TestCase(1.005, "one dollar one cent")]
         [TestCase(0.001, "zero dollar zero cent")] // too small to register
         public void ExtraDecimalsAreRounded(decimal amount, string expected)
@@ -60,10 +60,10 @@ namespace Nut.Tests
 
         /// <summary>Callers who need the extra digits dropped rather than carried can ask
         /// for that; rounding stays the default.</summary>
-        [TestCase(1.999, "one dollar ninety nine cents")]
-        [TestCase(123.456, "one hundred twenty three dollars forty five cents")]
+        [TestCase(1.999, "one dollar ninety-nine cents")]
+        [TestCase(123.456, "one hundred twenty-three dollars forty-five cents")]
         [TestCase(1.005, "one dollar zero cent")]
-        [TestCase(0.999, "zero dollar ninety nine cents")]
+        [TestCase(0.999, "zero dollar ninety-nine cents")]
         [TestCase(1.5, "one dollar fifty cents")] // unaffected either way
         public void SubUnitTruncatedCutsInsteadOfRounding(decimal amount, string expected)
         {
