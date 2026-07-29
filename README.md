@@ -54,9 +54,18 @@ resolve, but the codes above are the ones `CultureInfo` hands you.
 
 Also accepted: `TL` for `TRY`, `RUR` for `RUB`.
 
-Every language covers every currency, with two exceptions. Amharic is missing `ARS`, `BRL`,
-`GBP` and `UZS`. Uzbek covers only `UZS`, `USD` and `RUB` — the three its contributor
-supplied. A combination a language does not cover raises `NotSupportedException`.
+Not every language covers every currency, and a combination a language does not cover
+raises `NotSupportedException` rather than guessing at the wording:
+
+| Language | Missing |
+|---|---|
+| Uzbek | everything but `UZS`, `USD` and `RUB` |
+| Amharic | `ARS`, `BRL`, `GBP`, `UZS` |
+| Belarusian | `UZS`, `ETB` |
+| Polish, Bulgarian, Latvian | `UZS` |
+
+These are gaps of evidence rather than of effort. Each one is a word nobody could source,
+and this text goes on documents people sign.
 
 ```csharp
 2575.50m.ToText(Currency.EUR, Language.German);   // zweitausendfünfhundertfünfundsiebzig Euro fünfzig Cent

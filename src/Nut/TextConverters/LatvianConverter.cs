@@ -191,7 +191,7 @@ namespace Nut.TextConverters
             SubUnitCurrency = new BaseCurrencyModel
             {
               Gender = GenderGroup.Masculine,
-              Names = new[] { "centavo", "centavo", "centavo" }
+              Names = new[] { "sentavo", "sentavo", "sentavo" }
             }
           };
         case Currency.BGN:
@@ -215,7 +215,7 @@ namespace Nut.TextConverters
             SubUnitCurrency = new BaseCurrencyModel
             {
               Gender = GenderGroup.Masculine,
-              Names = new[] { "centavo", "centavo", "centavo" }
+              Names = new[] { "sentavo", "sentavo", "sentavo" }
             }
           };
         case Currency.BYN:
@@ -251,7 +251,7 @@ namespace Nut.TextConverters
             SubUnitCurrency = new BaseCurrencyModel
             {
               Gender = GenderGroup.Masculine,
-              Names = new[] { "kuruss", "kurusi", "kurusu" }
+              Names = new[] { "kurušs", "kuruši", "kurušu" }
             }
           };
         case Currency.UAH:
@@ -266,18 +266,9 @@ namespace Nut.TextConverters
               Names = new[] { "kapeika", "kapeikas", "kapeiku" }
             }
           };
-        case Currency.UZS:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "Uzbekistānas sums", "Uzbekistānas sumi", "Uzbekistānas sumu" },
-            Gender = GenderGroup.Masculine,
-            SubUnitCurrency = new BaseCurrencyModel
-            {
-              Gender = GenderGroup.Masculine,
-              Names = new[] { "tijins", "tijini", "tijinu" }
-            }
-          };
+        // UZS is gone. The sum's sub-unit was written here as "tijins",
+        // which is in no dictionary — the same invented wording that had Uzbek
+        // naming the Turkish lira's sub-unit "tiyin".
         case Currency.USD:
           return new CurrencyModel
           {

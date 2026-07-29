@@ -205,13 +205,9 @@ namespace Nut.TextConverters
                     Names = new[] { "real brazylijski", "reale brazylijskie", "reali brazylijskich" },
                     SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "centavo", "centavo", "centavo" } }
                   };
-                case Currency.UZS:
-                  return new CurrencyModel
-                  {
-                    Currency = currency,
-                    Names = new[] { "som uzbecki", "somy uzbeckie", "somów uzbeckich" },
-                    SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tijin", "tijiny", "tijinów" } }
-                  };
+                // UZS is gone. The sum's sub-unit was written here as "tijin",
+                // which is in no dictionary — the same invented wording that had Uzbek
+                // naming the Turkish lira's sub-unit "tiyin".
                 case Currency.USD:
                     return new CurrencyModel
                     {
