@@ -92,8 +92,12 @@ assert on that text, review the tables below before taking this release.
   RAE it is now `mil millones`. The library produced this correctly until a 2016 refactor.
 - **"uno" is apocopated in front of a noun or scale word**: `uno mil` → `mil`,
   `uno millón` → `un millón`, `uno euro` → `un euro`. Standing alone it keeps its full form.
-- **Hundreds above 100 no longer switch to their feminine form**, so `999` reads as
-  `novecientos noventa y nueve`.
+- **Hundreds agree in gender with what they count.** They used to take their feminine form
+  whenever something followed, so `999` read as `novecientas` while `200` stayed masculine.
+  They now follow the currency: `novecientos noventa y nueve euros` but `novecientas noventa
+  y nueve libras esterlinas`. `cien` and `ciento` do not inflect for gender. `mil` is an
+  adjective and does not interrupt the agreement — `doscientas mil libras` — while `millón`
+  is a noun and does: `doscientos millones de libras`.
 - **Scale nouns link to the currency with "de"**: `un millón de euros`. `mil` is an
   adjective and takes none.
 
@@ -180,6 +184,10 @@ assert on that text, review the tables below before taking this release.
   gender (`viens eiro` but `viena mārciņa`), and the unit name takes three forms: singular
   after a count ending in one, genitive plural after zero (`nulle centu`), plural
   otherwise.
+
+  The scale words take that same rule, and they are masculine nouns, so the count in front
+  of one agrees with the scale word rather than with the currency: `viens tūkstotis
+  sterliņu mārciņas`, not `viena`, and `divdesmit viens tūkstotis`, not `tūkstoši`.
 
 - **Uzbek (Latin script)** and the Uzbek som (`UZS`), from
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds

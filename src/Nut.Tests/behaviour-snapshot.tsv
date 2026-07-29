@@ -2128,7 +2128,7 @@ money	es	gbp	42	cuarenta y dos libras esterlinas con cero penique
 money	es	gbp	100	cien libras esterlinas con cero penique
 money	es	gbp	101	ciento una libras esterlinas con cero penique
 money	es	gbp	121	ciento veintiuna libras esterlinas con cero penique
-money	es	gbp	999	novecientos noventa y nueve libras esterlinas con cero penique
+money	es	gbp	999	novecientas noventa y nueve libras esterlinas con cero penique
 money	es	gbp	1000	mil libras esterlinas con cero penique
 money	es	gbp	1001	mil una libras esterlinas con cero penique
 money	es	gbp	2000	dos mil libras esterlinas con cero penique
@@ -7012,8 +7012,8 @@ plain	lv	1000	viens tūkstotis
 plain	lv	1001	viens tūkstotis viens
 plain	lv	2000	divi tūkstoši
 plain	lv	5000	pieci tūkstoši
-plain	lv	21000	divdesmit viens tūkstoši
-plain	lv	41000	četrdesmit viens tūkstoši
+plain	lv	21000	divdesmit viens tūkstotis
+plain	lv	41000	četrdesmit viens tūkstotis
 plain	lv	100000	simts tūkstoši
 plain	lv	1000000	viens miljons
 plain	lv	2000000	divi miljoni
@@ -7046,9 +7046,9 @@ money	lv	eur	1001	viens tūkstotis viens eiro un nulle centu
 money	lv	eur	2000	divi tūkstoši eiro un nulle centu
 money	lv	eur	2001	divi tūkstoši viens eiro un nulle centu
 money	lv	eur	5000	pieci tūkstoši eiro un nulle centu
-money	lv	eur	21000	divdesmit viens tūkstoši eiro un nulle centu
+money	lv	eur	21000	divdesmit viens tūkstotis eiro un nulle centu
 money	lv	eur	22000	divdesmit divi tūkstoši eiro un nulle centu
-money	lv	eur	41000	četrdesmit viens tūkstoši eiro un nulle centu
+money	lv	eur	41000	četrdesmit viens tūkstotis eiro un nulle centu
 money	lv	eur	42000	četrdesmit divi tūkstoši eiro un nulle centu
 money	lv	eur	100000	simts tūkstoši eiro un nulle centu
 money	lv	eur	1000000	viens miljons eiro un nulle centu
@@ -7085,9 +7085,9 @@ money	lv	usd	1001	viens tūkstotis viens ASV dolārs un nulle centu
 money	lv	usd	2000	divi tūkstoši ASV dolāri un nulle centu
 money	lv	usd	2001	divi tūkstoši viens ASV dolārs un nulle centu
 money	lv	usd	5000	pieci tūkstoši ASV dolāri un nulle centu
-money	lv	usd	21000	divdesmit viens tūkstoši ASV dolāri un nulle centu
+money	lv	usd	21000	divdesmit viens tūkstotis ASV dolāri un nulle centu
 money	lv	usd	22000	divdesmit divi tūkstoši ASV dolāri un nulle centu
-money	lv	usd	41000	četrdesmit viens tūkstoši ASV dolāri un nulle centu
+money	lv	usd	41000	četrdesmit viens tūkstotis ASV dolāri un nulle centu
 money	lv	usd	42000	četrdesmit divi tūkstoši ASV dolāri un nulle centu
 money	lv	usd	100000	simts tūkstoši ASV dolāri un nulle centu
 money	lv	usd	1000000	viens miljons ASV dolāri un nulle centu
@@ -7124,9 +7124,9 @@ money	lv	rub	1001	viens tūkstotis viens Krievijas rublis un nulle kapeiku
 money	lv	rub	2000	divi tūkstoši Krievijas rubļi un nulle kapeiku
 money	lv	rub	2001	divi tūkstoši viens Krievijas rublis un nulle kapeiku
 money	lv	rub	5000	pieci tūkstoši Krievijas rubļi un nulle kapeiku
-money	lv	rub	21000	divdesmit viens tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	21000	divdesmit viens tūkstotis Krievijas rubļi un nulle kapeiku
 money	lv	rub	22000	divdesmit divi tūkstoši Krievijas rubļi un nulle kapeiku
-money	lv	rub	41000	četrdesmit viens tūkstoši Krievijas rubļi un nulle kapeiku
+money	lv	rub	41000	četrdesmit viens tūkstotis Krievijas rubļi un nulle kapeiku
 money	lv	rub	42000	četrdesmit divi tūkstoši Krievijas rubļi un nulle kapeiku
 money	lv	rub	100000	simts tūkstoši Krievijas rubļi un nulle kapeiku
 money	lv	rub	1000000	viens miljons Krievijas rubļi un nulle kapeiku
@@ -7158,24 +7158,24 @@ money	lv	try	100	simts Turcijas liras un nulle kurusu
 money	lv	try	101	simts viena Turcijas lira un nulle kurusu
 money	lv	try	121	simts divdesmit viena Turcijas lira un nulle kurusu
 money	lv	try	999	deviņi simti deviņdesmit deviņi Turcijas liras un nulle kurusu
-money	lv	try	1000	viena tūkstotis Turcijas liras un nulle kurusu
-money	lv	try	1001	viena tūkstotis viena Turcijas lira un nulle kurusu
-money	lv	try	2000	divas tūkstoši Turcijas liras un nulle kurusu
-money	lv	try	2001	divas tūkstoši viena Turcijas lira un nulle kurusu
+money	lv	try	1000	viens tūkstotis Turcijas liras un nulle kurusu
+money	lv	try	1001	viens tūkstotis viena Turcijas lira un nulle kurusu
+money	lv	try	2000	divi tūkstoši Turcijas liras un nulle kurusu
+money	lv	try	2001	divi tūkstoši viena Turcijas lira un nulle kurusu
 money	lv	try	5000	pieci tūkstoši Turcijas liras un nulle kurusu
-money	lv	try	21000	divdesmit viena tūkstoši Turcijas liras un nulle kurusu
-money	lv	try	22000	divdesmit divas tūkstoši Turcijas liras un nulle kurusu
-money	lv	try	41000	četrdesmit viena tūkstoši Turcijas liras un nulle kurusu
-money	lv	try	42000	četrdesmit divas tūkstoši Turcijas liras un nulle kurusu
+money	lv	try	21000	divdesmit viens tūkstotis Turcijas liras un nulle kurusu
+money	lv	try	22000	divdesmit divi tūkstoši Turcijas liras un nulle kurusu
+money	lv	try	41000	četrdesmit viens tūkstotis Turcijas liras un nulle kurusu
+money	lv	try	42000	četrdesmit divi tūkstoši Turcijas liras un nulle kurusu
 money	lv	try	100000	simts tūkstoši Turcijas liras un nulle kurusu
-money	lv	try	1000000	viena miljons Turcijas liras un nulle kurusu
-money	lv	try	2000000	divas miljoni Turcijas liras un nulle kurusu
-money	lv	try	1000000000	viena miljards Turcijas liras un nulle kurusu
+money	lv	try	1000000	viens miljons Turcijas liras un nulle kurusu
+money	lv	try	2000000	divi miljoni Turcijas liras un nulle kurusu
+money	lv	try	1000000000	viens miljards Turcijas liras un nulle kurusu
 money	lv	try	123.45	simts divdesmit trīs Turcijas liras un četrdesmit pieci kurusi
 money	lv	try	-1	mīnus viena Turcijas lira un nulle kurusu
 money	lv	try	-2	mīnus divas Turcijas liras un nulle kurusu
 money	lv	try	-41.5	mīnus četrdesmit viena Turcijas lira un piecdesmit kurusi
-money	lv	try	-1000	mīnus viena tūkstotis Turcijas liras un nulle kurusu
+money	lv	try	-1000	mīnus viens tūkstotis Turcijas liras un nulle kurusu
 money	lv	try	1.999	divas Turcijas liras un nulle kurusu
 money	lv	try	123.456	simts divdesmit trīs Turcijas liras un četrdesmit seši kurusi
 money	lv	try	1.005	viena Turcijas lira un viens kuruss
@@ -7197,24 +7197,24 @@ money	lv	uah	100	simts Ukrainas grivnas un nulle kapeiku
 money	lv	uah	101	simts viena Ukrainas grivna un nulle kapeiku
 money	lv	uah	121	simts divdesmit viena Ukrainas grivna un nulle kapeiku
 money	lv	uah	999	deviņi simti deviņdesmit deviņi Ukrainas grivnas un nulle kapeiku
-money	lv	uah	1000	viena tūkstotis Ukrainas grivnas un nulle kapeiku
-money	lv	uah	1001	viena tūkstotis viena Ukrainas grivna un nulle kapeiku
-money	lv	uah	2000	divas tūkstoši Ukrainas grivnas un nulle kapeiku
-money	lv	uah	2001	divas tūkstoši viena Ukrainas grivna un nulle kapeiku
+money	lv	uah	1000	viens tūkstotis Ukrainas grivnas un nulle kapeiku
+money	lv	uah	1001	viens tūkstotis viena Ukrainas grivna un nulle kapeiku
+money	lv	uah	2000	divi tūkstoši Ukrainas grivnas un nulle kapeiku
+money	lv	uah	2001	divi tūkstoši viena Ukrainas grivna un nulle kapeiku
 money	lv	uah	5000	pieci tūkstoši Ukrainas grivnas un nulle kapeiku
-money	lv	uah	21000	divdesmit viena tūkstoši Ukrainas grivnas un nulle kapeiku
-money	lv	uah	22000	divdesmit divas tūkstoši Ukrainas grivnas un nulle kapeiku
-money	lv	uah	41000	četrdesmit viena tūkstoši Ukrainas grivnas un nulle kapeiku
-money	lv	uah	42000	četrdesmit divas tūkstoši Ukrainas grivnas un nulle kapeiku
+money	lv	uah	21000	divdesmit viens tūkstotis Ukrainas grivnas un nulle kapeiku
+money	lv	uah	22000	divdesmit divi tūkstoši Ukrainas grivnas un nulle kapeiku
+money	lv	uah	41000	četrdesmit viens tūkstotis Ukrainas grivnas un nulle kapeiku
+money	lv	uah	42000	četrdesmit divi tūkstoši Ukrainas grivnas un nulle kapeiku
 money	lv	uah	100000	simts tūkstoši Ukrainas grivnas un nulle kapeiku
-money	lv	uah	1000000	viena miljons Ukrainas grivnas un nulle kapeiku
-money	lv	uah	2000000	divas miljoni Ukrainas grivnas un nulle kapeiku
-money	lv	uah	1000000000	viena miljards Ukrainas grivnas un nulle kapeiku
+money	lv	uah	1000000	viens miljons Ukrainas grivnas un nulle kapeiku
+money	lv	uah	2000000	divi miljoni Ukrainas grivnas un nulle kapeiku
+money	lv	uah	1000000000	viens miljards Ukrainas grivnas un nulle kapeiku
 money	lv	uah	123.45	simts divdesmit trīs Ukrainas grivnas un četrdesmit pieci kapeikas
 money	lv	uah	-1	mīnus viena Ukrainas grivna un nulle kapeiku
 money	lv	uah	-2	mīnus divas Ukrainas grivnas un nulle kapeiku
 money	lv	uah	-41.5	mīnus četrdesmit viena Ukrainas grivna un piecdesmit kapeikas
-money	lv	uah	-1000	mīnus viena tūkstotis Ukrainas grivnas un nulle kapeiku
+money	lv	uah	-1000	mīnus viens tūkstotis Ukrainas grivnas un nulle kapeiku
 money	lv	uah	1.999	divas Ukrainas grivnas un nulle kapeiku
 money	lv	uah	123.456	simts divdesmit trīs Ukrainas grivnas un četrdesmit seši kapeikas
 money	lv	uah	1.005	viena Ukrainas grivna un viena kapeika
@@ -7236,24 +7236,24 @@ money	lv	bgn	100	simts Bulgārijas levas un nulle stotinku
 money	lv	bgn	101	simts viena Bulgārijas leva un nulle stotinku
 money	lv	bgn	121	simts divdesmit viena Bulgārijas leva un nulle stotinku
 money	lv	bgn	999	deviņi simti deviņdesmit deviņi Bulgārijas levas un nulle stotinku
-money	lv	bgn	1000	viena tūkstotis Bulgārijas levas un nulle stotinku
-money	lv	bgn	1001	viena tūkstotis viena Bulgārijas leva un nulle stotinku
-money	lv	bgn	2000	divas tūkstoši Bulgārijas levas un nulle stotinku
-money	lv	bgn	2001	divas tūkstoši viena Bulgārijas leva un nulle stotinku
+money	lv	bgn	1000	viens tūkstotis Bulgārijas levas un nulle stotinku
+money	lv	bgn	1001	viens tūkstotis viena Bulgārijas leva un nulle stotinku
+money	lv	bgn	2000	divi tūkstoši Bulgārijas levas un nulle stotinku
+money	lv	bgn	2001	divi tūkstoši viena Bulgārijas leva un nulle stotinku
 money	lv	bgn	5000	pieci tūkstoši Bulgārijas levas un nulle stotinku
-money	lv	bgn	21000	divdesmit viena tūkstoši Bulgārijas levas un nulle stotinku
-money	lv	bgn	22000	divdesmit divas tūkstoši Bulgārijas levas un nulle stotinku
-money	lv	bgn	41000	četrdesmit viena tūkstoši Bulgārijas levas un nulle stotinku
-money	lv	bgn	42000	četrdesmit divas tūkstoši Bulgārijas levas un nulle stotinku
+money	lv	bgn	21000	divdesmit viens tūkstotis Bulgārijas levas un nulle stotinku
+money	lv	bgn	22000	divdesmit divi tūkstoši Bulgārijas levas un nulle stotinku
+money	lv	bgn	41000	četrdesmit viens tūkstotis Bulgārijas levas un nulle stotinku
+money	lv	bgn	42000	četrdesmit divi tūkstoši Bulgārijas levas un nulle stotinku
 money	lv	bgn	100000	simts tūkstoši Bulgārijas levas un nulle stotinku
-money	lv	bgn	1000000	viena miljons Bulgārijas levas un nulle stotinku
-money	lv	bgn	2000000	divas miljoni Bulgārijas levas un nulle stotinku
-money	lv	bgn	1000000000	viena miljards Bulgārijas levas un nulle stotinku
+money	lv	bgn	1000000	viens miljons Bulgārijas levas un nulle stotinku
+money	lv	bgn	2000000	divi miljoni Bulgārijas levas un nulle stotinku
+money	lv	bgn	1000000000	viens miljards Bulgārijas levas un nulle stotinku
 money	lv	bgn	123.45	simts divdesmit trīs Bulgārijas levas un četrdesmit pieci stotinkas
 money	lv	bgn	-1	mīnus viena Bulgārijas leva un nulle stotinku
 money	lv	bgn	-2	mīnus divas Bulgārijas levas un nulle stotinku
 money	lv	bgn	-41.5	mīnus četrdesmit viena Bulgārijas leva un piecdesmit stotinkas
-money	lv	bgn	-1000	mīnus viena tūkstotis Bulgārijas levas un nulle stotinku
+money	lv	bgn	-1000	mīnus viens tūkstotis Bulgārijas levas un nulle stotinku
 money	lv	bgn	1.999	divas Bulgārijas levas un nulle stotinku
 money	lv	bgn	123.456	simts divdesmit trīs Bulgārijas levas un četrdesmit seši stotinkas
 money	lv	bgn	1.005	viena Bulgārijas leva un viena stotinka
@@ -7280,9 +7280,9 @@ money	lv	etb	1001	viens tūkstotis viens Etiopijas birs un nulle santīmu
 money	lv	etb	2000	divi tūkstoši Etiopijas biri un nulle santīmu
 money	lv	etb	2001	divi tūkstoši viens Etiopijas birs un nulle santīmu
 money	lv	etb	5000	pieci tūkstoši Etiopijas biri un nulle santīmu
-money	lv	etb	21000	divdesmit viens tūkstoši Etiopijas biri un nulle santīmu
+money	lv	etb	21000	divdesmit viens tūkstotis Etiopijas biri un nulle santīmu
 money	lv	etb	22000	divdesmit divi tūkstoši Etiopijas biri un nulle santīmu
-money	lv	etb	41000	četrdesmit viens tūkstoši Etiopijas biri un nulle santīmu
+money	lv	etb	41000	četrdesmit viens tūkstotis Etiopijas biri un nulle santīmu
 money	lv	etb	42000	četrdesmit divi tūkstoši Etiopijas biri un nulle santīmu
 money	lv	etb	100000	simts tūkstoši Etiopijas biri un nulle santīmu
 money	lv	etb	1000000	viens miljons Etiopijas biri un nulle santīmu
@@ -7319,9 +7319,9 @@ money	lv	pln	1001	viens tūkstotis viens Polijas zlots un nulle grašu
 money	lv	pln	2000	divi tūkstoši Polijas zloti un nulle grašu
 money	lv	pln	2001	divi tūkstoši viens Polijas zlots un nulle grašu
 money	lv	pln	5000	pieci tūkstoši Polijas zloti un nulle grašu
-money	lv	pln	21000	divdesmit viens tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	21000	divdesmit viens tūkstotis Polijas zloti un nulle grašu
 money	lv	pln	22000	divdesmit divi tūkstoši Polijas zloti un nulle grašu
-money	lv	pln	41000	četrdesmit viens tūkstoši Polijas zloti un nulle grašu
+money	lv	pln	41000	četrdesmit viens tūkstotis Polijas zloti un nulle grašu
 money	lv	pln	42000	četrdesmit divi tūkstoši Polijas zloti un nulle grašu
 money	lv	pln	100000	simts tūkstoši Polijas zloti un nulle grašu
 money	lv	pln	1000000	viens miljons Polijas zloti un nulle grašu
@@ -7358,9 +7358,9 @@ money	lv	byn	1001	viens tūkstotis viens Baltkrievijas rublis un nulle kapeiku
 money	lv	byn	2000	divi tūkstoši Baltkrievijas rubļi un nulle kapeiku
 money	lv	byn	2001	divi tūkstoši viens Baltkrievijas rublis un nulle kapeiku
 money	lv	byn	5000	pieci tūkstoši Baltkrievijas rubļi un nulle kapeiku
-money	lv	byn	21000	divdesmit viens tūkstoši Baltkrievijas rubļi un nulle kapeiku
+money	lv	byn	21000	divdesmit viens tūkstotis Baltkrievijas rubļi un nulle kapeiku
 money	lv	byn	22000	divdesmit divi tūkstoši Baltkrievijas rubļi un nulle kapeiku
-money	lv	byn	41000	četrdesmit viens tūkstoši Baltkrievijas rubļi un nulle kapeiku
+money	lv	byn	41000	četrdesmit viens tūkstotis Baltkrievijas rubļi un nulle kapeiku
 money	lv	byn	42000	četrdesmit divi tūkstoši Baltkrievijas rubļi un nulle kapeiku
 money	lv	byn	100000	simts tūkstoši Baltkrievijas rubļi un nulle kapeiku
 money	lv	byn	1000000	viens miljons Baltkrievijas rubļi un nulle kapeiku
@@ -7397,9 +7397,9 @@ money	lv	ars	1001	viens tūkstotis viens Argentīnas peso un nulle centavo
 money	lv	ars	2000	divi tūkstoši Argentīnas peso un nulle centavo
 money	lv	ars	2001	divi tūkstoši viens Argentīnas peso un nulle centavo
 money	lv	ars	5000	pieci tūkstoši Argentīnas peso un nulle centavo
-money	lv	ars	21000	divdesmit viens tūkstoši Argentīnas peso un nulle centavo
+money	lv	ars	21000	divdesmit viens tūkstotis Argentīnas peso un nulle centavo
 money	lv	ars	22000	divdesmit divi tūkstoši Argentīnas peso un nulle centavo
-money	lv	ars	41000	četrdesmit viens tūkstoši Argentīnas peso un nulle centavo
+money	lv	ars	41000	četrdesmit viens tūkstotis Argentīnas peso un nulle centavo
 money	lv	ars	42000	četrdesmit divi tūkstoši Argentīnas peso un nulle centavo
 money	lv	ars	100000	simts tūkstoši Argentīnas peso un nulle centavo
 money	lv	ars	1000000	viens miljons Argentīnas peso un nulle centavo
@@ -7436,9 +7436,9 @@ money	lv	brl	1001	viens tūkstotis viens Brazīlijas reāls un nulle centavo
 money	lv	brl	2000	divi tūkstoši Brazīlijas reāli un nulle centavo
 money	lv	brl	2001	divi tūkstoši viens Brazīlijas reāls un nulle centavo
 money	lv	brl	5000	pieci tūkstoši Brazīlijas reāli un nulle centavo
-money	lv	brl	21000	divdesmit viens tūkstoši Brazīlijas reāli un nulle centavo
+money	lv	brl	21000	divdesmit viens tūkstotis Brazīlijas reāli un nulle centavo
 money	lv	brl	22000	divdesmit divi tūkstoši Brazīlijas reāli un nulle centavo
-money	lv	brl	41000	četrdesmit viens tūkstoši Brazīlijas reāli un nulle centavo
+money	lv	brl	41000	četrdesmit viens tūkstotis Brazīlijas reāli un nulle centavo
 money	lv	brl	42000	četrdesmit divi tūkstoši Brazīlijas reāli un nulle centavo
 money	lv	brl	100000	simts tūkstoši Brazīlijas reāli un nulle centavo
 money	lv	brl	1000000	viens miljons Brazīlijas reāli un nulle centavo
@@ -7475,9 +7475,9 @@ money	lv	uzs	1001	viens tūkstotis viens Uzbekistānas sums un nulle tijinu
 money	lv	uzs	2000	divi tūkstoši Uzbekistānas sumi un nulle tijinu
 money	lv	uzs	2001	divi tūkstoši viens Uzbekistānas sums un nulle tijinu
 money	lv	uzs	5000	pieci tūkstoši Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	21000	divdesmit viens tūkstoši Uzbekistānas sumi un nulle tijinu
+money	lv	uzs	21000	divdesmit viens tūkstotis Uzbekistānas sumi un nulle tijinu
 money	lv	uzs	22000	divdesmit divi tūkstoši Uzbekistānas sumi un nulle tijinu
-money	lv	uzs	41000	četrdesmit viens tūkstoši Uzbekistānas sumi un nulle tijinu
+money	lv	uzs	41000	četrdesmit viens tūkstotis Uzbekistānas sumi un nulle tijinu
 money	lv	uzs	42000	četrdesmit divi tūkstoši Uzbekistānas sumi un nulle tijinu
 money	lv	uzs	100000	simts tūkstoši Uzbekistānas sumi un nulle tijinu
 money	lv	uzs	1000000	viens miljons Uzbekistānas sumi un nulle tijinu
@@ -7509,24 +7509,24 @@ money	lv	gbp	100	simts sterliņu mārciņas un nulle pensu
 money	lv	gbp	101	simts viena sterliņu mārciņa un nulle pensu
 money	lv	gbp	121	simts divdesmit viena sterliņu mārciņa un nulle pensu
 money	lv	gbp	999	deviņi simti deviņdesmit deviņi sterliņu mārciņas un nulle pensu
-money	lv	gbp	1000	viena tūkstotis sterliņu mārciņas un nulle pensu
-money	lv	gbp	1001	viena tūkstotis viena sterliņu mārciņa un nulle pensu
-money	lv	gbp	2000	divas tūkstoši sterliņu mārciņas un nulle pensu
-money	lv	gbp	2001	divas tūkstoši viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	1000	viens tūkstotis sterliņu mārciņas un nulle pensu
+money	lv	gbp	1001	viens tūkstotis viena sterliņu mārciņa un nulle pensu
+money	lv	gbp	2000	divi tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	2001	divi tūkstoši viena sterliņu mārciņa un nulle pensu
 money	lv	gbp	5000	pieci tūkstoši sterliņu mārciņas un nulle pensu
-money	lv	gbp	21000	divdesmit viena tūkstoši sterliņu mārciņas un nulle pensu
-money	lv	gbp	22000	divdesmit divas tūkstoši sterliņu mārciņas un nulle pensu
-money	lv	gbp	41000	četrdesmit viena tūkstoši sterliņu mārciņas un nulle pensu
-money	lv	gbp	42000	četrdesmit divas tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	21000	divdesmit viens tūkstotis sterliņu mārciņas un nulle pensu
+money	lv	gbp	22000	divdesmit divi tūkstoši sterliņu mārciņas un nulle pensu
+money	lv	gbp	41000	četrdesmit viens tūkstotis sterliņu mārciņas un nulle pensu
+money	lv	gbp	42000	četrdesmit divi tūkstoši sterliņu mārciņas un nulle pensu
 money	lv	gbp	100000	simts tūkstoši sterliņu mārciņas un nulle pensu
-money	lv	gbp	1000000	viena miljons sterliņu mārciņas un nulle pensu
-money	lv	gbp	2000000	divas miljoni sterliņu mārciņas un nulle pensu
-money	lv	gbp	1000000000	viena miljards sterliņu mārciņas un nulle pensu
+money	lv	gbp	1000000	viens miljons sterliņu mārciņas un nulle pensu
+money	lv	gbp	2000000	divi miljoni sterliņu mārciņas un nulle pensu
+money	lv	gbp	1000000000	viens miljards sterliņu mārciņas un nulle pensu
 money	lv	gbp	123.45	simts divdesmit trīs sterliņu mārciņas un četrdesmit pieci pensi
 money	lv	gbp	-1	mīnus viena sterliņu mārciņa un nulle pensu
 money	lv	gbp	-2	mīnus divas sterliņu mārciņas un nulle pensu
 money	lv	gbp	-41.5	mīnus četrdesmit viena sterliņu mārciņa un piecdesmit pensi
-money	lv	gbp	-1000	mīnus viena tūkstotis sterliņu mārciņas un nulle pensu
+money	lv	gbp	-1000	mīnus viens tūkstotis sterliņu mārciņas un nulle pensu
 money	lv	gbp	1.999	divas sterliņu mārciņas un nulle pensu
 money	lv	gbp	123.456	simts divdesmit trīs sterliņu mārciņas un četrdesmit seši pensi
 money	lv	gbp	1.005	viena sterliņu mārciņa un viens penss

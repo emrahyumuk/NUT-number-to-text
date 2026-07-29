@@ -8,7 +8,9 @@
     /// <item>"uno" was not apocopated before a noun or a scale word: "uno mil",
     /// "uno millón", "uno euro".</item>
     /// <item>Hundreds above 100 used their feminine form whenever something followed, so
-    /// 999 read as "novecientas" while 200 stayed masculine.</item>
+    /// 999 read as "novecientas" while 200 stayed masculine. Correcting that pinned them to
+    /// the masculine form instead, which is wrong the other way round in front of a
+    /// feminine currency; they agree with what they count.</item>
     /// </list>
     /// </summary>
     [TestFixture]
@@ -73,6 +75,26 @@
         public void HundredsUseTheMasculineForm(long number, string expected)
         {
             Assert.That(number.ToText(Language.Spanish), Is.EqualTo(expected));
+        }
+
+        /// <summary>
+        /// Counting something feminine, they take their feminine form. The table has carried
+        /// those forms all along and nothing read them, so every amount in the only feminine
+        /// currency Spanish has came out masculine.
+        /// </summary>
+        [TestCase(200, "doscientas libras esterlinas")]
+        [TestCase(900, "novecientas libras esterlinas")]
+        [TestCase(999, "novecientas noventa y nueve libras esterlinas")]
+        // "cien" and "ciento" do not inflect for gender.
+        [TestCase(100, "cien libras esterlinas")]
+        [TestCase(101, "ciento una libras esterlinas")]
+        // mil is an adjective and does not interrupt the agreement; millón is a noun and does.
+        [TestCase(200000, "doscientas mil libras esterlinas")]
+        [TestCase(200000000, "doscientos millones de libras esterlinas")]
+        public void HundredsAgreeWithAFeminineCurrency(decimal amount, string expected)
+        {
+            Assert.That(amount.ToText(Currency.GBP, Language.Spanish),
+                Is.EqualTo(expected + " con cero penique"));
         }
 
         /// <summary>RAE: millón is a noun and links what it counts with "de"; mil is an

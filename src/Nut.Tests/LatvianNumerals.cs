@@ -57,6 +57,26 @@ namespace Nut.Tests
             Assert.That(amount.ToText(Currency.EUR, Language.Latvian), Does.EndWith(expectedWord));
         }
 
+        /// <summary>
+        /// tūkstotis, miljons and miljards are masculine nouns, so the count in front of one
+        /// agrees with it and not with the currency, and the scale word inflects on the same
+        /// rule as everything else here — singular after a count ending in one.
+        /// </summary>
+        [TestCase(1000, "viens tūkstotis")]
+        [TestCase(2000, "divi tūkstoši")]
+        [TestCase(21000, "divdesmit viens tūkstotis")]
+        [TestCase(41000, "četrdesmit viens tūkstotis")]
+        [TestCase(11000, "vienpadsmit tūkstoši")]
+        [TestCase(1000000, "viens miljons")]
+        [TestCase(21000000, "divdesmit viens miljons")]
+        public void ScaleWordsStayMasculineAndInflect(decimal amount, string count)
+        {
+            Assert.That(amount.ToText(Currency.GBP, Language.Latvian),
+                Does.StartWith(count + " sterliņu mārciņas"));
+            Assert.That(amount.ToText(Currency.USD, Language.Latvian),
+                Does.StartWith(count + " ASV dolāri"));
+        }
+
         [Test]
         public void GeneralBehaviourApplies()
         {
