@@ -103,6 +103,10 @@ assert on that text, review the tables below before taking this release.
   separates them only from a million upwards: `ein hundert` → `einhundert`,
   `einundvierzig tausend` → `einundvierzigtausend`. Standing alone the numeral is `eins`;
   `ein` is kept before a noun.
+- **British English now says "and"**: `en-GB` was resolving to the same converter as
+  `en-US`, so it produced American wording. `101` reads as `one hundred and one` in
+  `en-GB` and `one hundred one` in `en-US`. On a cheque the written amount is the one the
+  bank honours, so the two conventions are kept apart.
 - **English** hyphenates compounds: `twenty one` → `twenty-one`. Only the tens-and-units
   pair, so `121` is `one hundred twenty-one`.
 - **French** hyphenates compounds below a hundred (`quarante-deux`), agrees multiplied

@@ -21,6 +21,9 @@ Money To Text Converter
 half away from zero — the same result `decimal.ToString("C")` gives. Set
 `Options.SubUnitTruncated` to cut the extra digits instead.
 
+**English variants:** `en-US` and `en` give American wording (`one hundred one`); `en-GB`
+gives British wording (`one hundred and one`).
+
 **Target Framework:** .NET Standard 2.0 — runs on .NET Framework 4.6.1+, .NET Core 2.0+ and .NET 5 and later.
 
 ---

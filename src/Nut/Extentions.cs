@@ -20,7 +20,7 @@ namespace Nut
             {
                 { Language.English, EnglishConverter.Instance },
                 { Culture.EnglishUS, EnglishConverter.Instance },
-                { Culture.EnglishGB, EnglishConverter.Instance },
+                { Culture.EnglishGB, EnglishConverter.BritishInstance },
                 { Language.French, FrenchConverter.Instance },
                 { Culture.French, FrenchConverter.Instance },
                 { Language.German, GermanConverter.Instance },
