@@ -14,7 +14,7 @@ version rather than a complete list.
 
 Every change below alters produced text, so this is shaping up as **4.0.0** rather than a
 minor release. Of 4536 checked conversions, **1181 change** relative to the published
-3.4.1; Turkish, Polish and Amharic are untouched.
+3.4.1. Turkish and Amharic are untouched; Polish is not, its numerals were stored capitalised.
 
 Upgrading from 3.4.1 or 3.5.0 will change the wording your application prints. If you
 assert on that text, review the tables below before taking this release.
@@ -66,7 +66,7 @@ assert on that text, review the tables below before taking this release.
   | `41000 RUB` | сорок **один** тысяча рублей | сорок **одна** тысяча рублей |
   | `1000000 UAH` in Russian | **одна** миллион гривень | **один** миллион гривень |
   | `41000 BYN` | сорак **адзін** тысяча | сорак **адна** тысяча |
-  | `1 USD` in Ukrainian | **Одна** доллар | **Один** долар |
+  | `1 USD` in Ukrainian | **Одна** доллар | **один** долар |
   | `2.02 BGN` | два лева и **два** стотинки | два лева и **две** стотинки |
 
   Gender moved onto the currency model, so the main unit and the sub unit can differ —
@@ -118,6 +118,12 @@ assert on that text, review the tables below before taking this release.
   `million`/`milliard`. Also fixes a stray trailing space that produced `cinquante -deux`.
 - **Portuguese** joins the two parts of an amount with `e` rather than `com`
   ([#27](https://github.com/emrahyumuk/NUT-number-to-text/pull/27)).
+
+- **Polish and Ukrainian no longer capitalise every numeral.** Their word tables were stored
+  capitalised, so `105.50 PLN` read `Sto Pięć złotych Pięćdziesiąt groszy` — capitals in the
+  middle of a phrase that neither language uses, and inconsistent even with itself, since
+  the scale words were lower case. It also left `MainUnitFirstCharUpper` with nothing to do
+  in those two. Both now behave like the other twelve.
 
 - **Capitalisation no longer lands on the wrong word for a negative amount.**
   `MainUnitFirstCharUpper` capitalised the main unit, which stopped being the first word

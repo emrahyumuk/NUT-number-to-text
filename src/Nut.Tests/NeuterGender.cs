@@ -22,7 +22,7 @@ namespace Nut.Tests
 
         /// <summary>песо is neuter in the East Slavic languages too.</summary>
         [TestCase(Language.Russian, "одно аргентинское песо ноль сентаво")]
-        [TestCase(Language.Ukrainian, "Одне аргентинське песо Нуль сентаво")]
+        [TestCase(Language.Ukrainian, "одне аргентинське песо нуль сентаво")]
         [TestCase(Language.Belarusian, "адно аргентынскае песа нуль сентава")]
         public void PesoIsNeuter(string lang, string expected)
         {

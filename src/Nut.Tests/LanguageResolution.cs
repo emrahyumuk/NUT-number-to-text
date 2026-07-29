@@ -20,10 +20,10 @@ namespace Nut.Tests
         [TestCase(Culture.PortugueseBR, "cento e um")]
         [TestCase(Culture.Turkish, "yüz bir")]
         [TestCase(Culture.Russian, "сто один")]
-        [TestCase(Culture.Ukrainian, "Сто Один")]
+        [TestCase(Culture.Ukrainian, "сто один")]
         [TestCase(Culture.Belarusian, "сто адзін")]
         [TestCase(Culture.Bulgarian, "сто и един")]
-        [TestCase(Culture.Polish, "Sto Jeden")]
+        [TestCase(Culture.Polish, "sto jeden")]
         [TestCase(Culture.EthiopianAM, "አንድ መቶ አንድ")]
         public void CultureCodesWorkOnTheIntOverload(string culture, string expected)
         {
