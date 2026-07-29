@@ -220,6 +220,38 @@ namespace Nut.TextConverters
                     Gender = GenderGroup.Masculine,
                     SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "пені", "пені", "пені" } }
                   };
+                case Currency.ARS:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "аргентынскае песа", "аргентынскіх песа", "аргентынскіх песа" },
+                    Gender = GenderGroup.Masculine,
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сентава", "сентава", "сентава" } }
+                  };
+                case Currency.BGN:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "леў", "левы", "леваў" },
+                    Gender = GenderGroup.Masculine,
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Feminine, Names = new[] { "стацінка", "стацінкі", "стацінак" } }
+                  };
+                case Currency.BRL:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "бразільскі рэал", "бразільскія рэалы", "бразільскіх рэалаў" },
+                    Gender = GenderGroup.Masculine,
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сентава", "сентава", "сентава" } }
+                  };
+                case Currency.UZS:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "узбекскі сум", "узбекскія сумы", "узбекскіх сумаў" },
+                    Gender = GenderGroup.Masculine,
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "тыйін", "тыйіны", "тыйінаў" } }
+                  };
                 case Currency.USD:
                     return new CurrencyModel
                     {

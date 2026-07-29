@@ -232,6 +232,30 @@ namespace Nut.TextConverters
                     Gender = GenderGroup.Feminine,
                     SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "пени", "пенита", "пенита" } }
                   };
+                case Currency.ARS:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "аржентинско песо", "аржентинско песо", "аржентинско песо" },
+                    Gender = GenderGroup.Masculine,
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сентаво", "сентаво", "сентаво" } }
+                  };
+                case Currency.BRL:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "бразилски реал", "бразилски реала", "бразилски реала" },
+                    Gender = GenderGroup.Masculine,
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "сентаво", "сентаво", "сентаво" } }
+                  };
+                case Currency.UZS:
+                  return new CurrencyModel
+                  {
+                    Currency = currency,
+                    Names = new[] { "узбекски сум", "узбекски сума", "узбекски сума" },
+                    Gender = GenderGroup.Masculine,
+                    SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "тиин", "тиина", "тиина" } }
+                  };
                 case Currency.USD:
                     return new CurrencyModel
                     {
