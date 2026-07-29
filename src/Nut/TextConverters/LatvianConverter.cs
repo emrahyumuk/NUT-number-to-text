@@ -170,6 +170,102 @@ namespace Nut.TextConverters
               Names = new[] { "penss", "pensi", "pensu" }
             }
           };
+        case Currency.ARS:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Argentīnas peso", "Argentīnas peso", "Argentīnas peso" },
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel
+            {
+              Gender = GenderGroup.Masculine,
+              Names = new[] { "centavo", "centavo", "centavo" }
+            }
+          };
+        case Currency.BGN:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Bulgārijas leva", "Bulgārijas levas", "Bulgārijas levu" },
+            Gender = GenderGroup.Feminine,
+            SubUnitCurrency = new BaseCurrencyModel
+            {
+              Gender = GenderGroup.Feminine,
+              Names = new[] { "stotinka", "stotinkas", "stotinku" }
+            }
+          };
+        case Currency.BRL:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Brazīlijas reāls", "Brazīlijas reāli", "Brazīlijas reālu" },
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel
+            {
+              Gender = GenderGroup.Masculine,
+              Names = new[] { "centavo", "centavo", "centavo" }
+            }
+          };
+        case Currency.BYN:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Baltkrievijas rublis", "Baltkrievijas rubļi", "Baltkrievijas rubļu" },
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel
+            {
+              Gender = GenderGroup.Feminine,
+              Names = new[] { "kapeika", "kapeikas", "kapeiku" }
+            }
+          };
+        case Currency.ETB:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Etiopijas birs", "Etiopijas biri", "Etiopijas biru" },
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel
+            {
+              Gender = GenderGroup.Masculine,
+              Names = new[] { "santīms", "santīmi", "santīmu" }
+            }
+          };
+        case Currency.TRY:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Turcijas lira", "Turcijas liras", "Turcijas liru" },
+            Gender = GenderGroup.Feminine,
+            SubUnitCurrency = new BaseCurrencyModel
+            {
+              Gender = GenderGroup.Masculine,
+              Names = new[] { "kuruss", "kurusi", "kurusu" }
+            }
+          };
+        case Currency.UAH:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Ukrainas grivna", "Ukrainas grivnas", "Ukrainas grivnu" },
+            Gender = GenderGroup.Feminine,
+            SubUnitCurrency = new BaseCurrencyModel
+            {
+              Gender = GenderGroup.Feminine,
+              Names = new[] { "kapeika", "kapeikas", "kapeiku" }
+            }
+          };
+        case Currency.UZS:
+          return new CurrencyModel
+          {
+            Currency = currency,
+            Names = new[] { "Uzbekistānas sums", "Uzbekistānas sumi", "Uzbekistānas sumu" },
+            Gender = GenderGroup.Masculine,
+            SubUnitCurrency = new BaseCurrencyModel
+            {
+              Gender = GenderGroup.Masculine,
+              Names = new[] { "tijins", "tijini", "tijinu" }
+            }
+          };
         case Currency.USD:
           return new CurrencyModel
           {
