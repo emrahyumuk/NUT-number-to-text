@@ -458,6 +458,45 @@ money	en	brl	-1000
 money	en	brl	1.999	
 money	en	brl	123.456	
 money	en	brl	1.005	
+money	en	uzs	0	
+money	en	uzs	0.01	
+money	en	uzs	0.02	
+money	en	uzs	1	
+money	en	uzs	1.01	
+money	en	uzs	1.02	
+money	en	uzs	2	
+money	en	uzs	2.02	
+money	en	uzs	3	
+money	en	uzs	5	
+money	en	uzs	11	
+money	en	uzs	21	
+money	en	uzs	22	
+money	en	uzs	42	
+money	en	uzs	100	
+money	en	uzs	101	
+money	en	uzs	121	
+money	en	uzs	999	
+money	en	uzs	1000	
+money	en	uzs	1001	
+money	en	uzs	2000	
+money	en	uzs	2001	
+money	en	uzs	5000	
+money	en	uzs	21000	
+money	en	uzs	22000	
+money	en	uzs	41000	
+money	en	uzs	42000	
+money	en	uzs	100000	
+money	en	uzs	1000000	
+money	en	uzs	2000000	
+money	en	uzs	1000000000	
+money	en	uzs	123.45	
+money	en	uzs	-1	
+money	en	uzs	-2	
+money	en	uzs	-41.5	
+money	en	uzs	-1000	
+money	en	uzs	1.999	
+money	en	uzs	123.456	
+money	en	uzs	1.005	
 plain	fr	0	zéro
 plain	fr	1	un
 plain	fr	2	deux
@@ -918,6 +957,45 @@ money	fr	brl	-1000
 money	fr	brl	1.999	
 money	fr	brl	123.456	
 money	fr	brl	1.005	
+money	fr	uzs	0	
+money	fr	uzs	0.01	
+money	fr	uzs	0.02	
+money	fr	uzs	1	
+money	fr	uzs	1.01	
+money	fr	uzs	1.02	
+money	fr	uzs	2	
+money	fr	uzs	2.02	
+money	fr	uzs	3	
+money	fr	uzs	5	
+money	fr	uzs	11	
+money	fr	uzs	21	
+money	fr	uzs	22	
+money	fr	uzs	42	
+money	fr	uzs	100	
+money	fr	uzs	101	
+money	fr	uzs	121	
+money	fr	uzs	999	
+money	fr	uzs	1000	
+money	fr	uzs	1001	
+money	fr	uzs	2000	
+money	fr	uzs	2001	
+money	fr	uzs	5000	
+money	fr	uzs	21000	
+money	fr	uzs	22000	
+money	fr	uzs	41000	
+money	fr	uzs	42000	
+money	fr	uzs	100000	
+money	fr	uzs	1000000	
+money	fr	uzs	2000000	
+money	fr	uzs	1000000000	
+money	fr	uzs	123.45	
+money	fr	uzs	-1	
+money	fr	uzs	-2	
+money	fr	uzs	-41.5	
+money	fr	uzs	-1000	
+money	fr	uzs	1.999	
+money	fr	uzs	123.456	
+money	fr	uzs	1.005	
 plain	de	0	null
 plain	de	1	eins
 plain	de	2	zwei
@@ -1378,6 +1456,45 @@ money	de	brl	-1000
 money	de	brl	1.999	
 money	de	brl	123.456	
 money	de	brl	1.005	
+money	de	uzs	0	
+money	de	uzs	0.01	
+money	de	uzs	0.02	
+money	de	uzs	1	
+money	de	uzs	1.01	
+money	de	uzs	1.02	
+money	de	uzs	2	
+money	de	uzs	2.02	
+money	de	uzs	3	
+money	de	uzs	5	
+money	de	uzs	11	
+money	de	uzs	21	
+money	de	uzs	22	
+money	de	uzs	42	
+money	de	uzs	100	
+money	de	uzs	101	
+money	de	uzs	121	
+money	de	uzs	999	
+money	de	uzs	1000	
+money	de	uzs	1001	
+money	de	uzs	2000	
+money	de	uzs	2001	
+money	de	uzs	5000	
+money	de	uzs	21000	
+money	de	uzs	22000	
+money	de	uzs	41000	
+money	de	uzs	42000	
+money	de	uzs	100000	
+money	de	uzs	1000000	
+money	de	uzs	2000000	
+money	de	uzs	1000000000	
+money	de	uzs	123.45	
+money	de	uzs	-1	
+money	de	uzs	-2	
+money	de	uzs	-41.5	
+money	de	uzs	-1000	
+money	de	uzs	1.999	
+money	de	uzs	123.456	
+money	de	uzs	1.005	
 plain	es	0	cero
 plain	es	1	uno
 plain	es	2	dos
@@ -1838,6 +1955,45 @@ money	es	brl	-1000
 money	es	brl	1.999	
 money	es	brl	123.456	
 money	es	brl	1.005	
+money	es	uzs	0	
+money	es	uzs	0.01	
+money	es	uzs	0.02	
+money	es	uzs	1	
+money	es	uzs	1.01	
+money	es	uzs	1.02	
+money	es	uzs	2	
+money	es	uzs	2.02	
+money	es	uzs	3	
+money	es	uzs	5	
+money	es	uzs	11	
+money	es	uzs	21	
+money	es	uzs	22	
+money	es	uzs	42	
+money	es	uzs	100	
+money	es	uzs	101	
+money	es	uzs	121	
+money	es	uzs	999	
+money	es	uzs	1000	
+money	es	uzs	1001	
+money	es	uzs	2000	
+money	es	uzs	2001	
+money	es	uzs	5000	
+money	es	uzs	21000	
+money	es	uzs	22000	
+money	es	uzs	41000	
+money	es	uzs	42000	
+money	es	uzs	100000	
+money	es	uzs	1000000	
+money	es	uzs	2000000	
+money	es	uzs	1000000000	
+money	es	uzs	123.45	
+money	es	uzs	-1	
+money	es	uzs	-2	
+money	es	uzs	-41.5	
+money	es	uzs	-1000	
+money	es	uzs	1.999	
+money	es	uzs	123.456	
+money	es	uzs	1.005	
 plain	pt	0	zero
 plain	pt	1	um
 plain	pt	2	dois
@@ -2298,6 +2454,45 @@ money	pt	brl	-1000	menos um mil reais e zero centavo
 money	pt	brl	1.999	dois reais e zero centavo
 money	pt	brl	123.456	cento e vinte e três reais e quarenta e seis centavos
 money	pt	brl	1.005	um real e um centavo
+money	pt	uzs	0	
+money	pt	uzs	0.01	
+money	pt	uzs	0.02	
+money	pt	uzs	1	
+money	pt	uzs	1.01	
+money	pt	uzs	1.02	
+money	pt	uzs	2	
+money	pt	uzs	2.02	
+money	pt	uzs	3	
+money	pt	uzs	5	
+money	pt	uzs	11	
+money	pt	uzs	21	
+money	pt	uzs	22	
+money	pt	uzs	42	
+money	pt	uzs	100	
+money	pt	uzs	101	
+money	pt	uzs	121	
+money	pt	uzs	999	
+money	pt	uzs	1000	
+money	pt	uzs	1001	
+money	pt	uzs	2000	
+money	pt	uzs	2001	
+money	pt	uzs	5000	
+money	pt	uzs	21000	
+money	pt	uzs	22000	
+money	pt	uzs	41000	
+money	pt	uzs	42000	
+money	pt	uzs	100000	
+money	pt	uzs	1000000	
+money	pt	uzs	2000000	
+money	pt	uzs	1000000000	
+money	pt	uzs	123.45	
+money	pt	uzs	-1	
+money	pt	uzs	-2	
+money	pt	uzs	-41.5	
+money	pt	uzs	-1000	
+money	pt	uzs	1.999	
+money	pt	uzs	123.456	
+money	pt	uzs	1.005	
 plain	tr	0	sıfır
 plain	tr	1	bir
 plain	tr	2	iki
@@ -2758,6 +2953,45 @@ money	tr	brl	-1000
 money	tr	brl	1.999	
 money	tr	brl	123.456	
 money	tr	brl	1.005	
+money	tr	uzs	0	
+money	tr	uzs	0.01	
+money	tr	uzs	0.02	
+money	tr	uzs	1	
+money	tr	uzs	1.01	
+money	tr	uzs	1.02	
+money	tr	uzs	2	
+money	tr	uzs	2.02	
+money	tr	uzs	3	
+money	tr	uzs	5	
+money	tr	uzs	11	
+money	tr	uzs	21	
+money	tr	uzs	22	
+money	tr	uzs	42	
+money	tr	uzs	100	
+money	tr	uzs	101	
+money	tr	uzs	121	
+money	tr	uzs	999	
+money	tr	uzs	1000	
+money	tr	uzs	1001	
+money	tr	uzs	2000	
+money	tr	uzs	2001	
+money	tr	uzs	5000	
+money	tr	uzs	21000	
+money	tr	uzs	22000	
+money	tr	uzs	41000	
+money	tr	uzs	42000	
+money	tr	uzs	100000	
+money	tr	uzs	1000000	
+money	tr	uzs	2000000	
+money	tr	uzs	1000000000	
+money	tr	uzs	123.45	
+money	tr	uzs	-1	
+money	tr	uzs	-2	
+money	tr	uzs	-41.5	
+money	tr	uzs	-1000	
+money	tr	uzs	1.999	
+money	tr	uzs	123.456	
+money	tr	uzs	1.005	
 plain	ru	0	ноль
 plain	ru	1	один
 plain	ru	2	два
@@ -3218,6 +3452,45 @@ money	ru	brl	-1000
 money	ru	brl	1.999	
 money	ru	brl	123.456	
 money	ru	brl	1.005	
+money	ru	uzs	0	
+money	ru	uzs	0.01	
+money	ru	uzs	0.02	
+money	ru	uzs	1	
+money	ru	uzs	1.01	
+money	ru	uzs	1.02	
+money	ru	uzs	2	
+money	ru	uzs	2.02	
+money	ru	uzs	3	
+money	ru	uzs	5	
+money	ru	uzs	11	
+money	ru	uzs	21	
+money	ru	uzs	22	
+money	ru	uzs	42	
+money	ru	uzs	100	
+money	ru	uzs	101	
+money	ru	uzs	121	
+money	ru	uzs	999	
+money	ru	uzs	1000	
+money	ru	uzs	1001	
+money	ru	uzs	2000	
+money	ru	uzs	2001	
+money	ru	uzs	5000	
+money	ru	uzs	21000	
+money	ru	uzs	22000	
+money	ru	uzs	41000	
+money	ru	uzs	42000	
+money	ru	uzs	100000	
+money	ru	uzs	1000000	
+money	ru	uzs	2000000	
+money	ru	uzs	1000000000	
+money	ru	uzs	123.45	
+money	ru	uzs	-1	
+money	ru	uzs	-2	
+money	ru	uzs	-41.5	
+money	ru	uzs	-1000	
+money	ru	uzs	1.999	
+money	ru	uzs	123.456	
+money	ru	uzs	1.005	
 plain	ua	0	Нуль
 plain	ua	1	Один
 plain	ua	2	Два
@@ -3678,6 +3951,45 @@ money	ua	brl	-1000
 money	ua	brl	1.999	
 money	ua	brl	123.456	
 money	ua	brl	1.005	
+money	ua	uzs	0	
+money	ua	uzs	0.01	
+money	ua	uzs	0.02	
+money	ua	uzs	1	
+money	ua	uzs	1.01	
+money	ua	uzs	1.02	
+money	ua	uzs	2	
+money	ua	uzs	2.02	
+money	ua	uzs	3	
+money	ua	uzs	5	
+money	ua	uzs	11	
+money	ua	uzs	21	
+money	ua	uzs	22	
+money	ua	uzs	42	
+money	ua	uzs	100	
+money	ua	uzs	101	
+money	ua	uzs	121	
+money	ua	uzs	999	
+money	ua	uzs	1000	
+money	ua	uzs	1001	
+money	ua	uzs	2000	
+money	ua	uzs	2001	
+money	ua	uzs	5000	
+money	ua	uzs	21000	
+money	ua	uzs	22000	
+money	ua	uzs	41000	
+money	ua	uzs	42000	
+money	ua	uzs	100000	
+money	ua	uzs	1000000	
+money	ua	uzs	2000000	
+money	ua	uzs	1000000000	
+money	ua	uzs	123.45	
+money	ua	uzs	-1	
+money	ua	uzs	-2	
+money	ua	uzs	-41.5	
+money	ua	uzs	-1000	
+money	ua	uzs	1.999	
+money	ua	uzs	123.456	
+money	ua	uzs	1.005	
 plain	by	0	нуль
 plain	by	1	адзін
 plain	by	2	два
@@ -4138,6 +4450,45 @@ money	by	brl	-1000
 money	by	brl	1.999	
 money	by	brl	123.456	
 money	by	brl	1.005	
+money	by	uzs	0	
+money	by	uzs	0.01	
+money	by	uzs	0.02	
+money	by	uzs	1	
+money	by	uzs	1.01	
+money	by	uzs	1.02	
+money	by	uzs	2	
+money	by	uzs	2.02	
+money	by	uzs	3	
+money	by	uzs	5	
+money	by	uzs	11	
+money	by	uzs	21	
+money	by	uzs	22	
+money	by	uzs	42	
+money	by	uzs	100	
+money	by	uzs	101	
+money	by	uzs	121	
+money	by	uzs	999	
+money	by	uzs	1000	
+money	by	uzs	1001	
+money	by	uzs	2000	
+money	by	uzs	2001	
+money	by	uzs	5000	
+money	by	uzs	21000	
+money	by	uzs	22000	
+money	by	uzs	41000	
+money	by	uzs	42000	
+money	by	uzs	100000	
+money	by	uzs	1000000	
+money	by	uzs	2000000	
+money	by	uzs	1000000000	
+money	by	uzs	123.45	
+money	by	uzs	-1	
+money	by	uzs	-2	
+money	by	uzs	-41.5	
+money	by	uzs	-1000	
+money	by	uzs	1.999	
+money	by	uzs	123.456	
+money	by	uzs	1.005	
 plain	bg	0	нула
 plain	bg	1	един
 plain	bg	2	два
@@ -4598,6 +4949,45 @@ money	bg	brl	-1000
 money	bg	brl	1.999	
 money	bg	brl	123.456	
 money	bg	brl	1.005	
+money	bg	uzs	0	
+money	bg	uzs	0.01	
+money	bg	uzs	0.02	
+money	bg	uzs	1	
+money	bg	uzs	1.01	
+money	bg	uzs	1.02	
+money	bg	uzs	2	
+money	bg	uzs	2.02	
+money	bg	uzs	3	
+money	bg	uzs	5	
+money	bg	uzs	11	
+money	bg	uzs	21	
+money	bg	uzs	22	
+money	bg	uzs	42	
+money	bg	uzs	100	
+money	bg	uzs	101	
+money	bg	uzs	121	
+money	bg	uzs	999	
+money	bg	uzs	1000	
+money	bg	uzs	1001	
+money	bg	uzs	2000	
+money	bg	uzs	2001	
+money	bg	uzs	5000	
+money	bg	uzs	21000	
+money	bg	uzs	22000	
+money	bg	uzs	41000	
+money	bg	uzs	42000	
+money	bg	uzs	100000	
+money	bg	uzs	1000000	
+money	bg	uzs	2000000	
+money	bg	uzs	1000000000	
+money	bg	uzs	123.45	
+money	bg	uzs	-1	
+money	bg	uzs	-2	
+money	bg	uzs	-41.5	
+money	bg	uzs	-1000	
+money	bg	uzs	1.999	
+money	bg	uzs	123.456	
+money	bg	uzs	1.005	
 plain	pl	0	Zero
 plain	pl	1	Jeden
 plain	pl	2	Dwa
@@ -5058,6 +5448,45 @@ money	pl	brl	-1000
 money	pl	brl	1.999	
 money	pl	brl	123.456	
 money	pl	brl	1.005	
+money	pl	uzs	0	
+money	pl	uzs	0.01	
+money	pl	uzs	0.02	
+money	pl	uzs	1	
+money	pl	uzs	1.01	
+money	pl	uzs	1.02	
+money	pl	uzs	2	
+money	pl	uzs	2.02	
+money	pl	uzs	3	
+money	pl	uzs	5	
+money	pl	uzs	11	
+money	pl	uzs	21	
+money	pl	uzs	22	
+money	pl	uzs	42	
+money	pl	uzs	100	
+money	pl	uzs	101	
+money	pl	uzs	121	
+money	pl	uzs	999	
+money	pl	uzs	1000	
+money	pl	uzs	1001	
+money	pl	uzs	2000	
+money	pl	uzs	2001	
+money	pl	uzs	5000	
+money	pl	uzs	21000	
+money	pl	uzs	22000	
+money	pl	uzs	41000	
+money	pl	uzs	42000	
+money	pl	uzs	100000	
+money	pl	uzs	1000000	
+money	pl	uzs	2000000	
+money	pl	uzs	1000000000	
+money	pl	uzs	123.45	
+money	pl	uzs	-1	
+money	pl	uzs	-2	
+money	pl	uzs	-41.5	
+money	pl	uzs	-1000	
+money	pl	uzs	1.999	
+money	pl	uzs	123.456	
+money	pl	uzs	1.005	
 plain	am	0	ዜሮ
 plain	am	1	አንድ
 plain	am	2	ሁለት
@@ -5518,3 +5947,541 @@ money	am	brl	-1000
 money	am	brl	1.999	
 money	am	brl	123.456	
 money	am	brl	1.005	
+money	am	uzs	0	
+money	am	uzs	0.01	
+money	am	uzs	0.02	
+money	am	uzs	1	
+money	am	uzs	1.01	
+money	am	uzs	1.02	
+money	am	uzs	2	
+money	am	uzs	2.02	
+money	am	uzs	3	
+money	am	uzs	5	
+money	am	uzs	11	
+money	am	uzs	21	
+money	am	uzs	22	
+money	am	uzs	42	
+money	am	uzs	100	
+money	am	uzs	101	
+money	am	uzs	121	
+money	am	uzs	999	
+money	am	uzs	1000	
+money	am	uzs	1001	
+money	am	uzs	2000	
+money	am	uzs	2001	
+money	am	uzs	5000	
+money	am	uzs	21000	
+money	am	uzs	22000	
+money	am	uzs	41000	
+money	am	uzs	42000	
+money	am	uzs	100000	
+money	am	uzs	1000000	
+money	am	uzs	2000000	
+money	am	uzs	1000000000	
+money	am	uzs	123.45	
+money	am	uzs	-1	
+money	am	uzs	-2	
+money	am	uzs	-41.5	
+money	am	uzs	-1000	
+money	am	uzs	1.999	
+money	am	uzs	123.456	
+money	am	uzs	1.005	
+plain	uz	0	nol
+plain	uz	1	bir
+plain	uz	2	ikki
+plain	uz	3	uch
+plain	uz	5	besh
+plain	uz	11	o'n bir
+plain	uz	15	o'n besh
+plain	uz	20	yigirma
+plain	uz	21	yigirma bir
+plain	uz	22	yigirma ikki
+plain	uz	42	qirq ikki
+plain	uz	100	yuz
+plain	uz	101	yuz bir
+plain	uz	121	yuz yigirma bir
+plain	uz	200	ikki yuz
+plain	uz	999	to'qqiz yuz to'qson to'qqiz
+plain	uz	1000	ming
+plain	uz	1001	ming bir
+plain	uz	2000	ikki ming
+plain	uz	5000	besh ming
+plain	uz	21000	yigirma bir ming
+plain	uz	41000	qirq bir ming
+plain	uz	100000	yuz ming
+plain	uz	1000000	bir million
+plain	uz	2000000	ikki million
+plain	uz	999999999	to'qqiz yuz to'qson to'qqiz million to'qqiz yuz to'qson to'qqiz ming to'qqiz yuz to'qson to'qqiz
+plain	uz	-1	minus bir
+plain	uz	-2	minus ikki
+plain	uz	-41	minus qirq bir
+plain	uz	-1000	minus ming
+plain	uz	-1000000	minus bir million
+money	uz	eur	0	nol yevro nol sent
+money	uz	eur	0.01	nol yevro bir sent
+money	uz	eur	0.02	nol yevro ikki sent
+money	uz	eur	1	bir yevro nol sent
+money	uz	eur	1.01	bir yevro bir sent
+money	uz	eur	1.02	bir yevro ikki sent
+money	uz	eur	2	ikki yevro nol sent
+money	uz	eur	2.02	ikki yevro ikki sent
+money	uz	eur	3	uch yevro nol sent
+money	uz	eur	5	besh yevro nol sent
+money	uz	eur	11	o'n bir yevro nol sent
+money	uz	eur	21	yigirma bir yevro nol sent
+money	uz	eur	22	yigirma ikki yevro nol sent
+money	uz	eur	42	qirq ikki yevro nol sent
+money	uz	eur	100	yuz yevro nol sent
+money	uz	eur	101	yuz bir yevro nol sent
+money	uz	eur	121	yuz yigirma bir yevro nol sent
+money	uz	eur	999	to'qqiz yuz to'qson to'qqiz yevro nol sent
+money	uz	eur	1000	ming yevro nol sent
+money	uz	eur	1001	ming bir yevro nol sent
+money	uz	eur	2000	ikki ming yevro nol sent
+money	uz	eur	2001	ikki ming bir yevro nol sent
+money	uz	eur	5000	besh ming yevro nol sent
+money	uz	eur	21000	yigirma bir ming yevro nol sent
+money	uz	eur	22000	yigirma ikki ming yevro nol sent
+money	uz	eur	41000	qirq bir ming yevro nol sent
+money	uz	eur	42000	qirq ikki ming yevro nol sent
+money	uz	eur	100000	yuz ming yevro nol sent
+money	uz	eur	1000000	bir million yevro nol sent
+money	uz	eur	2000000	ikki million yevro nol sent
+money	uz	eur	1000000000	bir milliard yevro nol sent
+money	uz	eur	123.45	yuz yigirma uch yevro qirq besh sent
+money	uz	eur	-1	minus bir yevro nol sent
+money	uz	eur	-2	minus ikki yevro nol sent
+money	uz	eur	-41.5	minus qirq bir yevro ellik sent
+money	uz	eur	-1000	minus ming yevro nol sent
+money	uz	eur	1.999	ikki yevro nol sent
+money	uz	eur	123.456	yuz yigirma uch yevro qirq olti sent
+money	uz	eur	1.005	bir yevro bir sent
+money	uz	usd	0	nol dollar nol sent
+money	uz	usd	0.01	nol dollar bir sent
+money	uz	usd	0.02	nol dollar ikki sent
+money	uz	usd	1	bir dollar nol sent
+money	uz	usd	1.01	bir dollar bir sent
+money	uz	usd	1.02	bir dollar ikki sent
+money	uz	usd	2	ikki dollar nol sent
+money	uz	usd	2.02	ikki dollar ikki sent
+money	uz	usd	3	uch dollar nol sent
+money	uz	usd	5	besh dollar nol sent
+money	uz	usd	11	o'n bir dollar nol sent
+money	uz	usd	21	yigirma bir dollar nol sent
+money	uz	usd	22	yigirma ikki dollar nol sent
+money	uz	usd	42	qirq ikki dollar nol sent
+money	uz	usd	100	yuz dollar nol sent
+money	uz	usd	101	yuz bir dollar nol sent
+money	uz	usd	121	yuz yigirma bir dollar nol sent
+money	uz	usd	999	to'qqiz yuz to'qson to'qqiz dollar nol sent
+money	uz	usd	1000	ming dollar nol sent
+money	uz	usd	1001	ming bir dollar nol sent
+money	uz	usd	2000	ikki ming dollar nol sent
+money	uz	usd	2001	ikki ming bir dollar nol sent
+money	uz	usd	5000	besh ming dollar nol sent
+money	uz	usd	21000	yigirma bir ming dollar nol sent
+money	uz	usd	22000	yigirma ikki ming dollar nol sent
+money	uz	usd	41000	qirq bir ming dollar nol sent
+money	uz	usd	42000	qirq ikki ming dollar nol sent
+money	uz	usd	100000	yuz ming dollar nol sent
+money	uz	usd	1000000	bir million dollar nol sent
+money	uz	usd	2000000	ikki million dollar nol sent
+money	uz	usd	1000000000	bir milliard dollar nol sent
+money	uz	usd	123.45	yuz yigirma uch dollar qirq besh sent
+money	uz	usd	-1	minus bir dollar nol sent
+money	uz	usd	-2	minus ikki dollar nol sent
+money	uz	usd	-41.5	minus qirq bir dollar ellik sent
+money	uz	usd	-1000	minus ming dollar nol sent
+money	uz	usd	1.999	ikki dollar nol sent
+money	uz	usd	123.456	yuz yigirma uch dollar qirq olti sent
+money	uz	usd	1.005	bir dollar bir sent
+money	uz	rub	0	nol rubl nol tiyin
+money	uz	rub	0.01	nol rubl bir tiyin
+money	uz	rub	0.02	nol rubl ikki tiyin
+money	uz	rub	1	bir rubl nol tiyin
+money	uz	rub	1.01	bir rubl bir tiyin
+money	uz	rub	1.02	bir rubl ikki tiyin
+money	uz	rub	2	ikki rubl nol tiyin
+money	uz	rub	2.02	ikki rubl ikki tiyin
+money	uz	rub	3	uch rubl nol tiyin
+money	uz	rub	5	besh rubl nol tiyin
+money	uz	rub	11	o'n bir rubl nol tiyin
+money	uz	rub	21	yigirma bir rubl nol tiyin
+money	uz	rub	22	yigirma ikki rubl nol tiyin
+money	uz	rub	42	qirq ikki rubl nol tiyin
+money	uz	rub	100	yuz rubl nol tiyin
+money	uz	rub	101	yuz bir rubl nol tiyin
+money	uz	rub	121	yuz yigirma bir rubl nol tiyin
+money	uz	rub	999	to'qqiz yuz to'qson to'qqiz rubl nol tiyin
+money	uz	rub	1000	ming rubl nol tiyin
+money	uz	rub	1001	ming bir rubl nol tiyin
+money	uz	rub	2000	ikki ming rubl nol tiyin
+money	uz	rub	2001	ikki ming bir rubl nol tiyin
+money	uz	rub	5000	besh ming rubl nol tiyin
+money	uz	rub	21000	yigirma bir ming rubl nol tiyin
+money	uz	rub	22000	yigirma ikki ming rubl nol tiyin
+money	uz	rub	41000	qirq bir ming rubl nol tiyin
+money	uz	rub	42000	qirq ikki ming rubl nol tiyin
+money	uz	rub	100000	yuz ming rubl nol tiyin
+money	uz	rub	1000000	bir million rubl nol tiyin
+money	uz	rub	2000000	ikki million rubl nol tiyin
+money	uz	rub	1000000000	bir milliard rubl nol tiyin
+money	uz	rub	123.45	yuz yigirma uch rubl qirq besh tiyin
+money	uz	rub	-1	minus bir rubl nol tiyin
+money	uz	rub	-2	minus ikki rubl nol tiyin
+money	uz	rub	-41.5	minus qirq bir rubl ellik tiyin
+money	uz	rub	-1000	minus ming rubl nol tiyin
+money	uz	rub	1.999	ikki rubl nol tiyin
+money	uz	rub	123.456	yuz yigirma uch rubl qirq olti tiyin
+money	uz	rub	1.005	bir rubl bir tiyin
+money	uz	try	0	nol turk lirasi nol tiyin
+money	uz	try	0.01	nol turk lirasi bir tiyin
+money	uz	try	0.02	nol turk lirasi ikki tiyin
+money	uz	try	1	bir turk lirasi nol tiyin
+money	uz	try	1.01	bir turk lirasi bir tiyin
+money	uz	try	1.02	bir turk lirasi ikki tiyin
+money	uz	try	2	ikki turk lirasi nol tiyin
+money	uz	try	2.02	ikki turk lirasi ikki tiyin
+money	uz	try	3	uch turk lirasi nol tiyin
+money	uz	try	5	besh turk lirasi nol tiyin
+money	uz	try	11	o'n bir turk lirasi nol tiyin
+money	uz	try	21	yigirma bir turk lirasi nol tiyin
+money	uz	try	22	yigirma ikki turk lirasi nol tiyin
+money	uz	try	42	qirq ikki turk lirasi nol tiyin
+money	uz	try	100	yuz turk lirasi nol tiyin
+money	uz	try	101	yuz bir turk lirasi nol tiyin
+money	uz	try	121	yuz yigirma bir turk lirasi nol tiyin
+money	uz	try	999	to'qqiz yuz to'qson to'qqiz turk lirasi nol tiyin
+money	uz	try	1000	ming turk lirasi nol tiyin
+money	uz	try	1001	ming bir turk lirasi nol tiyin
+money	uz	try	2000	ikki ming turk lirasi nol tiyin
+money	uz	try	2001	ikki ming bir turk lirasi nol tiyin
+money	uz	try	5000	besh ming turk lirasi nol tiyin
+money	uz	try	21000	yigirma bir ming turk lirasi nol tiyin
+money	uz	try	22000	yigirma ikki ming turk lirasi nol tiyin
+money	uz	try	41000	qirq bir ming turk lirasi nol tiyin
+money	uz	try	42000	qirq ikki ming turk lirasi nol tiyin
+money	uz	try	100000	yuz ming turk lirasi nol tiyin
+money	uz	try	1000000	bir million turk lirasi nol tiyin
+money	uz	try	2000000	ikki million turk lirasi nol tiyin
+money	uz	try	1000000000	bir milliard turk lirasi nol tiyin
+money	uz	try	123.45	yuz yigirma uch turk lirasi qirq besh tiyin
+money	uz	try	-1	minus bir turk lirasi nol tiyin
+money	uz	try	-2	minus ikki turk lirasi nol tiyin
+money	uz	try	-41.5	minus qirq bir turk lirasi ellik tiyin
+money	uz	try	-1000	minus ming turk lirasi nol tiyin
+money	uz	try	1.999	ikki turk lirasi nol tiyin
+money	uz	try	123.456	yuz yigirma uch turk lirasi qirq olti tiyin
+money	uz	try	1.005	bir turk lirasi bir tiyin
+money	uz	uah	0	
+money	uz	uah	0.01	
+money	uz	uah	0.02	
+money	uz	uah	1	
+money	uz	uah	1.01	
+money	uz	uah	1.02	
+money	uz	uah	2	
+money	uz	uah	2.02	
+money	uz	uah	3	
+money	uz	uah	5	
+money	uz	uah	11	
+money	uz	uah	21	
+money	uz	uah	22	
+money	uz	uah	42	
+money	uz	uah	100	
+money	uz	uah	101	
+money	uz	uah	121	
+money	uz	uah	999	
+money	uz	uah	1000	
+money	uz	uah	1001	
+money	uz	uah	2000	
+money	uz	uah	2001	
+money	uz	uah	5000	
+money	uz	uah	21000	
+money	uz	uah	22000	
+money	uz	uah	41000	
+money	uz	uah	42000	
+money	uz	uah	100000	
+money	uz	uah	1000000	
+money	uz	uah	2000000	
+money	uz	uah	1000000000	
+money	uz	uah	123.45	
+money	uz	uah	-1	
+money	uz	uah	-2	
+money	uz	uah	-41.5	
+money	uz	uah	-1000	
+money	uz	uah	1.999	
+money	uz	uah	123.456	
+money	uz	uah	1.005	
+money	uz	bgn	0	
+money	uz	bgn	0.01	
+money	uz	bgn	0.02	
+money	uz	bgn	1	
+money	uz	bgn	1.01	
+money	uz	bgn	1.02	
+money	uz	bgn	2	
+money	uz	bgn	2.02	
+money	uz	bgn	3	
+money	uz	bgn	5	
+money	uz	bgn	11	
+money	uz	bgn	21	
+money	uz	bgn	22	
+money	uz	bgn	42	
+money	uz	bgn	100	
+money	uz	bgn	101	
+money	uz	bgn	121	
+money	uz	bgn	999	
+money	uz	bgn	1000	
+money	uz	bgn	1001	
+money	uz	bgn	2000	
+money	uz	bgn	2001	
+money	uz	bgn	5000	
+money	uz	bgn	21000	
+money	uz	bgn	22000	
+money	uz	bgn	41000	
+money	uz	bgn	42000	
+money	uz	bgn	100000	
+money	uz	bgn	1000000	
+money	uz	bgn	2000000	
+money	uz	bgn	1000000000	
+money	uz	bgn	123.45	
+money	uz	bgn	-1	
+money	uz	bgn	-2	
+money	uz	bgn	-41.5	
+money	uz	bgn	-1000	
+money	uz	bgn	1.999	
+money	uz	bgn	123.456	
+money	uz	bgn	1.005	
+money	uz	etb	0	
+money	uz	etb	0.01	
+money	uz	etb	0.02	
+money	uz	etb	1	
+money	uz	etb	1.01	
+money	uz	etb	1.02	
+money	uz	etb	2	
+money	uz	etb	2.02	
+money	uz	etb	3	
+money	uz	etb	5	
+money	uz	etb	11	
+money	uz	etb	21	
+money	uz	etb	22	
+money	uz	etb	42	
+money	uz	etb	100	
+money	uz	etb	101	
+money	uz	etb	121	
+money	uz	etb	999	
+money	uz	etb	1000	
+money	uz	etb	1001	
+money	uz	etb	2000	
+money	uz	etb	2001	
+money	uz	etb	5000	
+money	uz	etb	21000	
+money	uz	etb	22000	
+money	uz	etb	41000	
+money	uz	etb	42000	
+money	uz	etb	100000	
+money	uz	etb	1000000	
+money	uz	etb	2000000	
+money	uz	etb	1000000000	
+money	uz	etb	123.45	
+money	uz	etb	-1	
+money	uz	etb	-2	
+money	uz	etb	-41.5	
+money	uz	etb	-1000	
+money	uz	etb	1.999	
+money	uz	etb	123.456	
+money	uz	etb	1.005	
+money	uz	pln	0	
+money	uz	pln	0.01	
+money	uz	pln	0.02	
+money	uz	pln	1	
+money	uz	pln	1.01	
+money	uz	pln	1.02	
+money	uz	pln	2	
+money	uz	pln	2.02	
+money	uz	pln	3	
+money	uz	pln	5	
+money	uz	pln	11	
+money	uz	pln	21	
+money	uz	pln	22	
+money	uz	pln	42	
+money	uz	pln	100	
+money	uz	pln	101	
+money	uz	pln	121	
+money	uz	pln	999	
+money	uz	pln	1000	
+money	uz	pln	1001	
+money	uz	pln	2000	
+money	uz	pln	2001	
+money	uz	pln	5000	
+money	uz	pln	21000	
+money	uz	pln	22000	
+money	uz	pln	41000	
+money	uz	pln	42000	
+money	uz	pln	100000	
+money	uz	pln	1000000	
+money	uz	pln	2000000	
+money	uz	pln	1000000000	
+money	uz	pln	123.45	
+money	uz	pln	-1	
+money	uz	pln	-2	
+money	uz	pln	-41.5	
+money	uz	pln	-1000	
+money	uz	pln	1.999	
+money	uz	pln	123.456	
+money	uz	pln	1.005	
+money	uz	byn	0	
+money	uz	byn	0.01	
+money	uz	byn	0.02	
+money	uz	byn	1	
+money	uz	byn	1.01	
+money	uz	byn	1.02	
+money	uz	byn	2	
+money	uz	byn	2.02	
+money	uz	byn	3	
+money	uz	byn	5	
+money	uz	byn	11	
+money	uz	byn	21	
+money	uz	byn	22	
+money	uz	byn	42	
+money	uz	byn	100	
+money	uz	byn	101	
+money	uz	byn	121	
+money	uz	byn	999	
+money	uz	byn	1000	
+money	uz	byn	1001	
+money	uz	byn	2000	
+money	uz	byn	2001	
+money	uz	byn	5000	
+money	uz	byn	21000	
+money	uz	byn	22000	
+money	uz	byn	41000	
+money	uz	byn	42000	
+money	uz	byn	100000	
+money	uz	byn	1000000	
+money	uz	byn	2000000	
+money	uz	byn	1000000000	
+money	uz	byn	123.45	
+money	uz	byn	-1	
+money	uz	byn	-2	
+money	uz	byn	-41.5	
+money	uz	byn	-1000	
+money	uz	byn	1.999	
+money	uz	byn	123.456	
+money	uz	byn	1.005	
+money	uz	ars	0	
+money	uz	ars	0.01	
+money	uz	ars	0.02	
+money	uz	ars	1	
+money	uz	ars	1.01	
+money	uz	ars	1.02	
+money	uz	ars	2	
+money	uz	ars	2.02	
+money	uz	ars	3	
+money	uz	ars	5	
+money	uz	ars	11	
+money	uz	ars	21	
+money	uz	ars	22	
+money	uz	ars	42	
+money	uz	ars	100	
+money	uz	ars	101	
+money	uz	ars	121	
+money	uz	ars	999	
+money	uz	ars	1000	
+money	uz	ars	1001	
+money	uz	ars	2000	
+money	uz	ars	2001	
+money	uz	ars	5000	
+money	uz	ars	21000	
+money	uz	ars	22000	
+money	uz	ars	41000	
+money	uz	ars	42000	
+money	uz	ars	100000	
+money	uz	ars	1000000	
+money	uz	ars	2000000	
+money	uz	ars	1000000000	
+money	uz	ars	123.45	
+money	uz	ars	-1	
+money	uz	ars	-2	
+money	uz	ars	-41.5	
+money	uz	ars	-1000	
+money	uz	ars	1.999	
+money	uz	ars	123.456	
+money	uz	ars	1.005	
+money	uz	brl	0	
+money	uz	brl	0.01	
+money	uz	brl	0.02	
+money	uz	brl	1	
+money	uz	brl	1.01	
+money	uz	brl	1.02	
+money	uz	brl	2	
+money	uz	brl	2.02	
+money	uz	brl	3	
+money	uz	brl	5	
+money	uz	brl	11	
+money	uz	brl	21	
+money	uz	brl	22	
+money	uz	brl	42	
+money	uz	brl	100	
+money	uz	brl	101	
+money	uz	brl	121	
+money	uz	brl	999	
+money	uz	brl	1000	
+money	uz	brl	1001	
+money	uz	brl	2000	
+money	uz	brl	2001	
+money	uz	brl	5000	
+money	uz	brl	21000	
+money	uz	brl	22000	
+money	uz	brl	41000	
+money	uz	brl	42000	
+money	uz	brl	100000	
+money	uz	brl	1000000	
+money	uz	brl	2000000	
+money	uz	brl	1000000000	
+money	uz	brl	123.45	
+money	uz	brl	-1	
+money	uz	brl	-2	
+money	uz	brl	-41.5	
+money	uz	brl	-1000	
+money	uz	brl	1.999	
+money	uz	brl	123.456	
+money	uz	brl	1.005	
+money	uz	uzs	0	nol so'm nol tiyin
+money	uz	uzs	0.01	nol so'm bir tiyin
+money	uz	uzs	0.02	nol so'm ikki tiyin
+money	uz	uzs	1	bir so'm nol tiyin
+money	uz	uzs	1.01	bir so'm bir tiyin
+money	uz	uzs	1.02	bir so'm ikki tiyin
+money	uz	uzs	2	ikki so'm nol tiyin
+money	uz	uzs	2.02	ikki so'm ikki tiyin
+money	uz	uzs	3	uch so'm nol tiyin
+money	uz	uzs	5	besh so'm nol tiyin
+money	uz	uzs	11	o'n bir so'm nol tiyin
+money	uz	uzs	21	yigirma bir so'm nol tiyin
+money	uz	uzs	22	yigirma ikki so'm nol tiyin
+money	uz	uzs	42	qirq ikki so'm nol tiyin
+money	uz	uzs	100	yuz so'm nol tiyin
+money	uz	uzs	101	yuz bir so'm nol tiyin
+money	uz	uzs	121	yuz yigirma bir so'm nol tiyin
+money	uz	uzs	999	to'qqiz yuz to'qson to'qqiz so'm nol tiyin
+money	uz	uzs	1000	ming so'm nol tiyin
+money	uz	uzs	1001	ming bir so'm nol tiyin
+money	uz	uzs	2000	ikki ming so'm nol tiyin
+money	uz	uzs	2001	ikki ming bir so'm nol tiyin
+money	uz	uzs	5000	besh ming so'm nol tiyin
+money	uz	uzs	21000	yigirma bir ming so'm nol tiyin
+money	uz	uzs	22000	yigirma ikki ming so'm nol tiyin
+money	uz	uzs	41000	qirq bir ming so'm nol tiyin
+money	uz	uzs	42000	qirq ikki ming so'm nol tiyin
+money	uz	uzs	100000	yuz ming so'm nol tiyin
+money	uz	uzs	1000000	bir million so'm nol tiyin
+money	uz	uzs	2000000	ikki million so'm nol tiyin
+money	uz	uzs	1000000000	bir milliard so'm nol tiyin
+money	uz	uzs	123.45	yuz yigirma uch so'm qirq besh tiyin
+money	uz	uzs	-1	minus bir so'm nol tiyin
+money	uz	uzs	-2	minus ikki so'm nol tiyin
+money	uz	uzs	-41.5	minus qirq bir so'm ellik tiyin
+money	uz	uzs	-1000	minus ming so'm nol tiyin
+money	uz	uzs	1.999	ikki so'm nol tiyin
+money	uz	uzs	123.456	yuz yigirma uch so'm qirq olti tiyin
+money	uz	uzs	1.005	bir so'm bir tiyin

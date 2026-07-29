@@ -11,9 +11,9 @@ Number To Text Converter
 
 Money To Text Converter
 
-**Supported Languages:** English, French, German, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese.
+**Supported Languages:** English, French, German, Russian, Spanish, Turkish, Ukrainian, Bulgarian, Amharic, Polish, Belarussian, Portuguese, Uzbek.
 
-**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL.
+**Supported Currencies:** EUR, USD, RUB, TRY, UAH, BGN, ETB, PLN, BYN, ARS, BRL, UZS.
 
 **Number Limit:** 1 trillion
 
@@ -106,6 +106,7 @@ Pull requests are welcome. Two things make them much easier to accept:
 - [Marciel032](https://github.com/Marciel032) - Portuguese Language and Currency
 - [ArkadiuszMakosa](https://github.com/ArkadiuszMakosa) - Polish Language Unit Tests
 - [Maryam1986](https://github.com/Maryam1986) - German Language and Currency
+- [Furqat-Abduvosiqov](https://github.com/Furqat-Abduvosiqov) - Uzbek Language and Currency
 
 ---
 
