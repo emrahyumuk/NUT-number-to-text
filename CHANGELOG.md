@@ -154,6 +154,11 @@ assert on that text, review the tables below before taking this release.
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
 
+- `Options.SubUnitFormat`, an enum choosing how the fractional part is written: `Words`
+  (the default, "fifty cents"), `Digits` ("50 cents"), or `Fraction` ("and 50/100"), the
+  form commonly used on cheques. `SubUnitNotConvertedToText` still works and means
+  `Digits`.
+
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
   carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.
 - `Currency.RUR` as an alias for `Currency.RUB`, mirroring how `tl` maps to `try`.

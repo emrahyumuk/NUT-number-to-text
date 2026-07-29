@@ -216,11 +216,24 @@ namespace Nut.TextConverters
       {
         var subUnitText = nums[1].PadRight(2, '0');
         var subUnitNum = Convert.ToInt64(subUnitText);
-        if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0)
+
+        // The older bool says the same thing as Digits; whichever is set wins.
+        var subUnitFormat = options.SubUnitFormat != SubUnitFormat.Words ? options.SubUnitFormat
+          : options.SubUnitNotConvertedToText ? SubUnitFormat.Digits
+          : SubUnitFormat.Words;
+
+        if (subUnitFormat == SubUnitFormat.Fraction)
+        {
+          // "and 50/100", the form used on cheques. The sub-unit is not named, and zero is
+          // written rather than dropped, so nothing can be appended to the amount later.
+          builder.Append(GetFractionSeparator(currencyModel));
+          builder.AppendFormat("{0:00}/100", subUnitNum);
+        }
+        else if (!options.SubUnitZeroNotDisplayed || subUnitNum != 0)
         {
           builder.Append(GetUnitSeparator(currencyModel));
 
-          if (options.SubUnitNotConvertedToText)
+          if (subUnitFormat == SubUnitFormat.Digits)
           {
             builder.Append(subUnitText);
           }
@@ -264,6 +277,16 @@ namespace Nut.TextConverters
     protected virtual string GetUnitSeparator(CurrencyModel currency)
     {
       return " ";
+    }
+
+    /// <summary>
+    /// What joins the amount to a fraction-form sub-unit. English cheques say "and";
+    /// languages that already join the two parts with a word reuse that word.
+    /// </summary>
+    protected virtual string GetFractionSeparator(CurrencyModel currency)
+    {
+      var separator = GetUnitSeparator(currency);
+      return separator.Trim().Length > 0 ? separator : " and ";
     }
     #endregion
   }

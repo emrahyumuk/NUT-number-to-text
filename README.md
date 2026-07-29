@@ -17,6 +17,10 @@ Money To Text Converter
 
 **Number Limit:** 1 trillion
 
+**Cheque form:** `Options.SubUnitFormat = SubUnitFormat.Fraction` writes the fractional
+part as `and 50/100` instead of `fifty cents`, which is how amounts are commonly written
+on cheques. Zero is written as `00/100` rather than dropped.
+
 **Rounding:** amounts with more decimals than the currency has are rounded to the sub-unit,
 half away from zero — the same result `decimal.ToString("C")` gives. Set
 `Options.SubUnitTruncated` to cut the extra digits instead.
@@ -67,7 +71,8 @@ dotnet add package Nut
         MainUnitFirstCharUpper = true,
         SubUnitFirstCharUpper = true,
         CurrencyFirstCharUpper = true,
-        SubUnitTruncated = true
+        SubUnitTruncated = true,
+        SubUnitFormat = Nut.SubUnitFormat.Fraction
     }
     var moneyText = number.ToText(Nut.Currency.USD, Nut.Language.English, options);
 ```

@@ -3,7 +3,17 @@
     public struct Options
     {
         public bool MainUnitNotConvertedToText { get; set; }
+        /// <summary>
+        /// Equivalent to <see cref="SubUnitFormat.Digits"/>. Kept because it predates
+        /// <see cref="SubUnitFormat"/>; setting either has the same effect.
+        /// </summary>
         public bool SubUnitNotConvertedToText { get; set; }
+
+        /// <summary>
+        /// How the fractional part is written. Defaults to <see cref="SubUnitFormat.Words"/>.
+        /// <see cref="SubUnitFormat.Fraction"/> gives the cheque form, "and 50/100".
+        /// </summary>
+        public SubUnitFormat SubUnitFormat { get; set; }
         public bool SubUnitZeroNotDisplayed { get; set; }
         public bool MainUnitFirstCharUpper { get; set; }
         public bool SubUnitFirstCharUpper { get; set; }
