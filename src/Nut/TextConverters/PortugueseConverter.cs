@@ -9,7 +9,7 @@ namespace Nut.TextConverters
         private static readonly Lazy<PortugueseConverter> Lazy = new Lazy<PortugueseConverter>(() => new PortugueseConverter());
         public static PortugueseConverter Instance => Lazy.Value;
 
-        public override string CultureName => Culture.Spanish;
+        public override string CultureName => Culture.PortugueseBR;
 
         protected override string NegativeSign => "menos";
 
@@ -191,7 +191,10 @@ namespace Nut.TextConverters
                   return new CurrencyModel
                   {
                     Currency = currency,
-                    Names = new[] { "som uzbeque", "soms uzbeques" },
+                    // Priberam keeps these apart: "som" is the Kyrgyz currency (KGS) and
+                    // "sum" the Uzbek one (UZS), so this used to name the wrong country's
+                    // money. The plural is "sumes", not "soms".
+                    Names = new[] { "sum usbeque", "sumes usbeques" },
                     Gender = GenderGroup.Masculine,
                     SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "tiyin", "tiyin" } }
                   };

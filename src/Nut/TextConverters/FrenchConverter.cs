@@ -212,7 +212,9 @@ namespace Nut.TextConverters
           return new CurrencyModel
           {
             Currency = currency,
-            Names = new[] { "réal brésilien", "réals brésiliens" },
+            // Académie française, 9th edition: réal, plural réaux. The OQLF writes
+            // "des réaux brésiliens" too; "réals" is in no dictionary.
+            Names = new[] { "réal brésilien", "réaux brésiliens" },
             Gender = GenderGroup.Masculine,
             SubUnitCurrency = new BaseCurrencyModel { Gender = GenderGroup.Masculine, Names = new[] { "centavo", "centavos" } }
           };

@@ -54,8 +54,9 @@ resolve, but the codes above are the ones `CultureInfo` hands you.
 
 Also accepted: `TL` for `TRY`, `RUR` for `RUB`.
 
-Every language covers every currency, except Amharic, which is missing `ARS`, `BRL`, `GBP`
-and `UZS`.
+Every language covers every currency, with two exceptions. Amharic is missing `ARS`, `BRL`,
+`GBP` and `UZS`. Uzbek covers only `UZS`, `USD` and `RUB` — the three its contributor
+supplied. A combination a language does not cover raises `NotSupportedException`.
 
 ```csharp
 2575.50m.ToText(Currency.EUR, Language.German);   // zweitausendfünfhundertfünfundsiebzig Euro fünfzig Cent
@@ -90,13 +91,11 @@ new Options { SubUnitFormat = SubUnitFormat.Fraction }
 ```
 
 Zero is written as `00/100` rather than dropped, so nothing can be added to the amount
-afterwards. Languages that join the two parts with a word keep it: *con 50/100* in Spanish,
-*un 50/100* in Latvian.
+afterwards.
 
 Writing the sub-unit over a hundred is an anglophone cheque convention rather than a rule
-of any language, so it is only available where there is a word to join the two parts with:
-English, Spanish, Portuguese, Bulgarian, Latvian and Amharic. Asking for it in one of the
-other eight raises `NotSupportedException` instead of borrowing the English *and*.
+of any language, so **English is the only language it is available in**. Asking for it in
+any other raises `NotSupportedException` rather than borrowing the English *and*.
 
 ## Behaviour worth knowing
 
@@ -121,7 +120,20 @@ Set `SubUnitTruncated` to cut the digits instead.
 raises `NotSupportedException` naming what was asked for. It does not return an empty
 string: a blank amount field on a document is not noticed until the document has gone out.
 
+**Ukrainian paper payment instructions** require the amount in words to start with a
+capital letter — NBU Board Resolution 29.07.2022 №163, Annex, field 4. Pass
+`MainUnitFirstCharUpper` when printing one. The same resolution says the field is left
+empty on electronic instructions.
+
+```csharp
+var options = new Options { MainUnitFirstCharUpper = true };
+105.50m.ToText(Currency.UAH, Language.Ukrainian, options);
+// Сто п'ять гривень п'ятдесят копійок
+```
+
 **Range.** Magnitudes below one trillion. Beyond that raises `ArgumentOutOfRangeException`.
+Rounding counts: an amount that crosses the limit only after being rounded to the sub-unit
+raises it too.
 
 **Thread safety.** Conversions are independent and safe to run in parallel.
 

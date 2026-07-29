@@ -131,6 +131,19 @@ assert on that text, review the tables below before taking this release.
 - **Portuguese** joins the two parts of an amount with `e` rather than `com`
   ([#27](https://github.com/emrahyumuk/NUT-number-to-text/pull/27)).
 
+- **Portuguese named the wrong country's currency for `UZS`.** Priberam keeps `som` (the
+  Kyrgyz som, KGS) and `sum` (the Uzbek sum, UZS) apart, and the library used the first for
+  the second. `soms` is not a possible Portuguese plural either. It reads
+  `sum usbeque` / `sumes usbeques` now.
+
+- **French `réals brésiliens` is `réaux brésiliens`.** Académie française gives `réal`,
+  plural `réaux`; the OQLF writes the same. `réals` is in no dictionary.
+
+- **`PortugueseConverter.CultureName` returned `es-ES`.** A copy-paste from the first
+  commit that added the converter. Casing is unaffected, both being Latin script, but the
+  culture is what the unsupported-currency message names, and that message is read now
+  that it is thrown rather than swallowed.
+
 - **Polish and Ukrainian no longer capitalise every numeral.** Their word tables were stored
   capitalised, so `105.50 PLN` read `Sto Pięć złotych Pięćdziesiąt groszy` — capitals in the
   middle of a phrase that neither language uses, and inconsistent even with itself, since
@@ -185,6 +198,11 @@ assert on that text, review the tables below before taking this release.
   their catch the way this entry recommends still crashed. Leaving the whole part as digits
   with `MainUnitNotConvertedToText` skipped the conversion, and with it the check.
 
+  It also runs again after rounding, which can carry an in-range amount over the limit:
+  `999999999999.995` used to throw on the default path and render as
+  `1000000000000 dollars` with the whole part left as digits. One input, two answers,
+  depending on the output format.
+
 - **Neuter gender.** `GenderGroup` had only `None`, `Feminine` and `Masculine`, so a
   neuter currency name fell through to the masculine numeral: `един евро`, `один песо`.
   Bulgarian marks all three (`един` / `една` / `едно`), and евро and пени are neuter;
@@ -211,11 +229,23 @@ assert on that text, review the tables below before taking this release.
 
   The scale words take that same rule, and they are masculine nouns, so the count in front
   of one agrees with the scale word rather than with the currency: `viens tūkstotis
-  sterliņu mārciņas`, not `viena`, and `divdesmit viens tūkstotis`, not `tūkstoši`.
+  sterliņu mārciņu`, not `viena`, and `divdesmit viens tūkstotis`, not `tūkstoši`.
+
+  They also govern the genitive plural of what they count: `viens tūkstotis ASV dolāru`,
+  not `dolāri`. This applies wherever the amount ends on one of them, so `simts`,
+  `divi simti`, `viens tūkstotis simts` and `viens miljons` all take it, while `desmit`
+  does not decline and governs nothing. Round amounts are the ones a document is most
+  likely to carry, so the first cut of this converter was wrong in the worst place.
 
 - **Uzbek (Latin script)** and the Uzbek som (`UZS`), from
   [#23](https://github.com/emrahyumuk/NUT-number-to-text/pull/23). The number system builds
   from twenty-two basic words and behaves like Turkish: no "bir" before *yuz* or *ming*.
+
+  Uzbek covers the three currencies #23 supplied — `UZS`, `USD` and `RUB` — and no others.
+  The rest were filled in for parity and their sub-unit names are in no Uzbek source: five
+  ended up as `tiyin`, which is the som's own sub-unit, not the Turkish lira's. #23 had the
+  rouble right, with `kopeyka`, and the parity pass wrote over it. Anything else raises
+  `NotSupportedException` until someone who reads Uzbek fills it in.
 
 - `Extensions.SupportedLanguages`, listing every language and culture string accepted.
 
@@ -225,11 +255,12 @@ assert on that text, review the tables below before taking this release.
   `Digits`; setting `SubUnitFormat` explicitly overrides it, including when what you set is
   `Words`.
 
-  `Fraction` is available in English, Spanish, Portuguese, Bulgarian, Latvian and Amharic —
-  the languages that join the two parts of an amount with a word. Writing the sub-unit over
-  a hundred is an anglophone cheque convention rather than a rule of any language, and the
-  other eight have no wording for it here, so asking for it there raises
-  `NotSupportedException`.
+  `Fraction` is **English only**. Writing the sub-unit over a hundred is an anglophone
+  cheque convention rather than a rule of any language. It first fell back to the English
+  *and* wherever a converter left the unit separator as a plain space, which reached nine of
+  the fourteen; deriving the word from the unit separator instead covered five more, but
+  having a word for "and" is not evidence that a country writes 50/100 on a cheque. Asking
+  for the form in any other language raises `NotSupportedException`.
 
 - `Options.SubUnitTruncated`, for callers who need extra decimals dropped rather than
   carried: `1.999` reads as "one dollar ninety-nine cents". Rounding remains the default.

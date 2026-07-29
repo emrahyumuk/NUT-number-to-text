@@ -100,6 +100,12 @@ namespace Nut.TextConverters
 
     protected override CurrencyModel GetCurrencyModel(string currency)
     {
+      // The three the Uzbek contributor supplied in #23, and only those. The other ten
+      // were filled in for parity, and their sub-unit names are in no Uzbek source — five
+      // came out as "tiyin", which is the som's own sub-unit and not the Turkish lira's or
+      // the hryvnia's. #23 had the rouble right, with "kopeyka", and the parity pass wrote
+      // over it. An amount naming the wrong sub-unit on an invoice is worse than one that
+      // fails, so the invented ten are gone until someone who reads Uzbek supplies them.
       switch (currency)
       {
         case Currency.UZS:
@@ -109,62 +115,6 @@ namespace Nut.TextConverters
             Names = new[] { "so'm", "so'm" },
             SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
           };
-        case Currency.GBP:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "funt sterling", "funt sterling" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "pens", "pens" } }
-          };
-        case Currency.ARS:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "Argentina pesosi", "Argentina pesosi" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "sentavo", "sentavo" } }
-          };
-        case Currency.BGN:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "Bolgariya levi", "Bolgariya levi" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "stotinka", "stotinka" } }
-          };
-        case Currency.BRL:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "Braziliya reali", "Braziliya reali" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "sentavo", "sentavo" } }
-          };
-        case Currency.BYN:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "Belarus rubli", "Belarus rubli" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
-          };
-        case Currency.ETB:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "Efiopiya biri", "Efiopiya biri" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
-          };
-        case Currency.PLN:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "Polsha zlotiysi", "Polsha zlotiysi" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "grosh", "grosh" } }
-          };
-        case Currency.UAH:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "Ukraina grivnasi", "Ukraina grivnasi" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
-          };
         case Currency.USD:
           return new CurrencyModel
           {
@@ -172,28 +122,15 @@ namespace Nut.TextConverters
             Names = new[] { "dollar", "dollar" },
             SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "sent", "sent" } }
           };
-        case Currency.EUR:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "yevro", "yevro" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "sent", "sent" } }
-          };
         case Currency.RUB:
           return new CurrencyModel
           {
             Currency = currency,
             Names = new[] { "rubl", "rubl" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
-          };
-        case Currency.TRY:
-          return new CurrencyModel
-          {
-            Currency = currency,
-            Names = new[] { "turk lirasi", "turk lirasi" },
-            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "tiyin", "tiyin" } }
+            SubUnitCurrency = new BaseCurrencyModel { Names = new[] { "kopeyka", "kopeyka" } }
           };
       }
+
       return null;
     }
   }

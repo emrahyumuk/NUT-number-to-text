@@ -54,6 +54,37 @@ namespace Nut.Tests
                 Throws.InstanceOf<ArgumentOutOfRangeException>());
         }
 
+        /// <summary>
+        /// Rounding can carry an in-range amount over the limit, and the answer must not
+        /// depend on which output format is asked for. Checking only on the way in let
+        /// 999999999999.995 render as "1000000000000 dollars" with the whole part left as
+        /// digits, while the same input threw on the default path.
+        /// </summary>
+        [Test]
+        public void RoundingCannotCarryPastTheLimit()
+        {
+            const decimal justUnder = 999999999999.995m;
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(() => justUnder.ToText(Currency.USD, Language.English),
+                    Throws.InstanceOf<ArgumentOutOfRangeException>());
+                Assert.That(() => justUnder.ToText(Currency.USD, Language.English,
+                        new Options { MainUnitNotConvertedToText = true }),
+                    Throws.InstanceOf<ArgumentOutOfRangeException>());
+                Assert.That(() => justUnder.ToText(Currency.USD, Language.English,
+                        new Options { SubUnitFormat = SubUnitFormat.Fraction }),
+                    Throws.InstanceOf<ArgumentOutOfRangeException>());
+
+                // Truncating drops the digits instead of carrying them, so it stays in range.
+                Assert.That(() => justUnder.ToText(Currency.USD, Language.English,
+                        new Options { SubUnitTruncated = true }),
+                    Throws.Nothing);
+                Assert.That(() => 999999999999.994m.ToText(Currency.USD, Language.English),
+                    Throws.Nothing);
+            });
+        }
+
         /// <summary>The message should say what the range is, not just that something failed.</summary>
         [Test]
         public void TheMessageStatesTheRange()
